@@ -1,3 +1,11 @@
+/* Sidebar lock control */
+.sidebar-lock-btn{width:auto;height:32px;min-width:74px;padding:0 8px;display:inline-flex;align-items:center;justify-content:center;gap:5px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:9px;color:rgba(255,255,255,.72);font:inherit;font-size:.7rem;cursor:pointer;transition:all .2s ease}
+.sidebar-lock-btn:hover{background:rgba(108,92,231,.2);border-color:rgba(162,155,254,.7);color:#fff;transform:translateY(-1px)}
+.sidebar-lock-icon{font-size:1rem;line-height:1;filter:grayscale(.15)}
+.sidebar-lock-state{font-size:.68rem;font-weight:600;line-height:1}
+.sidebar-lock-btn.is-locked{background:linear-gradient(135deg,rgba(108,92,231,.38),rgba(162,155,254,.2));border-color:rgba(162,155,254,.85);color:#fff;box-shadow:0 0 0 2px rgba(108,92,231,.12),0 4px 12px rgba(108,92,231,.18)}
+.sidebar-lock-btn.is-locked .sidebar-lock-icon{filter:none}
+
 .reading-page-marker strong{color:var(--accent);font-size:.9rem}
 .reading-page-summary{padding:14px;background:var(--bg);border-radius:12px;border:1px solid var(--border);margin-bottom:12px}
 .reading-page-summary h4{font-size:.85rem;font-weight:700;color:var(--accent);margin-bottom:8px}

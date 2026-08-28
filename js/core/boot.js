@@ -60,7 +60,7 @@ function syncSidebarUI(){const sb=document.getElementById('sidebar');const mn=do
 if(S.settings.sidebarLocked){document.getElementById('sidebar').classList.add('open')}else{document.getElementById('sidebar').classList.remove('open')}syncSidebarUI();
 // Lock button
 const lockBtn=document.getElementById('sidebarLockBtn');
-function updateLockBtn(){lockBtn.textContent=S.settings.sidebarLocked?'🔒':'🔓';lockBtn.title=S.settings.sidebarLocked?'قفل سایدبار (فعال)':'قفل سایدبار (غیرفعال)'}
+function updateLockBtn(){if(!lockBtn)return;const locked=!!S.settings.sidebarLocked;lockBtn.classList.toggle('is-locked',locked);lockBtn.setAttribute('aria-pressed',String(locked));lockBtn.title=locked?'سایدبار قفل است — برای باز کردن کلیک کنید':'سایدبار باز است — برای قفل کردن کلیک کنید';const icon=lockBtn.querySelector('.sidebar-lock-icon');const label=lockBtn.querySelector('.sidebar-lock-state');if(icon)icon.textContent=locked?'🔒':'🔓';if(label)label.textContent=locked?'قفل است':'باز است';}
 updateLockBtn();
 lockBtn.onclick=()=>{S.settings.sidebarLocked=!S.settings.sidebarLocked;save();updateLockBtn();if(S.settings.sidebarLocked){document.getElementById('sidebar').classList.add('open')}else{document.getElementById('sidebar').classList.remove('open')}syncSidebarUI()};
 // Restore PDF state if available - show on PDF reader tab
