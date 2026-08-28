@@ -85,25 +85,25 @@ test.describe('VocabForge workflow', () => {
 
     // --- Enrich (first run hits the network) ---
     await page.click('#vfEnrichBtn');
-    await expect(page.locator('#vfStatus')).toContainText('غنی‌سازی کامل شد');
+    await expect(page.locator('#vfEnrichStatus')).toContainText('غنی‌سازی کامل شد');
     // غنی‌سازی ذخیره شد (اسلاید ۲ لیست ساده دارد؛ اسلاید ۴ تعریف‌ها را نشان می‌دهد)
     await expect(page.locator('#vfSlide2 [data-vf-select]').first().locator('..')).toContainText('غنی‌شده');
     expect(apiCalls.dict).toBe(TEST_WORDS.length);
 
     // --- Enrich again: served from IndexedDB cache, no new network calls ---
     await page.click('#vfEnrichBtn');
-    await expect(page.locator('#vfStatus')).toContainText('غنی‌سازی کامل شد');
+    await expect(page.locator('#vfEnrichStatus')).toContainText('غنی‌سازی کامل شد');
     expect(apiCalls.dict).toBe(TEST_WORDS.length);
 
     // --- Translate (first run hits the network) ---
     await page.click('#vfTranslateBtn');
-    await expect(page.locator('#vfStatus')).toContainText('ترجمه کامل شد');
+    await expect(page.locator('#vfTransStatus')).toContainText('ترجمه کامل شد');
     await expect(page.locator('#vfTranslateBtn')).toBeEnabled();
     expect(apiCalls.trans).toBe(TEST_WORDS.length);
 
     // --- Translate again: served from cache ---
     await page.click('#vfTranslateBtn');
-    await expect(page.locator('#vfStatus')).toContainText('ترجمه کامل شد');
+    await expect(page.locator('#vfTransStatus')).toContainText('ترجمه کامل شد');
     await expect(page.locator('#vfTranslateBtn')).toBeEnabled();
     expect(apiCalls.trans).toBe(TEST_WORDS.length);
 
@@ -158,5 +158,153 @@ test.describe('VocabForge workflow', () => {
     expect(kept).toContain('able');
     expect(kept).toContain('category');
     expect(kept).not.toContain('ability');
+  });
+
+  test('enrichment speed regression guard — 9 words under 10s with mocked 80ms latency', async ({ page }) => {
+    const SPEED_WORDS = ['alpha','bravo','charlie','delta','echo','foxtrot','golf','hotel','india'];
+    const start = Date.now();
+
+    await page.route('**/api.dictionaryapi.dev/**', async (route) => {
+      await new Promise(r => setTimeout(r, 80)); // simulate network latency
+      const url = new URL(route.request().url());
+      const word = decodeURIComponent(url.pathname.split('/').pop() || 'word');
+      await route.fulfill({ contentType: 'application/json', body: JSON.stringify(dictionaryBody(word)) });
+    });
+    await page.route('**/en.wiktionary.org/**', async (route) => {
+      await new Promise(r => setTimeout(r, 50));
+      await route.fulfill({ status: 404, contentType: 'application/json', body: '{}' });
+    });
+    await page.route('**/api.datamuse.com/**', async (route) => {
+      await new Promise(r => setTimeout(r, 30));
+      await route.fulfill({ contentType: 'application/json', body: '[]' });
+    });
+    await page.route('**/api.mymemory.translated.net/**', async (route) => {
+      await new Promise(r => setTimeout(r, 50));
+      const url = new URL(route.request().url());
+      const word = url.searchParams.get('q') || 'word';
+      await route.fulfill({ contentType: 'application/json', body: JSON.stringify({ responseData: { translatedText: 'ترجمه ' + word } }) });
+    });
+    await page.route('**/translate.googleapis.com/**', (route) =>
+      route.fulfill({ status: 404, contentType: 'application/json', body: '[]' })
+    );
+    await page.route('**/fa.wiktionary.org/**', (route) =>
+      route.fulfill({ status: 404, contentType: 'application/json', body: '{}' })
+    );
+    await page.route('**/fonts.googleapis.com/**', (route) => route.abort());
+    await page.route('**/fonts.gstatic.com/**', (route) => route.abort());
+
+    await page.goto('/');
+    await page.click('#hamBtn');
+    await page.click('[data-tab="vocabforge"]');
+    await expect(page.locator('#vfText')).toBeVisible();
+
+    await page.fill('#vfText', SPEED_WORDS.join(' '));
+    await page.click('#vfAddText');
+    await expect(page.locator('#vfImportStatus')).toHaveText('9 کلمه اضافه شد');
+
+    await page.click('#vfSlide2 #vfSelectAll');
+    await page.click('#vfNextBtn2');
+    await expect(page.locator('.import-step-dot.active')).toHaveText('۳');
+
+    await page.click('#vfEnrichBtn');
+    await expect(page.locator('#vfEnrichStatus')).toContainText('غنی‌سازی کامل شد');
+
+    const elapsed = Date.now() - start;
+    // 9 words × ~160ms (dict+etym parallel) / 6 workers ≈ ~240ms total;
+    // 10s threshold is extremely generous for regression detection
+    expect(elapsed).toBeLessThan(10000);
+    console.log(`[speed] enriched ${SPEED_WORDS.length} words in ${elapsed}ms`);
+
+    // Verify all enriched
+    const enriched = await page.evaluate(() => vfCards().filter(c => c.definitions && c.definitions.length).length);
+    expect(enriched).toBe(9);
+  });
+
+  test('retry button re-runs only incomplete words', async ({ page }) => {
+    let dictCallCount = 0;
+
+    await page.route('**/api.dictionaryapi.dev/**', async (route) => {
+      dictCallCount++;
+      const url = new URL(route.request().url());
+      const word = decodeURIComponent(url.pathname.split('/').pop() || 'word');
+      // 'unknownword' always returns empty definitions
+      if (word === 'unknownword') {
+        await route.fulfill({ status: 404, contentType: 'application/json', body: '[]' });
+      } else {
+        await route.fulfill({ contentType: 'application/json', body: JSON.stringify(dictionaryBody(word)) });
+      }
+    });
+    await page.route('**/en.wiktionary.org/**', (route) =>
+      route.fulfill({ status: 404, contentType: 'application/json', body: '{}' })
+    );
+    await page.route('**/api.datamuse.com/**', (route) =>
+      route.fulfill({ contentType: 'application/json', body: '[]' })
+    );
+    await page.route('**/api.mymemory.translated.net/**', async (route) => {
+      const url = new URL(route.request().url());
+      const word = url.searchParams.get('q') || 'word';
+      if (word === 'unknownword') {
+        await route.fulfill({ status: 404, contentType: 'application/json', body: '{}' });
+      } else {
+        await route.fulfill({ contentType: 'application/json', body: JSON.stringify({ responseData: { translatedText: 'ترجمه ' + word } }) });
+      }
+    });
+    await page.route('**/fa.wiktionary.org/**', (route) =>
+      route.fulfill({ status: 404, contentType: 'application/json', body: '{}' })
+    );
+    await page.route('**/fonts.googleapis.com/**', (route) => route.abort());
+    await page.route('**/fonts.gstatic.com/**', (route) => route.abort());
+
+    await page.goto('/');
+    await page.click('#hamBtn');
+    await page.click('[data-tab="vocabforge"]');
+    await expect(page.locator('#vfText')).toBeVisible();
+
+    await page.fill('#vfText', 'happy unknownword clear');
+    await page.click('#vfAddText');
+    await expect(page.locator('#vfImportStatus')).toHaveText('3 کلمه اضافه شد');
+
+    await page.click('#vfSlide2 #vfSelectAll');
+    await page.click('#vfNextBtn2');
+    await expect(page.locator('.import-step-dot.active')).toHaveText('۳');
+
+    // First enrich: 'unknownword' fails, 'happy' and 'clear' succeed
+    dictCallCount = 0;
+    await page.click('#vfEnrichBtn');
+    await expect(page.locator('#vfEnrichStatus')).toContainText('غنی‌سازی کامل شد');
+
+    // Verify incomplete section shows the failed word
+    const failedSection = page.locator('#vfFailedSection');
+    await expect(failedSection).toBeVisible();
+    await expect(failedSection).toContainText('unknownword');
+    await expect(page.locator('#vfRetryFailedBtn')).toBeVisible();
+
+    // Now fix the mock so unknownword succeeds
+    await page.route('**/api.dictionaryapi.dev/**', async (route) => {
+      dictCallCount++;
+      const url = new URL(route.request().url());
+      const word = decodeURIComponent(url.pathname.split('/').pop() || 'word');
+      await route.fulfill({ contentType: 'application/json', body: JSON.stringify(dictionaryBody(word)) });
+    });
+    await page.route('**/api.mymemory.translated.net/**', async (route) => {
+      const url = new URL(route.request().url());
+      const word = url.searchParams.get('q') || 'word';
+      await route.fulfill({ contentType: 'application/json', body: JSON.stringify({ responseData: { translatedText: 'ترجمه ' + word } }) });
+    });
+
+    // Click retry — should only process incomplete words, not all 3
+    dictCallCount = 0;
+    await page.click('#vfRetryFailedBtn');
+    await expect(page.locator('#vfEnrichStatus')).toContainText('غنی‌سازی کامل شد');
+
+    // Only the failed word should have been re-fetched
+    expect(dictCallCount).toBe(1);
+
+    // Verify all words are now complete
+    const allComplete = await page.evaluate(() => vfCards().every(c => c.definitions && c.definitions.length && c.translation));
+    expect(allComplete).toBe(true);
+
+    // Incomplete section should show success message
+    await expect(page.locator('#vfFailedSection')).toContainText('همه کلمات کامل هستند');
   });
 });

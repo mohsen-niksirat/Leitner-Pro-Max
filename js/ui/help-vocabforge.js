@@ -279,7 +279,7 @@ function faWikitextToDefs(wt){
 }
 async function fetchPersianWiktionaryDefs(word){
   try{
-    const r=await fetch('https://fa.wiktionary.org/w/api.php?action=parse&page='+encodeURIComponent(word)+'&prop=wikitext&format=json&origin=*');
+    const r=await timedFetch('https://fa.wiktionary.org/w/api.php?action=parse&page='+encodeURIComponent(word)+'&prop=wikitext&format=json&origin=*');
     if(!r.ok)return[];
     const d=await r.json();
     const wt=d&&d.parse&&d.parse.wikitext?d.parse.wikitext['*']:'';
@@ -307,13 +307,13 @@ async function vfRun(operation){
   const status=document.getElementById(isTrans?'vfTransStatus':'vfEnrichStatus');
   const button=document.getElementById(isTrans?'vfTranslateBtn':'vfEnrichBtn');if(button)button.disabled=true;
   if(fill)fill.style.width='0%';  const total=selected.length;let done=0;
-  const concurrency=isTrans?6:4;
+  const concurrency=isTrans?6:6;
   let cursor=0;
   const processCard=async card=>{
     const key=card.word.toLowerCase();
     if(isTrans){const t=await vfCached('trans:'+key,()=>fetchTranslation(card.word));if(t)card.translation=t}
     else{
-      let result=await vfCached('dict:'+key,()=>fetchDictionary(card.word));if(!result){const stems=vfStem(card.word);for(let s=1;s<stems.length;s++){result=await vfCached('dict:'+stems[s],()=>fetchDictionary(stems[s]));if(result){card.baseForm=card.baseForm||stems[s];break}}}
+      let result=await vfCached('dict:'+key,()=>fetchDictionary(card.word));if(!result){const stems=vfStem(card.word).slice(1);for(let i=0;i<stems.length&&!result;i+=4){const chunk=stems.slice(i,i+4);const hits=await Promise.all(chunk.map(s=>vfCached('dict:'+s,()=>fetchDictionary(s))));const idx=hits.findIndex(h=>h&&h.meanings&&h.meanings.length);if(idx>=0){result=hits[idx];card.baseForm=card.baseForm||chunk[idx]}}}
       if(result&&(!result.meanings||!result.meanings.length))result=null;
       if(!result){const faDefs=await vfCached('fadef2:'+key,()=>fetchPersianWiktionaryDefs(card.word));if(faDefs&&faDefs.length){card.definitions=faDefs;card.defSource='fa-wiktionary';card.coreMeaning=card.coreMeaning||faDefs[0]}}
       if(!card.definitions||!card.definitions.length){const autot=await vfCached('trans:'+key,()=>fetchTranslation(card.word));if(autot){card.definitions=[autot];card.defSource='fallback-trans';card.coreMeaning=card.coreMeaning||autot;if(!card.translation)card.translation=autot}}
@@ -424,6 +424,24 @@ function slideSelectHTML(){
   const selected=vfSelectionCount();const complete=vfCards().filter(card=>card.translation&&card.definitions.length).length;
   return '<div class="card" style="margin-bottom:14px"><div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap"><h3 style="margin:0">۲. انتخاب کلمات</h3><span data-vf-selcount style="color:var(--text2);font-size:.8rem">'+selected+' انتخاب شده</span><span style="margin-right:auto;color:var(--text2);font-size:.8rem">'+complete+' غنی‌شده</span></div><div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0"><button type="button" class="btn btn-ghost btn-sm" id="vfSelectAll">انتخاب همه</button><button type="button" class="btn btn-ghost btn-sm" id="vfDeselect">لغو انتخاب</button><button type="button" class="btn btn-danger btn-sm" id="vfRemove">حذف انتخاب‌شده‌ها</button></div><div id="vfList">'+vfListHtml({rich:false,actions:false})+'</div><div style="margin-top:12px"><button type="button" class="btn btn-primary" id="vfNextBtn2">مرحله بعد ←</button></div></div>';
 }
+function vfIncompleteCards(){return vfCards().filter(c=>!(c.definitions&&c.definitions.length)||!c.translation)}
+function vfFailedListHtml(){
+  const incomplete=vfIncompleteCards();
+  if(!incomplete.length)return '<div id="vfFailedSection" style="margin-top:10px;padding:8px;border-radius:8px;background:rgba(var(--success-rgb,0,180,80),0.1);border:1px solid var(--success)"><span style="font-size:.8rem;color:var(--success)">✅ همه کلمات غنی‌شده و ترجمه شده‌اند</span></div>';
+  return '<div id="vfFailedSection" style="margin-top:12px;border-top:1px dashed var(--border);padding-top:10px"><div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px"><span style="font-size:.8rem;font-weight:600;color:var(--warning)">⚠️ '+incomplete.length+' کلمه ناقص</span><button type="button" class="btn btn-primary btn-sm" id="vfRetryFailedBtn" style="font-size:.72rem">🔄 تلاش مجدد فقط همین‌ها</button></div><div style="display:grid;gap:4px;max-height:22vh;overflow-y:auto" id="vfFailedList">'+incomplete.map(function(c){const noDef=!(c.definitions&&c.definitions.length);const noTr=!c.translation;return '<div style="display:flex;align-items:center;gap:6px;padding:4px 8px;border-radius:6px;background:var(--bg2)"><strong style="min-width:80px;font-size:.8rem">'+esc(c.word)+'</strong>'+(noDef?'<span class="badge" style="font-size:.6rem;background:rgba(var(--warning-rgb,255,160,0),0.15);color:var(--warning)">بدون تعریف</span>':'')+(noTr?'<span class="badge" style="font-size:.6rem;background:rgba(var(--warning-rgb,255,160,0),0.15);color:var(--warning)">بدون ترجمه</span>':'')+'</div>'}).join('')+'</div></div>';
+}
+async function vfRetryIncomplete(){
+  const incomplete=vfIncompleteCards();
+  if(!incomplete.length){toast('همه کلمات کامل هستند','info');return}
+  vfSelectedIds=new Set(incomplete.map(function(c){return c.id}));
+  vfSetSlide(3);
+  renderVocabforge(document.getElementById('content'));
+  toast('غنی‌سازی و ترجمه '+incomplete.length+' کلمه ناقص...','info');
+  await vfRun('enrich');
+  const stillNoTrans=vfCards().filter(function(c){return vfSelectedIds.has(c.id)&&!c.translation});
+  if(stillNoTrans.length){vfSelectedIds=new Set(stillNoTrans.map(function(c){return c.id}));await vfRun('translate')}
+  vfSelectedIds.clear();
+}
 function slideEnrichHTML(){
   const enriched=vfCards().filter(card=>card.definitions.length).length;
   const translated=vfCards().filter(card=>card.translation).length;
@@ -431,6 +449,7 @@ function slideEnrichHTML(){
   return '<div class="card" style="margin-bottom:14px"><h3 style="margin-bottom:6px">۳. غنی‌سازی و ترجمه</h3><p style="font-size:.78rem;color:var(--text2);margin-bottom:10px">هر عملیات در سطر خودش با پیشرفت زنده؛ نتایج کش می‌شوند تا دوباره پردازش نشوند.</p>'+
   '<div class="vf-op-row"><button type="button" class="btn btn-primary" id="vfEnrichBtn">🔍 غنی‌سازی</button><span style="font-size:.72rem;color:var(--text2);min-width:80px">'+enriched+' / '+total+'</span><div class="vf-prog-wrap"><div class="vf-prog-fill" id="vfEnrichFill" style="width:0"></div></div><span class="vf-op-label" id="vfEnrichLabel">0/0</span><span class="vf-op-status" id="vfEnrichStatus" aria-live="polite">آماده</span></div>'+
   '<div class="vf-op-row"><button type="button" class="btn btn-primary" id="vfTranslateBtn">🌐 ترجمه</button><span style="font-size:.72rem;color:var(--text2);min-width:80px">'+translated+' / '+total+'</span><div class="vf-prog-wrap"><div class="vf-prog-fill" id="vfTransFill" style="width:0"></div></div><span class="vf-op-label" id="vfTransLabel">0/0</span><span class="vf-op-status" id="vfTransStatus" aria-live="polite">آماده</span></div>'+
+  vfFailedListHtml()+
   '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button type="button" class="btn btn-ghost" id="vfClearCache">🗑 پاک کردن کش</button><button type="button" class="btn btn-primary" id="vfNextBtn3">مرحله بعد ←</button></div></div>';
 }
 function slideOutputHTML(){
@@ -531,6 +550,7 @@ function bindVf(n){
   if(n===3){
     const en=document.getElementById('vfEnrichBtn');if(en)en.onclick=()=>vfRun('enrich');
     const tr=document.getElementById('vfTranslateBtn');if(tr)tr.onclick=()=>vfRun('translate');
+    const rf=document.getElementById('vfRetryFailedBtn');if(rf)rf.onclick=vfRetryIncomplete;
     const cc=document.getElementById('vfClearCache');if(cc)cc.onclick=async()=>{const count=await vfClearCache();toast(count?count+' مدخل کش پاک شد':'کش خالی بود','info')};
     const next=document.getElementById('vfNextBtn3');if(next)next.onclick=()=>{vfSetSlide(4);render()};
   }

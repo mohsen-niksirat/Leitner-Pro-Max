@@ -4,12 +4,19 @@
 const DICT_API='https://api.dictionaryapi.dev/api/v2/entries/en';
 const MYMEMORY_API='https://api.mymemory.translated.net/get';
 const RETRY_MAX=3;
+const FETCH_TIMEOUT_MS=12000; // درخواست‌های معلق نباید جای workerها را برای دقیقه‌ها بگیرند
 function retryDelay(attempt,retryAfter){const parsed=Number(retryAfter);return Math.min(8000,Number.isFinite(parsed)&&parsed>0?parsed*1000:400*Math.pow(2,attempt)+Math.round(Math.random()*200))}
+function timedFetch(url,options,timeoutMs){
+  const controller=new AbortController();
+  const timer=setTimeout(()=>controller.abort(),timeoutMs||FETCH_TIMEOUT_MS);
+  const opts=Object.assign({},options,{signal:controller.signal});
+  return fetch(url,opts).finally(()=>clearTimeout(timer));
+}
 async function fetchWithRetry(url,options){
   let lastError=null;
   for(let attempt=0;attempt<=RETRY_MAX;attempt++){
     try{
-      const response=await fetch(url,options);
+      const response=await timedFetch(url,options);
       if(response.ok)return response;
       const retryable=response.status===408||response.status===425||response.status===429||response.status>=500;
       if(!retryable||attempt===RETRY_MAX)return response;
@@ -155,13 +162,26 @@ async function fetchTranslation(word,fromLang,toLang){
   return appCacheLookup("trans",word,function(){return fetchTranslationRaw(word,fromLang,toLang)},fromLang||'en',toLang||'fa');
 }
 async function fetchTranslationRaw(word,fromLang,toLang){
+  // 1. MyMemory (primary)
   try{
     const langpair=(fromLang||S.settings.sourceLang||'en')+'|'+(toLang||S.settings.targetLang||'fa');
     const r=await fetchWithRetry(MYMEMORY_API+'?q='+encodeURIComponent(word)+'&langpair='+langpair);
+    if(r.ok){
+      const d=await r.json();
+      if(d.responseData&&d.responseData.translatedText){
+        let t=d.responseData.translatedText;
+        if(t.toUpperCase()!==word.toUpperCase())return decodeHtmlEntities(t)}
+    }
+  }catch(e){}
+  // 2. Google gtx fallback (free, CORS-enabled, no hard rate-limit)
+  try{
+    const tgt=toLang||S.settings.targetLang||'fa';
+    const src=fromLang||S.settings.sourceLang||'en';
+    const r=await timedFetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl='+src+'&tl='+tgt+'&dt=t&q='+encodeURIComponent(word));
     if(!r.ok)return null;
     const d=await r.json();
-    if(d.responseData&&d.responseData.translatedText){
-      let t=d.responseData.translatedText;
+    if(Array.isArray(d)&&d[0]&&d[0][0]&&d[0][0][0]){
+      let t=d[0][0][0];
       if(t.toUpperCase()===word.toUpperCase())return null;
       return decodeHtmlEntities(t)}
     return null
@@ -175,12 +195,12 @@ const fetchPersianTranslation=(w)=>fetchTranslation(w);
 // ═══════════════════════════════════════════
 async function fetchEtymology(word){
   try{
-    const r=await fetch('https://en.wiktionary.org/api/rest_v1/page/etymology/'+encodeURIComponent(word));
+    const r=await timedFetch('https://en.wiktionary.org/api/rest_v1/page/etymology/'+encodeURIComponent(word));
     if(!r.ok)return null;
     const data=await r.json();
     if(data&&data.extract)return data.extract;
     // Fallback: try the definition endpoint
-    const r2=await fetch('https://en.wiktionary.org/api/rest_v1/definition/'+encodeURIComponent(word));
+    const r2=await timedFetch('https://en.wiktionary.org/api/rest_v1/definition/'+encodeURIComponent(word));
     if(!r2.ok)return null;
     const data2=await r2.json();
     if(data2&&data2.en&&data2.en[0]&&data2.en[0].etymology)return data2.en[0].etymology;
@@ -287,16 +307,17 @@ function getFrequencyRank(word){
 // ═══════════════════════════════════════════
 // ENHANCED DICTIONARY POPUP (with etymology + frequency)
 // ═══════════════════════════════════════════
-// Enhance fetchDictionary to also return etymology and morphological data
+// Enhance fetchDictionary to also return etymology and morphological data.
+// Etymology runs in PARALLEL with the dictionary request — awaiting it serially
+// doubled the latency of every lookup (dict + slow Wiktionary call).
 const _origFetchDictionary=fetchDictionary;
 fetchDictionary=async function(word){
-  const result=await _origFetchDictionary(word);
+  const [result,etym]=await Promise.all([
+    _origFetchDictionary(word),
+    fetchEtymology(word).catch(()=>null)
+  ]);
   if(!result)return result;
-  // Add etymology (parallel, non-blocking)
-  try{
-    const etym=await fetchEtymology(word);
-    if(etym)result.etymology=etym;
-  }catch(e){}
+  if(etym)result.etymology=etym;
   // Add morphological family
   result.morphFamily=getMorphologicalFamily(word);
   // Add frequency rank
