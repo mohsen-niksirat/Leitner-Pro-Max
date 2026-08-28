@@ -127,4 +127,4 @@ tr:hover td{background:var(--card-hover)}
 .vf-op-row .btn{min-width:150px}
 .vf-prog-wrap{flex:1;min-width:120px;height:10px;background:var(--border);border-radius:6px;overflow:hidden;position:relative}
 .vf-prog-fill{height:100%;width:0;background:linear-gradient(90deg,var(--accent),#7c6cf0);border-radius:6px;transition:width .35s ease}
-.vf-op-label{font-size:.76rem;color:var(--text2);min-width:44px;text-align:left;direction:ltr;font-variant-numeric:tabular-nums}
+.vf-op-label{font-size:.76rem;color:var(--text2);min-width:44px;text-align:left;direction:ltr;font-variant-numeric:tabular-nums}.vf-op-status{flex-basis:100%;display:block;min-height:20px;color:var(--text2);font-size:.76rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.vf-op-status:empty{display:none}@media(max-width:640px){.vf-op-row{gap:7px}.vf-op-row .btn{min-width:112px}.vf-prog-wrap{min-width:90px}.vf-op-status{font-size:.72rem}}

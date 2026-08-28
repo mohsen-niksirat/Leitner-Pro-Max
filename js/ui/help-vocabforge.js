@@ -304,7 +304,7 @@ async function vfRun(operation){
   const isTrans=operation==='translate';
   const fill=document.getElementById(isTrans?'vfTransFill':'vfEnrichFill');
   const label=document.getElementById(isTrans?'vfTransLabel':'vfEnrichLabel');
-  const status=document.getElementById('vfStatus');
+  const status=document.getElementById(isTrans?'vfTransStatus':'vfEnrichStatus');
   const button=document.getElementById(isTrans?'vfTranslateBtn':'vfEnrichBtn');if(button)button.disabled=true;
   if(fill)fill.style.width='0%';  const total=selected.length;let done=0;
   const concurrency=isTrans?6:4;
@@ -333,7 +333,7 @@ async function vfRun(operation){
       }catch(e){}
     }
   };
-  const worker=async()=>{while(true){const index=cursor++;if(index>=total)return;const card=selected[index];if(status)status.textContent=(isTrans?'در حال ترجمه: ':'در حال غنی‌سازی: ')+card.word;try{await processCard(card)}catch(error){card._vfError='خطای موقت؛ دوباره تلاش کنید';}done++;const pct=Math.round(done/total*100);if(fill)fill.style.width=pct+'%';if(label)label.textContent=done+'/'+total;}};
+  const worker=async()=>{while(true){const index=cursor++;if(index>=total)return;const card=selected[index];  if(status)status.textContent=(isTrans?'در حال ترجمه: ':'در حال غنی‌سازی: ')+card.word;try{await processCard(card)}catch(error){card._vfError='خطای موقت؛ دوباره تلاش کنید';}done++;const pct=Math.round(done/total*100);if(fill)fill.style.width=pct+'%';if(label)label.textContent=done+'/'+total;}};
   await Promise.all(Array.from({length:Math.min(concurrency,total)},worker()));
   vfSaveCards(vfCards());
   if(button)button.disabled=false;
@@ -341,7 +341,7 @@ async function vfRun(operation){
   vfSetSlide(wasSlide);
   renderVocabforge(document.getElementById('content'));
   const missing=isTrans?selected.filter(c=>!c.translation).length:selected.filter(c=>!c.definitions||!c.definitions.length).length;
-  const doneStatus=document.getElementById('vfStatus');
+  const doneStatus=document.getElementById(isTrans?'vfTransStatus':'vfEnrichStatus');
   if(doneStatus)doneStatus.textContent='✅ '+(isTrans?'ترجمه':'غنی‌سازی')+' کامل شد ('+(done-missing)+'/'+done+' کلمه)'+(missing?(' — '+missing+' کلمه ناموفق؛ شاید در دیکشنری نباشند. دوباره تلاش کنید'):'');
   selected.forEach(card=>{if(card._vfError)delete card._vfError});
 }
@@ -429,9 +429,9 @@ function slideEnrichHTML(){
   const translated=vfCards().filter(card=>card.translation).length;
   const total=vfCards().length;
   return '<div class="card" style="margin-bottom:14px"><h3 style="margin-bottom:6px">۳. غنی‌سازی و ترجمه</h3><p style="font-size:.78rem;color:var(--text2);margin-bottom:10px">هر عملیات در سطر خودش با پیشرفت زنده؛ نتایج کش می‌شوند تا دوباره پردازش نشوند.</p>'+
-  '<div class="vf-op-row"><button type="button" class="btn btn-primary" id="vfEnrichBtn">🔍 غنی‌سازی</button><span style="font-size:.72rem;color:var(--text2);min-width:80px">'+enriched+' / '+total+'</span><div class="vf-prog-wrap"><div class="vf-prog-fill" id="vfEnrichFill" style="width:0"></div></div><span class="vf-op-label" id="vfEnrichLabel">0/0</span></div>'+
-  '<div class="vf-op-row"><button type="button" class="btn btn-primary" id="vfTranslateBtn">🌐 ترجمه</button><span style="font-size:.72rem;color:var(--text2);min-width:80px">'+translated+' / '+total+'</span><div class="vf-prog-wrap"><div class="vf-prog-fill" id="vfTransFill" style="width:0"></div></div><span class="vf-op-label" id="vfTransLabel">0/0</span></div>'+
-  '<div id="vfStatus" style="margin-top:6px;color:var(--text2);font-size:.78rem"></div><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button type="button" class="btn btn-ghost" id="vfClearCache">🗑 پاک کردن کش</button><button type="button" class="btn btn-primary" id="vfNextBtn3">مرحله بعد ←</button></div></div>';
+  '<div class="vf-op-row"><button type="button" class="btn btn-primary" id="vfEnrichBtn">🔍 غنی‌سازی</button><span style="font-size:.72rem;color:var(--text2);min-width:80px">'+enriched+' / '+total+'</span><div class="vf-prog-wrap"><div class="vf-prog-fill" id="vfEnrichFill" style="width:0"></div></div><span class="vf-op-label" id="vfEnrichLabel">0/0</span><span class="vf-op-status" id="vfEnrichStatus" aria-live="polite">آماده</span></div>'+
+  '<div class="vf-op-row"><button type="button" class="btn btn-primary" id="vfTranslateBtn">🌐 ترجمه</button><span style="font-size:.72rem;color:var(--text2);min-width:80px">'+translated+' / '+total+'</span><div class="vf-prog-wrap"><div class="vf-prog-fill" id="vfTransFill" style="width:0"></div></div><span class="vf-op-label" id="vfTransLabel">0/0</span><span class="vf-op-status" id="vfTransStatus" aria-live="polite">آماده</span></div>'+
+  '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button type="button" class="btn btn-ghost" id="vfClearCache">🗑 پاک کردن کش</button><button type="button" class="btn btn-primary" id="vfNextBtn3">مرحله بعد ←</button></div></div>';
 }
 function slideOutputHTML(){
   const all=vfCards();const total=all.length;const ready=all.filter(card=>card.translation&&card.definitions.length).length;
