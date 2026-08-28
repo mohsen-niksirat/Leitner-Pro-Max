@@ -161,22 +161,32 @@ async function fetchDictionaryRaw(word){
 async function fetchTranslation(word,fromLang,toLang){
   return appCacheLookup("trans",word,function(){return fetchTranslationRaw(word,fromLang,toLang)},fromLang||'en',toLang||'fa');
 }
+// MyMemory circuit breaker — shared across ALL translation calls.
+// On 429/403 (or network failure) the service is marked dead for 60s and
+// callers fall straight through to Google gtx instead of retrying per-word
+// (this was the «one word every few minutes» bottleneck in VocabForge).
+const _myMemoryBreaker={dead:false,cooldownUntil:0,lastError:''};
+function myMemoryAvailable(){return !_myMemoryBreaker.dead||Date.now()>=_myMemoryBreaker.cooldownUntil}
+function myMemoryMarkDead(reason){_myMemoryBreaker.dead=true;_myMemoryBreaker.cooldownUntil=Date.now()+60000;_myMemoryBreaker.lastError=reason}
+
 async function fetchTranslationRaw(word,fromLang,toLang){
   const provider=(S.settings&&S.settings.translationProvider)||'auto';
   const src=fromLang||S.settings.sourceLang||'en';
   const tgt=toLang||S.settings.targetLang||'fa';
-  // 1. MyMemory
+  // 1. MyMemory (single attempt + circuit breaker — no long retry backoff)
   async function tryMyMemory(){
+    if(!myMemoryAvailable())return null;
     try{
       const langpair=src+'|'+tgt;
-      const r=await fetchWithRetry(MYMEMORY_API+'?q='+encodeURIComponent(word)+'&langpair='+langpair);
-      if(!r.ok)return null;
+      const r=await timedFetch(MYMEMORY_API+'?q='+encodeURIComponent(word)+'&langpair='+langpair,{},8000);
+      if(!r.ok){if(r.status===429||r.status===403||r.status>=500)myMemoryMarkDead('HTTP '+r.status);return null}
       const d=await r.json();
+      if(d.responseStatus===429||d.responseStatus===403){myMemoryMarkDead('Rate limited');return null}
       if(d.responseData&&d.responseData.translatedText){
         let t=d.responseData.translatedText;
         if(t.toUpperCase()!==word.toUpperCase())return decodeHtmlEntities(t)}
       return null
-    }catch(e){return null}}
+    }catch(e){myMemoryMarkDead(String(e&&e.message||e));return null}}
   // 2. Google gtx (free, CORS-enabled, no hard rate-limit)
   async function tryGoogle(){
     try{
@@ -214,6 +224,33 @@ async function fetchEtymology(word){
     const data2=await r2.json();
     if(data2&&data2.en&&data2.en[0]&&data2.en[0].etymology)return data2.en[0].etymology;
     return null;
+  }catch(e){return null}
+}
+
+// ═══════════════════════════════════════════
+// WIKTIONARY DEFINITIONS (REST) — fallback source for rare words
+// Same as standalone VocabForge: full definitions, not just etymology.
+// ═══════════════════════════════════════════
+async function fetchWiktionaryDefinitions(word){
+  return appCacheLookup("wikidef",word,function(){return fetchWiktionaryDefinitionsRaw(word)},'en','');
+}
+async function fetchWiktionaryDefinitionsRaw(word){
+  try{
+    const r=await timedFetch('https://en.wiktionary.org/api/rest_v1/page/definition/'+encodeURIComponent(word));
+    if(!r.ok)return null;
+    const data=await r.json();
+    if(!data||!data.en||!data.en.length)return null;
+    const defs=[],exs=[];
+    let pos='';
+    for(const section of data.en){
+      if(section.partOfSpeech&&!pos)pos=section.partOfSpeech;
+      for(const d of section.definitions||[]){
+        if(d.definition){const clean=d.definition.replace(/<[^>]+>/g,'').trim();if(clean)defs.push(clean)}
+        if(d.examples){for(const ex of d.examples){const clean=ex.replace(/<[^>]+>/g,'').trim();if(clean)exs.push(clean)}}
+      }
+    }
+    if(!defs.length)return null;
+    return{phonetic:'',partOfSpeech:pos,definitions:defs.slice(0,5),examples:exs.slice(0,4),synonyms:[],antonyms:[]};
   }catch(e){return null}
 }
 
@@ -316,22 +353,20 @@ function getFrequencyRank(word){
 // ═══════════════════════════════════════════
 // ENHANCED DICTIONARY POPUP (with etymology + frequency)
 // ═══════════════════════════════════════════
-// Enhance fetchDictionary to also return etymology and morphological data.
-// Etymology runs in PARALLEL with the dictionary request — awaiting it serially
-// doubled the latency of every lookup (dict + slow Wiktionary call).
+// fetchDictionary returns ONLY the dictionary result — etymology is
+// fetched lazily by the popup via fetchEtymologyCached(), so the
+// enrichment pipeline is never blocked by the slow Wiktionary call.
 const _origFetchDictionary=fetchDictionary;
 fetchDictionary=async function(word){
-  const [result,etym]=await Promise.all([
-    _origFetchDictionary(word),
-    fetchEtymology(word).catch(()=>null)
-  ]);
+  const result=await _origFetchDictionary(word);
   if(!result)return result;
-  if(etym)result.etymology=etym;
-  // Add morphological family
+  // Morphological family + frequency rank are computed locally (cheap)
   result.morphFamily=getMorphologicalFamily(word);
-  // Add frequency rank
   result.freqRank=getFrequencyRank(word);
   return result;
 };
+async function fetchEtymologyCached(word){
+  return appCacheLookup("etym",word,function(){return fetchEtymology(word)},'en','');
+}
 
 // ═══════════════════════════════════════════

@@ -305,16 +305,25 @@ async function vfRun(operation){
   const fill=document.getElementById(isTrans?'vfTransFill':'vfEnrichFill');
   const label=document.getElementById(isTrans?'vfTransLabel':'vfEnrichLabel');
   const status=document.getElementById(isTrans?'vfTransStatus':'vfEnrichStatus');
+  const resultEl=document.getElementById(isTrans?'vfTransResult':'vfEnrichResult');
+  const stopBtn=document.getElementById(isTrans?'vfTransStopBtn':'vfEnrichStopBtn');
   const button=document.getElementById(isTrans?'vfTranslateBtn':'vfEnrichBtn');if(button)button.disabled=true;
-  if(fill)fill.style.width='0%';  const total=selected.length;let done=0;
+  if(stopBtn)stopBtn.style.display='inline-flex';
+  if(resultEl)resultEl.innerHTML='';
+  if(fill)fill.style.width='0%';
+  const total=selected.length;let done=0,aborted=false;
+  const notFound=[];
+  if(stopBtn)stopBtn.onclick=()=>{aborted=true};
   const concurrency=isTrans?6:6;
   let cursor=0;
   const processCard=async card=>{
     const key=card.word.toLowerCase();
-    if(isTrans){const t=await vfCached('trans:'+key,()=>fetchTranslation(card.word));if(t)card.translation=t}
+    if(isTrans){const t=await vfCached('trans:'+key,()=>fetchTranslation(card.word));if(t)card.translation=t;else notFound.push(card.word)}
     else{
       let result=await vfCached('dict:'+key,()=>fetchDictionary(card.word));if(!result){const stems=vfStem(card.word).slice(1);for(let i=0;i<stems.length&&!result;i+=4){const chunk=stems.slice(i,i+4);const hits=await Promise.all(chunk.map(s=>vfCached('dict:'+s,()=>fetchDictionary(s))));const idx=hits.findIndex(h=>h&&h.meanings&&h.meanings.length);if(idx>=0){result=hits[idx];card.baseForm=card.baseForm||chunk[idx]}}}
       if(result&&(!result.meanings||!result.meanings.length))result=null;
+      // Source 2 (like standalone): Wiktionary REST full definitions for rare words
+      if(!result){const wikiDefs=await vfCached('wiki:'+key,()=>fetchWiktionaryDefinitions(card.word));if(wikiDefs&&wikiDefs.definitions&&wikiDefs.definitions.length){card.definitions=wikiDefs.definitions;card.defSource='wiktionary';card.coreMeaning=card.coreMeaning||wikiDefs.definitions[0];if(!card.examples||!card.examples.length)card.examples=wikiDefs.examples||[];if(!card.partOfSpeech)card.partOfSpeech=wikiDefs.partOfSpeech||''}}
       if(!result){const faDefs=await vfCached('fadef2:'+key,()=>fetchPersianWiktionaryDefs(card.word));if(faDefs&&faDefs.length){card.definitions=faDefs;card.defSource='fa-wiktionary';card.coreMeaning=card.coreMeaning||faDefs[0]}}
       if(!card.definitions||!card.definitions.length){const autot=await vfCached('trans:'+key,()=>fetchTranslation(card.word));if(autot){card.definitions=[autot];card.defSource='fallback-trans';card.coreMeaning=card.coreMeaning||autot;if(!card.translation)card.translation=autot}}
       if(result){
@@ -331,18 +340,22 @@ async function vfRun(operation){
         if(!card.wordFamily||!card.wordFamily.length)card.wordFamily=(getMorphologicalFamily(card.word)||[]).slice(0,8);
         if(!card.collocations||!card.collocations.length){const coll=suggestCollocations(card.word);if(coll&&coll.length)card.collocations=coll.slice(0,6)}
       }catch(e){}
+      if(!card.definitions||!card.definitions.length)notFound.push(card.word);
     }
   };
-  const worker=async()=>{while(true){const index=cursor++;if(index>=total)return;const card=selected[index];  if(status)status.textContent=(isTrans?'در حال ترجمه: ':'در حال غنی‌سازی: ')+card.word;try{await processCard(card)}catch(error){card._vfError='خطای موقت؛ دوباره تلاش کنید';}done++;const pct=Math.round(done/total*100);if(fill)fill.style.width=pct+'%';if(label)label.textContent=done+'/'+total;}};
+  const worker=async()=>{while(true){if(aborted)return;const index=cursor++;if(index>=total)return;const card=selected[index];  if(status)status.textContent=(isTrans?'در حال ترجمه: ':'در حال غنی‌سازی: ')+card.word;try{await processCard(card)}catch(error){card._vfError='خطای موقت؛ دوباره تلاش کنید';notFound.push(card.word)}done++;const pct=Math.round(done/total*100);if(fill)fill.style.width=pct+'%';if(label)label.textContent=done+'/'+total;}};
   await Promise.all(Array.from({length:Math.min(concurrency,total)},worker()));
   vfSaveCards(vfCards());
   if(button)button.disabled=false;
+  if(stopBtn)stopBtn.style.display='none';
   if(fill)fill.style.width='100%';
   vfSetSlide(wasSlide);
   renderVocabforge(document.getElementById('content'));
   const missing=isTrans?selected.filter(c=>!c.translation).length:selected.filter(c=>!c.definitions||!c.definitions.length).length;
   const doneStatus=document.getElementById(isTrans?'vfTransStatus':'vfEnrichStatus');
-  if(doneStatus)doneStatus.textContent='✅ '+(isTrans?'ترجمه':'غنی‌سازی')+' کامل شد ('+(done-missing)+'/'+done+' کلمه)'+(missing?(' — '+missing+' کلمه ناموفق؛ شاید در دیکشنری نباشند. دوباره تلاش کنید'):'');
+  const doneResult=document.getElementById(isTrans?'vfTransResult':'vfEnrichResult');
+  if(doneStatus)doneStatus.textContent=aborted?'⏹ متوقف شد':('✅ '+(isTrans?'ترجمه':'غنی‌سازی')+' کامل شد ('+(done-missing)+'/'+done+' کلمه)'+(missing?(' — '+missing+' کلمه ناموفق'):''));
+  if(doneResult&&notFound.length)doneResult.innerHTML='<div style="padding:8px 10px;background:var(--bg);border-radius:10px;font-size:.78rem;max-height:160px;overflow-y:auto"><strong style="color:var(--danger)">یافت نشد ('+notFound.length+'):</strong><div style="margin-top:4px;color:var(--text2)">'+[...new Set(notFound)].slice(0,40).map(w=>'<span style="margin-left:6px">'+esc(w)+'</span>').join('')+(notFound.length>40?'...':'')+'</div></div>';
   selected.forEach(card=>{if(card._vfError)delete card._vfError});
 }
 function vfRemoveSelected(){
@@ -447,8 +460,8 @@ function slideEnrichHTML(){
   const translated=vfCards().filter(card=>card.translation).length;
   const total=vfCards().length;
   return '<div class="card" style="margin-bottom:14px"><h3 style="margin-bottom:6px">۳. غنی‌سازی و ترجمه</h3><p style="font-size:.78rem;color:var(--text2);margin-bottom:10px">هر عملیات در سطر خودش با پیشرفت زنده؛ نتایج کش می‌شوند تا دوباره پردازش نشوند.</p>'+
-  '<div class="vf-op-row"><button type="button" class="btn btn-primary" id="vfEnrichBtn">🔍 غنی‌سازی</button><span style="font-size:.72rem;color:var(--text2);min-width:80px">'+enriched+' / '+total+'</span><div class="vf-prog-wrap"><div class="vf-prog-fill" id="vfEnrichFill" style="width:0"></div></div><span class="vf-op-label" id="vfEnrichLabel">0/0</span><span class="vf-op-status" id="vfEnrichStatus" aria-live="polite">آماده</span></div>'+
-  '<div class="vf-op-row"><button type="button" class="btn btn-primary" id="vfTranslateBtn">🌐 ترجمه</button><span style="font-size:.72rem;color:var(--text2);min-width:80px">'+translated+' / '+total+'</span><div class="vf-prog-wrap"><div class="vf-prog-fill" id="vfTransFill" style="width:0"></div></div><span class="vf-op-label" id="vfTransLabel">0/0</span><span class="vf-op-status" id="vfTransStatus" aria-live="polite">آماده</span></div>'+
+  '<div class="vf-op-row"><button type="button" class="btn btn-primary" id="vfEnrichBtn">🔍 غنی‌سازی</button><span style="font-size:.72rem;color:var(--text2);min-width:80px">'+enriched+' / '+total+'</span><div class="vf-prog-wrap"><div class="vf-prog-fill" id="vfEnrichFill" style="width:0"></div></div><span class="vf-op-label" id="vfEnrichLabel">0/0</span><span class="vf-op-status" id="vfEnrichStatus" aria-live="polite">آماده</span><button type="button" class="btn btn-danger btn-sm" id="vfEnrichStopBtn" style="display:none">⏹ توقف</button><div id="vfEnrichResult" style="flex-basis:100%"></div></div>'+
+  '<div class="vf-op-row"><button type="button" class="btn btn-primary" id="vfTranslateBtn">🌐 ترجمه</button><span style="font-size:.72rem;color:var(--text2);min-width:80px">'+translated+' / '+total+'</span><div class="vf-prog-wrap"><div class="vf-prog-fill" id="vfTransFill" style="width:0"></div></div><span class="vf-op-label" id="vfTransLabel">0/0</span><span class="vf-op-status" id="vfTransStatus" aria-live="polite">آماده</span><button type="button" class="btn btn-danger btn-sm" id="vfTransStopBtn" style="display:none">⏹ توقف</button><div id="vfTransResult" style="flex-basis:100%"></div></div>'+
   vfFailedListHtml()+
   '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button type="button" class="btn btn-ghost" id="vfClearCache">🗑 پاک کردن کش</button><button type="button" class="btn btn-primary" id="vfNextBtn3">مرحله بعد ←</button></div></div>';
 }

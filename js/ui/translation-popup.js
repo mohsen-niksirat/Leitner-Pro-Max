@@ -41,9 +41,10 @@ async function renderTransPopup(word,rect){
   if(transPopupAbort)transPopupAbort.abort();
   transPopupAbort=new AbortController();
 
-  const [dictResult, persianResult]=await Promise.all([
+  const [dictResult, persianResult, etymology]=await Promise.all([
     fetchDictionary(word),
-    fetchTranslation(word)
+    fetchTranslation(word),
+    fetchEtymologyCached(word).catch(()=>null)
   ]);
 
   if(popup.style.display==='none')return;
@@ -65,9 +66,9 @@ async function renderTransPopup(word,rect){
   html+='<div class="trans-divider"></div>';
     // Frequency rank
     if(dictResult&&dictResult.freqRank)html+='<div style="font-size:.75rem;color:var(--accent);margin-bottom:4px">📊 رتبه فراوانی: ~'+dictResult.freqRank.toLocaleString()+' (COCA)</div>';
-    // Etymology
-    if(dictResult&&dictResult.etymology){
-      html+='<div style="margin-bottom:10px"><div style="font-size:.75rem;color:var(--text2);margin-bottom:4px">📖 ریشه‌شناسی</div><div style="font-size:.82rem;color:var(--text);line-height:1.6;font-style:italic">'+esc(dictResult.etymology)+'</div></div>';
+    // Etymology (fetched lazily, cached separately — never blocks enrichment)
+    if(etymology){
+      html+='<div style="margin-bottom:10px"><div style="font-size:.75rem;color:var(--text2);margin-bottom:4px">📖 ریشه‌شناسی</div><div style="font-size:.82rem;color:var(--text);line-height:1.6;font-style:italic">'+esc(etymology)+'</div></div>';
       html+='<div class="trans-divider"></div>';
     }
     // Morphological family
