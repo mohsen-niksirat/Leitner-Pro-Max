@@ -47,6 +47,23 @@ function decorateImportHelp(){
 // VOCABFORGE — سازنده فلش‌کارت (Wizard اسلایدی داخلی)
 // ═══════════════════════════════════════════════════════════
 let vfSelectedIds=new Set();
+function vfToNumber(value,fallback){
+  const normalized=String(value??'').replace(/[۰-۹]/g,d=>String('۰۱۲۳۴۵۶۷۸۹'.indexOf(d))).replace(/[٠-٩]/g,d=>String('٠١٢٣٤٥٦٧٨٩'.indexOf(d))).replace(/[^0-9]/g,'');
+  const number=Number(normalized);
+  return Number.isFinite(number)&&number>0?number:fallback;
+}
+function vfClampMaxWords(value){return Math.min(5000,Math.max(10,vfToNumber(value,300)))}
+function vfMaxWordsControl(){
+  return '<div class="vf-number-control"><label for="vfMaxWords">حداکثر کلمه</label><div class="vf-number-row"><button type="button" class="btn btn-ghost btn-sm" id="vfMaxWordsMinus" aria-label="کاهش ۵۰ کلمه">−۵۰</button><input class="input" type="text" inputmode="numeric" pattern="[0-9۰-۹٠-٩]*" id="vfMaxWords" value="300" aria-describedby="vfMaxWordsHint"><button type="button" class="btn btn-ghost btn-sm" id="vfMaxWordsPlus" aria-label="افزایش ۵۰ کلمه">+۵۰</button></div><small id="vfMaxWordsHint">حدود ۱۰ تا ۵۰۰۰ کلمه؛ مقدار دستی یا دکمه‌ای قابل تغییر است</small></div>';
+}
+function bindVfMaxWords(){
+  const input=document.getElementById('vfMaxWords');if(!input)return;
+  const update=value=>{input.value=String(vfClampMaxWords(value))};
+  input.addEventListener('blur',()=>update(input.value));
+  input.addEventListener('change',()=>update(input.value));
+  document.getElementById('vfMaxWordsMinus')?.addEventListener('click',()=>update(vfClampMaxWords(input.value)-50));
+  document.getElementById('vfMaxWordsPlus')?.addEventListener('click',()=>update(vfClampMaxWords(input.value)+50));
+}
 let vfSlide=1; // 1=ورود 2=انتخاب کلمات 3=غنی‌سازی/ترجمه 4=خروجی و انتقال
 let vfSlideInit=false;
 let vfInputType='text';
@@ -391,7 +408,7 @@ function slideInputHTML(){
   const cefrOpts=['','A1','A2','B1','B2','C1','C2'].map(l=>'<option value="'+l+'"'+(vfCefrLevel===l?' selected':'')+'>'+(l||'همه سطوح')+'</option>').join('');
   let body='';
   if(vfInputType==='text'){
-    body='<textarea class="input" id="vfText" rows="4" placeholder="متن انگلیسی را وارد کنید..."></textarea><div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px"><div><label style="font-size:.7rem;color:var(--text2)">حداقل طول</label><input class="input" type="number" id="vfMinLen" value="3" min="2" max="15" style="max-width:70px;font-size:.8rem;padding:6px 8px"></div><div><label style="font-size:.7rem;color:var(--text2)">حداکثر کلمه</label><input class="input" type="number" id="vfMaxWords" value="300" min="10" max="5000" style="max-width:90px;font-size:.8rem;padding:6px 8px"></div><button type="button" class="btn btn-primary" id="vfAddText">🔍 استخراج کلمات</button></div>';
+    body='<textarea class="input" id="vfText" rows="4" placeholder="متن انگلیسی را وارد کنید..."></textarea><div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px"><div><label style="font-size:.7rem;color:var(--text2)">حداقل طول</label><input class="input" type="number" id="vfMinLen" value="3" min="2" max="15" style="max-width:70px;font-size:.8rem;padding:6px 8px"></div>'+vfMaxWordsControl()+'<button type="button" class="btn btn-primary" id="vfAddText">🔍 استخراج کلمات</button></div>';
   }else if(vfInputType==='pdf'){
     body='<p style="font-size:.78rem;color:var(--text2)">PDF با انتخاب محدوده صفحات و حداکثر کلمه استخراج می‌شود.</p><div style="display:flex;gap:8px;flex-wrap:wrap;align-items:end;margin-top:8px"><input type="file" id="vfPdf" accept=".pdf" style="display:none"><button type="button" class="btn btn-ghost" id="vfPdfBtn">📂 انتخاب PDF</button><div><label style="font-size:.7rem;color:var(--text2)">محدوده صفحات (مثلا 1-3، 5)</label><input class="input" id="vfPdfPages" style="max-width:130px;padding:6px 8px;font-size:.8rem"></div><div><label style="font-size:.7rem;color:var(--text2)">حداقل طول</label><input class="input" type="number" id="vfPdfMinLen" value="3" min="2" max="15" style="max-width:70px;padding:6px 8px;font-size:.8rem"></div><div><label style="font-size:.7rem;color:var(--text2)">حداکثر کلمه</label><input class="input" type="number" id="vfPdfMaxWords" value="300" min="10" max="5000" style="max-width:80px;padding:6px 8px;font-size:.8rem"></div></div><div class="progress-bar" id="vfPdfProg" style="display:none;margin-top:10px"><div class="progress-fill" id="vfPdfFill" style="width:0"></div></div><span id="vfPdfStatus" style="font-size:.78rem;color:var(--text2)"></span>';
   }else if(vfInputType==='docx'){
@@ -445,12 +462,13 @@ function bindVf(n){
   const slide=document.getElementById('vfSlide'+n);
   if(!slide)return;
   if(n===1){
+    bindVfMaxWords();
     slide.querySelectorAll('[data-vf-input]').forEach(btn=>btn.onclick=()=>{vfInputType=btn.dataset.vfInput;render()});
     const cefrSel=document.getElementById('vfCefr');if(cefrSel)cefrSel.onchange=function(){vfCefrLevel=cefrSel.value};
     const addText=document.getElementById('vfAddText');
     if(addText)addText.onclick=async()=>{
       const minLen=parseInt((document.getElementById('vfMinLen')||{}).value)||3;
-      const maxWords=parseInt((document.getElementById('vfMaxWords')||{}).value)||300;
+      const maxWords=vfClampMaxWords((document.getElementById('vfMaxWords')||{}).value);
       const text=(document.getElementById('vfText')||{value:''}).value;
       if(!text.trim()){toast('متنی وارد نشده','error');return}
       let words=vfExtractWords(text,minLen,maxWords);
