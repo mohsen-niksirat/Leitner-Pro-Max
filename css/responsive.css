@@ -1,0 +1,12 @@
+.reading-word-detail .wd-actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.reading-heatmap{display:grid;grid-template-columns:repeat(auto-fill,minmax(28px,1fr));gap:4px;margin:12px 0}
+.reading-heatmap-cell{aspect-ratio:1;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:.6rem;color:var(--text2);cursor:default;transition:all .2s;border:1px solid var(--border)}
+.reading-heatmap-cell:hover{transform:scale(1.15);z-index:2}
+.reading-filter-bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;align-items:center}
+.reading-filter-bar .btn{font-size:.75rem;padding:6px 10px}
+.reading-export-bar{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;justify-content:flex-end}
+@media(max-width:768px){.reading-toolbar{gap:3px;padding:8px}.reading-toolbar .btn{padding:6px 10px;font-size:.75rem;min-width:36px;min-height:36px}.reading-toolbar .search-box{width:120px;font-size:.75rem}.reading-dashboard{grid-template-columns:repeat(2,1fr)}.reading-content-area{font-size:.95rem;padding:14px;max-height:60vh}.reading-vocab-panel{max-height:50vh}}
+
+/* ═══════════════════════════════════════════
+   RICH BACK CARD SECTIONS
+   ═══════════════════════════════════════════ */

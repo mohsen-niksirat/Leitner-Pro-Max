@@ -1,0 +1,17 @@
+# docker-compose.yml — اجرای Vortex Gateway (نسخه پچ‌شده برای پروکسی AI)
+# استفاده:
+#   cd vortex && docker compose up -d
+# (فایل .env.ai را با vortex/apply-patch.py بسازید یا خودتان بسازید)
+services:
+  vortex:
+    build: .
+    container_name: vortex-ai
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env.ai
+    volumes:
+      - vortex_data:/data
+    restart: unless-stopped
+volumes:
+  vortex_data:

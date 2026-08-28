@@ -1,0 +1,24 @@
+# Local development artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary test output
+coverage/
+playwright-report/
+test-results/
+node_modules/
+
+# Reference material kept outside the publishable Max app
+leitner-pro-main/
+legacy/
+Free-AI-Chat-main/
+Prompt.txt
+README.original.md
+.freebuff/
+
+# Vortex deploy (کلون موقت + env)
+.vortex-src/
+vortex-src/
+vortex/.env.ai

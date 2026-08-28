@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لایتنر پرو</title>
+  <meta name="description" content="مرور هوشمند واژگان با FSRS، آزمون، PDF Reader و ابزارهای AI">
+  <meta name="theme-color" content="#6c5ce7">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="لایتنر">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="icon" href="./icons/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+  <div class="offline-banner" id="offlineBanner">⚡ شما آفلاین هستید - داده‌ها محلی ذخیره می‌شوند</div>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <a href="#content" class="skip-link">رد شدن به محتوا</a>
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div style="display:flex;align-items:center;justify-content:space-between">
+          <div><h1>لایتنر پرو</h1><p>یادگیری هوشمند واژگان</p></div>
+          <div style="display:flex;gap:6px">
+            <button type="button" class="theme-toggle" id="sidebarLockBtn" title="قفل سایدبار" style="width:30px;height:30px;font-size:.8rem;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);border-radius:8px;color:rgba(255,255,255,0.4)">🔓</button>
+            <button type="button" class="theme-toggle" id="themeBtn" aria-label="تغییر پوسته" style="width:30px;height:30px;font-size:.8rem;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);border-radius:8px;color:rgba(255,255,255,0.4)">🌙</button>
+          </div>
+        </div>
+      </div>
+      <div id="dailyChallengeWidget"></div>
+      <nav id="nav"></nav>
+      <div style="margin-top:auto;padding:16px 24px;border-top:1px solid rgba(255,255,255,0.04)"><div style="font-size:.6rem;color:rgba(255,255,255,0.15);text-align:center">نسخه ۵.۰ — لایتنر پرو مکس</div></div>
+    </aside>
+    <main class="main sidebar-closed" id="main">
+      <div class="topbar"><button class="hamburger" id="hamBtn" type="button" aria-label="منو">☰</button><h2 id="pageTitle"></h2><div class="topbar-actions" id="topActions"></div></div>
+      <div id="content"></div>
+    </main>
+  </div>
+  <div class="toast-container" id="toasts" aria-live="polite" aria-atomic="true"></div>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
