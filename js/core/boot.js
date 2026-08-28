@@ -19,6 +19,11 @@ loadFromIDB().then(function(idbData){
   toast('حافظه IndexedDB در دسترس نیست؛ داده‌ها ذخیره نمی‌شوند','error');
 });
 checkDriveOnLoad();
+window.addEventListener('leitner:updated',function(){
+  if(typeof toast==='function')toast('نسخه جدید برنامه آماده است؛ برای اعمال آن صفحه را بازنشانی کنید.','info');
+  var banner=document.getElementById('offlineBanner');
+  if(banner&&navigator.onLine){banner.textContent='✨ نسخه جدید آماده است — صفحه را بازنشانی کنید';banner.classList.add('visible');banner.style.cursor='pointer';banner.onclick=function(){location.reload()}}
+});
 // [Refactor Phase 1] moved to js/storage/state.js
 // [Refactor Phase 1] moved to js/core/utils.js
 
@@ -53,7 +58,7 @@ checkDriveOnLoad();
 // [Refactor Phase 12] moved to js/word-web/word-web.js
 // THEME & INIT
 // ═══════════════════════════════════════════
-function applyTheme(){document.documentElement.setAttribute('data-theme',S.settings.theme);document.getElementById('themeBtn').textContent=S.settings.theme==='dark'?'🌙':'☀️'}
+function applyTheme(){const theme=S.settings.theme||'dark';document.documentElement.setAttribute('data-theme',theme);const icons={dark:'🌙',light:'☀️',ocean:'🌊',forest:'🌲',sunset:'🌅',lavender:'💜','high-contrast':'◐'};const btn=document.getElementById('themeBtn');if(btn)btn.textContent=icons[theme]||'🎨';}
 document.getElementById('themeBtn').onclick=()=>{S.settings.theme=S.settings.theme==='dark'?'light':'dark';save();applyTheme();render()};
 function syncSidebarUI(){const sb=document.getElementById('sidebar');const mn=document.getElementById('main');const ov=document.getElementById('sidebarOverlay');const open=sb.classList.contains('open');const mobile=window.matchMedia('(max-width:1023px)').matches;if(ov)ov.classList.toggle('visible',open&&mobile);mn.className=open?'main sidebar-open':'main sidebar-closed';document.body.classList.toggle('no-scroll',open&&mobile);}document.getElementById('hamBtn').onclick=()=>{document.getElementById('sidebar').classList.toggle('open');syncSidebarUI()};const _overlayEl=document.getElementById('sidebarOverlay');if(_overlayEl)_overlayEl.onclick=()=>{document.getElementById('sidebar').classList.remove('open');syncSidebarUI()};function closeMobileSidebar(){if(!window.matchMedia('(max-width:1023px)').matches)return;const sb=document.getElementById('sidebar');if(sb&&sb.classList.contains('open')){sb.classList.remove('open');syncSidebarUI()}}try{const _sbEl=document.getElementById('sidebar');if(_sbEl){let _swStartX=null,_swStartY=null;const _sbOnTouchStart=function(e){if(!_sbEl.classList.contains('open'))return;const t=e.changedTouches[0];_swStartX=t.clientX;_swStartY=t.clientY};const _sbOnTouchMove=function(e){if(_swStartX===null)return;const t=e.changedTouches[0];const dx=t.clientX-_swStartX,dy=t.clientY-_swStartY;if(!_sbEl.classList.contains('open')){_swStartX=null;return}if(dx>28&&Math.abs(dx)>Math.abs(dy)*1.6){_swStartX=null;closeMobileSidebar()}};_sbEl.addEventListener('touchstart',_sbOnTouchStart,{passive:true});_sbEl.addEventListener('touchmove',_sbOnTouchMove,{passive:true});} }catch(_e){}window.addEventListener('resize',syncSidebarUI);
 // Initialize sidebar state

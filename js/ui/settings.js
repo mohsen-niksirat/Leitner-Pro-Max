@@ -101,9 +101,22 @@ h+='<div class="flex"><label style="font-size:.85rem;color:var(--text2)">حال�
 h+='<div class="flex"><label style="font-size:.85rem;color:var(--text2)">کاهش حرکت (انیمیشن)</label><input type="checkbox" id="setReduceMotion"'+(S.settings.reduceMotion?' checked':'')+' style="accent-color:var(--accent)"></div>';
 h+='</div></div>';
 // ── Theme & Info ──
-h+='<div class="card" style="margin-bottom:16px"><h3 style="margin-bottom:16px">🎨 پوسته</h3>';
+var themeOptions=[
+  ['dark','🌙','تاریک','آرام و مناسب مطالعه شبانه'],
+  ['light','☀️','روشن','شفاف و مناسب محیط‌های روشن'],
+  ['ocean','🌊','اقیانوسی','آبی و آرامش‌بخش'],
+  ['forest','🌲','جنگلی','سبز و طبیعی'],
+  ['sunset','🌅','غروب','گرم و پرانرژی'],
+  ['lavender','💜','اسطوخودوسی','بنفش ملایم و دوستانه'],
+  ['high-contrast','◐','کنتراست بالا','خوانایی بیشتر']
+];
+var activeTheme=themeOptions.some(function(t){return t[0]===s.theme})?s.theme:'dark';
+h+='<div class="card theme-settings-card" style="margin-bottom:16px"><h3 style="margin-bottom:8px">🎨 پوسته برنامه</h3><p style="color:var(--text2);font-size:.82rem;margin-bottom:14px">ظاهر برنامه را انتخاب کنید. تغییر پوسته بلافاصله اعمال و ذخیره می‌شود.</p><div class="theme-picker" role="radiogroup" aria-label="انتخاب پوسته">';
+themeOptions.forEach(function(t){h+='<button type="button" class="theme-option '+(activeTheme===t[0]?'active':'')+'" data-app-theme="'+t[0]+'" role="radio" aria-checked="'+(activeTheme===t[0])+'"><span class="theme-option-icon">'+t[1]+'</span><span class="theme-option-text"><strong>'+t[2]+'</strong><small>'+t[3]+'</small></span><span class="theme-option-check">✓</span></button>'});
+h+='</div><div class="theme-stats stat-grid" style="margin-top:14px">';
+h+='<div class="theme-preview" data-preview-theme="'+activeTheme+'" aria-label="پیش‌نمایش پوسته فعال"></div>';
 h+='<div class="stat-grid" style="margin-bottom:0">';
-h+='<div class="stat-card"><div class="val">'+(s.theme==='dark'?'🌙':'☀️')+'</div><div class="lbl">'+(s.theme==='dark'?'تاریک':'روشن')+'</div></div>';
+h+='<div class="stat-card"><div class="val">'+(themeOptions.find(function(t){return t[0]===activeTheme})||themeOptions[0])[1]+'</div><div class="lbl">'+(themeOptions.find(function(t){return t[0]===activeTheme})||themeOptions[0])[2]+'</div></div>';
 h+='<div class="stat-card"><div class="val">'+dataSize+' KB</div><div class="lbl">حجم داده</div></div>';
 h+='<div class="stat-card"><div class="val">'+(S.words.length+S.longTerm.length)+'</div><div class="lbl">کل کلمات</div></div>';
 h+='<div class="stat-card"><div class="val">'+S.stats.reviewed+'</div><div class="lbl">کل مرورها</div></div>';
@@ -184,6 +197,7 @@ document.getElementById('setHighContrast').onchange=function(e){
   applyTheme();save();
 };
 document.getElementById('setReduceMotion').onchange=function(e){S.settings.reduceMotion=e.target.checked;save()};
+document.querySelectorAll('[data-app-theme]').forEach(function(btn){btn.onclick=function(){var theme=btn.dataset.appTheme;S.settings.theme=theme;applyTheme();save();renderSettings(c)}});
 // Notifications
 document.getElementById('setNotif').onchange=async function(e){
   if(e.target.checked){

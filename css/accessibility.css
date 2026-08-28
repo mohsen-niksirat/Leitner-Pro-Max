@@ -35,6 +35,12 @@
 @media(max-width:768px){.pdf-trans-popup{max-width:calc(100vw - 32px);left:16px!important;right:16px!important}}
 
 /* ═══ ACCESSIBILITY ═══ */
+/* Additional application themes */
+[data-theme="ocean"] .sidebar{background:linear-gradient(180deg,#082532,#0d3442)}
+[data-theme="forest"] .sidebar{background:linear-gradient(180deg,#10251a,#183a27)}
+[data-theme="sunset"] .sidebar{background:linear-gradient(180deg,#2d1820,#4a2632)}
+[data-theme="lavender"] .sidebar{background:linear-gradient(180deg,#1b1530,#30234d)}
+
 /* High contrast mode */
 [data-theme="high-contrast"]{
   --bg:#000;--bg2:#111;--card:#1a1a1a;--card-hover:#222;--border:#555;

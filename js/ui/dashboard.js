@@ -28,6 +28,37 @@ function renderDailyChallengeWidget(){
 }
 
 function renderAbout(c){
+const featureItems=[
+  '🧠 مرور هوشمند با الگوریتم FSRS و زمان‌بندی تطبیقی',
+  '📚 کتابخانه، حافظه بلندمدت، دسته‌بندی، برچسب و جستجو',
+  '🎯 آزمون‌های چندحالته، تمرین کلمه و تعیین سطح CEFR',
+  '📄 خواندن PDF/TXT، ترجمه، انتخاب کلمه و استخراج واژگان',
+  '⚒️ VocabForge برای استخراج و غنی‌سازی واژگان',
+  '🤖 چت AI با چند ارائه‌دهنده و پشتیبانی تصویر',
+  '📊 آمار، XP، سطح، تقویم، Heatmap و پیش‌بینی',
+  '📱 PWA قابل نصب، ذخیره‌سازی محلی و قابلیت‌های آفلاین',
+  '💾 ورود/خروج JSON، CSV، Anki و پشتیبان‌گیری',
+  '🌐 رابط فارسی، تم‌های متنوع و دسترسی‌پذیری'
+];
+const currentFeatures=[
+  '🛡️ سخت‌سازی مسیرهای AI و اعتبارسنجی URL تصاویر',
+  '⚡ هماهنگ‌سازی نسخه Service Worker با نسخه برنامه',
+  '🔐 حذف proxyهای عمومی از allowlist و عدم چاپ token در deploy',
+  '🗂️ بهبود migration و یکسان‌سازی category پیش‌فرض',
+  '🧪 اضافه شدن اجرای مستقل تست‌های unit و بررسی syntax'
+];
+const previousVersions=[
+  ['نسخه ۴.۰','Error Boundary، minification، GitHub Actions و انتشار خودکار روی GitHub Pages'],
+  ['نسخه ۳.۸.۳','IndexedDB، ورود انتخابی، پخش خودکار مرور، PDF Reader و اتصال VocabForge'],
+  ['نسخه ۳.۸.۲','بهبود Reading، تم‌های محتوایی، Word Web، CSV/Anki و تنظیمات کامل‌تر'],
+  ['نسخه ۳.۸','AI Chat، تحلیل تصویر، Drag & Drop و اتصال providerهای مختلف'],
+  ['نسخه ۳.۷','FSRS-5، backup نسخه‌بندی‌شده، lazy loading و دسترسی‌پذیری'],
+  ['نسخه ۳.۶','XP، سطح‌بندی، ورود سریع، مدیریت Deck و تولید مثال'],
+  ['نسخه ۳.۵','آزمون هوشمند، انتخاب کلمات ضعیف و دشواری تطبیقی']
+];
+const featureHtml=featureItems.map(function(item){return '<div class="about-feature-item">'+esc(item)+'</div>'}).join('');
+const currentHtml=currentFeatures.map(function(item){return '<div class="about-feature-item current">'+esc(item)+'</div>'}).join('');
+const previousHtml=previousVersions.map(function(item,index){return '<details class="about-version"'+(index===0?' open':'')+'><summary><span>'+esc(item[0])+'</span><small>مشاهده تغییرات</small></summary><div>'+esc(item[1])+'</div></details>'}).join('');
 c.innerHTML=`<div style="max-width:700px;margin:0 auto">
   <div style="text-align:center;background:linear-gradient(135deg,var(--accent),#764ba2);color:#fff;padding:48px 32px;border-radius:20px;margin-bottom:28px;box-shadow:0 16px 48px rgba(108,92,231,.35)">
     <div style="font-size:3.5rem;margin-bottom:14px">📚</div>
@@ -36,7 +67,17 @@ c.innerHTML=`<div style="max-width:700px;margin:0 auto">
     <p style="opacity:.8;font-size:.9rem;margin-top:6px">الگوریتم: FSRS (Free Spaced Repetition Scheduler)</p>
   </div>
 
-  <div class="card" style="margin-bottom:16px;border:2px solid var(--accent)">
+  <div class="card about-card" style="margin-bottom:16px;border:2px solid var(--accent)">
+    <h3 style="margin-bottom:12px;color:var(--accent)">✨ قابلیت‌های کلی برنامه</h3>
+    <div class="about-feature-grid">${featureHtml}</div>
+  </div>
+
+  <div class="card about-card" style="margin-bottom:16px;border:2px solid var(--success)">
+    <h3 style="margin-bottom:12px;color:var(--success)">🆕 قابلیت‌های آخرین نسخه ۵.۰</h3>
+    <div class="about-feature-grid">${currentHtml}</div>
+  </div>
+
+  <div class="card about-version-current" style="margin-bottom:16px;border:2px solid var(--accent)">
     <h3 style="margin-bottom:12px;color:var(--accent)">📋 نسخه ۴.۰</h3>
     <div style="display:grid;gap:8px;margin-bottom:16px">
       <div style="padding:10px 14px;background:var(--bg);border-radius:8px;border-right:3px solid var(--success)">
@@ -54,8 +95,8 @@ c.innerHTML=`<div style="max-width:700px;margin:0 auto">
     </div>
   </div>
 
-  <div class="card" style="margin-bottom:16px;border:2px solid var(--success)">
-    <h3 style="margin-bottom:12px;color:var(--success)">🆕 ویژگی‌های جدید نسخه ۵.۰</h3>
+  <div class="card about-version-current" style="margin-bottom:16px;border:2px solid var(--success)">
+    <h3 style="margin-bottom:12px;color:var(--success)">🆕 ویژگی‌های نسخه ۵.۰</h3>
     <div style="display:grid;gap:8px;margin-bottom:16px">
       <div style="padding:10px 14px;background:var(--bg);border-radius:8px;border-right:3px solid var(--success)">
         <strong style="font-size:.9rem">⚒️ بازطراحی VocabForge به‌صورت Wizard اسلایدی</strong>
@@ -82,9 +123,7 @@ c.innerHTML=`<div style="max-width:700px;margin:0 auto">
         <p style="color:var(--text2);font-size:.8rem;margin-top:4px">منوی «ورود کلمات ← وکب فورج ← خروج / پشتیبان» برای مسیر واضح استخراج و انتقال.</p>
       </div>
     </div>
-  </div>
-
-<div class="card" style="margin-bottom:16px;border:2px solid var(--accent)">
+  </div>  <div class="card about-version-current" style="margin-bottom:16px;border:2px solid var(--accent)">
     <h3 style="margin-bottom:12px;color:var(--accent)">📋 نسخه ۳.۸.۳</h3>
     <div style="display:grid;gap:8px;margin-bottom:16px">
       <div style="padding:10px 14px;background:var(--bg);border-radius:8px;border-right:3px solid var(--success)">
@@ -122,8 +161,8 @@ c.innerHTML=`<div style="max-width:700px;margin:0 auto">
     </div>
   </div>
 
-  <div class="card" style="margin-bottom:16px">
-    <h3 style="margin-bottom:12px;color:var(--accent)">✨ ویژگی‌های اصلی</h3>
+  <div class="card about-legacy-card" style="margin-bottom:16px;display:none">
+    <h3 style="margin-bottom:12px;color:var(--accent)">✨ ویژگی‌های اصلی قدیمی</h3>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
       <div style="padding:8px 12px;background:var(--bg);border-radius:8px;font-size:.85rem">🧠 مرور هوشمند با الگوریتم FSRS</div>
       <div style="padding:8px 12px;background:var(--bg);border-radius:8px;font-size:.85rem">📖 کتابخانه واژگان با جستجو، فیلتر و ویرایش</div>
@@ -155,9 +194,13 @@ c.innerHTML=`<div style="max-width:700px;margin:0 auto">
     </div>
   </div>
 
-  <div class="card" style="margin-bottom:16px">
-    <h3 style="margin-bottom:12px;color:var(--accent)">📋 تغییرات نسخه‌های قبلی</h3>
-<details open style="margin-bottom:10px">
+  <div class="card about-versions-card" style="margin-bottom:16px">
+    <h3 style="margin-bottom:12px;color:var(--accent)">📋 نسخه‌های قبلی</h3>
+    <div class="about-version-list">${previousHtml}</div>
+  </div>
+  <div class="card about-legacy-card" style="margin-bottom:16px;display:none">
+    <h3 style="margin-bottom:12px;color:var(--accent)">📋 آرشیو جزئیات قدیمی</h3>
+<details style="margin-bottom:10px">
       <summary style="cursor:pointer;font-size:.9rem;font-weight:600;color:var(--text);padding:8px 0">🆕 نسخه ۴.۰ — Leitner Pro ▾</summary>
       <div style="display:grid;gap:6px;margin-top:8px;padding:10px;background:var(--bg);border-radius:10px">
         <div style="font-size:.82rem;color:var(--text2)">• Error Boundary — محافظت در برابر خطاها؛ فقط بخش خطادار متوقف می‌شود</div>

@@ -15,6 +15,10 @@ function sanitizeStateSnapshot(raw){
     }
     if(Array.isArray(raw.categories))s.categories=raw.categories.filter(c=>typeof c==='string'&&c.trim());
     if(raw.settings&&typeof raw.settings==='object')s.settings={...defaultState().settings,...raw.settings};
+    if(raw.quizStats&&typeof raw.quizStats==='object')s.quizStats={...defaultState().quizStats,...raw.quizStats};
+    if(raw.pdfState&&typeof localStorage!=='undefined'){try{localStorage.setItem('leitner_pdf_state',JSON.stringify(raw.pdfState))}catch(e){}}
+    if(raw.pdfBookmarks&&typeof localStorage!=='undefined'){try{localStorage.setItem('leitner_pdf_bm',JSON.stringify(raw.pdfBookmarks))}catch(e){}}
+    if(raw.readingSettings&&typeof localStorage!=='undefined'){try{Object.entries(raw.readingSettings).forEach(function(entry){if(entry[1]!==null&&entry[1]!==undefined)localStorage.setItem('leitner_reading_'+entry[0],entry[1])})}catch(e){}}
     if(raw._version||raw.version)s._version=raw._version||raw.version;
     return{s,isFull:true};
   }
@@ -34,8 +38,12 @@ function exportStateSnapshot(){
     words:S.words,
     longTerm:S.longTerm,
     stats:S.stats,
+    quizStats:S.quizStats,
     categories:S.categories,
-    settings:S.settings
+    settings:S.settings,
+    pdfState:typeof loadPdfState==='function'?loadPdfState():null,
+    pdfBookmarks:(function(){try{return JSON.parse(localStorage.getItem('leitner_pdf_bm')||'{}')}catch(e){return{}}})(),
+    readingSettings:(function(){try{return{dashboardVisible:localStorage.getItem('leitner_reading_dashVisible'),fontSize:localStorage.getItem('leitner_reading_fontSize'),lineHeight:localStorage.getItem('leitner_reading_lineHeight'),contentTheme:localStorage.getItem('leitner_reading_contentTheme')}}catch(e){return{}}})()
   },null,2);
 }
 
