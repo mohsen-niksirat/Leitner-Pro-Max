@@ -110,9 +110,12 @@ var themeOptions=[
   ['lavender','💜','اسطوخودوسی','بنفش ملایم و دوستانه'],
   ['high-contrast','◐','کنتراست بالا','خوانایی بیشتر']
 ];
-var activeTheme=themeOptions.some(function(t){return t[0]===s.theme})?s.theme:'dark';
+var customTheme=s.customTheme||{};
+var customThemeOptions=[['custom','🎨','سفارشی','رنگ‌های انتخابی شما']];
+var activeTheme=themeOptions.some(function(t){return t[0]===s.theme})||s.theme==='custom'?s.theme:'dark';
 h+='<div class="card theme-settings-card" style="margin-bottom:16px"><h3 style="margin-bottom:8px">🎨 پوسته برنامه</h3><p style="color:var(--text2);font-size:.82rem;margin-bottom:14px">ظاهر برنامه را انتخاب کنید. تغییر پوسته بلافاصله اعمال و ذخیره می‌شود.</p><div class="theme-picker" role="radiogroup" aria-label="انتخاب پوسته">';
-themeOptions.forEach(function(t){h+='<button type="button" class="theme-option '+(activeTheme===t[0]?'active':'')+'" data-app-theme="'+t[0]+'" role="radio" aria-checked="'+(activeTheme===t[0])+'"><span class="theme-option-icon">'+t[1]+'</span><span class="theme-option-text"><strong>'+t[2]+'</strong><small>'+t[3]+'</small></span><span class="theme-option-check">✓</span></button>'});
+themeOptions.concat(customThemeOptions).forEach(function(t){h+='<button type="button" class="theme-option '+(activeTheme===t[0]?'active':'')+'" data-app-theme="'+t[0]+'" role="radio" aria-checked="'+(activeTheme===t[0])+'"><span class="theme-option-icon">'+t[1]+'</span><span class="theme-option-text"><strong>'+t[2]+'</strong><small>'+t[3]+'</small></span><span class="theme-option-check">✓</span></button>'});
+h+='<div class="custom-theme-editor"><strong>ساخت تم سفارشی</strong><div class="custom-color-grid"><label>پس‌زمینه<input type="color" id="customThemeBg" value="'+(customTheme.bg||'#171326')+'"></label><label>کارت<input type="color" id="customThemeCard" value="'+(customTheme.card||'#30264b')+'"></label><label>رنگ اصلی<input type="color" id="customThemeAccent" value="'+(customTheme.accent||'#b197fc')+'"></label><label>متن<input type="color" id="customThemeText" value="'+(customTheme.text||'#f5f0ff')+'"></label></div><button type="button" class="btn btn-primary btn-sm" id="saveCustomTheme">ذخیره تم سفارشی</button></div>';
 h+='</div><div class="theme-stats stat-grid" style="margin-top:14px">';
 h+='<div class="theme-preview" data-preview-theme="'+activeTheme+'" aria-label="پیش‌نمایش پوسته فعال"></div>';
 h+='<div class="stat-grid" style="margin-bottom:0">';
@@ -197,7 +200,9 @@ document.getElementById('setHighContrast').onchange=function(e){
   applyTheme();save();
 };
 document.getElementById('setReduceMotion').onchange=function(e){S.settings.reduceMotion=e.target.checked;save()};
-document.querySelectorAll('[data-app-theme]').forEach(function(btn){btn.onclick=function(){var theme=btn.dataset.appTheme;S.settings.theme=theme;applyTheme();save();renderSettings(c)}});
+function applyCustomTheme(){var ct=S.settings.customTheme||{};var root=document.documentElement;root.style.setProperty('--bg',ct.bg||'#171326');root.style.setProperty('--bg2',ct.bg2||'#241c3a');root.style.setProperty('--card',ct.card||'#30264b');root.style.setProperty('--text',ct.text||'#f5f0ff');root.style.setProperty('--text2',ct.text2||'#c0b3d6');root.style.setProperty('--accent',ct.accent||'#b197fc');root.style.setProperty('--accent2',ct.accent2||'#d0bfff');root.style.setProperty('--accent-glow',ct.glow||'rgba(177,151,252,.22)');}
+document.querySelectorAll('[data-app-theme]').forEach(function(btn){btn.onclick=function(){var theme=btn.dataset.appTheme;S.settings.theme=theme;if(theme==='custom')applyCustomTheme();else document.documentElement.removeAttribute('style');applyTheme();save();renderSettings(c)}});
+var customSave=document.getElementById('saveCustomTheme');if(customSave)customSave.onclick=function(){S.settings.customTheme={bg:document.getElementById('customThemeBg').value,card:document.getElementById('customThemeCard').value,accent:document.getElementById('customThemeAccent').value,text:document.getElementById('customThemeText').value,bg2:document.getElementById('customThemeBg').value, text2:S.settings.customTheme?.text2||'#c0b3d6',accent2:document.getElementById('customThemeAccent').value,glow:'rgba(177,151,252,.22)'};S.settings.theme='custom';applyCustomTheme();save();toast('تم سفارشی ذخیره شد','success');renderSettings(c)};
 // Notifications
 document.getElementById('setNotif').onchange=async function(e){
   if(e.target.checked){
