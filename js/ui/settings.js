@@ -61,6 +61,7 @@ h+='<div class="card" style="margin-bottom:16px"><h3 style="margin-bottom:16px">
 h+='<div style="display:grid;gap:12px;max-width:400px">';
 h+='<div><label style="display:block;font-size:.85rem;color:var(--text2);margin-bottom:4px">زبان مبدأ</label><select class="input" id="setSourceLang">'+langOpts+'</select></div>';
 h+='<div><label style="display:block;font-size:.85rem;color:var(--text2);margin-bottom:4px">زبان مقصد</label><select class="input" id="setTargetLang">'+langOptsTarget+'</select></div>';
+h+='<div><label style="display:block;font-size:.85rem;color:var(--text2);margin-bottom:4px">سرویس ترجمه</label><select class="input" id="setTransProvider"><option value="auto"'+(!s.translationProvider||s.translationProvider==='auto'?' selected':'')+'>خودکار (MyMemory → Google)</option><option value="mymemory"'+(s.translationProvider==='mymemory'?' selected':'')+'>MyMemory</option><option value="google"'+(s.translationProvider==='google'?' selected':'')+'>Google Translate</option></select></div>';
 h+='<div><label style="display:block;font-size:.85rem;color:var(--text2);margin-bottom:4px">سرعت تلفظ</label>';
 h+='<select class="input" id="setSpeechRate"><option value="0.6"'+(s.speechRate===0.6?' selected':'')+'>آهسته</option><option value="0.85"'+(!s.speechRate||s.speechRate===0.85?' selected':'')+'>عادی</option><option value="1"'+(s.speechRate===1?' selected':'')+'>سریع</option><option value="1.3"'+(s.speechRate===1.3?' selected':'')+'>خیلی سریع</option></select></div>';
 h+='<div class="flex" style="margin-top:8px"><label style="font-size:.85rem;color:var(--text2)">🔊 تلفظ خودکار هنگام مرور</label><input type="checkbox" id="setAutoPronounce"'+(s.autoPronounce?' checked':'')+' style="accent-color:var(--accent)"></div>';
@@ -172,6 +173,7 @@ c.innerHTML=h;
 document.getElementById('setSourceLang').onchange=function(e){S.settings.sourceLang=e.target.value;save()};
 document.getElementById('setTargetLang').onchange=function(e){S.settings.targetLang=e.target.value;save()};
 document.getElementById('setSpeechRate').onchange=function(e){S.settings.speechRate=parseFloat(e.target.value);save()};
+document.getElementById('setTransProvider').onchange=function(e){S.settings.translationProvider=e.target.value;save()};
 document.getElementById('setAutoPronounce').onchange=function(e){S.settings.autoPronounce=e.target.checked;save()};
 // Daily goal
 var goalSlider=document.getElementById('setDailyGoal');

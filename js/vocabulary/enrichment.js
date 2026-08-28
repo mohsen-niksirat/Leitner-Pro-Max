@@ -162,30 +162,39 @@ async function fetchTranslation(word,fromLang,toLang){
   return appCacheLookup("trans",word,function(){return fetchTranslationRaw(word,fromLang,toLang)},fromLang||'en',toLang||'fa');
 }
 async function fetchTranslationRaw(word,fromLang,toLang){
-  // 1. MyMemory (primary)
-  try{
-    const langpair=(fromLang||S.settings.sourceLang||'en')+'|'+(toLang||S.settings.targetLang||'fa');
-    const r=await fetchWithRetry(MYMEMORY_API+'?q='+encodeURIComponent(word)+'&langpair='+langpair);
-    if(r.ok){
+  const provider=(S.settings&&S.settings.translationProvider)||'auto';
+  const src=fromLang||S.settings.sourceLang||'en';
+  const tgt=toLang||S.settings.targetLang||'fa';
+  // 1. MyMemory
+  async function tryMyMemory(){
+    try{
+      const langpair=src+'|'+tgt;
+      const r=await fetchWithRetry(MYMEMORY_API+'?q='+encodeURIComponent(word)+'&langpair='+langpair);
+      if(!r.ok)return null;
       const d=await r.json();
       if(d.responseData&&d.responseData.translatedText){
         let t=d.responseData.translatedText;
         if(t.toUpperCase()!==word.toUpperCase())return decodeHtmlEntities(t)}
-    }
-  }catch(e){}
-  // 2. Google gtx fallback (free, CORS-enabled, no hard rate-limit)
-  try{
-    const tgt=toLang||S.settings.targetLang||'fa';
-    const src=fromLang||S.settings.sourceLang||'en';
-    const r=await timedFetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl='+src+'&tl='+tgt+'&dt=t&q='+encodeURIComponent(word));
-    if(!r.ok)return null;
-    const d=await r.json();
-    if(Array.isArray(d)&&d[0]&&d[0][0]&&d[0][0][0]){
-      let t=d[0][0][0];
-      if(t.toUpperCase()===word.toUpperCase())return null;
-      return decodeHtmlEntities(t)}
-    return null
-  }catch(e){return null}}
+      return null
+    }catch(e){return null}}
+  // 2. Google gtx (free, CORS-enabled, no hard rate-limit)
+  async function tryGoogle(){
+    try{
+      const r=await timedFetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl='+src+'&tl='+tgt+'&dt=t&q='+encodeURIComponent(word));
+      if(!r.ok)return null;
+      const d=await r.json();
+      if(Array.isArray(d)&&d[0]&&d[0][0]&&d[0][0][0]){
+        let t=d[0][0][0];
+        if(t.toUpperCase()===word.toUpperCase())return null;
+        return decodeHtmlEntities(t)}
+      return null
+    }catch(e){return null}}
+  if(provider==='google')return tryGoogle();
+  if(provider==='mymemory')return tryMyMemory();
+  // auto: MyMemory first, Google as fallback
+  const result=await tryMyMemory();
+  return result||await tryGoogle();
+}
 
 // Legacy alias
 const fetchPersianTranslation=(w)=>fetchTranslation(w);
