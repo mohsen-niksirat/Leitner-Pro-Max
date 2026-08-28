@@ -77,7 +77,7 @@ c.innerHTML=`<div style="max-width:700px;margin:0 auto">
     <div class="about-feature-grid">${currentHtml}</div>
   </div>
 
-  <div class="card about-version-current" style="margin-bottom:16px;border:2px solid var(--accent)">
+  <div class="card about-legacy-card" style="margin-bottom:16px;display:none">
     <h3 style="margin-bottom:12px;color:var(--accent)">📋 نسخه ۴.۰</h3>
     <div style="display:grid;gap:8px;margin-bottom:16px">
       <div style="padding:10px 14px;background:var(--bg);border-radius:8px;border-right:3px solid var(--success)">
@@ -95,8 +95,8 @@ c.innerHTML=`<div style="max-width:700px;margin:0 auto">
     </div>
   </div>
 
-  <div class="card about-version-current" style="margin-bottom:16px;border:2px solid var(--success)">
-    <h3 style="margin-bottom:12px;color:var(--success)">🆕 ویژگی‌های نسخه ۵.۰</h3>
+  <div class="card about-legacy-card" style="margin-bottom:16px;display:none">
+    <h3 style="margin-bottom:12px;color:var(--success)">🆕 ویژگی‌های قدیمی نسخه ۵.۰</h3>
     <div style="display:grid;gap:8px;margin-bottom:16px">
       <div style="padding:10px 14px;background:var(--bg);border-radius:8px;border-right:3px solid var(--success)">
         <strong style="font-size:.9rem">⚒️ بازطراحی VocabForge به‌صورت Wizard اسلایدی</strong>
@@ -123,7 +123,7 @@ c.innerHTML=`<div style="max-width:700px;margin:0 auto">
         <p style="color:var(--text2);font-size:.8rem;margin-top:4px">منوی «ورود کلمات ← وکب فورج ← خروج / پشتیبان» برای مسیر واضح استخراج و انتقال.</p>
       </div>
     </div>
-  </div>  <div class="card about-version-current" style="margin-bottom:16px;border:2px solid var(--accent)">
+  </div>  <div class="card about-legacy-card" style="margin-bottom:16px;display:none">
     <h3 style="margin-bottom:12px;color:var(--accent)">📋 نسخه ۳.۸.۳</h3>
     <div style="display:grid;gap:8px;margin-bottom:16px">
       <div style="padding:10px 14px;background:var(--bg);border-radius:8px;border-right:3px solid var(--success)">
