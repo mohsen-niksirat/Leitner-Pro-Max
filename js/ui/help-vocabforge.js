@@ -310,13 +310,13 @@ async function vfRun(operation){
         const syns=[...new Set(meanings.flatMap(m=>m.synonyms||[]))].filter(Boolean).slice(0,8);if(syns.length)card.synonyms=syns;
       }
       try{
-        if(!card.antonyms||!card.antonyms.length){const ant=await vfCached('ant:'+key,async()=>{const r=await fetch('https://api.datamuse.com/words?rel_ant='+encodeURIComponent(card.word)+'&max=6');if(!r.ok)return[];const d=await r.json();return Array.isArray(d)?d.filter(x=>x&&x.word).map(x=>x.word):[]});card.antonyms=card.antonyms||[];card.antonyms=[...new Set(card.antonyms.concat(ant))].slice(0,6)}
+        if(!card.antonyms||!card.antonyms.length){const ant=await vfCached('ant:'+key,async()=>{const r=await fetchWithRetry('https://api.datamuse.com/words?rel_ant='+encodeURIComponent(card.word)+'&max=6');if(!r.ok)return[];const d=await r.json();return Array.isArray(d)?d.filter(x=>x&&x.word).map(x=>x.word):[]});card.antonyms=card.antonyms||[];card.antonyms=[...new Set(card.antonyms.concat(ant))].slice(0,6)}
         if(!card.wordFamily||!card.wordFamily.length)card.wordFamily=(getMorphologicalFamily(card.word)||[]).slice(0,8);
         if(!card.collocations||!card.collocations.length){const coll=suggestCollocations(card.word);if(coll&&coll.length)card.collocations=coll.slice(0,6)}
       }catch(e){}
     }
   };
-  const worker=async()=>{while(true){const index=cursor++;if(index>=total)return;const card=selected[index];if(status)status.textContent=(isTrans?'در حال ترجمه: ':'در حال غنی‌سازی: ')+card.word;await processCard(card);done++;const pct=Math.round(done/total*100);if(fill)fill.style.width=pct+'%';if(label)label.textContent=done+'/'+total;}};
+  const worker=async()=>{while(true){const index=cursor++;if(index>=total)return;const card=selected[index];if(status)status.textContent=(isTrans?'در حال ترجمه: ':'در حال غنی‌سازی: ')+card.word;try{await processCard(card)}catch(error){card._vfError='خطای موقت؛ دوباره تلاش کنید';}done++;const pct=Math.round(done/total*100);if(fill)fill.style.width=pct+'%';if(label)label.textContent=done+'/'+total;}};
   await Promise.all(Array.from({length:Math.min(concurrency,total)},worker()));
   vfSaveCards(vfCards());
   if(button)button.disabled=false;
@@ -326,6 +326,7 @@ async function vfRun(operation){
   const missing=isTrans?selected.filter(c=>!c.translation).length:selected.filter(c=>!c.definitions||!c.definitions.length).length;
   const doneStatus=document.getElementById('vfStatus');
   if(doneStatus)doneStatus.textContent='✅ '+(isTrans?'ترجمه':'غنی‌سازی')+' کامل شد ('+(done-missing)+'/'+done+' کلمه)'+(missing?(' — '+missing+' کلمه ناموفق؛ شاید در دیکشنری نباشند. دوباره تلاش کنید'):'');
+  selected.forEach(card=>{if(card._vfError)delete card._vfError});
 }
 function vfRemoveSelected(){
   const selected=new Set(vfCards().filter(card=>vfSelectedIds.has(card.id)).map(card=>card.id));

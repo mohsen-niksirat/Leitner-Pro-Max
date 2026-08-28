@@ -3,6 +3,25 @@
 // ═══════════════════════════════════════════
 const DICT_API='https://api.dictionaryapi.dev/api/v2/entries/en';
 const MYMEMORY_API='https://api.mymemory.translated.net/get';
+const RETRY_MAX=3;
+function retryDelay(attempt,retryAfter){const parsed=Number(retryAfter);return Math.min(8000,Number.isFinite(parsed)&&parsed>0?parsed*1000:400*Math.pow(2,attempt)+Math.round(Math.random()*200))}
+async function fetchWithRetry(url,options){
+  let lastError=null;
+  for(let attempt=0;attempt<=RETRY_MAX;attempt++){
+    try{
+      const response=await fetch(url,options);
+      if(response.ok)return response;
+      const retryable=response.status===408||response.status===425||response.status===429||response.status>=500;
+      if(!retryable||attempt===RETRY_MAX)return response;
+      await new Promise(resolve=>setTimeout(resolve,retryDelay(attempt,response.headers.get('Retry-After'))));
+    }catch(error){
+      lastError=error;
+      if(attempt===RETRY_MAX)throw lastError;
+      await new Promise(resolve=>setTimeout(resolve,retryDelay(attempt)));
+    }
+  }
+  throw lastError||new Error('request failed');
+}
 const LANGUAGES={en:'English',fa:'فارسی',de:'Deutsch',fr:'Français',es:'Español',it:'Italiano',tr:'Türkçe',ar:'العربية',ru:'Русский',pt:'Português',zh:'中文',ja:'日本語',ko:'한국어'};
 
 function normalizeWordLookup(text){
@@ -113,7 +132,7 @@ async function fetchDictionary(word){
 }
 async function fetchDictionaryRaw(word){
   try{
-    const r=await fetch(DICT_API+'/'+encodeURIComponent(word),{headers:{Accept:'application/json'}});
+    const r=await fetchWithRetry(DICT_API+'/'+encodeURIComponent(word),{headers:{Accept:'application/json'}});
     if(!r.ok)return null;
     const data=await r.json();
     if(!Array.isArray(data)||!data[0])return null;
@@ -138,7 +157,7 @@ async function fetchTranslation(word,fromLang,toLang){
 async function fetchTranslationRaw(word,fromLang,toLang){
   try{
     const langpair=(fromLang||S.settings.sourceLang||'en')+'|'+(toLang||S.settings.targetLang||'fa');
-    const r=await fetch(MYMEMORY_API+'?q='+encodeURIComponent(word)+'&langpair='+langpair);
+    const r=await fetchWithRetry(MYMEMORY_API+'?q='+encodeURIComponent(word)+'&langpair='+langpair);
     if(!r.ok)return null;
     const d=await r.json();
     if(d.responseData&&d.responseData.translatedText){
