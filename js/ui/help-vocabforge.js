@@ -289,16 +289,15 @@ async function vfRun(operation){
   const label=document.getElementById(isTrans?'vfTransLabel':'vfEnrichLabel');
   const status=document.getElementById('vfStatus');
   const button=document.getElementById(isTrans?'vfTranslateBtn':'vfEnrichBtn');if(button)button.disabled=true;
-  if(fill)fill.style.width='0%';
-  const total=selected.length;let done=0;
-  for(let i=0;i<total;i++){
-    const card=selected[i];const key=card.word.toLowerCase();
+  if(fill)fill.style.width='0%';  const total=selected.length;let done=0;
+  const concurrency=isTrans?6:4;
+  let cursor=0;
+  const processCard=async card=>{
+    const key=card.word.toLowerCase();
     if(isTrans){const t=await vfCached('trans:'+key,()=>fetchTranslation(card.word));if(t)card.translation=t}
     else{
-      let result=await vfCached('dict:'+key,()=>fetchDictionary(card.word));
-      if(!result){const stems=vfStem(card.word);for(let s=1;s<stems.length;s++){result=await vfCached('dict:'+stems[s],()=>fetchDictionary(stems[s]));if(result){card.baseForm=card.baseForm||stems[s];break}}}
+      let result=await vfCached('dict:'+key,()=>fetchDictionary(card.word));if(!result){const stems=vfStem(card.word);for(let s=1;s<stems.length;s++){result=await vfCached('dict:'+stems[s],()=>fetchDictionary(stems[s]));if(result){card.baseForm=card.baseForm||stems[s];break}}}
       if(result&&(!result.meanings||!result.meanings.length))result=null;
-      // ── Fallback فارسی: Wiktionary فارسی → ترجمه خودکار ──
       if(!result){const faDefs=await vfCached('fadef2:'+key,()=>fetchPersianWiktionaryDefs(card.word));if(faDefs&&faDefs.length){card.definitions=faDefs;card.defSource='fa-wiktionary';card.coreMeaning=card.coreMeaning||faDefs[0]}}
       if(!card.definitions||!card.definitions.length){const autot=await vfCached('trans:'+key,()=>fetchTranslation(card.word));if(autot){card.definitions=[autot];card.defSource='fallback-trans';card.coreMeaning=card.coreMeaning||autot;if(!card.translation)card.translation=autot}}
       if(result){
@@ -316,13 +315,9 @@ async function vfRun(operation){
         if(!card.collocations||!card.collocations.length){const coll=suggestCollocations(card.word);if(coll&&coll.length)card.collocations=coll.slice(0,6)}
       }catch(e){}
     }
-    done++;
-    const pct=Math.round(done/total*100);
-    if(fill)fill.style.width=pct+'%';
-    if(label)label.textContent=done+'/'+total;
-    if(status)status.textContent=(isTrans?'در حال ترجمه ':'در حال غنی‌سازی ')+card.word;
-    if(i<total-1)await new Promise(r=>setTimeout(r,80));
-  }
+  };
+  const worker=async()=>{while(true){const index=cursor++;if(index>=total)return;const card=selected[index];if(status)status.textContent=(isTrans?'در حال ترجمه: ':'در حال غنی‌سازی: ')+card.word;await processCard(card);done++;const pct=Math.round(done/total*100);if(fill)fill.style.width=pct+'%';if(label)label.textContent=done+'/'+total;}};
+  await Promise.all(Array.from({length:Math.min(concurrency,total)},worker()));
   vfSaveCards(vfCards());
   if(button)button.disabled=false;
   if(fill)fill.style.width='100%';
