@@ -330,7 +330,11 @@ async function vfRun(operation){
   const total=selected.length;let done=0,aborted=false;
   const notFound=[];
   if(stopBtn)stopBtn.onclick=()=>{aborted=true};
-  const concurrency=isTrans?6:6;
+  const concurrency=isTrans?((S.settings&&S.settings.vfConcurrency)||6):((S.settings&&S.settings.vfConcurrency)||6);
+  const currentWordEl=document.getElementById('vfCurrentWord');
+  const currentWordText=document.getElementById('vfCurrentWordText');
+  const recentWordsEl=document.getElementById('vfRecentWords');
+  const recentWords=[];
   let cursor=0;
   const processCard=async card=>{
     const key=card.word.toLowerCase();
@@ -360,7 +364,7 @@ async function vfRun(operation){
       if(!card.definitions||!card.definitions.length)notFound.push(card.word);
     }
   };
-  const worker=async()=>{while(true){if(aborted)return;const index=cursor++;if(index>=total)return;const card=selected[index];  if(status)status.textContent=(isTrans?'در حال ترجمه: ':'در حال غنی‌سازی: ')+card.word;try{await processCard(card)}catch(error){card._vfError='خطای موقت؛ دوباره تلاش کنید';notFound.push(card.word)}done++;const pct=Math.round(done/total*100);if(fill)fill.style.width=pct+'%';if(label)label.textContent=done+'/'+total;}};
+  const worker=async()=>{while(true){if(aborted)return;const index=cursor++;if(index>=total)return;const card=selected[index];if(status)status.textContent=(isTrans?'در حال ترجمه: ':'در حال غنی‌سازی: ')+card.word;if(currentWordEl){currentWordEl.style.display='block';currentWordText.textContent=card.word;recentWords.push(card.word);if(recentWords.length>5)recentWords.shift();if(recentWordsEl)recentWordsEl.textContent=' — اخیر: '+recentWords.slice(0,5).join(', ')}try{await processCard(card)}catch(error){card._vfError='خطای موقت؛ دوباره تلاش کنید';notFound.push(card.word)}done++;const pct=Math.round(done/total*100);if(fill)fill.style.width=pct+'%';if(label)label.textContent=done+'/'+total;}};
   await Promise.all(Array.from({length:Math.min(concurrency,total)},worker));
   // Pass 2 (enrich only): antonyms via Datamuse — AFTER all words are done,
   // so pass 1 finishes as fast as possible (matches standalone VocabForge).
@@ -488,6 +492,7 @@ function slideEnrichHTML(){
   const total=vfCards().length;
   return '<div class="card" style="margin-bottom:14px"><h3 style="margin-bottom:6px">۳. غنی‌سازی و ترجمه</h3><p style="font-size:.78rem;color:var(--text2);margin-bottom:10px">هر عملیات در سطر خودش با پیشرفت زنده؛ نتایج کش می‌شوند تا دوباره پردازش نشوند.</p>'+
   '<div class="vf-op-row"><button type="button" class="btn btn-primary" id="vfEnrichBtn">🔍 غنی‌سازی</button><span style="font-size:.72rem;color:var(--text2);min-width:80px">'+enriched+' / '+total+'</span><div class="vf-prog-wrap"><div class="vf-prog-fill" id="vfEnrichFill" style="width:0"></div></div><span class="vf-op-label" id="vfEnrichLabel">0/0</span><span class="vf-op-status" id="vfEnrichStatus" aria-live="polite">آماده</span><button type="button" class="btn btn-danger btn-sm" id="vfEnrichStopBtn" style="display:none">⏹ توقف</button><div id="vfEnrichResult" style="flex-basis:100%"></div></div>'+
+  '<div id="vfCurrentWord" style="display:none;margin:8px 0;padding:8px 12px;border-radius:8px;background:var(--bg2);border:1px solid var(--border);font-size:.8rem"><span style="color:var(--text2)">پردازش:</span> <strong id="vfCurrentWordText" style="color:var(--accent)"></strong><span id="vfRecentWords" style="margin-right:8px;color:var(--text2);font-size:.7rem"></span></div>'+
   '<div class="vf-op-row"><button type="button" class="btn btn-primary" id="vfTranslateBtn">🌐 ترجمه</button><span style="font-size:.72rem;color:var(--text2);min-width:80px">'+translated+' / '+total+'</span><div class="vf-prog-wrap"><div class="vf-prog-fill" id="vfTransFill" style="width:0"></div></div><span class="vf-op-label" id="vfTransLabel">0/0</span><span class="vf-op-status" id="vfTransStatus" aria-live="polite">آماده</span><button type="button" class="btn btn-danger btn-sm" id="vfTransStopBtn" style="display:none">⏹ توقف</button><div id="vfTransResult" style="flex-basis:100%"></div></div>'+
   vfFailedListHtml()+
   '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button type="button" class="btn btn-ghost" id="vfClearCache">🗑 پاک کردن کش</button><button type="button" class="btn btn-primary" id="vfNextBtn3">مرحله بعد ←</button></div></div>';

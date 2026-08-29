@@ -434,4 +434,67 @@ test.describe('VocabForge workflow', () => {
     expect(card.partOfSpeech).toBe('noun');
     expect(faWiktionaryCalls).toBe(0); // fa fallback skipped once wiktionary hit
   });
+
+  test('enrichment speed benchmark: 20 words under 15s with mocked 30ms latency', async ({ page }) => {
+    const WORDS = ['apple','brave','calm','dance','eager','fair','grace','happy','iron','jolly','kind','light','merry','noble','open','proud','quick','rare','smart','tender'];
+    const LATENCY_MS = 30;
+
+    await page.route('**/api.dictionaryapi.dev/**', async (route) => {
+      const url = new URL(route.request().url());
+      const word = decodeURIComponent(url.pathname.split('/').pop() || 'word');
+      await new Promise(r => setTimeout(r, LATENCY_MS));
+      await route.fulfill({ contentType: 'application/json', body: JSON.stringify(dictionaryBody(word)) });
+    });
+    await page.route('**/en.wiktionary.org/**', (route) => route.fulfill({ status: 404, body: '{}' }));
+    await page.route('**/api.datamuse.com/**', async (route) => {
+      await new Promise(r => setTimeout(r, LATENCY_MS));
+      await route.fulfill({ contentType: 'application/json', body: '[]' });
+    });
+    await page.route('**/api.mymemory.translated.net/**', async (route) => {
+      const url = new URL(route.request().url());
+      const word = url.searchParams.get('q') || 'word';
+      await new Promise(r => setTimeout(r, LATENCY_MS));
+      await route.fulfill({ contentType: 'application/json', body: JSON.stringify({ responseData: { translatedText: 'ترجمه ' + word } }) });
+    });
+    await page.route('**/translate.googleapis.com/**', async (route) => {
+      const url = new URL(route.request().url());
+      const word = url.searchParams.get('q') || 'word';
+      await new Promise(r => setTimeout(r, LATENCY_MS));
+      await route.fulfill({ contentType: 'application/json', body: JSON.stringify([[['ترجمه ' + word]]]) });
+    });
+    await page.route('**/fa.wiktionary.org/**', (route) => route.fulfill({ status: 404, body: '{}' }));
+    await page.route('**/fonts.googleapis.com/**', (route) => route.abort());
+    await page.route('**/fonts.gstatic.com/**', (route) => route.abort());
+
+    await page.goto('/');
+    await page.click('#hamBtn');
+    await page.click('[data-tab="vocabforge"]');
+    await expect(page.locator('#vfText')).toBeVisible();
+
+    await page.fill('#vfText', WORDS.join(' '));
+    await page.click('#vfAddText');
+    await expect(page.locator('#vfImportStatus')).toHaveText(WORDS.length + ' کلمه اضافه شد');
+    await page.click('#vfSlide2 #vfSelectAll');
+    await page.click('#vfNextBtn2');
+    await expect(page.locator('.import-step-dot.active')).toHaveText('۳');
+
+    const t0 = Date.now();
+    await page.click('#vfEnrichBtn');
+    await expect(page.locator('#vfEnrichStatus')).toContainText('غنی‌سازی کامل شد');
+    const enrichMs = Date.now() - t0;
+
+    // With 6 concurrent workers and 30ms latency per request,
+    // 20 words should complete well under 15 seconds.
+    expect(enrichMs).toBeLessThan(15000);
+
+    const t1 = Date.now();
+    await page.click('#vfTranslateBtn');
+    await expect(page.locator('#vfTransStatus')).toContainText('ترجمه کامل شد');
+    const transMs = Date.now() - t1;
+    expect(transMs).toBeLessThan(15000);
+
+    // All words should have definitions and translation
+    const allComplete = await page.evaluate(() => vfCards().every(c => c.definitions && c.definitions.length && c.translation));
+    expect(allComplete).toBe(true);
+  });
 });
