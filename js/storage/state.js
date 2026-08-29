@@ -11,7 +11,7 @@ function sanitizeCard(c){
   // Dictionary details
   definitions:Array.isArray(c.definitions)?c.definitions:[],examples:Array.isArray(c.examples)?c.examples:[],synonyms:Array.isArray(c.synonyms)?c.synonyms:[],partOfSpeech:String(c.partOfSpeech||'').trim(),audioUs:String(c.audioUs||'').trim(),audioBr:String(c.audioBr||'').trim(),
   // Rich vocabulary fields
-  coreMeaning:String(c.coreMeaning||'').trim(),collocations:Array.isArray(c.collocations)?c.collocations:[],antonyms:Array.isArray(c.antonyms)?c.antonyms:[],wordFamily:Array.isArray(c.wordFamily)?c.wordFamily:[],note:String(c.note||'').trim(),trap:String(c.trap||'').trim(),tags:Array.isArray(c.tags)?c.tags:[],source:String(c.source||'').trim()}
+  defSource:String(c.defSource||'').trim(),coreMeaning:String(c.coreMeaning||'').trim(),collocations:Array.isArray(c.collocations)?c.collocations:[],antonyms:Array.isArray(c.antonyms)?c.antonyms:[],wordFamily:Array.isArray(c.wordFamily)?c.wordFamily:[],note:String(c.note||'').trim(),trap:String(c.trap||'').trim(),tags:Array.isArray(c.tags)?c.tags:[],source:String(c.source||'').trim()}
 }
 
 function hydrateState(raw){

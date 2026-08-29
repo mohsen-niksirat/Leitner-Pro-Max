@@ -250,7 +250,7 @@ function vfCardRow(card,opts){
   const hasTrans=!!card.translation;const hasDef=!!(card.definitions&&card.definitions.length);
   const complete=hasTrans&&hasDef;
   const warnBorder=!complete&&hasTrans&&!hasDef?'border:1px solid var(--warning);box-shadow:0 0 0 1px var(--warning)':'';
-  const badge=complete?'<span class="badge badge-success">غنی‌شده</span>':(hasTrans&&!hasDef)?'<span class="badge badge-warning">بدون غنی‌سازی</span>':'<span class="badge badge-accent">خام</span>';
+  const badge=hasDef?'<span class="badge badge-success">غنی‌شده</span>':(hasTrans?'<span class="badge badge-warning">بدون غنی‌سازی</span>':'<span class="badge badge-accent">خام</span>');
   const checked=vfSelectedIds.has(card.id);
   const rich=(opts&&opts.rich)?'<div style="margin-top:8px;padding-top:8px;border-top:1px dashed var(--border)">'+vfRichHtml(card)+'</div>':'';
   const perRow=(opts&&opts.actions)?'<div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px"><button type="button" class="btn btn-primary btn-sm" data-vf-dest="words" data-vf-id="'+esc(card.id)+'" '+(complete?'':'disabled')+'>📚 انتقال به کتابخانه</button><button type="button" class="btn btn-success btn-sm" data-vf-dest="longTerm" data-vf-id="'+esc(card.id)+'" '+(complete?'':'disabled')+'>🧠 به حافظه بلندمدت</button><button type="button" class="btn btn-danger btn-sm" data-vf-del="'+esc(card.id)+'">🗑 حذف</button></div>':'';
@@ -287,15 +287,31 @@ async function fetchPersianWiktionaryDefs(word){
   }catch(e){return[]}
 }
 function vfStem(w){
+  // Smart word resolver (same logic as standalone VocabForge):
+  // multi-word → first word, plus morphological suffix stripping with
+  // e-forms (tion→te, ity→e/y, ive→e/d, able→e, ...) for better hits.
   const lower=String(w||'').toLowerCase().trim();
   if(!lower)return[];
-  const stems=[lower];
-  const rexes=[/^(.+)ing$/,/^(.+)ed$/,/^(.+)es$/,/^(.+)s$/,/^(.+)ly$/,/^(.+)er$/,/^(.+)est$/,/^(.+)tion$/,/^(.+)ment$/,/^(.+)ness$/];
-  for(const re of rexes){
-    const m=lower.match(re);
-    if(m&&m[1].length>=3)stems.push(m[1]);
-  }
-  return stems.filter(function(v,i,a){return a.indexOf(v)===i});
+  const variants=[lower];
+  if(lower.includes(' '))variants.push(lower.split(/\s+/)[0]);
+  if(lower.endsWith('ing'))variants.push(lower.slice(0,-3),lower.slice(0,-3)+'e',lower.slice(0,-4));
+  if(lower.endsWith('tion'))variants.push(lower.slice(0,-4)+'te',lower.slice(0,-4)+'t');
+  if(lower.endsWith('ment'))variants.push(lower.slice(0,-4));
+  if(lower.endsWith('ness'))variants.push(lower.slice(0,-4));
+  if(lower.endsWith('ity'))variants.push(lower.slice(0,-3)+'e',lower.slice(0,-3)+'y');
+  if(lower.endsWith('ence'))variants.push(lower.slice(0,-4)+'d');
+  if(lower.endsWith('ance'))variants.push(lower.slice(0,-4)+'e');
+  if(lower.endsWith('ly'))variants.push(lower.slice(0,-2));
+  if(lower.endsWith('ed'))variants.push(lower.slice(0,-2),lower.slice(0,-1));
+  if(lower.endsWith('er'))variants.push(lower.slice(0,-2),lower.slice(0,-2)+'e');
+  if(lower.endsWith('es'))variants.push(lower.slice(0,-2),lower.slice(0,-1));
+  if(lower.endsWith('s')&&!lower.endsWith('ss'))variants.push(lower.slice(0,-1));
+  if(lower.endsWith('ful'))variants.push(lower.slice(0,-3));
+  if(lower.endsWith('ous'))variants.push(lower.slice(0,-3));
+  if(lower.endsWith('ive'))variants.push(lower.slice(0,-3)+'e',lower.slice(0,-3)+'d');
+  if(lower.endsWith('able'))variants.push(lower.slice(0,-4),lower.slice(0,-4)+'e');
+  if(lower.endsWith('ible'))variants.push(lower.slice(0,-4));
+  return[...new Set(variants)].filter(v=>v.length>=2);
 }
 async function vfRun(operation){
   const selected=vfCards().filter(card=>vfSelectedIds.has(card.id));
@@ -323,9 +339,8 @@ async function vfRun(operation){
       let result=await vfCached('dict:'+key,()=>fetchDictionary(card.word));if(!result){const stems=vfStem(card.word).slice(1);for(let i=0;i<stems.length&&!result;i+=4){const chunk=stems.slice(i,i+4);const hits=await Promise.all(chunk.map(s=>vfCached('dict:'+s,()=>fetchDictionary(s))));const idx=hits.findIndex(h=>h&&h.meanings&&h.meanings.length);if(idx>=0){result=hits[idx];card.baseForm=card.baseForm||chunk[idx]}}}
       if(result&&(!result.meanings||!result.meanings.length))result=null;
       // Source 2 (like standalone): Wiktionary REST full definitions for rare words
-      if(!result){const wikiDefs=await vfCached('wiki:'+key,()=>fetchWiktionaryDefinitions(card.word));if(wikiDefs&&wikiDefs.definitions&&wikiDefs.definitions.length){card.definitions=wikiDefs.definitions;card.defSource='wiktionary';card.coreMeaning=card.coreMeaning||wikiDefs.definitions[0];if(!card.examples||!card.examples.length)card.examples=wikiDefs.examples||[];if(!card.partOfSpeech)card.partOfSpeech=wikiDefs.partOfSpeech||''}}
+      if(!result){const wikiDefs=await vfCached('wiki:'+key,()=>fetchWiktionaryDefinitions(card.word));if(wikiDefs&&wikiDefs.definitions&&wikiDefs.definitions.length){result=wikiDefs;card.definitions=wikiDefs.definitions;card.defSource='wiktionary';card.coreMeaning=card.coreMeaning||wikiDefs.definitions[0];if(!card.examples||!card.examples.length)card.examples=wikiDefs.examples||[];if(!card.partOfSpeech)card.partOfSpeech=wikiDefs.partOfSpeech||''}}
       if(!result){const faDefs=await vfCached('fadef2:'+key,()=>fetchPersianWiktionaryDefs(card.word));if(faDefs&&faDefs.length){card.definitions=faDefs;card.defSource='fa-wiktionary';card.coreMeaning=card.coreMeaning||faDefs[0]}}
-      if(!card.definitions||!card.definitions.length){const autot=await vfCached('trans:'+key,()=>fetchTranslation(card.word));if(autot){card.definitions=[autot];card.defSource='fallback-trans';card.coreMeaning=card.coreMeaning||autot;if(!card.translation)card.translation=autot}}
       if(result){
         card.ipa=result.phonetic||card.ipa;card.audioUs=result.audioUs||card.audioUs;card.audioBr=result.audioBr||card.audioBr;
         const meanings=result.meanings||[];
@@ -335,8 +350,10 @@ async function vfRun(operation){
         const exs=[...new Set(meanings.flatMap(m=>m.examples||[]))].filter(Boolean).slice(0,6);if(exs.length)card.examples=exs;
         const syns=[...new Set(meanings.flatMap(m=>m.synonyms||[]))].filter(Boolean).slice(0,8);if(syns.length)card.synonyms=syns;
       }
+      // Fallback translation as last resort — AFTER definitions are set from dict,
+      // so enrich doesn't fetch a translation for every word unnecessarily.
+      if(!card.definitions||!card.definitions.length){const autot=await vfCached('trans:'+key,()=>fetchTranslation(card.word));if(autot){card.definitions=[autot];card.defSource='fallback-trans';card.coreMeaning=card.coreMeaning||autot;if(!card.translation)card.translation=autot}}
       try{
-        if(!card.antonyms||!card.antonyms.length){const ant=await vfCached('ant:'+key,async()=>{const r=await fetchWithRetry('https://api.datamuse.com/words?rel_ant='+encodeURIComponent(card.word)+'&max=6');if(!r.ok)return[];const d=await r.json();return Array.isArray(d)?d.filter(x=>x&&x.word).map(x=>x.word):[]});card.antonyms=card.antonyms||[];card.antonyms=[...new Set(card.antonyms.concat(ant))].slice(0,6)}
         if(!card.wordFamily||!card.wordFamily.length)card.wordFamily=(getMorphologicalFamily(card.word)||[]).slice(0,8);
         if(!card.collocations||!card.collocations.length){const coll=suggestCollocations(card.word);if(coll&&coll.length)card.collocations=coll.slice(0,6)}
       }catch(e){}
@@ -344,7 +361,17 @@ async function vfRun(operation){
     }
   };
   const worker=async()=>{while(true){if(aborted)return;const index=cursor++;if(index>=total)return;const card=selected[index];  if(status)status.textContent=(isTrans?'در حال ترجمه: ':'در حال غنی‌سازی: ')+card.word;try{await processCard(card)}catch(error){card._vfError='خطای موقت؛ دوباره تلاش کنید';notFound.push(card.word)}done++;const pct=Math.round(done/total*100);if(fill)fill.style.width=pct+'%';if(label)label.textContent=done+'/'+total;}};
-  await Promise.all(Array.from({length:Math.min(concurrency,total)},worker()));
+  await Promise.all(Array.from({length:Math.min(concurrency,total)},worker));
+  // Pass 2 (enrich only): antonyms via Datamuse — AFTER all words are done,
+  // so pass 1 finishes as fast as possible (matches standalone VocabForge).
+  if(!isTrans&&!aborted){
+    const needAnt=selected.filter(c=>!c.antonyms||!c.antonyms.length);
+    if(needAnt.length){
+      let antCursor=0;
+      const antWorker=async()=>{while(true){if(aborted)return;const i=antCursor++;if(i>=needAnt.length)return;const card=needAnt[i];try{const ant=await vfCached('ant:'+card.word.toLowerCase(),async()=>{const r=await fetchWithRetry('https://api.datamuse.com/words?rel_ant='+encodeURIComponent(card.word)+'&max=6');if(!r.ok)return[];const d=await r.json();return Array.isArray(d)?d.filter(x=>x&&x.word).map(x=>x.word):[]});card.antonyms=card.antonyms||[];card.antonyms=[...new Set(card.antonyms.concat(ant))].slice(0,6)}catch(e){}}};
+      await Promise.all(Array.from({length:Math.min(6,needAnt.length)},antWorker));
+    }
+  }
   vfSaveCards(vfCards());
   if(button)button.disabled=false;
   if(stopBtn)stopBtn.style.display='none';

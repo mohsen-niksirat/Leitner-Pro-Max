@@ -9,7 +9,7 @@ function createCard(overrides){
     addedDate:new Date().toISOString(),nextReviewDate:null,lastReviewedAt:null,
     stability:0,difficulty:0,elapsedDays:0,scheduledDays:0,
     reps:0,lapses:0,fsrsState:'new',
-    definitions:[],examples:[],synonyms:[],partOfSpeech:'',
+    definitions:[],examples:[],synonyms:[],partOfSpeech:'',defSource:'',
     audioUs:'',audioBr:'',
     coreMeaning:'',collocations:[],antonyms:[],wordFamily:[],
     note:'',trap:'',tags:[],source:''

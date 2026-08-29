@@ -252,6 +252,15 @@ test.describe('VocabForge workflow', () => {
     await page.route('**/fa.wiktionary.org/**', (route) =>
       route.fulfill({ status: 404, contentType: 'application/json', body: '{}' })
     );
+    await page.route('**/translate.googleapis.com/**', async (route) => {
+      const url = new URL(route.request().url());
+      const word = url.searchParams.get('q') || 'word';
+      if (word === 'unknownword') {
+        await route.fulfill({ status: 404, contentType: 'application/json', body: '[]' });
+      } else {
+        await route.fulfill({ contentType: 'application/json', body: JSON.stringify([[['ترجمه ' + word]]]) });
+      }
+    });
     await page.route('**/fonts.googleapis.com/**', (route) => route.abort());
     await page.route('**/fonts.gstatic.com/**', (route) => route.abort());
 
@@ -305,6 +314,124 @@ test.describe('VocabForge workflow', () => {
     expect(allComplete).toBe(true);
 
     // Incomplete section should show success message
-    await expect(page.locator('#vfFailedSection')).toContainText('همه کلمات کامل هستند');
+    await expect(page.locator('#vfFailedSection')).toContainText('همه کلمات غنی‌شده و ترجمه شده‌اند');
+  });
+
+  test('MyMemory circuit breaker falls through to Google after 429', async ({ page }) => {
+    let myMemoryCalls = 0, googleCalls = 0;
+
+    await page.route('**/api.dictionaryapi.dev/**', async (route) => {
+      const url = new URL(route.request().url());
+      const word = decodeURIComponent(url.pathname.split('/').pop() || 'word');
+      await route.fulfill({ contentType: 'application/json', body: JSON.stringify(dictionaryBody(word)) });
+    });
+    await page.route('**/en.wiktionary.org/**', (route) =>
+      route.fulfill({ status: 404, contentType: 'application/json', body: '{}' })
+    );
+    await page.route('**/api.datamuse.com/**', (route) =>
+      route.fulfill({ contentType: 'application/json', body: '[]' })
+    );
+    await page.route('**/fa.wiktionary.org/**', (route) =>
+      route.fulfill({ status: 404, contentType: 'application/json', body: '{}' })
+    );
+    await page.route('**/api.mymemory.translated.net/**', async (route) => {
+      myMemoryCalls++;
+      await route.fulfill({ status: 429, contentType: 'application/json', body: '{}' });
+    });
+    await page.route('**/translate.googleapis.com/**', async (route) => {
+      googleCalls++;
+      const url = new URL(route.request().url());
+      const word = url.searchParams.get('q') || 'word';
+      await route.fulfill({ contentType: 'application/json', body: JSON.stringify([[[`ترجمه ${word}`]]]) });
+    });
+    await page.route('**/fonts.googleapis.com/**', (route) => route.abort());
+    await page.route('**/fonts.gstatic.com/**', (route) => route.abort());
+
+    await page.goto('/');
+    await page.click('#hamBtn');
+    await page.click('[data-tab="vocabforge"]');
+    await expect(page.locator('#vfText')).toBeVisible();
+
+    // First word translate → MyMemory 429 trips the breaker, Google fallback used
+    await page.fill('#vfText', 'alpha');
+    await page.click('#vfAddText');
+    await expect(page.locator('#vfImportStatus')).toHaveText('1 کلمه اضافه شد');
+    await page.click('#vfSlide2 #vfSelectAll');
+    await page.click('#vfNextBtn2');
+    await expect(page.locator('.import-step-dot.active')).toHaveText('۳');
+    await page.click('#vfTranslateBtn');
+    await expect(page.locator('#vfTransStatus')).toContainText('ترجمه کامل شد');
+    expect(myMemoryCalls).toBe(1);
+    expect(googleCalls).toBe(1);
+
+    // Add two more words — breaker (60s cooldown) must skip MyMemory entirely
+    await page.evaluate(() => { vfSetSlide(1); render(); });
+    await page.fill('#vfText', 'bravo charlie');
+    await page.click('#vfAddText');
+    await expect(page.locator('#vfImportStatus')).toHaveText('2 کلمه اضافه شد');
+    await page.click('#vfSlide2 #vfSelectAll');
+    await page.click('#vfNextBtn2');
+    await expect(page.locator('.import-step-dot.active')).toHaveText('۳');
+    await page.click('#vfTranslateBtn');
+    await expect(page.locator('#vfTransStatus')).toContainText('ترجمه کامل شد');
+
+    expect(myMemoryCalls).toBe(1); // no new MyMemory calls
+    expect(googleCalls).toBe(3);   // both new words went straight to Google
+  });
+
+  test('Wiktionary REST definitions used as source 2 for rare words', async ({ page }) => {
+    let faWiktionaryCalls = 0;
+
+    // Rare word: not in dictionaryapi.dev at all
+    await page.route('**/api.dictionaryapi.dev/**', (route) =>
+      route.fulfill({ status: 404, contentType: 'application/json', body: '[]' })
+    );
+    await page.route('**/en.wiktionary.org/**', async (route) => {
+      const url = new URL(route.request().url());
+      const word = decodeURIComponent(url.pathname.split('/').pop() || 'word');
+      await route.fulfill({
+        contentType: 'application/json',
+        body: JSON.stringify({ en: [{ partOfSpeech: 'noun', definitions: [{ definition: `Wiki definition of ${word}`, examples: [`Example with ${word}`] }] }] })
+      });
+    });
+    await page.route('**/api.datamuse.com/**', (route) =>
+      route.fulfill({ contentType: 'application/json', body: '[]' })
+    );
+    await page.route('**/fa.wiktionary.org/**', async (route) => {
+      faWiktionaryCalls++;
+      await route.fulfill({ status: 404, contentType: 'application/json', body: '{}' });
+    });
+    await page.route('**/api.mymemory.translated.net/**', async (route) => {
+      const url = new URL(route.request().url());
+      const word = url.searchParams.get('q') || 'word';
+      await route.fulfill({ contentType: 'application/json', body: JSON.stringify({ responseData: { translatedText: `ترجمه ${word}` } }) });
+    });
+    await page.route('**/translate.googleapis.com/**', (route) =>
+      route.fulfill({ status: 404, contentType: 'application/json', body: '[]' })
+    );
+    await page.route('**/fonts.googleapis.com/**', (route) => route.abort());
+    await page.route('**/fonts.gstatic.com/**', (route) => route.abort());
+
+    await page.goto('/');
+    await page.click('#hamBtn');
+    await page.click('[data-tab="vocabforge"]');
+    await expect(page.locator('#vfText')).toBeVisible();
+
+    await page.fill('#vfText', 'sesquipedalian');
+    await page.click('#vfAddText');
+    await expect(page.locator('#vfImportStatus')).toHaveText('1 کلمه اضافه شد');
+    await page.click('#vfSlide2 #vfSelectAll');
+    await page.click('#vfNextBtn2');
+    await expect(page.locator('.import-step-dot.active')).toHaveText('۳');
+
+    await page.click('#vfEnrichBtn');
+    await expect(page.locator('#vfEnrichStatus')).toContainText('غنی‌سازی کامل شد');
+
+    const card = await page.evaluate(() => vfCards()[0]);
+    expect(card.definitions[0]).toContain('Wiki definition');
+    expect(card.defSource).toBe('wiktionary');
+    expect(card.examples[0]).toContain('Example with');
+    expect(card.partOfSpeech).toBe('noun');
+    expect(faWiktionaryCalls).toBe(0); // fa fallback skipped once wiktionary hit
   });
 });

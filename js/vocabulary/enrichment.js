@@ -58,7 +58,7 @@ function appCacheKey(kind,word,fromLang,toLang){return 'app_cache_'+kind+':'+(fr
 async function appCacheLookup(kind,word,compute,fromLang,toLang){
   const key=appCacheKey(kind,word,fromLang,toLang);
   const now=Date.now();
-  const fresh=value=>value&&typeof value==='object'&&value._cachedAt&&(now-value._cachedAt<APP_CACHE_TTL)?value:null;
+  const fresh=value=>{if(!value||typeof value!=='object'||!value._cachedAt)return null;if(now-value._cachedAt>=APP_CACHE_TTL)return null;if(value.value===null||value.status==='failed')return null;return value};
   if(key in _appCacheMem){const hit=fresh(_appCacheMem[key]);if(hit)return hit.value;delete _appCacheMem[key]}
   if(typeof idbGet==='function'){
     try{const stored=await idbGet(key);const hit=fresh(stored);if(hit){_appCacheMem[key]=stored;return hit.value}}catch(e){}
@@ -66,9 +66,7 @@ async function appCacheLookup(kind,word,compute,fromLang,toLang){
   try{
     const val=await compute();
     if(val!==null&&val!==undefined){const record={_cachedAt:now,value:val};_appCacheMem[key]=record;if(typeof idbPut==='function')try{await idbPut(key,record)}catch(e){};return val}
-  }catch(error){
-    _appCacheMem[key]={_cachedAt:now,value:null,status:'failed',error:String(error&&error.message||error)};
-  }
+  }catch(error){}
   return null;
 }
 function appCacheInvalidate(word){
