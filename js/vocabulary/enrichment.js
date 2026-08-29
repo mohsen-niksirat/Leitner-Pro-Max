@@ -3,9 +3,9 @@
 // ═══════════════════════════════════════════
 const DICT_API='https://api.dictionaryapi.dev/api/v2/entries/en';
 const MYMEMORY_API='https://api.mymemory.translated.net/get';
-const RETRY_MAX=3;
-const FETCH_TIMEOUT_MS=12000; // درخواست‌های معلق نباید جای workerها را برای دقیقه‌ها بگیرند
-function retryDelay(attempt,retryAfter){const parsed=Number(retryAfter);return Math.min(8000,Number.isFinite(parsed)&&parsed>0?parsed*1000:400*Math.pow(2,attempt)+Math.round(Math.random()*200))}
+const RETRY_MAX=1; // کاهش از ۳ به ۱ — کش منفی وجود نداره، retry سریعتر از backoff
+const FETCH_TIMEOUT_MS=8000; // کاهش از ۱۲ به ۸ — جلوگیری از معلق شدن workerها
+function retryDelay(attempt,retryAfter){const parsed=Number(retryAfter);return Math.min(4000,Number.isFinite(parsed)&&parsed>0?parsed*1000:300*Math.pow(2,attempt)+Math.round(Math.random()*100))}
 function timedFetch(url,options,timeoutMs){
   const controller=new AbortController();
   const timer=setTimeout(()=>controller.abort(),timeoutMs||FETCH_TIMEOUT_MS);

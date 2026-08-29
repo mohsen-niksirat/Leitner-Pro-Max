@@ -304,7 +304,8 @@ test.describe('VocabForge workflow', () => {
     // Click retry — should only process incomplete words, not all 3
     dictCallCount = 0;
     await page.click('#vfRetryFailedBtn');
-    await expect(page.locator('#vfEnrichStatus')).toContainText('غنی‌سازی کامل شد');
+    // Wait for retry to fully complete (enrich + translate)
+    await expect(page.locator('#vfFailedSection')).toContainText('همه کلمات غنی‌شده و ترجمه شده‌اند', { timeout: 30000 });
 
     // Only the failed word should have been re-fetched
     expect(dictCallCount).toBe(1);
@@ -312,9 +313,6 @@ test.describe('VocabForge workflow', () => {
     // Verify all words are now complete
     const allComplete = await page.evaluate(() => vfCards().every(c => c.definitions && c.definitions.length && c.translation));
     expect(allComplete).toBe(true);
-
-    // Incomplete section should show success message
-    await expect(page.locator('#vfFailedSection')).toContainText('همه کلمات غنی‌شده و ترجمه شده‌اند');
   });
 
   test('MyMemory circuit breaker falls through to Google after 429', async ({ page }) => {

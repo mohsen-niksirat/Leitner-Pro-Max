@@ -124,11 +124,13 @@ function vfStepDot(n){return 'import-step-dot'+(n===vfSlide?' active':n<vfSlide?
 // کش نتایج غنی‌سازی و ترجمه در IndexedDB — کلیدهای جداگانه در همان leitnerDB
 function vfCacheGet(key){return typeof idbGet==='function'?idbGet('vf_cache_'+key):Promise.resolve(null)}
 function vfCacheSet(key,value){if(typeof idbPut==='function')return idbPut('vf_cache_'+key,value).catch(()=>{});return Promise.resolve(null)}
+const _vfMemCache={}; // in-memory cache — skip IDB for hot path
 async function vfCached(key,compute){
+  if(key in _vfMemCache)return _vfMemCache[key];
   const cached=await vfCacheGet(key);
-  if(cached!=null)return cached;
+  if(cached!=null){_vfMemCache[key]=cached;return cached}
   const value=await compute();
-  if(value!=null&&!(Array.isArray(value)&&!value.length))await vfCacheSet(key,value);
+  if(value!=null&&!(Array.isArray(value)&&!value.length)){_vfMemCache[key]=value;await vfCacheSet(key,value)}
   return value;
 }
 function vfClearCache(){
@@ -330,7 +332,7 @@ async function vfRun(operation){
   const total=selected.length;let done=0,aborted=false;
   const notFound=[];
   if(stopBtn)stopBtn.onclick=()=>{aborted=true};
-  const concurrency=isTrans?((S.settings&&S.settings.vfConcurrency)||6):((S.settings&&S.settings.vfConcurrency)||6);
+  const concurrency=isTrans?((S.settings&&S.settings.vfConcurrency)||10):((S.settings&&S.settings.vfConcurrency)||10);
   const currentWordEl=document.getElementById('vfCurrentWord');
   const currentWordText=document.getElementById('vfCurrentWordText');
   const recentWordsEl=document.getElementById('vfRecentWords');
@@ -340,7 +342,7 @@ async function vfRun(operation){
     const key=card.word.toLowerCase();
     if(isTrans){const t=await vfCached('trans:'+key,()=>fetchTranslation(card.word));if(t)card.translation=t;else notFound.push(card.word)}
     else{
-      let result=await vfCached('dict:'+key,()=>fetchDictionary(card.word));if(!result){const stems=vfStem(card.word).slice(1);for(let i=0;i<stems.length&&!result;i+=4){const chunk=stems.slice(i,i+4);const hits=await Promise.all(chunk.map(s=>vfCached('dict:'+s,()=>fetchDictionary(s))));const idx=hits.findIndex(h=>h&&h.meanings&&h.meanings.length);if(idx>=0){result=hits[idx];card.baseForm=card.baseForm||chunk[idx]}}}
+      let result=await vfCached('dict:'+key,()=>fetchDictionary(card.word));if(!result){const stems=vfStem(card.word).slice(1);if(stems.length){const hits=await Promise.all(stems.map(s=>vfCached('dict:'+s,()=>fetchDictionary(s)).catch(()=>null)));const idx=hits.findIndex(h=>h&&h.meanings&&h.meanings.length);if(idx>=0){result=hits[idx];card.baseForm=card.baseForm||stems[idx]}}}
       if(result&&(!result.meanings||!result.meanings.length))result=null;
       // Source 2 (like standalone): Wiktionary REST full definitions for rare words
       if(!result){const wikiDefs=await vfCached('wiki:'+key,()=>fetchWiktionaryDefinitions(card.word));if(wikiDefs&&wikiDefs.definitions&&wikiDefs.definitions.length){result=wikiDefs;card.definitions=wikiDefs.definitions;card.defSource='wiktionary';card.coreMeaning=card.coreMeaning||wikiDefs.definitions[0];if(!card.examples||!card.examples.length)card.examples=wikiDefs.examples||[];if(!card.partOfSpeech)card.partOfSpeech=wikiDefs.partOfSpeech||''}}
@@ -357,10 +359,6 @@ async function vfRun(operation){
       // Fallback translation as last resort — AFTER definitions are set from dict,
       // so enrich doesn't fetch a translation for every word unnecessarily.
       if(!card.definitions||!card.definitions.length){const autot=await vfCached('trans:'+key,()=>fetchTranslation(card.word));if(autot){card.definitions=[autot];card.defSource='fallback-trans';card.coreMeaning=card.coreMeaning||autot;if(!card.translation)card.translation=autot}}
-      try{
-        if(!card.wordFamily||!card.wordFamily.length)card.wordFamily=(getMorphologicalFamily(card.word)||[]).slice(0,8);
-        if(!card.collocations||!card.collocations.length){const coll=suggestCollocations(card.word);if(coll&&coll.length)card.collocations=coll.slice(0,6)}
-      }catch(e){}
       if(!card.definitions||!card.definitions.length)notFound.push(card.word);
     }
   };
@@ -375,6 +373,8 @@ async function vfRun(operation){
       const antWorker=async()=>{while(true){if(aborted)return;const i=antCursor++;if(i>=needAnt.length)return;const card=needAnt[i];try{const ant=await vfCached('ant:'+card.word.toLowerCase(),async()=>{const r=await fetchWithRetry('https://api.datamuse.com/words?rel_ant='+encodeURIComponent(card.word)+'&max=6');if(!r.ok)return[];const d=await r.json();return Array.isArray(d)?d.filter(x=>x&&x.word).map(x=>x.word):[]});card.antonyms=card.antonyms||[];card.antonyms=[...new Set(card.antonyms.concat(ant))].slice(0,6)}catch(e){}}};
       await Promise.all(Array.from({length:Math.min(6,needAnt.length)},antWorker));
     }
+    // Fast local pass: morphological family + collocations (no network)
+    if(!aborted){for(const card of selected){try{if(!card.wordFamily||!card.wordFamily.length)card.wordFamily=(getMorphologicalFamily(card.word)||[]).slice(0,8);if(!card.collocations||!card.collocations.length){const coll=suggestCollocations(card.word);if(coll&&coll.length)card.collocations=coll.slice(0,6)}}catch(e){}}}
   }
   vfSaveCards(vfCards());
   if(button)button.disabled=false;
