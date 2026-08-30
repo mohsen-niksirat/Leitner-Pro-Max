@@ -21,7 +21,13 @@ tr:hover td{background:var(--card-hover)}
 .review-card{max-width:500px;margin:0 auto;text-align:center;min-height:280px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;perspective:1000px}
 .review-inner{width:100%;min-height:280px;position:relative;transition:transform .6s cubic-bezier(.4,0,.2,1);transform-style:preserve-3d;background:transparent}
 .review-card.flipped .review-inner{transform:rotateY(180deg)}
-.review-face{position:absolute;inset:0;backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:30px;border-radius:var(--radius);background:var(--card);color:var(--text);border:2px solid var(--border);box-shadow:var(--shadow);overflow:hidden}.review-face::before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(135deg,rgba(108,92,231,.10),transparent 45%,rgba(0,184,148,.08));opacity:.9}.review-face>*{position:relative;z-index:1}
+.review-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:30px;border-radius:var(--radius);background:var(--card);color:var(--text);border:2px solid var(--border);box-shadow:var(--shadow);overflow:hidden}.review-face::before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(135deg,rgba(108,92,231,.10),transparent 45%,rgba(0,184,148,.08));opacity:.9}.review-face>*{position:relative;z-index:1}
+/* Mobile WebKit fix: backface-visibility alone is unreliable on iOS Safari.
+   Toggle opacity so the front face truly hides when flipped. */
+.review-card .review-face{opacity:1;transition:opacity .25s ease}
+.review-card .review-back{opacity:0}
+.review-card.flipped .review-face:first-child{opacity:0}
+.review-card.flipped .review-back{opacity:1}
 .review-back{transform:rotateY(180deg);overflow-y:auto;max-height:calc(100vh - 200px);background:var(--card)!important;color:var(--text)!important}.review-back .rb-translation{color:var(--success)}.review-back .rb-section{width:100%;margin:10px 0;padding:10px 12px;border-radius:12px;background:var(--bg);border:1px solid var(--border)}.review-back .rb-section-label{color:var(--accent);font-weight:700;margin-bottom:5px}.review-back .rb-example,.review-back .rb-context{color:var(--text2);line-height:1.8}.review-back .rb-chip{display:inline-block;margin:2px 4px;padding:2px 8px;border-radius:8px;background:var(--accent-glow);color:var(--text)}
 .rating-bar{display:flex;gap:10px;justify-content:center;margin-top:24px;flex-wrap:wrap}
 .quiz-option{width:100%;text-align:center;padding:14px;font-size:1rem;word-break:break-word;min-height:48px;border-radius:12px;transition:all .25s}

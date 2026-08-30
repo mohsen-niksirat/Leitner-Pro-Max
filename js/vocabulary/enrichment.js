@@ -39,11 +39,56 @@ function playAudioUrl(url){
   const a=new Audio(url);
   a.play().catch(()=>{})}
 
-function speakWord(word,lang){
+// Dialect → preferred speechSynthesis voice match patterns
+const PRONUNCIATION_DIALECTS={
+  us:{label:'🇺🇸 آمریکایی',lang:'en-US',patterns:[/-US/i,/en-US/i],audioKey:'audioUs',phoneticKey:'phoneticUs'},
+  uk:{label:'🇬🇧 بریتانیایی',lang:'en-GB',patterns:[/-GB/i,/en-GB/i,/-UK/i],audioKey:'audioBr',phoneticKey:'phoneticBr'},
+  au:{label:'🇦🇺 استرالیایی',lang:'en-AU',patterns:[/-AU/i,/en-AU/i],audioKey:null,phoneticKey:null},
+  in:{label:'🇮🇳 هندی',lang:'en-IN',patterns:[/-IN/i,/en-IN/i],audioKey:null,phoneticKey:null}
+};
+let _voiceCache=null;
+// Warm up voices cache — on Chrome, voices load async via onvoiceschanged
+if(typeof window!=='undefined'&&window.speechSynthesis){
+  try{
+    if('onvoiceschanged'in speechSynthesis&&typeof speechSynthesis.addEventListener==='function'){speechSynthesis.addEventListener('voiceschanged',function(){_voiceCache=null})}
+    else{setTimeout(function(){_voiceCache=null},500)}
+  }catch(e){}
+}
+function getVoicesByDialect(){
+  if(!window.speechSynthesis)return{};
+  if(!_voiceCache||_voiceCache._ts<Date.now()-5000){
+    const voices=speechSynthesis.getVoices();
+    const map={};
+    for(const key in PRONUNCIATION_DIALECTS){
+      const def=PRONUNCIATION_DIALECTS[key];
+      const v=voices.find(v=>def.patterns.some(p=>p.test(v.lang)||p.test(v.name)));
+      if(v)map[key]=v;
+    }
+    map._ts=Date.now();
+    _voiceCache=map;
+  }
+  return _voiceCache;
+}
+
+function speakWord(word,lang,dialect){
   if(!word||!window.speechSynthesis)return;
   window.speechSynthesis.cancel();
+  // If a real audio file exists for this dialect, prefer it over TTS
+  if(dialect&&PRONUNCIATION_DIALECTS[dialect]&&S&&S.cards){
+    const audioKey=PRONUNCIATION_DIALECTS[dialect].audioKey;
+    if(audioKey){
+      const card=S.cards.find(c=>c.word===word);
+      if(card&&card[audioKey]){playAudioUrl(card[audioKey]);return}
+    }
+  }
   const u=new SpeechSynthesisUtterance(word);
-  u.lang=lang||'en-US';u.rate=S&&S.settings&&S.settings.speechRate?S.settings.speechRate:0.85;
+  const d=dialect?PRONUNCIATION_DIALECTS[dialect]:null;
+  if(d){
+    u.lang=d.lang;
+    const vmap=getVoicesByDialect();
+    if(vmap[dialect])u.voice=vmap[dialect];
+  }else{u.lang=lang||'en-US'}
+  u.rate=S&&S.settings&&S.settings.speechRate?S.settings.speechRate:0.85;
   window.speechSynthesis.speak(u)}
 
 function decodeHtmlEntities(str){
