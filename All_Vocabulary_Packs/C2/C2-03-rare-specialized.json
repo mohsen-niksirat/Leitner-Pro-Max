@@ -1,0 +1,2409 @@
+{
+  "id": "C2-03",
+  "name": "واژگان نادر و تخصصی",
+  "description": "واژگان کمیاب، تخصصی و پیشرفته انگلیسی",
+  "level": "C2",
+  "theme": "rare-specialized",
+  "words": [
+    {
+      "word": "abnegate",
+      "translation": "انکار کردن",
+      "example": "He abnegated his rights.",
+      "synonyms": [
+        "renounce",
+        "relinquish"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "abscond",
+      "translation": "فرار کردن",
+      "example": "The thief absconded.",
+      "synonyms": [
+        "flee",
+        "escape"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "abstemious",
+      "translation": "پرهیزکار",
+      "example": "She was abstemious with food.",
+      "synonyms": [
+        "moderate",
+        "temperate"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "acerbic",
+      "translation": "تلخ",
+      "example": "His acerbic wit amused everyone.",
+      "synonyms": [
+        "sharp",
+        "caustic"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "acquiesce",
+      "translation": "تسکین یافتن",
+      "example": "She acquiesced to his demands.",
+      "synonyms": [
+        "comply",
+        "consent"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "admonish",
+      "translation": "پند دادن",
+      "example": "The teacher admonished the students.",
+      "synonyms": [
+        "warn",
+        "reprimand"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "aesthetic",
+      "translation": "زیبایی‌شناختی",
+      "example": "The aesthetic choices enhance beauty.",
+      "synonyms": [
+        "artistic",
+        "tasteful"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "affable",
+      "translation": "خوش‌برخورد",
+      "example": "He was an affable host.",
+      "synonyms": [
+        "friendly",
+        "amiable"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "aggrandize",
+      "translation": "بزرگ نمایی کردن",
+      "example": "He tried to aggrandize himself.",
+      "synonyms": [
+        "enhance",
+        "magnify"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "alacrity",
+      "translation": "شتاب",
+      "example": "She accepted with alacrity.",
+      "synonyms": [
+        "eagerness",
+        "promptness"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "ambiguous",
+      "translation": "ابهام‌آمیز",
+      "example": "The statement was ambiguous.",
+      "synonyms": [
+        "unclear",
+        "vague"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "ameliorate",
+      "translation": "بهبود بخشیدن",
+      "example": "The medicine ameliorated the pain.",
+      "synonyms": [
+        "improve",
+        "enhance"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "anachronism",
+      "translation": "بی‌تناسبی زمانی",
+      "example": "The car is an anachronism.",
+      "synonyms": [
+        "outdated",
+        "old-fashioned"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "anomaly",
+      "translation": "ناهنجاری",
+      "example": "The test revealed an anomaly.",
+      "synonyms": [
+        "irregularity",
+        "deviation"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "antithetical",
+      "translation": "متضاد",
+      "example": "The ideas are antithetical.",
+      "synonyms": [
+        "opposite",
+        "contradictory"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "apocryphal",
+      "translation": "جعلی",
+      "example": "The story is apocryphal.",
+      "synonyms": [
+        "fictitious",
+        "spurious"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "approbation",
+      "translation": "تایید",
+      "example": "The plan received approbation.",
+      "synonyms": [
+        "approval",
+        "commendation"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "arbitrary",
+      "translation": "خودسرانه",
+      "example": "The decision was arbitrary.",
+      "synonyms": [
+        "random",
+        "whimsical"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "arcane",
+      "translation": "رازآلود",
+      "example": "The arcane ritual fascinated them.",
+      "synonyms": [
+        "mysterious",
+        "obscure"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "arduous",
+      "translation": "سخت",
+      "example": "The journey was arduous.",
+      "synonyms": [
+        "difficult",
+        "strenuous"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "articulate",
+      "translation": "سخنور",
+      "example": "She was articulate and eloquent.",
+      "synonyms": [
+        "eloquent",
+        "fluent"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "ascetic",
+      "translation": "زاهد",
+      "example": "The monk lived an ascetic life.",
+      "synonyms": [
+        "austere",
+        "self-denying"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "assiduous",
+      "translation": "پرتلاش",
+      "example": "She was assiduous in her work.",
+      "synonyms": [
+        "diligent",
+        "industrious"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "astute",
+      "translation": "زیرک",
+      "example": "The astute investor prospered.",
+      "synonyms": [
+        "shrewd",
+        "perceptive"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "attenuate",
+      "translation": "تضعیف کردن",
+      "example": "The effect was attenuated.",
+      "synonyms": [
+        "weaken",
+        "diminish"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "audacious",
+      "translation": "جسور",
+      "example": "The audacious plan succeeded.",
+      "synonyms": [
+        "bold",
+        "daring"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "austere",
+      "translation": "ساده و خشن",
+      "example": "The room was austere.",
+      "synonyms": [
+        "severe",
+        "plain"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "avarice",
+      "translation": "حریص بودن",
+      "example": "His avarice knew no bounds.",
+      "synonyms": [
+        "greed",
+        "covetousness"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "banal",
+      "translation": "تکراری",
+      "example": "The dialogue was banal.",
+      "synonyms": [
+        "trite",
+        "commonplace"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "benign",
+      "translation": "خوش‌خیم",
+      "example": "The tumor was benign.",
+      "synonyms": [
+        "harmless",
+        "gentle"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "brevity",
+      "translation": "اختصار",
+      "example": "Brevity is the soul of wit.",
+      "synonyms": [
+        "conciseness",
+        "shortness"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "bucolic",
+      "translation": "روستایی",
+      "example": "The bucolic landscape was peaceful.",
+      "synonyms": [
+        "pastoral",
+        "rural"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "cacophony",
+      "translation": "هیاهو",
+      "example": "The cacophony was unbearable.",
+      "synonyms": [
+        "din",
+        "dissonance"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "calumny",
+      "translation": "افترا",
+      "example": "He was a victim of calumny.",
+      "synonyms": [
+        "slander",
+        "defamation"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "capricious",
+      "translation": "لجباز",
+      "example": "The weather was capricious.",
+      "synonyms": [
+        "fickle",
+        "unpredictable"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "categorical",
+      "translation": "مطلق",
+      "example": "Her denial was categorical.",
+      "synonyms": [
+        "absolute",
+        "unconditional"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "caustic",
+      "translation": "خورنده",
+      "example": "His caustic remarks hurt.",
+      "synonyms": [
+        "sarcastic",
+        "biting"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "censure",
+      "translation": "تنبیه",
+      "example": "The politician was censured.",
+      "synonyms": [
+        "condemn",
+        "criticize"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "cerebral",
+      "translation": "مغزی",
+      "example": "The debate was cerebral.",
+      "synonyms": [
+        "intellectual",
+        "mental"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "cogent",
+      "translation": "موجه",
+      "example": "She made a cogent argument.",
+      "synonyms": [
+        "convincing",
+        "compelling"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "commensurate",
+      "translation": "متناسب",
+      "example": "The salary was commensurate.",
+      "synonyms": [
+        "proportional",
+        "equivalent"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "compendium",
+      "translation": "مجموعه",
+      "example": "The compendium contains all data.",
+      "synonyms": [
+        "collection",
+        "compilation"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "conundrum",
+      "translation": "معمای",
+      "example": "The puzzle presented a conundrum.",
+      "synonyms": [
+        "puzzle",
+        "riddle"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "copious",
+      "translation": "فراوان",
+      "example": "She took copious notes.",
+      "synonyms": [
+        "abundant",
+        "plentiful"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "corpulent",
+      "translation": "چاق",
+      "example": "The corpulent man struggled.",
+      "synonyms": [
+        "obese",
+        "heavy"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "cosmopolitan",
+      "translation": "جهان‌وطن",
+      "example": "She was cosmopolitan.",
+      "synonyms": [
+        "worldly",
+        "sophisticated"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "credulous",
+      "translation": "ساده‌لوح",
+      "example": "The credulous buyer was scammed.",
+      "synonyms": [
+        "gullible",
+        "naive"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "cryptic",
+      "translation": "رموز",
+      "example": "The message was cryptic.",
+      "synonyms": [
+        "mysterious",
+        "enigmatic"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "cursory",
+      "translation": "مختصر",
+      "example": "She gave a cursory glance.",
+      "synonyms": [
+        "superficial",
+        "hasty"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "dearth",
+      "translation": "کمبود",
+      "example": "There was a dearth of talent.",
+      "synonyms": [
+        "shortage",
+        "scarcity"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "debacle",
+      "translation": "فاجعه",
+      "example": "The project was a debacle.",
+      "synonyms": [
+        "failure",
+        "catastrophe"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "decorum",
+      "translation": "نزاکت",
+      "example": "She maintained decorum.",
+      "synonyms": [
+        "propriety",
+        "etiquette"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "deleterious",
+      "translation": "مضر",
+      "example": "Smoking is deleterious.",
+      "synonyms": [
+        "harmful",
+        "damaging"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "denigrate",
+      "translation": "تهمت زدن",
+      "example": "He denigrated her work.",
+      "synonyms": [
+        "disparage",
+        "belittle"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "destitute",
+      "translation": "بدون",
+      "example": "The family was destitute.",
+      "synonyms": [
+        "impoverished",
+        "poor"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "didactic",
+      "translation": "آموزشی",
+      "example": "The didactic story teaches.",
+      "synonyms": [
+        "instructive",
+        "educational"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "diffident",
+      "translation": "کم‌رو",
+      "example": "He was diffident at parties.",
+      "synonyms": [
+        "shy",
+        "timid"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "diligent",
+      "translation": "پرتلاش",
+      "example": "The diligent student excelled.",
+      "synonyms": [
+        "industrious",
+        "hardworking"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "discerning",
+      "translation": "بصیر",
+      "example": "She had discerning taste.",
+      "synonyms": [
+        "perceptive",
+        "astute"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "disseminate",
+      "translation": "انتشار دادن",
+      "example": "The news was disseminated.",
+      "synonyms": [
+        "spread",
+        "circulate"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "ebullient",
+      "translation": "پرانرژی",
+      "example": "Her ebullient personality charmed everyone.",
+      "synonyms": [
+        "exuberant",
+        "enthusiastic"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "eclectic",
+      "translation": "متنوع",
+      "example": "Her taste is eclectic.",
+      "synonyms": [
+        "diverse",
+        "varied"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "effervescent",
+      "translation": "درخشان",
+      "example": "She was effervescent.",
+      "synonyms": [
+        "bubbly",
+        "lively"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "egregious",
+      "translation": "آشکار",
+      "example": "The error was egregious.",
+      "synonyms": [
+        "flagrant",
+        "glaring"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "eloquent",
+      "translation": "فصیح",
+      "example": "Her eloquent speech moved everyone.",
+      "synonyms": [
+        "articulate",
+        "expressive"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "elucidate",
+      "translation": "توضیح دادن",
+      "example": "Can you elucidate that point?",
+      "synonyms": [
+        "clarify",
+        "explain"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "emaciated",
+      "translation": "لاغر",
+      "example": "The emaciated dog was rescued.",
+      "synonyms": [
+        "gaunt",
+        "skeletal"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "embellish",
+      "translation": "تزیین کردن",
+      "example": "She embellished the story.",
+      "synonyms": [
+        "adorn",
+        "exaggerate"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "emulate",
+      "translation": "تقلید کردن",
+      "example": "He emulated his father.",
+      "synonyms": [
+        "imitate",
+        "copy"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "endemic",
+      "translation": "بومی",
+      "example": "The plant is endemic.",
+      "synonyms": [
+        "native",
+        "indigenous"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "enigma",
+      "translation": "راز",
+      "example": "She remains an enigma.",
+      "synonyms": [
+        "mystery",
+        "puzzle"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "ephemeral",
+      "translation": "زودگذر",
+      "example": "Fame is ephemeral.",
+      "synonyms": [
+        "fleeting",
+        "temporary"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "equivocal",
+      "translation": "ابهام‌آمیز",
+      "example": "His response was equivocal.",
+      "synonyms": [
+        "ambiguous",
+        "vague"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "erudite",
+      "translation": "دانشمند",
+      "example": "The erudite scholar impressed.",
+      "synonyms": [
+        "learned",
+        "scholarly"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "esoteric",
+      "translation": "رازآلود",
+      "example": "The esoteric knowledge fascinated.",
+      "synonyms": [
+        "obscure",
+        "arcane"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "exacerbate",
+      "translation": "تشدید کردن",
+      "example": "The delay exacerbated the problem.",
+      "synonyms": [
+        "worsen",
+        "aggravate"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "exemplary",
+      "translation": "نمونه",
+      "example": "Her conduct was exemplary.",
+      "synonyms": [
+        "model",
+        "outstanding"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "exonerate",
+      "translation": "تبرئه کردن",
+      "example": "DNA evidence exonerated him.",
+      "synonyms": [
+        "acquit",
+        "clear"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "exquisite",
+      "translation": "ظریف",
+      "example": "The exquisite design was admired.",
+      "synonyms": [
+        "delicate",
+        "refined"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "extraneous",
+      "translation": "بی‌ربط",
+      "example": "Remove extraneous details.",
+      "synonyms": [
+        "irrelevant",
+        "unnecessary"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "facetious",
+      "translation": "شوخ",
+      "example": "His facetious comments annoyed.",
+      "synonyms": [
+        "jocular",
+        "flippant"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "fastidious",
+      "translation": "挑剔",
+      "example": "She was fastidious about details.",
+      "synonyms": [
+        "particular",
+        "fussy"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "fervent",
+      "translation": "پرشور",
+      "example": "He was a fervent supporter.",
+      "synonyms": [
+        "passionate",
+        "ardent"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "flagrant",
+      "translation": "آشکار",
+      "example": "It was a flagrant violation.",
+      "synonyms": [
+        "glaring",
+        "blatant"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "fortuitous",
+      "translation": "اتفاقی",
+      "example": "A fortuitous meeting changed her life.",
+      "synonyms": [
+        "lucky",
+        "accidental"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "frugal",
+      "translation": "صرفه‌جو",
+      "example": "She was frugal with money.",
+      "synonyms": [
+        "thrifty",
+        "economical"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "furtive",
+      "translation": "پنهانی",
+      "example": "He cast a furtive glance.",
+      "synonyms": [
+        "secretive",
+        "sneaky"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "garrulous",
+      "translation": "پرحرف",
+      "example": "The garrulous neighbor talked endlessly.",
+      "synonyms": [
+        "talkative",
+        "chatty"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "grandiloquent",
+      "translation": "مبالغه‌آمیز",
+      "example": "His grandiloquent speech amused.",
+      "synonyms": [
+        "pompous",
+        "bombastic"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "hapless",
+      "translation": "بدبخت",
+      "example": "The hapless victim suffered.",
+      "synonyms": [
+        "unfortunate",
+        "unlucky"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "iconoclast",
+      "translation": "شکستن بت",
+      "example": "The iconoclast challenged traditions.",
+      "synonyms": [
+        "rebel",
+        "nonconformist"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "idiosyncratic",
+      "translation": "عجیب",
+      "example": "His idiosyncratic style was unique.",
+      "synonyms": [
+        "peculiar",
+        "eccentric"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "impeccable",
+      "translation": "بی‌نقص",
+      "example": "Her taste was impeccable.",
+      "synonyms": [
+        "flawless",
+        "perfect"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "impervious",
+      "translation": "نفوذناپذیر",
+      "example": "He was impervious to criticism.",
+      "synonyms": [
+        "immune",
+        "resistant"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "implacable",
+      "translation": "سازش‌ناپذیر",
+      "example": "She was implacable.",
+      "synonyms": [
+        "unyielding",
+        "relentless"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "implicit",
+      "translation": "ضمنی",
+      "example": "There was an implicit threat.",
+      "synonyms": [
+        "implied",
+        "unspoken"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "inchoate",
+      "translation": "نابالغ",
+      "example": "The idea was inchoate.",
+      "synonyms": [
+        "undeveloped",
+        "nascent"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "incisive",
+      "translation": "تیز",
+      "example": "Her incisive analysis impressed.",
+      "synonyms": [
+        "sharp",
+        "penetrating"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "incongruous",
+      "translation": "نامتناسب",
+      "example": "The result was incongruous.",
+      "synonyms": [
+        "inconsistent",
+        "dissonant"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "indigent",
+      "translation": "فقیر",
+      "example": "The indigent family needed help.",
+      "synonyms": [
+        "impoverished",
+        "needy"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "inexorable",
+      "translation": "تسلیم‌ناپذیر",
+      "example": "The inexorable march continued.",
+      "synonyms": [
+        "relentless",
+        "unstoppable"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "ingenuous",
+      "translation": "صادق",
+      "example": "Her ingenuous smile charmed.",
+      "synonyms": [
+        "naive",
+        "candid"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "innocuous",
+      "translation": "بی‌ضرر",
+      "example": "The comment seemed innocuous.",
+      "synonyms": [
+        "harmless",
+        "inoffensive"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "insidious",
+      "translation": "خزنده",
+      "example": "The insidious disease progressed.",
+      "synonyms": [
+        "stealthy",
+        "treacherous"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "insipid",
+      "translation": "بی‌مزه",
+      "example": "The soup was insipid.",
+      "synonyms": [
+        "bland",
+        "tasteless"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "intransigent",
+      "translation": "سرسخت",
+      "example": "He was intransigent.",
+      "synonyms": [
+        "unyielding",
+        "stubborn"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "inundate",
+      "translation": "غرق کردن",
+      "example": "We were inundated with requests.",
+      "synonyms": [
+        "overwhelm",
+        "flood"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "irascible",
+      "translation": "عصبانی",
+      "example": "The irascible man yelled.",
+      "synonyms": [
+        "irritable",
+        "short-tempered"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "languid",
+      "translation": "بی‌حال",
+      "example": "She gave a languid smile.",
+      "synonyms": [
+        "lazy",
+        "lethargic"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "laudable",
+      "translation": "ستودنی",
+      "example": "Her efforts were laudable.",
+      "synonyms": [
+        "praiseworthy",
+        "commendable"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "lucid",
+      "translation": "شفاف",
+      "example": "Her lucid explanation helped.",
+      "synonyms": [
+        "clear",
+        "coherent"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "magnanimous",
+      "translation": "بزرگوار",
+      "example": "The magnanimous gesture was appreciated.",
+      "synonyms": [
+        "generous",
+        "noble"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "mellifluous",
+      "translation": "شیرین",
+      "example": "Her mellifluous voice soothed.",
+      "synonyms": [
+        "sweet",
+        "melodious"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "meticulous",
+      "translation": "دقیق",
+      "example": "She was meticulous about details.",
+      "synonyms": [
+        "thorough",
+        "careful"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "mundane",
+      "translation": "عادی",
+      "example": "The mundane task bored her.",
+      "synonyms": [
+        "ordinary",
+        "boring"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "negligent",
+      "translation": "بی‌مبالات",
+      "example": "The negligent driver caused an accident.",
+      "synonyms": [
+        "careless",
+        "remiss"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "nefarious",
+      "translation": "شرور",
+      "example": "The nefarious plot was foiled.",
+      "synonyms": [
+        "wicked",
+        "evil"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "obsequious",
+      "translation": "چاپلوس",
+      "example": "The obsequious servant annoyed.",
+      "synonyms": [
+        "servile",
+        "fawning"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "obstreperous",
+      "translation": "لجوج",
+      "example": "The obstreperous child refused.",
+      "synonyms": [
+        "unruly",
+        "noisy"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "ostentatious",
+      "translation": "rift",
+      "example": "His ostentatious display was criticized.",
+      "synonyms": [
+        "showy",
+        "pretentious"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "parsimonious",
+      "translation": "بخیل",
+      "example": "The parsimonious man hoarded.",
+      "synonyms": [
+        "stingy",
+        "miserly"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "patronize",
+      "translation": "tmq",
+      "example": "Don't patronize me.",
+      "synonyms": [
+        "condescend",
+        "belittle"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "pejorative",
+      "translation": "توهین‌آمیز",
+      "example": "The term is pejorative.",
+      "synonyms": [
+        "derogatory",
+        "disparaging"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "penchant",
+      "translation": "گرایش",
+      "example": "She has a penchant for art.",
+      "synonyms": [
+        "liking",
+        "inclination"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "perfidious",
+      "translation": "خیانتکار",
+      "example": "The perfidious ally betrayed.",
+      "synonyms": [
+        "treacherous",
+        "disloyal"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "perfunctory",
+      "translation": "روتین",
+      "example": "He gave a perfunctory nod.",
+      "synonyms": [
+        "mechanical",
+        "superficial"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "perspicacious",
+      "translation": "بصیر",
+      "example": "The perspicacious judge saw through.",
+      "synonyms": [
+        "perceptive",
+        "astute"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "pertinacious",
+      "translation": "پایدار",
+      "example": "Her pertinacious effort succeeded.",
+      "synonyms": [
+        "persistent",
+        "tenacious"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "petulant",
+      "translation": "لجوج",
+      "example": "The petulant child cried.",
+      "synonyms": [
+        "peevish",
+        "irritable"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "phlegmatic",
+      "translation": "سرد",
+      "example": "His phlegmatic response annoyed.",
+      "synonyms": [
+        "calm",
+        "unemotional"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "placid",
+      "translation": "آرام",
+      "example": "The placid lake reflected.",
+      "synonyms": [
+        "calm",
+        "tranquil"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "pompous",
+      "translation": "خودبزرگ‌بین",
+      "example": "The pompous speech bored.",
+      "synonyms": [
+        "arrogant",
+        "pretentious"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "pragmatic",
+      "translation": "عملگرا",
+      "example": "Her pragmatic approach worked.",
+      "synonyms": [
+        "practical",
+        "realistic"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "precarious",
+      "translation": "شکننده",
+      "example": "The precarious balance was maintained.",
+      "synonyms": [
+        "unstable",
+        "risky"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "precocious",
+      "translation": "زودرس",
+      "example": "The precocious child read early.",
+      "synonyms": [
+        "advanced",
+        "gifted"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "prescient",
+      "translation": "آینده‌نگر",
+      "example": "Her prescient advice helped.",
+      "synonyms": [
+        "prophetic",
+        "farsighted"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "pristine",
+      "translation": "بکر",
+      "example": "The pristine beach was beautiful.",
+      "synonyms": [
+        "immaculate",
+        "spotless"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "prodigal",
+      "translation": "اسراف‌کار",
+      "example": "The prodigal son returned.",
+      "synonyms": [
+        "wasteful",
+        "extravagant"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "prodigious",
+      "translation": "عظیم",
+      "example": "Her prodigious talent amazed.",
+      "synonyms": [
+        "enormous",
+        "remarkable"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "prolific",
+      "translation": "پربار",
+      "example": "The prolific author wrote much.",
+      "synonyms": [
+        "productive",
+        "fertile"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "propitious",
+      "translation": "favorable",
+      "example": "The timing was propitious.",
+      "synonyms": [
+        "favorable",
+        "auspicious"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "prosaic",
+      "translation": "عادی",
+      "example": "The prosaic answer disappointed.",
+      "synonyms": [
+        "mundane",
+        "ordinary"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "pulchritude",
+      "translation": "زیبایی",
+      "example": "Her pulchritude was admired.",
+      "synonyms": [
+        "beauty",
+        "attractiveness"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "pugnacious",
+      "translation": "ستیزه‌جو",
+      "example": "The pugnacious fighter won.",
+      "synonyms": [
+        "combative",
+        "aggressive"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "quixotic",
+      "translation": "آرمان‌گرا",
+      "example": "His quixotic quest failed.",
+      "synonyms": [
+        "idealistic",
+        "impractical"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "recondite",
+      "translation": "عمیق",
+      "example": "The recondite text puzzled.",
+      "synonyms": [
+        "obscure",
+        "esoteric"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "refulgent",
+      "translation": "درخشان",
+      "example": "The refulgent sun shone.",
+      "synonyms": [
+        "radiant",
+        "brilliant"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "remonstrate",
+      "translation": "اعتراض کردن",
+      "example": "She remonstrated with him.",
+      "synonyms": [
+        "protest",
+        "object"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "reprobate",
+      "translation": "بی‌ادب",
+      "example": "The reprobate was scolded.",
+      "synonyms": [
+        "scoundrel",
+        "rogue"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "sagacious",
+      "translation": "خرامند",
+      "example": "The sagacious leader guided.",
+      "synonyms": [
+        "wise",
+        "shrewd"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "salubrious",
+      "translation": "سالم",
+      "example": "The salubrious climate helped.",
+      "synonyms": [
+        "healthy",
+        "wholesome"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "sanguine",
+      "translation": "خوش‌بین",
+      "example": "She remained sanguine.",
+      "synonyms": [
+        "optimistic",
+        "hopeful"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "scurrilous",
+      "translation": "تهمت‌آمیز",
+      "example": "The scurrilous article was published.",
+      "synonyms": [
+        "defamatory",
+        "abusive"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "sedulous",
+      "translation": "پرتلاش",
+      "example": "The sedulous worker succeeded.",
+      "synonyms": [
+        "diligent",
+        "industrious"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "serendipitous",
+      "translation": "شانسی",
+      "example": "A serendipitous meeting occurred.",
+      "synonyms": [
+        "lucky",
+        "fortuitous"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "soporific",
+      "translation": "خواب‌آور",
+      "example": "The soporific lecture bored.",
+      "synonyms": [
+        "sleep-inducing",
+        "drowsy"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "specious",
+      "translation": "ظاهری",
+      "example": "The specious argument deceived.",
+      "synonyms": [
+        "misleading",
+        "fallacious"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "spurious",
+      "translation": "جعلی",
+      "example": "The spurious claims were dismissed.",
+      "synonyms": [
+        "false",
+        "counterfeit"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "stolid",
+      "translation": "بی‌احساس",
+      "example": "The stolid man showed no emotion.",
+      "synonyms": [
+        "unemotional",
+        "impassive"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "strident",
+      "translation": "گوشخراش",
+      "example": "Her strident voice irritated.",
+      "synonyms": [
+        "harsh",
+        "shrill"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "substantiate",
+      "translation": "اثبات کردن",
+      "example": "She substantiated her claim.",
+      "synonyms": [
+        "verify",
+        "confirm"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "succinct",
+      "translation": "مختصر",
+      "example": "Her succinct summary helped.",
+      "synonyms": [
+        "concise",
+        "brief"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "superfluous",
+      "translation": "اضافی",
+      "example": "Remove superfluous words.",
+      "synonyms": [
+        "unnecessary",
+        "redundant"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "supplant",
+      "translation": "جایگزین کردن",
+      "example": "The new system supplanted.",
+      "synonyms": [
+        "replace",
+        "displace"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "surreptitious",
+      "translation": "پنهانی",
+      "example": "The surreptitious glance was noticed.",
+      "synonyms": [
+        "secret",
+        "clandestine"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "sycophant",
+      "translation": "چاپلوس",
+      "example": "The sycophant flattered.",
+      "synonyms": [
+        "flatterer",
+        "toady"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "taciturn",
+      "translation": "کم‌حرف",
+      "example": "The taciturn man rarely spoke.",
+      "synonyms": [
+        "quiet",
+        "reserved"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "tenacious",
+      "translation": "محکم",
+      "example": "Her tenacious effort paid off.",
+      "synonyms": [
+        "persistent",
+        "determined"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "trepidation",
+      "translation": "ترس",
+      "example": "She entered with trepidation.",
+      "synonyms": [
+        "fear",
+        "anxiety"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "truculent",
+      "translation": "ستیزه‌جو",
+      "example": "The truculent fighter attacked.",
+      "synonyms": [
+        "aggressive",
+        "combative"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "turpitude",
+      "translation": "رذالت",
+      "example": "Moral turpitude was alleged.",
+      "synonyms": [
+        "wickedness",
+        "depravity"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "ubiquitous",
+      "translation": "همه‌جا",
+      "example": "Smartphones are ubiquitous.",
+      "synonyms": [
+        "omnipresent",
+        "pervasive"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "umbrage",
+      "translation": "لطف",
+      "example": "He took umbrage at the remark.",
+      "synonyms": [
+        "offense",
+        "resentment"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "unctuous",
+      "translation": "چرب",
+      "example": "His unctuous manner annoyed.",
+      "synonyms": [
+        "oily",
+        "smarmy"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "vicissitude",
+      "translation": "تغییر",
+      "example": "Life's vicissitudes taught him.",
+      "synonyms": [
+        "change",
+        "fluctuation"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "vociferous",
+      "translation": "پرسروصدا",
+      "example": "The vociferous crowd protested.",
+      "synonyms": [
+        "loud",
+        "clamorous"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "winsome",
+      "translation": "جذاب",
+      "example": "Her winsome smile charmed.",
+      "synonyms": [
+        "charming",
+        "delightful"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "xenophobia",
+      "translation": "بیگانه‌هراسی",
+      "example": "Xenophobia is harmful.",
+      "synonyms": [
+        "foreigner hatred",
+        "intolerance"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "zealous",
+      "translation": "پرشور",
+      "example": "The zealous supporter campaigned.",
+      "synonyms": [
+        "enthusiastic",
+        "fervent"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "zenith",
+      "translation": "اوج",
+      "example": "He reached the zenith.",
+      "synonyms": [
+        "peak",
+        "summit"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "zeal",
+      "translation": "شوق",
+      "example": "Her zeal was admirable.",
+      "synonyms": [
+        "passion",
+        "fervor"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "abrogate",
+      "translation": "لغو کردن",
+      "example": "The law was abrogated.",
+      "synonyms": [
+        "repeal",
+        "annul"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "acrimony",
+      "translation": "تلخی",
+      "example": "The debate was full of acrimony.",
+      "synonyms": [
+        "bitterness",
+        "hostility"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "anathema",
+      "translation": "نفرین",
+      "example": "The idea was anathema to her.",
+      "synonyms": [
+        "abomination",
+        "curse"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "antediluvian",
+      "translation": "قدیمی",
+      "example": "His antediluvian views were outdated.",
+      "synonyms": [
+        "ancient",
+        "archaic"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "apologist",
+      "translation": "مدافع",
+      "example": "The apologist defended the policy.",
+      "synonyms": [
+        "defender",
+        "champion"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "apposite",
+      "translation": "مناسب",
+      "example": "Her apposite remark helped.",
+      "synonyms": [
+        "relevant",
+        "pertinent"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "arraign",
+      "translation": "اتهام زدن",
+      "example": "The suspect was arraigned.",
+      "synonyms": [
+        "charge",
+        "indict"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "asperity",
+      "translation": "تلخی",
+      "example": "He spoke with asperity.",
+      "synonyms": [
+        "harshness",
+        "severity"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "bellicose",
+      "translation": "جنگ‌طلب",
+      "example": "The bellicose leader threatened.",
+      "synonyms": [
+        "aggressive",
+        "combative"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "berate",
+      "translation": "سرزنش کردن",
+      "example": "She berated him publicly.",
+      "synonyms": [
+        "scold",
+        "reprimand"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "bolster",
+      "translation": "تقویت کردن",
+      "example": "The evidence bolstered her case.",
+      "synonyms": [
+        "strengthen",
+        "support"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "candor",
+      "translation": "صراحت",
+      "example": "Her candor was refreshing.",
+      "synonyms": [
+        "honesty",
+        "frankness"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "capitulate",
+      "translation": "تسلیم شدن",
+      "example": "He capitulated under pressure.",
+      "synonyms": [
+        "surrender",
+        "yield"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "chicanery",
+      "translation": "ترفند",
+      "example": "Political chicanery was exposed.",
+      "synonyms": [
+        "trickery",
+        "deception"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "clandestine",
+      "translation": "مخفی",
+      "example": "The clandestine meeting occurred.",
+      "synonyms": [
+        "secret",
+        "covert"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "clemency",
+      "translation": "رحم",
+      "example": "He begged for clemency.",
+      "synonyms": [
+        "mercy",
+        "leniency"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "cognizant",
+      "translation": "آگاه",
+      "example": "She was cognizant of the risks.",
+      "synonyms": [
+        "aware",
+        "conscious"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "concomitant",
+      "translation": "همراه",
+      "example": "The concomitant effects were noted.",
+      "synonyms": [
+        "accompanying",
+        "attendant"
+      ],
+      "tags": [
+        "rare"
+      ]
+    },
+    {
+      "word": "obdurate",
+      "translation": "سرسخت",
+      "example": "The obdurate child refused.",
+      "synonyms": [
+        "stubborn",
+        "unyielding"
+      ],
+      "tags": [
+        "rare"
+      ]
+    }
+  ]
+}

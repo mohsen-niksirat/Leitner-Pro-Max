@@ -1,0 +1,3067 @@
+{
+  "name": "سلامت و پزشکی",
+  "description": "۱۰۰ کلمه درباره سلامت، بیماری، دارو و بیمارستان — سطح A2",
+  "category": "A2 — پایه",
+  "level": "A2",
+  "packId": "A2-03",
+  "words": [
+    {
+      "word": "accident",
+      "translation": "تصادف، حادثه",
+      "ipa": "/ˈæksɪdənt/",
+      "partOfSpeech": "noun",
+      "example": "He had a car accident last week.",
+      "definitions": [
+        "an unexpected event that causes injury or damage"
+      ],
+      "synonyms": [
+        "crash",
+        "mishap"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "car accident",
+        "by accident",
+        "serious accident"
+      ],
+      "wordFamily": [
+        "accidental (adj)",
+        "accidentally (adv)"
+      ],
+      "coreMeaning": "حادثه غیرمنتظره که باعث آسیب می‌شود",
+      "note": "با by accident یعنی «تصادفاً» و با on purpose (عمداً) مقابل است",
+      "trap": "حرف اضافه by accident است نه with accident",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "ambulance",
+      "translation": "آمبولانس",
+      "ipa": "/ˈæmbjələns/",
+      "partOfSpeech": "noun",
+      "example": "Call an ambulance — someone is hurt!",
+      "definitions": [
+        "a vehicle for taking sick or injured people to hospital"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "call an ambulance",
+        "ambulance arrives",
+        "ambulance service"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "وسیله نقلیه برای انتقال بیماران و مصدومان به بیمارستان",
+      "note": "حرف اضافه call an ambulance است (با call)",
+      "trap": "تلفظ: تأکید روی هجای اول است نه آخر",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "appointment",
+      "translation": "قرار ملاقات، نوبت",
+      "ipa": "/əˈpɔɪntmənt/",
+      "partOfSpeech": "noun",
+      "example": "I have a doctor's appointment at 3 p.m.",
+      "definitions": [
+        "a scheduled meeting, especially with a doctor"
+      ],
+      "synonyms": [
+        "meeting",
+        "booking"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "make an appointment",
+        "doctor's appointment",
+        "cancel an appointment"
+      ],
+      "wordFamily": [
+        "appoint (v)"
+      ],
+      "coreMeaning": "نوبت یا قرار ملاقات از قبل تنظیم‌شده",
+      "note": "با make (ساختن) یا cancel (لغو) استفاده می‌شود",
+      "trap": "با do یا take استفاده نکنید؛ make an appointment صحیح است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "bandage",
+      "translation": "باند، پانسمان",
+      "ipa": "/ˈbændɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "The nurse put a bandage on his arm.",
+      "definitions": [
+        "a strip of cloth used to cover a wound"
+      ],
+      "synonyms": [
+        "dressing",
+        "wrap"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "put on a bandage",
+        "change a bandage",
+        "bandage a wound"
+      ],
+      "wordFamily": [
+        "bandage (v)"
+      ],
+      "coreMeaning": "نوار پارچه‌ای برای پوشاندن زخم",
+      "note": "هم اسم و هم فعل است: to bandage a wound",
+      "trap": "با band (نوار موسیقی) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "bleed",
+      "translation": "خونریزی کردن",
+      "ipa": "/bliːd/",
+      "partOfSpeech": "verb",
+      "example": "Your finger is bleeding — put pressure on it.",
+      "definitions": [
+        "to lose blood from the body"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bleed heavily",
+        "bleed to death",
+        "stop bleeding"
+      ],
+      "wordFamily": [
+        "blood (n)",
+        "bleeding (n/adj)"
+      ],
+      "coreMeaning": "از دست دادن خون از بدن",
+      "note": "گذشته bled و گذشته کامل bled است",
+      "trap": "شکل گذشته bleed نیست؛ bled است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "breathe",
+      "translation": "نفس کشیدن",
+      "ipa": "/briːð/",
+      "partOfSpeech": "verb",
+      "example": "Breathe deeply and relax.",
+      "definitions": [
+        "to take air into the lungs and let it out"
+      ],
+      "synonyms": [
+        "inhale",
+        "exhale"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "breathe deeply",
+        "breathe fresh air",
+        "hard to breathe"
+      ],
+      "wordFamily": [
+        "breath (n)",
+        "breathing (n)"
+      ],
+      "coreMeaning": "هوا را به داخل ریه کشیدن و بیرون دادن",
+      "note": "breath (اسم /breθ/) با breathe (فعل /briːð/) فرق دارد",
+      "trap": "اسم breath بدون e و با /θ/ است؛ فعل breathe با e و با /ð/ است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "capsule",
+      "translation": "کپسول",
+      "ipa": "/ˈkæpsəl/",
+      "partOfSpeech": "noun",
+      "example": "Take two capsules with water after meals.",
+      "definitions": [
+        "a small container with medicine inside, swallowed whole"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "take a capsule",
+        "gelatin capsule",
+        "capsule form"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نوعی دارو که در پوشش کوچک قابل بلع است",
+      "note": "با قرص (tablet) فرق دارد؛ کپسول معمولاً نرم‌تر است",
+      "trap": "capsule با capture (گرفتن) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "check-up",
+      "translation": "معاینه پزشکی، چکاپ",
+      "ipa": "/ˈtʃek ʌp/",
+      "partOfSpeech": "noun",
+      "example": "You should have a check-up every year.",
+      "definitions": [
+        "a general medical examination to check your health"
+      ],
+      "synonyms": [
+        "examination",
+        "physical"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "have a check-up",
+        "regular check-up",
+        "annual check-up"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "معاینه عمومی برای بررسی وضعیت سلامت",
+      "note": "معمولاً با have استفاده می‌شود: have a check-up",
+      "trap": "نوشته‌شده با خط تیره است: check-up نه checkup",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "chill",
+      "translation": "سرماخوردگی خفیف، لرز",
+      "ipa": "/tʃɪl/",
+      "partOfSpeech": "noun",
+      "example": "I think I'm getting a chill — I feel cold.",
+      "definitions": [
+        "a mild illness caused by being cold; a feeling of coldness"
+      ],
+      "synonyms": [
+        "shiver",
+        "cold spell"
+      ],
+      "antonyms": [
+        "warmth",
+        "heat"
+      ],
+      "collocations": [
+        "catch a chill",
+        "feel a chill",
+        "chill out"
+      ],
+      "wordFamily": [
+        "chilly (adj)",
+        "chilling (adj)"
+      ],
+      "coreMeaning": "احساس سرما یا بیماری خفیف ناشی از سرما",
+      "note": "chill out هم به معنای آرام شدن است (عامیانه)",
+      "trap": "chill (لرز) با cold (سرد) فرق دارد؛ chill بیشتر حس لرز است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "clinic",
+      "translation": "درمانگاه، کلینیک",
+      "ipa": "/ˈklɪnɪk/",
+      "partOfSpeech": "noun",
+      "example": "She went to the clinic for a blood test.",
+      "definitions": [
+        "a place where people go for medical treatment, smaller than a hospital"
+      ],
+      "synonyms": [
+        "health center"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go to the clinic",
+        "health clinic",
+        "walk-in clinic"
+      ],
+      "wordFamily": [
+        "clinical (adj)"
+      ],
+      "coreMeaning": "محل ارائه خدمات پزشکی سرپایی",
+      "note": "کلینیک معمولاً کوچک‌تر از بیمارستان است و بستری ندارد",
+      "trap": "clinic با hospital فرق دارد؛ hospital بخش بستری دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "cough",
+      "translation": "سرفه کردن، سرفه",
+      "ipa": "/kɔːf/",
+      "partOfSpeech": "verb/noun",
+      "example": "He has a bad cough — he should see a doctor.",
+      "definitions": [
+        "to push air out of the throat with a sudden noise; the act of doing this"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "have a cough",
+        "cough syrup",
+        "dry cough",
+        "cough up"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "بیرون راندن ناگهانی هوا از گلو",
+      "note": "cough syrup شربت سرفه است",
+      "trap": "gh در cough مثل f تلفظ می‌شود /kɔːf/ نه /kɒɡ/",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "cure",
+      "translation": "درمان، معالجه",
+      "ipa": "/kjʊr/",
+      "partOfSpeech": "noun/verb",
+      "example": "Scientists are looking for a cure for cancer.",
+      "definitions": [
+        "a treatment that makes an illness go away; to make someone healthy again"
+      ],
+      "synonyms": [
+        "remedy",
+        "treatment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "find a cure",
+        "cure a disease",
+        "no cure for"
+      ],
+      "wordFamily": [
+        "curable (adj)",
+        "incurable (adj)"
+      ],
+      "coreMeaning": "درمان قطعی یک بیماری",
+      "note": "cure درمان کامل است؛ treatment فقط درمان (ممکن است کامل نباشد)",
+      "trap": "cure (درمان) با care (مراقبت) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "dentist",
+      "translation": "دندانپزشک",
+      "ipa": "/ˈdentɪst/",
+      "partOfSpeech": "noun",
+      "example": "I visit the dentist twice a year.",
+      "definitions": [
+        "a doctor who treats problems with teeth"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go to the dentist",
+        "dentist appointment",
+        "dentist's office"
+      ],
+      "wordFamily": [
+        "dental (adj)",
+        "dentistry (n)"
+      ],
+      "coreMeaning": "پزشک متخصص درمان مشکلات دندان",
+      "note": "حرف اضافه go to the dentist است",
+      "trap": "dentist با doctor فرق دارد؛ dentist فقط دندان‌پزشک است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "diet",
+      "translation": "رژیم غذایی",
+      "ipa": "/ˈdaɪət/",
+      "partOfSpeech": "noun",
+      "example": "A healthy diet includes lots of vegetables.",
+      "definitions": [
+        "the food that a person usually eats; a special plan of eating to lose weight or stay healthy"
+      ],
+      "synonyms": [
+        "nutrition",
+        "eating plan"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "healthy diet",
+        "go on a diet",
+        "balanced diet",
+        "diet plan"
+      ],
+      "wordFamily": [
+        "dietary (adj)"
+      ],
+      "coreMeaning": "برنامه یا عادت غذایی",
+      "note": "هم به معنای عادت غذایی و هم رژیم لاغری استفاده می‌شود",
+      "trap": "go on a diet یعنی رژیم گرفتن؛ diet به تنهایی فقط یعنی غذایی که می‌خورید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "dizzy",
+      "translation": "سرگیجه داشتن، گیج",
+      "ipa": "/ˈdɪzi/",
+      "partOfSpeech": "adjective",
+      "example": "I feel dizzy when I stand up too fast.",
+      "definitions": [
+        "feeling unsteady, as if everything is spinning"
+      ],
+      "synonyms": [
+        "lightheaded",
+        "faint"
+      ],
+      "antonyms": [
+        "steady",
+        "clear-headed"
+      ],
+      "collocations": [
+        "feel dizzy",
+        "get dizzy",
+        "dizzy spell"
+      ],
+      "wordFamily": [
+        "dizziness (n)"
+      ],
+      "coreMeaning": "احساس گیجی و عدم تعادل",
+      "note": "معمولاً با feel استفاده می‌شود: feel dizzy",
+      "trap": "dizzy (گیج) با busy (مشغول) قافیه نیستند؛ تلفظ متفاوت است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "dose",
+      "translation": "دوز، مقدار مصرف دارو",
+      "ipa": "/doʊs/",
+      "partOfSpeech": "noun",
+      "example": "Take the correct dose — two pills, three times a day.",
+      "definitions": [
+        "the amount of medicine to be taken at one time"
+      ],
+      "synonyms": [
+        "amount",
+        "dosage"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "correct dose",
+        "overdose",
+        "daily dose",
+        "dose of medicine"
+      ],
+      "wordFamily": [
+        "dosage (n)",
+        "overdose (n/v)"
+      ],
+      "coreMeaning": "مقدار مشخص دارو برای هر بار مصرف",
+      "note": "overdose (مصرف بیش از حد) از همین کلمه ساخته شده",
+      "trap": "dose با does (فعل do در سوم شخص) اشتباه نگیرید؛ تلفظ یکسان است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "emergency",
+      "translation": "اورژانس، فوریت پزشکی",
+      "ipa": "/ɪˈmɜːrdʒənsi/",
+      "partOfSpeech": "noun",
+      "example": "In an emergency, call 911 immediately.",
+      "definitions": [
+        "a serious, unexpected situation that needs immediate action"
+      ],
+      "synonyms": [
+        "crisis"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "emergency room",
+        "emergency services",
+        "in an emergency",
+        "emergency exit"
+      ],
+      "wordFamily": [
+        "emergent (adj)"
+      ],
+      "coreMeaning": "وضعیت بحرانی و فوری که نیاز به اقدام سریع دارد",
+      "note": "emergency room (ER) بخش اورژانس بیمارستان است",
+      "trap": "جمع: emergencies (تبدیل y به i و اضافه کردن es)",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "examine",
+      "translation": "معاینه کردن، بررسی کردن",
+      "ipa": "/ɪɡˈzæmɪn/",
+      "partOfSpeech": "verb",
+      "example": "The doctor examined the patient carefully.",
+      "definitions": [
+        "to look at someone or something closely to find problems or information"
+      ],
+      "synonyms": [
+        "inspect",
+        "check"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "examine a patient",
+        "closely examine",
+        "examine the evidence"
+      ],
+      "wordFamily": [
+        "examination (n)",
+        "examiner (n)"
+      ],
+      "coreMeaning": "با دقت بررسی کردن یا معاینه کردن",
+      "note": "examination هم اسم آن است و هم به امتحان گفته می‌شود",
+      "trap": "examine با exam (امتحان) هم‌خانواده است اما معنای متفاوتی دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "exercise",
+      "translation": "ورزش، تمرین",
+      "ipa": "/ˈeksərsaɪz/",
+      "partOfSpeech": "noun/verb",
+      "example": "Regular exercise is important for your health.",
+      "definitions": [
+        "physical activity to stay healthy; to do physical activity"
+      ],
+      "synonyms": [
+        "workout",
+        "training"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "do exercise",
+        "take exercise",
+        "exercise regularly",
+        "physical exercise"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فعالیت بدنی برای حفظ سلامت",
+      "note": "هم اسم و هم فعل است: do exercise / exercise every day",
+      "trap": "exercise با practice (تمرین ذهنی/حرفه‌ای) فرق دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "faint",
+      "translation": "غش کردن، ضعف",
+      "ipa": "/feɪnt/",
+      "partOfSpeech": "verb/adjective",
+      "example": "She felt faint because she hadn't eaten all day.",
+      "definitions": [
+        "to suddenly become unconscious; weak and about to lose consciousness"
+      ],
+      "synonyms": [
+        "pass out",
+        "black out"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "feel faint",
+        "faint from heat",
+        "nearly faint"
+      ],
+      "wordFamily": [
+        "faintness (n)"
+      ],
+      "coreMeaning": "از حال رفتن یا نزدیک به بیهوشی بودن",
+      "note": "pass out عامیانه‌تر و faint رسمی‌تر است",
+      "trap": "faint (غش) با paint (رنگ) فقط یک حرف فرق دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "fatigue",
+      "translation": "خستگی شدید",
+      "ipa": "/fəˈtiːɡ/",
+      "partOfSpeech": "noun",
+      "example": "Chronic fatigue can be a sign of illness.",
+      "definitions": [
+        "extreme tiredness, especially after long effort or illness"
+      ],
+      "synonyms": [
+        "exhaustion",
+        "weariness"
+      ],
+      "antonyms": [
+        "energy",
+        "vitality"
+      ],
+      "collocations": [
+        "chronic fatigue",
+        "mental fatigue",
+        "fatigue sets in"
+      ],
+      "wordFamily": [
+        "fatigued (adj)"
+      ],
+      "coreMeaning": "خستگی مفرط و طولانی‌مدت",
+      "note": "fatigue شدیدتر از tired است و معمولاً ناشی از بیماری یا کار زیاد",
+      "trap": "fatigue فرانسوی‌ریشه است؛ تلفظ /fəˈtiːɡ/ است نه /ˈfætɪɡ/",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "fever",
+      "translation": "تب، تب‌دار بودن",
+      "ipa": "/ˈfiːvər/",
+      "partOfSpeech": "noun",
+      "example": "The child has a high fever — 39 degrees.",
+      "definitions": [
+        "a body temperature that is higher than normal, caused by illness"
+      ],
+      "synonyms": [
+        "temperature"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "have a fever",
+        "high fever",
+        "fever goes down",
+        "run a fever"
+      ],
+      "wordFamily": [
+        "feverish (adj)"
+      ],
+      "coreMeaning": "بالا رفتن دمای بدن بر اثر بیماری",
+      "note": "have a fever صحیح است نه get a fever (هرچند get a fever هم شنیده می‌شود)",
+      "trap": "fever با temperature (دمای بدن) مترادف است اما temperature معنای عمومی‌تر دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "flu",
+      "translation": "آنفلوانزا",
+      "ipa": "/fluː/",
+      "partOfSpeech": "noun",
+      "example": "She stayed home because she had the flu.",
+      "definitions": [
+        "a common infectious illness that causes fever, headache, and body pain"
+      ],
+      "synonyms": [
+        "influenza"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "have the flu",
+        "catch the flu",
+        "flu season",
+        "flu shot"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "بیماری عفونی شایع با تب و درد بدن",
+      "note": "همیشه با the است: the flu",
+      "trap": "flu (آنفلوانزا) با flew (پرواز کردن، گذشته fly) تلفظ یکسان دارند",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "headache",
+      "translation": "سردرد",
+      "ipa": "/ˈhedeɪk/",
+      "partOfSpeech": "noun",
+      "example": "I have a terrible headache — do you have any painkillers?",
+      "definitions": [
+        "a pain in the head"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "have a headache",
+        "bad headache",
+        "headache tablets"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "درد در ناحیه سر",
+      "note": "headache قابل شمارش است: a headache / headaches",
+      "trap": "با have استفاده می‌شود نه feel: I have a headache (نه I feel a headache)",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "heal",
+      "translation": "بهبود یافتن، التیام یافتن",
+      "ipa": "/hiːl/",
+      "partOfSpeech": "verb",
+      "example": "The wound took two weeks to heal.",
+      "definitions": [
+        "to become healthy again; to make a wound or injury better"
+      ],
+      "synonyms": [
+        "recover",
+        "mend"
+      ],
+      "antonyms": [
+        "worsen"
+      ],
+      "collocations": [
+        "heal a wound",
+        "heal quickly",
+        "wound heals"
+      ],
+      "wordFamily": [
+        "healing (n/adj)",
+        "healer (n)"
+      ],
+      "coreMeaning": "بهبود یافتن زخم یا بیماری",
+      "note": "heal بیشتر درباره زخم و جراحت است؛ recover بیشتر درباره بیماری",
+      "trap": "heal (بهبود) با heel (پاشنه پا) تلفظ یکسان دارند",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "hospital",
+      "translation": "بیمارستان",
+      "ipa": "/ˈhɒspɪtəl/",
+      "partOfSpeech": "noun",
+      "example": "She was taken to hospital after the accident.",
+      "definitions": [
+        "a place where sick or injured people receive medical treatment and stay overnight"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go to hospital",
+        "in hospital",
+        "hospital bed",
+        "hospital ward"
+      ],
+      "wordFamily": [
+        "hospitalize (v)"
+      ],
+      "coreMeaning": "محل درمان و بستری بیماران و مصدومان",
+      "note": "در بریتانیایی بدون the: in hospital؛ در آمریکایی با the: in the hospital",
+      "trap": "hospital با hospice (مرکز نگهداری بیماران لاعلاج) فرق دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "illness",
+      "translation": "بیماری",
+      "ipa": "/ˈɪlnəs/",
+      "partOfSpeech": "noun",
+      "example": "His illness lasted for three weeks.",
+      "definitions": [
+        "a disease or period of sickness"
+      ],
+      "synonyms": [
+        "disease",
+        "sickness",
+        "condition"
+      ],
+      "antonyms": [
+        "health"
+      ],
+      "collocations": [
+        "serious illness",
+        "mental illness",
+        "recover from an illness"
+      ],
+      "wordFamily": [
+        "ill (adj)"
+      ],
+      "coreMeaning": "وضعیت بیمار بودن",
+      "note": "illness قابل شمارش است؛ disease هم قابل شمارش و هم غیرقابل شمارش",
+      "trap": "illness (بیماری) با wellness (سلامتی) مقابل هم هستند",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "infection",
+      "translation": "عفونت",
+      "ipa": "/ɪnˈfekʃən/",
+      "partOfSpeech": "noun",
+      "example": "The wound got infected and developed an infection.",
+      "definitions": [
+        "a disease caused by bacteria or viruses entering the body"
+      ],
+      "synonyms": [
+        "contamination"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "get an infection",
+        "ear infection",
+        "chest infection",
+        "fight infection"
+      ],
+      "wordFamily": [
+        "infect (v)",
+        "infectious (adj)",
+        "infected (adj)"
+      ],
+      "coreMeaning": "ورود و رشد میکروب‌ها در بدن",
+      "note": "infectious یعنی واگیردار؛ infected یعنی عفونی شده",
+      "trap": "infection (عفونت) با injection (تزریق) فقط یک حرف فرق دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "injection",
+      "translation": "تزریق، آمپول",
+      "ipa": "/ɪnˈdʒekʃən/",
+      "partOfSpeech": "noun",
+      "example": "The nurse gave him an injection in the arm.",
+      "definitions": [
+        "putting medicine into the body using a needle"
+      ],
+      "synonyms": [
+        "shot",
+        "jab"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "give an injection",
+        "have an injection",
+        "painful injection"
+      ],
+      "wordFamily": [
+        "inject (v)"
+      ],
+      "coreMeaning": "ورود دارو به بدن با سوزن",
+      "note": "shot عامیانه آمریکایی و jab عامیانه بریتانیایی است",
+      "trap": "injection (تزریق) با infection (عفونت) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "injury",
+      "translation": "آسیب، جراحت",
+      "ipa": "/ˈɪndʒəri/",
+      "partOfSpeech": "noun",
+      "example": "He suffered a serious knee injury.",
+      "definitions": [
+        "physical harm or damage to the body"
+      ],
+      "synonyms": [
+        "wound",
+        "harm",
+        "damage"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "suffer an injury",
+        "serious injury",
+        "head injury",
+        "injury time"
+      ],
+      "wordFamily": [
+        "injure (v)",
+        "injured (adj)"
+      ],
+      "coreMeaning": "آسیب جسمانی به بدن",
+      "note": "injured صفت به معنای آسیب‌دیده است",
+      "trap": "جمع: injuries (تبدیل y به i و اضافه کردن es)",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "medicine",
+      "translation": "دارو، دوا",
+      "ipa": "/ˈmedɪsən/",
+      "partOfSpeech": "noun",
+      "example": "Take this medicine twice a day with food.",
+      "definitions": [
+        "a substance used to treat or prevent disease"
+      ],
+      "synonyms": [
+        "medication",
+        "drug",
+        "remedy"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take medicine",
+        "medicine cabinet",
+        "traditional medicine"
+      ],
+      "wordFamily": [
+        "medical (adj)",
+        "medication (n)"
+      ],
+      "coreMeaning": "ماده‌ای برای درمان یا پیشگیری از بیماری",
+      "note": "medicine هم به معنای دارو و هم علم پزشکی است",
+      "trap": "medicine غیرقابل شمارش است (نه a medicine) مگر انواع مختلف باشد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "nausea",
+      "translation": "تهوع، حالت تهوع",
+      "ipa": "/ˈnɔːziə/",
+      "partOfSpeech": "noun",
+      "example": "The medicine can cause nausea and dizziness.",
+      "definitions": [
+        "the feeling that you are going to vomit"
+      ],
+      "synonyms": [
+        "sickness",
+        "queasiness"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "feel nausea",
+        "cause nausea",
+        "morning nausea"
+      ],
+      "wordFamily": [
+        "nauseous (adj)",
+        "nauseate (v)"
+      ],
+      "coreMeaning": "احساس نزدیک به استفراغ",
+      "note": "nauseous صفت آن است: I feel nauseous",
+      "trap": "nausea تلفظ سختی دارد: /ˈnɔːziə/ نه /ˈnɔːsɪə/",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "operation",
+      "translation": "عمل جراحی",
+      "ipa": "/ˌɒpəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The operation on his knee was successful.",
+      "definitions": [
+        "a medical procedure done by a surgeon, usually cutting the body"
+      ],
+      "synonyms": [
+        "surgery",
+        "procedure"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "have an operation",
+        "perform an operation",
+        "major operation"
+      ],
+      "wordFamily": [
+        "operate (v)",
+        "operator (n)"
+      ],
+      "coreMeaning": "اقدام جراحی روی بدن بیمار",
+      "note": "have an operation یعنی عمل شدن؛ perform an operation یعنی عمل کردن (توسط جراح)",
+      "trap": "operation معنای عمومی‌تر هم دارد (عملیات)؛ در پزشکی فقط جراحی",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "pain",
+      "translation": "درد",
+      "ipa": "/peɪn/",
+      "partOfSpeech": "noun",
+      "example": "I have a pain in my back.",
+      "definitions": [
+        "the feeling you have when part of your body hurts"
+      ],
+      "synonyms": [
+        "ache",
+        "soreness",
+        "discomfort"
+      ],
+      "antonyms": [
+        "relief",
+        "comfort"
+      ],
+      "collocations": [
+        "in pain",
+        "feel pain",
+        "pain relief",
+        "chest pain"
+      ],
+      "wordFamily": [
+        "painful (adj)",
+        "painfully (adv)",
+        "painkiller (n)"
+      ],
+      "coreMeaning": "احساس ناراحتی جسمانی در اثر آسیب یا بیماری",
+      "note": "painkiller مسکن (کشنده درد) است",
+      "trap": "pain (درد) با pane (شیشه پنجره) تلفظ یکسان دارند",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "painkiller",
+      "translation": "مسکن، ضد درد",
+      "ipa": "/ˈpeɪnkɪlər/",
+      "partOfSpeech": "noun",
+      "example": "Take a painkiller if the headache doesn't go away.",
+      "definitions": [
+        "a medicine that reduces or stops pain"
+      ],
+      "synonyms": [
+        "analgesic",
+        "pain reliever"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take a painkiller",
+        "strong painkiller",
+        "over-the-counter painkiller"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "دارویی که درد را کاهش می‌دهد یا از بین می‌برد",
+      "note": "over-the-counter painkiller مسکن بدون نسخه است",
+      "trap": "painkiller ترکیبی از pain + killer است؛ killer به معنای کشنده ولی اینجا یعنی از بین‌برنده درد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "patient",
+      "translation": "بیمار، مریض",
+      "ipa": "/ˈpeɪʃənt/",
+      "partOfSpeech": "noun",
+      "example": "The doctor is seeing a patient right now.",
+      "definitions": [
+        "a person who is receiving medical treatment"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "see a patient",
+        "patient care",
+        "hospital patient"
+      ],
+      "wordFamily": [
+        "patience (n)"
+      ],
+      "coreMeaning": "شخصی که تحت درمان پزشکی است",
+      "note": "patient هم به معنای بیمار و هم صبور (adj) است؛ تلفظ متفاوت",
+      "trap": "patient (اسم /ˈpeɪʃənt/) با patient (صفت /ˈpeɪʃənt/) تلفظ یکسان دارند اما معنا متفاوت",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "pharmacy",
+      "translation": "داروخانه",
+      "ipa": "/ˈfɑːrməsi/",
+      "partOfSpeech": "noun",
+      "example": "You can buy this medicine at the pharmacy.",
+      "definitions": [
+        "a shop where medicines are sold; the science of preparing medicines"
+      ],
+      "synonyms": [
+        "drugstore",
+        "chemist's"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go to the pharmacy",
+        "pharmacy counter",
+        "local pharmacy"
+      ],
+      "wordFamily": [
+        "pharmacist (n)"
+      ],
+      "coreMeaning": "محل فروش دارو و محصولات بهداشتی",
+      "note": "در آمریکا drugstore و در بریتانیا chemist's هم گفته می‌شود",
+      "trap": "pharmacy با farm (مزرعه) تلفظ متفاوت دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "pill",
+      "translation": "قرص",
+      "ipa": "/pɪl/",
+      "partOfSpeech": "noun",
+      "example": "Take one pill every morning before breakfast.",
+      "definitions": [
+        "a small, round piece of medicine that you swallow"
+      ],
+      "synonyms": [
+        "tablet",
+        "capsule"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take a pill",
+        "sleeping pill",
+        "birth control pill"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "داروی کوچک گرد برای بلعیدن",
+      "note": "pill معمولاً گرد و کوچک است؛ tablet معمولاً صاف و بزرگ‌تر",
+      "trap": "pill با peel (پوست کندن) تلفظ متفاوت دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "prescribe",
+      "translation": "تجویز کردن",
+      "ipa": "/prɪˈskraɪb/",
+      "partOfSpeech": "verb",
+      "example": "The doctor prescribed some antibiotics for me.",
+      "definitions": [
+        "to say what medicine a sick person should have"
+      ],
+      "synonyms": [
+        "recommend"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "prescribe medicine",
+        "prescribe a treatment",
+        "prescribe medication"
+      ],
+      "wordFamily": [
+        "prescription (n)"
+      ],
+      "coreMeaning": "پزشک دارو یا درمانی را برای بیمار مشخص کند",
+      "note": "prescription نسخه پزشک است",
+      "trap": "prescribe با describe (توصیف کردن) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "prescription",
+      "translation": "نسخه پزشک",
+      "ipa": "/prɪˈskrɪpʃən/",
+      "partOfSpeech": "noun",
+      "example": "You need a prescription to buy this medicine.",
+      "definitions": [
+        "a doctor's written order for medicine"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "write a prescription",
+        "get a prescription",
+        "prescription medicine",
+        "on prescription"
+      ],
+      "wordFamily": [
+        "prescribe (v)"
+      ],
+      "coreMeaning": "دستور کتبی پزشک برای تهیه دارو",
+      "note": "prescription medicine دارویی است که بدون نسخه نمی‌توان خرید",
+      "trap": "prescription با description (توصیف) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "recover",
+      "translation": "بهبود یافتن، خوب شدن",
+      "ipa": "/rɪˈkʌvər/",
+      "partOfSpeech": "verb",
+      "example": "She recovered from the flu after a week.",
+      "definitions": [
+        "to become well again after an illness or injury"
+      ],
+      "synonyms": [
+        "heal",
+        "recuperate"
+      ],
+      "antonyms": [
+        "relapse",
+        "worsen"
+      ],
+      "collocations": [
+        "recover from",
+        "fully recover",
+        "recover quickly"
+      ],
+      "wordFamily": [
+        "recovery (n)"
+      ],
+      "coreMeaning": "پس از بیماری یا آسیب، سلامت خود را بازیافتن",
+      "note": "recovery اسم آن است: make a recovery",
+      "trap": "recover با cover (پوشاندن) اشتباه نگیرید؛ re- پیشوند دوباره است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "remedy",
+      "translation": "درمان، چاره",
+      "ipa": "/ˈremədi/",
+      "partOfSpeech": "noun",
+      "example": "Honey and lemon is a good home remedy for a sore throat.",
+      "definitions": [
+        "a treatment or medicine that cures or relieves a problem"
+      ],
+      "synonyms": [
+        "cure",
+        "treatment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "home remedy",
+        "natural remedy",
+        "find a remedy"
+      ],
+      "wordFamily": [
+        "remedial (adj)"
+      ],
+      "coreMeaning": "راه درمان یا چاره‌ای برای رفع مشکل",
+      "note": "home remedy درمان خانگی است",
+      "trap": "remedy با remember (به یاد آوردن) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "rest",
+      "translation": "استراحت",
+      "ipa": "/rest/",
+      "partOfSpeech": "noun/verb",
+      "example": "The doctor told me to get some rest.",
+      "definitions": [
+        "relaxation and sleep; to stop working and relax"
+      ],
+      "synonyms": [
+        "relaxation",
+        "break"
+      ],
+      "antonyms": [
+        "work",
+        "activity"
+      ],
+      "collocations": [
+        "get some rest",
+        "take a rest",
+        "bed rest",
+        "rest up"
+      ],
+      "wordFamily": [
+        "restful (adj)",
+        "restless (adj)"
+      ],
+      "coreMeaning": "آرامش و استراحت برای بازیابی انرژی",
+      "note": "bed rest استراحت مطلق در تخت است",
+      "trap": "rest (استراحت) با rest (باقی‌مانده) هم‌ریشه‌اند اما معنا متفاوت",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "rash",
+      "translation": "جوش، بثورات پوستی",
+      "ipa": "/ræʃ/",
+      "partOfSpeech": "noun",
+      "example": "She developed a rash on her arms after eating shrimp.",
+      "definitions": [
+        "red, irritated spots on the skin caused by illness or allergy"
+      ],
+      "synonyms": [
+        "skin irritation",
+        "eruption"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "skin rash",
+        "develop a rash",
+        "heat rash",
+        "nappy rash"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "لکه‌های قرمز و تحریک‌شده روی پوست",
+      "note": "rash هم به معنای بثورات و هم به معنای عجولانه (adj) است",
+      "trap": "rash (جوش) با rush (عجله) تلفظ متفاوت دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "scratch",
+      "translation": "خراش، خارش",
+      "ipa": "/skrætʃ/",
+      "partOfSpeech": "verb/noun",
+      "example": "Don't scratch the mosquito bite — it will get worse.",
+      "definitions": [
+        "to rub your skin with your nails; a small cut on the surface"
+      ],
+      "synonyms": [
+        "scrape",
+        "graze"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "scratch an itch",
+        "just a scratch",
+        "scratch the surface"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "خاراندن پوست با ناخن یا خراش کوچک",
+      "note": "just a scratch یعنی فقط یک خراش (آسیب جزئی)",
+      "trap": "scratch با snatch (قاپیدن) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "sneeze",
+      "translation": "عطسه کردن",
+      "ipa": "/sniːz/",
+      "partOfSpeech": "verb/noun",
+      "example": "Cover your mouth when you sneeze.",
+      "definitions": [
+        "to suddenly push air out of the nose and mouth, usually because of a cold or allergy"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "sneeze loudly",
+        "stifle a sneeze",
+        "sneeze and cough"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "بیرون راندن ناگهانی هوا از بینی و دهان",
+      "note": "sneeze با breeze (نسیم) قافیه است",
+      "trap": "sneeze با seize (گرفتن) تلفظ متفاوت دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "sore",
+      "translation": "دردناک، ورم‌کرده",
+      "ipa": "/sɔːr/",
+      "partOfSpeech": "adjective",
+      "example": "I have a sore throat — it hurts to swallow.",
+      "definitions": [
+        "painful, especially when touched or used"
+      ],
+      "synonyms": [
+        "painful",
+        "tender",
+        "aching"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sore throat",
+        "sore muscles",
+        "sore eyes",
+        "sore point"
+      ],
+      "wordFamily": [
+        "soreness (n)"
+      ],
+      "coreMeaning": "دردناک و ناراحت، مخصوصاً وقتی لمس شود",
+      "note": "sore throat گلودرد یکی از رایج‌ترین ترکیب‌هاست",
+      "trap": "sore (دردناک) با soar (ارتفاع گرفتن) تلفظ یکسان دارند",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "stomachache",
+      "translation": "دل‌درد، معده‌درد",
+      "ipa": "/ˈstʌməkeɪk/",
+      "partOfSpeech": "noun",
+      "example": "I ate too much and now I have a stomachache.",
+      "definitions": [
+        "pain in the stomach or abdomen"
+      ],
+      "synonyms": [
+        "tummy ache",
+        "abdominal pain"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "have a stomachache",
+        "bad stomachache",
+        "stomachache tablets"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "درد در ناحیه معده یا شکم",
+      "note": "tummy ache عامیانه‌تر و مخصوص کودکان است",
+      "trap": "stomachache سه هجا دارد: sto-mach-ache",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "stretcher",
+      "translation": "برانکارد",
+      "ipa": "/ˈstretʃər/",
+      "partOfSpeech": "noun",
+      "example": "They carried the injured man on a stretcher.",
+      "definitions": [
+        "a frame for carrying a sick or injured person"
+      ],
+      "synonyms": [
+        "gurney"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "carry on a stretcher",
+        "stretcher bearer",
+        "on a stretcher"
+      ],
+      "wordFamily": [
+        "stretch (v)"
+      ],
+      "coreMeaning": "چارچوبی برای حمل بیمار یا مصدوم",
+      "note": "gurney نوع چرخ‌دار برانکارد است",
+      "trap": "stretcher از stretch (کشیدن) آمده ولی به معنای برانکارد است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "stress",
+      "translation": "فشار عصبی، استرس",
+      "ipa": "/stres/",
+      "partOfSpeech": "noun",
+      "example": "Too much stress can make you ill.",
+      "definitions": [
+        "mental pressure or worry caused by problems"
+      ],
+      "synonyms": [
+        "pressure",
+        "tension",
+        "anxiety"
+      ],
+      "antonyms": [
+        "calm",
+        "relaxation"
+      ],
+      "collocations": [
+        "under stress",
+        "stress management",
+        "cause stress",
+        "stress relief"
+      ],
+      "wordFamily": [
+        "stressful (adj)",
+        "stressed (adj)"
+      ],
+      "coreMeaning": "فشار روانی ناشی از مشکلات و نگرانی‌ها",
+      "note": "stressed (adj) یعنی تحت فشار؛ stressful (adj) یعنی پراسترس",
+      "trap": "stressed (حال خودت) با stressful (چیزی که استرس ایجاد می‌کند) فرق دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "surgery",
+      "translation": "جراحی",
+      "ipa": "/ˈsɜːrdʒəri/",
+      "partOfSpeech": "noun",
+      "example": "He needs surgery on his shoulder.",
+      "definitions": [
+        "medical treatment of injuries or diseases by cutting open the body"
+      ],
+      "synonyms": [
+        "operation",
+        "procedure"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "have surgery",
+        "perform surgery",
+        "major surgery",
+        "plastic surgery"
+      ],
+      "wordFamily": [
+        "surgeon (n)",
+        "surgical (adj)"
+      ],
+      "coreMeaning": "درمان بیماری یا آسیب با باز کردن بدن",
+      "note": "surgeon جراح است؛ surgical صفت جراحی",
+      "trap": "surgery در بریتانیا هم به معنای مطب پزشک هم استفاده می‌شود",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "surgeon",
+      "translation": "جراح",
+      "ipa": "/ˈsɜːrdʒən/",
+      "partOfSpeech": "noun",
+      "example": "The surgeon performed the operation successfully.",
+      "definitions": [
+        "a doctor who performs operations"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "heart surgeon",
+        "brain surgeon",
+        "surgeon general"
+      ],
+      "wordFamily": [
+        "surgery (n)",
+        "surgical (adj)"
+      ],
+      "coreMeaning": "پزشک متخصص انجام عمل جراحی",
+      "note": "surgeon general بالاترین مقام بهداشتی در آمریکا است",
+      "trap": "surgeon با surgery فرق دارد؛ surgeon شخص، surgery عمل",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "symptom",
+      "translation": "علائم بیماری، نشانه",
+      "ipa": "/ˈsɪmptəm/",
+      "partOfSpeech": "noun",
+      "example": "Fever and cough are common symptoms of the flu.",
+      "definitions": [
+        "a sign of illness in the body"
+      ],
+      "synonyms": [
+        "sign",
+        "indication"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "show symptoms",
+        "common symptoms",
+        "symptom of"
+      ],
+      "wordFamily": [
+        "symptomatic (adj)"
+      ],
+      "coreMeaning": "نشانه‌ای از بیماری در بدن",
+      "note": "symptom نشانه بیماری است؛ sign نشانه عمومی‌تر",
+      "trap": "symptom با system (سیستم) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "tablet",
+      "translation": "قرص (دارو)",
+      "ipa": "/ˈtæblət/",
+      "partOfSpeech": "noun",
+      "example": "Take two tablets with water after lunch.",
+      "definitions": [
+        "a small, flat, round piece of medicine"
+      ],
+      "synonyms": [
+        "pill"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take a tablet",
+        "aspirin tablet",
+        "dissolve a tablet"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "داروی فشرده به شکل قرص صاف",
+      "note": "tablet معمولاً صاف‌تر و بزرگ‌تر از pill است",
+      "trap": "tablet هم به معنای تبلت (کامپیوتر) هم استفاده می‌شود",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "therapy",
+      "translation": "درمان، فیزیوتراپی",
+      "ipa": "/ˈθerəpi/",
+      "partOfSpeech": "noun",
+      "example": "She is having therapy for her back problem.",
+      "definitions": [
+        "treatment to help cure a disease or mental problem"
+      ],
+      "synonyms": [
+        "treatment",
+        "counseling"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "physical therapy",
+        "speech therapy",
+        "therapy session"
+      ],
+      "wordFamily": [
+        "therapist (n)",
+        "therapeutic (adj)"
+      ],
+      "coreMeaning": "روش درمانی برای بهبود جسمی یا روانی",
+      "note": "therapist درمانگر است (نه therapist به معنای روان‌درمانگر)",
+      "trap": "therapy با therapy (درمان) و the-rapy سه هجا دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "thermometer",
+      "translation": "دماسنج، ترمومتر",
+      "ipa": "/θərˈmɒmɪtər/",
+      "partOfSpeech": "noun",
+      "example": "Use a thermometer to check your temperature.",
+      "definitions": [
+        "an instrument for measuring temperature, especially body temperature"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "take your temperature",
+        "digital thermometer",
+        "read the thermometer"
+      ],
+      "wordFamily": [
+        "thermometer (n)",
+        "thermal (adj)"
+      ],
+      "coreMeaning": "ابزار اندازه‌گیری دما، مخصوصاً دمای بدن",
+      "note": "take your temperature یعنی دمای بدن را اندازه گرفتن",
+      "trap": "thermometer با thermostat (ترموستات) فرق دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "throat",
+      "translation": "گلو",
+      "ipa": "/θroʊt/",
+      "partOfSpeech": "noun",
+      "example": "My throat is sore — I can barely swallow.",
+      "definitions": [
+        "the passage at the back of the mouth that leads to the stomach and lungs"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "sore throat",
+        "clear your throat",
+        "lump in your throat"
+      ],
+      "wordFamily": [],
+      "coreMeaning": " مجرای پشت دهان که به معده و ریه‌ها می‌رود",
+      "note": "sore throat گلودرد یکی از شایع‌ترین شکایات پزشکی است",
+      "trap": "th در throat مثل /θ/ تلفظ می‌شود نه /t/",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "treatment",
+      "translation": "درمان، معالجه",
+      "ipa": "/ˈtriːtmənt/",
+      "partOfSpeech": "noun",
+      "example": "The treatment for this disease takes about two weeks.",
+      "definitions": [
+        "medical care given to cure an illness or injury"
+      ],
+      "synonyms": [
+        "therapy",
+        "remedy"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "receive treatment",
+        "medical treatment",
+        "emergency treatment"
+      ],
+      "wordFamily": [
+        "treat (v)"
+      ],
+      "coreMeaning": "مراقبت پزشکی برای درمان بیماری یا آسیب",
+      "note": "treat هم فعل است: The doctor treated the patient",
+      "trap": "treatment (درمان) با treatment (برخورد) هم‌ریشه‌اند",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "vaccine",
+      "translation": "واکسن",
+      "ipa": "/vækˈsiːn/",
+      "partOfSpeech": "noun",
+      "example": "Children should get their vaccines on schedule.",
+      "definitions": [
+        "a substance put into the body to prevent a disease"
+      ],
+      "synonyms": [
+        "immunization",
+        "inoculation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "get a vaccine",
+        "flu vaccine",
+        "vaccine schedule",
+        "COVID vaccine"
+      ],
+      "wordFamily": [
+        "vaccinate (v)",
+        "vaccination (n)"
+      ],
+      "coreMeaning": "ماده‌ای که برای پیشگیری از بیماری به بدن تزریق می‌شود",
+      "note": "vaccination فرایند واکسن زدن است",
+      "trap": "vaccine با vacine (یک c) اشتباه نوشته نشود؛ دو c دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "vomit",
+      "translation": "استفراغ کردن",
+      "ipa": "/ˈvɒmɪt/",
+      "partOfSpeech": "verb/noun",
+      "example": "The child vomited after eating too much candy.",
+      "definitions": [
+        "to bring food from the stomach back out through the mouth"
+      ],
+      "synonyms": [
+        "throw up",
+        "be sick"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "vomit blood",
+        "feel like vomiting",
+        "make someone vomit"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "بیرون راندن محتویات معده از دهان",
+      "note": "throw up عامیانه‌تر و be sick بریتانیایی‌تر است",
+      "trap": "vomit رسمی‌تر از throw up است؛ در مکالمه معمولی throw up رایج‌تر",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "wheelchair",
+      "translation": "ویلچر، صندلی چرخ‌دار",
+      "ipa": "/ˈwiːltʃer/",
+      "partOfSpeech": "noun",
+      "example": "After the accident, he had to use a wheelchair.",
+      "definitions": [
+        "a chair with wheels used by people who cannot walk"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "use a wheelchair",
+        "wheelchair access",
+        "wheelchair user"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "صندلی چرخ‌دار برای افرادی که نمی‌توانند راه بروند",
+      "note": "wheelchair access دسترسی برای ویلچر (رَمپ و غیره)",
+      "trap": "wheelchair یک کلمه است (نه wheel chair)",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "wound",
+      "translation": "زخم، جراحت",
+      "ipa": "/wuːnd/",
+      "partOfSpeech": "noun",
+      "example": "The wound on his leg was deep and needed stitches.",
+      "definitions": [
+        "an injury to the body, especially a cut or hole in the skin"
+      ],
+      "synonyms": [
+        "injury",
+        "cut",
+        "gash"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "open wound",
+        "wound heals",
+        "dress a wound",
+        "wound infection"
+      ],
+      "wordFamily": [
+        "wounded (adj)"
+      ],
+      "coreMeaning": "آسیب به بدن، مخصوصاً بریدگی یا سوراخ در پوست",
+      "note": "wounded به معنای زخمی است: wounded soldiers",
+      "trap": "wound (زخم /wuːnd/) با wound (گذشته wind /waʊnd/) تلفظ متفاوت دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "allergy",
+      "translation": "حساسیت، آلرژی",
+      "ipa": "/ˈælərdʒi/",
+      "partOfSpeech": "noun",
+      "example": "She has an allergy to nuts — they make her throat swell.",
+      "definitions": [
+        "a condition that makes you become sick or react badly to certain substances"
+      ],
+      "synonyms": [
+        "sensitivity",
+        "intolerance"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "have an allergy",
+        "food allergy",
+        "allergy test",
+        "allergic reaction"
+      ],
+      "wordFamily": [
+        "allergic (adj)",
+        "allergen (n)"
+      ],
+      "coreMeaning": "واکنش بدن به ماده‌ای که برای بیشتر افراد بی‌ضرر است",
+      "note": "allergic صفت آن است: I'm allergic to cats",
+      "trap": "allergy با energy قافیه نیست؛ تلفظ متفاوت است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "antibiotics",
+      "translation": "آنتی‌بیوتیک، ضد میکروب",
+      "ipa": "/ˌæntɪbaɪˈɒtɪks/",
+      "partOfSpeech": "noun",
+      "example": "The doctor prescribed antibiotics for the infection.",
+      "definitions": [
+        "medicines that destroy bacteria and stop infections"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "take antibiotics",
+        "prescribe antibiotics",
+        "course of antibiotics"
+      ],
+      "wordFamily": [
+        "antibiotic (adj/n)"
+      ],
+      "coreMeaning": "داروهایی که باکتری‌ها را از بین می‌برند",
+      "note": "معمولاً به صورت جمع استفاده می‌شود: antibiotics",
+      "trap": "antibiotics فقط روی باکتری اثر دارد نه ویروس",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "blood pressure",
+      "translation": "فشار خون",
+      "ipa": "/ˈblʌd ˌpreʃər/",
+      "partOfSpeech": "noun",
+      "example": "The nurse checked my blood pressure.",
+      "definitions": [
+        "the force of blood moving through the body's blood vessels"
+      ],
+      "synonyms": [
+        "BP"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "high blood pressure",
+        "low blood pressure",
+        "check blood pressure",
+        "blood pressure monitor"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نیروی جریان خون در رگ‌ها",
+      "note": "high blood pressure (فشار خون بالا) یک بیماری شایع است",
+      "trap": "blood pressure دو کلمه‌ای است و به صورت ترکیب اسمی استفاده می‌شود",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "bruise",
+      "translation": "کبودی، کوفتگی",
+      "ipa": "/bruːz/",
+      "partOfSpeech": "noun/verb",
+      "example": "She fell and got a big bruise on her knee.",
+      "definitions": [
+        "a dark mark on the skin caused by being hit; to get such a mark"
+      ],
+      "synonyms": [
+        "black-and-blue mark"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "get a bruise",
+        "bruise easily",
+        "black and blue bruise"
+      ],
+      "wordFamily": [
+        "bruised (adj)"
+      ],
+      "coreMeaning": "لکه تیره روی پوست بر اثر ضربه",
+      "note": "bruised صفت به معنای کبود است",
+      "trap": "bruise با brush (مسواک/قلمو) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "cast",
+      "translation": "گچ، آتل",
+      "ipa": "/kæst/",
+      "partOfSpeech": "noun",
+      "example": "He broke his arm and had to wear a cast for six weeks.",
+      "definitions": [
+        "a hard covering put around a broken bone to protect it while it heals"
+      ],
+      "synonyms": [
+        "plaster"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "put on a cast",
+        "wear a cast",
+        "plaster cast",
+        "cast comes off"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پوشش سخت دور استخوان شکسته برای محافظت",
+      "note": "plaster cast گچ کامل است",
+      "trap": "cast معنای بازیگری هم دارد؛ در پزشکی فقط گچ",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "choking",
+      "translation": "خفگی، خناق",
+      "ipa": "/ˈtʃoʊkɪŋ/",
+      "partOfSpeech": "noun/verb",
+      "example": "The child was choking on a piece of candy.",
+      "definitions": [
+        "being unable to breathe because something is blocking the throat"
+      ],
+      "synonyms": [
+        "suffocating"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "choking hazard",
+        "choking on food",
+        "choking sound"
+      ],
+      "wordFamily": [
+        "choke (v)"
+      ],
+      "coreMeaning": "ناتوانی در نفس کشیدن به دلیل انسداد گلو",
+      "note": "choke فعل آن است: He choked on his food",
+      "trap": "choke با chocolate (شکلات) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "constipation",
+      "translation": "یبوست",
+      "ipa": "/ˌkɒnstɪˈpeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Eating more fiber can help with constipation.",
+      "definitions": [
+        "difficulty in emptying the bowels"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "diarrhea"
+      ],
+      "collocations": [
+        "suffer from constipation",
+        "cause constipation",
+        "relieve constipation"
+      ],
+      "wordFamily": [
+        "constipated (adj)"
+      ],
+      "coreMeaning": "مشکل در دفع مدفوع",
+      "note": "constipated صفت آن است: I feel constipated",
+      "trap": "constipation با constable (پاسبان) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "contagious",
+      "translation": "واگیردار، سرایت‌کننده",
+      "ipa": "/kənˈteɪdʒəs/",
+      "partOfSpeech": "adjective",
+      "example": "The flu is very contagious — stay home if you're sick.",
+      "definitions": [
+        "a disease that can spread from person to person"
+      ],
+      "synonyms": [
+        "infectious",
+        "communicable"
+      ],
+      "antonyms": [
+        "non-contagious"
+      ],
+      "collocations": [
+        "highly contagious",
+        "contagious disease",
+        "contagious illness"
+      ],
+      "wordFamily": [
+        "contagion (n)"
+      ],
+      "coreMeaning": "قابلیت انتقال بیماری از فردی به فرد دیگر",
+      "note": "contagious بیشتر برای بیماری‌هایی که با تماس مستقیم منتقل می‌شوند",
+      "trap": "contagious با infectious گاهی به جای هم استفاده می‌شوند اما دقیقاً یکسان نیستند",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "crutch",
+      "translation": "عصای زیر بغل",
+      "ipa": "/krʌtʃ/",
+      "partOfSpeech": "noun",
+      "example": "She walked with crutches after breaking her leg.",
+      "definitions": [
+        "a stick that you put under your arm to help you walk when your leg is hurt"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "walk with crutches",
+        "on crutches",
+        "pair of crutches"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "عصایی که زیر بغل قرار می‌گیرد برای راه رفتن",
+      "note": "معمولاً به صورت جمع استفاده می‌شود: on crutches",
+      "trap": "crutch با clutch (گرفتن محکم) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "depression",
+      "translation": "افسردگی",
+      "ipa": "/dɪˈpreʃən/",
+      "partOfSpeech": "noun",
+      "example": "Depression is a serious illness that needs treatment.",
+      "definitions": [
+        "a mental illness that makes a person very sad and unable to live normally"
+      ],
+      "synonyms": [
+        "sadness",
+        "melancholy"
+      ],
+      "antonyms": [
+        "happiness",
+        "joy"
+      ],
+      "collocations": [
+        "suffer from depression",
+        "clinical depression",
+        "depression treatment"
+      ],
+      "wordFamily": [
+        "depress (v)",
+        "depressed (adj)",
+        "depressing (adj)"
+      ],
+      "coreMeaning": "اختلال روانی که باعث غم شدید و ناتوانی در زندگی عادی می‌شود",
+      "note": "depressed (احساس افسردگی) با depressing (افسرده‌کننده) فرق دارد",
+      "trap": "depression هم به معنای اقتصادی (رکود) هم استفاده می‌شود",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "diarrhea",
+      "translation": "اسهال",
+      "ipa": "/ˌdaɪəˈriːə/",
+      "partOfSpeech": "noun",
+      "example": "The food gave him diarrhea.",
+      "definitions": [
+        "an illness in which waste matter is emptied from the bowels frequently in liquid form"
+      ],
+      "synonyms": [
+        "the runs"
+      ],
+      "antonyms": [
+        "constipation"
+      ],
+      "collocations": [
+        "have diarrhea",
+        "cause diarrhea",
+        "suffer from diarrhea"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "دفع مکرر مدفوع آبکی",
+      "note": "غیرقابل شمارش است: have diarrhea (نه have a diarrhea)",
+      "trap": "diarrhea در بریتانیایی diarrhoea نوشته می‌شود",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "disinfectant",
+      "translation": "ضدعفونی‌کننده",
+      "ipa": "/ˌdɪsɪnˈfektənt/",
+      "partOfSpeech": "noun",
+      "example": "Clean the wound with disinfectant.",
+      "definitions": [
+        "a chemical that destroys germs"
+      ],
+      "synonyms": [
+        "antiseptic",
+        "sanitizer"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "use disinfectant",
+        "household disinfectant",
+        "disinfectant wipe"
+      ],
+      "wordFamily": [
+        "disinfect (v)"
+      ],
+      "coreMeaning": "ماده شیمیایی برای از بین بردن میکروب‌ها",
+      "note": "disinfectant برای سطوح؛ antiseptic برای بدن",
+      "trap": "disinfectant با antiseptic فرق دارد؛ antiseptic روی بدن استفاده می‌شود",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "drip",
+      "translation": "سرم، قطره‌چکان",
+      "ipa": "/drɪp/",
+      "partOfSpeech": "noun",
+      "example": "The patient was put on a drip after the operation.",
+      "definitions": [
+        "a piece of equipment that passes liquid medicine slowly into the body through a vein"
+      ],
+      "synonyms": [
+        "IV",
+        "infusion"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "put on a drip",
+        "saline drip",
+        "drip feed"
+      ],
+      "wordFamily": [
+        "drip (v)"
+      ],
+      "coreMeaning": "دستگاهی که مایع دارو را آهسته به بدن وارد می‌کند",
+      "note": "IV (intravenous) اصطلاح پزشکی‌تر است",
+      "trap": "drip هم به معنای چکیدن هم استفاده می‌شود",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "frostbite",
+      "translation": "یخ‌زدگی",
+      "ipa": "/ˈfrɒstbaɪt/",
+      "partOfSpeech": "noun",
+      "example": "He got frostbite on his fingers while climbing the mountain.",
+      "definitions": [
+        "injury to the body caused by extreme cold, especially to fingers, toes, ears, and nose"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "get frostbite",
+        "suffer from frostbite",
+        "frostbite on fingers"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "آسیب بافتی ناشی از سرمای شدید",
+      "note": "معمولاً انگشتان، بینی و گوش‌ها آسیب می‌بینند",
+      "trap": "frostbite یک کلمه ترکیبی از frost + bite است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "hay fever",
+      "translation": "تب یونجه، آلرژی فصلی",
+      "ipa": "/ˈheɪ ˌfiːvər/",
+      "partOfSpeech": "noun",
+      "example": "I get hay fever every spring when the flowers bloom.",
+      "definitions": [
+        "an allergy to pollen that causes sneezing, runny nose, and itchy eyes"
+      ],
+      "synonyms": [
+        "allergic rhinitis"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "suffer from hay fever",
+        "hay fever season",
+        "hay fever tablets"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "حساسیت به گرده گیاهان با عطسه و آبریزش بینی",
+      "note": "با وجود اسمش، تب واقعی ندارد",
+      "trap": "hay fever دو کلمه‌ای است و با خط تیره نوشته نمی‌شود",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "insomnia",
+      "translation": "بی‌خوابی",
+      "ipa": "/ɪnˈsɒmniə/",
+      "partOfSpeech": "noun",
+      "example": "She suffers from insomnia and can't sleep at night.",
+      "definitions": [
+        "the condition of being unable to sleep"
+      ],
+      "synonyms": [
+        "sleeplessness",
+        "sleep deprivation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "suffer from insomnia",
+        "chronic insomnia",
+        "insomnia treatment"
+      ],
+      "wordFamily": [
+        "insomniac (n)"
+      ],
+      "coreMeaning": "ناتوانی در خوابیدن",
+      "note": "insomniac شخصی است که بی‌خوابی دارد",
+      "trap": "insomnia با insomnia (بی‌خوابی) و insomnia (بی‌خوابی) یکی است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "itch",
+      "translation": "خارش، خاراندن",
+      "ipa": "/ɪtʃ/",
+      "partOfSpeech": "noun/verb",
+      "example": "I have an itch on my back — can you scratch it?",
+      "definitions": [
+        "an uncomfortable feeling on the skin that makes you want to scratch; to feel this"
+      ],
+      "synonyms": [
+        "tingle",
+        "irritation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "have an itch",
+        "itchy skin",
+        "scratch an itch"
+      ],
+      "wordFamily": [
+        "itchy (adj)",
+        "itching (n/adj)"
+      ],
+      "coreMeaning": "احساس خارش روی پوست",
+      "note": "itchy صفت آن است: My skin is itchy",
+      "trap": "itch (خارش) با each (هر) تلفظ متفاوت دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "joint",
+      "translation": "مفصل",
+      "ipa": "/dʒɔɪnt/",
+      "partOfSpeech": "noun",
+      "example": "Running can be hard on your joints.",
+      "definitions": [
+        "a place where two bones meet, such as the knee or elbow"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "joint pain",
+        "knee joint",
+        "joint replacement",
+        "stiff joints"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "محل اتصال دو استخوان در بدن",
+      "note": "joint pain درد مفصل یکی از شکایات رایج است",
+      "trap": "joint معنای مشترک هم دارد (joint account حساب مشترک)",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "laboratory",
+      "translation": "آزمایشگاه",
+      "ipa": "/ˈlæbrətɔːri/",
+      "partOfSpeech": "noun",
+      "example": "The blood sample was sent to the laboratory for testing.",
+      "definitions": [
+        "a room or building used for scientific experiments or medical tests"
+      ],
+      "synonyms": [
+        "lab"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "medical laboratory",
+        "laboratory test",
+        "research laboratory"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "محل انجام آزمایش‌های علمی یا پزشکی",
+      "note": "lab شکل کوتاه و رایج‌تر است",
+      "trap": "laboratory چهار هجا دارد: lab-o-ra-to-ry اما معمولاً lab گفته می‌شود",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "mental",
+      "translation": "روانی، ذهنی",
+      "ipa": "/ˈmentəl/",
+      "partOfSpeech": "adjective",
+      "example": "Mental health is just as important as physical health.",
+      "definitions": [
+        "relating to the mind or the health of the mind"
+      ],
+      "synonyms": [
+        "psychological",
+        "emotional"
+      ],
+      "antonyms": [
+        "physical"
+      ],
+      "collocations": [
+        "mental health",
+        "mental illness",
+        "mental stress",
+        "mental hospital"
+      ],
+      "wordFamily": [
+        "mentally (adv)"
+      ],
+      "coreMeaning": "مربوط به ذهن و سلامت روان",
+      "note": "mental health سلامت روان یکی از مهم‌ترین موضوعات بهداشتی است",
+      "trap": "mental hospital بیمارستان روانی است (نه crazy hospital)",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "nutrition",
+      "translation": "تغذیه، خوراک",
+      "ipa": "/njuːˈtrɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Good nutrition is essential for a healthy life.",
+      "definitions": [
+        "the process of providing food necessary for health and growth"
+      ],
+      "synonyms": [
+        "nourishment",
+        "diet"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "good nutrition",
+        "nutrition label",
+        "nutrition expert",
+        "balanced nutrition"
+      ],
+      "wordFamily": [
+        "nutritious (adj)",
+        "nutrient (n)"
+      ],
+      "coreMeaning": "فرایند تأمین غذای لازم برای سلامت و رشد",
+      "note": "nutritious صفت به معنای مغذی است",
+      "trap": "nutrition غیرقابل شمارش است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "oxygen",
+      "translation": "اکسیژن",
+      "ipa": "/ˈɒksɪdʒən/",
+      "partOfSpeech": "noun",
+      "example": "The patient was given oxygen to help him breathe.",
+      "definitions": [
+        "a gas in the air that is necessary for life"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "oxygen mask",
+        "oxygen level",
+        "give oxygen",
+        "oxygen tank"
+      ],
+      "wordFamily": [
+        "oxygenate (v)"
+      ],
+      "coreMeaning": "گاز موجود در هوا که برای حیات ضروری است",
+      "note": "oxygen mask ماسک اکسیژن است",
+      "trap": "oxygen غیرقابل شمارش است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "paralysis",
+      "translation": "فلج، فلج شدن",
+      "ipa": "/pəˈrælɪsɪs/",
+      "partOfSpeech": "noun",
+      "example": "The accident left him with paralysis in both legs.",
+      "definitions": [
+        "the loss of the ability to move part or all of the body"
+      ],
+      "synonyms": [
+        "immobility"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "suffer paralysis",
+        "partial paralysis",
+        "paralysis of the legs"
+      ],
+      "wordFamily": [
+        "paralyze (v)",
+        "paralyzed (adj)"
+      ],
+      "coreMeaning": "از دست دادن توانایی حرکت در بخشی از بدن",
+      "note": "paralyzed صفت آن است: He is paralyzed from the waist down",
+      "trap": "paralysis با analysis (تحلیل) ساختار مشابه دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "physiotherapy",
+      "translation": "فیزیوتراپی",
+      "ipa": "/ˌfɪziəʊˈθerəpi/",
+      "partOfSpeech": "noun",
+      "example": "After the knee operation, she needed physiotherapy.",
+      "definitions": [
+        "treatment of injuries using exercises and physical movements"
+      ],
+      "synonyms": [
+        "physical therapy"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "have physiotherapy",
+        "physiotherapy session",
+        "physiotherapy exercises"
+      ],
+      "wordFamily": [
+        "physiotherapist (n)"
+      ],
+      "coreMeaning": "درمان آسیب‌ها با تمرینات و حرکات بدنی",
+      "note": "physiotherapist فیزیوتراپیست است",
+      "trap": "physiotherapy در آمریکا physical therapy گفته می‌شود",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "plaster",
+      "translation": "باند چسبی، گچ",
+      "ipa": "/ˈplɑːstər/",
+      "partOfSpeech": "noun",
+      "example": "Put a plaster on that cut to stop the bleeding.",
+      "definitions": [
+        "a thin, sticky strip used to cover small cuts; a hard covering for broken bones"
+      ],
+      "synonyms": [
+        "band-aid",
+        "adhesive bandage"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "put on a plaster",
+        "plaster cast",
+        "sticking plaster"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "باند چسبی برای زخم‌های کوچک یا گچ برای شکستگی",
+      "note": "در بریتانیا plaster و در آمریکا band-aid گفته می‌شود",
+      "trap": "plaster هم به معنای گچ دیوار و هم باند چسبی است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "pulse",
+      "translation": "نبض",
+      "ipa": "/pʌls/",
+      "partOfSpeech": "noun",
+      "example": "The nurse took my pulse to check my heart rate.",
+      "definitions": [
+        "the regular beating of the heart, felt especially at the wrist"
+      ],
+      "synonyms": [
+        "heartbeat"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take someone's pulse",
+        "check pulse",
+        "racing pulse",
+        "pulse rate"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ضربان منظم قلب که مخصوصاً در مچ دست احساس می‌شود",
+      "note": "take someone's pulse یعنی نبض کسی را گرفتن",
+      "trap": "pulse با pull (کشیدن) تلفظ متفاوت دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "recovery",
+      "translation": "بهبودی، بازیابی",
+      "ipa": "/rɪˈkʌvəri/",
+      "partOfSpeech": "noun",
+      "example": "She made a full recovery after the surgery.",
+      "definitions": [
+        "the process of becoming well again after an illness or injury"
+      ],
+      "synonyms": [
+        "recuperation",
+        "healing"
+      ],
+      "antonyms": [
+        "relapse"
+      ],
+      "collocations": [
+        "make a recovery",
+        "full recovery",
+        "quick recovery",
+        "recovery room"
+      ],
+      "wordFamily": [
+        "recover (v)"
+      ],
+      "coreMeaning": "فرایند بازگشت به سلامت پس از بیماری یا آسیب",
+      "note": "recovery room اتاق ریکاوری (پس از عمل جراحی) است",
+      "trap": "make a recovery صحیح است نه do a recovery",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "sanitizer",
+      "translation": "ضدعفونی‌کننده دست",
+      "ipa": "/ˈsænɪtaɪzər/",
+      "partOfSpeech": "noun",
+      "example": "Use hand sanitizer before eating.",
+      "definitions": [
+        "a liquid or gel used to kill germs on hands or surfaces"
+      ],
+      "synonyms": [
+        "disinfectant"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "hand sanitizer",
+        "use sanitizer",
+        "sanitizer gel"
+      ],
+      "wordFamily": [
+        "sanitize (v)",
+        "sanitation (n)"
+      ],
+      "coreMeaning": "ماده ضدعفونی‌کننده برای دست‌ها",
+      "note": "hand sanitizer ضدعفونی‌کننده دست است",
+      "trap": "sanitizer با sanitizer (ضدعفونی‌کننده) و sanitary (بهداشتی) هم‌خانواده است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "side effect",
+      "translation": "عوارض جانبی",
+      "ipa": "/ˈsaɪd ɪˌfekt/",
+      "partOfSpeech": "noun",
+      "example": "This medicine may have side effects like drowsiness.",
+      "definitions": [
+        "an unwanted effect of a medicine or treatment"
+      ],
+      "synonyms": [
+        "adverse reaction"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "have side effects",
+        "common side effects",
+        "side effect of medication"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اثر ناخواسته دارو یا درمان",
+      "note": "معمولاً به صورت جمع استفاده می‌شود: side effects",
+      "trap": "side effect دو کلمه‌ای است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "specialist",
+      "translation": "متخصص",
+      "ipa": "/ˈspeʃəlɪst/",
+      "partOfSpeech": "noun",
+      "example": "You should see a heart specialist for this problem.",
+      "definitions": [
+        "a doctor who is an expert in one area of medicine"
+      ],
+      "synonyms": [
+        "expert",
+        "consultant"
+      ],
+      "antonyms": [
+        "generalist"
+      ],
+      "collocations": [
+        "see a specialist",
+        "heart specialist",
+        "specialist doctor"
+      ],
+      "wordFamily": [
+        "special (adj)",
+        "specialize (v)",
+        "specialty (n)"
+      ],
+      "coreMeaning": "پزشک متخصص در یک حوزه خاص",
+      "note": "specialist با expert فرق دارد؛ specialist بیشتر در پزشکی استفاده می‌شود",
+      "trap": "specialist با specialist (متخصص) و special (خاص) هم‌خانواده است",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "splint",
+      "translation": "آتل",
+      "ipa": "/splɪnt/",
+      "partOfSpeech": "noun",
+      "example": "The doctor put a splint on his broken finger.",
+      "definitions": [
+        "a piece of wood or metal used to support a broken bone"
+      ],
+      "synonyms": [
+        "brace"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "put on a splint",
+        "arm splint",
+        "leg splint"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "قطعه‌ای چوبی یا فلزی برای نگه داشتن استخوان شکسته",
+      "note": "splint معمولاً موقتی است تا زمانی که گچ زده شود",
+      "trap": "splint با sprint (دویدن سریع) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "sting",
+      "translation": "نیش زدن، گزیدگی",
+      "ipa": "/stɪŋ/",
+      "partOfSpeech": "verb/noun",
+      "example": "A bee stung me on the arm.",
+      "definitions": [
+        "to wound with a sharp part of an insect or plant; the wound from this"
+      ],
+      "synonyms": [
+        "bite",
+        "prick"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "bee sting",
+        "insect sting",
+        "sting relief"
+      ],
+      "wordFamily": [
+        "stinging (adj)"
+      ],
+      "coreMeaning": "آسیب ناشی از نیش حشرات یا گیاهان",
+      "note": "sting بیشتر مربوط به حشرات است؛ bite بیشتر حیوانات",
+      "trap": "گذشته sting: stung (نه stinged)",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "sunburn",
+      "translation": "آفتاب‌سوختگی",
+      "ipa": "/ˈsʌnbɜːrn/",
+      "partOfSpeech": "noun",
+      "example": "She got terrible sunburn after lying on the beach all day.",
+      "definitions": [
+        "red, painful skin caused by being in the sun too long"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "get sunburn",
+        "severe sunburn",
+        "sunburn cream",
+        "sunburn relief"
+      ],
+      "wordFamily": [
+        "sunburned (adj)"
+      ],
+      "coreMeaning": "آسیب پوستی ناشی از قرار گرفتن طولانی در آفتاب",
+      "note": "sunburned صفت آن است: My back is sunburned",
+      "trap": "sunburn یک کلمه است (نه sun burn)",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "swelling",
+      "translation": "ورم، تورم",
+      "ipa": "/ˈswelɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "There is a lot of swelling around the injured ankle.",
+      "definitions": [
+        "an area of the body that has become larger than normal because of illness or injury"
+      ],
+      "synonyms": [
+        "inflammation",
+        "puffiness"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "reduce swelling",
+        "swelling goes down",
+        "swelling around"
+      ],
+      "wordFamily": [
+        "swell (v)",
+        "swollen (adj)"
+      ],
+      "coreMeaning": "بزرگ شدن غیرعادی بخشی از بدن بر اثر بیماری یا آسیب",
+      "note": "swollen صفت آن است: a swollen ankle",
+      "trap": "swell (verb) → swelled → swollen (یا swelled)",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "ward",
+      "translation": "بخش بیمارستان",
+      "ipa": "/wɔːrd/",
+      "partOfSpeech": "noun",
+      "example": "She was moved to the children's ward after the operation.",
+      "definitions": [
+        "a room in a hospital with beds for patients"
+      ],
+      "synonyms": [
+        "unit",
+        "department"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "hospital ward",
+        "children's ward",
+        "maternity ward"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اتاق یا بخشی در بیمارستان با تخت‌های بیماران",
+      "note": "maternity ward بخش زایمان است",
+      "trap": "ward با guard (نگهبان) تلفظ متفاوت دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "weight",
+      "translation": "وزن",
+      "ipa": "/weɪt/",
+      "partOfSpeech": "noun",
+      "example": "You need to lose weight to be healthier.",
+      "definitions": [
+        "how heavy someone or something is"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "lose weight",
+        "gain weight",
+        "put on weight",
+        "weight loss"
+      ],
+      "wordFamily": [
+        "weigh (v)",
+        "overweight (adj)"
+      ],
+      "coreMeaning": "میزان سنگینی بدن یا چیزی",
+      "note": "lose weight لاغر شدن؛ gain weight چاق شدن",
+      "trap": "weight (اسم /weɪt/) با weigh (فعل /weɪ/) تلفظ متفاوت دارد",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "welfare",
+      "translation": "رفاه، بهزیستی",
+      "ipa": "/ˈwelfer/",
+      "partOfSpeech": "noun",
+      "example": "The government cares about the welfare of its citizens.",
+      "definitions": [
+        "the health, happiness, and comfort of a person or group"
+      ],
+      "synonyms": [
+        "well-being",
+        "health"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "social welfare",
+        "welfare system",
+        "animal welfare",
+        "welfare state"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "وضعیت سلامت، آسایش و خوشبختی افراد",
+      "note": "welfare state دولت رفاه است",
+      "trap": "welfare با farewell (خداحافظی) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "word": "stethoscope",
+      "translation": "گوشی پزشکی",
+      "ipa": "/ˈsteθəskoʊp/",
+      "partOfSpeech": "noun",
+      "example": "The doctor listened to my heart with a stethoscope.",
+      "definitions": [
+        "a medical instrument for listening to heart and lungs"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "use stethoscope",
+        "doctor's stethoscope"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ابزار گوش دادن به قلب و ریه",
+      "note": "stethoscope: STE-tho-scope",
+      "trap": "stethoscope: از stetho (سینه) + scope (دیدن)",
+      "tags": [
+        "A2",
+        "health",
+        "medicine"
+      ]
+    }
+  ]
+}

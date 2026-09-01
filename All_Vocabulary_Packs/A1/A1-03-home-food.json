@@ -1,0 +1,2732 @@
+{
+  "name": "خانه و غذا",
+  "description": "۱۰۰ کلمه پایه درباره خانه، مبلمان، غذا و نوشیدنی — سطح A1",
+  "category": "A1 — مبتدی",
+  "level": "A1",
+  "packId": "A1-03",
+  "words": [
+    {
+      "word": "house",
+      "translation": "خانه",
+      "ipa": "/haʊs/",
+      "partOfSpeech": "noun",
+      "example": "My house has two bedrooms.",
+      "definitions": [
+        "a building where people live"
+      ],
+      "synonyms": [
+        "home",
+        "residence"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "big house",
+        "new house"
+      ],
+      "wordFamily": [
+        "household (n)"
+      ],
+      "coreMeaning": "ساختمانی که افراد در آن زندگی می‌کنند",
+      "note": "خانه به ساختمان فیزیکی اشاره دارد، اما home حس تعلق و آرامش را می‌رساند.",
+      "trap": "جمع house به صورت houses تلفظ می‌شود /ˈhaʊzɪz/ نه /ˈhaʊsɪz/.",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "home",
+      "translation": "خانه / منزل",
+      "ipa": "/hoʊm/",
+      "partOfSpeech": "noun",
+      "example": "I want to go home.",
+      "definitions": [
+        "the place where one lives permanently"
+      ],
+      "synonyms": [
+        "house",
+        "dwelling"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go home",
+        "at home",
+        "feel at home"
+      ],
+      "wordFamily": [
+        "homework (n)",
+        "homeless (adj)"
+      ],
+      "coreMeaning": "محل زندگی دائمی که حس تعلق دارد",
+      "note": "home بیشتر حس عاطفی دارد و house ساختمان فیزیکی است.",
+      "trap": "در عبارت go home حرف اضافه نمی‌آید: go to home اشتباه است.",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "room",
+      "translation": "اتاق",
+      "ipa": "/ruːm/",
+      "partOfSpeech": "noun",
+      "example": "This room is very big.",
+      "definitions": [
+        "a part of a building separated by walls"
+      ],
+      "synonyms": [
+        "chamber",
+        "space"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "living room",
+        "bedroom",
+        "dining room"
+      ],
+      "wordFamily": [
+        "roommate (n)"
+      ],
+      "coreMeaning": "بخشی از ساختمان که با دیوار جدا شده",
+      "note": "room هم به معنی اتاق و هم به معنی فضا استفاده می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "kitchen",
+      "translation": "آشپزخانه",
+      "ipa": "/ˈkɪtʃɪn/",
+      "partOfSpeech": "noun",
+      "example": "My mother cooks in the kitchen.",
+      "definitions": [
+        "a room where food is prepared and cooked"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "kitchen table",
+        "kitchen sink",
+        "kitchen door"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اتاقی که در آن غذا آماده و پخته می‌شود",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home",
+        "food"
+      ]
+    },
+    {
+      "word": "bedroom",
+      "translation": "اتاق خواب",
+      "ipa": "/ˈbedruːm/",
+      "partOfSpeech": "noun",
+      "example": "I sleep in my bedroom.",
+      "definitions": [
+        "a room used for sleeping"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "master bedroom",
+        "bedroom door",
+        "bedroom window"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اتاقی که برای خوابیدن استفاده می‌شود",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "bathroom",
+      "translation": "حمام / دستشویی",
+      "ipa": "/ˈbæθruːm/",
+      "partOfSpeech": "noun",
+      "example": "The bathroom is on the left.",
+      "definitions": [
+        "a room with a bath or shower and usually a toilet"
+      ],
+      "synonyms": [
+        "restroom",
+        "washroom"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "bathroom mirror",
+        "go to the bathroom"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اتاقی با حمام یا دوش و معمولاً توالت",
+      "note": "در آمریکا bathroom هم حمام و هم دستشویی را شامل می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "living room",
+      "translation": "اتاق نشیمن",
+      "ipa": "/ˈlɪvɪŋ ruːm/",
+      "partOfSpeech": "noun",
+      "example": "We watch TV in the living room.",
+      "definitions": [
+        "a room in a house for general everyday use"
+      ],
+      "synonyms": [
+        "sitting room",
+        "lounge"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "living room furniture",
+        "living room set"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اتاقی در خانه برای نشستن و استراحت روزانه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "garden",
+      "translation": "باغچه / حیاط",
+      "ipa": "/ˈɡɑːrdn/",
+      "partOfSpeech": "noun",
+      "example": "There are flowers in the garden.",
+      "definitions": [
+        "a piece of land next to a house used for growing plants or flowers"
+      ],
+      "synonyms": [
+        "yard"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "back garden",
+        "garden party",
+        "garden flowers"
+      ],
+      "wordFamily": [
+        "gardening (n)",
+        "gardener (n)"
+      ],
+      "coreMeaning": "زمینی کنار خانه برای کاشتن گل و گیاه",
+      "note": "garden در بریتیش بیشتر به حیاط پشتی خانه می‌گویند.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "door",
+      "translation": "در",
+      "ipa": "/dɔːr/",
+      "partOfSpeech": "noun",
+      "example": "Please close the door.",
+      "definitions": [
+        "a movable barrier at the entrance of a building or room"
+      ],
+      "synonyms": [
+        "gate",
+        "entrance"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "front door",
+        "open the door",
+        "close the door"
+      ],
+      "wordFamily": [
+        "doorway (n)"
+      ],
+      "coreMeaning": "مانع متحرک در ورودی ساختمان یا اتاق",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "window",
+      "translation": "پنجره",
+      "ipa": "/ˈwɪndoʊ/",
+      "partOfSpeech": "noun",
+      "example": "Open the window, please.",
+      "definitions": [
+        "an opening in a wall that lets in light and air"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "open the window",
+        "close the window",
+        "window frame"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سوراخی در دیوار که نور و هوا وارد می‌کند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "table",
+      "translation": "میز",
+      "ipa": "/ˈteɪbl/",
+      "partOfSpeech": "noun",
+      "example": "The food is on the table.",
+      "definitions": [
+        "a piece of furniture with a flat top supported by legs"
+      ],
+      "synonyms": [
+        "desk"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "dining table",
+        "kitchen table",
+        "on the table"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "قطعه‌ای مبلمان با سطح صاف و پایه",
+      "note": "table برای غذا خوردن و desk برای کار و مطالعه استفاده می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "chair",
+      "translation": "صندلی",
+      "ipa": "/tʃer/",
+      "partOfSpeech": "noun",
+      "example": "Sit on the chair.",
+      "definitions": [
+        "a piece of furniture for one person to sit on"
+      ],
+      "synonyms": [
+        "seat"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sit on a chair",
+        "office chair",
+        "dining chair"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "قطعه‌ای مبلمان برای نشستن یک نفر",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "bed",
+      "translation": "تختخواب",
+      "ipa": "/bed/",
+      "partOfSpeech": "noun",
+      "example": "I go to bed at ten o'clock.",
+      "definitions": [
+        "a piece of furniture for sleeping on"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go to bed",
+        "make the bed",
+        "single bed",
+        "double bed"
+      ],
+      "wordFamily": [
+        "bedroom (n)",
+        "bedtime (n)"
+      ],
+      "coreMeaning": "قطعه‌ای مبلمان برای خوابیدن",
+      "note": "go to bed یعنی به رختخواب رفتن (خوابیدن).",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "sofa",
+      "translation": "مبل",
+      "ipa": "/ˈsoʊfə/",
+      "partOfSpeech": "noun",
+      "example": "We sit on the sofa and watch TV.",
+      "definitions": [
+        "a long comfortable seat with a back and arms for two or more people"
+      ],
+      "synonyms": [
+        "couch",
+        "settee"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sofa bed",
+        "sit on the sofa"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نشیمنگاه بلند و راحت با پشتی و دسته برای چند نفر",
+      "note": "sofa و couch هر دو یک معنی دارند. sofa رسمی‌تر است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "desk",
+      "translation": "میز تحریر / میز کار",
+      "ipa": "/desk/",
+      "partOfSpeech": "noun",
+      "example": "My books are on the desk.",
+      "definitions": [
+        "a piece of furniture with a flat surface for working or writing"
+      ],
+      "synonyms": [
+        "table",
+        "workstation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "office desk",
+        "desk lamp",
+        "at the desk"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "میزی برای کار کردن یا نوشتن",
+      "note": "desk مخصوص کار و مطالعه است، اما table عمومی‌تر است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "shelf",
+      "translation": "قفسه / طاقچه",
+      "ipa": "/ʃelf/",
+      "partOfSpeech": "noun",
+      "example": "The books are on the shelf.",
+      "definitions": [
+        "a flat board fixed to a wall for putting things on"
+      ],
+      "synonyms": [
+        "rack"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "book shelf",
+        "on the shelf",
+        "wall shelf"
+      ],
+      "wordFamily": [
+        "shelving (n)"
+      ],
+      "coreMeaning": "تخته صافی که به دیوار نصب شده و چیزی روی آن می‌گذارند",
+      "note": "جمع shelf به صورت shelves است.",
+      "trap": "shelf و shelves را اشتباه نکنید: shelf مفرد، shelves جمع.",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "cupboard",
+      "translation": "کمد / بوفه",
+      "ipa": "/ˈkʌbərd/",
+      "partOfSpeech": "noun",
+      "example": "The plates are in the cupboard.",
+      "definitions": [
+        "a piece of furniture with doors and shelves for storing things"
+      ],
+      "synonyms": [
+        "cabinet",
+        "closet"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "kitchen cupboard",
+        "in the cupboard"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مبلمانی با در و قفسه برای نگهداری وسایل",
+      "note": "در بریتیش cupboard و در آمریکایی cabinet بیشتر استفاده می‌شود.",
+      "trap": "حرف b در cupboard تلفظ نمی‌شود: /ˈkʌbərd/.",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "carpet",
+      "translation": "فرش / موکت",
+      "ipa": "/ˈkɑːrpɪt/",
+      "partOfSpeech": "noun",
+      "example": "There is a red carpet in the living room.",
+      "definitions": [
+        "a thick floor covering"
+      ],
+      "synonyms": [
+        "rug"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "red carpet",
+        "carpet floor",
+        "on the carpet"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پوشش ضخیم کف اتاق",
+      "note": "carpet معمولاً کل کف اتاق را می‌پوشاند اما rug کوچکتر است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "mirror",
+      "translation": "آینه",
+      "ipa": "/ˈmɪrər/",
+      "partOfSpeech": "noun",
+      "example": "I look at myself in the mirror.",
+      "definitions": [
+        "a piece of glass that reflects images"
+      ],
+      "synonyms": [
+        "looking glass"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "bathroom mirror",
+        "look in the mirror"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "تکه‌ای شیشه که تصاویر را بازتاب می‌دهد",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "key",
+      "translation": "کلید",
+      "ipa": "/kiː/",
+      "partOfSpeech": "noun",
+      "example": "Where is my key?",
+      "definitions": [
+        "a small metal object used to open a lock"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "house key",
+        "car key",
+        "lock and key"
+      ],
+      "wordFamily": [
+        "keyboard (n)"
+      ],
+      "coreMeaning": "شیء فلزی کوچک برای باز کردن قفل",
+      "note": "key همچنین به معنی کلید صفحه‌کلید و کلید موسیقی هم هست.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "floor",
+      "translation": "کف / طبقه",
+      "ipa": "/flɔːr/",
+      "partOfSpeech": "noun",
+      "example": "The floor is very clean.",
+      "definitions": [
+        "the lower surface of a room that you walk on"
+      ],
+      "synonyms": [
+        "ground"
+      ],
+      "antonyms": [
+        "ceiling"
+      ],
+      "collocations": [
+        "on the floor",
+        "ground floor",
+        "first floor"
+      ],
+      "wordFamily": [
+        "flooring (n)"
+      ],
+      "coreMeaning": "سطح پایین اتاق که روی آن راه می‌روید",
+      "note": "در بریتیش first floor طبقه اول بالای همکف است، اما در آمریکایی همان همکف است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "wall",
+      "translation": "دیوار",
+      "ipa": "/wɔːl/",
+      "partOfSpeech": "noun",
+      "example": "The wall is white.",
+      "definitions": [
+        "the side of a room or building"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "brick wall",
+        "wall painting",
+        "on the wall"
+      ],
+      "wordFamily": [
+        "wallpaper (n)"
+      ],
+      "coreMeaning": "سمت اتاق یا ساختمان",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "ceiling",
+      "translation": "سقف",
+      "ipa": "/ˈsiːlɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "The ceiling is very high.",
+      "definitions": [
+        "the upper surface of a room"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "floor"
+      ],
+      "collocations": [
+        "ceiling light",
+        "high ceiling"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سطح بالایی اتاق",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "light",
+      "translation": "چراغ / نور",
+      "ipa": "/laɪt/",
+      "partOfSpeech": "noun",
+      "example": "Turn on the light, please.",
+      "definitions": [
+        "the brightness that allows you to see things"
+      ],
+      "synonyms": [
+        "lamp",
+        "illumination"
+      ],
+      "antonyms": [
+        "darkness"
+      ],
+      "collocations": [
+        "turn on the light",
+        "turn off the light",
+        "light switch"
+      ],
+      "wordFamily": [
+        "lighting (n)",
+        "lighten (v)"
+      ],
+      "coreMeaning": "روشنایی که دیدن اشیاء را ممکن می‌کند",
+      "note": "light هم اسم (نور) و هم صفت (سبک) است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "towel",
+      "translation": "حوله",
+      "ipa": "/ˈtaʊəl/",
+      "partOfSpeech": "noun",
+      "example": "I need a clean towel.",
+      "definitions": [
+        "a piece of cloth used for drying things"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bath towel",
+        "hand towel",
+        "beach towel"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "تکه پارچه‌ای برای خشک کردن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "soap",
+      "translation": "صابون",
+      "ipa": "/soʊp/",
+      "partOfSpeech": "noun",
+      "example": "Wash your hands with soap.",
+      "definitions": [
+        "a substance used for washing and cleaning"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bar of soap",
+        "hand soap",
+        "soap and water"
+      ],
+      "wordFamily": [
+        "soapy (adj)"
+      ],
+      "coreMeaning": "ماده‌ای برای شستشو و تمیز کردن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "clean",
+      "translation": "تمیز",
+      "ipa": "/kliːn/",
+      "partOfSpeech": "adjective",
+      "example": "The kitchen is very clean.",
+      "definitions": [
+        "free from dirt or mess"
+      ],
+      "synonyms": [
+        "tidy",
+        "spotless"
+      ],
+      "antonyms": [
+        "dirty"
+      ],
+      "collocations": [
+        "clean house",
+        "clean dishes",
+        "keep clean"
+      ],
+      "wordFamily": [
+        "cleaner (n)",
+        "cleaning (n)",
+        "cleanliness (n)"
+      ],
+      "coreMeaning": "عاری از کثیفی یا بهم‌ریختگی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "dirty",
+      "translation": "کثیف",
+      "ipa": "/ˈdɜːrti/",
+      "partOfSpeech": "adjective",
+      "example": "Your hands are dirty.",
+      "definitions": [
+        "covered with unwanted substances; not clean"
+      ],
+      "synonyms": [
+        "filthy",
+        "messy"
+      ],
+      "antonyms": [
+        "clean"
+      ],
+      "collocations": [
+        "dirty clothes",
+        "dirty dishes",
+        "dirty floor"
+      ],
+      "wordFamily": [
+        "dirt (n)"
+      ],
+      "coreMeaning": "پوشیده از مواد ناخواسته؛ تمیز نیست",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "quiet",
+      "translation": "آرام / ساکت",
+      "ipa": "/ˈkwaɪət/",
+      "partOfSpeech": "adjective",
+      "example": "The house is very quiet at night.",
+      "definitions": [
+        "making little or no noise"
+      ],
+      "synonyms": [
+        "silent",
+        "peaceful"
+      ],
+      "antonyms": [
+        "noisy",
+        "loud"
+      ],
+      "collocations": [
+        "quiet room",
+        "be quiet",
+        "quiet neighborhood"
+      ],
+      "wordFamily": [
+        "quietly (adv)",
+        "quietness (n)"
+      ],
+      "coreMeaning": "کم یا بدون صدا",
+      "note": "",
+      "trap": "quiet و quite را اشتباه نکنید: quiet آرام، quite خیلی.",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "food",
+      "translation": "غذا",
+      "ipa": "/fuːd/",
+      "partOfSpeech": "noun",
+      "example": "The food is delicious.",
+      "definitions": [
+        "any substance that people or animals eat for nutrition"
+      ],
+      "synonyms": [
+        "meal",
+        "dish"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fast food",
+        "food and drink",
+        "healthy food"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "هر ماده‌ای که انسان‌ها برای تغذیه می‌خورند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "bread",
+      "translation": "نان",
+      "ipa": "/bred/",
+      "partOfSpeech": "noun",
+      "example": "I eat bread for breakfast.",
+      "definitions": [
+        "a food made from flour, water, and yeast, baked in an oven"
+      ],
+      "synonyms": [
+        "loaf"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "slice of bread",
+        "white bread",
+        "brown bread"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "غذایی از آرد و آب و مخمر که در فر پخته می‌شود",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "rice",
+      "translation": "برنج",
+      "ipa": "/raɪs/",
+      "partOfSpeech": "noun",
+      "example": "We eat rice with chicken.",
+      "definitions": [
+        "a cereal grain that is a staple food in many countries"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "white rice",
+        "fried rice",
+        "rice and beans"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "غلاتی که غذای اصلی بسیاری از کشورهاست",
+      "note": "rice به صورت غیرقابل شمارش استفاده می‌شود: a grain of rice.",
+      "trap": "rice غیرقابل شمارش است. نگویید a rice، بگویید some rice.",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "meat",
+      "translation": "گوشت",
+      "ipa": "/miːt/",
+      "partOfSpeech": "noun",
+      "example": "I don't eat red meat.",
+      "definitions": [
+        "the flesh of animals used as food"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "red meat",
+        "white meat",
+        "fresh meat"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "گوشت حیوانات به عنوان غذا",
+      "note": "meat گوشت به طور کلی است. گوشت گاو beef، گوشت مرغ chicken، گوشت خوک pork.",
+      "trap": "meat و meet هم‌آوا هستند اما معنی متفاوت دارند.",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "chicken",
+      "translation": "مرغ",
+      "ipa": "/ˈtʃɪkɪn/",
+      "partOfSpeech": "noun",
+      "example": "I like grilled chicken.",
+      "definitions": [
+        "a common farm bird; its meat used as food"
+      ],
+      "synonyms": [
+        "poultry"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fried chicken",
+        "chicken soup",
+        "grilled chicken"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پرنده رایج مزرعه؛ گوشت آن به عنوان غذا",
+      "note": "chicken هم به پرنده زنده و هم به گوشت آن گفته می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "egg",
+      "translation": "تخم‌مرغ",
+      "ipa": "/eɡ/",
+      "partOfSpeech": "noun",
+      "example": "I had two eggs for breakfast.",
+      "definitions": [
+        "an oval object laid by a female bird, used as food"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "boiled egg",
+        "fried egg",
+        "scrambled eggs"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "شیء بیضی‌شکل که پرنده می‌گذارد و به عنوان غذا استفاده می‌شود",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "fish",
+      "translation": "ماهی",
+      "ipa": "/fɪʃ/",
+      "partOfSpeech": "noun",
+      "example": "Fish is good for your health.",
+      "definitions": [
+        "a cold-blooded animal that lives in water; its meat as food"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "fresh fish",
+        "fish and chips",
+        "fried fish"
+      ],
+      "wordFamily": [
+        "fishing (n)"
+      ],
+      "coreMeaning": "حیوان آبزی؛ گوشت آن به عنوان غذا",
+      "note": "جمع fish معمولاً fish است، اما fishes هم برای انواع مختلف ماهی استفاده می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "fruit",
+      "translation": "میوه",
+      "ipa": "/fruːt/",
+      "partOfSpeech": "noun",
+      "example": "Eat more fruit and vegetables.",
+      "definitions": [
+        "the sweet, fleshy product of a plant that contains seeds"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "fresh fruit",
+        "fruit juice",
+        "fruit salad"
+      ],
+      "wordFamily": [
+        "fruity (adj)"
+      ],
+      "coreMeaning": "محصول شیرین و گوشتی گیاه که دانه دارد",
+      "note": "fruit معمولاً غیرقابل شمارش است اما fruits برای انواع مختلف میوه.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "vegetable",
+      "translation": "سبزیجات",
+      "ipa": "/ˈvedʒtəbl/",
+      "partOfSpeech": "noun",
+      "example": "Carrots are my favorite vegetable.",
+      "definitions": [
+        "a plant or part of a plant used as food"
+      ],
+      "synonyms": [
+        "veggie"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fresh vegetables",
+        "vegetable soup",
+        "green vegetables"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "گیاه یا بخشی از گیاه که به عنوان غذا استفاده می‌شود",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "apple",
+      "translation": "سیب",
+      "ipa": "/ˈæpl/",
+      "partOfSpeech": "noun",
+      "example": "An apple a day keeps the doctor away.",
+      "definitions": [
+        "a round fruit with red or green skin"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "green apple",
+        "apple juice",
+        "apple pie"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "میوه‌ای گرد با پوست قرمز یا سبز",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "banana",
+      "translation": "موز",
+      "ipa": "/bəˈnænə/",
+      "partOfSpeech": "noun",
+      "example": "I eat a banana every morning.",
+      "definitions": [
+        "a long curved fruit with yellow skin"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "banana peel",
+        "banana split"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "میوه‌ای بلند و خمیده با پوست زرد",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "orange",
+      "translation": "پرتقال",
+      "ipa": "/ˈɔːrɪndʒ/",
+      "partOfSpeech": "noun",
+      "example": "I drink orange juice every day.",
+      "definitions": [
+        "a round citrus fruit with orange skin"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "orange juice",
+        "orange tree"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "میوه مرکبات گرد با پوست نارنجی",
+      "note": "orange هم به میوه و هم به رنگ نارنجی گفته می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "tomato",
+      "translation": "گوجه‌فرنگی",
+      "ipa": "/təˈmeɪtoʊ/",
+      "partOfSpeech": "noun",
+      "example": "I put tomato in the salad.",
+      "definitions": [
+        "a round red fruit used as a vegetable in cooking"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "tomato sauce",
+        "tomato soup",
+        "cherry tomato"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "میوه گرد قرمز که در آشپزی به عنوان سبزی استفاده می‌شود",
+      "note": "از نظر علمی میوه است اما در آشپزی به عنوان سبزی استفاده می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "potato",
+      "translation": "سیب‌زمینی",
+      "ipa": "/pəˈteɪtoʊ/",
+      "partOfSpeech": "noun",
+      "example": "I like baked potato.",
+      "definitions": [
+        "a starchy root vegetable"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "baked potato",
+        "french fries",
+        "mashed potato"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سبزی ریشه‌ای نشاسته‌ای",
+      "note": "جمع potato به صورت potatoes.",
+      "trap": "جمع: potatoes نه potatos.",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "onion",
+      "translation": "پیاز",
+      "ipa": "/ˈʌnjən/",
+      "partOfSpeech": "noun",
+      "example": "Cut the onion into small pieces.",
+      "definitions": [
+        "a round vegetable with layers, used for flavoring food"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "chopped onion",
+        "onion rings"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سبزی گرد لایه‌لایه برای طعم‌دار کردن غذا",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "carrot",
+      "translation": "هویج",
+      "ipa": "/ˈkærət/",
+      "partOfSpeech": "noun",
+      "example": "Rabbits love carrots.",
+      "definitions": [
+        "a long orange root vegetable"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "carrot cake",
+        "carrot juice"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سبزی ریشه‌ای بلند نارنجی‌رنگ",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "cheese",
+      "translation": "پنیر",
+      "ipa": "/tʃiːz/",
+      "partOfSpeech": "noun",
+      "example": "I like cheese on my sandwich.",
+      "definitions": [
+        "a food made from milk"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "cream cheese",
+        "cheese sandwich",
+        "grilled cheese"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "غذایی که از شیر ساخته می‌شود",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "butter",
+      "translation": "کره",
+      "ipa": "/ˈbʌtər/",
+      "partOfSpeech": "noun",
+      "example": "Put some butter on the bread.",
+      "definitions": [
+        "a pale yellow food made from cream, used in cooking and on bread"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bread and butter",
+        "peanut butter"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماده زرد کم‌رنگ از خامه برای پخت‌وپز و روی نان",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "sugar",
+      "translation": "شکر",
+      "ipa": "/ˈʃʊɡər/",
+      "partOfSpeech": "noun",
+      "example": "Do you take sugar in your tea?",
+      "definitions": [
+        "a sweet substance used to sweeten food and drinks"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "sugar and salt",
+        "cane sugar",
+        "add sugar"
+      ],
+      "wordFamily": [
+        "sugary (adj)"
+      ],
+      "coreMeaning": "ماده شیرین برای شیرین کردن غذا و نوشیدنی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "salt",
+      "translation": "نمک",
+      "ipa": "/sɔːlt/",
+      "partOfSpeech": "noun",
+      "example": "Pass me the salt, please.",
+      "definitions": [
+        "a white substance used to flavor food"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "salt and pepper",
+        "add salt"
+      ],
+      "wordFamily": [
+        "salty (adj)"
+      ],
+      "coreMeaning": "ماده سفید برای طعم‌دار کردن غذا",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "pepper",
+      "translation": "فلفل",
+      "ipa": "/ˈpepər/",
+      "partOfSpeech": "noun",
+      "example": "Add some pepper to the soup.",
+      "definitions": [
+        "a powder made from dried peppers, used to flavor food"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "salt and pepper",
+        "black pepper",
+        "bell pepper"
+      ],
+      "wordFamily": [
+        "peppery (adj)"
+      ],
+      "coreMeaning": "پودری از فلفل خشک برای طعم‌دار کردن غذا",
+      "note": "pepper هم فلفل سیاه (ادویه) و هم فلفل دلمه‌ای (سبزی) است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "oil",
+      "translation": "روغن",
+      "ipa": "/ɔɪl/",
+      "partOfSpeech": "noun",
+      "example": "Heat some oil in the pan.",
+      "definitions": [
+        "a thick liquid used in cooking"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "cooking oil",
+        "olive oil",
+        "vegetable oil"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مایع غلیظ برای پخت‌وپز",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "flour",
+      "translation": "آرد",
+      "ipa": "/ˈflaʊər/",
+      "partOfSpeech": "noun",
+      "example": "We need flour to make bread.",
+      "definitions": [
+        "a fine powder made from grain, used for making bread and cakes"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "all-purpose flour",
+        "wheat flour"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پودر نرم از غلات برای درست کردن نان و کیک",
+      "note": "flour و flower هم‌آوا هستند اما معنی متفاوت دارند.",
+      "trap": "flour (آرد) و flower (گل) تلفظ یکسانی دارند.",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "water",
+      "translation": "آب",
+      "ipa": "/ˈwɔːtər/",
+      "partOfSpeech": "noun",
+      "example": "Can I have a glass of water?",
+      "definitions": [
+        "a clear liquid that people drink"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "glass of water",
+        "cold water",
+        "hot water",
+        "drink water"
+      ],
+      "wordFamily": [
+        "waterfall (n)",
+        "waterproof (adj)"
+      ],
+      "coreMeaning": "مایع شفافی که انسان‌ها می‌نوشند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "tea",
+      "translation": "چای",
+      "ipa": "/tiː/",
+      "partOfSpeech": "noun",
+      "example": "I drink tea in the morning.",
+      "definitions": [
+        "a hot drink made by pouring boiling water on dried leaves"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "green tea",
+        "black tea",
+        "cup of tea"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نوشیدنی گرم از دم کردن برگ‌های خشک",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "coffee",
+      "translation": "قهوه",
+      "ipa": "/ˈkɔːfi/",
+      "partOfSpeech": "noun",
+      "example": "I need a cup of coffee.",
+      "definitions": [
+        "a hot drink made from roasted coffee beans"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "black coffee",
+        "cup of coffee",
+        "coffee shop"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نوشیدنی گرم از دانه‌های برشته قهوه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "milk",
+      "translation": "شیر",
+      "ipa": "/mɪlk/",
+      "partOfSpeech": "noun",
+      "example": "Children drink milk.",
+      "definitions": [
+        "a white liquid produced by female mammals"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "fresh milk",
+        "cold milk",
+        "glass of milk"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مایع سفید که پستانداران تولید می‌کنند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "juice",
+      "translation": "آبمیوه",
+      "ipa": "/dʒuːs/",
+      "partOfSpeech": "noun",
+      "example": "I like orange juice.",
+      "definitions": [
+        "a drink made from the liquid of fruits or vegetables"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "orange juice",
+        "apple juice",
+        "fruit juice"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نوشیدنی از مایع میوه یا سبزیجات",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "cake",
+      "translation": "کیک",
+      "ipa": "/keɪk/",
+      "partOfSpeech": "noun",
+      "example": "She made a chocolate cake.",
+      "definitions": [
+        "a sweet baked food made from flour, sugar, and eggs"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "birthday cake",
+        "chocolate cake",
+        "piece of cake"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "شیرینی پخته از آرد و شکر و تخم‌مرغ",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "sandwich",
+      "translation": "ساندویچ",
+      "ipa": "/ˈsænwɪtʃ/",
+      "partOfSpeech": "noun",
+      "example": "I had a cheese sandwich for lunch.",
+      "definitions": [
+        "two slices of bread with food between them"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "cheese sandwich",
+        "chicken sandwich",
+        "make a sandwich"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "دو برش نان با غذا بین آن‌ها",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "soup",
+      "translation": "سوپ",
+      "ipa": "/suːp/",
+      "partOfSpeech": "noun",
+      "example": "The soup is very hot.",
+      "definitions": [
+        "a liquid food made by boiling meat, vegetables, etc. in water"
+      ],
+      "synonyms": [
+        "broth"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "chicken soup",
+        "tomato soup",
+        "hot soup"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "غذای مایع که با جوشاندن گوشت و سبزیجات درست می‌شود",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "pizza",
+      "translation": "پیتزا",
+      "ipa": "/ˈpiːtsə/",
+      "partOfSpeech": "noun",
+      "example": "Let's order a pizza.",
+      "definitions": [
+        "a flat round bread topped with cheese, tomato, and other foods"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "order a pizza",
+        "pizza slice",
+        "pizza delivery"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نان گرد صاف با پنیر و گوجه و مواد دیگر روی آن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "pasta",
+      "translation": "پاستا / ماکارونی",
+      "ipa": "/ˈpɑːstə/",
+      "partOfSpeech": "noun",
+      "example": "I love pasta with tomato sauce.",
+      "definitions": [
+        "a food made from flour and water, shaped into various forms"
+      ],
+      "synonyms": [
+        "noodles"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "pasta sauce",
+        "cook pasta",
+        "pasta dish"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "غذایی از آرد و آب با اشکال مختلف",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "breakfast",
+      "translation": "صبحانه",
+      "ipa": "/ˈbrekfəst/",
+      "partOfSpeech": "noun",
+      "example": "I have breakfast at seven.",
+      "definitions": [
+        "the first meal of the day, eaten in the morning"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "have breakfast",
+        "eat breakfast",
+        "breakfast time"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اولین وعده غذا در صبح",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "lunch",
+      "translation": "ناهار",
+      "ipa": "/lʌntʃ/",
+      "partOfSpeech": "noun",
+      "example": "What do you want for lunch?",
+      "definitions": [
+        "a meal eaten in the middle of the day"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "have lunch",
+        "lunch time",
+        "lunch break"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "وعده غذایی وسط روز",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "dinner",
+      "translation": "شام",
+      "ipa": "/ˈdɪnər/",
+      "partOfSpeech": "noun",
+      "example": "We have dinner at eight.",
+      "definitions": [
+        "the main meal of the day, usually eaten in the evening"
+      ],
+      "synonyms": [
+        "supper"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "have dinner",
+        "dinner time",
+        "dinner table"
+      ],
+      "wordFamily": [
+        "dining (n)"
+      ],
+      "coreMeaning": "وعده اصلی غذا، معمولاً در شب",
+      "note": "dinner می‌تواند وعده اصلی باشد، حتی اگر ظهر خورده شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "cook",
+      "translation": "آشپزی کردن",
+      "ipa": "/kʊk/",
+      "partOfSpeech": "verb",
+      "example": "My father cooks dinner every night.",
+      "definitions": [
+        "to prepare food by heating it"
+      ],
+      "synonyms": [
+        "prepare"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cook dinner",
+        "cook a meal",
+        "cook food"
+      ],
+      "wordFamily": [
+        "cooking (n)",
+        "cooker (n)",
+        "cook (n)"
+      ],
+      "coreMeaning": "آماده کردن غذا با حرارت دادن",
+      "note": "cook هم فعل (آشپزی کردن) و هم اسم (آشپز) است.",
+      "trap": "cook و cooker فرق دارند: cook آشپز است، cooker اجاق گاز.",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "bake",
+      "translation": "پختن (در فر)",
+      "ipa": "/beɪk/",
+      "partOfSpeech": "verb",
+      "example": "She bakes a cake every weekend.",
+      "definitions": [
+        "to cook food in an oven using dry heat"
+      ],
+      "synonyms": [
+        "roast"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "bake a cake",
+        "bake bread",
+        "bake cookies"
+      ],
+      "wordFamily": [
+        "baker (n)",
+        "bakery (n)",
+        "baking (n)"
+      ],
+      "coreMeaning": "پختن غذا در فر با حرارت خشک",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "fry",
+      "translation": "سرخ کردن",
+      "ipa": "/fraɪ/",
+      "partOfSpeech": "verb",
+      "example": "Fry the eggs in a pan.",
+      "definitions": [
+        "to cook food in hot oil or fat"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "fry an egg",
+        "deep fry",
+        "stir fry"
+      ],
+      "wordFamily": [
+        "fried (adj)",
+        "frying (n)"
+      ],
+      "coreMeaning": "پختن غذا در روغن داغ",
+      "note": "",
+      "trap": "جمع fry به صورت fries است: french fries.",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "boil",
+      "translation": "جوشاندن",
+      "ipa": "/bɔɪl/",
+      "partOfSpeech": "verb",
+      "example": "Boil the water for tea.",
+      "definitions": [
+        "to heat a liquid until it reaches 100°C and bubbles form"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "boil water",
+        "boil eggs",
+        "bring to a boil"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "گرم کردن مایع تا دمای ۱۰۰ درجه و حباب زدن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "cut",
+      "translation": "بریدن",
+      "ipa": "/kʌt/",
+      "partOfSpeech": "verb",
+      "example": "Cut the bread with a knife.",
+      "definitions": [
+        "to divide something into pieces using a sharp tool"
+      ],
+      "synonyms": [
+        "slice",
+        "chop"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cut bread",
+        "cut vegetables",
+        "cut into pieces"
+      ],
+      "wordFamily": [
+        "cutter (n)",
+        "cutting (n)"
+      ],
+      "coreMeaning": "تقسیم کردن چیزی به تکه‌ها با ابزار تیز",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "mix",
+      "translation": "مخلوط کردن",
+      "ipa": "/mɪks/",
+      "partOfSpeech": "verb",
+      "example": "Mix the flour and sugar together.",
+      "definitions": [
+        "to combine different substances together"
+      ],
+      "synonyms": [
+        "blend",
+        "stir"
+      ],
+      "antonyms": [
+        "separate"
+      ],
+      "collocations": [
+        "mix together",
+        "mix well"
+      ],
+      "wordFamily": [
+        "mixture (n)",
+        "mixed (adj)"
+      ],
+      "coreMeaning": "ترکیب کردن مواد مختلف با هم",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "stir",
+      "translation": "هم زدن",
+      "ipa": "/stɜːr/",
+      "partOfSpeech": "verb",
+      "example": "Stir the soup with a spoon.",
+      "definitions": [
+        "to move a liquid or substance around using a spoon or stick"
+      ],
+      "synonyms": [
+        "mix"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "stir well",
+        "stir the soup"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "حرکت دادن مایع یا ماده‌ای با قاشق",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "wash",
+      "translation": "شستن",
+      "ipa": "/wɑːʃ/",
+      "partOfSpeech": "verb",
+      "example": "Wash your hands before eating.",
+      "definitions": [
+        "to clean something using water and usually soap"
+      ],
+      "synonyms": [
+        "clean",
+        "rinse"
+      ],
+      "antonyms": [
+        "dirty"
+      ],
+      "collocations": [
+        "wash hands",
+        "wash dishes",
+        "wash clothes"
+      ],
+      "wordFamily": [
+        "washer (n)",
+        "washing (n)"
+      ],
+      "coreMeaning": "تمیز کردن چیزی با آب و معمولاً صابون",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food",
+        "home"
+      ]
+    },
+    {
+      "word": "plate",
+      "translation": "بشقاب",
+      "ipa": "/pleɪt/",
+      "partOfSpeech": "noun",
+      "example": "Put the food on the plate.",
+      "definitions": [
+        "a flat dish used for serving food"
+      ],
+      "synonyms": [
+        "dish"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "dinner plate",
+        "on the plate",
+        "plate of food"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ظرف صاف برای سرو غذا",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "cup",
+      "translation": "فنجان",
+      "ipa": "/kʌp/",
+      "partOfSpeech": "noun",
+      "example": "A cup of tea, please.",
+      "definitions": [
+        "a small container with a handle for drinking"
+      ],
+      "synonyms": [
+        "mug"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cup of tea",
+        "cup of coffee",
+        "coffee cup"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ظرف کوچک با دسته برای نوشیدن",
+      "note": "cup معمولاً کوچک و با نعلبکی است، mug بزرگتر و بدون نعلبکی.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "glass",
+      "translation": "لیوان",
+      "ipa": "/ɡlæs/",
+      "partOfSpeech": "noun",
+      "example": "I need a glass of water.",
+      "definitions": [
+        "a container made of glass for drinking"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "glass of water",
+        "glass of juice",
+        "wine glass"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ظرف شیشه‌ای برای نوشیدن",
+      "note": "glass هم به معنی لیوان و هم شیشه است.",
+      "trap": "glass دو معنی دارد: لیوان و شیشه. از روی جمله باید فهمید کدام است.",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "knife",
+      "translation": "چاقو",
+      "ipa": "/naɪf/",
+      "partOfSpeech": "noun",
+      "example": "Be careful with the knife.",
+      "definitions": [
+        "a tool with a sharp blade used for cutting"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "sharp knife",
+        "bread knife",
+        "kitchen knife"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ابزاری با تیغه تیز برای بریدن",
+      "note": "جمع knife به صورت knives است.",
+      "trap": "جمع: knives نه knifes. حرف f به v تبدیل می‌شود.",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "fork",
+      "translation": "چنگال",
+      "ipa": "/fɔːrk/",
+      "partOfSpeech": "noun",
+      "example": "Eat with a fork and knife.",
+      "definitions": [
+        "a tool with a handle and sharp points used for eating"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "knife and fork",
+        "dinner fork"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ابزاری با دسته و نوک‌های تیز برای غذا خوردن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "spoon",
+      "translation": "قاشق",
+      "ipa": "/spuːn/",
+      "partOfSpeech": "noun",
+      "example": "Stir the soup with a spoon.",
+      "definitions": [
+        "a tool with a small bowl-shaped end used for eating or stirring"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "teaspoon",
+        "tablespoon",
+        "soup spoon"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ابزاری با سر کاسه‌ای کوچک برای خوردن یا هم زدن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "bowl",
+      "translation": "کاسه",
+      "ipa": "/boʊl/",
+      "partOfSpeech": "noun",
+      "example": "Put the soup in a bowl.",
+      "definitions": [
+        "a deep round dish used for holding food or liquid"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "soup bowl",
+        "rice bowl",
+        "mixing bowl"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ظرف گرد و عمیق برای نگهداری غذا یا مایع",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "pan",
+      "translation": "ماهیتابه",
+      "ipa": "/pæn/",
+      "partOfSpeech": "noun",
+      "example": "Heat some oil in the pan.",
+      "definitions": [
+        "a flat metal container used for cooking food on a stove"
+      ],
+      "synonyms": [
+        "frying pan",
+        "skillet"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "frying pan",
+        "non-stick pan"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ظرف فلزی صاف برای پختن غذا روی اجاق",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "pot",
+      "translation": "قابلمه",
+      "ipa": "/pɑːt/",
+      "partOfSpeech": "noun",
+      "example": "Put the pot on the stove.",
+      "definitions": [
+        "a deep round container used for cooking"
+      ],
+      "synonyms": [
+        "saucepan"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cooking pot",
+        "pot of soup",
+        "coffee pot"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ظرف گرد و عمیق برای پختن غذا",
+      "note": "pot عمیق‌تر از pan است و برای سوپ و آب‌پزی استفاده می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "oven",
+      "translation": "فر",
+      "ipa": "/ˈʌvn/",
+      "partOfSpeech": "noun",
+      "example": "Put the cake in the oven.",
+      "definitions": [
+        "a heated enclosed space for cooking or baking food"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in the oven",
+        "oven temperature",
+        "preheat the oven"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فضای بسته گرم برای پختن یا بیک کردن غذا",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "stove",
+      "translation": "اجاق گاز",
+      "ipa": "/stoʊv/",
+      "partOfSpeech": "noun",
+      "example": "The stove is very hot.",
+      "definitions": [
+        "a device used for cooking food, using gas or electricity"
+      ],
+      "synonyms": [
+        "cooker",
+        "range"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "gas stove",
+        "electric stove",
+        "turn on the stove"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "وسیله‌ای برای پختن غذا با گاز یا برق",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "fridge",
+      "translation": "یخچال",
+      "ipa": "/frɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "The milk is in the fridge.",
+      "definitions": [
+        "a machine that keeps food cold and fresh"
+      ],
+      "synonyms": [
+        "refrigerator"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "in the fridge",
+        "fridge door",
+        "open the fridge"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماشینی که غذا را سرد و تازه نگه می‌دارد",
+      "note": "fridge مخفف refrigerator است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "sink",
+      "translation": "سینک ظرفشویی",
+      "ipa": "/sɪŋk/",
+      "partOfSpeech": "noun",
+      "example": "Wash the dishes in the sink.",
+      "definitions": [
+        "a basin with a faucet, used for washing dishes or hands"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "kitchen sink",
+        "bathroom sink",
+        "wash in the sink"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "لگن با شیر آب برای شستن ظرف یا دست",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food",
+        "home"
+      ]
+    },
+    {
+      "word": "dish",
+      "translation": "ظرف / غذا",
+      "ipa": "/dɪʃ/",
+      "partOfSpeech": "noun",
+      "example": "Wash the dishes after dinner.",
+      "definitions": [
+        "a container for food; a type of prepared food"
+      ],
+      "synonyms": [
+        "plate",
+        "bowl"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "wash the dishes",
+        "main dish",
+        "side dish"
+      ],
+      "wordFamily": [
+        "dishwasher (n)"
+      ],
+      "coreMeaning": "ظرف غذا؛ نوعی غذای آماده",
+      "note": "dish هم به معنی ظرف و هم نوع غذا است. dishes جمع به معنی ظرف‌ها.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "delicious",
+      "translation": "خوشمزه",
+      "ipa": "/dɪˈlɪʃəs/",
+      "partOfSpeech": "adjective",
+      "example": "This food is delicious!",
+      "definitions": [
+        "very pleasant to taste"
+      ],
+      "synonyms": [
+        "tasty",
+        "yummy"
+      ],
+      "antonyms": [
+        "tasteless",
+        "bland"
+      ],
+      "collocations": [
+        "delicious food",
+        "delicious meal",
+        "taste delicious"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "بسیار خوش‌طعم",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "sweet",
+      "translation": "شیرین",
+      "ipa": "/swiːt/",
+      "partOfSpeech": "adjective",
+      "example": "This cake is too sweet.",
+      "definitions": [
+        "having a taste like sugar"
+      ],
+      "synonyms": [
+        "sugary"
+      ],
+      "antonyms": [
+        "sour",
+        "bitter"
+      ],
+      "collocations": [
+        "sweet food",
+        "too sweet",
+        "sweet taste"
+      ],
+      "wordFamily": [
+        "sweetness (n)",
+        "sweeten (v)"
+      ],
+      "coreMeaning": "دارای طعم شکر",
+      "note": "sweet همچنین به معنی مهربان و دوست‌داشتنی هم استفاده می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "fresh",
+      "translation": "تازه",
+      "ipa": "/freʃ/",
+      "partOfSpeech": "adjective",
+      "example": "I want fresh bread.",
+      "definitions": [
+        "recently made or produced; not old"
+      ],
+      "synonyms": [
+        "new"
+      ],
+      "antonyms": [
+        "stale",
+        "old"
+      ],
+      "collocations": [
+        "fresh fruit",
+        "fresh bread",
+        "fresh air"
+      ],
+      "wordFamily": [
+        "freshness (n)"
+      ],
+      "coreMeaning": "به تازگی ساخته یا تولید شده؛ کهنه نیست",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "restaurant",
+      "translation": "رستوران",
+      "ipa": "/ˈrestərɑːnt/",
+      "partOfSpeech": "noun",
+      "example": "Let's go to a restaurant.",
+      "definitions": [
+        "a place where you can buy and eat a meal"
+      ],
+      "synonyms": [
+        "eatery",
+        "diner"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go to a restaurant",
+        "Italian restaurant",
+        "fast food restaurant"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "محلی که می‌توانید غذا بخرید و بخورید",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "menu",
+      "translation": "منو / فهرست غذا",
+      "ipa": "/ˈmenjuː/",
+      "partOfSpeech": "noun",
+      "example": "Can I see the menu, please?",
+      "definitions": [
+        "a list of dishes available in a restaurant"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "look at the menu",
+        "menu item",
+        "daily menu"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فهرست غذاهای موجود در رستوران",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "waiter",
+      "translation": "گارسون",
+      "ipa": "/ˈweɪtər/",
+      "partOfSpeech": "noun",
+      "example": "The waiter brought the food.",
+      "definitions": [
+        "a person who serves food and drinks in a restaurant"
+      ],
+      "synonyms": [
+        "server"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "call the waiter",
+        "waiter service"
+      ],
+      "wordFamily": [
+        "waitress (n)"
+      ],
+      "coreMeaning": "شخصی که در رستوران غذا و نوشیدنی سرو می‌کند",
+      "note": "waiter مرد و waitress زن است. server خنثی است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "pay",
+      "translation": "پرداخت کردن",
+      "ipa": "/peɪ/",
+      "partOfSpeech": "verb",
+      "example": "Can I pay by card?",
+      "definitions": [
+        "to give money for something you buy"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "pay the bill",
+        "pay by card",
+        "pay cash"
+      ],
+      "wordFamily": [
+        "payment (n)"
+      ],
+      "coreMeaning": "دادن پول برای چیزی که می‌خرید",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "food"
+      ]
+    },
+    {
+      "word": "invite",
+      "translation": "دعوت کردن",
+      "ipa": "/ɪnˈvaɪt/",
+      "partOfSpeech": "verb",
+      "example": "I want to invite you to dinner.",
+      "definitions": [
+        "to ask someone to come to an event or place"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "invite to dinner",
+        "invite friends",
+        "invite someone"
+      ],
+      "wordFamily": [
+        "invitation (n)"
+      ],
+      "coreMeaning": "از کسی خواستن به رویداد یا مکانی بیاید",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "home"
+      ]
+    },
+    {
+      "word": "drawer",
+      "translation": "کشو",
+      "ipa": "/drɔːr/",
+      "partOfSpeech": "noun",
+      "example": "I keep my socks in the top drawer.",
+      "definitions": [
+        "a box-shaped part of a piece of furniture that slides in and out and is used for storing things"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "top drawer",
+        "bottom drawer",
+        "desk drawer",
+        "in the drawer"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "جعبه‌ی کشویی در مبلمان برای نگهداری وسایل",
+      "note": "فعل draw به معنی کشیدن است؛ drawer چیزی که کشیده می‌شود",
+      "trap": "با draw (نقاشی کشیدن) اشتباه نگیرید؛ اینجا draw به معنی کشیدن است",
+      "tags": [
+        "A1",
+        "home",
+        "furniture"
+      ]
+    },
+    {
+      "word": "pillow",
+      "translation": "بالش",
+      "ipa": "/ˈpɪloʊ/",
+      "partOfSpeech": "noun",
+      "example": "I put my head on the pillow and went to sleep.",
+      "definitions": [
+        "a soft cushion used to support the head, especially in bed"
+      ],
+      "synonyms": [
+        "cushion"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "soft pillow",
+        "pillow case",
+        "on the pillow"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "وسیله‌ی نرم برای زیر سر هنگام خواب",
+      "note": "pillow case یا pillowcase به معنی روبالشی است",
+      "trap": "با pillow (بالش) و cushion (کوسن) تفاوت دارد؛ pillow مخصوص خواب است",
+      "tags": [
+        "A1",
+        "home",
+        "bedroom"
+      ]
+    },
+    {
+      "word": "honey",
+      "translation": "عسل",
+      "ipa": "/ˈhʌni/",
+      "partOfSpeech": "noun",
+      "example": "I like honey on my bread in the morning.",
+      "definitions": [
+        "a sweet sticky substance made by bees, used as food"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "honey bee",
+        "a jar of honey",
+        "honey and bread"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماده‌ی شیرین و چسبناکی که زنبورها تولید می‌کنند",
+      "note": "همچنین به عنوان لقب محبت‌آمیز برای عزیزان استفاده می‌شود",
+      "trap": "جمع ندارد؛ نمی‌گوییم honeys",
+      "tags": [
+        "A1",
+        "food",
+        "kitchen"
+      ]
+    },
+    {
+      "word": "noodle",
+      "translation": "نودل، رشته",
+      "ipa": "/ˈnuːdl/",
+      "partOfSpeech": "noun",
+      "example": "We had chicken noodle soup for dinner.",
+      "definitions": [
+        "a long thin strip of pasta, often eaten in soups or stir-fried dishes"
+      ],
+      "synonyms": [
+        "pasta"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "chicken noodle soup",
+        "instant noodles",
+        "egg noodles"
+      ],
+      "wordFamily": [
+        "noodles"
+      ],
+      "coreMeaning": "رشته‌ی بلند و باریک خمیری که در سوپ یا غذاهای سرخ شده استفاده می‌شود",
+      "note": "معمولاً به صورت جمع noodles استفاده می‌شود",
+      "trap": "اغلب به صورت جمع noodles می‌آید؛ 'I want noodles' نه 'I want a noodle'",
+      "tags": [
+        "A1",
+        "food",
+        "kitchen"
+      ]
+    },
+    {
+      "word": "freezer",
+      "translation": "فریزر، فریزکننده",
+      "ipa": "/ˈfriːzər/",
+      "partOfSpeech": "noun",
+      "example": "Put the meat in the freezer.",
+      "definitions": [
+        "a compartment or appliance for keeping food frozen"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in the freezer",
+        "deep freezer"
+      ],
+      "wordFamily": [
+        "freeze (v)",
+        "frozen (adj)"
+      ],
+      "coreMeaning": "محل نگهداری غذای منجمد",
+      "note": "با fridge (یخچال) فرق دارد — freezer برای انجماد است",
+      "trap": "freezer فقط بخش فریزر است، نه کل یخچال",
+      "tags": [
+        "A1",
+        "home",
+        "food"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2409 @@
+{
+  "id": "C1-03",
+  "name": "حقوقی و رسمی",
+  "description": "واژگان حقوقی، قانونی و زبان رسمی",
+  "level": "C1",
+  "theme": "legal-formal",
+  "words": [
+    {
+      "word": "jurisdiction",
+      "translation": "صلاحیت",
+      "example": "The court has jurisdiction over the case.",
+      "synonyms": [
+        "authority",
+        "competence"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "legislation",
+      "translation": "قانون‌گذاری",
+      "example": "New legislation was enacted.",
+      "synonyms": [
+        "lawmaking",
+        "statute creation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "statute",
+      "translation": "قانون موضوعه",
+      "example": "The statute was amended.",
+      "synonyms": [
+        "law",
+        "regulation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "regulation",
+      "translation": "آیین‌نامه",
+      "example": "The regulation was enforced.",
+      "synonyms": [
+        "rule",
+        "directive"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "ordinance",
+      "translation": "مقررات",
+      "example": "The city passed an ordinance.",
+      "synonyms": [
+        "bylaw",
+        "local law"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "decree",
+      "translation": "فرمان",
+      "example": "The president issued a decree.",
+      "synonyms": [
+        "edict",
+        "order"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "mandate",
+      "translation": "حکم",
+      "example": "The court issued a mandate.",
+      "synonyms": [
+        "order",
+        "command"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "injunction",
+      "translation": "دستور موقت",
+      "example": "An injunction was granted.",
+      "synonyms": [
+        "restraining order",
+        "prohibition"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "verdict",
+      "translation": "حکم دادگاه",
+      "example": "The jury delivered a verdict.",
+      "synonyms": [
+        "judgment",
+        "ruling"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "testimony",
+      "translation": "شهادت",
+      "example": "The witness gave testimony.",
+      "synonyms": [
+        "evidence",
+        "statement"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "affidavit",
+      "translation": "سند سوگندی",
+      "example": "The affidavit was notarized.",
+      "synonyms": [
+        "sworn statement",
+        "declaration"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "plaintiff",
+      "translation": "خواهان",
+      "example": "The plaintiff filed a lawsuit.",
+      "synonyms": [
+        "complainant",
+        "petitioner"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "defendant",
+      "translation": "خوانده",
+      "example": "The defendant pleaded not guilty.",
+      "synonyms": [
+        "accused",
+        "respondent"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "prosecution",
+      "translation": "دادستانی",
+      "example": "The prosecution presented evidence.",
+      "synonyms": [
+        "state",
+        "government"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "defense",
+      "translation": "دفاع",
+      "example": "The defense argued innocence.",
+      "synonyms": [
+        "protection",
+        "advocacy"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "evidence",
+      "translation": "دلیل",
+      "example": "Evidence was presented to the court.",
+      "synonyms": [
+        "proof",
+        "documentation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "precedent",
+      "translation": "رویه قضایی",
+      "example": "The ruling set a precedent.",
+      "synonyms": [
+        "example",
+        "standard"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "tort",
+      "translation": " defaulted",
+      "example": "Tort law covers civil wrongs.",
+      "synonyms": [
+        "civil wrong",
+        "delict"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "liability",
+      "translation": "مسئولیت",
+      "example": "Liability was established.",
+      "synonyms": [
+        "responsibility",
+        "accountability"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "negligence",
+      "translation": "قصور",
+      "example": "Negligence caused the accident.",
+      "synonyms": [
+        "carelessness",
+        "fault"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "breach",
+      "translation": "نقض",
+      "example": "The contract was breached.",
+      "synonyms": [
+        "violation",
+        "infringement"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "damages",
+      "translation": "خسارت",
+      "example": "Damages were awarded.",
+      "synonyms": [
+        "compensation",
+        "restitution"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "remedy",
+      "translation": "جبران خسارت",
+      "example": "The court provided a remedy.",
+      "synonyms": [
+        "redress",
+        "compensation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "compensation",
+      "translation": "غرامت",
+      "example": "Compensation was paid to the victim.",
+      "synonyms": [
+        "reimbursement",
+        "payment"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "indemnity",
+      "translation": "بیمه",
+      "example": "Indemnity protects against loss.",
+      "synonyms": [
+        "insurance",
+        "protection"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "warranty",
+      "translation": "گارانتی",
+      "example": "The product comes with a warranty.",
+      "synonyms": [
+        "guarantee",
+        "assurance"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "arbitration",
+      "translation": "داوری",
+      "example": "Arbitration resolved the dispute.",
+      "synonyms": [
+        "mediation",
+        "settlement"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "mediation",
+      "translation": "میانجیگری",
+      "example": "Mediation helped both parties.",
+      "synonyms": [
+        "arbitration",
+        "negotiation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "settlement",
+      "translation": "tosf",
+      "example": "A settlement was reached out of court.",
+      "synonyms": [
+        "agreement",
+        "compromise"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "litigation",
+      "translation": "دادخواهی",
+      "example": "Litigation can be expensive.",
+      "synonyms": [
+        "lawsuit",
+        "legal action"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "appeal",
+      "translation": "تجدیدنظر",
+      "example": "The case was appealed.",
+      "synonyms": [
+        "review",
+        "reconsideration"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "habeas corpus",
+      "translation": "هابیاس کورپس",
+      "example": "Habeas corpus protects against unlawful detention.",
+      "synonyms": [
+        "writ of habeas",
+        "right to challenge detention"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "amnesty",
+      "translation": "عفو",
+      "example": "Amnesty was granted to political prisoners.",
+      "synonyms": [
+        "pardon",
+        "clemency"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "extradition",
+      "translation": "استرداد",
+      "example": "Extradition was requested.",
+      "synonyms": [
+        "deportation",
+        "surrender"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "asylum",
+      "translation": "پناهندگی",
+      "example": "The refugee sought asylum.",
+      "synonyms": [
+        "refuge",
+        "shelter"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "deportation",
+      "translation": "اخراج",
+      "example": "Deportation was ordered.",
+      "synonyms": [
+        "expulsion",
+        "removal"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "citizenship",
+      "translation": "تابعیت",
+      "example": "Citizenship was granted.",
+      "synonyms": [
+        "nationality",
+        "membership"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "naturalization",
+      "translation": "تعداد",
+      "example": "Naturalization requires residency.",
+      "synonyms": [
+        "citizenship process",
+        "integration"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "constitution",
+      "translation": "قانون اساسی",
+      "example": "The constitution guarantees rights.",
+      "synonyms": [
+        "charter",
+        "fundamental law"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "amendment",
+      "translation": "اصلاحیه",
+      "example": "The constitution was amended.",
+      "synonyms": [
+        "modification",
+        "revision"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "bill",
+      "translation": "لایحه",
+      "example": "The bill was passed.",
+      "synonyms": [
+        "proposal",
+        "legislation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "resolution",
+      "translation": "قطعنامه",
+      "example": "The resolution was adopted.",
+      "synonyms": [
+        "decision",
+        "motion"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "ratification",
+      "translation": "تصویب",
+      "example": "The treaty was ratified.",
+      "synonyms": [
+        "approval",
+        "confirmation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "enactment",
+      "translation": "تصویب قانون",
+      "example": "The enactment took effect immediately.",
+      "synonyms": [
+        "adoption",
+        "implementation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "repeal",
+      "translation": "لغو",
+      "example": "The law was repealed.",
+      "synonyms": [
+        "revocation",
+        "annulment"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "amnesty",
+      "translation": "عفو عمومی",
+      "example": "Amnesty was declared.",
+      "synonyms": [
+        "pardon",
+        "clemency"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "indictment",
+      "translation": "کیفرخواست",
+      "example": "The grand jury issued an indictment.",
+      "synonyms": [
+        "charge",
+        "accusation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "acquittal",
+      "translation": "تبرئه",
+      "example": "The defendant was acquitted.",
+      "synonyms": [
+        "exoneration",
+        "clearing"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "conviction",
+      "translation": "محکومیت",
+      "example": "The conviction was appealed.",
+      "synonyms": [
+        "finding of guilt",
+        "sentence"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "sentence",
+      "translation": "حکم",
+      "example": "The judge handed down a sentence.",
+      "synonyms": [
+        "penalty",
+        "punishment"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "probation",
+      "translation": "آزادی مشروط",
+      "example": "Probation was granted instead of prison.",
+      "synonyms": [
+        "supervised release",
+        "conditional freedom"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "parole",
+      "translation": "آزادی مشروط",
+      "example": "Parole was granted after 5 years.",
+      "synonyms": [
+        "early release",
+        "conditional release"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "incarceration",
+      "translation": "حبس",
+      "example": "Incarceration lasted 10 years.",
+      "synonyms": [
+        "imprisonment",
+        "confinement"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "restitution",
+      "translation": "جبران",
+      "example": "Restitution was ordered.",
+      "synonyms": [
+        "compensation",
+        "repayment"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "forfeiture",
+      "translation": "مصادره",
+      "example": "Property forfeiture was enforced.",
+      "synonyms": [
+        "confiscation",
+        "seizure"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "deposition",
+      "translation": "شهادت",
+      "example": "The deposition was recorded.",
+      "synonyms": [
+        "sworn testimony",
+        "oral evidence"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "interrogatory",
+      "translation": "سؤالات کتبی",
+      "example": "Interrogatories were sent.",
+      "synonyms": [
+        "written questions",
+        "discovery tool"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "subpoena",
+      "translation": "احضاریه",
+      "example": "A subpoena was issued.",
+      "synonyms": [
+        "court order",
+        "summons"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "continuance",
+      "translation": "تاخیر",
+      "example": "The continuance was granted.",
+      "synonyms": [
+        "postponement",
+        "adjournment"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "dismissal",
+      "translation": " slapped",
+      "example": "The case was dismissed.",
+      "synonyms": [
+        "dropping",
+        "termination"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "stay",
+      "translation": "تأخیر اجرا",
+      "example": "A stay of execution was granted.",
+      "synonyms": [
+        "postponement",
+        "halt"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "mandamus",
+      "translation": "فرمان اجباری",
+      "example": "A writ of mandamus was issued.",
+      "synonyms": [
+        "court order",
+        "command"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "certiorari",
+      "translation": " بررسی مجدد",
+      "example": "The Supreme Court granted certiorari.",
+      "synonyms": [
+        "review",
+        "reconsideration"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "de novo",
+      "translation": "از نو",
+      "example": "The case was reviewed de novo.",
+      "synonyms": [
+        "anew",
+        "from scratch"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "pro bono",
+      "translation": "رایگان",
+      "example": "The lawyer worked pro bono.",
+      "synonyms": [
+        "free",
+        "unpaid"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "amicus curiae",
+      "translation": "amatous",
+      "example": "An amicus brief was filed.",
+      "synonyms": [
+        "friend of the court",
+        "advisory brief"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "amicus",
+      "translation": "amatous",
+      "example": "An amicus brief was filed.",
+      "synonyms": [
+        "friend of the court",
+        "advisory brief"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "voir dire",
+      "translation": "انتخاب هیئت منصفه",
+      "example": "Voir dire examines juror impartiality.",
+      "synonyms": [
+        "jury selection",
+        "examination"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "hung jury",
+      "translation": "هیئت منصفه ناهمخوان",
+      "example": "A hung jury resulted in a mistrial.",
+      "synonyms": [
+        "deadlocked jury",
+        "non-unanimous"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "mistrial",
+      "translation": "محاکمه بی‌نتیجه",
+      "example": "A mistrial was declared.",
+      "synonyms": [
+        "failed trial",
+        "invalid trial"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "perjury",
+      "translation": "شهادت دروغ",
+      "example": "Perjury is a criminal offense.",
+      "synonyms": [
+        "lying under oath",
+        "false testimony"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "contempt",
+      "translation": " bunk",
+      "example": "Contempt of court was charged.",
+      "synonyms": [
+        "defiance",
+        "disobedience"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "malfeasance",
+      "translation": "سوءرفتار",
+      "example": "Malfeasance was alleged.",
+      "synonyms": [
+        "misconduct",
+        "wrongdoing"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "misfeasance",
+      "translation": "تعدی در عمل",
+      "example": "Misfeasance was investigated.",
+      "synonyms": [
+        "improper conduct",
+        "malpractice"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "nonfeasance",
+      "translation": "کوتاهی در عمل",
+      "example": "Nonfeasance led to liability.",
+      "synonyms": [
+        "failure to act",
+        "omission"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "embezzlement",
+      "translation": " اختلاس",
+      "example": "Embezzlement was discovered.",
+      "synonyms": [
+        "theft",
+        "fraud"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "fraud",
+      "translation": "کلاهبرداری",
+      "example": "Fraud was prosecuted.",
+      "synonyms": [
+        "deception",
+        "scam"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "larceny",
+      "translation": "سرقت",
+      "example": "Larceny charges were filed.",
+      "synonyms": [
+        "theft",
+        "stealing"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "arson",
+      "translation": "آتش‌افروزی",
+      "example": "Arson was suspected.",
+      "synonyms": [
+        "fire setting",
+        "incendiarism"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "extortion",
+      "translation": " اخاذی",
+      "example": "Extortion was alleged.",
+      "synonyms": [
+        "blackmail",
+        "coercion"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "bribery",
+      "translation": "رشوه",
+      "example": "Bribery was exposed.",
+      "synonyms": [
+        "corruption",
+        "payoff"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "money laundering",
+      "translation": "پولشویی",
+      "example": "Money laundering was investigated.",
+      "synonyms": [
+        "financial crime",
+        "cleaning dirty money"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "forgery",
+      "translation": "جعل",
+      "example": "Forgery of documents was discovered.",
+      "synonyms": [
+        "counterfeiting",
+        "falsification"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "perjury",
+      "translation": "شهادت دروغ",
+      "example": "Perjury was alleged.",
+      "synonyms": [
+        "lying under oath",
+        "false statement"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "defamation",
+      "translation": "افترا",
+      "example": "Defamation suit was filed.",
+      "synonyms": [
+        "slander",
+        "libel"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "libel",
+      "translation": "افترا نوشتاری",
+      "example": "Libel was published.",
+      "synonyms": [
+        "written defamation",
+        "false statement"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "slander",
+      "translation": "افترا شفاهی",
+      "example": "Slander was spoken.",
+      "synonyms": [
+        "spoken defamation",
+        "oral defamation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "invasion of privacy",
+      "translation": "نقض حریم خصوصی",
+      "example": "Invasion of privacy was alleged.",
+      "synonyms": [
+        "privacy violation",
+        "intrusion"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "discrimination",
+      "translation": "تبعیض",
+      "example": "Discrimination was alleged.",
+      "synonyms": [
+        "bias",
+        "prejudice"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "harassment",
+      "translation": "آزار",
+      "example": "Harassment was reported.",
+      "synonyms": [
+        "intimidation",
+        "bullying"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "hostile work environment",
+      "translation": "محیط کار خصمانه",
+      "example": "A hostile work environment was created.",
+      "synonyms": [
+        "unwelcoming workplace",
+        "toxic environment"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "wrongful termination",
+      "translation": "اخراج ناعادلانه",
+      "example": "Wrongful termination was claimed.",
+      "synonyms": [
+        "unfair dismissal",
+        "illegal firing"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "whistleblower",
+      "translation": "افشاگر",
+      "example": "The whistleblower exposed corruption.",
+      "synonyms": [
+        "informant",
+        "reporter"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "due process",
+      "translation": "رویه قانونی",
+      "example": "Due process was denied.",
+      "synonyms": [
+        "fair procedure",
+        "legal rights"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "equal protection",
+      "translation": "حفاظت برابر",
+      "example": "Equal protection was guaranteed.",
+      "synonyms": [
+        "nondiscrimination",
+        "equal treatment"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "freedom of speech",
+      "translation": "آزادی بیان",
+      "example": "Freedom of speech is protected.",
+      "synonyms": [
+        "expression rights",
+        "free expression"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "freedom of religion",
+      "translation": "آزادی مذهب",
+      "example": "Freedom of religion is guaranteed.",
+      "synonyms": [
+        "religious liberty",
+        "worship freedom"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "right to bear arms",
+      "translation": "حق حمل سلاح",
+      "example": "The right to bear arms is debated.",
+      "synonyms": [
+        "gun rights",
+        "weapons ownership"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "right to privacy",
+      "translation": "حق حریم خصوصی",
+      "example": "The right to privacy is implied.",
+      "synonyms": [
+        "privacy rights",
+        "personal autonomy"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "eminent domain",
+      "translation": "زمین‌های برجسته",
+      "example": "Eminent domain seized private property.",
+      "synonyms": [
+        "condemnation",
+        "government taking"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "takings clause",
+      "translation": "بند مصادره",
+      "example": "The takings clause was invoked.",
+      "synonyms": [
+        "eminent domain",
+        "property seizure"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "search and seizure",
+      "translation": "جستجو و ضبط",
+      "example": "Search and seizure was conducted.",
+      "synonyms": [
+        "raid",
+        "confiscation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "probable cause",
+      "translation": "دلیل محتمل",
+      "example": "Probable cause was established.",
+      "synonyms": [
+        "reasonable grounds",
+        "justification"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "warrant",
+      "translation": "حکم جستجو",
+      "example": "A search warrant was issued.",
+      "synonyms": [
+        "court order",
+        "authorization"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": " Miranda rights",
+      "translation": "حقوق میراندا",
+      "example": "Miranda rights were read.",
+      "synonyms": [
+        "right to remain silent",
+        "warning"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "burden of proof",
+      "translation": "بار اثبات",
+      "example": "The burden of proof lies with the prosecution.",
+      "synonyms": [
+        "onus",
+        "responsibility to prove"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "beyond a reasonable doubt",
+      "translation": "خارج از شک معقول",
+      "example": "The jury found beyond a reasonable doubt.",
+      "synonyms": [
+        "highest standard",
+        "near certainty"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "preponderance of evidence",
+      "translation": "وزن ادله",
+      "example": "The civil case required preponderance of evidence.",
+      "synonyms": [
+        "more likely than not",
+        "greater weight"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "prima facie",
+      "translation": "ظاهری",
+      "example": "A prima facie case was established.",
+      "synonyms": [
+        "on its face",
+        "apparent"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "res judicata",
+      "translation": "موضوع مختومه",
+      "example": "Res judicata bars re-litigation.",
+      "synonyms": [
+        "claim preclusion",
+        "final judgment"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "stare decisis",
+      "translation": "رعایت رویه",
+      "example": "Stare decisis ensures consistency.",
+      "synonyms": [
+        "precedent",
+        "adherence to prior decisions"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "actus reus",
+      "translation": "عمل مجرمانه",
+      "example": "Actus reus is the guilty act.",
+      "synonyms": [
+        "guilty act",
+        "criminal conduct"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "mens rea",
+      "translation": "نیت مجرمانه",
+      "example": "Mens rea requires criminal intent.",
+      "synonyms": [
+        "guilty mind",
+        "criminal intent"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "self-defense",
+      "translation": "دفاع مشروع",
+      "example": "Self-defense was claimed.",
+      "synonyms": [
+        "defense of person",
+        "justification"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "affirmative defense",
+      "translation": "دفاع مثبت",
+      "example": "An affirmative defense was raised.",
+      "synonyms": [
+        "justification defense",
+        "excuse"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "insanity defense",
+      "translation": "دفاع جنون",
+      "example": "The insanity defense was used.",
+      "synonyms": [
+        "mental illness defense",
+        "diminished capacity"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "diminished capacity",
+      "translation": "اختلال در ظرفیت",
+      "example": "Diminished capacity was argued.",
+      "synonyms": [
+        "partial insanity",
+        "reduced mental state"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "intoxication",
+      "translation": "مستی",
+      "example": "Intoxication was not a valid defense.",
+      "synonyms": [
+        "drunkenness",
+        "impairment"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "entrapment",
+      "translation": "تله",
+      "example": "Entrapment was alleged.",
+      "synonyms": [
+        "police entrapment",
+        "inducement"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "double jeopardy",
+      "translation": "محاکمه مجدد",
+      "example": "Double jeopardy was claimed.",
+      "synonyms": [
+        "dual prosecution",
+        "retrying"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "statute of limitations",
+      "translation": "مرور زمان",
+      "example": "The statute of limitations had expired.",
+      "synonyms": [
+        "time limit",
+        "deadline"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "tolling",
+      "translation": "تمدید مهلت",
+      "example": "Tolling extended the deadline.",
+      "synonyms": [
+        "suspending",
+        "pausing"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "laches",
+      "translation": "تأخیر غیرمعقول",
+      "example": "Laches barred the claim.",
+      "synonyms": [
+        "unreasonable delay",
+        "acquiescence"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "estoppel",
+      "translation": "منع",
+      "example": "Estoppel prevented the argument.",
+      "synonyms": [
+        "preclusion",
+        "bar"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "equity",
+      "translation": "عدالت",
+      "example": "Equity provides fairness.",
+      "synonyms": [
+        "fairness",
+        "justice"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "chancery",
+      "translation": "دادگاه عدالت",
+      "example": "The chancery court sat in equity.",
+      "synonyms": [
+        "equity court",
+        "court of chancery"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "injunction",
+      "translation": "دستور دادگاه",
+      "example": "An injunction was granted.",
+      "synonyms": [
+        "restraining order",
+        "prohibition"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "replevin",
+      "translation": "استرداد اموال",
+      "example": "Replevin action was filed.",
+      "synonyms": [
+        "return of property",
+        "recovery suit"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "foreclosure",
+      "translation": " regimes",
+      "example": "Foreclosure was initiated.",
+      "synonyms": [
+        "seizure",
+        "repossession"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "quiet title",
+      "translation": "sap",
+      "example": "A quiet title action was filed.",
+      "synonyms": [
+        "title clearing",
+        "ownership dispute"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "easement",
+      "translation": "حق عبور",
+      "example": "An easement was established.",
+      "synonyms": [
+        "right of way",
+        "access right"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "lien",
+      "translation": "حقوق تقدم",
+      "example": "A lien was placed on the property.",
+      "synonyms": [
+        "claim",
+        "encumbrance"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "encumbrance",
+      "translation": "بار مالی",
+      "example": "The encumbrance was removed.",
+      "synonyms": [
+        "burden",
+        "restriction"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "deed",
+      "translation": "سند مالکیت",
+      "example": "The deed was transferred.",
+      "synonyms": [
+        "title document",
+        "conveyance"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "title",
+      "translation": "مالکیت",
+      "example": "Title was transferred.",
+      "synonyms": [
+        "ownership",
+        "possession"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "lease",
+      "translation": "اجاره‌نامه",
+      "example": "The lease was renewed.",
+      "synonyms": [
+        "rental agreement",
+        "contract"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "tenant",
+      "translation": "مستأجر",
+      "example": "The tenant paid rent.",
+      "synonyms": [
+        "renter",
+        "lessee"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "landlord",
+      "translation": "مؤجر",
+      "example": "The landlord collected rent.",
+      "synonyms": [
+        "property owner",
+        "lessor"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "eviction",
+      "translation": "اخراج",
+      "example": "Eviction proceedings began.",
+      "synonyms": [
+        "expulsion",
+        "removal"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "warranty deed",
+      "translation": "سند ضمانت‌نامه",
+      "example": "A warranty deed guarantees title.",
+      "synonyms": [
+        "general warranty",
+        "full guarantee deed"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "quitclaim deed",
+      "translation": "سند انتقال",
+      "example": "A quitclaim deed transferred interest.",
+      "synonyms": [
+        "release deed",
+        "transfer deed"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "escrow",
+      "translation": "امانت",
+      "example": "Funds were held in escrow.",
+      "synonyms": [
+        "trust",
+        "held funds"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "closing",
+      "translation": "تکمیل معامله",
+      "example": "The closing was scheduled.",
+      "synonyms": [
+        "finalization",
+        "completion"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "title insurance",
+      "translation": "بیمه عنوان",
+      "example": "Title insurance protects against defects.",
+      "synonyms": [
+        "property insurance",
+        "ownership coverage"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "zoning",
+      "translation": "بندبندی",
+      "example": "Zoning laws regulate land use.",
+      "synonyms": [
+        "land use regulation",
+        "classification"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "variance",
+      "translation": "انحراف",
+      "example": "A zoning variance was granted.",
+      "synonyms": [
+        "exception",
+        "deviation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "eminent domain",
+      "translation": "زمین‌های برجسته",
+      "example": "Eminent domain was exercised.",
+      "synonyms": [
+        "condemnation",
+        "government taking"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "adverse possession",
+      "translation": "تصاحب خصمانه",
+      "example": "Adverse possession was claimed.",
+      "synonyms": [
+        "squatter's rights",
+        "prescriptive easement"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "tortfeasor",
+      "translation": "مرتکب",
+      "example": "The tortfeasor was held liable.",
+      "synonyms": [
+        "wrongdoer",
+        "offender"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "strict liability",
+      "translation": "مسئولیت مطلق",
+      "example": "Strict liability applies to dangerous activities.",
+      "synonyms": [
+        "absolute liability",
+        "no-fault liability"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "vicarious liability",
+      "translation": "مسئولیت تضامنی",
+      "example": "Vicarious liability extends to employers.",
+      "synonyms": [
+        "respondeat superior",
+        "employer liability"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "intentional tort",
+      "translation": " defaulted",
+      "example": "Battery is an intentional tort.",
+      "synonyms": [
+        "willful act",
+        "deliberate harm"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "product liability",
+      "translation": "مسئولیت تولیدکننده",
+      "example": "Product liability was established.",
+      "synonyms": [
+        "manufacturer liability",
+        "defective product claim"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "professional malpractice",
+      "translation": "خطای حرفه‌ای",
+      "example": "Professional malpractice was alleged.",
+      "synonyms": [
+        "negligence by professional",
+        "expert negligence"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "breach of contract",
+      "translation": "نقض قرارداد",
+      "example": "Breach of contract was claimed.",
+      "synonyms": [
+        "contract violation",
+        "default"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "consideration",
+      "translation": "عوض",
+      "example": "Consideration is required for a contract.",
+      "synonyms": [
+        "bargained-for exchange",
+        "payment"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "capacity",
+      "translation": "اهلیت",
+      "example": "Capacity to contract was assessed.",
+      "synonyms": [
+        "competence",
+        "legal ability"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "duress",
+      "translation": "اجبار",
+      "example": "The contract was signed under duress.",
+      "synonyms": [
+        "coercion",
+        "threat"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "fraudulent misrepresentation",
+      "translation": "بیانیه متقلبانه",
+      "example": "Fraudulent misrepresentation voided the contract.",
+      "synonyms": [
+        "deception",
+        "false statement"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "unconscionability",
+      "translation": "عدالت",
+      "example": "Unconscionability rendered the contract void.",
+      "synonyms": [
+        "unfairness",
+        "oppression"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "novation",
+      "translation": " نوآوری",
+      "example": "Novation replaced the original contract.",
+      "synonyms": [
+        "substitution",
+        "new agreement"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "assignment",
+      "translation": "واگذاری",
+      "example": "Assignment transferred the rights.",
+      "synonyms": [
+        "transfer",
+        "delegation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "delegation",
+      "translation": "تفویض",
+      "example": "Delegation transferred duties.",
+      "synonyms": [
+        "transfer",
+        "assignment"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "accord and satisfaction",
+      "translation": "توافق و رضایت",
+      "example": "Accord and satisfaction resolved the dispute.",
+      "synonyms": [
+        "settlement",
+        "agreement"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "force majeure",
+      "translation": "قوه قهریه",
+      "example": "Force majeure excused performance.",
+      "synonyms": [
+        "act of God",
+        "unforeseeable event"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "impossibility",
+      "translation": "عدم امکان",
+      "example": "Impossibility excused performance.",
+      "synonyms": [
+        "frustration",
+        "inability"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "frustration of purpose",
+      "translation": "عدم تحقق هدف",
+      "example": "Frustration of purpose discharged the contract.",
+      "synonyms": [
+        "commercial impracticability",
+        "purpose failure"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "waiver",
+      "translation": "سخاوت",
+      "example": "A waiver was signed.",
+      "synonyms": [
+        "renunciation",
+        "relinquishment"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "release",
+      "translation": "آزادسازی",
+      "example": "A release was granted.",
+      "synonyms": [
+        "discharge",
+        "exemption"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "indemnification",
+      "translation": "غرامت",
+      "example": "Indemnification was promised.",
+      "synonyms": [
+        "compensation",
+        "reimbursement"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "hold harmless",
+      "translation": "بدون ضرر",
+      "example": "The hold harmless clause was included.",
+      "synonyms": [
+        "indemnity",
+        "non-liability"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "arbitration clause",
+      "translation": "شرط داوری",
+      "example": "The arbitration clause was enforced.",
+      "synonyms": [
+        "dispute resolution clause",
+        "mediation clause"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "severability",
+      "translation": "جداسازی",
+      "example": "Severability preserved the rest of the contract.",
+      "synonyms": [
+        "divisibility",
+        "independent enforceability"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "entire agreement",
+      "translation": "کل توافق",
+      "example": "The entire agreement clause merged all terms.",
+      "synonyms": [
+        "merger clause",
+        "integration clause"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "governing law",
+      "translation": "قانون حاکم",
+      "example": "The governing law was specified.",
+      "synonyms": [
+        "choice of law",
+        "applicable law"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "forum selection",
+      "translation": "انتخاب مرجع",
+      "example": "Forum selection determined the court.",
+      "synonyms": [
+        "jurisdiction clause",
+        "venue"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "statute of frauds",
+      "translation": "قانون جعل",
+      "example": "The statute of frauds required a writing.",
+      "synonyms": [
+        "writing requirement",
+        "oral contract bar"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "parol evidence",
+      "translation": "ادله شفاهی",
+      "example": "Parol evidence was excluded.",
+      "synonyms": [
+        "extrinsic evidence",
+        "outside evidence"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "patent",
+      "translation": "اختراع",
+      "example": "A patent was granted.",
+      "synonyms": [
+        "intellectual property",
+        "invention protection"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "trademark",
+      "translation": "علامت تجاری",
+      "example": "The trademark was registered.",
+      "synonyms": [
+        "brand mark",
+        "logo protection"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "copyright",
+      "translation": "حق تکثیر",
+      "example": "Copyright protects creative works.",
+      "synonyms": [
+        "author's rights",
+        "reproduction rights"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "trade secret",
+      "translation": "راز تجاری",
+      "example": "Trade secrets must be protected.",
+      "synonyms": [
+        "confidential information",
+        "proprietary knowledge"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "infringement",
+      "translation": "نقض",
+      "example": "Infringement was alleged.",
+      "synonyms": [
+        "violation",
+        "breach"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "fair use",
+      "translation": "استفاده منصفانه",
+      "example": "Fair use allows limited reproduction.",
+      "synonyms": [
+        "fair dealing",
+        "permitted use"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "licensing",
+      "translation": "صادر کردن مجوز",
+      "example": "Licensing allows authorized use.",
+      "synonyms": [
+        "permission",
+        "authorization"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "royalty",
+      "translation": "حق امتیاز",
+      "example": "Royalties are paid to the inventor.",
+      "synonyms": [
+        "fee",
+        "payment"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "assignment",
+      "translation": "واگذاری",
+      "example": "Assignment transferred the patent.",
+      "synonyms": [
+        "transfer",
+        "conveyance"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "prosecution",
+      "translation": "تعقیب کیفری",
+      "example": "Prosecution was initiated.",
+      "synonyms": [
+        "legal action",
+        "charging"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "statute of limitations",
+      "translation": "مرور زمان",
+      "example": "The statute of limitations barred the claim.",
+      "synonyms": [
+        "time limit",
+        "deadline"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "tolling",
+      "translation": "تمدید",
+      "example": "Tolling extended the limitations period.",
+      "synonyms": [
+        "suspension",
+        "extension"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "discovery",
+      "translation": "کشف",
+      "example": "Discovery revealed new evidence.",
+      "synonyms": [
+        "disclosure",
+        "pretrial investigation"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "deposition",
+      "translation": "سؤال و جواب",
+      "example": "The deposition was taken.",
+      "synonyms": [
+        "oral testimony",
+        "sworn statement"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "interrogatories",
+      "translation": "سؤالات کتبی",
+      "example": "Interrogatories were served.",
+      "synonyms": [
+        "written questions",
+        "discovery requests"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "requests for production",
+      "translation": "درخواست اسناد",
+      "example": "Requests for production were served.",
+      "synonyms": [
+        "document requests",
+        "disclosure demands"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "summary judgment",
+      "translation": "حکم خلاصه",
+      "example": "Summary judgment was granted.",
+      "synonyms": [
+        "quick judgment",
+        "trial avoidance"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "motion to dismiss",
+      "translation": "درخواست رد دعوا",
+      "example": "A motion to dismiss was filed.",
+      "synonyms": [
+        "dismissal motion",
+        "case termination"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "motion for new trial",
+      "translation": "درخواست محاکمه مجدد",
+      "example": "A motion for new trial was granted.",
+      "synonyms": [
+        "retrial motion",
+        "new hearing"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "bill of particulars",
+      "translation": "لایحه جزئیات",
+      "example": "A bill of particulars was requested.",
+      "synonyms": [
+        "specific allegations",
+        "detailed claim"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "qui tam",
+      "translation": "شکایت خصوصی",
+      "example": "A qui tam lawsuit was filed.",
+      "synonyms": [
+        "whistleblower suit",
+        "False Claims Act"
+      ],
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "word": "parens patriae",
+      "translation": ",parent",
+      "example": "Parens patriae protects children.",
+      "synonyms": [
+        "state as parent",
+        "government guardianship"
+      ],
+      "tags": [
+        "legal"
+      ]
+    }
+  ]
+}

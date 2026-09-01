@@ -1,0 +1,3090 @@
+{
+  "name": "سرگرمی و ارتباطات",
+  "description": "۱۰۰ کلمه درباره سرگرمی، ورزش، اینترنت و شبکه‌های اجتماعی — سطح A2",
+  "category": "A2 — پایه",
+  "level": "A2",
+  "packId": "A2-06",
+  "words": [
+    {
+      "word": "hobby",
+      "translation": "سرگرمی، تفریح",
+      "ipa": "/ˈhɑːbi/",
+      "partOfSpeech": "noun",
+      "example": "My hobby is collecting stamps.",
+      "definitions": [
+        "an activity done regularly for enjoyment in one's leisure time"
+      ],
+      "synonyms": [
+        "pastime",
+        "interest"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "have a hobby",
+        "favorite hobby",
+        "hobby shop"
+      ],
+      "wordFamily": [
+        "hobby (n)",
+        "hobbies (n-pl)"
+      ],
+      "coreMeaning": "کاری که برای لذت در اوقات فراغت انجام می‌شود",
+      "note": "جمع hobby به صورت hobbies نوشته می‌شود",
+      "trap": "با happy اشتباه نگیرید؛ hobby اسم است نه صفت",
+      "tags": [
+        "A2",
+        "hobbies"
+      ]
+    },
+    {
+      "word": "sport",
+      "translation": "ورزش",
+      "ipa": "/spɔːrt/",
+      "partOfSpeech": "noun",
+      "example": "Football is a popular sport.",
+      "definitions": [
+        "a physical activity involving competition and rules"
+      ],
+      "synonyms": [
+        "athletics",
+        "game"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "play a sport",
+        "sport center",
+        "team sport"
+      ],
+      "wordFamily": [
+        "sport (n)",
+        "sports (n-pl)",
+        "sporty (adj)"
+      ],
+      "coreMeaning": "فعالیت بدنی رقابتی با قوانین مشخص",
+      "note": "به صورت جمع sports هم زیاد استفاده می‌شود: sports center",
+      "trap": "ورزش را با play انجام می‌دهیم نه do (play sport) ولی do sport هم گاهی استفاده می‌شود",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "football",
+      "translation": "فوتبال",
+      "ipa": "/ˈfʊtbɔːl/",
+      "partOfSpeech": "noun",
+      "example": "We played football in the park.",
+      "definitions": [
+        "a team sport played with a round ball"
+      ],
+      "synonyms": [
+        "soccer (American English)"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "play football",
+        "football match",
+        "football team"
+      ],
+      "wordFamily": [
+        "football (n)"
+      ],
+      "coreMeaning": "بازی تیمی با توپ گرد",
+      "note": "در آمریکا football به نوع دیگری از ورزش گفته می‌شود؛ فوتبال ما soccer است",
+      "trap": "در انگلیسی بریتانیایی football همان فوتبال ماست ولی در آمریکایی soccer",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "basketball",
+      "translation": "بسکتبال",
+      "ipa": "/ˈbæskɪtbɔːl/",
+      "partOfSpeech": "noun",
+      "example": "He plays basketball every weekend.",
+      "definitions": [
+        "a team sport played with a large ball and hoops"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play basketball",
+        "basketball court",
+        "basketball game"
+      ],
+      "wordFamily": [
+        "basketball (n)"
+      ],
+      "coreMeaning": "بازی تیمی با توپ بزرگ و حلقه",
+      "note": "بسکتبال معمولاً در سالن بازی می‌شود",
+      "trap": "basketball یک کلمه مرکب است از basket + ball",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "tennis",
+      "translation": "تنیس",
+      "ipa": "/ˈtenɪs/",
+      "partOfSpeech": "noun",
+      "example": "She takes tennis lessons on Saturdays.",
+      "definitions": [
+        "a sport played with rackets and a small ball on a court"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play tennis",
+        "tennis court",
+        "tennis racket"
+      ],
+      "wordFamily": [
+        "tennis (n)"
+      ],
+      "coreMeaning": "ورزشی با راکت و توپ کوچک",
+      "note": "تنیس معمولاً دو نفره (singles) یا چهار نفره (doubles) بازی می‌شود",
+      "trap": "تنیس را با play بازی می‌کنیم نه do",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "match",
+      "translation": "مسابقه، بازی",
+      "ipa": "/mætʃ/",
+      "partOfSpeech": "noun",
+      "example": "The football match was exciting.",
+      "definitions": [
+        "a competitive game or sports event"
+      ],
+      "synonyms": [
+        "game",
+        "competition"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "win a match",
+        "lose a match",
+        "watch a match"
+      ],
+      "wordFamily": [
+        "match (n)",
+        "match (v)"
+      ],
+      "coreMeaning": "مسابقه یا بازی ورزشی",
+      "note": "match هم اسم و هم فعل است؛ به معنای مطابقت دادن هم هست",
+      "trap": "match به معنای کبریت هم هست؛ بستگی به context دارد",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "score",
+      "translation": "امتیاز، گل",
+      "ipa": "/skɔːr/",
+      "partOfSpeech": "noun",
+      "example": "The final score was 3-1.",
+      "definitions": [
+        "the number of points gained in a game or test"
+      ],
+      "synonyms": [
+        "point",
+        "goal"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "final score",
+        "score a goal",
+        "high score"
+      ],
+      "wordFamily": [
+        "score (n)",
+        "score (v)",
+        "scorer (n)"
+      ],
+      "coreMeaning": "تعداد امتیازات در بازی یا آزمون",
+      "note": "هم اسم و هم فعل است: to score a goal",
+      "trap": "score به معنای بیست هم هست (three score = شصت) ولی این معنی قدیمی است",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "team",
+      "translation": "تیم",
+      "ipa": "/tiːm/",
+      "partOfSpeech": "noun",
+      "example": "Our team won the championship.",
+      "definitions": [
+        "a group of people who play or work together"
+      ],
+      "synonyms": [
+        "squad",
+        "group"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "team player",
+        "team sport",
+        "team work"
+      ],
+      "wordFamily": [
+        "team (n)",
+        "teammate (n)"
+      ],
+      "coreMeaning": "گروهی از افراد که با هم بازی یا کار می‌کنند",
+      "note": "team به عنوان یک واحد مفرد یا جمع استفاده می‌شود",
+      "trap": "تیم را با play نمی‌گوییم؛ می‌گوییم be on a team یا play for a team",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "player",
+      "translation": "بازیکن",
+      "ipa": "/ˈpleɪər/",
+      "partOfSpeech": "noun",
+      "example": "He is the best player on the team.",
+      "definitions": [
+        "a person who takes part in a game or sport"
+      ],
+      "synonyms": [
+        "athlete",
+        "competitor"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "team player",
+        "key player",
+        "professional player"
+      ],
+      "wordFamily": [
+        "play (v)",
+        "player (n)"
+      ],
+      "coreMeaning": "شخصی که در بازی یا ورزش شرکت می‌کند",
+      "note": "player به معنای پخش‌کننده موسیقی هم هست (music player)",
+      "trap": "player از play + er ساخته شده ولی به جای playar نوشته می‌شود",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "coach",
+      "translation": "مربی",
+      "ipa": "/koʊtʃ/",
+      "partOfSpeech": "noun",
+      "example": "The coach trained the team for the match.",
+      "definitions": [
+        "a person who trains sportspeople or a team"
+      ],
+      "synonyms": [
+        "trainer",
+        "instructor"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "head coach",
+        "coach a team",
+        "basketball coach"
+      ],
+      "wordFamily": [
+        "coach (n)",
+        "coach (v)"
+      ],
+      "coreMeaning": "شخصی که ورزشکاران یا تیم را آموزش می‌دهد",
+      "note": "coach همچنین به معنای اتوبوس بین‌شهری هم هست",
+      "trap": "coach و couch (مبل) تلفظ مشابهی ندارند؛ مراقب باشید",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "movie",
+      "translation": "فیلم سینمایی",
+      "ipa": "/ˈmuːvi/",
+      "partOfSpeech": "noun",
+      "example": "We watched a funny movie last night.",
+      "definitions": [
+        "a story shown in moving pictures; a film"
+      ],
+      "synonyms": [
+        "film",
+        "picture"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "watch a movie",
+        "movie theater",
+        "action movie"
+      ],
+      "wordFamily": [
+        "movie (n)",
+        "movies (n-pl)"
+      ],
+      "coreMeaning": "داستانی که با تصاویر متحرک نمایش داده می‌شود",
+      "note": "movie بیشتر در آمریکایی و film در بریتانیایی استفاده می‌شود",
+      "trap": "فیلم را watch می‌کنیم نه see یا look",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "concert",
+      "translation": "کنسرت، اجرای موسیقی",
+      "ipa": "/ˈkɑːnsərt/",
+      "partOfSpeech": "noun",
+      "example": "The concert was amazing.",
+      "definitions": [
+        "a live performance of music"
+      ],
+      "synonyms": [
+        "show",
+        "performance"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go to a concert",
+        "rock concert",
+        "concert hall"
+      ],
+      "wordFamily": [
+        "concert (n)"
+      ],
+      "coreMeaning": "اجرای زنده موسیقی",
+      "note": "کنسرت را می‌رویم (go to) نه می‌بینیم",
+      "trap": "حرف t در آخر concert خوانده نمی‌شود: /ˈkɑːnsərt/",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "theater",
+      "translation": "تئاتر، سالن نمایش",
+      "ipa": "/ˈθɪətər/",
+      "partOfSpeech": "noun",
+      "example": "She works at the local theater.",
+      "definitions": [
+        "a building for dramatic performances; the art of acting"
+      ],
+      "synonyms": [
+        "playhouse",
+        "auditorium"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go to the theater",
+        "movie theater",
+        "theater play"
+      ],
+      "wordFamily": [
+        "theater (n)",
+        "theatrical (adj)"
+      ],
+      "coreMeaning": "محل اجرای نمایش یا هنر بازیگری",
+      "note": "در بریتانیایی theatre نوشته می‌شود",
+      "trap": "theater و theatre هر دو صحیح هستند؛ اولی آمریکایی دومی بریتانیایی",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "show",
+      "translation": "نمایش، شو",
+      "ipa": "/ʃoʊ/",
+      "partOfSpeech": "noun",
+      "example": "The TV show starts at 8 PM.",
+      "definitions": [
+        "a performance or program for entertainment"
+      ],
+      "synonyms": [
+        "program",
+        "performance"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "TV show",
+        "game show",
+        "talent show"
+      ],
+      "wordFamily": [
+        "show (n)",
+        "show (v)"
+      ],
+      "coreMeaning": "برنامه یا نمایش سرگرمی",
+      "note": "show هم اسم و هم فعل است",
+      "trap": "show گذشته showed و مفعولی shown است نه showed",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "game",
+      "translation": "بازی",
+      "ipa": "/ɡeɪm/",
+      "partOfSpeech": "noun",
+      "example": "Let's play a board game.",
+      "definitions": [
+        "an activity with rules played for fun or competition"
+      ],
+      "synonyms": [
+        "match",
+        "competition"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "play a game",
+        "video game",
+        "board game"
+      ],
+      "wordFamily": [
+        "game (n)",
+        "gamer (n)"
+      ],
+      "coreMeaning": "فعالیتی با قوانین برای سرگرمی یا رقابت",
+      "note": "game به معنای بازی ویدیویی هم زیاد استفاده می‌شود",
+      "trap": "game و play هر دو بازی هستند ولی game اسم و play هم اسم هم فعل",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "music",
+      "translation": "موسیقی",
+      "ipa": "/ˈmjuːzɪk/",
+      "partOfSpeech": "noun",
+      "example": "I listen to music every day.",
+      "definitions": [
+        "the art of organizing sounds to create harmony and expression"
+      ],
+      "synonyms": [
+        "melody",
+        "tune"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "listen to music",
+        "music player",
+        "pop music"
+      ],
+      "wordFamily": [
+        "music (n)",
+        "musical (adj/n)",
+        "musician (n)"
+      ],
+      "coreMeaning": "هنر سازماندهی صداها برای ایجاد هارمونی",
+      "note": "music یک اسم غیرقابل شمارش است؛ نمی‌گوییم a music",
+      "trap": "با listen to music حرف اضافه to لازم است",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "magazine",
+      "translation": "مجله",
+      "ipa": "/ˌmæɡəˈziːn/",
+      "partOfSpeech": "noun",
+      "example": "She reads a fashion magazine.",
+      "definitions": [
+        "a periodical publication with articles and pictures"
+      ],
+      "synonyms": [
+        "journal",
+        "publication"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "read a magazine",
+        "magazine article",
+        "monthly magazine"
+      ],
+      "wordFamily": [
+        "magazine (n)"
+      ],
+      "coreMeaning": "نشریه دوره‌ای با مقالات و تصاویر",
+      "note": "magazine به معنای انبار مهمات هم هست ولی معنی رایج آن مجله است",
+      "trap": "تلفظ: /ˌmæɡəˈziːn/ — تأکید روی آخر است",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "song",
+      "translation": "آهنگ، ترانه",
+      "ipa": "/sɔːŋ/",
+      "partOfSpeech": "noun",
+      "example": "That's my favorite song.",
+      "definitions": [
+        "a short piece of music with words"
+      ],
+      "synonyms": [
+        "tune",
+        "track"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sing a song",
+        "pop song",
+        "love song"
+      ],
+      "wordFamily": [
+        "song (n)",
+        "singer (n)"
+      ],
+      "coreMeaning": "قطعه کوتاه موسیقی با کلام",
+      "note": "song و music فرق دارند؛ song شامل کلام است ولی music ممکن است بدون کلام باشد",
+      "trap": "آهنگ را sing می‌کنیم نه play (مگر ساز باشد)",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "guitar",
+      "translation": "گیتار",
+      "ipa": "/ɡɪˈtɑːr/",
+      "partOfSpeech": "noun",
+      "example": "He plays the guitar very well.",
+      "definitions": [
+        "a musical instrument with strings played by plucking"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play the guitar",
+        "guitar player",
+        "electric guitar"
+      ],
+      "wordFamily": [
+        "guitar (n)",
+        "guitarist (n)"
+      ],
+      "coreMeaning": "ساز زهی که با انگشت یا مضراب نواخته می‌شود",
+      "note": "قبل از guitar حرف the می‌آید: play the guitar",
+      "trap": "guitar را با play بازی می‌کنیم ولی حتماً the هم لازم است",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "piano",
+      "translation": "پیانو",
+      "ipa": "/piˈænoʊ/",
+      "partOfSpeech": "noun",
+      "example": "She has been playing piano since she was five.",
+      "definitions": [
+        "a large musical instrument with black and white keys"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play the piano",
+        "piano lesson",
+        "piano player"
+      ],
+      "wordFamily": [
+        "piano (n)",
+        "pianist (n)"
+      ],
+      "coreMeaning": "ساز بزرگ با کلیدهای سیاه و سفید",
+      "note": "piano از ایتالیایی آمده و جمع آن pianos است",
+      "trap": "قبل از piano هم the می‌آید: play the piano",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "website",
+      "translation": "وب‌سایت، سایت",
+      "ipa": "/ˈwebsaɪt/",
+      "partOfSpeech": "noun",
+      "example": "I found the information on their website.",
+      "definitions": [
+        "a location on the internet with web pages"
+      ],
+      "synonyms": [
+        "site",
+        "web page"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "visit a website",
+        "website address",
+        "create a website"
+      ],
+      "wordFamily": [
+        "website (n)"
+      ],
+      "coreMeaning": "محلی در اینترنت با صفحات وب",
+      "note": "website یک کلمه مرکب از web + site است",
+      "trap": "website و web page فرق دارند؛ website کل سایت است و web page یک صفحه",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "email",
+      "translation": "ایمیل، پست الکترونیکی",
+      "ipa": "/ˈiːmeɪl/",
+      "partOfSpeech": "noun",
+      "example": "Please send me an email.",
+      "definitions": [
+        "a message sent electronically from one person to another"
+      ],
+      "synonyms": [
+        "electronic mail"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "send an email",
+        "check email",
+        "email address"
+      ],
+      "wordFamily": [
+        "email (n)",
+        "email (v)"
+      ],
+      "coreMeaning": "پیام الکترونیکی ارسال شده بین افراد",
+      "note": "email هم اسم و هم فعل است: I'll email you",
+      "trap": "email و e-mail هر دو صحیح هستند ولی email رایج‌تر است",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "download",
+      "translation": "دانلود کردن، بارگیری",
+      "ipa": "/ˈdaʊnloʊd/",
+      "partOfSpeech": "verb",
+      "example": "I need to download this app.",
+      "definitions": [
+        "to copy data from one computer system to another"
+      ],
+      "synonyms": [
+        "save",
+        "transfer"
+      ],
+      "antonyms": [
+        "upload"
+      ],
+      "collocations": [
+        "download a file",
+        "download music",
+        "download speed"
+      ],
+      "wordFamily": [
+        "download (v)",
+        "download (n)"
+      ],
+      "coreMeaning": "کپی کردن داده از اینترنت به دستگاه",
+      "note": "download هم فعل و هم اسم است",
+      "trap": "download و upload متضاد هستند؛ download دریافت و upload ارسال",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "upload",
+      "translation": "آپلود کردن، بارگذاری",
+      "ipa": "/ˈʌploʊd/",
+      "partOfSpeech": "verb",
+      "example": "You can upload photos to the website.",
+      "definitions": [
+        "to transfer data from a local to a remote computer"
+      ],
+      "synonyms": [
+        "send",
+        "transfer"
+      ],
+      "antonyms": [
+        "download"
+      ],
+      "collocations": [
+        "upload a file",
+        "upload photos",
+        "upload speed"
+      ],
+      "wordFamily": [
+        "upload (v)",
+        "upload (n)"
+      ],
+      "coreMeaning": "ارسال داده از دستگاه به اینترنت",
+      "note": "upload متضاد download است",
+      "trap": "upload و download جهت مخالف هم هستند؛ مراقب باشید کدام را استفاده می‌کنید",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "password",
+      "translation": "رمز عبور، پسورد",
+      "ipa": "/ˈpæswɜːrd/",
+      "partOfSpeech": "noun",
+      "example": "Don't share your password with anyone.",
+      "definitions": [
+        "a secret word used to gain access to a system"
+      ],
+      "synonyms": [
+        "passcode",
+        "PIN"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "enter a password",
+        "change password",
+        "password protected"
+      ],
+      "wordFamily": [
+        "password (n)"
+      ],
+      "coreMeaning": "کلمه محرمانه برای دسترسی به سیستم",
+      "note": "password یک کلمه مرکب از pass + word است",
+      "trap": "password و passport (پاسپورت) شبیه هستند ولی معنای متفاوتی دارند",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "online",
+      "translation": "آنلاین، متصل به اینترنت",
+      "ipa": "/ˌɑːnˈlaɪn/",
+      "partOfSpeech": "adjective",
+      "example": "I'm online right now.",
+      "definitions": [
+        "connected to or accessible via the internet"
+      ],
+      "synonyms": [
+        "connected",
+        "web-based"
+      ],
+      "antonyms": [
+        "offline"
+      ],
+      "collocations": [
+        "go online",
+        "online shopping",
+        "online game"
+      ],
+      "wordFamily": [
+        "online (adj/adv)"
+      ],
+      "coreMeaning": "متصل به اینترنت یا قابل دسترسی از طریق اینترنت",
+      "note": "online هم صفت و هم قید است",
+      "trap": "online و offline متضاد هستند",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "app",
+      "translation": "اپلیکیشن، برنامه",
+      "ipa": "/æp/",
+      "partOfSpeech": "noun",
+      "example": "There's an app for that.",
+      "definitions": [
+        "a software application for mobile devices"
+      ],
+      "synonyms": [
+        "application",
+        "program"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "download an app",
+        "mobile app",
+        "app store"
+      ],
+      "wordFamily": [
+        "app (n)",
+        "application (n)"
+      ],
+      "coreMeaning": "نرم‌افزار کاربردی برای دستگاه‌های موبایل",
+      "note": "app مخفف application است",
+      "trap": "app و application هر دو صحیح هستند ولی app رایج‌تر است",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "search",
+      "translation": "جستجو",
+      "ipa": "/sɜːrtʃ/",
+      "partOfSpeech": "verb",
+      "example": "I searched for the answer online.",
+      "definitions": [
+        "to look for information or something lost"
+      ],
+      "synonyms": [
+        "look for",
+        "seek"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "search for",
+        "search engine",
+        "search results"
+      ],
+      "wordFamily": [
+        "search (v)",
+        "search (n)"
+      ],
+      "coreMeaning": "به دنبال چیزی گشتن",
+      "note": "search هم فعل و هم اسم است",
+      "trap": "search for لازم است حرف اضافه for: search for something",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "link",
+      "translation": "لینک، پیوند",
+      "ipa": "/lɪŋk/",
+      "partOfSpeech": "noun",
+      "example": "Click on this link to open the page.",
+      "definitions": [
+        "a connection between web pages or data"
+      ],
+      "synonyms": [
+        "connection",
+        "URL"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "click a link",
+        "link to",
+        "web link"
+      ],
+      "wordFamily": [
+        "link (n)",
+        "link (v)"
+      ],
+      "coreMeaning": "اتصال بین صفحات وب یا داده‌ها",
+      "note": "link هم اسم و هم فعل است",
+      "trap": "link به معنای حلقه زنجیر هم هست",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "page",
+      "translation": "صفحه",
+      "ipa": "/peɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "Open the home page of the website.",
+      "definitions": [
+        "one side of a leaf of a book; a screen on the internet"
+      ],
+      "synonyms": [
+        "sheet",
+        "screen"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "web page",
+        "home page",
+        "turn the page"
+      ],
+      "wordFamily": [
+        "page (n)"
+      ],
+      "coreMeaning": "یک طرف برگ کتاب یا صفحه در اینترنت",
+      "note": "page در اینترنت به معنای صفحه وب است",
+      "trap": "page و stage (صحنه) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "post",
+      "translation": "پست کردن، مطلب",
+      "ipa": "/poʊst/",
+      "partOfSpeech": "noun",
+      "example": "She made a post on social media.",
+      "definitions": [
+        "a message or content published on social media"
+      ],
+      "synonyms": [
+        "update",
+        "entry"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "make a post",
+        "social media post",
+        "blog post"
+      ],
+      "wordFamily": [
+        "post (n)",
+        "post (v)",
+        "poster (n)"
+      ],
+      "coreMeaning": "مطلب منتشر شده در شبکه‌های اجتماعی",
+      "note": "post هم اسم و هم فعل است: to post something",
+      "trap": "post به معنای پست (نامه) و ستون هم هست",
+      "tags": [
+        "A2",
+        "social media"
+      ]
+    },
+    {
+      "word": "share",
+      "translation": "اشتراک‌گذاری، تقسیم کردن",
+      "ipa": "/ʃer/",
+      "partOfSpeech": "verb",
+      "example": "Can you share this post with your friends?",
+      "definitions": [
+        "to distribute content to others; to divide among people"
+      ],
+      "synonyms": [
+        "distribute",
+        "spread"
+      ],
+      "antonyms": [
+        "keep"
+      ],
+      "collocations": [
+        "share a post",
+        "share with",
+        "file sharing"
+      ],
+      "wordFamily": [
+        "share (v)",
+        "share (n)",
+        "sharing (n)"
+      ],
+      "coreMeaning": "توزیع محتوا بین دیگران یا تقسیم کردن",
+      "note": "share در شبکه‌های اجتماعی به معنای بازنشر محتواست",
+      "trap": "share و shear (چیدن پشم) تلفظ یکسانی دارند ولی معنای متفاوت",
+      "tags": [
+        "A2",
+        "social media"
+      ]
+    },
+    {
+      "word": "comment",
+      "translation": "نظر، کامنت",
+      "ipa": "/ˈkɑːment/",
+      "partOfSpeech": "noun",
+      "example": "Leave a comment below the video.",
+      "definitions": [
+        "a written remark or opinion on social media or articles"
+      ],
+      "synonyms": [
+        "remark",
+        "feedback"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "leave a comment",
+        "post a comment",
+        "comment section"
+      ],
+      "wordFamily": [
+        "comment (n)",
+        "comment (v)"
+      ],
+      "coreMeaning": "نظر نوشتاری در شبکه‌های اجتماعی یا مقالات",
+      "note": "comment هم اسم و هم فعل است",
+      "trap": "comment on something — حرف اضافه on لازم است",
+      "tags": [
+        "A2",
+        "social media"
+      ]
+    },
+    {
+      "word": "follow",
+      "translation": "دنبال کردن",
+      "ipa": "/ˈfɑːloʊ/",
+      "partOfSpeech": "verb",
+      "example": "I follow many artists on Instagram.",
+      "definitions": [
+        "to subscribe to someone's updates on social media; to go after"
+      ],
+      "synonyms": [
+        "subscribe",
+        "track"
+      ],
+      "antonyms": [
+        "unfollow"
+      ],
+      "collocations": [
+        "follow someone",
+        "follow back",
+        "unfollow"
+      ],
+      "wordFamily": [
+        "follow (v)",
+        "follower (n)",
+        "following (n/adj)"
+      ],
+      "coreMeaning": "عضو شدن در به‌روزرسانی‌های کسی در شبکه اجتماعی",
+      "note": "follow در شبکه‌های اجتماعی معنای خاص دنبال کردن دارد",
+      "trap": "follower و following فرق دارند؛ follower دنبال‌کننده و following دنبال‌شونده",
+      "tags": [
+        "A2",
+        "social media"
+      ]
+    },
+    {
+      "word": "profile",
+      "translation": "پروفایل، نمایه",
+      "ipa": "/ˈproʊfaɪl/",
+      "partOfSpeech": "noun",
+      "example": "Update your profile picture.",
+      "definitions": [
+        "a personal page on social media with user information"
+      ],
+      "synonyms": [
+        "account",
+        "page"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "profile picture",
+        "update profile",
+        "user profile"
+      ],
+      "wordFamily": [
+        "profile (n)"
+      ],
+      "coreMeaning": "صفحه شخصی در شبکه اجتماعی با اطلاعات کاربر",
+      "note": "profile به معنای نیم‌رخ (چهره) هم هست",
+      "trap": "profile و profit (سود) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "social media"
+      ]
+    },
+    {
+      "word": "message",
+      "translation": "پیام",
+      "ipa": "/ˈmesɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "I sent you a message.",
+      "definitions": [
+        "a piece of information sent from one person to another"
+      ],
+      "synonyms": [
+        "note",
+        "text"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "send a message",
+        "receive a message",
+        "text message"
+      ],
+      "wordFamily": [
+        "message (n)",
+        "messenger (n)"
+      ],
+      "coreMeaning": "اطلاعاتی که از یک شخص به شخص دیگر فرستاده می‌شود",
+      "note": "message هم اسم و هم فعل است",
+      "trap": "message و massage (ماساژ) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "communication"
+      ]
+    },
+    {
+      "word": "chat",
+      "translation": "گفتگو، چت کردن",
+      "ipa": "/tʃæt/",
+      "partOfSpeech": "verb",
+      "example": "We chatted for hours online.",
+      "definitions": [
+        "to talk in a friendly, informal way; online conversation"
+      ],
+      "synonyms": [
+        "talk",
+        "converse"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "chat with",
+        "online chat",
+        "group chat"
+      ],
+      "wordFamily": [
+        "chat (v)",
+        "chat (n)"
+      ],
+      "coreMeaning": "گفتگوی دوستانه و غیررسمی، معمولاً آنلاین",
+      "note": "chat هم فعل و هم اسم است",
+      "trap": "chat و cat تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "communication"
+      ]
+    },
+    {
+      "word": "video",
+      "translation": "ویدیو، فیلم",
+      "ipa": "/ˈvidioʊ/",
+      "partOfSpeech": "noun",
+      "example": "She posted a video on YouTube.",
+      "definitions": [
+        "a recording of moving visual images"
+      ],
+      "synonyms": [
+        "clip",
+        "footage"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "watch a video",
+        "video call",
+        "video game"
+      ],
+      "wordFamily": [
+        "video (n)"
+      ],
+      "coreMeaning": "ضبط تصاویر متحرک",
+      "note": "video به معنای بازی ویدیویی هم استفاده می‌شود",
+      "trap": "جمع video به صورت videos است نه vidi",
+      "tags": [
+        "A2",
+        "communication"
+      ]
+    },
+    {
+      "word": "voice",
+      "translation": "صدا",
+      "ipa": "/vɔɪs/",
+      "partOfSpeech": "noun",
+      "example": "I recognized her voice on the phone.",
+      "definitions": [
+        "the sound produced in a person's larynx and uttered through the mouth"
+      ],
+      "synonyms": [
+        "tone",
+        "sound"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "voice message",
+        "voice call",
+        "deep voice"
+      ],
+      "wordFamily": [
+        "voice (n)",
+        "voiceless (adj)"
+      ],
+      "coreMeaning": "صدا از حنجره انسان",
+      "note": "voice به معنای حق رأی هم هست: have a voice in something",
+      "trap": "voice و noise (سر و صدا) فرق دارند؛ voice صدای انسان است",
+      "tags": [
+        "A2",
+        "communication"
+      ]
+    },
+    {
+      "word": "text",
+      "translation": "متن، پیامک",
+      "ipa": "/tekst/",
+      "partOfSpeech": "noun",
+      "example": "Send me a text when you arrive.",
+      "definitions": [
+        "written words; a short message sent by phone"
+      ],
+      "synonyms": [
+        "message",
+        "SMS"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "send a text",
+        "text message",
+        "text book"
+      ],
+      "wordFamily": [
+        "text (n)",
+        "text (v)",
+        "textbook (n)"
+      ],
+      "coreMeaning": "کلمات نوشته شده یا پیام کوتاه تلفنی",
+      "note": "text هم اسم و هم فعل است: text me",
+      "trap": "text به معنای متن کتاب هم هست",
+      "tags": [
+        "A2",
+        "communication"
+      ]
+    },
+    {
+      "word": "photography",
+      "translation": "عکاسی",
+      "ipa": "/fəˈtɑːɡrəfi/",
+      "partOfSpeech": "noun",
+      "example": "Photography is my favorite hobby.",
+      "definitions": [
+        "the art or practice of taking and processing photographs"
+      ],
+      "synonyms": [
+        "shooting",
+        "imaging"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "digital photography",
+        "photography class",
+        "photography hobby"
+      ],
+      "wordFamily": [
+        "photograph (n)",
+        "photography (n)",
+        "photographer (n)",
+        "photographic (adj)"
+      ],
+      "coreMeaning": "هنر یا عمل گرفتن و پردازش عکس",
+      "note": "photography یک اسم غیرقابل شمارش است",
+      "trap": "photography و photograph فرق دارند؛ photography هنر عکاسی و photograph یک عکس",
+      "tags": [
+        "A2",
+        "hobbies"
+      ]
+    },
+    {
+      "word": "gardening",
+      "translation": "باغبانی",
+      "ipa": "/ˈɡɑːrdnɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "She enjoys gardening in her free time.",
+      "definitions": [
+        "the activity of tending and cultivating a garden"
+      ],
+      "synonyms": [
+        "horticulture"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "do gardening",
+        "gardening tools",
+        "gardening hobby"
+      ],
+      "wordFamily": [
+        "garden (n)",
+        "gardening (n)",
+        "gardener (n)"
+      ],
+      "coreMeaning": "فعالیت مراقبت و پرورش گیاهان در باغ",
+      "note": "gardening از garden + ing ساخته شده",
+      "trap": "gardening و garden فرق دارند؛ garden اسم (باغ) و gardening فعالیت (باغبانی)",
+      "tags": [
+        "A2",
+        "hobbies"
+      ]
+    },
+    {
+      "word": "cooking",
+      "translation": "آشپزی",
+      "ipa": "/ˈkʊkɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Cooking is a useful skill.",
+      "definitions": [
+        "the practice or skill of preparing food by combining and heating ingredients"
+      ],
+      "synonyms": [
+        "culinary arts"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "do cooking",
+        "cooking class",
+        "cooking skill"
+      ],
+      "wordFamily": [
+        "cook (v/n)",
+        "cooking (n)",
+        "cooker (n)"
+      ],
+      "coreMeaning": "مهارت یا عمل تهیه غذا",
+      "note": "cooking اسم مصدر از cook است",
+      "trap": "cooker اجاق گاز است نه آشپز؛ آشپز cook است",
+      "tags": [
+        "A2",
+        "hobbies"
+      ]
+    },
+    {
+      "word": "painting",
+      "translation": "نقاشی",
+      "ipa": "/ˈpeɪntɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "She took up painting last year.",
+      "definitions": [
+        "the art of applying paint to a surface; a painted picture"
+      ],
+      "synonyms": [
+        "artwork",
+        "picture"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "oil painting",
+        "painting class",
+        "painting hobby"
+      ],
+      "wordFamily": [
+        "paint (v)",
+        "painting (n)",
+        "painter (n)"
+      ],
+      "coreMeaning": "هنر رنگ‌آمیزی روی سطح یا یک تابلو نقاشی",
+      "note": "painting هم به معنای عمل نقاشی و هم یک اثر نقاشی است",
+      "trap": "painting و drawing فرق دارند؛ painting با رنگ و drawing با مداد",
+      "tags": [
+        "A2",
+        "hobbies"
+      ]
+    },
+    {
+      "word": "collection",
+      "translation": "مجموعه، کلکسیون",
+      "ipa": "/kəˈlekʃn/",
+      "partOfSpeech": "noun",
+      "example": "He has a large stamp collection.",
+      "definitions": [
+        "a group of objects gathered together as a hobby"
+      ],
+      "synonyms": [
+        "set",
+        "assortment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "stamp collection",
+        "art collection",
+        "collect stamps"
+      ],
+      "wordFamily": [
+        "collect (v)",
+        "collection (n)",
+        "collector (n)"
+      ],
+      "coreMeaning": "گروهی از اشیاء جمع‌آوری شده به عنوان سرگرمی",
+      "note": "collection از collect + ion ساخته شده",
+      "trap": "collector جمع‌آوری‌کننده است نه collection",
+      "tags": [
+        "A2",
+        "hobbies"
+      ]
+    },
+    {
+      "word": "craft",
+      "translation": "صنایع دستی، هنر",
+      "ipa": "/kræft/",
+      "partOfSpeech": "noun",
+      "example": "She makes beautiful crafts from recycled materials.",
+      "definitions": [
+        "an activity involving making things by hand"
+      ],
+      "synonyms": [
+        "art",
+        "skill"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "arts and crafts",
+        "craft shop",
+        "craft hobby"
+      ],
+      "wordFamily": [
+        "craft (n)",
+        "crafty (adj)",
+        "craftsman (n)"
+      ],
+      "coreMeaning": "فعالیت ساختن چیزها با دست",
+      "note": "craft به معنای مهارت و زیرکی هم هست",
+      "trap": "craft و draft (پیش‌نویس) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "hobbies"
+      ]
+    },
+    {
+      "word": "fishing",
+      "translation": "ماهیگیری",
+      "ipa": "/ˈfɪʃɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "My grandfather loves fishing.",
+      "definitions": [
+        "the activity of catching fish"
+      ],
+      "synonyms": [
+        "angling"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go fishing",
+        "fishing rod",
+        "fishing trip"
+      ],
+      "wordFamily": [
+        "fish (n/v)",
+        "fishing (n)",
+        "fisherman (n)"
+      ],
+      "coreMeaning": "فعالیت صید ماهی",
+      "note": "fishing از fish + ing ساخته شده",
+      "trap": "fishing و fish فرق دارند؛ fish ماهی و fishing ماهیگیری",
+      "tags": [
+        "A2",
+        "hobbies"
+      ]
+    },
+    {
+      "word": "camping",
+      "translation": "کمپینگ، چادر زدن",
+      "ipa": "/ˈkæmpɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "We went camping in the mountains.",
+      "definitions": [
+        "the activity of living in a tent outdoors for recreation"
+      ],
+      "synonyms": [
+        "outdoor living"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go camping",
+        "camping trip",
+        "camping gear"
+      ],
+      "wordFamily": [
+        "camp (n/v)",
+        "camping (n)",
+        "camper (n)"
+      ],
+      "coreMeaning": "زندگی در چادر در طبیعت برای تفریح",
+      "note": "camping از camp + ing ساخته شده",
+      "trap": "camping و campaign (کمپین) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "hobbies"
+      ]
+    },
+    {
+      "word": "hiking",
+      "translation": "پیاده‌روی در طبیعت",
+      "ipa": "/ˈhaɪkɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Hiking is great exercise.",
+      "definitions": [
+        "the activity of walking long distances in nature"
+      ],
+      "synonyms": [
+        "trekking",
+        "walking"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go hiking",
+        "hiking trail",
+        "hiking boots"
+      ],
+      "wordFamily": [
+        "hike (v/n)",
+        "hiking (n)",
+        "hiker (n)"
+      ],
+      "coreMeaning": "پیاده‌روی طولانی در طبیعت",
+      "note": "hiking از hike + ing ساخته شده",
+      "trap": "hiking و biking (دوچرخه‌سواری) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "hobbies"
+      ]
+    },
+    {
+      "word": "cycling",
+      "translation": "دوچرخه‌سواری",
+      "ipa": "/ˈsaɪklɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Cycling is good for your health.",
+      "definitions": [
+        "the activity of riding a bicycle"
+      ],
+      "synonyms": [
+        "biking"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go cycling",
+        "cycling route",
+        "cycling club"
+      ],
+      "wordFamily": [
+        "cycle (n/v)",
+        "cycling (n)",
+        "cyclist (n)"
+      ],
+      "coreMeaning": "فعالیت سوار شدن بر دوچرخه",
+      "note": "cycling از cycle + ing ساخته شده",
+      "trap": "cycling و recycling (بازیافت) شبیه هستند ولی معنای متفاوتی دارند",
+      "tags": [
+        "A2",
+        "hobbies"
+      ]
+    },
+    {
+      "word": "running",
+      "translation": "دویدن",
+      "ipa": "/ˈrʌnɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Running is a popular form of exercise.",
+      "definitions": [
+        "the activity of moving quickly on foot"
+      ],
+      "synonyms": [
+        "jogging",
+        "sprinting"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go running",
+        "running shoes",
+        "running track"
+      ],
+      "wordFamily": [
+        "run (v)",
+        "running (n/adj)",
+        "runner (n)"
+      ],
+      "coreMeaning": "فعالیت حرکت سریع با پا",
+      "note": "running هم اسم و هم صفت است",
+      "trap": "running و jogging فرق دارند؛ jogging آهسته‌دویدن است",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "skiing",
+      "translation": "اسکی",
+      "ipa": "/ˈskiːɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "We went skiing in the Alps.",
+      "definitions": [
+        "the activity of moving over snow on skis"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go skiing",
+        "skiing resort",
+        "skiing trip"
+      ],
+      "wordFamily": [
+        "ski (n/v)",
+        "skiing (n)",
+        "skier (n)"
+      ],
+      "coreMeaning": "حرکت روی برف با اسکی",
+      "note": "skiing از ski + ing ساخته شده ولی i تکرار می‌شود",
+      "trap": "skiing و skating (اسکیت) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "volleyball",
+      "translation": "والیبال",
+      "ipa": "/ˈvɑːlibɔːl/",
+      "partOfSpeech": "noun",
+      "example": "We play volleyball on the beach.",
+      "definitions": [
+        "a team sport played with a ball over a high net"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play volleyball",
+        "volleyball court",
+        "volleyball game"
+      ],
+      "wordFamily": [
+        "volleyball (n)"
+      ],
+      "coreMeaning": "بازی تیمی با توپ روی تور بلند",
+      "note": "volleyball یک کلمه مرکب از volley + ball است",
+      "trap": "volleyball و basketball هر دو با ball هستند ولی ورزش‌های متفاوتی‌اند",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "champion",
+      "translation": "قهرمان",
+      "ipa": "/ˈtʃæmpiən/",
+      "partOfSpeech": "noun",
+      "example": "She became the world champion.",
+      "definitions": [
+        "a person who wins a competition or is the best in a field"
+      ],
+      "synonyms": [
+        "winner",
+        "titleholder"
+      ],
+      "antonyms": [
+        "loser"
+      ],
+      "collocations": [
+        "world champion",
+        "champion team",
+        "defending champion"
+      ],
+      "wordFamily": [
+        "champion (n)",
+        "championship (n)"
+      ],
+      "coreMeaning": "شخصی که در مسابقه برنده شده یا بهترین است",
+      "note": "champion و championship فرق دارند؛ championship مسابقه قهرمانی است",
+      "trap": "champion و champagne (شامپاین) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "gym",
+      "translation": "باشگاه ورزشی، سالن بدنسازی",
+      "ipa": "/dʒɪm/",
+      "partOfSpeech": "noun",
+      "example": "I go to the gym three times a week.",
+      "definitions": [
+        "a place with equipment for physical exercise"
+      ],
+      "synonyms": [
+        "fitness center",
+        "health club"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go to the gym",
+        "gym membership",
+        "gym workout"
+      ],
+      "wordFamily": [
+        "gym (n)",
+        "gymnasium (n)"
+      ],
+      "coreMeaning": "محلی با تجهیزات برای ورزش بدنی",
+      "note": "gym مخفف gymnasium است",
+      "trap": "gym و jim (نام) تلفظ یکسانی دارند ولی معنای متفاوت",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "race",
+      "translation": "مسابقه دو، رقابت",
+      "ipa": "/reɪs/",
+      "partOfSpeech": "noun",
+      "example": "He won the 100-meter race.",
+      "definitions": [
+        "a competition of speed; a contest to reach a goal first"
+      ],
+      "synonyms": [
+        "competition",
+        "contest"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "car race",
+        "running race",
+        "win a race"
+      ],
+      "wordFamily": [
+        "race (n)",
+        "race (v)",
+        "racer (n)"
+      ],
+      "coreMeaning": "مسابقه سرعت یا رقابت برای رسیدن به هدف",
+      "note": "race به معنای نژاد هم هست",
+      "trap": "race به دو معنای مسابقه و نژاد استفاده می‌شود؛ بستگی به context دارد",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "goal",
+      "translation": "گل، هدف",
+      "ipa": "/ɡoʊl/",
+      "partOfSpeech": "noun",
+      "example": "He scored a beautiful goal.",
+      "definitions": [
+        "a point scored in some sports; an aim or purpose"
+      ],
+      "synonyms": [
+        "target",
+        "objective"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "score a goal",
+        "goal keeper",
+        "life goal"
+      ],
+      "wordFamily": [
+        "goal (n)"
+      ],
+      "coreMeaning": "امتیاز در ورزش یا هدف در زندگی",
+      "note": "goal هم به معنای گل فوتبال و هم هدف زندگی است",
+      "trap": "goal و gaol (زندان در بریتانیایی) تلفظ یکسانی دارند",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "tournament",
+      "translation": "مسابقات، تورنمنت",
+      "ipa": "/ˈtʊrnəmənt/",
+      "partOfSpeech": "noun",
+      "example": "The tennis tournament starts next week.",
+      "definitions": [
+        "a series of contests between many competitors"
+      ],
+      "synonyms": [
+        "competition",
+        "championship"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "tennis tournament",
+        "chess tournament",
+        "enter a tournament"
+      ],
+      "wordFamily": [
+        "tournament (n)"
+      ],
+      "coreMeaning": "مجموعه‌ای از مسابقات بین رقبای متعدد",
+      "note": "tournament از کلمه فرانسوی tourner (چرخیدن) آمده",
+      "trap": "tournament و turnament تلفظ متفاوتی دارند؛ تلفظ صحیح /ˈtʊrnəmənt/",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "practice",
+      "translation": "تمرین، تمرین کردن",
+      "ipa": "/ˈpræktɪs/",
+      "partOfSpeech": "noun",
+      "example": "You need more practice to get better.",
+      "definitions": [
+        "repeated exercise to improve skill; the actual application of a method"
+      ],
+      "synonyms": [
+        "training",
+        "rehearsal"
+      ],
+      "antonyms": [
+        "theory"
+      ],
+      "collocations": [
+        "put into practice",
+        "practice makes perfect",
+        "practice session"
+      ],
+      "wordFamily": [
+        "practice (n)",
+        "practise (v-British)",
+        "practical (adj)"
+      ],
+      "coreMeaning": "تکرار تمرین برای بهبود مهارت",
+      "note": "در بریتانیایی practise فعل و practice اسم است",
+      "trap": "practice و exercise فرق دارند؛ practice مهارتی و exercise بدنی",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "performance",
+      "translation": "اجرا، نمایش",
+      "ipa": "/pərˈfɔːrməns/",
+      "partOfSpeech": "noun",
+      "example": "The performance was incredible.",
+      "definitions": [
+        "an act of staging entertainment; how well someone does something"
+      ],
+      "synonyms": [
+        "show",
+        "presentation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "live performance",
+        "stage performance",
+        "performance review"
+      ],
+      "wordFamily": [
+        "perform (v)",
+        "performance (n)",
+        "performer (n)"
+      ],
+      "coreMeaning": "عمل اجرای نمایش یا نحوه انجام کار",
+      "note": "performance از perform + ance ساخته شده",
+      "trap": "performance و performance review (ارزیابی عملکرد) معنای متفاوتی دارند",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "audience",
+      "translation": "تماشاگران، مخاطبان",
+      "ipa": "/ˈɔːdiəns/",
+      "partOfSpeech": "noun",
+      "example": "The audience loved the show.",
+      "definitions": [
+        "the assembled spectators or listeners at an event"
+      ],
+      "synonyms": [
+        "spectators",
+        "viewers"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "live audience",
+        "target audience",
+        "audience reaction"
+      ],
+      "wordFamily": [
+        "audience (n)"
+      ],
+      "coreMeaning": "تماشاگران یا شنوندگان حاضر در یک رویداد",
+      "note": "audience یک اسم جمع است ولی مفرد استفاده می‌شود: the audience is",
+      "trap": "audience و audiance تلفظ متفاوتی دارند؛ تلفظ صحیح /ˈɔːdiəns/",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "stage",
+      "translation": "صحنه، مرحله",
+      "ipa": "/steɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "The singer walked onto the stage.",
+      "definitions": [
+        "a raised platform for performances; a phase in a process"
+      ],
+      "synonyms": [
+        "platform",
+        "phase"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "on stage",
+        "stage performance",
+        "stage fright"
+      ],
+      "wordFamily": [
+        "stage (n)"
+      ],
+      "coreMeaning": "سکوی بلند برای اجرا یا مرحله‌ای از فرآیند",
+      "note": "stage به معنای مرحله هم هست: early stage",
+      "trap": "stage و page (صفحه) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "channel",
+      "translation": "کانال",
+      "ipa": "/ˈtʃænl/",
+      "partOfSpeech": "noun",
+      "example": "What's your favorite TV channel?",
+      "definitions": [
+        "a television or radio station; a path for communication"
+      ],
+      "synonyms": [
+        "station",
+        "frequency"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "TV channel",
+        "YouTube channel",
+        "change the channel"
+      ],
+      "wordFamily": [
+        "channel (n)"
+      ],
+      "coreMeaning": "ایستگاه تلویزیونی یا مسیر ارتباطی",
+      "note": "channel به معنای آبراه هم هست: English Channel",
+      "trap": "channel و canal (کانال آب) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "program",
+      "translation": "برنامه",
+      "ipa": "/ˈproʊɡræm/",
+      "partOfSpeech": "noun",
+      "example": "There's a good program on TV tonight.",
+      "definitions": [
+        "a broadcast on television or radio; a set of instructions for a computer"
+      ],
+      "synonyms": [
+        "show",
+        "broadcast"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "TV program",
+        "computer program",
+        "program schedule"
+      ],
+      "wordFamily": [
+        "program (n)",
+        "program (v)",
+        "programmer (n)"
+      ],
+      "coreMeaning": "برنامه تلویزیونی یا مجموعه دستورات کامپیوتری",
+      "note": "در بریتانیایی programme نوشته می‌شود ولی برای کامپیوتر program",
+      "trap": "program و programme فرق دارند؛ program آمریکایی و programme بریتانیایی",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "screen",
+      "translation": "صفحه نمایش",
+      "ipa": "/skriːn/",
+      "partOfSpeech": "noun",
+      "example": "The phone has a large screen.",
+      "definitions": [
+        "a flat surface on which images are displayed"
+      ],
+      "synonyms": [
+        "display",
+        "monitor"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "touch screen",
+        "screen time",
+        "big screen"
+      ],
+      "wordFamily": [
+        "screen (n)"
+      ],
+      "coreMeaning": "سطح صاف که تصاویر روی آن نمایش داده می‌شود",
+      "note": "screen به معنای پرده سینما هم هست: big screen",
+      "trap": "screen و scream (جیغ) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "remote",
+      "translation": "کنترل از راه دور",
+      "ipa": "/rɪˈmoʊt/",
+      "partOfSpeech": "noun",
+      "example": "Where is the TV remote?",
+      "definitions": [
+        "a device for controlling something from a distance"
+      ],
+      "synonyms": [
+        "remote control"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "remote control",
+        "TV remote",
+        "remote access"
+      ],
+      "wordFamily": [
+        "remote (adj)",
+        "remote (n)"
+      ],
+      "coreMeaning": "دستگاه کنترل از راه دور",
+      "note": "remote هم اسم (کنترل) و هم صفت (دور) است",
+      "trap": "remote به معنای دورافتاده هم هست: remote area",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "battery",
+      "translation": "باتری",
+      "ipa": "/ˈbætri/",
+      "partOfSpeech": "noun",
+      "example": "My phone battery is low.",
+      "definitions": [
+        "a device that stores electrical energy"
+      ],
+      "synonyms": [
+        "cell",
+        "power source"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "charge the battery",
+        "battery life",
+        "dead battery"
+      ],
+      "wordFamily": [
+        "battery (n)"
+      ],
+      "coreMeaning": "دستگاه ذخیره انرژی الکتریکی",
+      "note": "battery به معنای حمله فیزیکی هم هست ولی معنی رایج باتری است",
+      "trap": "battery و bakery (نانوایی) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "connect",
+      "translation": "اتصال دادن، وصل کردن",
+      "ipa": "/kəˈnekt/",
+      "partOfSpeech": "verb",
+      "example": "Connect to Wi-Fi before browsing.",
+      "definitions": [
+        "to join or link together; to establish a communication link"
+      ],
+      "synonyms": [
+        "link",
+        "join"
+      ],
+      "antonyms": [
+        "disconnect"
+      ],
+      "collocations": [
+        "connect to",
+        "connect with",
+        "internet connection"
+      ],
+      "wordFamily": [
+        "connect (v)",
+        "connection (n)",
+        "connected (adj)"
+      ],
+      "coreMeaning": "وصل کردن یا برقراری ارتباط",
+      "note": "connect to برای دستگاه و connect with برای افراد استفاده می‌شود",
+      "trap": "connect و collect (جمع‌آوری) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "signal",
+      "translation": "سیگنال، نشانه",
+      "ipa": "/ˈsɪɡnəl/",
+      "partOfSpeech": "noun",
+      "example": "There's no signal here.",
+      "definitions": [
+        "an electrical impulse or radio wave; a sign or indication"
+      ],
+      "synonyms": [
+        "wave",
+        "sign"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "phone signal",
+        "signal strength",
+        "traffic signal"
+      ],
+      "wordFamily": [
+        "signal (n)",
+        "signal (v)"
+      ],
+      "coreMeaning": "امپالس الکتریکی یا موج رادیویی یا نشانه",
+      "note": "signal به معنای چراغ راهنمایی هم هست: traffic signal",
+      "trap": "signal و single (تک) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "browser",
+      "translation": "مرورگر",
+      "ipa": "/ˈbraʊzər/",
+      "partOfSpeech": "noun",
+      "example": "Which browser do you use?",
+      "definitions": [
+        "a software application for accessing the internet"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "web browser",
+        "browser history",
+        "browser tab"
+      ],
+      "wordFamily": [
+        "browse (v)",
+        "browser (n)"
+      ],
+      "coreMeaning": "نرم‌افزار دسترسی به اینترنت",
+      "note": "browser از browse + er ساخته شده",
+      "trap": "browser و brownser تلفظ متفاوتی دارند؛ تلفظ صحیح /ˈbraʊzər/",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "file",
+      "translation": "فایل",
+      "ipa": "/faɪl/",
+      "partOfSpeech": "noun",
+      "example": "Save the file to your computer.",
+      "definitions": [
+        "a collection of data stored in a computer"
+      ],
+      "synonyms": [
+        "document",
+        "record"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "save a file",
+        "file format",
+        "open a file"
+      ],
+      "wordFamily": [
+        "file (n)",
+        "file (v)"
+      ],
+      "coreMeaning": "مجموعه‌ای از داده‌ها ذخیره شده در کامپیوتر",
+      "note": "file به معنای پرونده و سوهان هم هست",
+      "trap": "file و fill (پر کردن) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "data",
+      "translation": "داده، اطلاعات",
+      "ipa": "/ˈdeɪtə/",
+      "partOfSpeech": "noun",
+      "example": "The app collects user data.",
+      "definitions": [
+        "facts and statistics collected for analysis"
+      ],
+      "synonyms": [
+        "information",
+        "facts"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "collect data",
+        "data analysis",
+        "personal data"
+      ],
+      "wordFamily": [
+        "data (n)",
+        "database (n)"
+      ],
+      "coreMeaning": "اطلاعات و آمار جمع‌آوری شده برای تحلیل",
+      "note": "data در اصل جمع datum است ولی امروزه به صورت مفرد هم استفاده می‌شود",
+      "trap": "data و date (تاریخ) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "network",
+      "translation": "شبکه",
+      "ipa": "/ˈnetwɜːrk/",
+      "partOfSpeech": "noun",
+      "example": "Connect to the wireless network.",
+      "definitions": [
+        "a group of connected computers or people"
+      ],
+      "synonyms": [
+        "system",
+        "grid"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "social network",
+        "network connection",
+        "wireless network"
+      ],
+      "wordFamily": [
+        "network (n)"
+      ],
+      "coreMeaning": "گروهی از کامپیوترها یا افراد متصل به هم",
+      "note": "network یک کلمه مرکب از net + work است",
+      "trap": "network و net worth (ارزش خالص) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "virus",
+      "translation": "ویروس",
+      "ipa": "/ˈvaɪrəs/",
+      "partOfSpeech": "noun",
+      "example": "My computer got a virus.",
+      "definitions": [
+        "a malicious software program; a microscopic infectious agent"
+      ],
+      "synonyms": [
+        "malware"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "computer virus",
+        "virus protection",
+        "anti-virus"
+      ],
+      "wordFamily": [
+        "virus (n)",
+        "viral (adj)"
+      ],
+      "coreMeaning": "نرم‌افزار مخرب کامپیوتری یا عامل عفونی میکروسکوپی",
+      "note": "virus هم به معنای ویروس کامپیوتری و هم ویروس بیولوژیکی است",
+      "trap": "virus و viral (ویروسی) از یک ریشه هستند ولی معنای متفاوتی دارند",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "blog",
+      "translation": "وبلاگ",
+      "ipa": "/blɑːɡ/",
+      "partOfSpeech": "noun",
+      "example": "She writes a travel blog.",
+      "definitions": [
+        "a regularly updated website with personal or informational content"
+      ],
+      "synonyms": [
+        "weblog"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "write a blog",
+        "blog post",
+        "travel blog"
+      ],
+      "wordFamily": [
+        "blog (n)",
+        "blogger (n)",
+        "blogging (n)"
+      ],
+      "coreMeaning": "وبسایت با محتوای شخصی یا اطلاعاتی که مرتب به‌روز می‌شود",
+      "note": "blog مخفف weblog است",
+      "trap": "blog و block (بلوک) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "notification",
+      "translation": "اعلان، نوتیفیکیشن",
+      "ipa": "/ˌnoʊtɪfɪˈkeɪʃn/",
+      "partOfSpeech": "noun",
+      "example": "I turned off notifications for that app.",
+      "definitions": [
+        "an alert from an app or device about new activity"
+      ],
+      "synonyms": [
+        "alert",
+        "reminder"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "push notification",
+        "turn off notifications",
+        "notification settings"
+      ],
+      "wordFamily": [
+        "notify (v)",
+        "notification (n)"
+      ],
+      "coreMeaning": "هشدار از اپلیکیشن یا دستگاه درباره فعالیت جدید",
+      "note": "notification از notify + ation ساخته شده",
+      "trap": "notification و notion (مفهوم) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "emoji",
+      "translation": "ایموجی، شکلک",
+      "ipa": "/ɪˈmoʊdʒi/",
+      "partOfSpeech": "noun",
+      "example": "She uses a lot of emojis in her messages.",
+      "definitions": [
+        "a small digital image used to express an idea or emotion"
+      ],
+      "synonyms": [
+        "emoticon",
+        "smiley"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "use emojis",
+        "emoji keyboard",
+        "smiley emoji"
+      ],
+      "wordFamily": [
+        "emoji (n)"
+      ],
+      "coreMeaning": "تصویر کوچک دیجیتال برای بیان ایده یا احساس",
+      "note": "emoji از ژاپنی آمده و جمع آن emojis است",
+      "trap": "emoji و emoticon فرق دارند؛ emoji تصویر و emoticon حروف (:))",
+      "tags": [
+        "A2",
+        "social media"
+      ]
+    },
+    {
+      "word": "hashtag",
+      "translation": "هشتگ",
+      "ipa": "/ˈhæʃtæɡ/",
+      "partOfSpeech": "noun",
+      "example": "Use a hashtag to make your post more visible.",
+      "definitions": [
+        "a word or phrase preceded by # used to categorize content on social media"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "use a hashtag",
+        "trending hashtag",
+        "hashtag symbol"
+      ],
+      "wordFamily": [
+        "hashtag (n)"
+      ],
+      "coreMeaning": "کلمه یا عبارت با علامت # برای دسته‌بندی محتوا",
+      "note": "hashtag از hash (#) + tag (برچسب) ساخته شده",
+      "trap": "hashtag و hash (علامت #) فرق دارند؛ hashtag شامل کلمه بعد از # است",
+      "tags": [
+        "A2",
+        "social media"
+      ]
+    },
+    {
+      "word": "trending",
+      "translation": "محبوب، ترند",
+      "ipa": "/ˈtrendɪŋ/",
+      "partOfSpeech": "adjective",
+      "example": "This topic is trending on Twitter.",
+      "definitions": [
+        "currently popular or widely discussed on social media"
+      ],
+      "synonyms": [
+        "popular",
+        "viral"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "trending topic",
+        "trending hashtag",
+        "trending now"
+      ],
+      "wordFamily": [
+        "trend (n)",
+        "trending (adj)"
+      ],
+      "coreMeaning": "محبوب یا مورد بحث گسترده در شبکه‌های اجتماعی",
+      "note": "trending از trend + ing ساخته شده",
+      "trap": "trending و trend فرق دارند؛ trend اسم و trending صفت",
+      "tags": [
+        "A2",
+        "social media"
+      ]
+    },
+    {
+      "word": "selfie",
+      "translation": "سلفی، عکس خود",
+      "ipa": "/ˈselfi/",
+      "partOfSpeech": "noun",
+      "example": "She took a selfie with her friends.",
+      "definitions": [
+        "a self-portrait photograph taken with a smartphone"
+      ],
+      "synonyms": [
+        "self-portrait"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take a selfie",
+        "selfie stick",
+        "group selfie"
+      ],
+      "wordFamily": [
+        "selfie (n)"
+      ],
+      "coreMeaning": "عکس خودگرفته با گوشی هوشمند",
+      "note": "selfie از self + ie (suffix) ساخته شده",
+      "trap": "selfie و shelf (قفسه) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "social media"
+      ]
+    },
+    {
+      "word": "vlog",
+      "translation": "ولاگ، ویدیو بلاگ",
+      "ipa": "/vlɑːɡ/",
+      "partOfSpeech": "noun",
+      "example": "He makes travel vlogs on YouTube.",
+      "definitions": [
+        "a blog in video format"
+      ],
+      "synonyms": [
+        "video blog"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "make a vlog",
+        "travel vlog",
+        "daily vlog"
+      ],
+      "wordFamily": [
+        "vlog (n)",
+        "vlogger (n)"
+      ],
+      "coreMeaning": "وبلاگ به فرمت ویدیو",
+      "note": "vlog مخفف video blog است",
+      "trap": "vlog و blog تلفظ متفاوتی دارند؛ vlog با v شروع می‌شود",
+      "tags": [
+        "A2",
+        "social media"
+      ]
+    },
+    {
+      "word": "influencer",
+      "translation": "اینفلوئنسر، تأثیرگذار",
+      "ipa": "/ˈɪnfluənsər/",
+      "partOfSpeech": "noun",
+      "example": "She became a social media influencer.",
+      "definitions": [
+        "a person who influences others through social media"
+      ],
+      "synonyms": [
+        "opinion leader",
+        "trendsetter"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "social media influencer",
+        "influencer marketing",
+        "become an influencer"
+      ],
+      "wordFamily": [
+        "influence (n/v)",
+        "influencer (n)",
+        "influential (adj)"
+      ],
+      "coreMeaning": "شخصی که از طریق شبکه‌های اجتماعی بر دیگران تأثیر می‌گذارد",
+      "note": "influencer از influence + er ساخته شده",
+      "trap": "influencer و influence فرق دارند؛ influence اسم/فعل و influencer شخص",
+      "tags": [
+        "A2",
+        "social media"
+      ]
+    },
+    {
+      "word": "streaming",
+      "translation": "پخش آنلاین",
+      "ipa": "/ˈstriːmɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Streaming services are very popular now.",
+      "definitions": [
+        "the continuous transmission of audio or video data over the internet"
+      ],
+      "synonyms": [
+        "broadcasting"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "streaming service",
+        "live streaming",
+        "video streaming"
+      ],
+      "wordFamily": [
+        "stream (v)",
+        "streaming (n)"
+      ],
+      "coreMeaning": "انتقال مداوم داده‌های صوتی یا تصویری از اینترنت",
+      "note": "streaming از stream + ing ساخته شده",
+      "trap": "streaming و screaming (جیغ زدن) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "internet"
+      ]
+    },
+    {
+      "word": "podcast",
+      "translation": "پادکست",
+      "ipa": "/ˈpɑːdkæst/",
+      "partOfSpeech": "noun",
+      "example": "I listen to podcasts on my way to work.",
+      "definitions": [
+        "a digital audio program available for download or streaming"
+      ],
+      "synonyms": [
+        "audio show"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "listen to a podcast",
+        "podcast episode",
+        "start a podcast"
+      ],
+      "wordFamily": [
+        "podcast (n)"
+      ],
+      "coreMeaning": "برنامه صوتی دیجیتال قابل دانلود یا پخش آنلاین",
+      "note": "podcast از iPod + broadcast ساخته شده",
+      "trap": "podcast و broadcast تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "medal",
+      "translation": "مدال",
+      "ipa": "/ˈmedl/",
+      "partOfSpeech": "noun",
+      "example": "She won a gold medal in the Olympics.",
+      "definitions": [
+        "a metal disc awarded as a prize for achievement"
+      ],
+      "synonyms": [
+        "award",
+        "prize"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "gold medal",
+        "silver medal",
+        "win a medal"
+      ],
+      "wordFamily": [
+        "medal (n)"
+      ],
+      "coreMeaning": "دیسک فلزی اهدایی به عنوان جایزه",
+      "note": "medal و metal (فلز) تلفظ مشابهی دارند ولی معنای متفاوت",
+      "trap": "medal و metal و meddle (دخالت کردن) تلفظ مشابهی دارند",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "record",
+      "translation": "رکورد، سابقه",
+      "ipa": "/ˈrekərd/",
+      "partOfSpeech": "noun",
+      "example": "He broke the world record.",
+      "definitions": [
+        "the best performance ever achieved; a documented account"
+      ],
+      "synonyms": [
+        "best",
+        "mark"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "world record",
+        "break a record",
+        "set a record"
+      ],
+      "wordFamily": [
+        "record (n)",
+        "record (v)",
+        "recording (n)"
+      ],
+      "coreMeaning": "بهترین عملکرد ثبت شده یا سابقه مستند",
+      "note": "record اسم /ˈrekərd/ و فعل /rɪˈkɔːrd/ تلفظ متفاوتی دارد",
+      "trap": "record اسم و فعل تلفظ متفاوتی دارند؛ تأکید اسم روی اول و فعل روی دوم",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "equipment",
+      "translation": "تجهیزات",
+      "ipa": "/ɪˈkwɪpmənt/",
+      "partOfSpeech": "noun",
+      "example": "You need the right equipment for camping.",
+      "definitions": [
+        "the necessary items for a particular purpose"
+      ],
+      "synonyms": [
+        "gear",
+        "supplies"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sports equipment",
+        "camping equipment",
+        "office equipment"
+      ],
+      "wordFamily": [
+        "equip (v)",
+        "equipment (n)"
+      ],
+      "coreMeaning": "ابزار و وسایل لازم برای هدف خاص",
+      "note": "equipment یک اسم غیرقابل شمارش است",
+      "trap": "equipment غیرقابل شمارش است؛ نمی‌گوییم an equipment یا equipments",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "competition",
+      "translation": "مسابقه، رقابت",
+      "ipa": "/ˌkɑːmpəˈtɪʃn/",
+      "partOfSpeech": "noun",
+      "example": "There was tough competition in the race.",
+      "definitions": [
+        "an event in which people compete; the act of competing"
+      ],
+      "synonyms": [
+        "contest",
+        "tournament"
+      ],
+      "antonyms": [
+        "cooperation"
+      ],
+      "collocations": [
+        "enter a competition",
+        "competition winner",
+        "fierce competition"
+      ],
+      "wordFamily": [
+        "compete (v)",
+        "competition (n)",
+        "competitive (adj)",
+        "competitor (n)"
+      ],
+      "coreMeaning": "رویدادی که افراد با هم رقابت می‌کنند",
+      "note": "competition از compete + ition ساخته شده",
+      "trap": "competition و competitive فرق دارند؛ competition اسم و competitive صفت",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "league",
+      "translation": "لیگ، اتحادیه",
+      "ipa": "/liːɡ/",
+      "partOfSpeech": "noun",
+      "example": "He plays in the national football league.",
+      "definitions": [
+        "a group of sports teams that play against each other"
+      ],
+      "synonyms": [
+        "association",
+        "division"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "football league",
+        "league table",
+        "premier league"
+      ],
+      "wordFamily": [
+        "league (n)"
+      ],
+      "coreMeaning": "گروهی از تیم‌های ورزشی که با هم بازی می‌کنند",
+      "note": "league به معنای اتحاد هم هست: in league with",
+      "trap": "league و colleague (همکار) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "referee",
+      "translation": "داور",
+      "ipa": "/ˌrefəˈriː/",
+      "partOfSpeech": "noun",
+      "example": "The referee gave a red card.",
+      "definitions": [
+        "an official who watches a game and makes sure the rules are followed"
+      ],
+      "synonyms": [
+        "umpire",
+        "judge"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "head referee",
+        "referee a match",
+        "referee decision"
+      ],
+      "wordFamily": [
+        "referee (n)",
+        "refer (v)"
+      ],
+      "coreMeaning": "مسئول رسمی که قوانین بازی را اجرا می‌کند",
+      "note": "referee از refer + ee ساخته شده",
+      "trap": "referee و reference (مرجع) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "stadium",
+      "translation": "ورزشگاه، استادیوم",
+      "ipa": "/ˈsteɪdiəm/",
+      "partOfSpeech": "noun",
+      "example": "The stadium was full of fans.",
+      "definitions": [
+        "a large sports arena with tiered seating"
+      ],
+      "synonyms": [
+        "arena",
+        "field"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "football stadium",
+        "sports stadium",
+        "fill the stadium"
+      ],
+      "wordFamily": [
+        "stadium (n)"
+      ],
+      "coreMeaning": "ورزشگاه بزرگ با صندلی‌های طبقاتی",
+      "note": "جمع stadium به صورت stadiums یا stadia است",
+      "trap": "stadium و studio (استودیو) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "fan",
+      "translation": "طرفدار، هواکش",
+      "ipa": "/fæn/",
+      "partOfSpeech": "noun",
+      "example": "She is a big fan of that band.",
+      "definitions": [
+        "a person who admires something or someone; a device for cooling"
+      ],
+      "synonyms": [
+        "supporter",
+        "enthusiast"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "football fan",
+        "fan club",
+        "big fan"
+      ],
+      "wordFamily": [
+        "fan (n)"
+      ],
+      "coreMeaning": "طرفدار یا دستگاه خنک‌کننده",
+      "note": "fan به معنای هواکش هم هست",
+      "trap": "fan و fun (سرگرمی) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "cheer",
+      "translation": "تشویق کردن",
+      "ipa": "/tʃɪr/",
+      "partOfSpeech": "verb",
+      "example": "The fans cheered for their team.",
+      "definitions": [
+        "to shout in encouragement or support"
+      ],
+      "synonyms": [
+        "applaud",
+        "root"
+      ],
+      "antonyms": [
+        "boo"
+      ],
+      "collocations": [
+        "cheer for",
+        "cheer up",
+        "cheerleader"
+      ],
+      "wordFamily": [
+        "cheer (v/n)",
+        "cheerful (adj)",
+        "cheerleader (n)"
+      ],
+      "coreMeaning": "فریاد تشویق یا حمایت",
+      "note": "cheer up به معنای روحیه دادن است",
+      "trap": "cheer و chair (صندلی) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "defeat",
+      "translation": "شکست دادن، شکست",
+      "ipa": "/dɪˈfiːt/",
+      "partOfSpeech": "verb",
+      "example": "Our team defeated the champions.",
+      "definitions": [
+        "to win a victory over someone; a loss in a competition"
+      ],
+      "synonyms": [
+        "beat",
+        "conquer"
+      ],
+      "antonyms": [
+        "victory",
+        "win"
+      ],
+      "collocations": [
+        "defeat an opponent",
+        "suffer a defeat",
+        "defeat a team"
+      ],
+      "wordFamily": [
+        "defeat (v)",
+        "defeat (n)"
+      ],
+      "coreMeaning": "برنده شدن بر کسی یا شکست در مسابقه",
+      "note": "defeat هم فعل و هم اسم است",
+      "trap": "defeat و feature (ویژگی) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "victory",
+      "translation": "پیروزی",
+      "ipa": "/ˈvɪktəri/",
+      "partOfSpeech": "noun",
+      "example": "It was a great victory for the team.",
+      "definitions": [
+        "success in defeating an opponent or achieving a goal"
+      ],
+      "synonyms": [
+        "win",
+        "triumph"
+      ],
+      "antonyms": [
+        "defeat",
+        "loss"
+      ],
+      "collocations": [
+        "celebrate victory",
+        "victory speech",
+        "taste victory"
+      ],
+      "wordFamily": [
+        "victory (n)",
+        "victorious (adj)"
+      ],
+      "coreMeaning": "موفقیت در شکست دادن حریف یا رسیدن به هدف",
+      "note": "victory از victor (برنده) + y ساخته شده",
+      "trap": "victory و victim (قربانی) تلفظ متفاوتی دارند",
+      "tags": [
+        "A2",
+        "sports"
+      ]
+    },
+    {
+      "word": "subscription",
+      "translation": "اشتراک",
+      "ipa": "/səbˈskrɪpʃən/",
+      "partOfSpeech": "noun",
+      "example": "I have a Netflix subscription.",
+      "definitions": [
+        "an agreement to receive something regularly by paying"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "subscription service",
+        "monthly subscription",
+        "cancel subscription"
+      ],
+      "wordFamily": [
+        "subscribe (v)",
+        "subscriber (n)"
+      ],
+      "coreMeaning": "پرداخت منظم برای دریافت خدمات",
+      "note": "cancel subscription = لغو اشتراک",
+      "trap": "subscription: sub-SCRIP-tion",
+      "tags": [
+        "A2",
+        "hobbies",
+        "internet"
+      ]
+    },
+    {
+      "word": "playlist",
+      "translation": "لیست پخش",
+      "ipa": "/ˈpleɪlɪst/",
+      "partOfSpeech": "noun",
+      "example": "I made a playlist for the party.",
+      "definitions": [
+        "a list of songs or videos to play"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "create playlist",
+        "music playlist",
+        "playlist on Spotify"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مجموعه آهنگ‌های انتخاب شده",
+      "note": "playlist: play-list",
+      "trap": "playlist: یک کلمه",
+      "tags": [
+        "A2",
+        "hobbies",
+        "music"
+      ]
+    },
+    {
+      "word": "follower",
+      "translation": "دنبال‌کننده",
+      "ipa": "/ˈfɑːloʊər/",
+      "partOfSpeech": "noun",
+      "example": "She has 10,000 followers on Instagram.",
+      "definitions": [
+        "a person who follows someone on social media"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "gain followers",
+        "lose followers",
+        "number of followers"
+      ],
+      "wordFamily": [
+        "follow (v)"
+      ],
+      "coreMeaning": "کسی که صفحه‌ای را دنبال می‌کند",
+      "note": "gain followers = دنبال‌کننده جمع کردن",
+      "trap": "follower: FOL-low-er",
+      "tags": [
+        "A2",
+        "hobbies",
+        "social"
+      ]
+    },
+    {
+      "word": "biography",
+      "translation": "بیوگرافی، زندگی‌نامه",
+      "ipa": "/baɪˈɑːɡrəfi/",
+      "partOfSpeech": "noun",
+      "example": "I read a biography of Einstein.",
+      "definitions": [
+        "an account of someone's life written by another person"
+      ],
+      "synonyms": [
+        "life story"
+      ],
+      "antonyms": [
+        "autobiography"
+      ],
+      "collocations": [
+        "write biography",
+        "read biography",
+        "biography of"
+      ],
+      "wordFamily": [
+        "biographer (n)",
+        "biographical (adj)"
+      ],
+      "coreMeaning": "داستان زندگی شخص دیگر",
+      "note": "biography ≠ autobiography — autobiography خودنوشت است",
+      "trap": "biography: bi-OG-ra-phy",
+      "tags": [
+        "A2",
+        "hobbies",
+        "entertainment"
+      ]
+    },
+    {
+      "word": "gaming",
+      "translation": "بازی کردن",
+      "ipa": "/ˈɡeɪmɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "He spends a lot of time gaming.",
+      "definitions": [
+        "the activity of playing video games"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "online gaming",
+        "gaming console",
+        "gaming community"
+      ],
+      "wordFamily": [
+        "game (n)",
+        "gamer (n)"
+      ],
+      "coreMeaning": "بازی‌های ویدیویی",
+      "note": "gaming console = کنسول بازی",
+      "trap": "gaming: GAM-ing",
+      "tags": [
+        "A2",
+        "hobbies",
+        "entertainment"
+      ]
+    }
+  ]
+}

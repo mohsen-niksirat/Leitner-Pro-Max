@@ -1,0 +1,2409 @@
+{
+  "id": "C2-02",
+  "name": "اصطلاحات و زبان عامیانه",
+  "description": "اصطلاحات رایج، ضرب‌المثل‌ها و زبان محاوره‌ای پیشرفته",
+  "level": "C2",
+  "theme": "idioms-colloquial",
+  "words": [
+    {
+      "word": "break the ice",
+      "translation": "شکستن یخ",
+      "example": "A joke can break the ice.",
+      "synonyms": [
+        "initiate conversation",
+        "warm up"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "bite the bullet",
+      "translation": "گلوله را گاز زدن",
+      "example": "She bit the bullet and quit.",
+      "synonyms": [
+        "endure",
+        "face bravely"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "blessing in disguise",
+      "translation": "نعمت پنهان",
+      "example": "Losing that job was a blessing in disguise.",
+      "synonyms": [
+        "hidden benefit",
+        "silver lining"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "cost an arm and a leg",
+      "translation": "خیلی گران بودن",
+      "example": "The car cost an arm and a leg.",
+      "synonyms": [
+        "very expensive",
+        "pricey"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "cut to the chase",
+      "translation": " مستقیم رفتن سر اصل مطلب",
+      "example": "Cut to the chase, what do you want?",
+      "synonyms": [
+        "get to the point",
+        "be direct"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "get out of hand",
+      "translation": "از کنترل خارج شدن",
+      "example": "The party got out of hand.",
+      "synonyms": [
+        "lose control",
+        "become unmanageable"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "get something out of your system",
+      "translation": "خالی کردن دلت",
+      "example": "Just get it out of your system.",
+      "synonyms": [
+        "express fully",
+        "vent"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "go back to the drawing board",
+      "translation": "برگشتن به مرحله طراحی",
+      "example": "That didn't work, back to the drawing board.",
+      "synonyms": [
+        "start over",
+        "rethink"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "go the extra mile",
+      "translation": "بیشتر تلاش کردن",
+      "example": "She went the extra mile.",
+      "synonyms": [
+        "do more than expected",
+        "exceed expectations"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "hit the nail on the head",
+      "translation": "دقیقاً درست گفتن",
+      "example": "You hit the nail on the head.",
+      "synonyms": [
+        "be exactly right",
+        "nail it"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "hit the sack",
+      "translation": "خوابیدن",
+      "example": "I'm going to hit the sack.",
+      "synonyms": [
+        "go to bed",
+        "sleep"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "it takes two to tango",
+      "translation": "هر دو طرف مقصرند",
+      "example": "It takes two to tango.",
+      "synonyms": [
+        "mutual responsibility",
+        "both are involved"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "kill two birds with one stone",
+      "translation": "با یک تیر دو نشان زدن",
+      "example": "I killed two birds with one stone.",
+      "synonyms": [
+        "achieve two goals",
+        "efficiency"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "let the cat out of the bag",
+      "translation": "راز را لو دادن",
+      "example": "She let the cat out of the bag.",
+      "synonyms": [
+        "reveal secret",
+        "expose"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "miss the boat",
+      "translation": "از قافله جا ماندن",
+      "example": "You missed the boat on that deal.",
+      "synonyms": [
+        "miss opportunity",
+        "be too late"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "once in a blue moon",
+      "translation": "خیلی به ندرت",
+      "example": "He calls once in a blue moon.",
+      "synonyms": [
+        "very rarely",
+        "seldom"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "pull someone's leg",
+      "translation": "سر کسی را گذاشتن",
+      "example": "I'm just pulling your leg.",
+      "synonyms": [
+        "joke with",
+        "tease"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "spill the beans",
+      "translation": "لو دادن راز",
+      "example": "Who spilled the beans?",
+      "synonyms": [
+        "reveal secret",
+        "disclose"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "take a rain check",
+      "translation": "به تعویق انداختن",
+      "example": "Can I take a rain check?",
+      "synonyms": [
+        "postpone",
+        "delay"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "the ball is in your court",
+      "translation": "توپ در زمین توست",
+      "example": "The ball is in your court now.",
+      "synonyms": [
+        "your turn",
+        "your responsibility"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "under the weather",
+      "translation": "مریض بودن",
+      "example": "I'm feeling under the weather.",
+      "synonyms": [
+        "ill",
+        "sick"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "piece of cake",
+      "translation": "خیلی آسان",
+      "example": "That test was a piece of cake.",
+      "synonyms": [
+        "very easy",
+        "simple"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "cost a pretty penny",
+      "translation": "گران بودن",
+      "example": "That ring cost a pretty penny.",
+      "synonyms": [
+        "expensive",
+        "costly"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "on the fence",
+      "translation": "مردد بودن",
+      "example": "I'm still on the fence.",
+      "synonyms": [
+        "undecided",
+        "hesitant"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "break a leg",
+      "translation": "موفق باشی",
+      "example": "Break a leg at your audition!",
+      "synonyms": [
+        "good luck",
+        "best wishes"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "bite off more than you can chew",
+      "translation": "بیش از حد متعهد شدن",
+      "example": "She bit off more than she could chew.",
+      "synonyms": [
+        "overcommit",
+        "take on too much"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "barking up the wrong tree",
+      "translation": "اشتباه رفتن",
+      "example": "You're barking up the wrong tree.",
+      "synonyms": [
+        "on the wrong track",
+        "mistaken"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "beat around the bush",
+      "translation": "دور حرف زدن",
+      "example": "Stop beating around the bush.",
+      "synonyms": [
+        "avoid the point",
+        "be indirect"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "burn the midnight oil",
+      "translation": "تمام شب بیدار بودن",
+      "example": "She burned the midnight oil.",
+      "synonyms": [
+        "work late",
+        "study hard"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "by the skin of your teeth",
+      "translation": "به سختی",
+      "example": "I passed by the skin of my teeth.",
+      "synonyms": [
+        "barely",
+        "narrowly"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "call it a day",
+      "translation": "تمام کردن",
+      "example": "Let's call it a day.",
+      "synonyms": [
+        "stop working",
+        "finish"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "caught between a rock and a hard place",
+      "translation": "در تنگنا قرار گرفتن",
+      "example": "I'm caught between a rock and a hard place.",
+      "synonyms": [
+        "dilemma",
+        "no good options"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "cry over spilled milk",
+      "translation": "پشیمانی بی‌فایده",
+      "example": "Don't cry over spilled milk.",
+      "synonyms": [
+        "regret the past",
+        "move on"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "every cloud has a silver lining",
+      "translation": "هر مشکلی حسنی دارد",
+      "example": "Every cloud has a silver lining.",
+      "synonyms": [
+        "optimism",
+        "hope"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "get a taste of your own medicine",
+      "translation": " Jsjsjsjsjsjsj",
+      "example": "He got a taste of his own medicine.",
+      "synonyms": [
+        "experience what you inflict",
+        "payback"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "give the benefit of the doubt",
+      "translation": "شک را به نفع متهم کردن",
+      "example": "Give him the benefit of the doubt.",
+      "synonyms": [
+        "trust until proven",
+        "assume innocence"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "go the distance",
+      "translation": "تا آخر رفتن",
+      "example": "She went the distance.",
+      "synonyms": [
+        "persevere",
+        "last long"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "keep your chin up",
+      "translation": "دلسرد نشو",
+      "example": "Keep your chin up.",
+      "synonyms": [
+        "stay positive",
+        "be strong"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "left out in the cold",
+      "translation": "نادیده گرفته شدن",
+      "example": "She felt left out in the cold.",
+      "synonyms": [
+        "excluded",
+        "ignored"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "look before you leap",
+      "translation": "اول فکر کن بعد عمل کن",
+      "example": "Look before you leap.",
+      "synonyms": [
+        "be cautious",
+        "think carefully"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "make a long story short",
+      "translation": "خلاصه کردن",
+      "example": "To make a long story short...",
+      "synonyms": [
+        "briefly",
+        "in short"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "no pain no gain",
+      "translation": "بدون رنج گنج میسر نمی‌شود",
+      "example": "No pain, no gain.",
+      "synonyms": [
+        "hard work pays off",
+        "effort brings reward"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "on the same page",
+      "translation": "هم‌نظر بودن",
+      "example": "We're on the same page.",
+      "synonyms": [
+        "in agreement",
+        "aligned"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "read between the lines",
+      "translation": "بین خطوط را خواندن",
+      "example": "Read between the lines.",
+      "synonyms": [
+        "interpret deeper meaning",
+        "imply"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "see eye to eye",
+      "translation": "هم‌نظر بودن",
+      "example": "We don't see eye to eye.",
+      "synonyms": [
+        "agree",
+        "share viewpoint"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "speak of the devil",
+      "translation": "نام خر ببر کله‌پاچه‌اش بیاد",
+      "example": "Speak of the devil, here he comes.",
+      "synonyms": [
+        "just as mentioned",
+        "appear when discussed"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "steal someone's thunder",
+      "translation": "luc",
+      "example": "Don't steal my thunder.",
+      "synonyms": [
+        "take credit",
+        "upstage"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "the best of both worlds",
+      "translation": "بهترین هر دو دنیا",
+      "example": "She has the best of both worlds.",
+      "synonyms": [
+        "ideal situation",
+        "perfect balance"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "the last straw",
+      "translation": "نی نهایی",
+      "example": "That was the last straw.",
+      "synonyms": [
+        "final provocation",
+        "breaking point"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "throw in the towel",
+      "translation": "تسلیم شدن",
+      "example": "He threw in the towel.",
+      "synonyms": [
+        "give up",
+        "surrender"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "time flies",
+      "translation": "زود می‌گذرد",
+      "example": "Time flies when you're having fun.",
+      "synonyms": [
+        "pass quickly",
+        "go fast"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "turn a blind eye",
+      "translation": "چشم پوشیدن",
+      "example": "The teacher turned a blind eye.",
+      "synonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "up in the air",
+      "translation": "نامعلوم",
+      "example": "Plans are still up in the air.",
+      "synonyms": [
+        "uncertain",
+        "undecided"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "when pigs fly",
+      "translation": "هرگز",
+      "example": "That will happen when pigs fly.",
+      "synonyms": [
+        "never",
+        "impossible"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "wrap your head around",
+      "translation": "فهمیدن",
+      "example": "I can't wrap my head around it.",
+      "synonyms": [
+        "understand",
+        "comprehend"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "a dime a dozen",
+      "translation": "خیلی ارزان",
+      "example": "Those books are a dime a dozen.",
+      "synonyms": [
+        "common",
+        "cheap"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "beat a dead horse",
+      "translation": "بیهوده تلاش کردن",
+      "example": "Stop beating a dead horse.",
+      "synonyms": [
+        "waste effort",
+        "futile"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "better late than never",
+      "translation": "دیر بهتر از هرگز",
+      "example": "Better late than never.",
+      "synonyms": [
+        "eventual action",
+        "better delayed"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "don't count your chickens before they hatch",
+      "translation": "پیش از تخم مرغ شمردن مرغ",
+      "example": "Don't count your chickens before they hatch.",
+      "synonyms": [
+        "wait for results",
+        "don't assume"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "get the ball rolling",
+      "translation": "شروع کردن",
+      "example": "Let's get the ball rolling.",
+      "synonyms": [
+        "begin",
+        "initiate"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "go the extra mile",
+      "translation": "بیشتر تلاش کردن",
+      "example": "She went the extra mile.",
+      "synonyms": [
+        "exceed expectations",
+        "do more"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "kill time",
+      "translation": "وقت تلف کردن",
+      "example": "I killed time waiting.",
+      "synonyms": [
+        "waste time",
+        "pass time"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "let sleeping dogs lie",
+      "translation": "سگ خفته را بیدار نکن",
+      "example": "Let sleeping dogs lie.",
+      "synonyms": [
+        "leave things alone",
+        "don't stir trouble"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "look like a million bucks",
+      "translation": "عالی به نظر رسیدن",
+      "example": "You look like a million bucks.",
+      "synonyms": [
+        "look great",
+        "impressive"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "on thin ice",
+      "translation": "روی یخ نازک",
+      "example": "You're on thin ice.",
+      "synonyms": [
+        "in danger",
+        "precarious"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "play devil's advocate",
+      "translation": "گفتگوی شیطان",
+      "example": "I'm just playing devil's advocate.",
+      "synonyms": [
+        "argue opposite",
+        "challenge"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "pull your weight",
+      "translation": "سهمت را ادا کردن",
+      "example": "Everyone needs to pull their weight.",
+      "synonyms": [
+        "do your part",
+        "contribute"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "raise the bar",
+      "translation": "سطح را بالا بردن",
+      "example": "She raised the bar.",
+      "synonyms": [
+        "set higher standards",
+        "improve"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "say the least",
+      "translation": "حداقلش اینه که",
+      "example": "That's saying the least.",
+      "synonyms": [
+        "understatement",
+        "modestly put"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "get cold feet",
+      "translation": "ترسیدن",
+      "example": "He got cold feet.",
+      "synonyms": [
+        "become nervous",
+        "hesitate"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "hit the books",
+      "translation": "درس خواندن",
+      "example": "I need to hit the books.",
+      "synonyms": [
+        "study",
+        "learn"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "keep an eye on",
+      "translation": "مواظب بودن",
+      "example": "Keep an eye on the door.",
+      "synonyms": [
+        "watch",
+        "monitor"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "make ends meet",
+      "translation": "eldon",
+      "example": "It's hard to make ends meet.",
+      "synonyms": [
+        "pay bills",
+        "survive financially"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "sit on the fence",
+      "translation": "مردد بودن",
+      "example": "Stop sitting on the fence.",
+      "synonyms": [
+        "be undecided",
+        "hesitate"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "stressed out",
+      "translation": "استرس داشتن",
+      "example": "I'm so stressed out.",
+      "synonyms": [
+        "anxious",
+        "tense"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "hang out",
+      "translation": "وقت گذراندن",
+      "example": "Let's hang out.",
+      "synonyms": [
+        "spend time",
+        "relax together"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "chill out",
+      "translation": "آرام گرفتن",
+      "example": "Just chill out.",
+      "synonyms": [
+        "relax",
+        "calm down"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "crash",
+      "translation": "خوابیدن",
+      "example": "Can I crash at your place?",
+      "synonyms": [
+        "sleep",
+        "stay"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "butter someone up",
+      "translation": "چاپلوسی کردن",
+      "example": "She's buttering him up.",
+      "synonyms": [
+        "flatter",
+        "sweet-talk"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "by the way",
+      "translation": "راستی",
+      "example": "By the way, I forgot.",
+      "synonyms": [
+        "incidentally",
+        "oh"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "catch-22",
+      "translation": "دوراهی",
+      "example": "It's a catch-22.",
+      "synonyms": [
+        "dilemma",
+        "paradox"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "cold shoulder",
+      "translation": "بی‌اعتنایی",
+      "example": "She gave him the cold shoulder.",
+      "synonyms": [
+        "ignore",
+        "snub"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "cost a bomb",
+      "translation": "خیلی گران بودن",
+      "example": "That watch cost a bomb.",
+      "synonyms": [
+        "expensive",
+        "pricey"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "cross that bridge when you come to it",
+      "translation": "صبر کن ببینیم چه میشه",
+      "example": "We'll cross that bridge when we come to it.",
+      "synonyms": [
+        "deal with it later",
+        "wait and see"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "curl up with a good book",
+      "translation": "با کتابی خوب لم دادن",
+      "example": "I like to curl up with a good book.",
+      "synonyms": [
+        "relax reading",
+        "snuggle"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "do something in a heartbeat",
+      "translation": "خیلی سریع انجام دادن",
+      "example": "I'd do it in a heartbeat.",
+      "synonyms": [
+        "immediately",
+        "without hesitation"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "dodge a bullet",
+      "translation": "از خطر دور شدن",
+      "example": "I dodged a bullet.",
+      "synonyms": [
+        "avoid danger",
+        "escape"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "don't give up your day job",
+      "translation": "کار اصلیت رو رها نکن",
+      "example": "Don't give up your day job.",
+      "synonyms": [
+        "stay realistic",
+        "keep your job"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "draw the line",
+      "translation": "مرز کشیدن",
+      "example": "I draw the line at lying.",
+      "synonyms": [
+        "set limits",
+        "refuse"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "drop a bombshell",
+      "translation": "خبر شوکه‌کننده دادن",
+      "example": "She dropped a bombshell.",
+      "synonyms": [
+        "reveal shocking news",
+        "surprise"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "eager beaver",
+      "translation": "خیلی مشتاق",
+      "example": "He's an eager beaver.",
+      "synonyms": [
+        "enthusiast",
+        "keen person"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "earn your stripes",
+      "translation": "تجربه کسب کردن",
+      "example": "She earned her stripes.",
+      "synonyms": [
+        "gain experience",
+        "prove yourself"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "face the music",
+      "translation": "با عواقب روبرو شدن",
+      "example": "He had to face the music.",
+      "synonyms": [
+        "accept consequences",
+        "confront reality"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "get the hang of",
+      "translation": "یاد گرفتن",
+      "example": "I'm getting the hang of it.",
+      "synonyms": [
+        "learn",
+        "master"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "get your act together",
+      "translation": "خودت رو جمع کن",
+      "example": "You need to get your act together.",
+      "synonyms": [
+        "organize yourself",
+        "improve"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "give a hand",
+      "translation": "کمک کردن",
+      "example": "Can you give me a hand?",
+      "synonyms": [
+        "help",
+        "assist"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "go the whole hog",
+      "translation": "کامل انجام دادن",
+      "example": "She went the whole hog.",
+      "synonyms": [
+        "go all out",
+        "be thorough"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "got milk?",
+      "translation": "شیر داری؟",
+      "example": "Got milk?",
+      "synonyms": [
+        "do you have",
+        "possess"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "grasp at straws",
+      "translation": "تلاش ناامیدانه کردن",
+      "example": "He's grasping at straws.",
+      "synonyms": [
+        "desperate attempt",
+        "last resort"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "green thumb",
+      "translation": "مهارت باغبانی",
+      "example": "She has a green thumb.",
+      "synonyms": [
+        "gardening skill",
+        "talent"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "head over heels",
+      "translation": "عاشق شدن",
+      "example": "She's head over heels in love.",
+      "synonyms": [
+        "deeply in love",
+        "completely"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "hear it on the grapevine",
+      "translation": "از دهان به دهان شنیدن",
+      "example": "I heard it on the grapevine.",
+      "synonyms": [
+        "rumor",
+        "gossip"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "hold your horses",
+      "translation": "صبر کن",
+      "example": "Hold your horses!",
+      "synonyms": [
+        "wait",
+        "be patient"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "in a nutshell",
+      "translation": "به طور خلاصه",
+      "example": "In a nutshell, we lost.",
+      "synonyms": [
+        "briefly",
+        "summarized"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "in hot water",
+      "translation": "در دردسر افتادن",
+      "example": "He's in hot water.",
+      "synonyms": [
+        "trouble",
+        "difficulty"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "jump on the bandwagon",
+      "translation": "همراه موج شدن",
+      "example": "Everyone jumped on the bandwagon.",
+      "synonyms": [
+        "follow trend",
+        "join in"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "kick the bucket",
+      "translation": "مردن",
+      "example": "He kicked the bucket.",
+      "synonyms": [
+        "die",
+        "pass away"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "knock on wood",
+      "translation": "چوب بزن",
+      "example": "Knock on wood, no problems yet.",
+      "synonyms": [
+        "avoid jinx",
+        "good luck"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "let someone off the hook",
+      "translation": "rb",
+      "example": "She let him off the hook.",
+      "synonyms": [
+        "forgive",
+        "release"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "loose cannon",
+      "translation": "غیرقابل پیش‌بینی",
+      "example": "He's a loose cannon.",
+      "synonyms": [
+        "unpredictable",
+        "unreliable"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "lucky break",
+      "translation": "شانس خوب",
+      "example": "She got a lucky break.",
+      "synonyms": [
+        "good fortune",
+        "opportunity"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "make a mountain out of a molehill",
+      "translation": "bff",
+      "example": "Don't make a mountain out of a molehill.",
+      "synonyms": [
+        "exaggerate",
+        "overreact"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "miss the point",
+      "translation": "متوجه نشدن",
+      "example": "You missed the point.",
+      "synonyms": [
+        "misunderstand",
+        "fail to grasp"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "my hands are tied",
+      "translation": "دستم بسته است",
+      "example": "My hands are tied.",
+      "synonyms": [
+        "powerless",
+        "unable to help"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "nail it",
+      "translation": "موفق شدن",
+      "example": "She nailed it!",
+      "synonyms": [
+        "succeed",
+        "do perfectly"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "no-brainer",
+      "translation": "بدون فکر کردن",
+      "example": "That's a no-brainer.",
+      "synonyms": [
+        "obvious choice",
+        "easy decision"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "not rocket science",
+      "translation": "سخت نیست",
+      "example": "It's not rocket science.",
+      "synonyms": [
+        "simple",
+        "not complicated"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "off the hook",
+      "translation": "آزاد شدن",
+      "example": "You're off the hook.",
+      "synonyms": [
+        "free",
+        "released"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "on a roll",
+      "translation": "موفق بودن",
+      "example": "She's on a roll.",
+      "synonyms": [
+        "succeeding",
+        "doing well"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "on cloud nine",
+      "translation": "خیلی خوشحال",
+      "example": "She's on cloud nine.",
+      "synonyms": [
+        "extremely happy",
+        "elated"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "on the ball",
+      "translation": "آماده و هوشیار",
+      "example": "She's really on the ball.",
+      "synonyms": [
+        "alert",
+        "competent"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "out of the blue",
+      "translation": "ناگهانی",
+      "example": "He called out of the blue.",
+      "synonyms": [
+        "unexpected",
+        "surprising"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "over the moon",
+      "translation": "خیلی خوشحال",
+      "example": "She's over the moon.",
+      "synonyms": [
+        "ecstatic",
+        "delighted"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "pull a fast one",
+      "translation": "فریب دادن",
+      "example": "Don't pull a fast one on me.",
+      "synonyms": [
+        "deceive",
+        "trick"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "put your foot in your mouth",
+      "translation": "حرف اشتباه زدن",
+      "example": "I put my foot in my mouth.",
+      "synonyms": [
+        "say wrong thing",
+        "embarrass yourself"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "raining cats and dogs",
+      "translation": "باران شدید",
+      "example": "It's raining cats and dogs.",
+      "synonyms": [
+        "pouring",
+        "heavy rain"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "rock the boat",
+      "translation": "دردسر درست کردن",
+      "example": "Don't rock the boat.",
+      "synonyms": [
+        "cause trouble",
+        "upset"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "run out of steam",
+      "translation": "تمام شدن انرژی",
+      "example": "I ran out of steam.",
+      "synonyms": [
+        "get tired",
+        "lose energy"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "shoot the breeze",
+      "translation": "حرف‌های بی‌خود زدن",
+      "example": "We shot the breeze.",
+      "synonyms": [
+        "chat",
+        "idle talk"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "sit tight",
+      "translation": "صبر کن",
+      "example": "Just sit tight.",
+      "synonyms": [
+        "wait",
+        "be patient"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "spill the tea",
+      "translation": "ماجرا رو تعریف کردن",
+      "example": "Spill the tea!",
+      "synonyms": [
+        "gossip",
+        "reveal"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "straight from the horse's mouth",
+      "translation": "از منبع معتبر",
+      "example": "Straight from the horse's mouth.",
+      "synonyms": [
+        "reliable source",
+        "direct"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "take it with a grain of salt",
+      "translation": "با شک برخورد کردن",
+      "example": "Take it with a grain of salt.",
+      "synonyms": [
+        "don't fully believe",
+        "be skeptical"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "the elephant in the room",
+      "translation": "موضوع واضح",
+      "example": "The elephant in the room is money.",
+      "synonyms": [
+        "obvious issue",
+        "unspoken problem"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "the whole nine yards",
+      "translation": "همه چیز",
+      "example": "She got the whole nine yards.",
+      "synonyms": [
+        "everything",
+        "completely"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "through thick and thin",
+      "translation": "در خوشی و سختی",
+      "example": "We went through thick and thin.",
+      "synonyms": [
+        "always together",
+        "loyal"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "tough cookie",
+      "translation": "آدم سخت",
+      "example": "She's a tough cookie.",
+      "synonyms": [
+        "strong person",
+        "resilient"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "turn over a new leaf",
+      "translation": "زندگی جدید شروع کردن",
+      "example": "He turned over a new leaf.",
+      "synonyms": [
+        "change",
+        "reform"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "under the table",
+      "translation": "غیرقانونی",
+      "example": "He paid under the table.",
+      "synonyms": [
+        "illegally",
+        "secretly"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "wipe the slate clean",
+      "translation": "پاک کردن گذشته",
+      "example": "Let's wipe the slate clean.",
+      "synonyms": [
+        "start fresh",
+        "forgive"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "you can say that again",
+      "translation": "کاملاً موافقم",
+      "example": "You can say that again!",
+      "synonyms": [
+        "I agree",
+        "exactly"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "cool as a cucumber",
+      "translation": "خیلی آرام",
+      "example": "She was cool as a cucumber.",
+      "synonyms": [
+        "calm",
+        "composed"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "every dog has its day",
+      "translation": "هر کسی یه روزی خوشبخت میشه",
+      "example": "Every dog has its day.",
+      "synonyms": [
+        "good fortune comes",
+        "patience"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "fair and square",
+      "translation": "منصفانه",
+      "example": "I won fair and square.",
+      "synonyms": [
+        "honestly",
+        "justly"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "get bent out of shape",
+      "translation": "ناراحت شدن",
+      "example": "Don't get bent out of shape.",
+      "synonyms": [
+        "upset",
+        "angry"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "get your wires crossed",
+      "translation": "سوءتفاهم شدن",
+      "example": "We got our wires crossed.",
+      "synonyms": [
+        "misunderstand",
+        "confuse"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "give the cold shoulder",
+      "translation": "بی‌اعتنایی کردن",
+      "example": "She gave him the cold shoulder.",
+      "synonyms": [
+        "ignore",
+        "snub"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "have a change of heart",
+      "translation": "نظرش عوض شدن",
+      "example": "He had a change of heart.",
+      "synonyms": [
+        "change mind",
+        "reconsider"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "hit the hay",
+      "translation": "خوابیدن",
+      "example": "I'm going to hit the hay.",
+      "synonyms": [
+        "go to bed",
+        "sleep"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "in the heat of the moment",
+      "translation": "در لحظه هیجان",
+      "example": "I said it in the heat of the moment.",
+      "synonyms": [
+        "impulsively",
+        "emotionally"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "it's not over till it's over",
+      "translation": "تا آخرش مشخص نیست",
+      "example": "It's not over till it's over.",
+      "synonyms": [
+        "never give up",
+        "anything can happen"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "keep something under wraps",
+      "translation": "محرمانه نگه داشتن",
+      "example": "Keep it under wraps.",
+      "synonyms": [
+        "secret",
+        "confidential"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "kiss of death",
+      "translation": "مرگ",
+      "example": "That decision was the kiss of death.",
+      "synonyms": [
+        "ruin",
+        "end"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "leave no stone unturned",
+      "translation": "همه تلاش را کردن",
+      "example": "We left no stone unturned.",
+      "synonyms": [
+        "try everything",
+        "be thorough"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "long face",
+      "translation": "دلسردی",
+      "example": "Why the long face?",
+      "synonyms": [
+        "sad",
+        "upset"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "make a killing",
+      "translation": "سود زیاد کردن",
+      "example": "She made a killing.",
+      "synonyms": [
+        "profit greatly",
+        "succeed"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "nerves of steel",
+      "translation": "عصب فولادین",
+      "example": "She has nerves of steel.",
+      "synonyms": [
+        "very brave",
+        "calm under pressure"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "no strings attached",
+      "translation": "بدون شرط",
+      "example": "No strings attached.",
+      "synonyms": [
+        "unconditional",
+        "free"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "on a shoestring",
+      "translation": "با بودجه کم",
+      "example": "We traveled on a shoestring.",
+      "synonyms": [
+        "cheaply",
+        "tight budget"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "on the tip of my tongue",
+      "translation": "روی زبانمه",
+      "example": "It's on the tip of my tongue.",
+      "synonyms": [
+        "almost remember",
+        "close to recalling"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "out of this world",
+      "translation": "خارج از این دنیا",
+      "example": "The food was out of this world.",
+      "synonyms": [
+        "amazing",
+        "incredible"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "play it by ear",
+      "translation": "خودم می‌فهمم",
+      "example": "Let's play it by ear.",
+      "synonyms": [
+        "improvise",
+        "decide later"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "put your best foot forward",
+      "translation": "بهترین تلاشت را بکن",
+      "example": "Put your best foot forward.",
+      "synonyms": [
+        "try hard",
+        "do your best"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "ride the wave",
+      "translation": "از موج استفاده کردن",
+      "example": "She's riding the wave of success.",
+      "synonyms": [
+        "enjoy momentum",
+        "capitalize"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "rob Peter to pay Paul",
+      "translation": "از این در آوردن از آن در ریختن",
+      "example": "He's robbing Peter to pay Paul.",
+      "synonyms": [
+        "shift debt",
+        "borrow from one"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "set the record straight",
+      "translation": "واقعیت را روشن کردن",
+      "example": "Let me set the record straight.",
+      "synonyms": [
+        "clarify",
+        "correct"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "shake a leg",
+      "translation": "تکانی به خودت بده",
+      "example": "Shake a leg, we're late!",
+      "synonyms": [
+        "hurry",
+        "move fast"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "shoot from the hip",
+      "translation": "بدون فکر حرف زدن",
+      "example": "He shoots from the hip.",
+      "synonyms": [
+        "be blunt",
+        "speak freely"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "show your true colors",
+      "translation": "خودت رو نشون بده",
+      "example": "He showed his true colors.",
+      "synonyms": [
+        "reveal character",
+        "be authentic"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "sleep on it",
+      "translation": "شب بهش فکر کن",
+      "example": "Sleep on it and decide tomorrow.",
+      "synonyms": [
+        "think overnight",
+        "delay decision"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "smooth sailing",
+      "translation": "بدون مشکل",
+      "example": "It's been smooth sailing.",
+      "synonyms": [
+        "easy",
+        "going well"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "speak volumes",
+      "translation": "خیلی چیزها رو میگه",
+      "example": "That speaks volumes.",
+      "synonyms": [
+        "reveal much",
+        "indicate"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "step up your game",
+      "translation": "بهتر شدن",
+      "example": "You need to step up your game.",
+      "synonyms": [
+        "improve",
+        "do better"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "stick to your guns",
+      "translation": "پای حرفت وایستا",
+      "example": "Stick to your guns.",
+      "synonyms": [
+        "stay firm",
+        "be resolute"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "take a hike",
+      "translation": "برو گمشو",
+      "example": "Just take a hike!",
+      "synonyms": [
+        "go away",
+        "leave"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "take it easy",
+      "translation": "آروم باش",
+      "example": "Take it easy.",
+      "synonyms": [
+        "relax",
+        "calm down"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "the more the merrier",
+      "translation": "هر چه بیشتر بهتر",
+      "example": "The more the merrier!",
+      "synonyms": [
+        "welcome everyone",
+        "enjoy company"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "think outside the box",
+      "translation": "خارج از چارچوب فکر کردن",
+      "example": "Think outside the box.",
+      "synonyms": [
+        "be creative",
+        "innovate"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "time is money",
+      "translation": "وقت طلاست",
+      "example": "Time is money.",
+      "synonyms": [
+        "be efficient",
+        "don't waste time"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "tip of the iceberg",
+      "translation": "نوک کوه یخ",
+      "example": "That's just the tip of the iceberg.",
+      "synonyms": [
+        "small part",
+        "surface level"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "to each his own",
+      "translation": "هر کسی سلیقه خودش رو داره",
+      "example": "To each his own.",
+      "synonyms": [
+        "personal preference",
+        "individual taste"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "touch base",
+      "translation": "ارتباط برقرار کردن",
+      "example": "Let's touch base later.",
+      "synonyms": [
+        "connect",
+        "catch up"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "turn the tables",
+      "translation": "وضعیت رو عوض کردن",
+      "example": "She turned the tables.",
+      "synonyms": [
+        "reverse",
+        "change fortune"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "two cents",
+      "translation": "نظر شخصی",
+      "example": "Here's my two cents.",
+      "synonyms": [
+        "opinion",
+        "thoughts"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "walk on eggshells",
+      "translation": "خیلی مراقب بودن",
+      "example": "I'm walking on eggshells.",
+      "synonyms": [
+        "be careful",
+        "cautious"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "what's the catch?",
+      "translation": "چه حرفی هست؟",
+      "example": "Sounds too good to be true, what's the catch?",
+      "synonyms": [
+        "suspicion",
+        "hidden condition"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "when it rains it pours",
+      "translation": "مشکلات پشت سر هم میان",
+      "example": "When it rains, it pours.",
+      "synonyms": [
+        "many things at once",
+        "overwhelming"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "whole nine yards",
+      "translation": "همه چیز",
+      "example": "Give me the whole nine yards.",
+      "synonyms": [
+        "everything",
+        "all inclusive"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "wild goose chase",
+      "translation": "بیهوده جستجو",
+      "example": "It was a wild goose chase.",
+      "synonyms": [
+        "futile",
+        "wasted effort"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "yada yada yada",
+      "translation": "و از این حرف‌ها",
+      "example": "Yada yada yada, you know the rest.",
+      "synonyms": [
+        "etcetera",
+        "and so on"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "back to basics",
+      "translation": "برگشت به اصول",
+      "example": "Let's go back to basics.",
+      "synonyms": [
+        "fundamentals",
+        "start over"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "bent out of shape",
+      "translation": "ناراحت شدن",
+      "example": "Don't get bent out of shape.",
+      "synonyms": [
+        "upset",
+        "angry"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "cold turkey",
+      "translation": "ناگهانی ترک کردن",
+      "example": "He quit cold turkey.",
+      "synonyms": [
+        "abruptly",
+        "all at once"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    },
+    {
+      "word": "cut corners",
+      "translation": "کوتاهی کردن",
+      "example": "Don't cut corners.",
+      "synonyms": [
+        "take shortcuts",
+        "be careless"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "get off your high horse",
+      "translation": "غرورت رو کنار بذار",
+      "example": "Get off your high horse.",
+      "synonyms": [
+        "be humble",
+        "stop being arrogant"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "head in the clouds",
+      "translation": "سر در آسمان‌ها",
+      "example": "She has her head in the clouds.",
+      "synonyms": [
+        "dreamer",
+        "unrealistic"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "iron fist",
+      "translation": "مشت آهنین",
+      "example": "He rules with an iron fist.",
+      "synonyms": [
+        "strict",
+        "authoritarian"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "keep your head",
+      "translation": "آرامش خودت رو حفظ کن",
+      "example": "Keep your head in a crisis.",
+      "synonyms": [
+        "stay calm",
+        "be composed"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "let off steam",
+      "translation": "خالی کردن عقده",
+      "example": "She needs to let off steam.",
+      "synonyms": [
+        "vent",
+        "relieve stress"
+      ],
+      "tags": [
+        "idiom"
+      ]
+    },
+    {
+      "word": "mixed signals",
+      "translation": "پیام‌های متناقض",
+      "example": "She gives mixed signals.",
+      "synonyms": [
+        "confusing messages",
+        "contradiction"
+      ],
+      "tags": [
+        "colloquial"
+      ]
+    }
+  ]
+}

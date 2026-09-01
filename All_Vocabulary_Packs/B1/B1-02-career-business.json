@@ -1,0 +1,6381 @@
+{
+  "name": "کار و حرفه",
+  "description": "واژگان سطح B1 — موضوع: کار و حرفه",
+  "category": "B1 — متوسط",
+  "level": "B1",
+  "packId": "B1-02",
+  "words": [
+    {
+      "word": "demotion",
+      "translation": "تنزل مقام، کاهش رتبه",
+      "ipa": "/dɪˈmoʊʃən/",
+      "partOfSpeech": "noun",
+      "example": "After the poor performance review, he faced a demotion to a junior role.",
+      "definitions": [
+        "the act of lowering someone to a less senior position"
+      ],
+      "synonyms": [
+        "downgrade",
+        "reduction"
+      ],
+      "antonyms": [
+        "promotion",
+        "advancement"
+      ],
+      "collocations": [
+        "face a demotion",
+        "demotion to a lower rank"
+      ],
+      "wordFamily": [
+        "demote (v)",
+        "demoted (adj)"
+      ],
+      "coreMeaning": "کاهش رتبه شغلی به دلیل عملکرد ضعیف یا تغییر ساختار",
+      "note": "برخلاف promotion که ارتقاست، demotion به معنای تنزل مقام است",
+      "trap": "با dismissal (اخراج) اشتباه نگیرید؛ demotion یعنی هنوز شغل دارید ولی در سطح پایین‌تر",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "resignation",
+      "translation": "استعفا، کناره‌گیری",
+      "ipa": "/ˌrezɪɡˈneɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "She submitted her resignation letter to the HR department.",
+      "definitions": [
+        "the act of voluntarily leaving a job or position"
+      ],
+      "synonyms": [
+        "departure",
+        "leaving"
+      ],
+      "antonyms": [
+        "appointment",
+        "hiring"
+      ],
+      "collocations": [
+        "submit one's resignation",
+        "hand in resignation",
+        "letter of resignation"
+      ],
+      "wordFamily": [
+        "resign (v)",
+        "resigned (adj)"
+      ],
+      "coreMeaning": "ترک داوطلبانه شغل با ارائه نامه رسمی",
+      "note": "resign فعل و resignation اسم است؛ هر دو به ترک شغل اشاره دارند",
+      "trap": "با retirement (بازنشستگی) اشتباه نگیرید؛ resignation در هر سنی ممکن است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "probation",
+      "translation": "دوره آزمایشی، دوره محک",
+      "ipa": "/proʊˈbeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "New employees must complete a three-month probation period.",
+      "definitions": [
+        "a trial period during which a new employee is evaluated"
+      ],
+      "synonyms": [
+        "trial period",
+        "test period"
+      ],
+      "antonyms": [
+        "permanent employment"
+      ],
+      "collocations": [
+        "probation period",
+        "on probation",
+        "complete probation"
+      ],
+      "wordFamily": [
+        "probationary (adj)"
+      ],
+      "coreMeaning": "دوره آزمایشی برای ارزیابی عملکرد کارمند جدید",
+      "note": "در این دوره کارفرما می‌تواند بدون جریمه کارمند را اخراج کند",
+      "trap": "معنای حقوقی probation (آزادی مشروط) با معنای شغلی آن متفاوت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "appraisal",
+      "translation": "ارزیابی عملکرد، سنجش",
+      "ipa": "/əˈpreɪzəl/",
+      "partOfSpeech": "noun",
+      "example": "The annual appraisal determines whether employees receive a raise.",
+      "definitions": [
+        "a formal assessment of an employee's performance"
+      ],
+      "synonyms": [
+        "evaluation",
+        "assessment",
+        "review"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "performance appraisal",
+        "annual appraisal",
+        "appraisal meeting"
+      ],
+      "wordFamily": [
+        "appraise (v)",
+        "appraiser (n)"
+      ],
+      "coreMeaning": "بررسی رسمی و دوره‌ای عملکرد کارمند توسط مدیر",
+      "note": "معمولاً سالانه انجام می‌شود و نتیجه آن بر افزایش حقوق تأثیر دارد",
+      "trap": "با appreciation (قدردانی) اشتباه نگیرید؛ appraisal ارزیابی رسمی است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "networking",
+      "translation": "شبکه‌سازی حرفه‌ای",
+      "ipa": "/ˈnetwɜːrkɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Networking at industry events can open doors to new career opportunities.",
+      "definitions": [
+        "the process of building professional relationships for career advancement"
+      ],
+      "synonyms": [
+        "relationship building",
+        "socializing"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "professional networking",
+        "networking event",
+        "networking skills"
+      ],
+      "wordFamily": [
+        "network (n/v)",
+        "networked (adj)"
+      ],
+      "coreMeaning": "ایجاد ارتباطات حرفه‌ای برای پیشرفت شغلی",
+      "note": "یکی از مهم‌ترین مهارت‌های حرفه‌ای برای یافتن فرصت‌های شغلی",
+      "trap": "فقط به معنای ارتباط آنلاین نیست؛ شبکه‌سازی حضوری هم مهم است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "mentorship",
+      "translation": "راهنمایی حرفه‌ای، منتورینگ",
+      "ipa": "/ˈmentərʃɪp/",
+      "partOfSpeech": "noun",
+      "example": "The company offers a mentorship program for new graduates.",
+      "definitions": [
+        "a relationship in which an experienced person guides a less experienced one"
+      ],
+      "synonyms": [
+        "guidance",
+        "coaching",
+        "sponsorship"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "mentorship program",
+        "mentorship relationship",
+        "offer mentorship"
+      ],
+      "wordFamily": [
+        "mentor (n/v)",
+        "mentee (n)"
+      ],
+      "coreMeaning": "رابطه راهنمایی بین فرد باتجربه و فرد تازه‌کار",
+      "note": "mentor فرد راهنما و mentee فرد تحت راهنمایی است",
+      "trap": "با training (آموزش) فرق دارد؛ mentorship رابطه بلندمدت و شخصی‌تر است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "mentor",
+      "translation": "راهنما، مرشد حرفه‌ای",
+      "ipa": "/ˈmentɔːr/",
+      "partOfSpeech": "noun",
+      "example": "A good mentor can accelerate your professional growth significantly.",
+      "definitions": [
+        "an experienced person who advises and helps a less experienced person"
+      ],
+      "synonyms": [
+        "advisor",
+        "guide",
+        "coach"
+      ],
+      "antonyms": [
+        "mentee",
+        "protégé"
+      ],
+      "collocations": [
+        "serve as a mentor",
+        "find a mentor",
+        "mentor and mentee"
+      ],
+      "wordFamily": [
+        "mentorship (n)",
+        "mentee (n)",
+        "mentoring (n/adj)"
+      ],
+      "coreMeaning": "فرد باتجربه‌ای که دیگران را در مسیر شغلی راهنمایی می‌کند",
+      "note": "هم به عنوان اسم و هم فعل استفاده می‌شود: She mentors young professionals.",
+      "trap": "با manager (مدیر) فرق دارد؛ mentor لزوماً مدیر شما نیست",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "vacancy",
+      "translation": "موقعیت شغلی خالی، جای خالی",
+      "ipa": "/ˈveɪkənsi/",
+      "partOfSpeech": "noun",
+      "example": "There are several vacancies in the marketing department.",
+      "definitions": [
+        "an unfilled position in a company or organization"
+      ],
+      "synonyms": [
+        "opening",
+        "position",
+        "job opening"
+      ],
+      "antonyms": [
+        "filled position"
+      ],
+      "collocations": [
+        "job vacancy",
+        "fill a vacancy",
+        "advertise a vacancy"
+      ],
+      "wordFamily": [
+        "vacant (adj)"
+      ],
+      "coreMeaning": "موقعیت شغلی که هنوز کسی برای آن استخدام نشده",
+      "note": "وقتی شرکتی vacancy دارد یعنی به دنبال استخدام نیروی جدید است",
+      "trap": "با vacation (تعطیلات) اشتباه نگیرید؛ تلفظ و معنا کاملاً متفاوت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "applicant",
+      "translation": "متقاضی، داوطلب",
+      "ipa": "/ˈæplɪkənt/",
+      "partOfSpeech": "noun",
+      "example": "Over 200 applicants applied for the single position.",
+      "definitions": [
+        "a person who applies for a job or position"
+      ],
+      "synonyms": [
+        "candidate",
+        "job seeker"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "job applicant",
+        "successful applicant",
+        "screen applicants"
+      ],
+      "wordFamily": [
+        "apply (v)",
+        "application (n)"
+      ],
+      "coreMeaning": "فردی که برای موقعیت شغلی درخواست می‌دهد",
+      "note": "applicant کسی است که درخواست داده؛ candidate کسی است که انتخاب شده و در مراحل بعدی است",
+      "trap": "با employee (کارمند) فرق دارد؛ applicant هنوز استخدام نشده",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "credential",
+      "translation": "مدرک، گواهی‌نامه حرفه‌ای",
+      "ipa": "/krɪˈdenʃəl/",
+      "partOfSpeech": "noun",
+      "example": "The position requires specific credentials in project management.",
+      "definitions": [
+        "a qualification or achievement that proves one's ability or identity"
+      ],
+      "synonyms": [
+        "qualification",
+        "certificate",
+        "accreditation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "professional credentials",
+        "verify credentials",
+        "present credentials"
+      ],
+      "wordFamily": [
+        "credentialing (n)"
+      ],
+      "coreMeaning": "مدرک یا گواهی که صلاحیت حرفه‌ای فرد را اثبات می‌کند",
+      "note": "اغلب به صورت جمع credentials استفاده می‌شود",
+      "trap": "با certificate (گواهی‌نامه) تفاوت ظریفی دارد؛ credentials مجموعه‌ای از مدارک و تجربیات است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "portfolio",
+      "translation": "نمونه‌کار، پورتفولیو",
+      "ipa": "/pɔːrtˈfoʊlioʊ/",
+      "partOfSpeech": "noun",
+      "example": "She brought her design portfolio to the interview.",
+      "definitions": [
+        "a collection of work samples demonstrating one's skills and experience"
+      ],
+      "synonyms": [
+        "collection",
+        "showcase",
+        "body of work"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "build a portfolio",
+        "design portfolio",
+        "portfolio of work"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مجموعه‌ای از نمونه‌کارها برای نمایش مهارت‌ها",
+      "note": "در حوزه‌های خلاق مثل طراحی و عکاسی بسیار مهم است",
+      "trap": "معنای مالی portfolio (سبد سرمایه‌گذاری) با معنای شغلی آن متفاوت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "expertise",
+      "translation": "تخصص، مهارت تخصصی",
+      "ipa": "/ˌekspɜːrˈtiːz/",
+      "partOfSpeech": "noun",
+      "example": "Her expertise in data analysis made her invaluable to the team.",
+      "definitions": [
+        "expert skill or knowledge in a particular area"
+      ],
+      "synonyms": [
+        "proficiency",
+        "mastery",
+        "specialization"
+      ],
+      "antonyms": [
+        "inexperience",
+        "ignorance"
+      ],
+      "collocations": [
+        "area of expertise",
+        "technical expertise",
+        "demonstrate expertise"
+      ],
+      "wordFamily": [
+        "expert (n/adj)",
+        "expertly (adv)"
+      ],
+      "coreMeaning": "دانش و مهارت عمیق در یک حوزه تخصصی",
+      "note": "اسم غیرقابل شمارش است؛ نمی‌گوییم an expertise بلکه expertise یا areas of expertise",
+      "trap": "با experience (تجربه) فرق دارد؛ expertise تخصص عمیق است نه فقط تجربه",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "competence",
+      "translation": "شایستگی، صلاحیت",
+      "ipa": "/ˈkɑːmpɪtəns/",
+      "partOfSpeech": "noun",
+      "example": "The role requires competence in multiple programming languages.",
+      "definitions": [
+        "the ability to do something successfully or efficiently"
+      ],
+      "synonyms": [
+        "ability",
+        "capability",
+        "skill"
+      ],
+      "antonyms": [
+        "incompetence",
+        "inability"
+      ],
+      "collocations": [
+        "core competence",
+        "demonstrate competence",
+        "professional competence"
+      ],
+      "wordFamily": [
+        "competent (adj)",
+        "competently (adv)",
+        "incompetence (n)"
+      ],
+      "coreMeaning": "توانایی انجام مؤثر و موفق یک کار",
+      "note": "competence و competency هر دو صحیح هستند؛ competency بیشتر در آمریکا رایج است",
+      "trap": "با competition (مسابقه) اشتباه نگیرید؛ ریشه یکی ولی معنا متفاوت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "proficiency",
+      "translation": "مهارت، تسلط",
+      "ipa": "/prəˈfɪʃənsi/",
+      "partOfSpeech": "noun",
+      "example": "Proficiency in English is required for international positions.",
+      "definitions": [
+        "a high degree of competence or skill in something"
+      ],
+      "synonyms": [
+        "fluency",
+        "mastery",
+        "expertise"
+      ],
+      "antonyms": [
+        "incompetence",
+        "ineptitude"
+      ],
+      "collocations": [
+        "language proficiency",
+        "proficiency level",
+        "proficiency test"
+      ],
+      "wordFamily": [
+        "proficient (adj)",
+        "proficiently (adv)"
+      ],
+      "coreMeaning": "سطح بالای مهارت و تسلط در یک زمینه",
+      "note": "اغلب درباره زبان استفاده می‌شود: proficiency in English",
+      "trap": "با efficiency (بازدهی) اشتباه نگیرید؛ proficiency درباره مهارت فرد است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "advancement",
+      "translation": "پیشرفت، ارتقا",
+      "ipa": "/ədˈvænsmənt/",
+      "partOfSpeech": "noun",
+      "example": "Career advancement often requires continuous learning and networking.",
+      "definitions": [
+        "progress or development in one's career or position"
+      ],
+      "synonyms": [
+        "progress",
+        "promotion",
+        "growth"
+      ],
+      "antonyms": [
+        "regression",
+        "decline"
+      ],
+      "collocations": [
+        "career advancement",
+        "advancement opportunities",
+        "professional advancement"
+      ],
+      "wordFamily": [
+        "advance (v/n)",
+        "advanced (adj)"
+      ],
+      "coreMeaning": "پیشرفت و ارتقا در مسیر شغلی",
+      "note": "advancement فرصت‌محور است؛ باید فرصت‌های ارتقا را جستجو کنید",
+      "trap": "فقط به معنای ارتقای شغلی نیست؛ پیشرفت در مهارت‌ها هم advancement است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "aspiration",
+      "translation": "آرزو، بلندپروازی",
+      "ipa": "/ˌæspəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Her career aspirations include becoming a department director.",
+      "definitions": [
+        "a hope or ambition of achieving something"
+      ],
+      "synonyms": [
+        "ambition",
+        "goal",
+        "dream"
+      ],
+      "antonyms": [
+        "apathy",
+        "indifference"
+      ],
+      "collocations": [
+        "career aspiration",
+        "professional aspiration",
+        "have aspirations"
+      ],
+      "wordFamily": [
+        "aspire (v)",
+        "aspiring (adj)"
+      ],
+      "coreMeaning": "هدف و آرزوی بلندمدت شغلی",
+      "note": "اغلب به صورت جمع استفاده می‌شود: career aspirations",
+      "trap": "با inspiration (الهام) اشتباه نگیرید؛ aspiration آرزوی شخصی است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "trajectory",
+      "translation": "مسیر، خط سیر شغلی",
+      "ipa": "/trəˈdʒektəri/",
+      "partOfSpeech": "noun",
+      "example": "His career trajectory moved from intern to CEO in fifteen years.",
+      "definitions": [
+        "the path or progression of a career over time"
+      ],
+      "synonyms": [
+        "path",
+        "course",
+        "direction"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "career trajectory",
+        "upward trajectory",
+        "professional trajectory"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مسیر پیشرفت و تغییرات شغلی در طول زمان",
+      "note": "اغلب با career استفاده می‌شود: career trajectory",
+      "trap": "با strategy (استراتژی) اشتباه نگیرید؛ trajectory مسیر گذشته/آینده است نه برنامه",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "milestone",
+      "translation": "نقطه عطف، دستاورد مهم",
+      "ipa": "/ˈmaɪlstoʊn/",
+      "partOfSpeech": "noun",
+      "example": "Getting her first management position was a major career milestone.",
+      "definitions": [
+        "a significant event or stage in the development of something"
+      ],
+      "synonyms": [
+        "landmark",
+        "benchmark",
+        "achievement"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "reach a milestone",
+        "career milestone",
+        "major milestone"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "رویداد مهم و تعیین‌کننده در مسیر شغلی یا پروژه",
+      "note": "هم در زندگی شخصی و هم حرفه‌ای استفاده می‌شود",
+      "trap": "با millstone (سنگ آسیاب) اشتباه نگیرید؛ تلفظ مشابه ولی معنا کاملاً متفاوت",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "benchmark",
+      "translation": "معیار، استاندارد مرجع",
+      "ipa": "/ˈbentʃmɑːrk/",
+      "partOfSpeech": "noun",
+      "example": "The company set new benchmarks for customer satisfaction.",
+      "definitions": [
+        "a standard or point of reference against which things are compared"
+      ],
+      "synonyms": [
+        "standard",
+        "criterion",
+        "reference point"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "set a benchmark",
+        "industry benchmark",
+        "benchmark for success"
+      ],
+      "wordFamily": [
+        "benchmarking (n)"
+      ],
+      "coreMeaning": "استاندارد یا معیاری برای سنجش و مقایسه عملکرد",
+      "note": "هم به عنوان اسم و هم فعل استفاده می‌شود",
+      "trap": "با landmark (نقطه عطف) فرق دارد؛ benchmark معیار اندازه‌گیری است نه رویداد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "feedback",
+      "translation": "بازخورد، نظرات",
+      "ipa": "/ˈfiːdbæk/",
+      "partOfSpeech": "noun",
+      "example": "Constructive feedback helps employees improve their performance.",
+      "definitions": [
+        "information about reactions to a person's performance used as a basis for improvement"
+      ],
+      "synonyms": [
+        "response",
+        "critique",
+        "evaluation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "give feedback",
+        "receive feedback",
+        "constructive feedback",
+        "feedback loop"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نظرات و بازخوردهایی برای بهبود عملکرد",
+      "note": "اسم غیرقابل شمارش است؛ نمی‌گوییم a feedback بلکه some feedback",
+      "trap": "فقط نقد منفی نیست؛ feedback مثبت هم وجود دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "evaluation",
+      "translation": "ارزیابی، سنجش",
+      "ipa": "/ɪˌvæljuˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The evaluation of candidates will be completed by next week.",
+      "definitions": [
+        "the making of a judgment about the amount, number, or value of something"
+      ],
+      "synonyms": [
+        "assessment",
+        "appraisal",
+        "review"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "performance evaluation",
+        "under evaluation",
+        "evaluation criteria"
+      ],
+      "wordFamily": [
+        "evaluate (v)",
+        "evaluator (n)"
+      ],
+      "coreMeaning": "فرآیند قضاوت و سنجش ارزش یا عملکرد",
+      "note": "evaluation رسمی‌تر از review است و معمولاً معیارهای مشخصی دارد",
+      "trap": "با evolution (تکامل) اشتباه نگیرید؛ تلفظ و معنا متفاوت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "assessment",
+      "translation": "سنجش، ارزیابی",
+      "ipa": "/əˈsesmənt/",
+      "partOfSpeech": "noun",
+      "example": "The skills assessment helped identify areas for improvement.",
+      "definitions": [
+        "an evaluation or estimation of the nature, quality, or ability of someone"
+      ],
+      "synonyms": [
+        "evaluation",
+        "appraisal",
+        "analysis"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "risk assessment",
+        "needs assessment",
+        "skills assessment"
+      ],
+      "wordFamily": [
+        "assess (v)",
+        "assessor (n)"
+      ],
+      "coreMeaning": "بررسی و سنجش توانایی‌ها، نیازها یا ریسک‌ها",
+      "note": "assessment کلی‌تر از appraisal است و در زمینه‌های مختلف استفاده می‌شود",
+      "trap": "با asset (دارایی) اشتباه نگیرید؛ شباهت ظاهری ولی معنا متفاوت",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "onboarding",
+      "translation": "فرآیند جذب و آشناسازی کارمند جدید",
+      "ipa": "/ˈɑːnbɔːrdɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "The onboarding process includes training sessions and team introductions.",
+      "definitions": [
+        "the process of integrating a new employee into an organization"
+      ],
+      "synonyms": [
+        "orientation",
+        "induction",
+        "integration"
+      ],
+      "antonyms": [
+        "offboarding"
+      ],
+      "collocations": [
+        "onboarding process",
+        "onboarding program",
+        "employee onboarding"
+      ],
+      "wordFamily": [
+        "onboard (v)"
+      ],
+      "coreMeaning": "فرآیند آشناسازی و یکپارچه‌سازی کارمند جدید با سازمان",
+      "note": "شامل آموزش، معرفی تیم، و آشنایی با فرهنگ شرکت است",
+      "trap": "فقط آموزش نیست؛ onboarding کل فرآیند ورود به شرکت را شامل می‌شود",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "orientation",
+      "translation": "آشناسازی اولیه، جهت‌گیری",
+      "ipa": "/ˌɔːriənˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "New hires attend a two-day orientation at the headquarters.",
+      "definitions": [
+        "a program introducing new employees to a company and its policies"
+      ],
+      "synonyms": [
+        "induction",
+        "introduction",
+        "onboarding"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "new employee orientation",
+        "orientation session",
+        "orientation program"
+      ],
+      "wordFamily": [
+        "orient (v)",
+        "oriented (adj)"
+      ],
+      "coreMeaning": "جلسه یا برنامه‌ای برای آشنایی کارمندان جدید با محیط کار",
+      "note": "orientation معمولاً اولین روزهای کاری انجام می‌شود",
+      "trap": "با organization (سازمان) اشتباه نگیرید؛ معنا و کاربرد کاملاً متفاوت",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "subordinate",
+      "translation": "زیردست، مرئوس",
+      "ipa": "/səˈbɔːrdɪnət/",
+      "partOfSpeech": "noun",
+      "example": "A good leader listens to the concerns of their subordinates.",
+      "definitions": [
+        "a person under the authority or control of another"
+      ],
+      "synonyms": [
+        "junior",
+        "report",
+        "underling"
+      ],
+      "antonyms": [
+        "superior",
+        "boss",
+        "manager"
+      ],
+      "collocations": [
+        "direct subordinate",
+        "subordinate role",
+        "subordinate to someone"
+      ],
+      "wordFamily": [
+        "subordination (n)"
+      ],
+      "coreMeaning": "کارمندی که تحت نظارت و مدیریت فرد دیگری است",
+      "note": "هم به عنوان اسم و هم صفت استفاده می‌شود",
+      "trap": "معنای منفی ندارد؛ فقط به سلسله‌مراتب اشاره دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "delegation",
+      "translation": "تفویض اختیار",
+      "ipa": "/ˌdelɪˈɡeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Effective delegation is a key skill for any manager.",
+      "definitions": [
+        "the act of assigning responsibility or authority to another person"
+      ],
+      "synonyms": [
+        "assignment",
+        "entrusting",
+        "devolution"
+      ],
+      "antonyms": [
+        "centralization"
+      ],
+      "collocations": [
+        "effective delegation",
+        "delegation of authority",
+        "delegation of tasks"
+      ],
+      "wordFamily": [
+        "delegate (v/n)",
+        "delegator (n)"
+      ],
+      "coreMeaning": "واگذاری مسئولیت و اختیار به دیگران",
+      "note": "مهارت مهم مدیریتی؛ نشان‌دهنده اعتماد به تیم است",
+      "trap": "با delegate (نماینده) اشتباه نگیرید؛ delegation فرآیند تفویض است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "collaboration",
+      "translation": "همکاری، مشارکت",
+      "ipa": "/kəˌlæbəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Cross-department collaboration led to the project's success.",
+      "definitions": [
+        "the action of working with others to produce or create something"
+      ],
+      "synonyms": [
+        "cooperation",
+        "partnership",
+        "teamwork"
+      ],
+      "antonyms": [
+        "competition",
+        "isolation"
+      ],
+      "collocations": [
+        "team collaboration",
+        "cross-functional collaboration",
+        "collaboration tools"
+      ],
+      "wordFamily": [
+        "collaborate (v)",
+        "collaborative (adj)",
+        "collaborator (n)"
+      ],
+      "coreMeaning": "کار مشترک و هماهنگ افراد یا گروه‌ها برای رسیدن به هدف مشترک",
+      "note": "collaboration مؤثر نیاز به ارتباط باز و احترام متقابل دارد",
+      "trap": "با cooperation (همکاری) تفاوت ظریفی دارد؛ collaboration عمیق‌تر و خلاقانه‌تر است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "teamwork",
+      "translation": "کار تیمی",
+      "ipa": "/ˈtiːmwɜːrk/",
+      "partOfSpeech": "noun",
+      "example": "Good teamwork is essential for completing complex projects on time.",
+      "definitions": [
+        "the combined action of a group working together effectively"
+      ],
+      "synonyms": [
+        "cooperation",
+        "collaboration",
+        "unity"
+      ],
+      "antonyms": [
+        "individualism"
+      ],
+      "collocations": [
+        "teamwork skills",
+        "promote teamwork",
+        "effective teamwork"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "همکاری مؤثر اعضای یک تیم برای رسیدن به هدف مشترک",
+      "note": "اسم غیرقابل شمارش است",
+      "trap": "با team (تیم) فرق دارد؛ teamwork به فرآیند همکاری اشاره دارد نه گروه",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "leadership",
+      "translation": "رهبری، مدیریت",
+      "ipa": "/ˈliːdərʃɪp/",
+      "partOfSpeech": "noun",
+      "example": "She demonstrated strong leadership during the company crisis.",
+      "definitions": [
+        "the action of leading a group or organization"
+      ],
+      "synonyms": [
+        "management",
+        "direction",
+        "guidance"
+      ],
+      "antonyms": [
+        "followership"
+      ],
+      "collocations": [
+        "leadership skills",
+        "leadership style",
+        "leadership position",
+        "leadership qualities"
+      ],
+      "wordFamily": [
+        "leader (n)",
+        "lead (v)"
+      ],
+      "coreMeaning": "توانایی هدایت، الهام‌بخشی و مدیریت افراد و سازمان‌ها",
+      "note": "leadership فقط مدیریت نیست؛ شامل الهام‌بخشی و ایجاد انگیزه هم می‌شود",
+      "trap": "با management (مدیریت) فرق دارد؛ leadership الهام‌بخش است management سازمان‌دهنده",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "accountability",
+      "translation": "پاسخگویی، مسئولیت‌پذیری",
+      "ipa": "/əˌkaʊntəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "example": "Accountability ensures that every team member takes ownership of their work.",
+      "definitions": [
+        "the fact of being responsible for one's actions and decisions"
+      ],
+      "synonyms": [
+        "responsibility",
+        "liability",
+        "answerability"
+      ],
+      "antonyms": [
+        "irresponsibility"
+      ],
+      "collocations": [
+        "take accountability",
+        "accountability framework",
+        "culture of accountability"
+      ],
+      "wordFamily": [
+        "accountable (adj)"
+      ],
+      "coreMeaning": "مسئولیت پذیرفتن نتایج اقدامات و تصمیمات خود",
+      "note": "accountability فراتر از responsibility است؛ شامل پاسخگویی به دیگران هم می‌شود",
+      "trap": "با availability (در دسترس بودن) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "initiative",
+      "translation": "ابتکار، اقدام",
+      "ipa": "/ɪˈnɪʃətɪv/",
+      "partOfSpeech": "noun",
+      "example": "Employees who show initiative are often considered for promotion.",
+      "definitions": [
+        "the ability to assess and initiate things independently"
+      ],
+      "synonyms": [
+        "enterprise",
+        "drive",
+        "proactiveness"
+      ],
+      "antonyms": [
+        "passivity",
+        "apathy"
+      ],
+      "collocations": [
+        "take the initiative",
+        "show initiative",
+        "personal initiative"
+      ],
+      "wordFamily": [
+        "initiate (v)",
+        "initiator (n)"
+      ],
+      "coreMeaning": "توانایی شروع کار بدون نیاز به دستور دیگران",
+      "note": "نشان‌دهنده خودانگیختگی و مسئولیت‌پذیری فردی است",
+      "trap": "با initial (اولیه) اشتباه نگیرید؛ initiative به عمل و اقدام اشاره دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "professionalism",
+      "translation": "حرفه‌ای‌گری، صلاحیت حرفه‌ای",
+      "ipa": "/prəˈfeʃənəlɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Her professionalism during the negotiation impressed all parties.",
+      "definitions": [
+        "the competence or skill expected of a professional person"
+      ],
+      "synonyms": [
+        "expertise",
+        "competence",
+        "decorum"
+      ],
+      "antonyms": [
+        "unprofessionalism",
+        "amateurism"
+      ],
+      "collocations": [
+        "demonstrate professionalism",
+        "high level of professionalism"
+      ],
+      "wordFamily": [
+        "professional (n/adj)",
+        "professionally (adv)"
+      ],
+      "coreMeaning": "رعایت استانداردها و اخلاق حرفه‌ای در محیط کار",
+      "note": "شامل رفتار مناسب، اخلاق کاری، و احترام به دیگران است",
+      "trap": "فقط به معنای مهارت فنی نیست؛ رفتار و نگرش هم بخشی از professionalism است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "etiquette",
+      "translation": "آداب، اصول رفتاری",
+      "ipa": "/ˈetɪket/",
+      "partOfSpeech": "noun",
+      "example": "Understanding business etiquette is crucial when working internationally.",
+      "definitions": [
+        "the customary code of polite behavior in professional or social situations"
+      ],
+      "synonyms": [
+        "protocol",
+        "manners",
+        "decorum"
+      ],
+      "antonyms": [
+        "rudeness",
+        "impoliteness"
+      ],
+      "collocations": [
+        "business etiquette",
+        "professional etiquette",
+        "email etiquette"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مجموعه قوانین و آداب رفتاری در محیط حرفه‌ای",
+      "note": "در هر فرهنگی متفاوت است؛ آداب تجاری بین‌المللی بسیار مهم است",
+      "trap": "با ethics (اخلاق) فرق دارد؛ etiquette آداب ظاهری است، ethics اصول اخلاقی",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "punctuality",
+      "translation": "وقت‌شناسی، سر وقت بودن",
+      "ipa": "/ˌpʌŋktʃuˈæləti/",
+      "partOfSpeech": "noun",
+      "example": "Punctuality is highly valued in many corporate cultures.",
+      "definitions": [
+        "the quality of being on time; arriving at the expected time"
+      ],
+      "synonyms": [
+        "timeliness",
+        "promptness"
+      ],
+      "antonyms": [
+        "tardiness",
+        "lateness"
+      ],
+      "collocations": [
+        "demonstrate punctuality",
+        "punctuality record",
+        "importance of punctuality"
+      ],
+      "wordFamily": [
+        "punctual (adj)",
+        "punctually (adv)"
+      ],
+      "coreMeaning": "رسیدن به موقع و سر وقت به محل کار یا جلسات",
+      "note": "در برخی فرهنگ‌ها مثل ژاپن و آلمان بسیار مهم است",
+      "trap": "فقط به معنای سر وقت رسیدن نیست؛ شامل انجام به موقع کارها هم می‌شود",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "diligence",
+      "translation": "سخت‌کوشی، جدیت",
+      "ipa": "/ˈdɪlɪdʒəns/",
+      "partOfSpeech": "noun",
+      "example": "His diligence in completing tasks earned him a reputation as a reliable employee.",
+      "definitions": [
+        "careful and persistent effort in one's work"
+      ],
+      "synonyms": [
+        "industriousness",
+        "thoroughness",
+        "dedication"
+      ],
+      "antonyms": [
+        "laziness",
+        "negligence"
+      ],
+      "collocations": [
+        "due diligence",
+        "show diligence",
+        "diligence and hard work"
+      ],
+      "wordFamily": [
+        "diligent (adj)",
+        "diligently (adv)"
+      ],
+      "coreMeaning": "تلاش مداوم و دقیق در انجام وظایف",
+      "note": "due diligence اصطلاح حقوقی مهمی است به معنای بررسی کامل قبل از تصمیم‌گیری",
+      "trap": "با intelligence (هوش) اشتباه نگیرید؛ diligence تلاش و پشتکار است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "integrity",
+      "translation": "صداقت، درستکاری",
+      "ipa": "/ɪnˈteɡrəti/",
+      "partOfSpeech": "noun",
+      "example": "A leader must demonstrate integrity in all business dealings.",
+      "definitions": [
+        "the quality of being honest and having strong moral principles"
+      ],
+      "synonyms": [
+        "honesty",
+        "uprightness",
+        "rectitude"
+      ],
+      "antonyms": [
+        "dishonesty",
+        "corruption"
+      ],
+      "collocations": [
+        "personal integrity",
+        "professional integrity",
+        "act with integrity"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پایبندی به اصول اخلاقی و صداقت در رفتار حرفه‌ای",
+      "note": "یکی از مهم‌ترین ویژگی‌های رهبران موفق است",
+      "trap": "با integration (یکپارچه‌سازی) اشتباه نگیرید؛ ریشه یکی ولی معنا متفاوت",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "credibility",
+      "translation": "اعتبار، قابلیت اعتماد",
+      "ipa": "/ˌkredəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "example": "Building credibility with clients takes time and consistent results.",
+      "definitions": [
+        "the quality of being trusted and believed in"
+      ],
+      "synonyms": [
+        "trustworthiness",
+        "reliability",
+        "believability"
+      ],
+      "antonyms": [
+        "unreliability",
+        "distrust"
+      ],
+      "collocations": [
+        "build credibility",
+        "lose credibility",
+        "credibility gap"
+      ],
+      "wordFamily": [
+        "credible (adj)",
+        "credibly (adv)"
+      ],
+      "coreMeaning": "اعتماد و اطمینانی که دیگران به شما دارند",
+      "note": "ساختن credibility زمان می‌برد ولی از دست دادنش آسان است",
+      "trap": "با credit (اعتبار مالی) فرق دارد؛ credibility به اعتماد اشاره دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "workplace",
+      "translation": "محیط کار، محل کار",
+      "ipa": "/ˈwɜːrkpleɪs/",
+      "partOfSpeech": "noun",
+      "example": "A positive workplace culture improves employee satisfaction.",
+      "definitions": [
+        "a place where people work, such as an office or factory"
+      ],
+      "synonyms": [
+        "office",
+        "work environment",
+        "workstation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "workplace culture",
+        "workplace safety",
+        "workplace environment"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "محل یا محیطی که افراد در آن کار می‌کنند",
+      "note": "شامل دفاتر، کارخانه‌ها، و حتی محیط‌های کار از راه دور می‌شود",
+      "trap": "با workstation (ایستگاه کاری) فرق دارد؛ workplace کل محیط است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "headquarters",
+      "translation": "دفتر مرکزی، مقر",
+      "ipa": "/ˈhedkwɔːrtərz/",
+      "partOfSpeech": "noun",
+      "example": "The company's headquarters is located in downtown Manhattan.",
+      "definitions": [
+        "the main offices of an organization where senior management works"
+      ],
+      "synonyms": [
+        "head office",
+        "main office",
+        "base"
+      ],
+      "antonyms": [
+        "branch",
+        "subsidiary"
+      ],
+      "collocations": [
+        "company headquarters",
+        "move headquarters",
+        "global headquarters"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "دفتر اصلی و مرکزی یک سازمان یا شرکت",
+      "note": "همیشه به صورت جمع استفاده می‌شود ولی فعل مفرد می‌گیرد",
+      "trap": "همیشه جمع است (headquarters) نه headquarter",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "cubicle",
+      "translation": "اتاقک کاری، کیوبیکل",
+      "ipa": "/ˈkjuːbɪkəl/",
+      "partOfSpeech": "noun",
+      "example": "Most employees in the open office share cubicles rather than private offices.",
+      "definitions": [
+        "a small partitioned-off area in an office for one person to work in"
+      ],
+      "synonyms": [
+        "booth",
+        "partition",
+        "workspace"
+      ],
+      "antonyms": [
+        "open-plan office"
+      ],
+      "collocations": [
+        "office cubicle",
+        "work in a cubicle",
+        "cubicle farm"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فضای کاری کوچک و محصور در دفاتر اداری",
+      "note": "در فرهنگ آمریکایی بسیار رایج است؛ فضایی بین دفتر خصوصی و فضای باز",
+      "trap": "با cube (مکعب) اشتباه نگیرید؛ cubicle فضای کاری است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "boardroom",
+      "translation": "اتاق هیئت مدیره، سالن جلسات",
+      "ipa": "/ˈbɔːrdruːm/",
+      "partOfSpeech": "noun",
+      "example": "The boardroom meeting will determine the company's future strategy.",
+      "definitions": [
+        "a room where the board of directors or senior executives hold meetings"
+      ],
+      "synonyms": [
+        "conference room",
+        "meeting room"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "boardroom meeting",
+        "boardroom table",
+        "in the boardroom"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اتاق رسمی برای جلسات هیئت مدیره و مدیران ارشد",
+      "note": "معمولاً بزرگ‌ترین و رسمی‌ترین اتاق جلسات شرکت است",
+      "trap": "با board (هیئت مدیره) فرق دارد؛ boardroom محل جلسه است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "conference",
+      "translation": "کنفرانس، همایش",
+      "ipa": "/ˈkɑːnfərəns/",
+      "partOfSpeech": "noun",
+      "example": "The annual technology conference attracted over 5,000 attendees.",
+      "definitions": [
+        "a formal meeting for discussion, typically lasting several days"
+      ],
+      "synonyms": [
+        "convention",
+        "symposium",
+        "summit"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "attend a conference",
+        "conference call",
+        "annual conference"
+      ],
+      "wordFamily": [
+        "confer (v)"
+      ],
+      "coreMeaning": "نشست رسمی برای بحث و تبادل نظر درباره موضوعات تخصصی",
+      "note": "conference call تماس تلفنی چندنفره است",
+      "trap": "با confidence (اعتماد به نفس) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "seminar",
+      "translation": "سمینار، کارگاه آموزشی",
+      "ipa": "/ˈsemɪnɑːr/",
+      "partOfSpeech": "noun",
+      "example": "He attended a seminar on leadership development last weekend.",
+      "definitions": [
+        "a conference or meeting for discussion or training on a specific topic"
+      ],
+      "synonyms": [
+        "workshop",
+        "lecture",
+        "symposium"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "attend a seminar",
+        "conduct a seminar",
+        "seminar room"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "جلسه آموزشی یا بحث تخصصی با تعداد محدود شرکت‌کننده",
+      "note": "معمولاً تعاملی‌تر از lecture (سخنرانی) است",
+      "trap": "با semester (ترم تحصیلی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "webinar",
+      "translation": "وبینار، سمینار آنلاین",
+      "ipa": "/ˈwebɪnɑːr/",
+      "partOfSpeech": "noun",
+      "example": "The company hosts monthly webinars on industry trends.",
+      "definitions": [
+        "a seminar conducted over the internet"
+      ],
+      "synonyms": [
+        "online seminar",
+        "web conference",
+        "virtual event"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "host a webinar",
+        "attend a webinar",
+        "live webinar"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سمینار یا کارگاه آموزشی برگزار شده از طریق اینترنت",
+      "note": "ترکیبی از web و seminar؛ پس از کرونا بسیار رایج شد",
+      "trap": "با website (وبسایت) اشتباه نگیرید؛ webinar رویداد آنلاین زنده است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "memo",
+      "translation": "یادداشت اداری، مموراندوم",
+      "ipa": "/ˈmemoʊ/",
+      "partOfSpeech": "noun",
+      "example": "The manager sent a memo to all staff about the new policy.",
+      "definitions": [
+        "a short written message in a business setting"
+      ],
+      "synonyms": [
+        "note",
+        "memorandum",
+        "message"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "send a memo",
+        "internal memo",
+        "memo to staff"
+      ],
+      "wordFamily": [
+        "memorandum (n)"
+      ],
+      "coreMeaning": "پیام کتبی کوتاه برای اطلاع‌رسانی در محیط اداری",
+      "note": "مخفف memorandum است؛ معمولاً برای اطلاع‌رسانی داخلی استفاده می‌شود",
+      "trap": "با memory (حافظه) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "agenda",
+      "translation": "دستور جلسه، برنامه",
+      "ipa": "/əˈdʒendə/",
+      "partOfSpeech": "noun",
+      "example": "Please review the agenda before the meeting starts.",
+      "definitions": [
+        "a list of items to be discussed at a meeting"
+      ],
+      "synonyms": [
+        "schedule",
+        "program",
+        "itinerary"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "set the agenda",
+        "meeting agenda",
+        "item on the agenda"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فهرست موضوعاتی که قرار است در جلسه بررسی شود",
+      "note": "همیشه قبل از جلسه باید agenda ارسال شود",
+      "trap": "با agent (عامل) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "procedure",
+      "translation": "روش، رویه، فرآیند",
+      "ipa": "/prəˈsiːdʒər/",
+      "partOfSpeech": "noun",
+      "example": "All employees must follow the safety procedures.",
+      "definitions": [
+        "an established or official way of doing something"
+      ],
+      "synonyms": [
+        "process",
+        "method",
+        "protocol"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "standard procedure",
+        "follow procedures",
+        "emergency procedure"
+      ],
+      "wordFamily": [
+        "procedural (adj)"
+      ],
+      "coreMeaning": "مجموعه مراحل رسمی و مشخص برای انجام یک کار",
+      "note": "procedures معمولاً مستند و رسمی هستند",
+      "trap": "با process (فرآیند) تفاوت ظریفی دارد؛ procedure رسمی‌تر و مشخص‌تر است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "protocol",
+      "translation": "پروتکل، مجموعه قوانین",
+      "ipa": "/ˈproʊtəkɑːl/",
+      "partOfSpeech": "noun",
+      "example": "The company has strict protocols for handling customer data.",
+      "definitions": [
+        "the official system of rules governing affairs or procedures"
+      ],
+      "synonyms": [
+        "procedure",
+        "code",
+        "guidelines"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "follow protocol",
+        "security protocol",
+        "communication protocol"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مجموعه قوانین و مقررات رسمی برای انجام امور",
+      "note": "در حوزه IT به معنای قوانین ارتباطی هم استفاده می‌شود",
+      "trap": "با procedure تقریباً مترادف است ولی protocol رسمی‌تر و الزامی‌تر است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "guideline",
+      "translation": "راهنما، دستورالعمل",
+      "ipa": "/ˈɡaɪdlaɪn/",
+      "partOfSpeech": "noun",
+      "example": "The HR department published new guidelines for remote work.",
+      "definitions": [
+        "a general rule, principle, or piece of advice"
+      ],
+      "synonyms": [
+        "recommendation",
+        "directive",
+        "instruction"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "follow guidelines",
+        "set guidelines",
+        "guidelines for use"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "توصیه‌ها و دستورالعمل‌هایی برای انجام صحیح کارها",
+      "note": "guideline الزامی نیست ولی توصیه شده است؛ برخلاف policy که الزامی است",
+      "trap": "معمولاً به صورت جمع guidelines استفاده می‌شود",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "compliance",
+      "translation": "انطباق، رعایت مقررات",
+      "ipa": "/kəmˈplaɪəns/",
+      "partOfSpeech": "noun",
+      "example": "The company ensures compliance with all environmental regulations.",
+      "definitions": [
+        "the act of obeying rules, regulations, or standards"
+      ],
+      "synonyms": [
+        "adherence",
+        "conformity",
+        "obedience"
+      ],
+      "antonyms": [
+        "noncompliance",
+        "violation"
+      ],
+      "collocations": [
+        "regulatory compliance",
+        "compliance officer",
+        "compliance with standards"
+      ],
+      "wordFamily": [
+        "comply (v)",
+        "compliant (adj)"
+      ],
+      "coreMeaning": "رعایت و پایبندی به قوانین، مقررات و استانداردها",
+      "note": "در بانکداری و بهداشت بسیار مهم است",
+      "trap": "با complaint (شکایت) اشتباه نگیرید؛ compliance مثبت و complaint منفی است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "hierarchy",
+      "translation": "سلسله‌مراتب",
+      "ipa": "/ˈhaɪərɑːrki/",
+      "partOfSpeech": "noun",
+      "example": "In a traditional hierarchy, decisions flow from top management down.",
+      "definitions": [
+        "a system in which people are ranked according to status or authority"
+      ],
+      "synonyms": [
+        "ranking",
+        "structure",
+        "order"
+      ],
+      "antonyms": [
+        "equality",
+        "flat structure"
+      ],
+      "collocations": [
+        "corporate hierarchy",
+        "organizational hierarchy",
+        "hierarchy of needs"
+      ],
+      "wordFamily": [
+        "hierarchical (adj)",
+        "hierarchically (adv)"
+      ],
+      "coreMeaning": "سیستم رتبه‌بندی و سطوح مختلف قدرت در سازمان",
+      "note": "در سازمان‌های سنتی سلسله‌مراتب مشخصی وجود دارد",
+      "trap": "با anarchy (هرج و مرج) اشتباه نگیرید؛ hierarchy نظم و ساختار است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "corporation",
+      "translation": "شرکت بزرگ، شرکت سهامی",
+      "ipa": "/ˌkɔːrpəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The multinational corporation operates in over 50 countries.",
+      "definitions": [
+        "a large company or group of companies authorized to act as a single entity"
+      ],
+      "synonyms": [
+        "company",
+        "firm",
+        "enterprise"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "multinational corporation",
+        "corporation tax",
+        "private corporation"
+      ],
+      "wordFamily": [
+        "corporate (adj)",
+        "corporately (adv)"
+      ],
+      "coreMeaning": "شرکت بزرگ با ساختار حقوقی مستقل و مسئولیت محدود",
+      "note": "corporation معمولاً بزرگ‌تر از company است و ساختار پیچیده‌تری دارد",
+      "trap": "با cooperation (همکاری) اشتباه نگیرید؛ تلفظ و معنا متفاوت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "enterprise",
+      "translation": "شرکت، بنگاه اقتصادی",
+      "ipa": "/ˈentərpraɪz/",
+      "partOfSpeech": "noun",
+      "example": "Small and medium enterprises are the backbone of the economy.",
+      "definitions": [
+        "a business or company, especially one involving initiative and risk"
+      ],
+      "synonyms": [
+        "business",
+        "venture",
+        "company"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "small enterprise",
+        "private enterprise",
+        "free enterprise"
+      ],
+      "wordFamily": [
+        "entrepreneur (n)",
+        "enterprising (adj)"
+      ],
+      "coreMeaning": "بنگاه اقتصادی یا شرکت، معمولاً با ریسک و ابتکار همراه",
+      "note": "enterprise resource planning (ERP) سیستم مهم مدیریت منابع سازمانی است",
+      "trap": "با entertainment (سرگرمی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "subsidiary",
+      "translation": "شرکت تابعه، شرکت فرعی",
+      "ipa": "/səbˈsɪdiəri/",
+      "partOfSpeech": "noun",
+      "example": "The subsidiary operates independently but reports to the parent company.",
+      "definitions": [
+        "a company controlled by a holding company"
+      ],
+      "synonyms": [
+        "affiliate",
+        "branch",
+        "division"
+      ],
+      "antonyms": [
+        "parent company",
+        "holding company"
+      ],
+      "collocations": [
+        "wholly owned subsidiary",
+        "subsidiary company",
+        "foreign subsidiary"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "شرکتی که تحت مالکیت و کنترل شرکت مادر است",
+      "note": "subsidiary معمولاً ۵۰٪ یا بیشتر سهام آن متعلق به شرکت مادر است",
+      "trap": "با subsidy (یارانه) اشتباه نگیرید؛ تلفظ و معنا متفاوت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "franchise",
+      "translation": "فرانشیز، حق امتیاز",
+      "ipa": "/ˈfræntʃaɪz/",
+      "partOfSpeech": "noun",
+      "example": "He opened a fast-food franchise in his hometown.",
+      "definitions": [
+        "an authorization given to sell a company's goods or services in a certain way"
+      ],
+      "synonyms": [
+        "license",
+        "concession",
+        "dealership"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "buy a franchise",
+        "franchise agreement",
+        "franchise owner"
+      ],
+      "wordFamily": [
+        "franchisee (n)",
+        "franchisor (n)"
+      ],
+      "coreMeaning": "حق فروش محصولات یا خدمات یک برند معروف تحت نام آن برند",
+      "note": "franchisee کسی است که حق امتیاز می‌خرد و franchisor شرکت اصلی است",
+      "trap": "با french (فرانسوی) اشتباه نگیرید؛ franchise ربطی به فرانسه ندارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "merger",
+      "translation": "ادغام",
+      "ipa": "/ˈmɜːrdʒər/",
+      "partOfSpeech": "noun",
+      "example": "The merger of the two companies created the largest bank in the country.",
+      "definitions": [
+        "the combining of two companies into one"
+      ],
+      "synonyms": [
+        "amalgamation",
+        "union",
+        "consolidation"
+      ],
+      "antonyms": [
+        "split",
+        "separation",
+        "divestiture"
+      ],
+      "collocations": [
+        "company merger",
+        "merger and acquisition",
+        "merger agreement"
+      ],
+      "wordFamily": [
+        "merge (v)"
+      ],
+      "coreMeaning": "ادغام دو یا چند شرکت و تشکیل یک شرکت جدید",
+      "note": "merger و acquisition (M&A) حوزه مهمی در امور مالی شرکتی است",
+      "trap": "با acquisition (خرید) فرق دارد؛ merger ادغام داوطلبانه است، acquisition خرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "acquisition",
+      "translation": "خرید، تصاحب",
+      "ipa": "/ˌækwɪˈzɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The acquisition of the startup cost the company $2 billion.",
+      "definitions": [
+        "the buying of one company by another"
+      ],
+      "synonyms": [
+        "purchase",
+        "takeover",
+        "buyout"
+      ],
+      "antonyms": [
+        "sale",
+        "divestiture"
+      ],
+      "collocations": [
+        "hostile acquisition",
+        "acquisition target",
+        "acquisition strategy"
+      ],
+      "wordFamily": [
+        "acquire (v)"
+      ],
+      "coreMeaning": "خرید و تصاحب یک شرکت توسط شرکت دیگر",
+      "note": "در M&A، acquisition معمولاً یک شرکت شرکت دیگر را می‌خرد",
+      "trap": "با requisition (درخواست) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "stakeholder",
+      "translation": "ذینفع",
+      "ipa": "/ˈsteɪkhoʊldər/",
+      "partOfSpeech": "noun",
+      "example": "All stakeholders were invited to review the project proposal.",
+      "definitions": [
+        "a person with an interest or concern in a business or project"
+      ],
+      "synonyms": [
+        "interested party",
+        "participant"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "key stakeholder",
+        "stakeholder engagement",
+        "stakeholder management"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "هر فرد یا گروهی که در نتیجه یک پروژه یا کسب‌وکار ذینفع است",
+      "note": "stakeholder گسترده‌تر از shareholder است؛ شامل کارمندان، مشتریان و جامعه هم می‌شود",
+      "trap": "با shareholder (سهامدار) فرق دارد؛ stakeholder هر ذینفعی است نه فقط سهامدار",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "shareholder",
+      "translation": "سهامدار",
+      "ipa": "/ˈʃerhoʊldər/",
+      "partOfSpeech": "noun",
+      "example": "Shareholders voted to approve the annual dividend increase.",
+      "definitions": [
+        "an owner of shares in a company"
+      ],
+      "synonyms": [
+        "stockholder",
+        "investor",
+        "equity holder"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "majority shareholder",
+        "shareholder value",
+        "shareholder meeting"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فرد یا نهادی که مالک بخشی از سهام یک شرکت است",
+      "note": "shareholder به صاحبان سهام اشاره دارد؛ stakeholder به همه ذینفعان",
+      "trap": "با stakeholder (ذینفع) فرق دارد؛ shareholder فقط سهامدار است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "equity",
+      "translation": "سرمایه، سهام، عدالت",
+      "ipa": "/ˈekwəti/",
+      "partOfSpeech": "noun",
+      "example": "The company raised $10 million in equity financing.",
+      "definitions": [
+        "the value of shares owned in a company; fairness and justice"
+      ],
+      "synonyms": [
+        "ownership",
+        "stock",
+        "fairness"
+      ],
+      "antonyms": [
+        "debt",
+        "inequity"
+      ],
+      "collocations": [
+        "equity stake",
+        "private equity",
+        "equity financing",
+        "home equity"
+      ],
+      "wordFamily": [
+        "equitable (adj)"
+      ],
+      "coreMeaning": "ارزش سهام مالکیت در یک شرکت یا عدالت و انصاف",
+      "note": "در مالی به معنای سهام و در حقوق به معنای عدالت است",
+      "trap": "با equality (برابری) فرق دارد؛ equity عدالت (با توجه به نیازها) است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "funding",
+      "translation": "تأمین مالی، بودجه‌بندی",
+      "ipa": "/ˈfʌndɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "The startup secured $5 million in funding from investors.",
+      "definitions": [
+        "money provided for a particular purpose; financial support"
+      ],
+      "synonyms": [
+        "financing",
+        "backing",
+        "sponsorship"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "secure funding",
+        "government funding",
+        "funding round"
+      ],
+      "wordFamily": [
+        "fund (n/v)",
+        "funder (n)"
+      ],
+      "coreMeaning": "تأمین منابع مالی برای اجرای پروژه یا توسعه کسب‌وکار",
+      "note": "funding می‌تواند از سرمایه‌گذاران، دولت یا وام‌ها باشد",
+      "trap": "با founding (تأسیس) اشتباه نگیرید؛ تلفظ و معنا متفاوت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "venture",
+      "translation": "سرمایه‌گذاری، کسب‌وکار جدید",
+      "ipa": "/ˈventʃər/",
+      "partOfSpeech": "noun",
+      "example": "Their joint venture in renewable energy proved highly profitable.",
+      "definitions": [
+        "a risky or daring business undertaking"
+      ],
+      "synonyms": [
+        "enterprise",
+        "project",
+        "undertaking"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "joint venture",
+        "venture capital",
+        "business venture"
+      ],
+      "wordFamily": [
+        "venture (v)",
+        "venturesome (adj)"
+      ],
+      "coreMeaning": "کسب‌وکار یا پروژه‌ای که با ریسک و ریسک‌پذیری همراه است",
+      "note": "venture capital سرمایه‌گذاری خطرپذیر برای استارتاپ‌ها است",
+      "trap": "با adventure (ماجراجویی) اشتباه نگیرید؛ venture بار مالی و تجاری دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "partnership",
+      "translation": "مشارکت، شراکت",
+      "ipa": "/ˈpɑːrtnərʃɪp/",
+      "partOfSpeech": "noun",
+      "example": "The partnership between the two firms generated significant revenue.",
+      "definitions": [
+        "a business owned by two or more people who share profits and losses"
+      ],
+      "synonyms": [
+        "alliance",
+        "collaboration",
+        "association"
+      ],
+      "antonyms": [
+        "sole proprietorship"
+      ],
+      "collocations": [
+        "business partnership",
+        "form a partnership",
+        "strategic partnership"
+      ],
+      "wordFamily": [
+        "partner (n)"
+      ],
+      "coreMeaning": "شراکت تجاری بین دو یا چند نفر با تقسیم سود و زیان",
+      "note": "partnership نوعی ساختار حقوقی کسب‌وکار است",
+      "trap": "با friendship (دوستی) فرق دارد؛ partnership رسمی و تجاری است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "liability",
+      "translation": "بدهی، مسئولیت قانونی",
+      "ipa": "/ˌlaɪəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "example": "The company has significant liabilities on its balance sheet.",
+      "definitions": [
+        "a financial obligation; legal responsibility"
+      ],
+      "synonyms": [
+        "debt",
+        "obligation",
+        "responsibility"
+      ],
+      "antonyms": [
+        "asset"
+      ],
+      "collocations": [
+        "limited liability",
+        "liability insurance",
+        "legal liability"
+      ],
+      "wordFamily": [
+        "liable (adj)"
+      ],
+      "coreMeaning": "بدهی یا تعهد مالی یک شرکت؛ مسئولیت قانونی",
+      "note": "در ترازنامه، liability مقابل asset (دارایی) قرار دارد",
+      "trap": "با reliability (قابلیت اعتماد) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "asset",
+      "translation": "دارایی، سرمایه",
+      "ipa": "/ˈæset/",
+      "partOfSpeech": "noun",
+      "example": "The company's most valuable asset is its skilled workforce.",
+      "definitions": [
+        "a useful or valuable thing, person, or quality; property owned by a company"
+      ],
+      "synonyms": [
+        "resource",
+        "property",
+        "possession"
+      ],
+      "antonyms": [
+        "liability"
+      ],
+      "collocations": [
+        "tangible asset",
+        "asset management",
+        "current asset"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "هر چیز با ارزشی که متعلق به فرد یا شرکت باشد",
+      "note": "assets به دارایی‌های مشهود و نامشهود تقسیم می‌شود",
+      "trap": "با assess (ارزیابی) اشتباه نگیرید؛ تلفظ و معنا متفاوت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "inventory",
+      "translation": "موجودی، فهرست کالاها",
+      "ipa": "/ˈɪnvəntɔːri/",
+      "partOfSpeech": "noun",
+      "example": "The store conducts a physical inventory count every quarter.",
+      "definitions": [
+        "a complete list of items or stock held by a business"
+      ],
+      "synonyms": [
+        "stock",
+        "supply",
+        "catalog"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "inventory management",
+        "inventory check",
+        "reduce inventory"
+      ],
+      "wordFamily": [
+        "inventory (v)"
+      ],
+      "coreMeaning": "فهرست و موجودی کالاها و محصولات یک شرکت",
+      "note": "inventory management مدیریت موجودی یکی از مهم‌ترین بخش‌های زنجیره تأمین است",
+      "trap": "با invention (اختراع) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "logistics",
+      "translation": "لجستیک، مدیریت تدارکات",
+      "ipa": "/ləˈdʒɪstɪks/",
+      "partOfSpeech": "noun",
+      "example": "The logistics of shipping products worldwide are complex.",
+      "definitions": [
+        "the detailed coordination and organization of a complex operation"
+      ],
+      "synonyms": [
+        "supply chain",
+        "distribution",
+        "operations"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "logistics management",
+        "logistics company",
+        "supply chain logistics"
+      ],
+      "wordFamily": [
+        "logistical (adj)"
+      ],
+      "coreMeaning": "برنامه‌ریزی و مدیریت جابجایی، انبارداری و توزیع کالاها",
+      "note": "همیشه به صورت جمع استفاده می‌شود ولی فعل مفرد می‌گیرد",
+      "trap": "با logic (منطق) اشتباه نگیرید؛ logistics به مدیریت تدارکات اشاره دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "procurement",
+      "translation": "تأمین، خرید سازمانی",
+      "ipa": "/prəˈkjʊrmənt/",
+      "partOfSpeech": "noun",
+      "example": "The procurement department is responsible for purchasing office supplies.",
+      "definitions": [
+        "the process of obtaining goods or services, typically for business purposes"
+      ],
+      "synonyms": [
+        "purchasing",
+        "acquisition",
+        "sourcing"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "procurement process",
+        "procurement department",
+        "public procurement"
+      ],
+      "wordFamily": [
+        "procure (v)"
+      ],
+      "coreMeaning": "فرآیند خرید و تأمین کالاها و خدمات برای سازمان",
+      "note": "procurement معمولاً فرآیند رسمی با تأیید و مناقصه است",
+      "trap": "با procedure (روش) اشتباه نگیرید؛ procurement مخصوص خرید است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "outsourcing",
+      "translation": "برون‌سپاری",
+      "ipa": "/ˈaʊtsɔːrsɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Many companies outsource their IT support to reduce costs.",
+      "definitions": [
+        "the practice of hiring external parties to handle business functions"
+      ],
+      "synonyms": [
+        "contracting out",
+        "subcontracting"
+      ],
+      "antonyms": [
+        "insourcing"
+      ],
+      "collocations": [
+        "outsourcing services",
+        "outsource work",
+        "outsourcing company"
+      ],
+      "wordFamily": [
+        "outsource (v)"
+      ],
+      "coreMeaning": "واگذاری بخشی از فعالیت‌های شرکت به پیمانکاران خارجی",
+      "note": "هدف اصلی کاهش هزینه و تمرکز بر فعالیت‌های اصلی است",
+      "trap": "با outperforming (عملکرد بهتر) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "negotiate",
+      "translation": "مذاکره کردن",
+      "ipa": "/nɪˈɡoʊʃieɪt/",
+      "partOfSpeech": "verb",
+      "example": "We need to negotiate better terms with our suppliers.",
+      "definitions": [
+        "to try to reach an agreement through discussion"
+      ],
+      "synonyms": [
+        "bargain",
+        "discuss",
+        "mediate"
+      ],
+      "antonyms": [
+        "demand",
+        "dictate"
+      ],
+      "collocations": [
+        "negotiate a deal",
+        "negotiate terms",
+        "negotiate a salary"
+      ],
+      "wordFamily": [
+        "negotiation (n)",
+        "negotiator (n)",
+        "negotiable (adj)"
+      ],
+      "coreMeaning": "بحث و گفتگو برای رسیدن به توافق مطلوب",
+      "note": "مهارت مذاکره یکی از مهم‌ترین مهارت‌های حرفه‌ای است",
+      "trap": "با navigate (هدایت) اشتباه نگیرید؛ تلفظ و معنا متفاوت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "delegate",
+      "translation": "واگذار کردن، تفویض کردن",
+      "ipa": "/ˈdelɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "example": "A good manager knows when to delegate tasks to team members.",
+      "definitions": [
+        "to entrust a task or responsibility to another person"
+      ],
+      "synonyms": [
+        "assign",
+        "entrust",
+        "authorize"
+      ],
+      "antonyms": [
+        "retain",
+        "keep"
+      ],
+      "collocations": [
+        "delegate responsibility",
+        "delegate tasks",
+        "delegate authority"
+      ],
+      "wordFamily": [
+        "delegation (n)",
+        "delegate (n)"
+      ],
+      "coreMeaning": "واگذاری وظیفه یا مسئولیت به فرد دیگر",
+      "note": "هم فعل و هم اسم است (delegate = نماینده)",
+      "trap": "با delete (حذف) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "supervise",
+      "translation": "نظارت کردن، سرپرستی کردن",
+      "ipa": "/ˈsuːpərvaɪz/",
+      "partOfSpeech": "verb",
+      "example": "She supervises a team of twenty customer service representatives.",
+      "definitions": [
+        "to observe and direct the execution of a task or person"
+      ],
+      "synonyms": [
+        "oversee",
+        "manage",
+        "monitor"
+      ],
+      "antonyms": [
+        "neglect",
+        "ignore"
+      ],
+      "collocations": [
+        "supervise employees",
+        "supervise operations",
+        "closely supervise"
+      ],
+      "wordFamily": [
+        "supervisor (n)",
+        "supervision (n)",
+        "supervisory (adj)"
+      ],
+      "coreMeaning": "نظارت و هدایت کار دیگران برای اطمینان از انجام صحیح",
+      "note": "supervise مستقیم‌تر از manage است و شامل نظارت عملیاتی می‌شود",
+      "trap": "با survey (نظرسنجی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "collaborate",
+      "translation": "همکاری کردن",
+      "ipa": "/kəˈlæbəreɪt/",
+      "partOfSpeech": "verb",
+      "example": "The two departments collaborated on the new product launch.",
+      "definitions": [
+        "to work jointly on an activity or project"
+      ],
+      "synonyms": [
+        "cooperate",
+        "work together",
+        "partner"
+      ],
+      "antonyms": [
+        "compete",
+        "work alone"
+      ],
+      "collocations": [
+        "collaborate with",
+        "collaborate on a project",
+        "closely collaborate"
+      ],
+      "wordFamily": [
+        "collaboration (n)",
+        "collaborative (adj)",
+        "collaborator (n)"
+      ],
+      "coreMeaning": "کار مشترک و هماهنگ با دیگران روی یک پروژه",
+      "note": "collaborate با on استفاده می‌شود: collaborate on a project",
+      "trap": "با elaborate (توضیح دادن) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "innovate",
+      "translation": "نوآوری کردن",
+      "ipa": "/ˈɪnəveɪt/",
+      "partOfSpeech": "verb",
+      "example": "Companies must innovate to stay competitive in the market.",
+      "definitions": [
+        "to introduce new methods, ideas, or products"
+      ],
+      "synonyms": [
+        "create",
+        "pioneer",
+        "revolutionize"
+      ],
+      "antonyms": [
+        "stagnate",
+        "conserve"
+      ],
+      "collocations": [
+        "innovate constantly",
+        "innovate and improve",
+        "drive innovation"
+      ],
+      "wordFamily": [
+        "innovation (n)",
+        "innovative (adj)",
+        "innovator (n)"
+      ],
+      "coreMeaning": "معرفی روش‌ها، ایده‌ها یا محصولات جدید و خلاقانه",
+      "note": "innovation موتور محرک رشد اقتصادی و رقابتی است",
+      "trap": "با investigate (تحقیق) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "strategize",
+      "translation": "برنامه‌ریزی استراتژیک کردن",
+      "ipa": "/ˈstrætədʒaɪz/",
+      "partOfSpeech": "verb",
+      "example": "The team needs to strategize before presenting to the board.",
+      "definitions": [
+        "to devise a strategy or course of action"
+      ],
+      "synonyms": [
+        "plan",
+        "devise",
+        "plot"
+      ],
+      "antonyms": [
+        "improvise"
+      ],
+      "collocations": [
+        "strategize for success",
+        "strategize and plan"
+      ],
+      "wordFamily": [
+        "strategy (n)",
+        "strategic (adj)",
+        "strategically (adv)"
+      ],
+      "coreMeaning": "تدوین و طراحی برنامه و استراتژی برای رسیدن به هدف",
+      "note": "بیشتر در محیط‌های کسب‌وکار و مدیریتی استفاده می‌شود",
+      "trap": "با strategy (اسم) فرق دارد؛ strategize فعل است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "prioritize",
+      "translation": "اولویت‌بندی کردن",
+      "ipa": "/praɪˈɔːrətaɪz/",
+      "partOfSpeech": "verb",
+      "example": "You should prioritize tasks based on urgency and importance.",
+      "definitions": [
+        "to designate or treat something as more important than others"
+      ],
+      "synonyms": [
+        "rank",
+        "order",
+        "classify"
+      ],
+      "antonyms": [
+        "neglect",
+        "ignore"
+      ],
+      "collocations": [
+        "prioritize tasks",
+        "prioritize work",
+        "learn to prioritize"
+      ],
+      "wordFamily": [
+        "priority (n)"
+      ],
+      "coreMeaning": "تعیین اولویت و اهمیت کارها برای مدیریت بهتر زمان",
+      "note": "مهارت مهم مدیریت زمان و بهره‌وری",
+      "trap": "با private (خصوصی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "streamline",
+      "translation": "ساده‌سازی، بهینه‌سازی",
+      "ipa": "/ˈstriːmlaɪn/",
+      "partOfSpeech": "verb",
+      "example": "The company streamlined its hiring process to reduce time-to-fill.",
+      "definitions": [
+        "to make a system or organization more efficient and effective"
+      ],
+      "synonyms": [
+        "simplify",
+        "optimize",
+        "improve"
+      ],
+      "antonyms": [
+        "complicate"
+      ],
+      "collocations": [
+        "streamline operations",
+        "streamline processes",
+        "streamline workflow"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "حذف مراحل غیرضروری و بهبود کارایی فرآیندها",
+      "note": "اغلب درباره فرآیندهای کسب‌وکار استفاده می‌شود",
+      "trap": "فقط به معنای سریع‌تر کردن نیست؛ حذف اضافات و ساده‌سازی هم هست",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "optimize",
+      "translation": "بهینه‌سازی کردن",
+      "ipa": "/ˈɑːptɪmaɪz/",
+      "partOfSpeech": "verb",
+      "example": "We need to optimize our supply chain to reduce delivery times.",
+      "definitions": [
+        "to make the best or most effective use of something"
+      ],
+      "synonyms": [
+        "improve",
+        "enhance",
+        "maximize"
+      ],
+      "antonyms": [
+        "worsen",
+        "degrade"
+      ],
+      "collocations": [
+        "optimize performance",
+        "optimize resources",
+        "optimize workflow"
+      ],
+      "wordFamily": [
+        "optimization (n)",
+        "optimal (adj)"
+      ],
+      "coreMeaning": "بهترین و مؤثرترین استفاده از منابع و امکانات",
+      "note": "در فناوری اطلاعات بسیار رایج است: optimize website, optimize code",
+      "trap": "با optimism (خوش‌بینی) اشتباه نگیرید؛ optimize به بهبود عملکرد اشاره دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "implement",
+      "translation": "اجرا کردن، پیاده‌سازی کردن",
+      "ipa": "/ˈɪmplɪment/",
+      "partOfSpeech": "verb",
+      "example": "The team will implement the new software system next month.",
+      "definitions": [
+        "to put a plan, decision, or agreement into effect"
+      ],
+      "synonyms": [
+        "execute",
+        "apply",
+        "carry out"
+      ],
+      "antonyms": [
+        "neglect",
+        "abandon"
+      ],
+      "collocations": [
+        "implement a plan",
+        "implement changes",
+        "implement a strategy"
+      ],
+      "wordFamily": [
+        "implementation (n)"
+      ],
+      "coreMeaning": "اجرای عملی یک برنامه، تصمیم یا استراتژی",
+      "note": "implement هم فعل و هم اسم است (ابزار)",
+      "trap": "با implication (پیامد) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "facilitate",
+      "translation": "تسهیل کردن",
+      "ipa": "/fəˈsɪlɪteɪt/",
+      "partOfSpeech": "verb",
+      "example": "The manager's role is to facilitate communication between departments.",
+      "definitions": [
+        "to make an action or process easier"
+      ],
+      "synonyms": [
+        "enable",
+        "assist",
+        "expedite"
+      ],
+      "antonyms": [
+        "hinder",
+        "obstruct"
+      ],
+      "collocations": [
+        "facilitate communication",
+        "facilitate learning",
+        "facilitate discussion"
+      ],
+      "wordFamily": [
+        "facilitation (n)",
+        "facilitator (n)"
+      ],
+      "coreMeaning": "آسان‌تر کردن فرآیند یا ارتباط بین افراد",
+      "note": "facilitator کسی است که فرآیند را تسهیل می‌کند نه خودش تصمیم می‌گیرد",
+      "trap": "با facility (تسهیلات) اشتباه نگیرید؛ facilitate فعل است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "coordinate",
+      "translation": "هماهنگ کردن",
+      "ipa": "/koʊˈɔːrdɪneɪt/",
+      "partOfSpeech": "verb",
+      "example": "She coordinates activities between the sales and marketing teams.",
+      "definitions": [
+        "to bring different elements into a harmonious or efficient relationship"
+      ],
+      "synonyms": [
+        "organize",
+        "arrange",
+        "synchronize"
+      ],
+      "antonyms": [
+        "disorganize",
+        "disrupt"
+      ],
+      "collocations": [
+        "coordinate efforts",
+        "coordinate activities",
+        "coordinate with"
+      ],
+      "wordFamily": [
+        "coordination (n)",
+        "coordinator (n)"
+      ],
+      "coreMeaning": "ایجاد هماهنگی بین افراد، تیم‌ها یا فعالیت‌ها",
+      "note": "coordinator نقش مهمی در پروژه‌های بزرگ دارد",
+      "trap": "با cooperate (همکاری) فرق دارد؛ coordinate سازمان‌دهی است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "motivate",
+      "translation": "انگیزه دادن، ترغیب کردن",
+      "ipa": "/ˈmoʊtɪveɪt/",
+      "partOfSpeech": "verb",
+      "example": "Good leaders know how to motivate their teams during difficult times.",
+      "definitions": [
+        "to provide someone with a reason for doing something"
+      ],
+      "synonyms": [
+        "inspire",
+        "encourage",
+        "stimulate"
+      ],
+      "antonyms": [
+        "discourage",
+        "demotivate"
+      ],
+      "collocations": [
+        "motivate employees",
+        "motivate the team",
+        "highly motivated"
+      ],
+      "wordFamily": [
+        "motivation (n)",
+        "motivator (n)",
+        "motivated (adj)"
+      ],
+      "coreMeaning": "ایجاد انگیزه و اشتیاق در افراد برای انجام بهتر کار",
+      "note": "motivation می‌تواند درونی (intrinsic) یا بیرونی (extrinsic) باشد",
+      "trap": "با move (حرکت دادن) اشتباه نگیرید؛ motivate به انگیزه روانی اشاره دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "brainstorm",
+      "translation": "طوفان فکری کردن، ایده‌پردازی کردن",
+      "ipa": "/ˈbreɪnstɔːrm/",
+      "partOfSpeech": "verb",
+      "example": "Let's brainstorm ideas for the new marketing campaign.",
+      "definitions": [
+        "to produce ideas or solutions through spontaneous group discussion"
+      ],
+      "synonyms": [
+        "ideate",
+        "generate ideas",
+        "think creatively"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "brainstorm ideas",
+        "brainstorming session",
+        "brainstorm solutions"
+      ],
+      "wordFamily": [
+        "brainstorming (n)"
+      ],
+      "coreMeaning": "تولید ایده‌ها و راه‌حل‌ها از طریق بحث گروهی آزاد",
+      "note": "در brainstorming هیچ ایده‌ای رد نمی‌شود؛ هدف تولید حداکثر ایده است",
+      "trap": "با brain (مغز) اشتباه نگیرید؛ brainstorm یک فرآیند خلاقانه است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "debrief",
+      "translation": "گزارش‌گیری، بررسی پس از عملیات",
+      "ipa": "/diːˈbriːf/",
+      "partOfSpeech": "verb",
+      "example": "The team was debriefed after the client presentation.",
+      "definitions": [
+        "to question someone about a completed mission or task"
+      ],
+      "synonyms": [
+        "review",
+        "discuss",
+        "evaluate"
+      ],
+      "antonyms": [
+        "brief"
+      ],
+      "collocations": [
+        "debrief the team",
+        "post-project debrief",
+        "debrief session"
+      ],
+      "wordFamily": [
+        "debriefing (n)"
+      ],
+      "coreMeaning": "بررسی و تحلیل نتایج یک پروژه یا مأموریت پس از اتمام",
+      "note": "معمولاً بعد از پروژه‌های مهم یا بحران‌ها انجام می‌شود",
+      "trap": "با brief (خلاصه، کوتاه) اشتباه نگیرید؛ debrief بعد از کار است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "endorse",
+      "translation": "تأیید کردن، حمایت کردن",
+      "ipa": "/ɪnˈdɔːrs/",
+      "partOfSpeech": "verb",
+      "example": "The CEO endorsed the new strategic plan at the board meeting.",
+      "definitions": [
+        "to declare one's public approval or support of something"
+      ],
+      "synonyms": [
+        "support",
+        "approve",
+        "recommend"
+      ],
+      "antonyms": [
+        "oppose",
+        "reject"
+      ],
+      "collocations": [
+        "endorse a product",
+        "endorse a candidate",
+        "publicly endorse"
+      ],
+      "wordFamily": [
+        "endorsement (n)"
+      ],
+      "coreMeaning": "اعلام رسمی تأیید یا حمایت از چیزی",
+      "note": "endorsement می‌تواند تأیید محصول توسط افراد مشهور هم باشد",
+      "trap": "با endow (وقف کردن) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "advocate",
+      "translation": "حمایت کردن، طرفداری کردن",
+      "ipa": "/ˈædvəkeɪt/",
+      "partOfSpeech": "verb",
+      "example": "She advocates for equal pay in the workplace.",
+      "definitions": [
+        "to publicly recommend or support; a person who supports a cause"
+      ],
+      "synonyms": [
+        "support",
+        "champion",
+        "promote"
+      ],
+      "antonyms": [
+        "oppose",
+        "denounce"
+      ],
+      "collocations": [
+        "advocate for change",
+        "strong advocate",
+        "advocate for rights"
+      ],
+      "wordFamily": [
+        "advocacy (n)"
+      ],
+      "coreMeaning": "حمایت فعال و علنی از یک ایده، سیاست یا تغییر",
+      "note": "هم فعل و هم اسم است: She is an advocate for education.",
+      "trap": "با advice (توصیه) اشتباه نگیرید؛ advocate حمایت فعال است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "mediate",
+      "translation": "میانجی‌گری کردن",
+      "ipa": "/ˈmiːdieɪt/",
+      "partOfSpeech": "verb",
+      "example": "HR was called in to mediate the dispute between the two employees.",
+      "definitions": [
+        "to intervene between people in a dispute to bring about resolution"
+      ],
+      "synonyms": [
+        "arbitrate",
+        "negotiate",
+        "intercede"
+      ],
+      "antonyms": [
+        "provoke",
+        "agitate"
+      ],
+      "collocations": [
+        "mediate a dispute",
+        "mediate between parties",
+        "mediate a conflict"
+      ],
+      "wordFamily": [
+        "mediation (n)",
+        "mediator (n)"
+      ],
+      "coreMeaning": "مداخله بی‌طرفانه برای حل اختلاف بین طرفین",
+      "note": "mediator باید بی‌طرف باشد و به نفع یک طرف تصمیم نگیرد",
+      "trap": "با meditate (مراقبه) اشتباه نگیرید؛ تلفظ و معنا متفاوت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "recruit",
+      "translation": "استخدام کردن، جذب نیرو",
+      "ipa": "/rɪˈkruːt/",
+      "partOfSpeech": "verb",
+      "example": "The company is actively recruiting software engineers.",
+      "definitions": [
+        "to find new people to join an organization or armed forces"
+      ],
+      "synonyms": [
+        "hire",
+        "employ",
+        "enlist"
+      ],
+      "antonyms": [
+        "dismiss",
+        "fire"
+      ],
+      "collocations": [
+        "recruit employees",
+        "recruit talent",
+        "recruitment process"
+      ],
+      "wordFamily": [
+        "recruitment (n)",
+        "recruiter (n)"
+      ],
+      "coreMeaning": "جذب و استخدام نیروی انسانی جدید برای سازمان",
+      "note": "recruitment فرآیند کامل از آگهی تا استخدام است",
+      "trap": "با recruitment (اسم) فرق دارد؛ recruit فعل است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "shortlist",
+      "translation": "لیست نهایی، فهرست کوتاه",
+      "ipa": "/ˈʃɔːrtlist/",
+      "partOfSpeech": "noun",
+      "example": "She was shortlisted for the senior management position.",
+      "definitions": [
+        "a list of selected candidates from a larger group; to include in such a list"
+      ],
+      "synonyms": [
+        "finalists",
+        "select"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "make the shortlist",
+        "shortlist candidates",
+        "on the shortlist"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فهرست نهایی نامزدها که از بین متقاضیان انتخاب شده‌اند",
+      "note": "هم اسم و هم فعل است: They shortlisted five candidates.",
+      "trap": "با shortcut (میانبر) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "headhunt",
+      "translation": "شکار سر، استخدام تخصصی",
+      "ipa": "/ˈhedhʌnt/",
+      "partOfSpeech": "verb",
+      "example": "The firm was hired to headhunt a new chief financial officer.",
+      "definitions": [
+        "to recruit a person for a senior position from another company"
+      ],
+      "synonyms": [
+        "poach",
+        "recruit",
+        "approach"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "headhunt talent",
+        "headhunter agency",
+        "headhunt for a position"
+      ],
+      "wordFamily": [
+        "headhunter (n)"
+      ],
+      "coreMeaning": "جذب فعال متخصصان و مدیران ارشد از شرکت‌های دیگر",
+      "note": "headhunter شخص یا شرکتی است که متخصص استخدام مدیران ارشد است",
+      "trap": "با headband (هدبند) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "intern",
+      "translation": "کارآموز",
+      "ipa": "/ˈɪntɜːrn/",
+      "partOfSpeech": "noun",
+      "example": "The summer intern program helps students gain practical experience.",
+      "definitions": [
+        "a student or trainee who works in an organization to gain experience"
+      ],
+      "synonyms": [
+        "trainee",
+        "apprentice",
+        "fellow"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "summer intern",
+        "intern program",
+        "paid intern"
+      ],
+      "wordFamily": [
+        "internship (n)"
+      ],
+      "coreMeaning": "دانشجو یا فرد تازه‌کار که برای کسب تجربه کار می‌کند",
+      "note": "internship دوره کارآموزی و intern شخص کارآموز است",
+      "trap": "با internal (داخلی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "trainee",
+      "translation": "کارآموز، فرد در حال آموزش",
+      "ipa": "/treɪˈniː/",
+      "partOfSpeech": "noun",
+      "example": "Trainees rotate through different departments during their first year.",
+      "definitions": [
+        "a person who is being trained for a particular job or profession"
+      ],
+      "synonyms": [
+        "apprentice",
+        "intern",
+        "learner"
+      ],
+      "antonyms": [
+        "trainer",
+        "instructor"
+      ],
+      "collocations": [
+        "management trainee",
+        "trainee program",
+        "trainee position"
+      ],
+      "wordFamily": [
+        "train (v)",
+        "trainer (n)",
+        "training (n)"
+      ],
+      "coreMeaning": "فردی که در حال یادگیری و آموزش برای یک شغل است",
+      "note": "trainee معمولاً حقوق کمتری نسبت به کارمند دائم دارد",
+      "trap": "با trainer (مربی) اشتباه نگیرید؛ trainee یادگیرنده است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "contractor",
+      "translation": "پیمانکار",
+      "ipa": "/kənˈtræktər/",
+      "partOfSpeech": "noun",
+      "example": "We hired a contractor to renovate the office space.",
+      "definitions": [
+        "a person or company that undertakes a contract to provide materials or labor"
+      ],
+      "synonyms": [
+        "freelancer",
+        "consultant",
+        "subcontractor"
+      ],
+      "antonyms": [
+        "employee"
+      ],
+      "collocations": [
+        "independent contractor",
+        "general contractor",
+        "contractor agreement"
+      ],
+      "wordFamily": [
+        "contract (n)",
+        "contractual (adj)"
+      ],
+      "coreMeaning": "فرد یا شرکتی که بر اساس قرارداد کار می‌کند نه استخدام دائم",
+      "note": "contractor مستقل است و مزایای کارمند دائم را ندارد",
+      "trap": "با contract (قرارداد) فرق دارد؛ contractor شخصی است که قرارداد دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "tenure",
+      "translation": "دوره تصدی، امنیت شغلی",
+      "ipa": "/ˈtenjər/",
+      "partOfSpeech": "noun",
+      "example": "During his tenure as CEO, the company's revenue doubled.",
+      "definitions": [
+        "the period during which someone holds a position; guaranteed employment"
+      ],
+      "synonyms": [
+        "term",
+        "period",
+        "incumbency"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "during one's tenure",
+        "tenure track",
+        "job tenure"
+      ],
+      "wordFamily": [
+        "tenured (adj)"
+      ],
+      "coreMeaning": "مدت زمانی که فردی در یک سمت یا شغل باقی می‌ماند",
+      "note": "در دانشگاه، tenure به معنای امنیت شغلی دائمی اساتید است",
+      "trap": "با tender (مناقصه) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "redundancy",
+      "translation": "مازاد نیرو، تعدیل نیرو",
+      "ipa": "/rɪˈdʌndənsi/",
+      "partOfSpeech": "noun",
+      "example": "The company announced 500 redundancies due to restructuring.",
+      "definitions": [
+        "the state of being no longer needed for a job; dismissal from employment"
+      ],
+      "synonyms": [
+        "layoff",
+        "downsizing",
+        "dismissal"
+      ],
+      "antonyms": [
+        "hiring",
+        "recruitment"
+      ],
+      "collocations": [
+        "make redundant",
+        "voluntary redundancy",
+        "redundancy package"
+      ],
+      "wordFamily": [
+        "redundant (adj)"
+      ],
+      "coreMeaning": "حذف شغل به دلیل نیاز نداشتن به نیروی کار",
+      "note": "در بریتانیا بسیار رایج است؛ معادل آمریکایی آن layoff است",
+      "trap": "با redundancy (اطلاعات اضافی) در فناوری فرق دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "severance",
+      "translation": "غرامت اخراج، مزایای پایان کار",
+      "ipa": "/ˈsevərəns/",
+      "partOfSpeech": "noun",
+      "example": "Employees who are laid off receive a severance package.",
+      "definitions": [
+        "money paid to an employee upon dismissal from employment"
+      ],
+      "synonyms": [
+        "compensation",
+        "payout",
+        "settlement"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "severance package",
+        "severance pay",
+        "offer severance"
+      ],
+      "wordFamily": [
+        "sever (v)"
+      ],
+      "coreMeaning": "پول یا مزایایی که هنگام اخراج به کارمند پرداخت می‌شود",
+      "note": "severance package شامل حقوق چند ماه و بیمه است",
+      "trap": "با perseverance (پشتکار) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "compensation",
+      "translation": "جبران خسارت، حقوق و مزایا",
+      "ipa": "/ˌkɑːmpenˈseɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The compensation package includes salary, bonuses, and health insurance.",
+      "definitions": [
+        "money or benefits received in return for services; payment for loss or injury"
+      ],
+      "synonyms": [
+        "payment",
+        "remuneration",
+        "salary"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "compensation package",
+        "fair compensation",
+        "compensation plan"
+      ],
+      "wordFamily": [
+        "compensate (v)"
+      ],
+      "coreMeaning": "مجموع حقوق، مزایا و پاداش‌هایی که کارمند دریافت می‌کند",
+      "note": "compensation package کل مزایا شامل حقوق پایه، بیمه، و پاداش است",
+      "trap": "فقط به معنای حقوق نیست؛ شامل بیمه، مرخصی و سایر مزایا هم می‌شود",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "incentive",
+      "translation": "انگیزه، مشوق",
+      "ipa": "/ɪnˈsentɪv/",
+      "partOfSpeech": "noun",
+      "example": "The company offers financial incentives for high-performing employees.",
+      "definitions": [
+        "something that motivates or encourages someone to do something"
+      ],
+      "synonyms": [
+        "motivation",
+        "stimulus",
+        "reward"
+      ],
+      "antonyms": [
+        "deterrent",
+        "disincentive"
+      ],
+      "collocations": [
+        "financial incentive",
+        "incentive program",
+        "offer incentives"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "چیزی که انگیزه و تشویق برای انجام بهتر کار ایجاد می‌کند",
+      "note": "incentive می‌تواند مالی (پاداش) یا غیرمالی (تقدیر) باشد",
+      "trap": "با initiative (ابتکار) اشتباه نگیرید؛ incentive مشوق بیرونی است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "commission",
+      "translation": "کمیسیون، حق‌الزحمه",
+      "ipa": "/kəˈmɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Sales representatives earn a 10% commission on each sale.",
+      "definitions": [
+        "a fee paid to an agent for a transaction; a group entrusted with a task"
+      ],
+      "synonyms": [
+        "fee",
+        "percentage",
+        "bonus"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "earn commission",
+        "sales commission",
+        "commission rate"
+      ],
+      "wordFamily": [
+        "commissioner (n)"
+      ],
+      "coreMeaning": "درصدی از فروش که به فروشنده پرداخت می‌شود؛ یا هیئت مأمور",
+      "note": "در فروش، commission انگیزه مهمی برای فروشندگان است",
+      "trap": "با mission (مأموریت) اشتباه نگیرید؛ commission پرداخت یا هیئت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "dividend",
+      "translation": "سود سهام",
+      "ipa": "/ˈdɪvɪdend/",
+      "partOfSpeech": "noun",
+      "example": "The company declared a quarterly dividend of $0.50 per share.",
+      "definitions": [
+        "a sum of money paid regularly by a company to its shareholders"
+      ],
+      "synonyms": [
+        "payout",
+        "return",
+        "distribution"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "pay dividends",
+        "annual dividend",
+        "dividend yield"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سودی که شرکت به سهامداران خود پرداخت می‌کند",
+      "note": "pay dividends همچنین به معنای «نتیجه دادن» هم استفاده می‌شود",
+      "trap": "با divide (تقسیم) اشتباه نگیرید؛ dividend سود سهام است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "turnover",
+      "translation": "گردش مالی، نرخ جابجایی نیرو",
+      "ipa": "/ˈtɜːrnoʊvər/",
+      "partOfSpeech": "noun",
+      "example": "High employee turnover is costly for any organization.",
+      "definitions": [
+        "the amount of money taken by a business; the rate at which employees leave"
+      ],
+      "synonyms": [
+        "revenue",
+        "sales",
+        "attrition"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "employee turnover",
+        "annual turnover",
+        "high turnover rate"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "درآمد سالانه شرکت یا نرخ ترک کار کارمندان",
+      "note": "در بریتانیا turnover به معنای درآمد و در آمریکا بیشتر به نرخ جابجایی اشاره دارد",
+      "trap": "با turn over (برگرداندن) اشتباه نگیرید؛ turnover یک کلمه اسمی است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "retention",
+      "translation": "حفظ، نگهداری",
+      "ipa": "/rɪˈtenʃən/",
+      "partOfSpeech": "noun",
+      "example": "Employee retention is a top priority for HR departments.",
+      "definitions": [
+        "the continued possession, use, or keeping of something"
+      ],
+      "synonyms": [
+        "preservation",
+        "maintenance",
+        "keeping"
+      ],
+      "antonyms": [
+        "loss",
+        "attrition"
+      ],
+      "collocations": [
+        "employee retention",
+        "customer retention",
+        "retention rate"
+      ],
+      "wordFamily": [
+        "retain (v)"
+      ],
+      "coreMeaning": "حفظ و نگهداری کارمندان یا مشتریان",
+      "note": "retention rate نرخ حفظ کارمندان یک شاخص مهم HR است",
+      "trap": "با retention (نگهداری اطلاعات) در یادگیری فرق دارد؛ معنا یکی ولی زمینه متفاوت",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "workforce",
+      "translation": "نیروی کار",
+      "ipa": "/ˈwɜːrkfɔːrs/",
+      "partOfSpeech": "noun",
+      "example": "The company is investing in upskilling its workforce.",
+      "definitions": [
+        "the people engaged in or available for work in a country or company"
+      ],
+      "synonyms": [
+        "employees",
+        "staff",
+        "labor force"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "skilled workforce",
+        "diverse workforce",
+        "workforce development"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مجموعه افرادی که در یک شرکت یا کشور کار می‌کنند",
+      "note": "workforce شامل همه کارمندان از مدیر تا کارگر است",
+      "trap": "با workplace (محیط کار) اشتباه نگیرید؛ workforce افراد هستند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "headcount",
+      "translation": "تعداد نیروی انسانی",
+      "ipa": "/ˈhedkaʊnt/",
+      "partOfSpeech": "noun",
+      "example": "The department needs to reduce its headcount by 10%.",
+      "definitions": [
+        "the number of people in a particular group or organization"
+      ],
+      "synonyms": [
+        "staffing level",
+        "personnel count"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "reduce headcount",
+        "increase headcount",
+        "headcount planning"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "تعداد افراد شاغل در یک بخش یا سازمان",
+      "note": "اغلب در زمان تعدیل نیرو استفاده می‌شود: reduce headcount",
+      "trap": "با headache (سردرد) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "payroll",
+      "translation": "لیست حقوق، فهرست پرداخت",
+      "ipa": "/ˈpeɪroʊl/",
+      "partOfSpeech": "noun",
+      "example": "The company has 500 employees on its payroll.",
+      "definitions": [
+        "a list of employees and their salaries; the total amount of wages paid"
+      ],
+      "synonyms": [
+        "salary list",
+        "wage sheet"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "on the payroll",
+        "payroll system",
+        "payroll department"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فهرست کارمندان و مبالغ قابل پرداخت به آن‌ها",
+      "note": "on the payroll یعنی استخدام رسمی شرکت",
+      "trap": "با payout (پرداخت) اشتباه نگیرید؛ payroll فهرست و سیستم پرداخت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "remuneration",
+      "translation": "حقوق و مزایا، جبران خدمات",
+      "ipa": "/rɪˌmjuːnəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The remuneration package is competitive with industry standards.",
+      "definitions": [
+        "money paid for work or services"
+      ],
+      "synonyms": [
+        "compensation",
+        "salary",
+        "payment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "remuneration package",
+        "remuneration committee",
+        "fair remuneration"
+      ],
+      "wordFamily": [
+        "remunerate (v)"
+      ],
+      "coreMeaning": "مجموعه پرداخت‌ها و مزایای مالی برای خدمات شغلی",
+      "note": "رسمی‌تر از salary است و شامل تمام مزایا می‌شود",
+      "trap": "با renovation (بازسازی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "reimbursement",
+      "translation": "بازپرداخت هزینه‌ها",
+      "ipa": "/ˌriːɪmˈbɜːrsmənt/",
+      "partOfSpeech": "noun",
+      "example": "Employees can submit receipts for travel expense reimbursement.",
+      "definitions": [
+        "repayment for money already spent on business expenses"
+      ],
+      "synonyms": [
+        "repayment",
+        "refund",
+        "compensation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "expense reimbursement",
+        "reimbursement policy",
+        "submit for reimbursement"
+      ],
+      "wordFamily": [
+        "reimburse (v)"
+      ],
+      "coreMeaning": "بازپرداخت هزینه‌هایی که کارمند برای شرکت پرداخت کرده",
+      "note": "معمولاً با ارائه رسید و فاکتور انجام می‌شود",
+      "trap": "با reinforcement (تقویت) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "perk",
+      "translation": "مزایای جانبی، امتیاز",
+      "ipa": "/pɜːrk/",
+      "partOfSpeech": "noun",
+      "example": "Free meals and gym membership are common perks at tech companies.",
+      "definitions": [
+        "an advantage or benefit received in addition to regular salary"
+      ],
+      "synonyms": [
+        "benefit",
+        "bonus",
+        "privilege"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "job perks",
+        "company perks",
+        "perks and benefits"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مزایای غیرنقدی که شرکت علاوه بر حقوق به کارمندان می‌دهد",
+      "note": "perks شامل بیمه، غذای رایگان، باشگاه و مرخصی اضافی است",
+      "trap": "با park (پارک) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "allowance",
+      "translation": "کمک‌هزینه، فوق‌العاده",
+      "ipa": "/əˈlaʊəns/",
+      "partOfSpeech": "noun",
+      "example": "Employees receive a monthly travel allowance for commuting costs.",
+      "definitions": [
+        "a sum of money paid regularly for a specific purpose"
+      ],
+      "synonyms": [
+        "stipend",
+        "grant",
+        "subsidy"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "travel allowance",
+        "housing allowance",
+        "meal allowance"
+      ],
+      "wordFamily": [
+        "allow (v)"
+      ],
+      "coreMeaning": "مبلغی که به صورت منظم برای هزینه خاصی پرداخت می‌شود",
+      "note": "allowance معمولاً جدا از حقوق پایه پرداخت می‌شود",
+      "trap": "با alliance (اتحاد) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "entitlement",
+      "translation": "حق قانونی، امتیاز",
+      "ipa": "/ɪnˈtaɪtəlmənt/",
+      "partOfSpeech": "noun",
+      "example": "Annual leave is a basic entitlement for all full-time employees.",
+      "definitions": [
+        "the right to receive something, especially from an employer or government"
+      ],
+      "synonyms": [
+        "right",
+        "privilege",
+        "benefit"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "employee entitlement",
+        "sense of entitlement",
+        "leave entitlement"
+      ],
+      "wordFamily": [
+        "entitle (v)"
+      ],
+      "coreMeaning": "حق قانونی کارمند برای دریافت مزایا و خدمات",
+      "note": "entitlement می‌تواند مثبت (حقوق قانونی) یا منفی (توقع بی‌جاست) باشد",
+      "trap": "با enthusiasm (اشتیاق) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "grievance",
+      "translation": "شکایت، گله",
+      "ipa": "/ˈɡriːvəns/",
+      "partOfSpeech": "noun",
+      "example": "Employees can file a grievance if they feel they've been treated unfairly.",
+      "definitions": [
+        "a real or imagined wrong or cause for complaint"
+      ],
+      "synonyms": [
+        "complaint",
+        "protest",
+        "objection"
+      ],
+      "antonyms": [
+        "praise",
+        "satisfaction"
+      ],
+      "collocations": [
+        "file a grievance",
+        "grievance procedure",
+        "workplace grievance"
+      ],
+      "wordFamily": [
+        "grieve (v)"
+      ],
+      "coreMeaning": "شکایت رسمی کارمند درباره رفتار ناعادلانه در محیط کار",
+      "note": "grievance procedure فرآیند رسمی رسیدگی به شکایات کارمندان است",
+      "trap": "با grief (اندوه) اشتباه نگیرید؛ grievance شکایت رسمی است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "arbitration",
+      "translation": "داوری، حکمیت",
+      "ipa": "/ˌɑːrbɪˈtreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The dispute was resolved through arbitration rather than going to court.",
+      "definitions": [
+        "the use of an arbitrator to settle a dispute"
+      ],
+      "synonyms": [
+        "mediation",
+        "settlement",
+        "adjudication"
+      ],
+      "antonyms": [
+        "litigation"
+      ],
+      "collocations": [
+        "binding arbitration",
+        "arbitration process",
+        "go to arbitration"
+      ],
+      "wordFamily": [
+        "arbitrate (v)",
+        "arbitrator (n)"
+      ],
+      "coreMeaning": "حل اختلاف از طریق داور بی‌طرف بدون مراجعه به دادگاه",
+      "note": "arbitration سریع‌تر و ارزان‌تر از مراجعه به دادگاه است",
+      "trap": "با abbreviation (مخفف) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "mediation",
+      "translation": "میانجی‌گری",
+      "ipa": "/ˌmiːdiˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The union and management agreed to enter mediation to resolve the dispute.",
+      "definitions": [
+        "intervention in a dispute to bring about resolution"
+      ],
+      "synonyms": [
+        "arbitration",
+        "negotiation",
+        "intervention"
+      ],
+      "antonyms": [
+        "confrontation"
+      ],
+      "collocations": [
+        "enter mediation",
+        "mediation process",
+        "mediation session"
+      ],
+      "wordFamily": [
+        "mediate (v)",
+        "mediator (n)"
+      ],
+      "coreMeaning": "فرآیند مداخله بی‌طرفانه برای حل اختلاف",
+      "note": "mediation غیرالزامی است ولی arbitration می‌تواند الزامی باشد",
+      "trap": "با meditation (مراقبه) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "litigation",
+      "translation": "دعوا، شکایت حقوقی",
+      "ipa": "/ˌlɪtɪˈɡeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The company faced litigation over patent infringement.",
+      "definitions": [
+        "the process of taking legal action; a lawsuit"
+      ],
+      "synonyms": [
+        "lawsuit",
+        "legal action",
+        "court case"
+      ],
+      "antonyms": [
+        "settlement"
+      ],
+      "collocations": [
+        "face litigation",
+        "litigation costs",
+        "threaten litigation"
+      ],
+      "wordFamily": [
+        "litigate (v)",
+        "litigator (n)"
+      ],
+      "coreMeaning": "فرآیند قانونی شکایت و دادرسی در دادگاه",
+      "note": "litigation پرهزینه و زمان‌بر است؛ شرکت‌ها تلاش می‌کنند از آن اجتناب کنند",
+      "trap": "با literature (ادبیات) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "misconduct",
+      "translation": "سوءرفتار، تخلف",
+      "ipa": "/mɪsˈkɑːndʌkt/",
+      "partOfSpeech": "noun",
+      "example": "The employee was fired for professional misconduct.",
+      "definitions": [
+        "unacceptable or improper behavior, especially by a professional person"
+      ],
+      "synonyms": [
+        "wrongdoing",
+        "misbehavior",
+        "violation"
+      ],
+      "antonyms": [
+        "good conduct",
+        "propriety"
+      ],
+      "collocations": [
+        "professional misconduct",
+        "gross misconduct",
+        "investigate misconduct"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "رفتار نادرست و خلاف قوانین و اخلاق حرفه‌ای",
+      "note": "gross misconduct می‌تواند منجر به اخراج فوری شود",
+      "trap": "با misunderstanding (سوءتفاهم) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "harassment",
+      "translation": "آزار و اذیت، مزاحمت",
+      "ipa": "/həˈræsmənt/",
+      "partOfSpeech": "noun",
+      "example": "The company has a zero-tolerance policy for workplace harassment.",
+      "definitions": [
+        "aggressive pressure or intimidation; unwanted behavior that offends"
+      ],
+      "synonyms": [
+        "bullying",
+        "intimidation",
+        "persecution"
+      ],
+      "antonyms": [
+        "respect",
+        "protection"
+      ],
+      "collocations": [
+        "sexual harassment",
+        "workplace harassment",
+        "report harassment"
+      ],
+      "wordFamily": [
+        "harass (v)"
+      ],
+      "coreMeaning": "رفتار ناخواسته و آزاردهنده که محیط کار را ناامن می‌کند",
+      "note": "آزار جنسی (sexual harassment) جدی‌ترین نوع آن است",
+      "trap": "با embarrassment (شرمساری) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "discrimination",
+      "translation": "تبعیض",
+      "ipa": "/dɪˌskrɪmɪˈneɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Discrimination based on gender or race is illegal in most countries.",
+      "definitions": [
+        "unjust treatment of different categories of people"
+      ],
+      "synonyms": [
+        "bias",
+        "prejudice",
+        "inequality"
+      ],
+      "antonyms": [
+        "equality",
+        "fairness"
+      ],
+      "collocations": [
+        "gender discrimination",
+        "racial discrimination",
+        "age discrimination"
+      ],
+      "wordFamily": [
+        "discriminate (v)",
+        "discriminatory (adj)"
+      ],
+      "coreMeaning": "رفتار ناعادلانه بر اساس جنسیت، نژاد، سن یا سایر ویژگی‌ها",
+      "note": "تبعیض در محیط کار غیرقانونی است و قوانین حمایتی وجود دارد",
+      "trap": "با determination (عزم) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "bias",
+      "translation": "سوگیری، جانبداری",
+      "ipa": "/ˈbaɪəs/",
+      "partOfSpeech": "noun",
+      "example": "Unconscious bias can affect hiring decisions without recruiters realizing it.",
+      "definitions": [
+        "prejudice in favor of or against one thing compared with another"
+      ],
+      "synonyms": [
+        "prejudice",
+        "partiality",
+        "favoritism"
+      ],
+      "antonyms": [
+        "impartiality",
+        "objectivity"
+      ],
+      "collocations": [
+        "unconscious bias",
+        "gender bias",
+        "confirmation bias"
+      ],
+      "wordFamily": [
+        "biased (adj)"
+      ],
+      "coreMeaning": "تمایل ناخودآگاه یا آگاهانه به نفع یا ضرر گروهی خاص",
+      "note": "unconscious bias آموزش‌های ویژه‌ای برای شناسایی آن وجود دارد",
+      "trap": "با basis (مبنا) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "diversity",
+      "translation": "تنوع، گوناگونی",
+      "ipa": "/daɪˈvɜːrsəti/",
+      "partOfSpeech": "noun",
+      "example": "The company promotes diversity and inclusion in its hiring practices.",
+      "definitions": [
+        "the state of being diverse; variety of different types of people"
+      ],
+      "synonyms": [
+        "variety",
+        "heterogeneity",
+        "multiculturalism"
+      ],
+      "antonyms": [
+        "uniformity",
+        "homogeneity"
+      ],
+      "collocations": [
+        "workplace diversity",
+        "diversity and inclusion",
+        "diversity training"
+      ],
+      "wordFamily": [
+        "diverse (adj)",
+        "diversify (v)"
+      ],
+      "coreMeaning": "حضور افراد با پیشینه‌ها، فرهنگ‌ها و ویژگی‌های متنوع",
+      "note": "diversity and inclusion (D&I) یکی از مهم‌ترین موضوعات HR مدرن است",
+      "trap": "با adversity (سختی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "inclusion",
+      "translation": "شمول، فراگیری",
+      "ipa": "/ɪnˈkluːʒən/",
+      "partOfSpeech": "noun",
+      "example": "True inclusion means everyone feels valued and respected at work.",
+      "definitions": [
+        "the practice of providing equal access and opportunities to all people"
+      ],
+      "synonyms": [
+        "integration",
+        "involvement",
+        "acceptance"
+      ],
+      "antonyms": [
+        "exclusion",
+        "marginalization"
+      ],
+      "collocations": [
+        "diversity and inclusion",
+        "social inclusion",
+        "inclusion policy"
+      ],
+      "wordFamily": [
+        "include (v)",
+        "inclusive (adj)"
+      ],
+      "coreMeaning": "ایجاد محیطی که همه افراد احساس ارزشمندی و تعلق کنند",
+      "note": "inclusion بدون diversity ممکن نیست؛ هر دو لازم‌اند",
+      "trap": "با illusion (توهم) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "empowerment",
+      "translation": "توانمندسازی",
+      "ipa": "/ɪmˈpaʊərmənt/",
+      "partOfSpeech": "noun",
+      "example": "Employee empowerment leads to higher job satisfaction and innovation.",
+      "definitions": [
+        "the process of becoming stronger and more confident, especially in controlling one's life"
+      ],
+      "synonyms": [
+        "enablement",
+        "authorization",
+        "strengthening"
+      ],
+      "antonyms": [
+        "disempowerment",
+        "oppression"
+      ],
+      "collocations": [
+        "employee empowerment",
+        "women's empowerment",
+        "empowerment through education"
+      ],
+      "wordFamily": [
+        "empower (v)",
+        "empowered (adj)"
+      ],
+      "coreMeaning": "دادن قدرت و اختیار به افراد برای تصمیم‌گیری و اقدام",
+      "note": "empowerment کلید ایجاد فرهنگ مسئولیت‌پذیری است",
+      "trap": "با employment (اشتغال) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "engagement",
+      "translation": "مشارکت، درگیری",
+      "ipa": "/ɪnˈɡeɪdʒmənt/",
+      "partOfSpeech": "noun",
+      "example": "High employee engagement is linked to better business outcomes.",
+      "definitions": [
+        "emotional commitment of an employee to the organization and its goals"
+      ],
+      "synonyms": [
+        "involvement",
+        "participation",
+        "commitment"
+      ],
+      "antonyms": [
+        "disengagement",
+        "apathy"
+      ],
+      "collocations": [
+        "employee engagement",
+        "engagement survey",
+        "engagement level"
+      ],
+      "wordFamily": [
+        "engage (v)",
+        "engaged (adj)"
+      ],
+      "coreMeaning": "تعهد عاطفی و فکری کارمند نسبت به سازمان و اهدافش",
+      "note": "engagement بالا به معنای بهره‌وری و رضایت شغلی بیشتر است",
+      "trap": "فقط به معنای نامزدی نیست؛ در محیط کار به مشارکت اشاره دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "morale",
+      "translation": "روحیه، انگیزه گروهی",
+      "ipa": "/məˈræl/",
+      "partOfSpeech": "noun",
+      "example": "Low morale among staff can lead to decreased productivity.",
+      "definitions": [
+        "the confidence, enthusiasm, and discipline of a person or group"
+      ],
+      "synonyms": [
+        "spirit",
+        "confidence",
+        "motivation"
+      ],
+      "antonyms": [
+        "demoralization"
+      ],
+      "collocations": [
+        "boost morale",
+        "low morale",
+        "team morale"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سطح انگیزه، اعتماد و اشتیاق گروهی کارمندان",
+      "note": "morale بالا = کارمندان خوشحال و متعهد؛ morale پایین = نارضایتی",
+      "trap": "با moral (اخلاقی) اشتباه نگیرید؛ morale اسم و moral صفت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "burnout",
+      "translation": "فرسودگی شغلی",
+      "ipa": "/ˈbɜːrnaʊt/",
+      "partOfSpeech": "noun",
+      "example": "Working long hours without breaks can lead to burnout.",
+      "definitions": [
+        "physical or mental collapse caused by overwork or stress"
+      ],
+      "synonyms": [
+        "exhaustion",
+        "fatigue",
+        "breakdown"
+      ],
+      "antonyms": [
+        "renewal",
+        "rejuvenation"
+      ],
+      "collocations": [
+        "job burnout",
+        "burnout syndrome",
+        "prevent burnout"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فرسودگی جسمی و روانی ناشی از کار زیاد و استرس مداوم",
+      "note": "WHO burnout را به عنوان یک پدیده شغلی به رسمیت شناخته است",
+      "trap": "با burn down (سوختن) اشتباه نگیرید؛ burnout یک وضعیت روانی است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "workload",
+      "translation": "حجم کاری",
+      "ipa": "/ˈwɜːrkloʊd/",
+      "partOfSpeech": "noun",
+      "example": "The workload increased significantly after the team was downsized.",
+      "definitions": [
+        "the amount of work to be done by a person or machine"
+      ],
+      "synonyms": [
+        "work volume",
+        "task load",
+        "burden"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "heavy workload",
+        "manage workload",
+        "distribute workload"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مقدار کاری که باید توسط فرد یا تیم انجام شود",
+      "note": "workload سنگین می‌تواند منجر به burnout شود",
+      "trap": "با work load (بار کاری) هر دو نوشتار صحیح هستند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "turnaround",
+      "translation": "بازگشت، بهبود وضعیت",
+      "ipa": "/ˈtɜːrənaʊnd/",
+      "partOfSpeech": "noun",
+      "example": "The new CEO led a remarkable turnaround of the struggling company.",
+      "definitions": [
+        "a sudden improvement in a situation, especially in business"
+      ],
+      "synonyms": [
+        "recovery",
+        "revival",
+        "improvement"
+      ],
+      "antonyms": [
+        "decline",
+        "deterioration"
+      ],
+      "collocations": [
+        "business turnaround",
+        "turnaround time",
+        "turnaround strategy"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "بهبود سریع و چشمگیر وضعیت یک شرکت یا پروژه",
+      "note": "turnaround time همچنین به زمان انجام کار اشاره دارد",
+      "trap": "با turn around (برگرداندن) اشتباه نگیرید؛ turnaround یک کلمه اسمی است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "deliverable",
+      "translation": "تحویل‌دادنی، خروجی قابل تحویل",
+      "ipa": "/dɪˈlɪvərəbl/",
+      "partOfSpeech": "noun",
+      "example": "The project has five key deliverables due by the end of the quarter.",
+      "definitions": [
+        "a tangible or intangible product or result that must be delivered"
+      ],
+      "synonyms": [
+        "output",
+        "result",
+        "product"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "key deliverable",
+        "project deliverable",
+        "deliverable deadline"
+      ],
+      "wordFamily": [
+        "deliver (v)",
+        "delivery (n)"
+      ],
+      "coreMeaning": "محصول یا نتیجه‌ای که باید در پروژه تحویل داده شود",
+      "note": "در مدیریت پروژه، deliverable‌ها مشخص و قابل اندازه‌گیری هستند",
+      "trap": "با delivery (تحویل) فرق دارد؛ deliverable خروجی قابل تحویل است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "roadmap",
+      "translation": "نقشه راه",
+      "ipa": "/ˈroʊdmæp/",
+      "partOfSpeech": "noun",
+      "example": "The product team presented a roadmap for the next two years.",
+      "definitions": [
+        "a plan or strategy showing how to achieve a goal over time"
+      ],
+      "synonyms": [
+        "plan",
+        "blueprint",
+        "strategy"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "product roadmap",
+        "career roadmap",
+        "strategic roadmap"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "برنامه زمان‌بندی شده برای رسیدن به اهداف بلندمدت",
+      "note": "در فناوری، roadmap محصول نشان‌دهنده ویژگی‌های آینده است",
+      "trap": "با road map (نقشه جغرافیایی) فرق دارد؛ roadmap برنامه استراتژیک است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "blueprint",
+      "translation": "نقشه، طرح اولیه",
+      "ipa": "/ˈbluːprɪnt/",
+      "partOfSpeech": "noun",
+      "example": "The architect presented the blueprint for the new headquarters.",
+      "definitions": [
+        "a detailed plan or design; a model to follow"
+      ],
+      "synonyms": [
+        "plan",
+        "design",
+        "template"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "detailed blueprint",
+        "blueprint for success",
+        "follow a blueprint"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "طرح دقیق و جزئی برای اجرای یک پروژه یا ایده",
+      "note": "اصل کلمه از نقشه‌های مهندسی آبی‌رنگ آمده است",
+      "trap": "با road map (نقشه راه) فرق دارد؛ blueprint جزئی‌تر است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "framework",
+      "translation": "چارچوب، ساختار",
+      "ipa": "/ˈfreɪmwɜːrk/",
+      "partOfSpeech": "noun",
+      "example": "The company adopted a new framework for performance management.",
+      "definitions": [
+        "a basic structure underlying a system or concept"
+      ],
+      "synonyms": [
+        "structure",
+        "system",
+        "model"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "regulatory framework",
+        "conceptual framework",
+        "framework for decision-making"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ساختار اصلی و پایه‌ای که سیستم یا فرآیند بر آن بنا شده",
+      "note": "framework ابزاری برای سازمان‌دهی افکار و فرآیندها است",
+      "trap": "با frame (قاب) اشتباه نگیرید؛ framework ساختار مفهومی است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "methodology",
+      "translation": "روش‌شناسی، متدولوژی",
+      "ipa": "/ˌmeθəˈdɑːlədʒi/",
+      "partOfSpeech": "noun",
+      "example": "The team uses an agile methodology for software development.",
+      "definitions": [
+        "a system of methods used in a particular area of study or activity"
+      ],
+      "synonyms": [
+        "approach",
+        "system",
+        "technique"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "research methodology",
+        "agile methodology",
+        "adopt a methodology"
+      ],
+      "wordFamily": [
+        "method (n)",
+        "methodical (adj)"
+      ],
+      "coreMeaning": "مجموعه منظمی از روش‌ها و اصول برای انجام کار",
+      "note": "methodology علم روش‌هاست؛ method یک روش خاص است",
+      "trap": "با method (روش) فرق دارد؛ methodology مجموعه‌ای از روش‌هاست",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "paradigm",
+      "translation": "الگو، پارادایم",
+      "ipa": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "example": "Remote work represents a paradigm shift in how companies operate.",
+      "definitions": [
+        "a typical example or pattern of something; a model"
+      ],
+      "synonyms": [
+        "model",
+        "framework",
+        "standard"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "paradigm shift",
+        "new paradigm",
+        "dominant paradigm"
+      ],
+      "wordFamily": [
+        "paradigmatic (adj)"
+      ],
+      "coreMeaning": "الگوی غالب و پذیرفته‌شده در یک حوزه یا صنعت",
+      "note": "paradigm shift تغییر اساسی در نحوه تفکر یا عمل است",
+      "trap": "با paradise (بهشت) اشتباه نگیرید؛ تلفظ و معنا متفاوت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "leverage",
+      "translation": "اهرم، استفاده از موقعیت",
+      "ipa": "/ˈlevərɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "The company leveraged its brand reputation to enter new markets.",
+      "definitions": [
+        "the power to influence; to use something to maximum advantage"
+      ],
+      "synonyms": [
+        "influence",
+        "power",
+        "utilize"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "leverage technology",
+        "leverage resources",
+        "financial leverage"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "استفاده بهینه از منابع، موقعیت یا قدرت برای رسیدن به هدف",
+      "note": "در مالی، leverage به معنای استفاده از بدهی برای افزایش بازده است",
+      "trap": "با lever (اهرم) فرق دارد؛ leverage استفاده از اهرم است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "synergy",
+      "translation": "هم‌افزایی، همکاری مؤثر",
+      "ipa": "/ˈsɪnərdʒi/",
+      "partOfSpeech": "noun",
+      "example": "The merger created synergies that reduced costs by 20%.",
+      "definitions": [
+        "the interaction of elements that produce a combined effect greater than the sum"
+      ],
+      "synonyms": [
+        "cooperation",
+        "collaboration",
+        "harmony"
+      ],
+      "antonyms": [
+        "discord",
+        "conflict"
+      ],
+      "collocations": [
+        "create synergy",
+        "synergy effect",
+        "team synergy"
+      ],
+      "wordFamily": [
+        "synergistic (adj)"
+      ],
+      "coreMeaning": "اثر ترکیبی که بیشتر از مجموع اثرات جداگانه است",
+      "note": "در M&A، synergy به صرفه‌جویی و بهبود ناشی از ادغام اشاره دارد",
+      "trap": "با energy (انرژی) اشتباه نگیرید؛ synergy به اثر ترکیبی اشاره دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "bandwidth",
+      "translation": "ظرفیت، توانایی",
+      "ipa": "/ˈbændwɪdθ/",
+      "partOfSpeech": "noun",
+      "example": "I don't have the bandwidth to take on another project right now.",
+      "definitions": [
+        "the capacity to handle tasks or information; mental capacity"
+      ],
+      "synonyms": [
+        "capacity",
+        "ability",
+        "resources"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "have bandwidth",
+        "limited bandwidth",
+        "increase bandwidth"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ظرفیت و توانایی فرد یا سازمان برای انجام کارها",
+      "note": "در محیط کار به معنای وقت و انرژی موجود برای کار جدید است",
+      "trap": "فقط به معنای پهنای باند اینترنت نیست؛ در کسب‌وکار به ظرفیت اشاره دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "scalability",
+      "translation": "مقیاس‌پذیری",
+      "ipa": "/ˌskeɪləˈbɪləti/",
+      "partOfSpeech": "noun",
+      "example": "The scalability of the platform allows it to handle millions of users.",
+      "definitions": [
+        "the ability of a system to handle a growing amount of work"
+      ],
+      "synonyms": [
+        "expandability",
+        "flexibility",
+        "growth potential"
+      ],
+      "antonyms": [
+        "limitation"
+      ],
+      "collocations": [
+        "business scalability",
+        "scalability issues",
+        "ensure scalability"
+      ],
+      "wordFamily": [
+        "scalable (adj)",
+        "scale (v)"
+      ],
+      "coreMeaning": "توانایی رشد و گسترش بدون افت کیفیت یا عملکرد",
+      "note": "scalability برای استارتاپ‌ها و شرکت‌های فناوری بسیار مهم است",
+      "trap": "با scale (اندازه) فرق دارد؛ scalability توانایی رشد است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "sustainability",
+      "translation": "پایداری",
+      "ipa": "/səˌsteɪnəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "example": "The company committed to sustainability by reducing its carbon footprint.",
+      "definitions": [
+        "the ability to maintain at a certain rate or level; environmental responsibility"
+      ],
+      "synonyms": [
+        "viability",
+        "durability",
+        "longevity"
+      ],
+      "antonyms": [
+        "unsustainability"
+      ],
+      "collocations": [
+        "environmental sustainability",
+        "sustainability report",
+        "sustainability goals"
+      ],
+      "wordFamily": [
+        "sustainable (adj)",
+        "sustain (v)"
+      ],
+      "coreMeaning": "توانایی حفظ و ادامه فعالیت بدون آسیب به محیط زیست یا منابع",
+      "note": "sustainability یکی از مهم‌ترین موضوعات کسب‌وکار مدرن است",
+      "trap": "با stability (ثبات) فرق دارد؛ sustainability پایداری بلندمدت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "profitability",
+      "translation": "سودآوری",
+      "ipa": "/ˌprɑːfɪtəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "example": "The company's profitability improved after restructuring.",
+      "definitions": [
+        "the state or condition of yielding a financial profit"
+      ],
+      "synonyms": [
+        "lucrativeness",
+        "viability",
+        "productivity"
+      ],
+      "antonyms": [
+        "unprofitability",
+        "loss"
+      ],
+      "collocations": [
+        "improve profitability",
+        "profitability analysis",
+        "profitability ratio"
+      ],
+      "wordFamily": [
+        "profit (n)",
+        "profitable (adj)"
+      ],
+      "coreMeaning": "توانایی کسب سود و درآمد بیشتر از هزینه‌ها",
+      "note": "profitability شاخص کلیدی سلامت مالی شرکت است",
+      "trap": "با profit (سود) فرق دارد؛ profitability نرخ و توانایی سودآوری است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "viability",
+      "translation": "قابلیت اجرا، دوام",
+      "ipa": "/ˌvaɪəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "example": "The team conducted a feasibility study to assess the project's viability.",
+      "definitions": [
+        "the ability to work successfully; feasibility"
+      ],
+      "synonyms": [
+        "feasibility",
+        "practicality",
+        "sustainability"
+      ],
+      "antonyms": [
+        "impracticality",
+        "inviability"
+      ],
+      "collocations": [
+        "commercial viability",
+        "long-term viability",
+        "assess viability"
+      ],
+      "wordFamily": [
+        "viable (adj)"
+      ],
+      "coreMeaning": "امکان‌پذیری و قابلیت موفقیت یک طرح یا کسب‌وکار",
+      "note": "viability study بررسی امکان‌سنجی قبل از شروع پروژه است",
+      "trap": "با visibility (دید) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "feasibility",
+      "translation": "امکان‌سنجی، قابلیت اجرا",
+      "ipa": "/ˌfiːzəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "example": "A feasibility study was conducted before launching the new product line.",
+      "definitions": [
+        "the state or degree of being easily or conveniently done; practicability"
+      ],
+      "synonyms": [
+        "viability",
+        "practicality",
+        "possibility"
+      ],
+      "antonyms": [
+        "impossibility",
+        "impracticality"
+      ],
+      "collocations": [
+        "feasibility study",
+        "feasibility analysis",
+        "assess feasibility"
+      ],
+      "wordFamily": [
+        "feasible (adj)"
+      ],
+      "coreMeaning": "بررسی امکان‌پذیری و عملی بودن یک طرح قبل از اجرا",
+      "note": "feasibility study اولین قدم در شروع هر پروژه بزرگ است",
+      "trap": "با flexibility (انعطاف‌پذیری) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "prospectus",
+      "translation": "پروپوزال، بروشور اطلاعاتی",
+      "ipa": "/prəˈspektəs/",
+      "partOfSpeech": "noun",
+      "example": "The company published a prospectus before its initial public offering.",
+      "definitions": [
+        "a printed document advertising a business or giving details of a share offer"
+      ],
+      "synonyms": [
+        "brochure",
+        "proposal",
+        "document"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "issue a prospectus",
+        "investment prospectus",
+        "company prospectus"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سند رسمی حاوی اطلاعات شرکت برای سرمایه‌گذاران",
+      "note": "قبل از عرضه اولیه سهام (IPO) الزامی است",
+      "trap": "با prospect (چشم‌انداز) اشتباه نگیرید؛ prospectus سند رسمی است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "memorandum",
+      "translation": "یادداشت رسمی، تفاهم‌نامه",
+      "ipa": "/ˌmeməˈrændəm/",
+      "partOfSpeech": "noun",
+      "example": "They signed a memorandum of understanding to formalize the partnership.",
+      "definitions": [
+        "a written message in a business setting; a document recording terms of agreement"
+      ],
+      "synonyms": [
+        "memo",
+        "agreement",
+        "document"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "memorandum of understanding",
+        "memorandum of agreement",
+        "internal memorandum"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سند رسمی برای ثبت توافقات یا اطلاع‌رسانی داخلی",
+      "note": "memorandum of understanding (MOU) تفاهم‌نامه غیرالزامی است",
+      "trap": "با memoir (خاطرات) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "indemnity",
+      "translation": "بیمه، غرامت، جبران خسارت",
+      "ipa": "/ɪnˈdemnəti/",
+      "partOfSpeech": "noun",
+      "example": "The contract includes an indemnity clause to protect against legal claims.",
+      "definitions": [
+        "security or protection against legal liability for damages; compensation for loss"
+      ],
+      "synonyms": [
+        "insurance",
+        "compensation",
+        "guarantee"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "indemnity clause",
+        "indemnity insurance",
+        "letter of indemnity"
+      ],
+      "wordFamily": [
+        "indemnify (v)"
+      ],
+      "coreMeaning": "ضمانت جبران خسارت در صورت وقوع زیان یا خسارت",
+      "note": "indemnity clause بخش مهمی از قراردادهای تجاری است",
+      "trap": "با identity (هویت) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "confidentiality",
+      "translation": "محرمانگی، رازداری",
+      "ipa": "/ˌkɑːnfɪˌdenʃiˈæləti/",
+      "partOfSpeech": "noun",
+      "example": "All employees must sign a confidentiality agreement.",
+      "definitions": [
+        "the state of keeping or being kept secret or private"
+      ],
+      "synonyms": [
+        "secrecy",
+        "privacy",
+        "discretion"
+      ],
+      "antonyms": [
+        "disclosure",
+        "transparency"
+      ],
+      "collocations": [
+        "confidentiality agreement",
+        "maintain confidentiality",
+        "breach of confidentiality"
+      ],
+      "wordFamily": [
+        "confidential (adj)"
+      ],
+      "coreMeaning": "حفظ اطلاعات محرمانه و عدم افشای آن‌ها",
+      "note": "confidentiality agreement (NDA) قرارداد عدم افشای اطلاعات است",
+      "trap": "با confidence (اعتماد به نفس) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "proprietary",
+      "translation": "انحصاری، مالکانه",
+      "ipa": "/prəˈpraɪəteri/",
+      "partOfSpeech": "adj",
+      "example": "The company uses proprietary software that competitors cannot access.",
+      "definitions": [
+        "owned by a particular company; relating to an owner or ownership"
+      ],
+      "synonyms": [
+        "exclusive",
+        "private",
+        "patented"
+      ],
+      "antonyms": [
+        "open-source",
+        "public"
+      ],
+      "collocations": [
+        "proprietary technology",
+        "proprietary information",
+        "proprietary software"
+      ],
+      "wordFamily": [
+        "proprietor (n)",
+        "proprietorship (n)"
+      ],
+      "coreMeaning": "مالکیت انحصاری یک شرکت بر فناوری، اطلاعات یا محصول",
+      "note": "proprietary information اطلاعات محرمانه و انحصاری شرکت است",
+      "trap": "با property (املاک) اشتباه نگیرید؛ proprietary صفت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "patent",
+      "translation": "ثبت اختراع، پتنت",
+      "ipa": "/ˈpætənt/",
+      "partOfSpeech": "noun",
+      "example": "The company filed a patent for its new manufacturing process.",
+      "definitions": [
+        "a government authority granting exclusive rights for an invention"
+      ],
+      "synonyms": [
+        "license",
+        "copyright",
+        "trademark"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "file a patent",
+        "patent office",
+        "patent infringement"
+      ],
+      "wordFamily": [
+        "patented (adj)"
+      ],
+      "coreMeaning": "حق انحصاری تولید و فروش یک اختراع برای مدت مشخص",
+      "note": "patent معمولاً ۲۰ سال اعتبار دارد",
+      "trap": "با patient (صبر، بیمار) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "trademark",
+      "translation": "علامت تجاری، برند",
+      "ipa": "/ˈtreɪdmɑːrk/",
+      "partOfSpeech": "noun",
+      "example": "The company's logo is a registered trademark.",
+      "definitions": [
+        "a symbol, word, or words legally registered representing a company or product"
+      ],
+      "synonyms": [
+        "brand",
+        "logo",
+        "mark"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "registered trademark",
+        "trademark protection",
+        "trademark infringement"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نماد یا نامی که به صورت قانونی ثبت شده و معرف یک برند است",
+      "note": "trademark از brand محافظت قانونی می‌کند",
+      "trap": "با trade (تجارت) اشتباه نگیرید؛ trademark علامت تجاری ثبت‌شده است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "copyright",
+      "translation": "حق نشر، کپی‌رایت",
+      "ipa": "/ˈkɑːpiraɪt/",
+      "partOfSpeech": "noun",
+      "example": "The book is protected by copyright and cannot be reproduced without permission.",
+      "definitions": [
+        "the legal right to control the use and distribution of original work"
+      ],
+      "synonyms": [
+        "intellectual property rights",
+        "author's rights"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "copyright infringement",
+        "copyright law",
+        "copyright holder"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "حق قانونی انحصاری تولید و توزیع اثر اصلی",
+      "note": "copyright به صورت خودکار با خلق اثر ایجاد می‌شود",
+      "trap": "با copy (کپی) اشتباه نگیرید؛ copyright حق قانونی است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "royalty",
+      "translation": "حق‌الامتیاز، پورسانت",
+      "ipa": "/ˈrɔɪəlti/",
+      "partOfSpeech": "noun",
+      "example": "The author receives a 10% royalty on every book sold.",
+      "definitions": [
+        "a sum paid to the owner of a patent or copyright for use of it"
+      ],
+      "synonyms": [
+        "fee",
+        "commission",
+        "payment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "royalty fee",
+        "royalty payment",
+        "royalty rate"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مبلغی که بابت استفاده از اثر، اختراع یا منبع طبیعی پرداخت می‌شود",
+      "note": "همچنین به معنای خاندان سلطنتی هم استفاده می‌شود",
+      "trap": "با loyalty (وفاداری) اشتباه نگیرید؛ تلفظ و معنا متفاوت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "insourcing",
+      "translation": "درون‌سپاری",
+      "ipa": "/ˈɪnsɔːrsɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "The company decided on insourcing to maintain better quality control.",
+      "definitions": [
+        "the practice of using an organization's own staff to accomplish a task"
+      ],
+      "synonyms": [
+        "in-house production",
+        "internal operations"
+      ],
+      "antonyms": [
+        "outsourcing"
+      ],
+      "collocations": [
+        "insourcing strategy",
+        "insourcing decision",
+        "insourcing vs outsourcing"
+      ],
+      "wordFamily": [
+        "insource (v)"
+      ],
+      "coreMeaning": "انجام فعالیت‌ها با نیروی داخلی شرکت به جای برون‌سپاری",
+      "note": "insourcing کنترل بیشتری بر کیفیت فراهم می‌کند",
+      "trap": "با outsourcing (برون‌سپاری) متضاد است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "offshoring",
+      "translation": "انتقال فعالیت به خارج",
+      "ipa": "/ˈɔːfʃɔːrɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Offshoring manufacturing to Asia helped reduce production costs.",
+      "definitions": [
+        "the relocation of business processes to another country"
+      ],
+      "synonyms": [
+        "relocation",
+        "outsourcing abroad"
+      ],
+      "antonyms": [
+        "reshoring",
+        "onshoring"
+      ],
+      "collocations": [
+        "offshoring jobs",
+        "offshoring strategy",
+        "offshoring decision"
+      ],
+      "wordFamily": [
+        "offshore (adj/adv)"
+      ],
+      "coreMeaning": "انتقال فعالیت‌های تولیدی یا خدماتی به کشور دیگر",
+      "note": "offshoring معمولاً برای کاهش هزینه نیروی کار انجام می‌شود",
+      "trap": "با outsourcing فرق دارد؛ offshoring حتماً به خارج از کشور است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "downsizing",
+      "translation": "کاهش حجم، تعدیل نیرو",
+      "ipa": "/ˈdaʊnsaɪzɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "The company announced a major downsizing that would affect 1,000 employees.",
+      "definitions": [
+        "the reduction of a company's workforce to improve efficiency"
+      ],
+      "synonyms": [
+        "layoffs",
+        "restructuring",
+        "rightsizing"
+      ],
+      "antonyms": [
+        "expansion",
+        "hiring"
+      ],
+      "collocations": [
+        "corporate downsizing",
+        "downsizing initiative",
+        "downsizing plan"
+      ],
+      "wordFamily": [
+        "downsize (v)"
+      ],
+      "coreMeaning": "کاهش تعداد کارمندان برای بهبود کارایی و کاهش هزینه‌ها",
+      "note": "اغلب euphemism (مخفف) برای اخراج گروهی است",
+      "trap": "با downgrade (تنزل) فرق دارد؛ downsizing کاهش تعداد نیروست",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "restructuring",
+      "translation": "بازسازی ساختاری",
+      "ipa": "/riːˈstrʌktʃərɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "The company underwent restructuring to adapt to the digital economy.",
+      "definitions": [
+        "the organized alteration of a company's structure to improve efficiency"
+      ],
+      "synonyms": [
+        "reorganization",
+        "overhaul",
+        "reform"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "corporate restructuring",
+        "debt restructuring",
+        "restructuring plan"
+      ],
+      "wordFamily": [
+        "restructure (v)"
+      ],
+      "coreMeaning": "تغییر اساسی در ساختار سازمانی برای بهبود عملکرد",
+      "note": "restructuring ممکن است شامل ادغام بخش‌ها، حذف پست‌ها یا تغییر فرآیندها باشد",
+      "trap": "با reconstruction (بازسازی فیزیکی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "succession",
+      "translation": "جانشینی، جانشین‌پروری",
+      "ipa": "/səkˈseʃən/",
+      "partOfSpeech": "noun",
+      "example": "The board is developing a succession plan for the retiring CEO.",
+      "definitions": [
+        "the process of replacing one leader with another; a series of things"
+      ],
+      "synonyms": [
+        "replacement",
+        "transition",
+        "continuation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "succession planning",
+        "succession plan",
+        "line of succession"
+      ],
+      "wordFamily": [
+        "succeed (v)",
+        "successor (n)"
+      ],
+      "coreMeaning": "فرآیند آماده‌سازی جانشین برای رهبران و مدیران کلیدی",
+      "note": "succession planning تضمین می‌کند که سازمان بدون وقفه ادامه یابد",
+      "trap": "با success (موفقیت) اشتباه نگیرید؛ succession به جانشینی اشاره دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "pipeline",
+      "translation": "خط لوله، مسیر توسعه",
+      "ipa": "/ˈpaɪplaɪn/",
+      "partOfSpeech": "noun",
+      "example": "The company has a strong pipeline of new products in development.",
+      "definitions": [
+        "a channel or system for moving something; a series of stages in a process"
+      ],
+      "synonyms": [
+        "channel",
+        "conduit",
+        "sequence"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "talent pipeline",
+        "product pipeline",
+        "sales pipeline"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مجموعه‌ای از پروژه‌ها، محصولات یا نامزدها در مراحل مختلف توسعه",
+      "note": "talent pipeline فهرست نامزدهای بالقوه برای موقعیت‌های آینده است",
+      "trap": "فقط به معنای لوله فیزیکی نیست؛ در کسب‌وکار به مسیر توسعه اشاره دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "attrition",
+      "translation": "فرسایش، کاهش تدریجی نیرو",
+      "ipa": "/əˈtrɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The company reduced headcount through attrition rather than layoffs.",
+      "definitions": [
+        "gradual reduction in workforce through resignations and retirements"
+      ],
+      "synonyms": [
+        "turnover",
+        "wastage",
+        "erosion"
+      ],
+      "antonyms": [
+        "growth",
+        "expansion"
+      ],
+      "collocations": [
+        "natural attrition",
+        "attrition rate",
+        "reduce by attrition"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "کاهش تدریجی تعداد کارمندان بدون استخدام جایگزین",
+      "note": "attrition strategy یعنی عدم استخدام جایگزین برای کاهش هزینه",
+      "trap": "با addition (اضافه) اشتباه نگیرید؛ attrition کاهش است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "absenteeism",
+      "translation": "غیبت مکرر، غیبت‌گرایی",
+      "ipa": "/ˌæbsənˈtiːɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "High absenteeism can indicate low morale or poor working conditions.",
+      "definitions": [
+        "the practice of regularly staying away from work without good reason"
+      ],
+      "synonyms": [
+        "truancy",
+        "non-attendance"
+      ],
+      "antonyms": [
+        "attendance",
+        "presence"
+      ],
+      "collocations": [
+        "high absenteeism",
+        "absenteeism rate",
+        "reduce absenteeism"
+      ],
+      "wordFamily": [
+        "absentee (n)",
+        "absent (adj)"
+      ],
+      "coreMeaning": "غیبت مکرر و غیرموجه کارمندان از محل کار",
+      "note": "absenteeism بالا نشان‌دهنده مشکلات سازمانی است",
+      "trap": "با absence (غیبت) فرق دارد؛ absenteeism الگوی مکرر غیبت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "telecommuting",
+      "translation": "دورکاری",
+      "ipa": "/ˈtelɪkəmjuːtɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Telecommuting has become more common since the pandemic.",
+      "definitions": [
+        "working from home using technology to connect with the office"
+      ],
+      "synonyms": [
+        "remote work",
+        "working from home",
+        "teleworking"
+      ],
+      "antonyms": [
+        "office work"
+      ],
+      "collocations": [
+        "telecommuting policy",
+        "telecommuting arrangement",
+        "telecommuting jobs"
+      ],
+      "wordFamily": [
+        "telecommute (v)",
+        "telecommuter (n)"
+      ],
+      "coreMeaning": "انجام کار اداری از خانه با استفاده از فناوری ارتباطی",
+      "note": "telecommuting و remote work تقریباً مترادف هستند",
+      "trap": "با telecommunication (مخابرات) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "hybrid",
+      "translation": "ترکیبی، هیبریدی",
+      "ipa": "/ˈhaɪbrɪd/",
+      "partOfSpeech": "adj",
+      "example": "Many companies now offer hybrid work arrangements.",
+      "definitions": [
+        "combining two different things; a mixture of office and remote work"
+      ],
+      "synonyms": [
+        "combined",
+        "mixed",
+        "blended"
+      ],
+      "antonyms": [
+        "pure",
+        "single"
+      ],
+      "collocations": [
+        "hybrid work",
+        "hybrid model",
+        "hybrid approach"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ترکیبی از دو روش مختلف، معمولاً کار حضوری و دورکاری",
+      "note": "hybrid work model ترکیبی از کار در دفتر و کار از خانه است",
+      "trap": "با high bridge (پل بلند) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "coworking",
+      "translation": "فضای کاری مشترک",
+      "ipa": "/ˈkoʊwɜːrkɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Freelancers often prefer coworking spaces for networking opportunities.",
+      "definitions": [
+        "the use of a shared working environment by different professionals"
+      ],
+      "synonyms": [
+        "shared office",
+        "collaborative workspace"
+      ],
+      "antonyms": [
+        "private office"
+      ],
+      "collocations": [
+        "coworking space",
+        "coworking office",
+        "coworking membership"
+      ],
+      "wordFamily": [
+        "coworker (n)"
+      ],
+      "coreMeaning": "فضای کاری اشتراکی که افراد مختلف در آن کار می‌کنند",
+      "note": "coworking spaces معمولاً برای فریلنسرها و استارتاپ‌ها مناسب هستند",
+      "trap": "با coworker (همکار) اشتباه نگیرید؛ coworking فضای کاری است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "brainstorming",
+      "translation": "طوفان فکری، ایده‌پردازی گروهی",
+      "ipa": "/ˈbreɪnstɔːrmɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Brainstorming sessions help generate creative solutions to problems.",
+      "definitions": [
+        "a group activity to produce ideas spontaneously"
+      ],
+      "synonyms": [
+        "ideation",
+        "creative thinking",
+        "idea generation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "brainstorming session",
+        "brainstorming technique",
+        "brainstorming meeting"
+      ],
+      "wordFamily": [
+        "brainstorm (v)"
+      ],
+      "coreMeaning": "فرآیند تولید ایده‌های خلاقانه از طریق بحث گروهی آزاد",
+      "note": "در brainstorming هیچ ایده‌ای رد نمی‌شود و همه مشارکت می‌کنند",
+      "trap": "با brainwashing (شستشوی مغزی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "pitch",
+      "translation": "ارائه، پرزنتیشن کوتاه",
+      "ipa": "/pɪtʃ/",
+      "partOfSpeech": "noun",
+      "example": "The startup prepared a five-minute pitch for potential investors.",
+      "definitions": [
+        "a persuasive presentation of a business idea; to present an idea"
+      ],
+      "synonyms": [
+        "presentation",
+        "proposal",
+        "sales talk"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "elevator pitch",
+        "pitch to investors",
+        "sales pitch"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ارائه کوتاه و متقاعدکننده یک ایده یا محصول",
+      "note": "elevator pitch ارائه‌ای کوتاه به اندازه یک سوار شدن آسانسور",
+      "trap": "با pitch (زمین بازی) اشتباه نگیرید؛ pitch ارائه تجاری است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "proposal",
+      "translation": "پیشنهاد، طرح پیشنهادی",
+      "ipa": "/prəˈpoʊzəl/",
+      "partOfSpeech": "noun",
+      "example": "The team submitted a detailed proposal for the government contract.",
+      "definitions": [
+        "a formal plan or suggestion put forward for consideration"
+      ],
+      "synonyms": [
+        "suggestion",
+        "proposition",
+        "bid"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "business proposal",
+        "submit a proposal",
+        "proposal review"
+      ],
+      "wordFamily": [
+        "propose (v)"
+      ],
+      "coreMeaning": "طرح رسمی و مکتوب پیشنهادی برای انجام کار یا پروژه",
+      "note": "proposal معمولاً شامل بودجه، زمان‌بندی و جزئیات اجرا است",
+      "trap": "با proposition (پیشنهاد) تفاوت ظریفی دارد؛ proposal رسمی‌تر است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "quotation",
+      "translation": "پیش‌فاکتور، نقل‌قول",
+      "ipa": "/kwoʊˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "We received three quotations from different suppliers.",
+      "definitions": [
+        "a formal statement of the price for goods or services; a repeated phrase"
+      ],
+      "synonyms": [
+        "quote",
+        "estimate",
+        "bid"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "request a quotation",
+        "quotation mark",
+        "price quotation"
+      ],
+      "wordFamily": [
+        "quote (v)"
+      ],
+      "coreMeaning": "اعلام رسمی قیمت کالا یا خدمات قبل از خرید",
+      "note": "quotation و quote هر دو صحیح هستند؛ quote غیررسمی‌تر است",
+      "trap": "با quote (نقل‌قول) فرق دارد؛ quotation رسمی‌تر و دقیق‌تر است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "tender",
+      "translation": "مناقصه، پیشنهاد قیمت",
+      "ipa": "/ˈtendər/",
+      "partOfSpeech": "noun",
+      "example": "The government issued a tender for the construction project.",
+      "definitions": [
+        "a formal offer to supply goods or carry out work at a stated price"
+      ],
+      "synonyms": [
+        "bid",
+        "offer",
+        "proposal"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "submit a tender",
+        "tender process",
+        "open tender"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فرآیند رسمی ارائه پیشنهاد قیمت برای انجام پروژه",
+      "note": "در مناقصه، معمولاً پیشنهاد با کمترین قیمت و بهترین کیفیت برنده می‌شود",
+      "trap": "با tender (ملایم) اشتباه نگیرید؛ tender مناقصه معنای تجاری دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "bid",
+      "translation": "پیشنهاد قیمت، مناقصه",
+      "ipa": "/bɪd/",
+      "partOfSpeech": "noun",
+      "example": "Several companies placed a bid for the construction contract.",
+      "definitions": [
+        "an offer to pay a certain price; an attempt to win a contract"
+      ],
+      "synonyms": [
+        "offer",
+        "tender",
+        "proposal"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "place a bid",
+        "win a bid",
+        "bid for a contract"
+      ],
+      "wordFamily": [
+        "bidder (n)"
+      ],
+      "coreMeaning": "پیشنهاد رسمی قیمت برای خرید یا انجام پروژه",
+      "note": "bid می‌تواند در مناقصه، حراج یا مذاکره استفاده شود",
+      "trap": "با bid (دستور) در بازی ورق اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "supplier",
+      "translation": "تأمین‌کننده، عرضه‌کننده",
+      "ipa": "/səˈplaɪər/",
+      "partOfSpeech": "noun",
+      "example": "We need to find a reliable supplier for raw materials.",
+      "definitions": [
+        "a person or company that provides goods or services"
+      ],
+      "synonyms": [
+        "vendor",
+        "provider",
+        "distributor"
+      ],
+      "antonyms": [
+        "customer",
+        "buyer"
+      ],
+      "collocations": [
+        "key supplier",
+        "supplier agreement",
+        "supplier chain"
+      ],
+      "wordFamily": [
+        "supply (v/n)"
+      ],
+      "coreMeaning": "شرکت یا فردی که کالا یا خدمات به شرکت‌ها ارائه می‌دهد",
+      "note": "supplier management مدیریت ارتباط با تأمین‌کنندگان است",
+      "trap": "با supply (عرضه) فرق دارد؛ supplier شخص یا شرکت تأمین‌کننده است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "distributor",
+      "translation": "توزیع‌کننده",
+      "ipa": "/dɪˈstrɪbjətər/",
+      "partOfSpeech": "noun",
+      "example": "The company appointed a new distributor for the European market.",
+      "definitions": [
+        "a person or company that supplies goods to stores and businesses"
+      ],
+      "synonyms": [
+        "dealer",
+        "wholesaler",
+        "agent"
+      ],
+      "antonyms": [
+        "manufacturer",
+        "producer"
+      ],
+      "collocations": [
+        "authorized distributor",
+        "exclusive distributor",
+        "distributor network"
+      ],
+      "wordFamily": [
+        "distribute (v)",
+        "distribution (n)"
+      ],
+      "coreMeaning": "شرکتی که محصولات را از تولیدکننده به خرده‌فروشان منتقل می‌کند",
+      "note": "distributor نقش واسطه بین تولیدکننده و مصرف‌کننده را دارد",
+      "trap": "با contributor (مشارکت‌کننده) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "manufacturer",
+      "translation": "تولیدکننده، سازنده",
+      "ipa": "/ˌmænjuˈfæktʃərər/",
+      "partOfSpeech": "noun",
+      "example": "The manufacturer recalled the product due to safety concerns.",
+      "definitions": [
+        "a person or company that makes goods on a large scale"
+      ],
+      "synonyms": [
+        "producer",
+        "maker",
+        "factory"
+      ],
+      "antonyms": [
+        "consumer",
+        "buyer"
+      ],
+      "collocations": [
+        "car manufacturer",
+        "manufacturing company",
+        "original manufacturer"
+      ],
+      "wordFamily": [
+        "manufacture (v)",
+        "manufacturing (n)"
+      ],
+      "coreMeaning": "شرکت یا فردی که محصولات را در مقیاس بزرگ تولید می‌کند",
+      "note": "manufacturer معمولاً به تولید صنعتی و انبوه اشاره دارد",
+      "trap": "با manual (دستی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "retailer",
+      "translation": "خرده‌فروش",
+      "ipa": "/ˈriːteɪlər/",
+      "partOfSpeech": "noun",
+      "example": "The largest retailer in the country announced record sales.",
+      "definitions": [
+        "a person or business that sells goods to consumers"
+      ],
+      "synonyms": [
+        "shopkeeper",
+        "merchant",
+        "dealer"
+      ],
+      "antonyms": [
+        "wholesaler",
+        "manufacturer"
+      ],
+      "collocations": [
+        "online retailer",
+        "major retailer",
+        "retailer agreement"
+      ],
+      "wordFamily": [
+        "retail (n/adj)",
+        "retailing (n)"
+      ],
+      "coreMeaning": "فروشنده‌ای که محصولات را مستقیماً به مصرف‌کننده نهایی می‌فروشد",
+      "note": "retailer آخرین حلقه زنجیره تأمین قبل از مصرف‌کننده است",
+      "trap": "با detailer (جزئیات‌کار) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "proprietor",
+      "translation": "مالک، صاحب کسب‌وکار",
+      "ipa": "/prəˈpraɪətər/",
+      "partOfSpeech": "noun",
+      "example": "The proprietor of the restaurant personally greets every customer.",
+      "definitions": [
+        "the owner of a business or property"
+      ],
+      "synonyms": [
+        "owner",
+        "operator",
+        "manager"
+      ],
+      "antonyms": [
+        "tenant",
+        "renter"
+      ],
+      "collocations": [
+        "sole proprietor",
+        "proprietor of a business",
+        "proprietorship"
+      ],
+      "wordFamily": [
+        "proprietorship (n)",
+        "proprietary (adj)"
+      ],
+      "coreMeaning": "مالک و صاحب یک کسب‌وکار یا ملک",
+      "note": "sole proprietorship ساده‌ترین نوع ساختار کسب‌وکار است",
+      "trap": "با property (املاک) اشتباه نگیرید؛ proprietor شخص مالک است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "noncompete",
+      "translation": "عدم رقابت، بند عدم رقابت",
+      "ipa": "/ˌnɑːnkəmˈpiːt/",
+      "partOfSpeech": "adj",
+      "example": "The employee signed a noncompete agreement preventing him from joining a rival firm.",
+      "definitions": [
+        "a clause preventing an employee from working for competitors after leaving"
+      ],
+      "synonyms": [
+        "non-competition clause",
+        "restrictive covenant"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "noncompete clause",
+        "noncompete agreement",
+        "noncompete contract"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "قراردادی که کارمند را از کار برای رقبا پس از ترک شرکت منع می‌کند",
+      "note": "noncompete در برخی کشورها غیرقانونی یا محدود شده است",
+      "trap": "با noncompetitive (غیررقابتی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "churn",
+      "translation": "ریزش مشتری، جابجایی",
+      "ipa": "/tʃɜːrn/",
+      "partOfSpeech": "noun",
+      "example": "The company's customer churn rate increased by 15% this quarter.",
+      "definitions": [
+        "the rate at which customers stop doing business with a company"
+      ],
+      "synonyms": [
+        "turnover",
+        "attrition",
+        "loss"
+      ],
+      "antonyms": [
+        "retention"
+      ],
+      "collocations": [
+        "churn rate",
+        "customer churn",
+        "reduce churn"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نرخ از دست دادن مشتریان یا کارمندان در یک دوره زمانی",
+      "note": "churn rate پایین نشان‌دهنده رضایت مشتریان است",
+      "trap": "با church (کلیسا) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "conversion",
+      "translation": "تبدیل، نرخ تبدیل",
+      "ipa": "/kənˈvɜːrʒən/",
+      "partOfSpeech": "noun",
+      "example": "The marketing team improved the website's conversion rate by 25%.",
+      "definitions": [
+        "the process of changing something from one form to another; turning leads into customers"
+      ],
+      "synonyms": [
+        "transformation",
+        "change",
+        "switch"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "conversion rate",
+        "sales conversion",
+        "currency conversion"
+      ],
+      "wordFamily": [
+        "convert (v)"
+      ],
+      "coreMeaning": "تبدیل بازدیدکننده یا مخاطب به مشتری واقعی",
+      "note": "conversion rate یکی از مهم‌ترین شاخص‌های بازاریابی دیجیتال است",
+      "trap": "با conversation (مکالمه) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "funnel",
+      "translation": "قیف فروش، قیف بازاریابی",
+      "ipa": "/ˈfʌnəl/",
+      "partOfSpeech": "noun",
+      "example": "Understanding the sales funnel helps optimize the customer journey.",
+      "definitions": [
+        "a process where the number of potential customers decreases at each stage"
+      ],
+      "synonyms": [
+        "pipeline",
+        "process",
+        "stages"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sales funnel",
+        "marketing funnel",
+        "funnel analysis"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فرآیند تبدیل مخاطبان بالقوه به مشتریان واقعی در مراحل مختلف",
+      "note": "sales funnel شامل مراحل آگاهی، علاقه، تصمیم و اقدام است",
+      "trap": "با funny (خنده‌دار) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "benchmarking",
+      "translation": "نقطه‌گذاری معیار، مقایسه با استاندارد",
+      "ipa": "/ˈbentʃmɑːrkɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Benchmarking against competitors helps identify areas for improvement.",
+      "definitions": [
+        "the process of comparing business processes to best practices in the industry"
+      ],
+      "synonyms": [
+        "comparison",
+        "evaluation",
+        "assessment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "competitive benchmarking",
+        "benchmarking study",
+        "benchmarking process"
+      ],
+      "wordFamily": [
+        "benchmark (n/v)"
+      ],
+      "coreMeaning": "مقایسه عملکرد شرکت با بهترین‌های صنعت برای شناسایی نقاط بهبود",
+      "note": "benchmarking ابزار مهم مدیریت کیفیت و بهبود مستمر است",
+      "trap": "با benchmark (معیار) فرق دارد؛ benchmarking فرآیند مقایسه است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "presenteeism",
+      "translation": "حاضر بودن بدون بهره‌وری",
+      "ipa": "/ˌprezənˈtiːɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Presenteeism, where employees work while sick, can reduce overall productivity.",
+      "definitions": [
+        "the practice of coming to work despite being unwell or unproductive"
+      ],
+      "synonyms": [
+        "working while sick",
+        "attendance without productivity"
+      ],
+      "antonyms": [
+        "absenteeism"
+      ],
+      "collocations": [
+        "workplace presenteeism",
+        "reduce presenteeism",
+        "presenteeism costs"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "حضور در محل کار بدون توانایی انجام مؤثر کار به دلیل بیماری یا خستگی",
+      "note": "presenteeism می‌تواند بیشتر از absenteeism به شرکت آسیب بزند",
+      "trap": "با absenteeism (غیبت) متضاد است ولی هر دو مشکل‌ساز هستند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "flextime",
+      "translation": "ساعت کاری منعطف",
+      "ipa": "/ˈflekstaɪm/",
+      "partOfSpeech": "noun",
+      "example": "The company introduced flextime to help employees balance work and family.",
+      "definitions": [
+        "a system allowing employees to choose their working hours within limits"
+      ],
+      "synonyms": [
+        "flexible hours",
+        "flexible schedule",
+        "flexitime"
+      ],
+      "antonyms": [
+        "fixed hours"
+      ],
+      "collocations": [
+        "flextime policy",
+        "offer flextime",
+        "flextime arrangement"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سیستمی که به کارمندان اجازه می‌دهد ساعت شروع و پایان کار را انتخاب کنند",
+      "note": "flextime معمولاً شامل ساعت‌های اصلی (core hours) است که همه باید حاضر باشند",
+      "trap": "با flex (خم کردن) اشتباه نگیرید؛ flextime سیستم ساعت کاری است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "hot-desking",
+      "translation": "میز کاری اشتراکی",
+      "ipa": "/ˈhɑːt deskɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Hot-desking allows employees to sit at any available desk in the office.",
+      "definitions": [
+        "a system where employees do not have assigned desks and use any available one"
+      ],
+      "synonyms": [
+        "desk sharing",
+        "flexible seating"
+      ],
+      "antonyms": [
+        "assigned seating"
+      ],
+      "collocations": [
+        "hot-desking policy",
+        "hot-desking arrangement",
+        "hot-desking office"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سیستمی که کارمندان میز ثابت ندارند و از هر میز خالی استفاده می‌کنند",
+      "note": "hot-desking در فضاهای کاری انعطاف‌پذیر و دورکاری رایج است",
+      "trap": "با hot dog (هات‌داگ) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "whiteboarding",
+      "translation": "ایده‌پردازی روی تخته",
+      "ipa": "/ˈwaɪtbɔːrdɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "The team used whiteboarding to map out the customer journey.",
+      "definitions": [
+        "the process of brainstorming and planning using a whiteboard"
+      ],
+      "synonyms": [
+        "brainstorming",
+        "visual planning",
+        "collaborative drawing"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "whiteboarding session",
+        "digital whiteboarding",
+        "whiteboarding tool"
+      ],
+      "wordFamily": [
+        "whiteboard (n)"
+      ],
+      "coreMeaning": "فرآیند تفکر بصری و ایده‌پردازی با استفاده از تخته وایت‌بورد",
+      "note": "ابزارهای دیجیتال whiteboarding مثل Miro و Mural بسیار محبوب شده‌اند",
+      "trap": "با whiteboard (تخته) فرق دارد؛ whiteboarding فرآیند استفاده از آن است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "quit",
+      "translation": "ترک کردن شغل",
+      "ipa": "/kwɪt/",
+      "partOfSpeech": "verb",
+      "example": "She quit her job to start her own business.",
+      "definitions": [
+        "to leave a job permanently"
+      ],
+      "synonyms": [
+        "resign",
+        "leave"
+      ],
+      "antonyms": [
+        "stay",
+        "keep"
+      ],
+      "collocations": [
+        "quit a job",
+        "quit halfway"
+      ],
+      "wordFamily": [
+        "quitter (n)"
+      ],
+      "coreMeaning": "ترک داوطلبانه شغل",
+      "note": "quit غیررسمی‌تر از resign است. گذشته quit هم quit است",
+      "trap": "گذشته quit در آمریکایی quit است (نه quitted)",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "reference",
+      "translation": "توصیه‌نامه",
+      "ipa": "/ˈrɛfərəns/",
+      "partOfSpeech": "noun",
+      "example": "You need two references to apply.",
+      "definitions": [
+        "a person who vouches for you or a written recommendation"
+      ],
+      "synonyms": [
+        "recommendation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "provide a reference",
+        "character reference"
+      ],
+      "wordFamily": [
+        "refer (v)"
+      ],
+      "coreMeaning": "شخص یا نامه‌ای که صلاحیت شما را تأیید می‌کند",
+      "note": "معمولاً ۲ تا ۳ reference از کارفرمایان قبلی لازم است",
+      "trap": "reference (توصیه‌نامه) با referral (ارجاع) فرق دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "layoff",
+      "translation": "اخراج گروهی",
+      "ipa": "/ˈleɪɒf/",
+      "partOfSpeech": "noun",
+      "example": "The company announced layoffs due to the downturn.",
+      "definitions": [
+        "termination of a group of workers for economic reasons"
+      ],
+      "synonyms": [
+        "downsizing",
+        "redundancy"
+      ],
+      "antonyms": [
+        "hiring"
+      ],
+      "collocations": [
+        "mass layoff",
+        "layoff notice"
+      ],
+      "wordFamily": [
+        "lay off (v)"
+      ],
+      "coreMeaning": "اخراج گروهی به دلایل اقتصادی",
+      "note": "layoff معمولاً به دلیل مشکلات مالی شرکت است",
+      "trap": "layoff (اقتصادی) با fire (عملکرد) فرق دارد",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "presentation",
+      "translation": "ارائه",
+      "ipa": "/ˌprɛzənˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "She gave an excellent presentation.",
+      "definitions": [
+        "a formal talk to an audience"
+      ],
+      "synonyms": [
+        "lecture",
+        "talk"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "give a presentation",
+        "presentation skills"
+      ],
+      "wordFamily": [
+        "present (v)",
+        "presenter (n)"
+      ],
+      "coreMeaning": "ارائه رسمی اطلاعات به مخاطبان",
+      "note": "مهارت ارائه برای اکثر مشاغل حرفه‌ای ضروری است",
+      "trap": "presentation — تأکید روی هجای سوم است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "investment",
+      "translation": "سرمایه‌گذاری",
+      "ipa": "/ɪnˈvɛstmənt/",
+      "partOfSpeech": "noun",
+      "example": "Real estate is a safe long-term investment.",
+      "definitions": [
+        "putting money into something for profit"
+      ],
+      "synonyms": [
+        "venture",
+        "stake"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "make an investment",
+        "investment portfolio"
+      ],
+      "wordFamily": [
+        "invest (v)",
+        "investor (n)"
+      ],
+      "coreMeaning": "قرار دادن پول برای کسب سود",
+      "note": "ROI = Return on Investment = نرخ بازگشت سرمایه",
+      "trap": "investment و savings فرق دارند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "mortgage",
+      "translation": "وام مسکن",
+      "ipa": "/ˈmɔːrɡɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "They took out a 30-year mortgage.",
+      "definitions": [
+        "a loan to purchase property"
+      ],
+      "synonyms": [
+        "home loan"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "mortgage payment",
+        "mortgage rate"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "وام بلندمدت خرید ملک",
+      "note": "mortgage معمولاً ۱۵ تا ۳۰ ساله است",
+      "trap": "mortgage /ˈmɔːrɡɪdʒ/ — t ساکت است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "stock",
+      "translation": "سهام",
+      "ipa": "/stɒk/",
+      "partOfSpeech": "noun",
+      "example": "She invested in tech stocks.",
+      "definitions": [
+        "a share in company ownership"
+      ],
+      "synonyms": [
+        "share",
+        "equity"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "stock market",
+        "stock price"
+      ],
+      "wordFamily": [
+        "stockholder (n)"
+      ],
+      "coreMeaning": "سهم مالکیت در شرکت",
+      "note": "stock market = بازار بورس",
+      "trap": "stock (سهام) و inventory (موجودی) هر دو stock نامیده می‌شوند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "competitor",
+      "translation": "رقبا",
+      "ipa": "/kəmˈpɛtɪtər/",
+      "partOfSpeech": "noun",
+      "example": "We need to analyze our competitors.",
+      "definitions": [
+        "a company competing for the same business"
+      ],
+      "synonyms": [
+        "rival",
+        "opponent"
+      ],
+      "antonyms": [
+        "ally"
+      ],
+      "collocations": [
+        "main competitor",
+        "competitive advantage"
+      ],
+      "wordFamily": [
+        "compete (v)",
+        "competition (n)",
+        "competitive (adj)"
+      ],
+      "coreMeaning": "شرکت رقابت‌کننده",
+      "note": "competitive advantage = مزیت رقابتی",
+      "trap": "competitor (شخص) و competition (رقابت) متفاوت هستند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "strategy",
+      "translation": "استراتژی",
+      "ipa": "/ˈstrætədʒi/",
+      "partOfSpeech": "noun",
+      "example": "The company developed a new marketing strategy.",
+      "definitions": [
+        "a plan to achieve a long-term goal"
+      ],
+      "synonyms": [
+        "plan",
+        "approach"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "business strategy",
+        "long-term strategy"
+      ],
+      "wordFamily": [
+        "strategic (adj)"
+      ],
+      "coreMeaning": "برنامه عملیاتی برای هدف بلندمدت",
+      "note": "strategy (کلان) و tactic (جزئی) مکمل هم هستند",
+      "trap": "strategy کلان و tactic جزئی و اجرایی است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "tactic",
+      "translation": "تاکتیک",
+      "ipa": "/ˈtæktɪk/",
+      "partOfSpeech": "noun",
+      "example": "The sales team used new tactics.",
+      "definitions": [
+        "an action planned to achieve a specific end"
+      ],
+      "synonyms": [
+        "method",
+        "technique"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sales tactic",
+        "negotiation tactic"
+      ],
+      "wordFamily": [
+        "tactical (adj)"
+      ],
+      "coreMeaning": "روش عملی مشخص برای هدف",
+      "note": "tactic جزئی‌تر و کوتاه‌مدت‌تر از strategy است",
+      "trap": "tactic معمولاً جمع است: sales tactics",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "apprentice",
+      "translation": "شاگرد",
+      "ipa": "/əˈprɛntɪs/",
+      "partOfSpeech": "noun",
+      "example": "He started as an apprentice plumber.",
+      "definitions": [
+        "a person learning a trade from a skilled employer"
+      ],
+      "synonyms": [
+        "trainee",
+        "learner"
+      ],
+      "antonyms": [
+        "master"
+      ],
+      "collocations": [
+        "apprentice program",
+        "serve as an apprentice"
+      ],
+      "wordFamily": [
+        "apprenticeship (n)"
+      ],
+      "coreMeaning": "کسی که زیر نظر استادکار می‌آموزد",
+      "note": "apprenticeship معمولاً ۲ تا ۵ سال طول می‌کشد",
+      "trap": "apprentice (استادکار) و intern (دانشگاهی) فرق دارند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "CEO",
+      "translation": "مدیرعامل",
+      "ipa": "/ˌsiː iː ˈoʊ/",
+      "partOfSpeech": "noun",
+      "example": "The CEO announced the new direction.",
+      "definitions": [
+        "the highest-ranking person in a company"
+      ],
+      "synonyms": [
+        "managing director"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "CEO of the company",
+        "former CEO"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "بالاترین مقام اجرایی شرکت",
+      "note": "CEO بالاتر از COO, CFO و CTO است",
+      "trap": "CEO (اجرایی) و chairman (هیئت مدیره) فرق دارند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "CFO",
+      "translation": "مدیر مالی",
+      "ipa": "/ˌsiː ɛf ˈoʊ/",
+      "partOfSpeech": "noun",
+      "example": "The CFO presented the financial report.",
+      "definitions": [
+        "the executive responsible for finances"
+      ],
+      "synonyms": [
+        "finance director"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "CFO of the company",
+        "acting CFO"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مدیر ارشد امور مالی",
+      "note": "CFO مسئول بودجه، گزارش‌های مالی و استراتژی مالی",
+      "trap": "CFO (تصمیم‌گیرنده) و accountant (اجراکننده) فرق دارند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "CTO",
+      "translation": "مدیر فناوری",
+      "ipa": "/ˌsiː tiː ˈoʊ/",
+      "partOfSpeech": "noun",
+      "example": "The CTO oversees technology development.",
+      "definitions": [
+        "the executive responsible for technology strategy"
+      ],
+      "synonyms": [
+        "technology director"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "CTO of the company",
+        "co-founder and CTO"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مدیر ارشد استراتژی فناوری",
+      "note": "CTO معمولاً در شرکت‌های فناوری نقش کلیدی دارد",
+      "trap": "CTO (توسعه محصول) و CIO (زیرساخت IT) فرق دارند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "board",
+      "translation": "هیئت مدیره",
+      "ipa": "/bɔːrd/",
+      "partOfSpeech": "noun",
+      "example": "The board approved the new budget.",
+      "definitions": [
+        "a group overseeing an organization"
+      ],
+      "synonyms": [
+        "committee",
+        "council"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "board of directors",
+        "board meeting"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "گروه نظارتی و تصمیم‌گیری سازمان",
+      "note": "board of directors توسط سهامداران انتخاب می‌شوند",
+      "trap": "board هم هیئت مدیره و هم تخته است",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "chairman",
+      "translation": "رئیس هیئت مدیره",
+      "ipa": "/ˈtʃɛərmən/",
+      "partOfSpeech": "noun",
+      "example": "The chairman presided over the meeting.",
+      "definitions": [
+        "the person who leads a board"
+      ],
+      "synonyms": [
+        "chairperson",
+        "chair"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "chairman of the board"
+      ],
+      "wordFamily": [
+        "chair (n/v)"
+      ],
+      "coreMeaning": "رئیس هیئت مدیره",
+      "note": "امروزه chairperson بی‌جنسیتی ترجیح داده می‌شود",
+      "trap": "chairman و CEO ممکن است یک نفر باشند ولی معمولاً جدا هستند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "mentee",
+      "translation": "شاگرد / زیردست",
+      "ipa": "/mɛnˈtiː/",
+      "partOfSpeech": "noun",
+      "example": "The mentee benefited from the mentor's experience.",
+      "definitions": [
+        "a person guided by a mentor"
+      ],
+      "synonyms": [
+        "protégé"
+      ],
+      "antonyms": [
+        "mentor"
+      ],
+      "collocations": [
+        "mentor and mentee"
+      ],
+      "wordFamily": [
+        "mentor (n)"
+      ],
+      "coreMeaning": "شخص بهره‌مند از راهنمایی منتور",
+      "note": "mentee کلمه‌ای نسبتاً جدید از mentor",
+      "trap": "mentee (راهنمایی کلی) و apprentice (آموزش عملی) فرق دارند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "coworker",
+      "translation": "همکار",
+      "ipa": "/ˈkoʊwɜːrkər/",
+      "partOfSpeech": "noun",
+      "example": "She gets along with her coworkers.",
+      "definitions": [
+        "a person working in the same organization"
+      ],
+      "synonyms": [
+        "colleague",
+        "associate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fellow coworker"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "همکار در سازمان",
+      "note": "coworker غیررسمی‌تر از colleague است",
+      "trap": "coworker و colleague گاهی به جای هم استفاده می‌شوند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "superior",
+      "translation": "بالادست",
+      "ipa": "/suːˈpɪriər/",
+      "partOfSpeech": "noun",
+      "example": "She reported to her immediate superior.",
+      "definitions": [
+        "a person of higher rank"
+      ],
+      "synonyms": [
+        "boss",
+        "manager"
+      ],
+      "antonyms": [
+        "subordinate"
+      ],
+      "collocations": [
+        "immediate superior"
+      ],
+      "wordFamily": [
+        "superiority (n)"
+      ],
+      "coreMeaning": "شخص با رتبه بالاتر",
+      "note": "superior هم اسم و هم صفت (برتر) است",
+      "trap": "superior (مافوق) و supervisor (سرپرست) متفاوت هستند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    },
+    {
+      "word": "peer",
+      "translation": "هم‌رده",
+      "ipa": "/pɪər/",
+      "partOfSpeech": "noun",
+      "example": "Peer feedback is part of the review process.",
+      "definitions": [
+        "a person of the same status"
+      ],
+      "synonyms": [
+        "equal",
+        "counterpart"
+      ],
+      "antonyms": [
+        "superior"
+      ],
+      "collocations": [
+        "peer review",
+        "peer pressure"
+      ],
+      "wordFamily": [
+        "peer (v)"
+      ],
+      "coreMeaning": "فردی در همان سطح رتبه",
+      "note": "peer review = ارزیابی توسط همتایان",
+      "trap": "peer (هم‌رتبه) و colleague (همکار) فرق دارند",
+      "tags": [
+        "B1",
+        "career"
+      ]
+    }
+  ]
+}

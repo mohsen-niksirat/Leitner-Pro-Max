@@ -1,0 +1,3250 @@
+{
+  "name": "کار و مشاغل",
+  "description": "۱۰۰ کلمه درباره مشاغل، محل کار، حرفه و روزمره کاری — سطح A2",
+  "category": "A2 — پایه",
+  "level": "A2",
+  "packId": "A2-05",
+  "words": [
+    {
+      "word": "engineer",
+      "translation": "مهندس",
+      "ipa": "/ˌendʒɪˈnɪr/",
+      "partOfSpeech": "noun",
+      "example": "My sister is a software engineer at a big tech company.",
+      "definitions": [
+        "a person who designs, builds, or maintains engines, machines, or structures"
+      ],
+      "synonyms": [
+        "developer"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "civil engineer",
+        "software engineer",
+        "mechanical engineer"
+      ],
+      "wordFamily": [
+        "engineering (n)",
+        "engineer (v)"
+      ],
+      "coreMeaning": "شخصی که سیستم‌ها و سازه‌ها را طراحی و می‌سازد",
+      "note": "هم به‌عنوان اسم و هم فعل استفاده می‌شود",
+      "trap": "تلفظ: تأکید روی بخش سوم است، نه اول",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "lawyer",
+      "translation": "وکیل",
+      "ipa": "/ˈlɔɪər/",
+      "partOfSpeech": "noun",
+      "example": "She hired a lawyer to help with her contract.",
+      "definitions": [
+        "a person who practices law and gives legal advice"
+      ],
+      "synonyms": [
+        "attorney",
+        "solicitor"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "hire a lawyer",
+        "criminal lawyer",
+        "family lawyer"
+      ],
+      "wordFamily": [
+        "law (n)",
+        "lawful (adj)"
+      ],
+      "coreMeaning": "متخصص حقوق که در دادگاه نمایندگی می‌کند",
+      "note": "در بریتانیا بیشتر solicitor و barrister استفاده می‌شود",
+      "trap": "با liar (دروغگو) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "manager",
+      "translation": "مدیر",
+      "ipa": "/ˈmænɪdʒər/",
+      "partOfSpeech": "noun",
+      "example": "The manager asked everyone to attend the meeting.",
+      "definitions": [
+        "a person who controls or administers a business or department"
+      ],
+      "synonyms": [
+        "director",
+        "supervisor",
+        "boss"
+      ],
+      "antonyms": [
+        "employee"
+      ],
+      "collocations": [
+        "general manager",
+        "project manager",
+        "store manager"
+      ],
+      "wordFamily": [
+        "manage (v)",
+        "management (n)"
+      ],
+      "coreMeaning": "کسی که بخش یا سازمانی را اداره می‌کند",
+      "note": "مدیر کل = general manager",
+      "trap": "با manger (آخور) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "chef",
+      "translation": "سرآشپز",
+      "ipa": "/ʃef/",
+      "partOfSpeech": "noun",
+      "example": "The chef prepared a special dish for the guests.",
+      "definitions": [
+        "a professional cook, especially the head of a kitchen"
+      ],
+      "synonyms": [
+        "cook"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "head chef",
+        "pastry chef",
+        "chef's special"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "آشپز حرفه‌ای، مخصوصاً رئیس آشپزخانه",
+      "note": "از فرانسوی آمده؛ با cook فرق دارد چون chef حرفه‌ای‌تر است",
+      "trap": "chef و chief (رئیس) تلفظ متفاوت دارند",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "mechanic",
+      "translation": "مکانیک",
+      "ipa": "/məˈkænɪk/",
+      "partOfSpeech": "noun",
+      "example": "The mechanic fixed my car's engine.",
+      "definitions": [
+        "a person who repairs and maintains machinery, especially vehicles"
+      ],
+      "synonyms": [
+        "technician"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "car mechanic",
+        "auto mechanic",
+        "motorcycle mechanic"
+      ],
+      "wordFamily": [
+        "mechanical (adj)",
+        "mechanics (n)"
+      ],
+      "coreMeaning": "تعمیرکار ماشین‌آلات و خودرو",
+      "note": "مکانیک خودرو = car/auto mechanic",
+      "trap": "mechanic (شخص) ≠ mechanical (صفت مکانیکی)",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "accountant",
+      "translation": "حسابدار",
+      "ipa": "/əˈkaʊntənt/",
+      "partOfSpeech": "noun",
+      "example": "Our accountant checks the company's finances every month.",
+      "definitions": [
+        "a person who keeps and examines financial records"
+      ],
+      "synonyms": [
+        "bookkeeper"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "certified accountant",
+        "hire an accountant",
+        "accountant firm"
+      ],
+      "wordFamily": [
+        "account (n)",
+        "accounting (n)"
+      ],
+      "coreMeaning": "کسی که حساب‌های مالی را بررسی و ثبت می‌کند",
+      "note": "حسابدار رسمی = certified accountant",
+      "trap": "با account (حساب) و account (اکانت) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "journalist",
+      "translation": "روزنامه‌نگار",
+      "ipa": "/ˈdʒɜːrnəlɪst/",
+      "partOfSpeech": "noun",
+      "example": "The journalist wrote an article about the new policy.",
+      "definitions": [
+        "a person who collects and reports news for media"
+      ],
+      "synonyms": [
+        "reporter"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "investigative journalist",
+        "freelance journalist",
+        "journalist association"
+      ],
+      "wordFamily": [
+        "journalism (n)",
+        "journal (n)"
+      ],
+      "coreMeaning": "خبرنگار و نویسنده اخبار",
+      "note": "روزنامه‌نگار تحقیقی = investigative journalist",
+      "trap": "journalist ≠ journal؛ یکی شخص است و دیگری نشریه",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "office",
+      "translation": "دفتر کار",
+      "ipa": "/ˈɔːfɪs/",
+      "partOfSpeech": "noun",
+      "example": "She goes to the office at nine every morning.",
+      "definitions": [
+        "a room or building where people work at desks"
+      ],
+      "synonyms": [
+        "workplace"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "office hours",
+        "office building",
+        "home office"
+      ],
+      "wordFamily": [
+        "officer (n)",
+        "official (adj)"
+      ],
+      "coreMeaning": "محل کار با میز و صندلی",
+      "note": "دفتر خانگی = home office",
+      "trap": "office (دفتر) ≠ officer (افسر/مامور)",
+      "tags": [
+        "A2",
+        "work",
+        "workplace"
+      ]
+    },
+    {
+      "word": "factory",
+      "translation": "کارخانه",
+      "ipa": "/ˈfæktri/",
+      "partOfSpeech": "noun",
+      "example": "The factory produces over a thousand cars a day.",
+      "definitions": [
+        "a building where goods are manufactured"
+      ],
+      "synonyms": [
+        "plant",
+        "mill"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "factory worker",
+        "factory production",
+        "factory floor"
+      ],
+      "wordFamily": [
+        "manufacture (v)"
+      ],
+      "coreMeaning": "محل تولید کالا در مقیاس بزرگ",
+      "note": "جمع: factories",
+      "trap": "factory ≠ factor (عامل)؛ فقط یک حرف فرق دارد",
+      "tags": [
+        "A2",
+        "work",
+        "workplace"
+      ]
+    },
+    {
+      "word": "meeting",
+      "translation": "جلسه",
+      "ipa": "/ˈmiːtɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "We have a team meeting every Monday morning.",
+      "definitions": [
+        "an event where people come together to discuss something"
+      ],
+      "synonyms": [
+        "conference",
+        "gathering"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "team meeting",
+        "board meeting",
+        "meeting room"
+      ],
+      "wordFamily": [
+        "meet (v)"
+      ],
+      "coreMeaning": "گردهمایی برای بحث و تصمیم‌گیری",
+      "note": "اتاق جلسه = meeting room",
+      "trap": "meeting (جلسه) ≠ meting (توزیع کردن - نادر)",
+      "tags": [
+        "A2",
+        "work",
+        "workplace"
+      ]
+    },
+    {
+      "word": "deadline",
+      "translation": "مهلت / ضرب‌الاجل",
+      "ipa": "/ˈdedlaɪn/",
+      "partOfSpeech": "noun",
+      "example": "The deadline for the report is next Friday.",
+      "definitions": [
+        "the latest time or date by which something must be completed"
+      ],
+      "synonyms": [
+        "time limit",
+        "due date"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "meet a deadline",
+        "miss a deadline",
+        "tight deadline"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "آخرین زمان مجاز برای انجام کاری",
+      "note": "مهلت را رعایت کردن = meet a deadline",
+      "trap": "miss a deadline یعنی از مهلت جا ماندن، نه از دست دادن",
+      "tags": [
+        "A2",
+        "work",
+        "workplace"
+      ]
+    },
+    {
+      "word": "project",
+      "translation": "پروژه",
+      "ipa": "/ˈprɒdʒekt/",
+      "partOfSpeech": "noun",
+      "example": "The team is working on a new project.",
+      "definitions": [
+        "a planned piece of work that is completed over a period of time"
+      ],
+      "synonyms": [
+        "task",
+        "assignment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "project manager",
+        "complete a project",
+        "work on a project"
+      ],
+      "wordFamily": [
+        "projection (n)"
+      ],
+      "coreMeaning": "کار برنامه‌ریزی‌شده با هدف مشخص",
+      "note": "اسم: /ˈprɒdʒekt/ — فعل: /prəˈdʒekt/",
+      "trap": "تأکید اسم و فعل متفاوت است",
+      "tags": [
+        "A2",
+        "work",
+        "workplace"
+      ]
+    },
+    {
+      "word": "report",
+      "translation": "گزارش",
+      "ipa": "/rɪˈpɔːrt/",
+      "partOfSpeech": "noun",
+      "example": "I need to finish the sales report by tomorrow.",
+      "definitions": [
+        "a written or spoken account of something observed or investigated"
+      ],
+      "synonyms": [
+        "account",
+        "summary"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "write a report",
+        "annual report",
+        "progress report"
+      ],
+      "wordFamily": [
+        "reporter (n)"
+      ],
+      "coreMeaning": "خلاصه نوشتاری یا شفاهی از مشاهدات و بررسی‌ها",
+      "note": "گزارش سالانه = annual report",
+      "trap": "report هم اسم و هم فعل است",
+      "tags": [
+        "A2",
+        "work",
+        "workplace"
+      ]
+    },
+    {
+      "word": "interview",
+      "translation": "مصاحبه",
+      "ipa": "/ˈɪntərvjuː/",
+      "partOfSpeech": "noun",
+      "example": "She has a job interview at ten o'clock.",
+      "definitions": [
+        "a formal meeting where someone is asked questions, especially for a job"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "job interview",
+        "interview questions",
+        "go for an interview"
+      ],
+      "wordFamily": [
+        "interviewer (n)",
+        "interviewee (n)"
+      ],
+      "coreMeaning": "ملاقات رسمی برای پرسش و پاسخ، مخصوصاً برای استخدام",
+      "note": "مصاحبه شغلی = job interview",
+      "trap": "interviewer (مصاحبه‌کننده) ≠ interviewee (مصاحبه‌شونده)",
+      "tags": [
+        "A2",
+        "work",
+        "workplace"
+      ]
+    },
+    {
+      "word": "promotion",
+      "translation": "ارتقای شغلی",
+      "ipa": "/prəˈmoʊʃn/",
+      "partOfSpeech": "noun",
+      "example": "He got a promotion after three years at the company.",
+      "definitions": [
+        "advancement to a higher position or rank in a job"
+      ],
+      "synonyms": [
+        "advancement",
+        "rise"
+      ],
+      "antonyms": [
+        "demotion"
+      ],
+      "collocations": [
+        "get a promotion",
+        "earn a promotion",
+        "promotion opportunity"
+      ],
+      "wordFamily": [
+        "promote (v)"
+      ],
+      "coreMeaning": "پیشرفت و ارتقا به مقام بالاتر در کار",
+      "note": "ارتقا گرفتن = get/receive a promotion",
+      "trap": "promotion همچنین به معنای تبلیغات است",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "experience",
+      "translation": "تجربه",
+      "ipa": "/ɪkˈspɪriəns/",
+      "partOfSpeech": "noun",
+      "example": "This job requires two years of experience.",
+      "definitions": [
+        "knowledge or skill gained through doing something over time"
+      ],
+      "synonyms": [
+        "expertise",
+        "knowledge"
+      ],
+      "antonyms": [
+        "inexperience"
+      ],
+      "collocations": [
+        "work experience",
+        "gain experience",
+        "years of experience"
+      ],
+      "wordFamily": [
+        "experienced (adj)"
+      ],
+      "coreMeaning": "دانش و مهارت حاصل از انجام کار در طول زمان",
+      "note": "تجربه کاری = work experience",
+      "trap": "تجربه کسب کردن = gain experience (نه take experience)",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "skill",
+      "translation": "مهارت",
+      "ipa": "/skɪl/",
+      "partOfSpeech": "noun",
+      "example": "Communication skills are important for this position.",
+      "definitions": [
+        "the ability to do something well, gained through training or practice"
+      ],
+      "synonyms": [
+        "ability",
+        "talent",
+        "expertise"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "communication skills",
+        "language skills",
+        "learn a skill"
+      ],
+      "wordFamily": [
+        "skilled (adj)",
+        "skillful (adj)"
+      ],
+      "coreMeaning": "توانایی انجام خوب کاری از طریق تمرین",
+      "note": "مهارت‌های نرم = soft skills",
+      "trap": "skill (مهارت) ≠ skull (جمجمه)",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "qualification",
+      "translation": "صلاحیت / مدرک",
+      "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+      "partOfSpeech": "noun",
+      "example": "You need a university qualification for this job.",
+      "definitions": [
+        "an official record showing that someone has completed a course of training"
+      ],
+      "synonyms": [
+        "credential",
+        "certificate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "professional qualification",
+        "meet the qualifications",
+        "academic qualification"
+      ],
+      "wordFamily": [
+        "qualify (v)",
+        "qualified (adj)"
+      ],
+      "coreMeaning": "مدرک یا گواهی رسمی برای احراز صلاحیت",
+      "note": "صلاحیت حرفه‌ای = professional qualification",
+      "trap": "qualification ≠ quality (کیفیت)",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "apply",
+      "translation": "درخواست دادن",
+      "ipa": "/əˈplaɪ/",
+      "partOfSpeech": "verb",
+      "example": "I want to apply for the marketing position.",
+      "definitions": [
+        "to make a formal request for something, such as a job"
+      ],
+      "synonyms": [
+        "submit an application"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "apply for a job",
+        "apply online",
+        "apply to a company"
+      ],
+      "wordFamily": [
+        "application (n)",
+        "applicant (n)"
+      ],
+      "coreMeaning": "ارسال درخواست رسمی برای شغل یا چیزی",
+      "note": "درخواست شغل = apply for a job",
+      "trap": "apply for (درخواست) ≠ apply to (اعمال کردن)",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "hire",
+      "translation": "استخدام کردن",
+      "ipa": "/ˈhaɪər/",
+      "partOfSpeech": "verb",
+      "example": "The company wants to hire ten new employees.",
+      "definitions": [
+        "to give someone a job or pay them to do work"
+      ],
+      "synonyms": [
+        "employ",
+        "recruit"
+      ],
+      "antonyms": [
+        "fire",
+        "dismiss"
+      ],
+      "collocations": [
+        "hire someone",
+        "hire new staff",
+        "hire and fire"
+      ],
+      "wordFamily": [
+        "hire (n)"
+      ],
+      "coreMeaning": "پذیرفتن کسی برای کار و پرداخت حقوق",
+      "note": "استخدام و اخراج = hire and fire",
+      "trap": "hire (استخدام) ≠ fire (اخراج) — متضاد هستند",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "fire",
+      "translation": "اخراج کردن",
+      "ipa": "/ˈfaɪər/",
+      "partOfSpeech": "verb",
+      "example": "He was fired for being late every day.",
+      "definitions": [
+        "to dismiss someone from their job"
+      ],
+      "synonyms": [
+        "dismiss",
+        "sack",
+        "let go"
+      ],
+      "antonyms": [
+        "hire",
+        "employ"
+      ],
+      "collocations": [
+        "get fired",
+        "fire someone",
+        "fire an employee"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "برکنار کردن کسی از کار",
+      "note": "اخراج شدن = get fired",
+      "trap": "fire همچنین به معنای آتش است؛ از روی جمله تشخیص دهید",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "resign",
+      "translation": "استعفا دادن",
+      "ipa": "/rɪˈzaɪn/",
+      "partOfSpeech": "verb",
+      "example": "She decided to resign from her position.",
+      "definitions": [
+        "to voluntarily leave a job or position"
+      ],
+      "synonyms": [
+        "quit",
+        "step down"
+      ],
+      "antonyms": [
+        "stay",
+        "remain"
+      ],
+      "collocations": [
+        "resign from a job",
+        "resign from a position",
+        "hand in resignation"
+      ],
+      "wordFamily": [
+        "resignation (n)"
+      ],
+      "coreMeaning": "ترک داوطلبانه شغل",
+      "note": "استعفا دادن = resign / hand in one's resignation",
+      "trap": "resign ≠ re-sign؛ re-sign یعنی دوباره امضا کردن",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "commute",
+      "translation": "رفت‌وآمد روزانه به محل کار",
+      "ipa": "/kəˈmjuːt/",
+      "partOfSpeech": "verb",
+      "example": "She commutes to work by train every day.",
+      "definitions": [
+        "to travel regularly between home and work"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "commute to work",
+        "long commute",
+        "commute by bus"
+      ],
+      "wordFamily": [
+        "commuter (n)",
+        "commute (n)"
+      ],
+      "coreMeaning": "سفر روزانه بین خانه و محل کار",
+      "note": "مسیر رفت‌وآمد = commute (اسم)",
+      "trap": "commute ≠ communicate؛ فقط رفت‌وآمد است",
+      "tags": [
+        "A2",
+        "work",
+        "daily routine"
+      ]
+    },
+    {
+      "word": "overtime",
+      "translation": "اضافه‌کاری",
+      "ipa": "/ˈoʊvərtaɪm/",
+      "partOfSpeech": "noun",
+      "example": "He works overtime almost every Friday.",
+      "definitions": [
+        "time worked beyond the normal working hours"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "work overtime",
+        "overtime pay",
+        "overtime hours"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ساعات کاری بیشتر از حد معمول",
+      "note": "اضافه‌کاری کردن = work overtime",
+      "trap": "overtime هم اسم و هم قید است",
+      "tags": [
+        "A2",
+        "work",
+        "daily routine"
+      ]
+    },
+    {
+      "word": "shift",
+      "translation": "شیفت / نوبت کاری",
+      "ipa": "/ʃɪft/",
+      "partOfSpeech": "noun",
+      "example": "She works the night shift at the hospital.",
+      "definitions": [
+        "a scheduled period of work, especially in a factory or hospital"
+      ],
+      "synonyms": [
+        "turn",
+        "rotation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "night shift",
+        "day shift",
+        "shift work"
+      ],
+      "wordFamily": [
+        "shift (v)"
+      ],
+      "coreMeaning": "نوبت کاری مشخص در شبانه‌روز",
+      "note": "شیفت شب = night shift",
+      "trap": "shift (شیفت) ≠ shaft (محور/چاه)",
+      "tags": [
+        "A2",
+        "work",
+        "daily routine"
+      ]
+    },
+    {
+      "word": "company",
+      "translation": "شرکت",
+      "ipa": "/ˈkʌmpəni/",
+      "partOfSpeech": "noun",
+      "example": "She works for a large company in the city.",
+      "definitions": [
+        "a business organization that sells goods or services"
+      ],
+      "synonyms": [
+        "firm",
+        "corporation",
+        "business"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "start a company",
+        "work for a company",
+        "company policy"
+      ],
+      "wordFamily": [
+        "companion (n)"
+      ],
+      "coreMeaning": "سازمان تجاری برای فروش کالا یا خدمات",
+      "note": "شرکت بزرگ = large company / corporation",
+      "trap": "company همچنین به معنای همراهی و مهمان است",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "boss",
+      "translation": "رئیس",
+      "ipa": "/bɒs/",
+      "partOfSpeech": "noun",
+      "example": "My boss is very understanding and kind.",
+      "definitions": [
+        "a person who is in charge of a worker or organization"
+      ],
+      "synonyms": [
+        "manager",
+        "supervisor",
+        "chief"
+      ],
+      "antonyms": [
+        "employee",
+        "worker"
+      ],
+      "collocations": [
+        "my boss",
+        "boss around",
+        "the big boss"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "شخصی که ریاست و نظارت بر کارکنان دارد",
+      "note": "رئیس بزرگ = the big boss",
+      "trap": "boss (رئیس) ≠ bus (اتوبوس)",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "colleague",
+      "translation": "همکار",
+      "ipa": "/ˈkɒliːɡ/",
+      "partOfSpeech": "noun",
+      "example": "I had lunch with my colleagues today.",
+      "definitions": [
+        "a person you work with, especially in a profession"
+      ],
+      "synonyms": [
+        "coworker",
+        "co-worker"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "work with colleagues",
+        "colleague relationship",
+        "former colleague"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "کسی که با او در یک محل کار مشترک هستید",
+      "note": "همکار سابق = former colleague",
+      "trap": "colleague ≠ college (دانشگاه)",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "client",
+      "translation": "مشتری / موکل",
+      "ipa": "/ˈklaɪənt/",
+      "partOfSpeech": "noun",
+      "example": "The lawyer met with her client this morning.",
+      "definitions": [
+        "a person who uses the services of a professional person or company"
+      ],
+      "synonyms": [
+        "customer"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "client meeting",
+        "client base",
+        "satisfy a client"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "کسی که از خدمات حرفه‌ای استفاده می‌کند",
+      "note": "client بیشتر برای خدمات حرفه‌ای؛ customer بیشتر برای خرید کالا",
+      "trap": "client ≠ customer؛ هر دو مشتری هستند ولی کاربرد متفاوت",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "contract",
+      "translation": "قرارداد",
+      "ipa": "/ˈkɒntrækt/",
+      "partOfSpeech": "noun",
+      "example": "Please read the contract before you sign it.",
+      "definitions": [
+        "a written legal agreement between two or more parties"
+      ],
+      "synonyms": [
+        "agreement",
+        "deal"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sign a contract",
+        "employment contract",
+        "contract agreement"
+      ],
+      "wordFamily": [
+        "contractor (n)"
+      ],
+      "coreMeaning": "توافقنامه قانونی کتبی بین دو یا چند طرف",
+      "note": "قرارداد امضا کردن = sign a contract",
+      "trap": "اسم: /ˈkɒntrækt/ — فعل: /kənˈtrækt/",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "employee",
+      "translation": "کارمند / کارگر",
+      "ipa": "/ɪmˈplɔɪiː/",
+      "partOfSpeech": "noun",
+      "example": "The company has over five hundred employees.",
+      "definitions": [
+        "a person who works for an organization or company"
+      ],
+      "synonyms": [
+        "worker",
+        "staff member"
+      ],
+      "antonyms": [
+        "employer"
+      ],
+      "collocations": [
+        "full-time employee",
+        "hire an employee",
+        "employee benefits"
+      ],
+      "wordFamily": [
+        "employ (v)",
+        "employer (n)",
+        "employment (n)"
+      ],
+      "coreMeaning": "کسی که برای شرکت یا سازمانی کار می‌کند",
+      "note": "کارمند تمام‌وقت = full-time employee",
+      "trap": "employee (کارمند) ≠ employer (کارفرما)",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "employer",
+      "translation": "کارفرما",
+      "ipa": "/ɪmˈplɔɪər/",
+      "partOfSpeech": "noun",
+      "example": "Your employer must provide a safe workplace.",
+      "definitions": [
+        "a person or organization that hires people to work"
+      ],
+      "synonyms": [
+        "boss",
+        "company"
+      ],
+      "antonyms": [
+        "employee"
+      ],
+      "collocations": [
+        "current employer",
+        "former employer",
+        "employer and employee"
+      ],
+      "wordFamily": [
+        "employ (v)",
+        "employee (n)",
+        "employment (n)"
+      ],
+      "coreMeaning": "شخص یا سازمانی که افراد را استخدام می‌کند",
+      "note": "کارفرمای فعلی = current employer",
+      "trap": "employer ≠ employee؛ یکی حقوق می‌دهد، دیگری حقوق می‌گیرد",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "resume",
+      "translation": "رزومه",
+      "ipa": "/ˈrezjumeɪ/",
+      "partOfSpeech": "noun",
+      "example": "Please send your resume to the HR department.",
+      "definitions": [
+        "a document listing a person's education, work experience, and skills"
+      ],
+      "synonyms": [
+        "CV"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "send a resume",
+        "update your resume",
+        "write a resume"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "خلاصه‌ای از سوابق تحصیلی و کاری",
+      "note": "در بریتانیا بیشتر CV استفاده می‌شود",
+      "trap": "resume (رزومه) ≠ resume (از سر گرفتن) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "training",
+      "translation": "آموزش / دوره آموزشی",
+      "ipa": "/ˈtreɪnɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "New employees must complete a two-week training program.",
+      "definitions": [
+        "the process of learning the skills needed for a particular job"
+      ],
+      "synonyms": [
+        "instruction",
+        "coaching"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "on-the-job training",
+        "training program",
+        "staff training"
+      ],
+      "wordFamily": [
+        "train (v)",
+        "trainer (n)"
+      ],
+      "coreMeaning": "فرآیند یادگیری مهارت‌های شغلی",
+      "note": "آموزش سر کار = on-the-job training",
+      "trap": "training (آموزش) ≠ train (قطار)",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "task",
+      "translation": "وظیفه / تکلیف",
+      "ipa": "/tæsk/",
+      "partOfSpeech": "noun",
+      "example": "I have several tasks to finish before the meeting.",
+      "definitions": [
+        "a piece of work that needs to be done"
+      ],
+      "synonyms": [
+        "job",
+        "assignment",
+        "duty"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "complete a task",
+        "daily tasks",
+        "task list"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "کار مشخصی که باید انجام شود",
+      "note": "لیست وظایف = task list / to-do list",
+      "trap": "task (وظیفه) ≠ tax (مالیات)",
+      "tags": [
+        "A2",
+        "work",
+        "workplace"
+      ]
+    },
+    {
+      "word": "department",
+      "translation": "بخش / دپارتمان",
+      "ipa": "/dɪˈpɑːrtmənt/",
+      "partOfSpeech": "noun",
+      "example": "She works in the marketing department.",
+      "definitions": [
+        "a division of a large organization dealing with a specific area"
+      ],
+      "synonyms": [
+        "division",
+        "section"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sales department",
+        "HR department",
+        "department head"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "واحد سازمانی مسئول حوزه خاص",
+      "note": "بخش منابع انسانی = HR department",
+      "trap": "department ≠ apartment (آپارتمان)",
+      "tags": [
+        "A2",
+        "work",
+        "workplace"
+      ]
+    },
+    {
+      "word": "position",
+      "translation": "سمت / موقعیت شغلی",
+      "ipa": "/pəˈzɪʃn/",
+      "partOfSpeech": "noun",
+      "example": "We have an open position for a graphic designer.",
+      "definitions": [
+        "a particular job or role in an organization"
+      ],
+      "synonyms": [
+        "role",
+        "post",
+        "job"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "apply for a position",
+        "fill a position",
+        "open position"
+      ],
+      "wordFamily": [
+        "positional (adj)"
+      ],
+      "coreMeaning": "نقش یا شغل مشخص در سازمان",
+      "note": "موقعیت شغلی خالی = open position",
+      "trap": "position همچنین به معنای مکان و حالت بدنی است",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "benefit",
+      "translation": "مزایا",
+      "ipa": "/ˈbenɪfɪt/",
+      "partOfSpeech": "noun",
+      "example": "This job offers great benefits like health insurance.",
+      "definitions": [
+        "an advantage or profit gained from something"
+      ],
+      "synonyms": [
+        "advantage",
+        "perk"
+      ],
+      "antonyms": [
+        "disadvantage"
+      ],
+      "collocations": [
+        "employee benefits",
+        "health benefits",
+        "benefit package"
+      ],
+      "wordFamily": [
+        "beneficial (adj)"
+      ],
+      "coreMeaning": "مزیت یا سود حاصل از چیزی",
+      "note": "بیمه درمانی از مزایای رایج است",
+      "trap": "benefit (مزیت) ≠ benefit (مراسم خیریه)",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "industry",
+      "translation": "صنعت",
+      "ipa": "/ˈɪndəstri/",
+      "partOfSpeech": "noun",
+      "example": "The technology industry is growing fast.",
+      "definitions": [
+        "economic activity concerned with processing raw materials and manufacturing"
+      ],
+      "synonyms": [
+        "sector",
+        "field"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "manufacturing industry",
+        "industry standards",
+        "industry leader"
+      ],
+      "wordFamily": [
+        "industrial (adj)",
+        "industrious (adj)"
+      ],
+      "coreMeaning": "فعالیت اقتصادی مرتبط با تولید و ساخت",
+      "note": "صنعت فناوری = technology industry",
+      "trap": "industry ≠ industrial؛ یکی اسم و دیگری صفت است",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "profit",
+      "translation": "سود",
+      "ipa": "/ˈprɒfɪt/",
+      "partOfSpeech": "noun",
+      "example": "The company made a large profit last year.",
+      "definitions": [
+        "money gained in business after costs are paid"
+      ],
+      "synonyms": [
+        "earnings",
+        "gain"
+      ],
+      "antonyms": [
+        "loss"
+      ],
+      "collocations": [
+        "make a profit",
+        "profit margin",
+        "net profit"
+      ],
+      "wordFamily": [
+        "profitable (adj)"
+      ],
+      "coreMeaning": "پول باقیمانده پس از کسر هزینه‌ها",
+      "note": "سود خالص = net profit",
+      "trap": "profit (سود) ≠ prophet (پیامبر)",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "loss",
+      "translation": "ضرر / زیان",
+      "ipa": "/lɒs/",
+      "partOfSpeech": "noun",
+      "example": "The company reported a loss of two million dollars.",
+      "definitions": [
+        "the state of losing something, especially money"
+      ],
+      "synonyms": [
+        "deficit",
+        "shortfall"
+      ],
+      "antonyms": [
+        "profit",
+        "gain"
+      ],
+      "collocations": [
+        "financial loss",
+        "suffer a loss",
+        "loss of money"
+      ],
+      "wordFamily": [
+        "lose (v)",
+        "lost (adj)"
+      ],
+      "coreMeaning": "از دست دادن چیزی، مخصوصاً پول",
+      "note": "متضرر شدن = suffer a loss",
+      "trap": "loss (اسم) ≠ lose (فعل) ≠ lost (صفت/گذشته)",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "trade",
+      "translation": "تجارت",
+      "ipa": "/treɪd/",
+      "partOfSpeech": "noun",
+      "example": "International trade has increased this year.",
+      "definitions": [
+        "the buying and selling of goods and services"
+      ],
+      "synonyms": [
+        "commerce",
+        "business"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "international trade",
+        "free trade",
+        "trade agreement"
+      ],
+      "wordFamily": [
+        "trader (n)"
+      ],
+      "coreMeaning": "خرید و فروش کالا و خدمات",
+      "note": "تجارت بین‌المللی = international trade",
+      "trap": "trade همچنین به معنای حرفه و مهارت است",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "demand",
+      "translation": "تقاضا",
+      "ipa": "/dɪˈmɑːnd/",
+      "partOfSpeech": "noun",
+      "example": "There is a high demand for skilled workers.",
+      "definitions": [
+        "a strong request; the desire of customers for goods or services"
+      ],
+      "synonyms": [
+        "request",
+        "need"
+      ],
+      "antonyms": [
+        "supply"
+      ],
+      "collocations": [
+        "supply and demand",
+        "high demand",
+        "in demand"
+      ],
+      "wordFamily": [
+        "demanding (adj)"
+      ],
+      "coreMeaning": "نیاز شدید یا درخواست قوی برای چیزی",
+      "note": "پرتقاضا = in demand / high demand",
+      "trap": "demand (تقاضا) ≠ command (فرمان)",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "service",
+      "translation": "خدمات",
+      "ipa": "/ˈsɜːrvɪs/",
+      "partOfSpeech": "noun",
+      "example": "The hotel offers excellent customer service.",
+      "definitions": [
+        "work done to help or benefit others, not producing physical goods"
+      ],
+      "synonyms": [
+        "assistance",
+        "help"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "customer service",
+        "service industry",
+        "public service"
+      ],
+      "wordFamily": [
+        "serve (v)",
+        "servant (n)"
+      ],
+      "coreMeaning": "کار انجام‌شده برای کمک به دیگران",
+      "note": "صنعت خدمات = service industry",
+      "trap": "service (خدمات) ≠ serve (سرو کردن غذا)",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "technology",
+      "translation": "فناوری / تکنولوژی",
+      "ipa": "/tekˈnɒlədʒi/",
+      "partOfSpeech": "noun",
+      "example": "Technology has changed the way we work.",
+      "definitions": [
+        "the use of scientific knowledge for practical purposes"
+      ],
+      "synonyms": [
+        "tech"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "information technology",
+        "technology company",
+        "modern technology"
+      ],
+      "wordFamily": [
+        "technological (adj)",
+        "technologist (n)"
+      ],
+      "coreMeaning": "استفاده از دانش علمی برای اهداف عملی",
+      "note": "فناوری اطلاعات = information technology (IT)",
+      "trap": "technology ≠ technique (تکنیک/روش)",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "research",
+      "translation": "تحقیق",
+      "ipa": "/rɪˈsɜːrtʃ/",
+      "partOfSpeech": "noun",
+      "example": "The company does a lot of market research.",
+      "definitions": [
+        "careful study and investigation to discover new facts"
+      ],
+      "synonyms": [
+        "study",
+        "investigation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "market research",
+        "research and development",
+        "do research"
+      ],
+      "wordFamily": [
+        "researcher (n)"
+      ],
+      "coreMeaning": "بررسی دقیق و علمی برای کشف حقایق جدید",
+      "note": "تحقیق و توسعه = research and development (R&D)",
+      "trap": "research معمولاً بدون a استفاده می‌شود (不可数)",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "development",
+      "translation": "توسعه",
+      "ipa": "/dɪˈveləpmənt/",
+      "partOfSpeech": "noun",
+      "example": "The development of new products takes time.",
+      "definitions": [
+        "the process of growing, changing, or becoming more advanced"
+      ],
+      "synonyms": [
+        "growth",
+        "progress",
+        "advancement"
+      ],
+      "antonyms": [
+        "decline"
+      ],
+      "collocations": [
+        "product development",
+        "career development",
+        "economic development"
+      ],
+      "wordFamily": [
+        "develop (v)",
+        "developer (n)"
+      ],
+      "coreMeaning": "فرآیند رشد و پیشرفت",
+      "note": "توسعه شغلی = career development",
+      "trap": "development ≠ developement (املای غلط رایج)",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "management",
+      "translation": "مدیریت",
+      "ipa": "/ˈmænɪdʒmənt/",
+      "partOfSpeech": "noun",
+      "example": "Good management is the key to a successful company.",
+      "definitions": [
+        "the process of controlling and organizing a business or team"
+      ],
+      "synonyms": [
+        "administration",
+        "leadership"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "project management",
+        "management team",
+        "senior management"
+      ],
+      "wordFamily": [
+        "manage (v)",
+        "manager (n)"
+      ],
+      "coreMeaning": "فرآیند کنترل و سازماندهی کسب‌وکار",
+      "note": "مدیریت پروژه = project management",
+      "trap": "management ≠ manage؛ management فرآیند است، manage فعل",
+      "tags": [
+        "A2",
+        "work",
+        "business"
+      ]
+    },
+    {
+      "word": "staff",
+      "translation": "کارکنان",
+      "ipa": "/stæf/",
+      "partOfSpeech": "noun",
+      "example": "The hotel staff were very friendly.",
+      "definitions": [
+        "the people who work for an organization"
+      ],
+      "synonyms": [
+        "employees",
+        "personnel",
+        "crew"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "staff meeting",
+        "hire staff",
+        "staff training"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مجموعه افرادی که در سازمانی کار می‌کنند",
+      "note": "staff مفرد است ولی به معنای جمع است",
+      "trap": "staff (کارکنان) ≠ stuff (چیزها)",
+      "tags": [
+        "A2",
+        "work",
+        "workplace"
+      ]
+    },
+    {
+      "word": "achievement",
+      "translation": "دستاورد",
+      "ipa": "/əˈtʃiːvmənt/",
+      "partOfSpeech": "noun",
+      "example": "Getting this promotion was a great achievement.",
+      "definitions": [
+        "something successfully done or achieved through effort"
+      ],
+      "synonyms": [
+        "accomplishment",
+        "attainment"
+      ],
+      "antonyms": [
+        "failure"
+      ],
+      "collocations": [
+        "great achievement",
+        "sense of achievement",
+        "career achievement"
+      ],
+      "wordFamily": [
+        "achieve (v)"
+      ],
+      "coreMeaning": "چیزی که با تلاش به دست آمده",
+      "note": "حس موفقیت = sense of achievement",
+      "trap": "achievement ≠ achievment (املای غلط رایج)",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "responsibility",
+      "translation": "مسئولیت",
+      "ipa": "/rɪˌspɒnsəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "example": "It's my responsibility to check the reports.",
+      "definitions": [
+        "the state of being accountable for something within one's control"
+      ],
+      "synonyms": [
+        "duty",
+        "obligation"
+      ],
+      "antonyms": [
+        "irresponsibility"
+      ],
+      "collocations": [
+        "take responsibility",
+        "job responsibility",
+        "sense of responsibility"
+      ],
+      "wordFamily": [
+        "responsible (adj)"
+      ],
+      "coreMeaning": "وظیفه و پاسخگویی در قبال کاری",
+      "note": "مسئولیت پذیرفتن = take responsibility",
+      "trap": "responsibility ≠ respond (پاسخ دادن)",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "opportunity",
+      "translation": "فرصت",
+      "ipa": "/ˌɒpərˈtjuːnəti/",
+      "partOfSpeech": "noun",
+      "example": "This job is a great opportunity for career growth.",
+      "definitions": [
+        "a chance to do something or a situation where something is possible"
+      ],
+      "synonyms": [
+        "chance",
+        "opening"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "job opportunity",
+        "miss an opportunity",
+        "opportunity for growth"
+      ],
+      "wordFamily": [
+        "opportune (adj)"
+      ],
+      "coreMeaning": "موقعیت مناسب برای انجام کاری",
+      "note": "فرصت شغلی = job opportunity",
+      "trap": "opportunity ≠ opportunism (فرصت‌طلبی)",
+      "tags": [
+        "A2",
+        "work",
+        "career"
+      ]
+    },
+    {
+      "word": "wage",
+      "translation": "دستمزد، مزد",
+      "ipa": "/weɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "The minimum wage was increased this year.",
+      "definitions": [
+        "a fixed regular payment earned for work, especially calculated by the hour, day, or week"
+      ],
+      "synonyms": [
+        "pay",
+        "earnings"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "minimum wage",
+        "hourly wage",
+        "wage increase"
+      ],
+      "wordFamily": [
+        "wage (n)",
+        "wages (n)"
+      ],
+      "coreMeaning": "پولی که برای کار دریافت می‌شود، معمولاً بر اساس ساعت یا هفته",
+      "note": "معمولاً برای کارهای ساعتی و روزمزد استفاده می‌شود، برخلاف salary که ماهانه است",
+      "trap": "wage معمولاً به صورت جمع (wages) استفاده می‌شود",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "income",
+      "translation": "درآمد",
+      "ipa": "/ˈɪnkʌm/",
+      "partOfSpeech": "noun",
+      "example": "She has a good income from her new job.",
+      "definitions": [
+        "money received, especially on a regular basis, for work or through investments"
+      ],
+      "synonyms": [
+        "earnings",
+        "revenue",
+        "salary"
+      ],
+      "antonyms": [
+        "expense",
+        "expenditure"
+      ],
+      "collocations": [
+        "monthly income",
+        "income tax",
+        "source of income"
+      ],
+      "wordFamily": [
+        "income (n)"
+      ],
+      "coreMeaning": "پولی که شخص به طور منظم از کار یا سرمایه‌گذاری دریافت می‌کند",
+      "note": "income کل درآمد است شامل هر منبعی؛ salary فقط حقوق ماهانه از کارفرماست",
+      "trap": "با outcome (نتیجه) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "bonus",
+      "translation": "پاداش، بونوس",
+      "ipa": "/ˈboʊnəs/",
+      "partOfSpeech": "noun",
+      "example": "All employees received a bonus at the end of the year.",
+      "definitions": [
+        "an extra amount of money given as a reward for good work or performance"
+      ],
+      "synonyms": [
+        "reward",
+        "incentive"
+      ],
+      "antonyms": [
+        "penalty",
+        "fine"
+      ],
+      "collocations": [
+        "annual bonus",
+        "performance bonus",
+        "cash bonus"
+      ],
+      "wordFamily": [
+        "bonus (n)",
+        "bonuses (n)"
+      ],
+      "coreMeaning": "پول اضافی که به عنوان پاداش به کارمند داده می‌شود",
+      "note": "معمولاً در پایان سال یا بعد از عملکرد خوب پرداخت می‌شود",
+      "trap": "جمع آن bonuses است، نه boni",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "pension",
+      "translation": "بازنشستگی، مستمری",
+      "ipa": "/ˈpenʃən/",
+      "partOfSpeech": "noun",
+      "example": "He receives a monthly pension after retiring.",
+      "definitions": [
+        "a regular payment made by the government or a company to a person who has stopped working"
+      ],
+      "synonyms": [
+        "retirement fund",
+        "allowance"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "retirement pension",
+        "pension plan",
+        "state pension"
+      ],
+      "wordFamily": [
+        "pension (n)",
+        "pensioner (n)"
+      ],
+      "coreMeaning": "پولی که پس از بازنشستگی به طور منظم پرداخت می‌شود",
+      "note": "pensioner به کسی می‌گویند که بازنشسته شده و مستمری دریافت می‌کند",
+      "trap": "با permission (اجازه) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "career",
+      "translation": "حرفه، شغل (طولانی‌مدت)",
+      "ipa": "/kəˈrɪr/",
+      "partOfSpeech": "noun",
+      "example": "She decided to change her career and become a teacher.",
+      "definitions": [
+        "the series of jobs and positions that a person has in their working life"
+      ],
+      "synonyms": [
+        "profession",
+        "occupation",
+        "vocation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "career path",
+        "career change",
+        "career goals"
+      ],
+      "wordFamily": [
+        "career (n)"
+      ],
+      "coreMeaning": "مسیر شغلی بلندمدت یک شخص در طول زندگی کاری",
+      "note": "career به کل مسیر شغلی اشاره دارد، نه فقط یک شغل خاص",
+      "trap": "با care (مراقبت) اشتباه نگیرید؛ تلفظ: کَریر",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "employment",
+      "translation": "اشتغال، استخدام",
+      "ipa": "/ɪmˈplɔɪmənt/",
+      "partOfSpeech": "noun",
+      "example": "The government is trying to increase employment.",
+      "definitions": [
+        "the state of having a paid job; the act of employing someone"
+      ],
+      "synonyms": [
+        "work",
+        "job"
+      ],
+      "antonyms": [
+        "unemployment"
+      ],
+      "collocations": [
+        "full-time employment",
+        "seek employment",
+        "employment rate"
+      ],
+      "wordFamily": [
+        "employ (v)",
+        "employee (n)",
+        "employer (n)",
+        "employment (n)"
+      ],
+      "coreMeaning": "وضعیت داشتن شغل و کار با درآمد",
+      "note": "employment وضعیت کلی اشتغال است؛ job یک شغل خاص",
+      "trap": "با unemployment (بیکاری) اشتباه نگیرید؛ هر دو از employ ساخته شده‌اند",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "unemployed",
+      "translation": "بیکار، بی‌شغل",
+      "ipa": "/ˌʌnɪmˈplɔɪd/",
+      "partOfSpeech": "adjective",
+      "example": "He has been unemployed for six months.",
+      "definitions": [
+        "not having a paid job; without work"
+      ],
+      "synonyms": [
+        "jobless",
+        "out of work"
+      ],
+      "antonyms": [
+        "employed",
+        "hired"
+      ],
+      "collocations": [
+        "long-term unemployed",
+        "become unemployed",
+        "unemployed workers"
+      ],
+      "wordFamily": [
+        "employ (v)",
+        "employed (adj)",
+        "unemployed (adj)",
+        "unemployment (n)"
+      ],
+      "coreMeaning": "کسی که شغل ندارد و به دنبال کار می‌گردد",
+      "note": "unemployed معمولاً به کسی می‌گویند که فعالانه دنبال کار است",
+      "trap": "پیشوند un- حالت منفی می‌سازد: employed → unemployed",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "retire",
+      "translation": "بازنشسته شدن",
+      "ipa": "/rɪˈtaɪər/",
+      "partOfSpeech": "verb",
+      "example": "My father retired at the age of sixty.",
+      "definitions": [
+        "to stop working permanently, usually because of age"
+      ],
+      "synonyms": [
+        "step down",
+        "resign"
+      ],
+      "antonyms": [
+        "work",
+        "continue working"
+      ],
+      "collocations": [
+        "retire from",
+        "retire early",
+        "retire at 65"
+      ],
+      "wordFamily": [
+        "retire (v)",
+        "retired (adj)",
+        "retirement (n)"
+      ],
+      "coreMeaning": "دائم از کار کردن دست کشیدن، معمولاً به دلیل سن",
+      "note": "retirement سن بازنشستگی معمولاً بین ۶۰ تا ۶۷ سال است",
+      "trap": "با retreat (عقب‌نشینی) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "application",
+      "translation": "درخواست، تقاضا",
+      "ipa": "/ˌæplɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "She submitted her application for the manager position.",
+      "definitions": [
+        "a formal written request for a job, course, or other opportunity"
+      ],
+      "synonyms": [
+        "request",
+        "submission"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "job application",
+        "submit an application",
+        "application form"
+      ],
+      "wordFamily": [
+        "apply (v)",
+        "application (n)",
+        "applicant (n)"
+      ],
+      "coreMeaning": "فرم یا نامه رسمی برای درخواست شغل یا موقعیت",
+      "note": "application هم به معنی درخواست شغل و هم به معنی نرم‌افزار (اپلیکیشن) است",
+      "trap": "applicant یعنی متقاضی؛ application یعنی خود درخواست",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "candidate",
+      "translation": "متقاضی، نامزد",
+      "ipa": "/ˈkændɪdət/",
+      "partOfSpeech": "noun",
+      "example": "There were five candidates for the sales position.",
+      "definitions": [
+        "a person who applies for a job or is nominated for a position"
+      ],
+      "synonyms": [
+        "applicant",
+        "contender"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "job candidate",
+        "strong candidate",
+        "ideal candidate"
+      ],
+      "wordFamily": [
+        "candidate (n)",
+        "candidacy (n)"
+      ],
+      "coreMeaning": "شخصی که برای شغل یا موقعیتی درخواست داده یا نامزد شده",
+      "note": "candidate هم در کار و هم در انتخابات استفاده می‌شود",
+      "trap": "با candle (شمع) اشتباه نگیرید؛ تلفظ: کَندیدِیت",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "supervisor",
+      "translation": "سرپرست، ناظر",
+      "ipa": "/ˈsuːpərvaɪzər/",
+      "partOfSpeech": "noun",
+      "example": "My supervisor checks my work every week.",
+      "definitions": [
+        "a person who supervises workers or a department"
+      ],
+      "synonyms": [
+        "overseer",
+        "manager",
+        "boss"
+      ],
+      "antonyms": [
+        "subordinate"
+      ],
+      "collocations": [
+        "direct supervisor",
+        "work under a supervisor",
+        "supervisor role"
+      ],
+      "wordFamily": [
+        "supervise (v)",
+        "supervisor (n)",
+        "supervision (n)"
+      ],
+      "coreMeaning": "کسی که بر کار دیگران نظارت می‌کند",
+      "note": "supervisor معمولاً سطح پایین‌تر از manager است",
+      "trap": "با super (عالی) اشتباه نگیرید؛ از supervise (نظارت کردن) ساخته شده",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "director",
+      "translation": "مدیر، کارگردان",
+      "ipa": "/dəˈrektər/",
+      "partOfSpeech": "noun",
+      "example": "The director of the company gave a speech at the meeting.",
+      "definitions": [
+        "a person who is in charge of an organization, department, or activity"
+      ],
+      "synonyms": [
+        "head",
+        "chief",
+        "executive"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "managing director",
+        "board of directors",
+        "sales director"
+      ],
+      "wordFamily": [
+        "direct (v/adj)",
+        "director (n)",
+        "direction (n)"
+      ],
+      "coreMeaning": "شخصی که مدیریت یک سازمان یا بخش را بر عهده دارد",
+      "note": "director هم در سینما (کارگردان) و هم در تجارت (مدیر) استفاده می‌شود",
+      "trap": "با direct (مستقیم) اشتباه نگیرید؛ director اسم شخص است",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "executive",
+      "translation": "مدیر ارشد، هیئت مدیره",
+      "ipa": "/ɪɡˈzekjətɪv/",
+      "partOfSpeech": "noun",
+      "example": "She became a senior executive at the age of 35.",
+      "definitions": [
+        "a person with senior management responsibility in a business organization"
+      ],
+      "synonyms": [
+        "director",
+        "manager",
+        "officer"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "chief executive",
+        "executive decision",
+        "executive board"
+      ],
+      "wordFamily": [
+        "execute (v)",
+        "executive (n/adj)",
+        "execution (n)"
+      ],
+      "coreMeaning": "مدیر ارشد در یک سازمان تجاری",
+      "note": "CEO مخفف Chief Executive Officer است",
+      "trap": "هم به عنوان اسم و هم صفت استفاده می‌شود: executive decision (صفت)",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "assistant",
+      "translation": "دستیار، کمک",
+      "ipa": "/əˈsɪstənt/",
+      "partOfSpeech": "noun",
+      "example": "The manager's assistant organized all the meetings.",
+      "definitions": [
+        "a person who helps someone in their work"
+      ],
+      "synonyms": [
+        "helper",
+        "aide",
+        "associate"
+      ],
+      "antonyms": [
+        "boss",
+        "manager"
+      ],
+      "collocations": [
+        "personal assistant",
+        "teaching assistant",
+        "assistant manager"
+      ],
+      "wordFamily": [
+        "assist (v)",
+        "assistant (n)",
+        "assistance (n)"
+      ],
+      "coreMeaning": "کسی که به شخص دیگری در کارش کمک می‌کند",
+      "note": "assistant manager یعنی معاون مدیر، نه دستیار مدیر",
+      "trap": "با resist (مقاومت) اشتباه نگیرید؛ assist یعنی کمک کردن",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "receptionist",
+      "translation": "منشی، پذیرشگر",
+      "ipa": "/rɪˈsepʃənɪst/",
+      "partOfSpeech": "noun",
+      "example": "The receptionist greeted us at the front desk.",
+      "definitions": [
+        "a person who works in a hotel, office, or hospital, answering the phone and greeting visitors"
+      ],
+      "synonyms": [
+        "front desk clerk",
+        "greeter"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "hotel receptionist",
+        "front desk receptionist"
+      ],
+      "wordFamily": [
+        "receive (v)",
+        "reception (n)",
+        "receptionist (n)"
+      ],
+      "coreMeaning": "کسی که در پذیرش هتل، بیمارستان یا دفتر کار می‌کند",
+      "note": "receptionist معمولاً اولین شخصی است که مهمانان ملاقات می‌کنند",
+      "trap": "از reception (پذیرش) ساخته شده؛ تلفظ: ریسِپشِنیست",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "secretary",
+      "translation": "دبیر، منشی",
+      "ipa": "/ˈsekrəteri/",
+      "partOfSpeech": "noun",
+      "example": "The secretary typed the letters and organized the files.",
+      "definitions": [
+        "a person who works in an office, dealing with correspondence, filing, and phone calls"
+      ],
+      "synonyms": [
+        "clerk",
+        "administrative assistant"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "personal secretary",
+        "company secretary",
+        "secretary of state"
+      ],
+      "wordFamily": [
+        "secretary (n)",
+        "secretarial (adj)"
+      ],
+      "coreMeaning": "کسی که در دفتر کار می‌کند و نامه‌ها و اسناد را مدیریت می‌کند",
+      "note": "Secretary of State در آمریکا یعنی وزیر امور خارجه",
+      "trap": "جمع: secretaries (نه secretarys)",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "security guard",
+      "translation": "نگهبان، مأمور امنیتی",
+      "ipa": "/sɪˈkjʊərəti ɡɑːrd/",
+      "partOfSpeech": "noun",
+      "example": "The security guard checked everyone's ID at the entrance.",
+      "definitions": [
+        "a person employed to protect a building, area, or person"
+      ],
+      "synonyms": [
+        "guard",
+        "watchman",
+        "bodyguard"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "work as a security guard",
+        "armed security guard",
+        "security guard uniform"
+      ],
+      "wordFamily": [
+        "secure (adj/v)",
+        "security (n)",
+        "guard (n)"
+      ],
+      "coreMeaning": "شخصی که وظیفه محافظت از ساختمان یا افراد را دارد",
+      "note": "security guard یک عبارت دو کلمه‌ای است که به عنوان یک اسم استفاده می‌شود",
+      "trap": "security به تنهایی یعنی امنیت؛ guard به تنهایی یعنی نگهبان",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "delivery",
+      "translation": "تحویل، ارسال",
+      "ipa": "/dɪˈlɪvəri/",
+      "partOfSpeech": "noun",
+      "example": "The delivery arrived at 3 o'clock this afternoon.",
+      "definitions": [
+        "the act of bringing goods, letters, or packages to a person or place"
+      ],
+      "synonyms": [
+        "shipment",
+        "dispatch"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "delivery service",
+        "home delivery",
+        "delivery driver"
+      ],
+      "wordFamily": [
+        "deliver (v)",
+        "delivery (n)"
+      ],
+      "coreMeaning": "عمل رساندن کالا یا نامه به مقصد",
+      "note": "delivery driver یعنی راننده تحویل کالا",
+      "trap": "با deliver (تحویل دادن) اشتباه نگیرید؛ delivery اسم است",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "warehouse",
+      "translation": "انبار، انبار کالا",
+      "ipa": "/ˈwerhaʊs/",
+      "partOfSpeech": "noun",
+      "example": "The company stores its products in a large warehouse.",
+      "definitions": [
+        "a large building where goods are stored before being sold or sent to shops"
+      ],
+      "synonyms": [
+        "depot",
+        "storage facility"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "warehouse worker",
+        "warehouse manager",
+        "warehouse inventory"
+      ],
+      "wordFamily": [
+        "warehouse (n)"
+      ],
+      "coreMeaning": "ساختمان بزرگ برای نگهداری کالاها قبل از فروش",
+      "note": "ware به معنی کالا و house به معنی خانه است؛ یعنی خانه کالاها",
+      "trap": "تلفظ: وِرهاوس (نه وِیرهاوس)",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "construction",
+      "translation": "ساختمان‌سازی، ساخت‌وساز",
+      "ipa": "/kənˈstrʌkʃən/",
+      "partOfSpeech": "noun",
+      "example": "The construction of the new hospital took two years.",
+      "definitions": [
+        "the process of building houses, bridges, roads, and other structures"
+      ],
+      "synonyms": [
+        "building",
+        "erection"
+      ],
+      "antonyms": [
+        "destruction",
+        "demolition"
+      ],
+      "collocations": [
+        "construction site",
+        "construction worker",
+        "under construction"
+      ],
+      "wordFamily": [
+        "construct (v)",
+        "construction (n)",
+        "constructor (n)"
+      ],
+      "coreMeaning": "فرآیند ساختن ساختمان، پل، جاده و سازه‌ها",
+      "note": "under construction یعنی در حال ساخت",
+      "trap": "با instruction (دستورالعمل) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "plumber",
+      "translation": "لوله‌کش",
+      "ipa": "/ˈplʌmər/",
+      "partOfSpeech": "noun",
+      "example": "We called a plumber to fix the leaking pipe.",
+      "definitions": [
+        "a person whose job is to repair water pipes, toilets, and other water systems"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "call a plumber",
+        "licensed plumber",
+        "plumber's tools"
+      ],
+      "wordFamily": [
+        "plumbing (n)",
+        "plumber (n)"
+      ],
+      "coreMeaning": "کسی که لوله‌های آب و فاضلاب را تعمیر می‌کند",
+      "note": "plumbing یعنی لوله‌کشی (کار یا سیستم لوله‌ها)",
+      "trap": "با plumb (شاقول) اشتباه نگیرید؛ b خاموش است",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "electrician",
+      "translation": "برق‌کار، تکنسین برق",
+      "ipa": "/ɪˌlekˈtrɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The electrician installed new lights in the office.",
+      "definitions": [
+        "a person whose job is to install and repair electrical equipment and wiring"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "qualified electrician",
+        "call an electrician",
+        "electrician's license"
+      ],
+      "wordFamily": [
+        "electric (adj)",
+        "electrical (adj)",
+        "electricity (n)",
+        "electrician (n)"
+      ],
+      "coreMeaning": "کسی که تجهیزات و سیم‌کشی برق را نصب و تعمیر می‌کند",
+      "note": "electrician یک شغل تخصصی است که نیاز به آموزش و مجوز دارد",
+      "trap": "با electric (برقی) اشتباه نگیرید؛ electrician شخص است",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "architect",
+      "translation": "معمار",
+      "ipa": "/ˈɑːrkɪtekt/",
+      "partOfSpeech": "noun",
+      "example": "The architect designed a beautiful new library.",
+      "definitions": [
+        "a person whose job is to design buildings and other structures"
+      ],
+      "synonyms": [
+        "designer",
+        "planner"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "landscape architect",
+        "software architect",
+        "work as an architect"
+      ],
+      "wordFamily": [
+        "architecture (n)",
+        "architect (n)",
+        "architectural (adj)"
+      ],
+      "coreMeaning": "کسی که ساختمان‌ها و سازه‌ها را طراحی می‌کند",
+      "note": "software architect هم در فناوری اطلاعات استفاده می‌شود",
+      "trap": "با archaic (قدیمی) اشتباه نگیرید؛ تلفظ: آرکیتِکت",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "auditor",
+      "translation": "حسابرس، بازرس",
+      "ipa": "/ˈɔːdɪtər/",
+      "partOfSpeech": "noun",
+      "example": "The auditor checked the company's financial records.",
+      "definitions": [
+        "a person who officially examines the financial accounts of a company"
+      ],
+      "synonyms": [
+        "inspector",
+        "examiner"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "external auditor",
+        "internal auditor",
+        "auditor's report"
+      ],
+      "wordFamily": [
+        "audit (n/v)",
+        "auditor (n)",
+        "auditing (n)"
+      ],
+      "coreMeaning": "کسی که حساب‌های مالی شرکت را رسیدگی و بررسی می‌کند",
+      "note": "audit یعنی حسابرسی؛ auditor شخصی است که این کار را انجام می‌دهد",
+      "trap": "با audience (مخاطب) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "consultant",
+      "translation": "مشاور",
+      "ipa": "/kənˈsʌltənt/",
+      "partOfSpeech": "noun",
+      "example": "We hired a consultant to improve our marketing strategy.",
+      "definitions": [
+        "a person who gives expert advice to a company or organization"
+      ],
+      "synonyms": [
+        "advisor",
+        "specialist"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "management consultant",
+        "IT consultant",
+        "hire a consultant"
+      ],
+      "wordFamily": [
+        "consult (v)",
+        "consultant (n)",
+        "consultation (n)"
+      ],
+      "coreMeaning": "کسی که به شرکت‌ها مشاوره تخصصی می‌دهد",
+      "note": "consultant معمولاً به صورت پروژه‌ای کار می‌کند، نه استخدام دائم",
+      "trap": "consultant شخص است؛ consultation جلسه مشاوره",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "freelancer",
+      "translation": "آزادکار، فریلنسر",
+      "ipa": "/ˈfriːlænsər/",
+      "partOfSpeech": "noun",
+      "example": "She works as a freelancer and chooses her own projects.",
+      "definitions": [
+        "a person who works independently for different companies rather than being employed by one"
+      ],
+      "synonyms": [
+        "independent contractor",
+        "self-employed worker"
+      ],
+      "antonyms": [
+        "employee"
+      ],
+      "collocations": [
+        "work as a freelancer",
+        "freelancer platform",
+        "freelancer market"
+      ],
+      "wordFamily": [
+        "freelance (adj/v)",
+        "freelancer (n)"
+      ],
+      "coreMeaning": "کسی که برای شرکت‌های مختلف به صورت مستقل کار می‌کند",
+      "note": "freelancer آزادی انتخاب پروژه دارد اما مزایای استخدام دائم ندارد",
+      "trap": "free به معنی آزاد است اما freelancer رایگان کار نمی‌کند!",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "startup",
+      "translation": "شرکت نوپا، استارتاپ",
+      "ipa": "/ˈstɑːrtʌp/",
+      "partOfSpeech": "noun",
+      "example": "He left his job to launch a tech startup.",
+      "definitions": [
+        "a newly established business, especially a small company trying to grow quickly"
+      ],
+      "synonyms": [
+        "new business",
+        "venture"
+      ],
+      "antonyms": [
+        "corporation",
+        "established company"
+      ],
+      "collocations": [
+        "tech startup",
+        "startup company",
+        "launch a startup"
+      ],
+      "wordFamily": [
+        "startup (n)"
+      ],
+      "coreMeaning": "شرکت تازه‌تأسیس که معمولاً به دنبال رشد سریع است",
+      "note": "startup معمولاً با فناوری و نوآوری مرتبط است",
+      "trap": "startup یک کلمه است (نه start up) وقتی اسم باشد",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "entrepreneur",
+      "translation": "کارآفرین",
+      "ipa": "/ˌɑːntrəprəˈnɜːr/",
+      "partOfSpeech": "noun",
+      "example": "She is a successful entrepreneur who owns three restaurants.",
+      "definitions": [
+        "a person who starts and runs a business, taking on financial risks"
+      ],
+      "synonyms": [
+        "business owner",
+        "founder"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "young entrepreneur",
+        "social entrepreneur",
+        "entrepreneurial spirit"
+      ],
+      "wordFamily": [
+        "entrepreneur (n)",
+        "entrepreneurial (adj)",
+        "entrepreneurship (n)"
+      ],
+      "coreMeaning": "کسی که کسب‌وکاری را با پذیرش ریسک مالی شروع و اداره می‌کند",
+      "note": "این کلمه از زبان فرانسوی آمده و تلفظ آن سخت است",
+      "trap": "تلفظ: آنترپرِنِر (نه اینترپرینر)",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "investor",
+      "translation": "سرمایه‌گذار",
+      "ipa": "/ɪnˈvestər/",
+      "partOfSpeech": "noun",
+      "example": "The investors put money into the new company.",
+      "definitions": [
+        "a person who puts money into something in order to make a profit"
+      ],
+      "synonyms": [
+        "backer",
+        "financier"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "private investor",
+        "foreign investor",
+        "investor confidence"
+      ],
+      "wordFamily": [
+        "invest (v)",
+        "investor (n)",
+        "investment (n)"
+      ],
+      "coreMeaning": "کسی که پول خود را در کاری سرمایه‌گذاری می‌کند تا سود کند",
+      "note": "investor می‌تواند در سهام، ملک، یا شرکت سرمایه‌گذاری کند",
+      "trap": "investor شخص است؛ investment خود سرمایه‌گذاری",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "advertisement",
+      "translation": "تبلیغات، آگهی",
+      "ipa": "/ˌædvərˈtaɪzmənt/",
+      "partOfSpeech": "noun",
+      "example": "The company placed an advertisement in the newspaper.",
+      "definitions": [
+        "a public notice or announcement promoting a product, service, or event"
+      ],
+      "synonyms": [
+        "ad",
+        "commercial",
+        "promotion"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "place an advertisement",
+        "online advertisement",
+        "TV advertisement"
+      ],
+      "wordFamily": [
+        "advertise (v)",
+        "advertisement (n)",
+        "advertiser (n)",
+        "advertising (n)"
+      ],
+      "coreMeaning": "اطلاعیه عمومی برای تبلیغ محصول یا خدمات",
+      "note": "به صورت محاوره‌ای معمولاً ad گفته می‌شود",
+      "trap": "advertise فعل است؛ advertisement اسم است؛ تلفظ آمریکایی: اَدوِرتایزمِنت",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "marketing",
+      "translation": "بازاریابی",
+      "ipa": "/ˈmɑːrkɪtɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "The marketing team created a new campaign for the product.",
+      "definitions": [
+        "the activity of promoting and selling products or services"
+      ],
+      "synonyms": [
+        "promotion",
+        "advertising"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "marketing strategy",
+        "digital marketing",
+        "marketing department"
+      ],
+      "wordFamily": [
+        "market (n/v)",
+        "marketing (n)",
+        "marketer (n)"
+      ],
+      "coreMeaning": "فعالیت تبلیغ و فروش محصولات یا خدمات",
+      "note": "digital marketing شامل تبلیغات آنلاین و شبکه‌های اجتماعی است",
+      "trap": "marketing اسم است (از فعل market)؛ با market (بازار) فرق دارد",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "sales",
+      "translation": "فروش، فروش‌ها",
+      "ipa": "/seɪlz/",
+      "partOfSpeech": "noun",
+      "example": "Our sales increased by 20% this quarter.",
+      "definitions": [
+        "the activity of selling products or services; the total amount sold"
+      ],
+      "synonyms": [
+        "selling",
+        "commerce"
+      ],
+      "antonyms": [
+        "purchases"
+      ],
+      "collocations": [
+        "sales team",
+        "sales figures",
+        "sales department"
+      ],
+      "wordFamily": [
+        "sell (v)",
+        "sale (n)",
+        "sales (n)"
+      ],
+      "coreMeaning": "فعالیت فروش یا مجموع مبلغ فروش‌ها",
+      "note": "sales هم به معنی فعالیت فروش و هم آمار فروش است",
+      "trap": "sale مفرد (حراج) و sales جمع (فروش‌ها)؛ on sale یعنی در حراج",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "invoice",
+      "translation": "صورتحساب، فاکتور",
+      "ipa": "/ˈɪnvɔɪs/",
+      "partOfSpeech": "noun",
+      "example": "The company sent an invoice for the completed work.",
+      "definitions": [
+        "a document showing a list of goods sold or services provided with the amount owed"
+      ],
+      "synonyms": [
+        "bill",
+        "statement"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "send an invoice",
+        "issue an invoice",
+        "invoice number"
+      ],
+      "wordFamily": [
+        "invoice (n/v)"
+      ],
+      "coreMeaning": "سندی که لیست کالاها یا خدمات و مبلغ قابل پرداخت را نشان می‌دهد",
+      "note": "invoice معمولاً قبل از پرداخت ارسال می‌شود؛ receipt بعد از پرداخت",
+      "trap": "invoice قبل از پرداخت است؛ receipt بعد از پرداخت",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "expense",
+      "translation": "هزینه، مخارج",
+      "ipa": "/ɪkˈspens/",
+      "partOfSpeech": "noun",
+      "example": "Travel expenses are paid by the company.",
+      "definitions": [
+        "the cost of doing something; money spent on something"
+      ],
+      "synonyms": [
+        "cost",
+        "charge",
+        "expenditure"
+      ],
+      "antonyms": [
+        "income",
+        "revenue"
+      ],
+      "collocations": [
+        "business expenses",
+        "travel expenses",
+        "expense report"
+      ],
+      "wordFamily": [
+        "expense (n)",
+        "expensive (adj)",
+        "expenditure (n)"
+      ],
+      "coreMeaning": "پولی که برای انجام کاری خرج می‌شود",
+      "note": "expenses معمولاً به مخارج قابل بازپرداخت شرکت گفته می‌شود",
+      "trap": "expensive (گران) از expense ساخته شده اما معنی متفاوتی دارد",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "budget",
+      "translation": "بودجه",
+      "ipa": "/ˈbʌdʒɪt/",
+      "partOfSpeech": "noun",
+      "example": "The department has a budget of $50,000 for new equipment.",
+      "definitions": [
+        "an estimate of income and expenditure for a set period of time"
+      ],
+      "synonyms": [
+        "allocation",
+        "allowance"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "annual budget",
+        "budget plan",
+        "on a budget",
+        "over budget"
+      ],
+      "wordFamily": [
+        "budget (n/v)"
+      ],
+      "coreMeaning": "برآورد درآمد و هزینه برای یک دوره زمانی مشخص",
+      "note": "on a budget یعنی با بودجه محدود؛ over budget یعنی بیشتر از بودجه",
+      "trap": "budget هم اسم و هم فعل است: We need to budget carefully",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "revenue",
+      "translation": "درآمد، عایدی",
+      "ipa": "/ˈrevənuː/",
+      "partOfSpeech": "noun",
+      "example": "The company's revenue doubled in the last year.",
+      "definitions": [
+        "income, especially when of a company or organization and of a substantial nature"
+      ],
+      "synonyms": [
+        "income",
+        "earnings",
+        "proceeds"
+      ],
+      "antonyms": [
+        "expense",
+        "cost"
+      ],
+      "collocations": [
+        "annual revenue",
+        "revenue stream",
+        "generate revenue"
+      ],
+      "wordFamily": [
+        "revenue (n)"
+      ],
+      "coreMeaning": "درآمد یک شرکت یا سازمان از فعالیت‌های اصلی",
+      "note": "revenue معمولاً برای شرکت‌ها و سازمان‌ها استفاده می‌شود، نه افراد",
+      "trap": "revenue با profit فرق دارد: revenue کل درآمد، profit سود خالص",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "tax",
+      "translation": "مالیات",
+      "ipa": "/tæks/",
+      "partOfSpeech": "noun",
+      "example": "Everyone has to pay income tax to the government.",
+      "definitions": [
+        "a compulsory financial charge imposed by a government on income, goods, or services"
+      ],
+      "synonyms": [
+        "levy",
+        "duty"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "income tax",
+        "pay taxes",
+        "tax return",
+        "tax rate"
+      ],
+      "wordFamily": [
+        "tax (n/v)",
+        "taxes (n)",
+        "taxation (n)"
+      ],
+      "coreMeaning": "پول اجباری که به دولت پرداخت می‌شود",
+      "note": "income tax یعنی مالیات بر درآمد؛ tax return یعنی اظهارنامه مالیاتی",
+      "trap": "tax هم اسم و هم فعل است: The government taxes income",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "insurance",
+      "translation": "بیمه",
+      "ipa": "/ɪnˈʃʊrəns/",
+      "partOfSpeech": "noun",
+      "example": "The company provides health insurance for all employees.",
+      "definitions": [
+        "a contract in which a company guarantees to pay money for loss, damage, illness, or death"
+      ],
+      "synonyms": [
+        "coverage",
+        "protection"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "health insurance",
+        "car insurance",
+        "insurance policy"
+      ],
+      "wordFamily": [
+        "insure (v)",
+        "insurance (n)",
+        "insurer (n)"
+      ],
+      "coreMeaning": "قراردادی که شرکت بیمه در ازای دریافت حق بیمه، خسارت را جبران می‌کند",
+      "note": "health insurance یکی از مهم‌ترین مزایای شغلی در آمریکاست",
+      "trap": "با insure (بیمه کردن) و ensure (اطمینان دادن) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "leave",
+      "translation": "مرخصی",
+      "ipa": "/liːv/",
+      "partOfSpeech": "noun",
+      "example": "She took a two-week leave to travel abroad.",
+      "definitions": [
+        "time spent away from work for a holiday or other reason"
+      ],
+      "synonyms": [
+        "time off",
+        "holiday",
+        "absence"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "annual leave",
+        "sick leave",
+        "maternity leave",
+        "take leave"
+      ],
+      "wordFamily": [
+        "leave (n/v)"
+      ],
+      "coreMeaning": "زمانی که از کار مرخصی گرفته می‌شود",
+      "note": "sick leave یعنی مرخصی استعلاجی؛ annual leave یعنی مرخصی سالانه",
+      "trap": "leave فعل هم هست (ترک کردن)؛ معنی اسمی آن مرخصی است",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "absence",
+      "translation": "غیبت، عدم حضور",
+      "ipa": "/ˈæbsəns/",
+      "partOfSpeech": "noun",
+      "example": "His absence from work was noticed by everyone.",
+      "definitions": [
+        "the state of being away from a place or work"
+      ],
+      "synonyms": [
+        "nonattendance",
+        "missing"
+      ],
+      "antonyms": [
+        "presence",
+        "attendance"
+      ],
+      "collocations": [
+        "absence from work",
+        "in the absence of",
+        "unauthorized absence"
+      ],
+      "wordFamily": [
+        "absent (adj)",
+        "absence (n)"
+      ],
+      "coreMeaning": "وضعیت نبودن در محل کار یا جایی",
+      "note": "absence of mind یعنی حواس‌پرتی",
+      "trap": "absent صفت است؛ absence اسم است",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "dismissal",
+      "translation": "اخراج، برکناری",
+      "ipa": "/dɪsˈmɪsəl/",
+      "partOfSpeech": "noun",
+      "example": "The employee's dismissal was unfair and he took legal action.",
+      "definitions": [
+        "the act of dismissing someone from their job"
+      ],
+      "synonyms": [
+        "termination",
+        "sacking",
+        "firing"
+      ],
+      "antonyms": [
+        "hiring",
+        "appointment"
+      ],
+      "collocations": [
+        "unfair dismissal",
+        "summary dismissal",
+        "dismissal letter"
+      ],
+      "wordFamily": [
+        "dismiss (v)",
+        "dismissal (n)"
+      ],
+      "coreMeaning": "عمل اخراج کردن کارمند از شغل",
+      "note": "unfair dismissal یعنی اخراج ناعادلانه که در بسیاری کشورها غیرقانونی است",
+      "trap": "dismissal اسم است؛ dismiss فعل؛ با dismissal از نظر تلفظ دقت کنید",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "recruitment",
+      "translation": "استخدام، جذب نیرو",
+      "ipa": "/rɪˈkruːtmənt/",
+      "partOfSpeech": "noun",
+      "example": "The recruitment process takes about three weeks.",
+      "definitions": [
+        "the process of finding and hiring new employees"
+      ],
+      "synonyms": [
+        "hiring",
+        "staffing"
+      ],
+      "antonyms": [
+        "dismissal",
+        "termination"
+      ],
+      "collocations": [
+        "recruitment process",
+        "recruitment agency",
+        "recruitment drive"
+      ],
+      "wordFamily": [
+        "recruit (v/n)",
+        "recruitment (n)",
+        "recruiter (n)"
+      ],
+      "coreMeaning": "فرآیند پیدا کردن و استخدام کارمندان جدید",
+      "note": "recruitment agency شرکتی است که به استخدام نیرو کمک می‌کند",
+      "trap": "recruit هم فعل (استخدام کردن) و هم اسم (سرباز تازه‌کار) است",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "certificate",
+      "translation": "گواهینامه، مدرک",
+      "ipa": "/sərˈtɪfɪkət/",
+      "partOfSpeech": "noun",
+      "example": "She earned a certificate in project management.",
+      "definitions": [
+        "an official document proving that someone has completed a course or achieved a qualification"
+      ],
+      "synonyms": [
+        "credential",
+        "diploma"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "birth certificate",
+        "completion certificate",
+        "certificate program"
+      ],
+      "wordFamily": [
+        "certify (v)",
+        "certificate (n)",
+        "certification (n)"
+      ],
+      "coreMeaning": "سند رسمی که نشان‌دهنده اتمام دوره یا کسب مهارت است",
+      "note": "certificate معمولاً کوتاه‌تر از degree است و برای مهارت‌های خاص صادر می‌شود",
+      "trap": "certificate با degree فرق دارد: degree از دانشگاه، certificate از دوره‌های کوتاه",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "degree",
+      "translation": "مدرک دانشگاهی، درجه",
+      "ipa": "/dɪˈɡriː/",
+      "partOfSpeech": "noun",
+      "example": "She has a degree in computer science from MIT.",
+      "definitions": [
+        "a qualification awarded by a college or university after completing a course of study"
+      ],
+      "synonyms": [
+        "qualification",
+        "academic credential"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "bachelor's degree",
+        "master's degree",
+        "get a degree"
+      ],
+      "wordFamily": [
+        "degree (n)"
+      ],
+      "coreMeaning": "مدرک تحصیلی که پس از اتمام دوره دانشگاهی اعطا می‌شود",
+      "note": "bachelor's degree ۴ سال، master's degree ۲ سال اضافی، PhD چند سال دیگر",
+      "trap": "degree هم به معنی درجه (دما) هم مدرک تحصیلی است",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "diploma",
+      "translation": "دیپلم، مدرک فارغ‌التحصیلی",
+      "ipa": "/dɪˈploʊmə/",
+      "partOfSpeech": "noun",
+      "example": "He received his high school diploma last year.",
+      "definitions": [
+        "a certificate awarded by an educational institution for completing a course of study"
+      ],
+      "synonyms": [
+        "certificate",
+        "credential"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "high school diploma",
+        "college diploma",
+        "diploma program"
+      ],
+      "wordFamily": [
+        "diploma (n)",
+        "diplomatic (adj)"
+      ],
+      "coreMeaning": "مدرک فارغ‌التحصیلی از مدرسه یا مؤسسه آموزشی",
+      "note": "diploma معمولاً برای دبیرستان و کالج استفاده می‌شود",
+      "trap": "diploma با diplomatic (دیپلماتیک) هم‌ریشه است اما معنی متفاوتی دارد",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "occupation",
+      "translation": "شغل، حرفه",
+      "ipa": "/ˌɑːkjuˈpeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "What is your occupation?",
+      "definitions": [
+        "a person's job or profession"
+      ],
+      "synonyms": [
+        "profession",
+        "job"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "current occupation",
+        "occupation hazard"
+      ],
+      "wordFamily": [
+        "occupy (v)",
+        "occupant (n)"
+      ],
+      "coreMeaning": "کاری که شخص انجام می‌دهد",
+      "note": "رسمی‌تر از job",
+      "trap": "occupation: oc-cu-PA-tion",
+      "tags": [
+        "A2",
+        "work",
+        "jobs"
+      ]
+    },
+    {
+      "word": "internship",
+      "translation": "کارآموزی",
+      "ipa": "/ˈɪrnɜːrnʃɪp/",
+      "partOfSpeech": "noun",
+      "example": "She did an internship at a law firm.",
+      "definitions": [
+        "a period of work experience for students"
+      ],
+      "synonyms": [
+        "traineeship"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "summer internship",
+        "internship program",
+        "do an internship"
+      ],
+      "wordFamily": [
+        "intern (n)"
+      ],
+      "coreMeaning": "دوره کارآموزی",
+      "note": "do an internship = کارآموزی کردن",
+      "trap": "internship: IN-tern-ship",
+      "tags": [
+        "A2",
+        "work",
+        "education"
+      ]
+    },
+    {
+      "word": "workshop",
+      "translation": "کارگاه، ورکشاپ",
+      "ipa": "/ˈwɜːrkʃɑːp/",
+      "partOfSpeech": "noun",
+      "example": "I attended a writing workshop.",
+      "definitions": [
+        "a meeting for practical work on a subject"
+      ],
+      "synonyms": [
+        "seminar"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "attend workshop",
+        "workshop leader",
+        "creative workshop"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "جلسه عملی آموزشی",
+      "note": "attend workshop = در کارگاه شرکت کردن",
+      "trap": "workshop: work-shop",
+      "tags": [
+        "A2",
+        "work",
+        "education"
+      ]
+    }
+  ]
+}

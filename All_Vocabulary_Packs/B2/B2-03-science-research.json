@@ -1,0 +1,6419 @@
+{
+  "name": "علوم و تحقیق",
+  "description": "واژگان سطح B2 — موضوع: علوم و تحقیق",
+  "category": "B2 — سطح",
+  "level": "B2",
+  "packId": "B2-03",
+  "words": [
+    {
+      "word": "hypothesis",
+      "translation": "فرضیه",
+      "ipa": "/haɪˈpɑːθəsɪs/",
+      "partOfSpeech": "noun",
+      "example": "The scientist proposed a hypothesis before starting the experiment.",
+      "definitions": [
+        "A proposed explanation made on the basis of limited evidence, used as a starting point for investigation"
+      ],
+      "synonyms": [
+        "theory",
+        "assumption",
+        "proposition"
+      ],
+      "antonyms": [
+        "fact",
+        "certainty"
+      ],
+      "collocations": [
+        "test a hypothesis",
+        "formulate a hypothesis",
+        "support a hypothesis"
+      ],
+      "wordFamily": [
+        "hypothesis (n)",
+        "hypothetical (adj)",
+        "hypothetically (adv)"
+      ],
+      "coreMeaning": "پیشنهاد یا حدس علمی که باید آزمایش شود",
+      "note": "جمع آن hypotheses است",
+      "trap": "با theory اشتباه نگیرید؛ hypothesis حدس اولیه، theory نظریه اثبات‌شده",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "experiment",
+      "translation": "آزمایش",
+      "ipa": "/ɪkˈsperɪmənt/",
+      "partOfSpeech": "noun",
+      "example": "They conducted an experiment to test the new drug.",
+      "definitions": [
+        "A scientific procedure undertaken to make a discovery, test a hypothesis, or demonstrate a known fact"
+      ],
+      "synonyms": [
+        "trial",
+        "test",
+        "investigation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "conduct an experiment",
+        "carry out an experiment",
+        "controlled experiment"
+      ],
+      "wordFamily": [
+        "experiment (n)",
+        "experimental (adj)",
+        "experimentally (adv)"
+      ],
+      "coreMeaning": "انجام یک فرآیند علمی برای کشف یا اثبات چیزی",
+      "note": "هم اسم و هم فعل است",
+      "trap": "experiment با experience اشتباه نشود",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "variable",
+      "translation": "متغیر",
+      "ipa": "/ˈveriəbəl/",
+      "partOfSpeech": "noun",
+      "example": "The researcher changed one variable at a time.",
+      "definitions": [
+        "A factor or element that can change or be changed in a scientific experiment"
+      ],
+      "synonyms": [
+        "factor",
+        "element",
+        "parameter"
+      ],
+      "antonyms": [
+        "constant"
+      ],
+      "collocations": [
+        "independent variable",
+        "dependent variable",
+        "control variable"
+      ],
+      "wordFamily": [
+        "variable (n/adj)",
+        "variability (n)",
+        "vary (v)"
+      ],
+      "coreMeaning": "عاملی که در آزمایش تغییر می‌کند",
+      "note": "در علوم: independent variable و dependent variable کلیدی هستند",
+      "trap": "variable به معنی قابل تغییر هم هست",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "methodology",
+      "translation": "روش‌شناسی",
+      "ipa": "/ˌmeθəˈdɑːlədʒi/",
+      "partOfSpeech": "noun",
+      "example": "The methodology of the study was clearly described in the paper.",
+      "definitions": [
+        "A system of methods used in a particular area of study or activity"
+      ],
+      "synonyms": [
+        "approach",
+        "procedure",
+        "technique"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "research methodology",
+        "scientific methodology",
+        "adopt a methodology"
+      ],
+      "wordFamily": [
+        "methodology (n)",
+        "methodological (adj)",
+        "methodologically (adv)"
+      ],
+      "coreMeaning": "مجموعه روش‌های سیستماتیک برای انجام تحقیق",
+      "note": "methodology فقط به معنی یک روش نیست",
+      "trap": "با method اشتباه نشود؛ methodology کلی‌تر است",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "analysis",
+      "translation": "تحلیل",
+      "ipa": "/əˈnæləsɪs/",
+      "partOfSpeech": "noun",
+      "example": "The data analysis revealed surprising results.",
+      "definitions": [
+        "Detailed examination of the elements or structure of something"
+      ],
+      "synonyms": [
+        "examination",
+        "evaluation",
+        "assessment"
+      ],
+      "antonyms": [
+        "synthesis"
+      ],
+      "collocations": [
+        "data analysis",
+        "statistical analysis",
+        "carry out an analysis"
+      ],
+      "wordFamily": [
+        "analysis (n)",
+        "analyze (v)",
+        "analytical (adj)"
+      ],
+      "coreMeaning": "بررسی دقیق و جزئی اجزای یک چیز",
+      "note": "جمع آن analyses است",
+      "trap": "با diagnose اشتباه نشود",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "theory",
+      "translation": "نظریه",
+      "ipa": "/ˈθɪri/",
+      "partOfSpeech": "noun",
+      "example": "Darwin's theory of evolution changed biology forever.",
+      "definitions": [
+        "A supposition or system of ideas intended to explain something, based on principles independent of the thing to be explained"
+      ],
+      "synonyms": [
+        "hypothesis",
+        "concept",
+        "framework"
+      ],
+      "antonyms": [
+        "fact",
+        "proof"
+      ],
+      "collocations": [
+        "scientific theory",
+        "in theory",
+        "evolutionary theory"
+      ],
+      "wordFamily": [
+        "theory (n)",
+        "theoretical (adj)",
+        "theoretically (adv)"
+      ],
+      "coreMeaning": "مجموعه‌ای از ایده‌ها برای توضیح یک پدیده علمی",
+      "note": "در علم، theory نظریه‌ای است که با شواهد زیاد تأیید شده",
+      "trap": "در محاوره theory گاهی به معنی حدس است",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "observation",
+      "translation": "مشاهده",
+      "ipa": "/ˌɑːbzərˈveɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Careful observation is the first step of the scientific method.",
+      "definitions": [
+        "The action or process of observing something carefully in order to gain information"
+      ],
+      "synonyms": [
+        "watching",
+        "monitoring",
+        "inspection"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "make an observation",
+        "careful observation",
+        "direct observation"
+      ],
+      "wordFamily": [
+        "observation (n)",
+        "observe (v)",
+        "observational (adj)"
+      ],
+      "coreMeaning": "دقت و نگاه دقیق به چیزی برای کسب اطلاعات",
+      "note": "observation می‌تواند هم عمل و هم نتیجه باشد",
+      "trap": "observation بدون دخالت، experiment با دخالت",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "evidence",
+      "translation": "شواهد",
+      "ipa": "/ˈevɪdəns/",
+      "partOfSpeech": "noun",
+      "example": "There is strong evidence to support the theory.",
+      "definitions": [
+        "The available body of facts or information indicating whether a belief or proposition is true or valid"
+      ],
+      "synonyms": [
+        "proof",
+        "documentation",
+        "testimony"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "scientific evidence",
+        "gather evidence",
+        "strong evidence"
+      ],
+      "wordFamily": [
+        "evidence (n)",
+        "evident (adj)",
+        "evidently (adv)"
+      ],
+      "coreMeaning": "اطلاعات و واقعیت‌هایی که یک ادعا را تأیید می‌کنند",
+      "note": "evidence غیرقابل شمارش است",
+      "trap": "evidence ≠ proof؛ evidence شواهد، proof قطعیت",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "significant",
+      "translation": "معنادار",
+      "ipa": "/sɪɡˈnɪfɪkənt/",
+      "partOfSpeech": "adjective",
+      "example": "The results were statistically significant.",
+      "definitions": [
+        "Sufficiently great or important to be worthy of attention"
+      ],
+      "synonyms": [
+        "important",
+        "notable",
+        "considerable"
+      ],
+      "antonyms": [
+        "insignificant",
+        "trivial"
+      ],
+      "collocations": [
+        "statistically significant",
+        "significant difference",
+        "significant impact"
+      ],
+      "wordFamily": [
+        "significance (n)",
+        "significant (adj)",
+        "significantly (adv)"
+      ],
+      "coreMeaning": "آنقدر مهم که ارزش توجه داشته باشد",
+      "note": "در آمار: statistically significant یعنی نتیجه تصادفی نیست",
+      "trap": "significant ≠ big؛ ممکن است تفاوت کوچک ولی معنادار باشد",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "quantify",
+      "translation": "کمّی کردن",
+      "ipa": "/ˈkwɑːntɪfaɪ/",
+      "partOfSpeech": "verb",
+      "example": "Scientists quantified the amount of pollution in the river.",
+      "definitions": [
+        "To express or measure the quantity of something"
+      ],
+      "synonyms": [
+        "measure",
+        "calculate",
+        "determine"
+      ],
+      "antonyms": [
+        "estimate",
+        "guess"
+      ],
+      "collocations": [
+        "quantify the effects",
+        "quantify the impact",
+        "hard to quantify"
+      ],
+      "wordFamily": [
+        "quantity (n)",
+        "quantitative (adj)",
+        "quantification (n)"
+      ],
+      "coreMeaning": "اندازه‌گیری و بیان کمّی چیزی",
+      "note": "quantify معمولاً در تحقیقات علمی استفاده می‌شود",
+      "trap": "quantify ≠ count؛ quantify اندازه‌گیری، count شمردن",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "sample",
+      "translation": "نمونه",
+      "ipa": "/ˈsæmpəl/",
+      "partOfSpeech": "noun",
+      "example": "We took a random sample of 200 people for the survey.",
+      "definitions": [
+        "A small part or quantity intended to show what the whole is like"
+      ],
+      "synonyms": [
+        "specimen",
+        "example",
+        "subset"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "random sample",
+        "sample size",
+        "take a sample"
+      ],
+      "wordFamily": [
+        "sample (n/v)",
+        "sampling (n)"
+      ],
+      "coreMeaning": "بخش کوچکی از یک کل برای نمایش کل",
+      "note": "sample size بسیار مهم است",
+      "trap": "sample ≠ example؛ sample نمونه آماری، example مثال",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "poll",
+      "translation": "نظرسنجی",
+      "ipa": "/poʊl/",
+      "partOfSpeech": "noun",
+      "example": "The poll showed that most citizens support the new policy.",
+      "definitions": [
+        "A survey of public opinion"
+      ],
+      "synonyms": [
+        "survey",
+        "questionnaire",
+        "sampling"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "conduct a poll",
+        "opinion poll",
+        "poll results"
+      ],
+      "wordFamily": [
+        "poll (n/v)",
+        "pollster (n)"
+      ],
+      "coreMeaning": "نظرسنجی از مردم",
+      "note": "poll می‌تواند هم اسم و هم فعل باشد",
+      "trap": "poll ≠ vote؛ poll نظرسنجی، vote رأی‌دادن",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "findings",
+      "translation": "یافته‌ها",
+      "ipa": "/ˈfaɪndɪŋz/",
+      "partOfSpeech": "noun",
+      "example": "The findings of the study were published in a major journal.",
+      "definitions": [
+        "Information discovered as the result of an inquiry or investigation"
+      ],
+      "synonyms": [
+        "results",
+        "discoveries",
+        "outcomes"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "research findings",
+        "report findings",
+        "key findings"
+      ],
+      "wordFamily": [
+        "finding (n)"
+      ],
+      "coreMeaning": "نتایج و اطلاعات حاصل از تحقیق",
+      "note": "معمولاً به صورت جمع استفاده می‌شود",
+      "trap": "findings ≠ results؛ findings کشفیات، results نتایج عددی",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "peer review",
+      "translation": "داوری همتایان",
+      "ipa": "/ˌpɪr rɪˈvjuː/",
+      "partOfSpeech": "noun",
+      "example": "The paper went through a rigorous peer review process.",
+      "definitions": [
+        "Evaluation of scientific work by others in the same field"
+      ],
+      "synonyms": [
+        "expert review",
+        "academic review"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "peer review process",
+        "undergo peer review",
+        "peer-reviewed journal"
+      ],
+      "wordFamily": [
+        "peer review (n)",
+        "peer-reviewed (adj)"
+      ],
+      "coreMeaning": "بررسی کار علمی توسط متخصصان همان حوزه",
+      "note": "peer-reviewed بودن مجله نشانه اعتبار است",
+      "trap": "peer review تضمین کیفیت نیست",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "correlation",
+      "translation": "همبستگی",
+      "ipa": "/ˌkɔːrəˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "There is a strong correlation between smoking and lung cancer.",
+      "definitions": [
+        "A mutual relationship or connection between two or more things"
+      ],
+      "synonyms": [
+        "connection",
+        "relationship",
+        "association"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "strong correlation",
+        "positive correlation",
+        "correlation does not imply causation"
+      ],
+      "wordFamily": [
+        "correlation (n)",
+        "correlate (v)",
+        "correlated (adj)"
+      ],
+      "coreMeaning": "رابطه متقابل بین دو یا چند چیز",
+      "note": "همبستگی لزوماً به معنی علیت نیست",
+      "trap": "correlation ≠ causation",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "occurrence",
+      "translation": "رویداد",
+      "ipa": "/əˈkɜːrəns/",
+      "partOfSpeech": "noun",
+      "example": "Flooding is a common occurrence in this region.",
+      "definitions": [
+        "An incident or event; the fact of something happening"
+      ],
+      "synonyms": [
+        "event",
+        "incident",
+        "happening"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "common occurrence",
+        "frequent occurrence",
+        "natural occurrence"
+      ],
+      "wordFamily": [
+        "occur (v)",
+        "occurrence (n)"
+      ],
+      "coreMeaning": "اتفاق افتادن یا رویداد",
+      "note": "occurrence از فعل occur ساخته شده",
+      "trap": "occurrence ≠ accident؛ occurrence عام، accident ناخوشایند",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "researcher",
+      "translation": "محقق",
+      "ipa": "/rɪˈsɜːrtʃər/",
+      "partOfSpeech": "noun",
+      "example": "The researcher published her findings in a top journal.",
+      "definitions": [
+        "A person who carries out academic or scientific research"
+      ],
+      "synonyms": [
+        "scientist",
+        "investigator",
+        "scholar"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "lead researcher",
+        "research team",
+        "independent researcher"
+      ],
+      "wordFamily": [
+        "research (n/v)",
+        "researcher (n)"
+      ],
+      "coreMeaning": "شخصی که تحقیقات علمی انجام می‌دهد",
+      "note": "researcher می‌تواند در هر حوزه‌ای باشد",
+      "trap": "researcher ≠ scientist؛ researcher عام‌تر",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "scholar",
+      "translation": "محقق",
+      "ipa": "/ˈskɑːlər/",
+      "partOfSpeech": "noun",
+      "example": "She is a respected scholar in the field of linguistics.",
+      "definitions": [
+        "A specialist in a particular branch of study"
+      ],
+      "synonyms": [
+        "academic",
+        "intellectual",
+        "expert"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "visiting scholar",
+        "scholarly work",
+        "distinguished scholar"
+      ],
+      "wordFamily": [
+        "scholar (n)",
+        "scholarly (adj)",
+        "scholarship (n)"
+      ],
+      "coreMeaning": "متخصص در یک حوزه مطالعاتی",
+      "note": "scholar می‌تواند به معنی دانشجوی بورسیه هم باشد",
+      "trap": "scholar ≠ scientist؛ scholar علوم انسانی، scientist علوم تجربی",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "journal",
+      "translation": "مجله علمی",
+      "ipa": "/ˈdʒɜːrnəl/",
+      "partOfSpeech": "noun",
+      "example": "The study was published in a peer-reviewed journal.",
+      "definitions": [
+        "A periodical publication containing articles and research papers"
+      ],
+      "synonyms": [
+        "publication",
+        "periodical",
+        "magazine"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "scientific journal",
+        "academic journal",
+        "journal article"
+      ],
+      "wordFamily": [
+        "journal (n)",
+        "journalism (n)",
+        "journalist (n)"
+      ],
+      "coreMeaning": "نشریه دوره‌ای حاوی مقالات علمی",
+      "note": "مجلات معتبر peer-reviewed هستند",
+      "trap": "journal ≠ magazine؛ journal علمی، magazine عمومی",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "abstract",
+      "translation": "چکیده",
+      "ipa": "/ˈæbstrækt/",
+      "partOfSpeech": "noun",
+      "example": "Read the abstract to get an overview of the research paper.",
+      "definitions": [
+        "A brief summary of the contents of an article or research paper"
+      ],
+      "synonyms": [
+        "summary",
+        "overview",
+        "synopsis"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "write an abstract",
+        "research abstract",
+        "abstract of a paper"
+      ],
+      "wordFamily": [
+        "abstract (n/adj/v)"
+      ],
+      "coreMeaning": "خلاصه کوتاه یک مقاله علمی",
+      "note": "abstract معمولاً 150-300 کلمه است",
+      "trap": "abstract ≠ summary؛ abstract خاص مقالات علمی",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "organism",
+      "translation": "ارگانیسم",
+      "ipa": "/ˈɔːrɡənɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Every living organism needs energy to survive.",
+      "definitions": [
+        "An individual animal, plant, or single-celled life form"
+      ],
+      "synonyms": [
+        "creature",
+        "being",
+        "life form"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "living organism",
+        "microscopic organism",
+        "multi-cellular organism"
+      ],
+      "wordFamily": [
+        "organism (n)",
+        "organic (adj)"
+      ],
+      "coreMeaning": "هر موجود زنده‌ای",
+      "note": "organism با organization اشتباه نشود",
+      "trap": "organism = موجود زنده، organization = سازمان",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "species",
+      "translation": "گونه",
+      "ipa": "/ˈspiːʃiːz/",
+      "partOfSpeech": "noun",
+      "example": "Many species are endangered due to deforestation.",
+      "definitions": [
+        "A group of living organisms consisting of similar individuals"
+      ],
+      "synonyms": [
+        "type",
+        "kind",
+        "breed"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "endangered species",
+        "species diversity",
+        "new species"
+      ],
+      "wordFamily": [
+        "species (n)"
+      ],
+      "coreMeaning": "گروهی از موجودات زنده که قادر به تولید مثل با یکدیگرند",
+      "note": "species هم مفرد و هم جمع است",
+      "trap": "species ≠ kind؛ species اصطلاح علمی دقیق",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "evolution",
+      "translation": "تکامل",
+      "ipa": "/ˌevəˈluːʃən/",
+      "partOfSpeech": "noun",
+      "example": "The theory of evolution explains how species change over time.",
+      "definitions": [
+        "The process of gradual development or change over generations"
+      ],
+      "synonyms": [
+        "development",
+        "progression",
+        "adaptation"
+      ],
+      "antonyms": [
+        "devolution"
+      ],
+      "collocations": [
+        "theory of evolution",
+        "human evolution",
+        "evolutionary process"
+      ],
+      "wordFamily": [
+        "evolution (n)",
+        "evolutionary (adj)",
+        "evolve (v)"
+      ],
+      "coreMeaning": "فرآیند تدریجی تغییر موجودات زنده",
+      "note": "evolution فقط در زیست‌شناسی نیست",
+      "trap": "evolution ≠ revolution؛ evolution تدریجی، revolution ناگهانی",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "gene",
+      "translation": "ژن",
+      "ipa": "/dʒiːn/",
+      "partOfSpeech": "noun",
+      "example": "Genes determine many of our physical characteristics.",
+      "definitions": [
+        "A unit of heredity transferred from parent to offspring"
+      ],
+      "synonyms": [
+        "hereditary unit",
+        "DNA segment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "gene therapy",
+        "gene pool",
+        "gene expression"
+      ],
+      "wordFamily": [
+        "gene (n)",
+        "genetic (adj)",
+        "genetics (n)",
+        "genetically (adv)"
+      ],
+      "coreMeaning": "واحد ارثی که ویژگی‌های فرزند را تعیین می‌کند",
+      "note": "gene از کلمه یونانی genos گرفته شده",
+      "trap": "gene ≠ DNA؛ gene بخشی از DNA است",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "chromosome",
+      "translation": "کروموزوم",
+      "ipa": "/ˈkroʊməsoʊm/",
+      "partOfSpeech": "noun",
+      "example": "Humans have 23 pairs of chromosomes.",
+      "definitions": [
+        "A structure found inside the nucleus of cells, made of DNA and proteins"
+      ],
+      "synonyms": [
+        "DNA strand"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "chromosome pair",
+        "sex chromosome",
+        "chromosome abnormality"
+      ],
+      "wordFamily": [
+        "chromosome (n)",
+        "chromosomal (adj)"
+      ],
+      "coreMeaning": "ساختاری در هسته سلول حاوی DNA",
+      "note": "کروموزوم‌ها در جفت هستند",
+      "trap": "chromosome ≠ gene؛ chromosome حامل ژن‌هاست",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "cell",
+      "translation": "سلول",
+      "ipa": "/sel/",
+      "partOfSpeech": "noun",
+      "example": "The cell is the basic unit of life.",
+      "definitions": [
+        "The smallest structural and functional unit of an organism"
+      ],
+      "synonyms": [
+        "unit",
+        "building block"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cell division",
+        "stem cell",
+        "cell membrane"
+      ],
+      "wordFamily": [
+        "cell (n)",
+        "cellular (adj)"
+      ],
+      "coreMeaning": "کوچک‌ترین واحد ساختاری موجود زنده",
+      "note": "cell معانی دیگری هم دارد: زندان، باتری",
+      "trap": "cell ≠ battery؛ در زیست‌شناسی cell واحد زندگی",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "protein",
+      "translation": "پروتئین",
+      "ipa": "/ˈproʊtiːn/",
+      "partOfSpeech": "noun",
+      "example": "Proteins are essential for building and repairing body tissues.",
+      "definitions": [
+        "Any of a class of nitrogenous organic compounds essential for living organisms"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "protein synthesis",
+        "protein structure",
+        "high-protein diet"
+      ],
+      "wordFamily": [
+        "protein (n)",
+        "proteinous (adj)"
+      ],
+      "coreMeaning": "ترکیبات آلی ضروری برای ساخت بافت‌ها",
+      "note": "پروتئین‌ها از اسیدهای آمینه ساخته می‌شوند",
+      "trap": "protein ≠ vitamin",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "enzyme",
+      "translation": "آنزیم",
+      "ipa": "/ˈenzaɪm/",
+      "partOfSpeech": "noun",
+      "example": "Enzymes speed up chemical reactions in the body.",
+      "definitions": [
+        "A protein that acts as a catalyst to speed up biochemical reactions"
+      ],
+      "synonyms": [
+        "biological catalyst",
+        "catalyst"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "enzyme activity",
+        "digestive enzyme",
+        "enzyme reaction"
+      ],
+      "wordFamily": [
+        "enzyme (n)",
+        "enzymatic (adj)"
+      ],
+      "coreMeaning": "پروتئینی که واکنش‌های شیمیایی را تسریع می‌کند",
+      "note": "آنزیم‌ها بسیار اختصاصی هستند",
+      "trap": "enzyme ≠ hormone؛ enzyme催化‌کننده، hormone پیام‌رسان",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "bacteria",
+      "translation": "باکتری",
+      "ipa": "/bækˈtɪriə/",
+      "partOfSpeech": "noun",
+      "example": "Some bacteria can cause serious infections.",
+      "definitions": [
+        "Microscopic single-celled organisms found in every environment"
+      ],
+      "synonyms": [
+        "microbe",
+        "microorganism",
+        "germ"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "bacterial infection",
+        "beneficial bacteria",
+        "antibiotic-resistant bacteria"
+      ],
+      "wordFamily": [
+        "bacteria (n)",
+        "bacterial (adj)"
+      ],
+      "coreMeaning": "موجودات تک‌سلولی میکروسکوپی",
+      "note": "bacteria جمع است؛ مفرد آن bacterium",
+      "trap": "bacteria ≠ virus؛ bacteria موجود زنده، virus بدون میزبان زنده نیست",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "molecule",
+      "translation": "مولکول",
+      "ipa": "/ˈmɑːlɪkjuːl/",
+      "partOfSpeech": "noun",
+      "example": "A water molecule consists of two hydrogen atoms and one oxygen atom.",
+      "definitions": [
+        "The smallest unit of a chemical compound that can exist independently"
+      ],
+      "synonyms": [
+        "particle",
+        "compound unit"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "molecular structure",
+        "molecule model",
+        "organic molecule"
+      ],
+      "wordFamily": [
+        "molecule (n)",
+        "molecular (adj)"
+      ],
+      "coreMeaning": "کوچک‌ترین واحد یک ترکیب شیمیایی",
+      "note": "مولکول از اتم‌ها ساخته شده",
+      "trap": "molecule ≠ atom؛ molecule ترکیبی از اتم‌هاست",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "atom",
+      "translation": "اتم",
+      "ipa": "/ˈætəm/",
+      "partOfSpeech": "noun",
+      "example": "Everything in the universe is made up of atoms.",
+      "definitions": [
+        "The basic unit of a chemical element"
+      ],
+      "synonyms": [
+        "particle",
+        "unit"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "atomic structure",
+        "atom bomb",
+        "subatomic particle"
+      ],
+      "wordFamily": [
+        "atom (n)",
+        "atomic (adj)"
+      ],
+      "coreMeaning": "واحد پایه‌ای یک عنصر شیمیایی",
+      "note": "اتم‌ها از proton، neutron و electron تشکیل شده‌اند",
+      "trap": "atom ≠ molecule؛ atom واحد عنصر، molecule واحد ترکیب",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "compound",
+      "translation": "ترکیب شیمیایی",
+      "ipa": "/ˈkɑːmpaʊnd/",
+      "partOfSpeech": "noun",
+      "example": "Water is a compound made of hydrogen and oxygen.",
+      "definitions": [
+        "A substance formed when two or more chemical elements are chemically bonded"
+      ],
+      "synonyms": [
+        "mixture",
+        "substance",
+        "chemical"
+      ],
+      "antonyms": [
+        "element"
+      ],
+      "collocations": [
+        "chemical compound",
+        "organic compound",
+        "compound interest"
+      ],
+      "wordFamily": [
+        "compound (n/adj/v)"
+      ],
+      "coreMeaning": "ماده‌ای از ترکیب دو یا چند عنصر",
+      "note": "compound هم اسم و هم صفت است",
+      "trap": "compound ≠ mixture؛ compound پیوند شیمیایی دارد",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "reaction",
+      "translation": "واکنش شیمیایی",
+      "ipa": "/riˈækʃən/",
+      "partOfSpeech": "noun",
+      "example": "The chemical reaction produces heat and light.",
+      "definitions": [
+        "A chemical process in which substances act on each other and are changed"
+      ],
+      "synonyms": [
+        "response",
+        "interaction",
+        "transformation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "chemical reaction",
+        "chain reaction",
+        "nuclear reaction"
+      ],
+      "wordFamily": [
+        "reaction (n)",
+        "react (v)",
+        "reactive (adj)"
+      ],
+      "coreMeaning": "فرآیند شیمیایی تبدیل مواد",
+      "note": "reaction معانی دیگری هم دارد",
+      "trap": "reaction ≠ response؛ reaction شیمیایی، response انسانی",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "acid",
+      "translation": "اسید",
+      "ipa": "/ˈæsɪd/",
+      "partOfSpeech": "noun",
+      "example": "Lemon juice contains citric acid.",
+      "definitions": [
+        "A chemical substance with a pH of less than 7"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "base",
+        "alkali"
+      ],
+      "collocations": [
+        "acid rain",
+        "amino acid",
+        "acidic solution"
+      ],
+      "wordFamily": [
+        "acid (n/adj)",
+        "acidic (adj)",
+        "acidity (n)"
+      ],
+      "coreMeaning": "ماده شیمیایی با pH کمتر از 7",
+      "note": "اسیدها خورنده هستند",
+      "trap": "acid ≠ base",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "solution",
+      "translation": "محلول",
+      "ipa": "/səˈluːʃən/",
+      "partOfSpeech": "noun",
+      "example": "Salt dissolved in water forms a solution.",
+      "definitions": [
+        "A liquid mixture in which the minor component is uniformly distributed"
+      ],
+      "synonyms": [
+        "mixture",
+        "blend",
+        "dissolution"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "chemical solution",
+        "aqueous solution",
+        "dissolve in solution"
+      ],
+      "wordFamily": [
+        "solution (n)",
+        "dissolve (v)",
+        "soluble (adj)"
+      ],
+      "coreMeaning": "مخلوط مایع یکنواخت",
+      "note": "solution معانی دیگری هم دارد: راه‌حل",
+      "trap": "solution ≠ mixture؛ solution یکنواخت",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "catalyst",
+      "translation": "کاتالیزور",
+      "ipa": "/ˈkætəlɪst/",
+      "partOfSpeech": "noun",
+      "example": "Platinum acts as a catalyst in many chemical reactions.",
+      "definitions": [
+        "A substance that increases the rate of a chemical reaction without being consumed"
+      ],
+      "synonyms": [
+        "accelerator",
+        "stimulus",
+        "trigger"
+      ],
+      "antonyms": [
+        "inhibitor"
+      ],
+      "collocations": [
+        "act as a catalyst",
+        "catalytic converter",
+        "catalyst for change"
+      ],
+      "wordFamily": [
+        "catalyst (n)",
+        "catalytic (adj)",
+        "catalyze (v)"
+      ],
+      "coreMeaning": "ماده‌ای که سرعت واکنش را بدون تغییر خودش افزایش می‌دهد",
+      "note": "کاتالیزور مصرف نمی‌شود",
+      "trap": "catalyst ≠ reactant",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "gravity",
+      "translation": "گرانش",
+      "ipa": "/ˈɡrævəti/",
+      "partOfSpeech": "noun",
+      "example": "Gravity keeps the planets in orbit around the sun.",
+      "definitions": [
+        "The force that attracts a body toward the center of the earth"
+      ],
+      "synonyms": [
+        "gravitation",
+        "gravitational force",
+        "pull"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "force of gravity",
+        "gravity well",
+        "zero gravity"
+      ],
+      "wordFamily": [
+        "gravity (n)",
+        "gravitational (adj)",
+        "gravitate (v)"
+      ],
+      "coreMeaning": "نیروی جاذبه بین اجسام دارای جرم",
+      "note": "گرانش ضعیف‌ترین نیروی بنیادی طبیعت است",
+      "trap": "gravity ≠ weight؛ gravity نیرو، weight نتیجه",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "friction",
+      "translation": "اصطکاک",
+      "ipa": "/ˈfrɪkʃən/",
+      "partOfSpeech": "noun",
+      "example": "Friction between the tires and the road helps the car stop.",
+      "definitions": [
+        "The resistance that one surface encounters when moving over another"
+      ],
+      "synonyms": [
+        "resistance",
+        "drag",
+        "abrasion"
+      ],
+      "antonyms": [
+        "smoothness",
+        "lubrication"
+      ],
+      "collocations": [
+        "friction force",
+        "reduce friction",
+        "friction between surfaces"
+      ],
+      "wordFamily": [
+        "friction (n)",
+        "frictional (adj)"
+      ],
+      "coreMeaning": "مقاومت بین دو سطح در حال تماس",
+      "note": "اصطکاک هم مفید و هم مضر است",
+      "trap": "friction ≠ resistance؛ friction نوع خاصی از resistance",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "velocity",
+      "translation": "سرعت",
+      "ipa": "/vəˈlɑːsəti/",
+      "partOfSpeech": "noun",
+      "example": "The velocity of the rocket increased as it left the atmosphere.",
+      "definitions": [
+        "The speed of something in a given direction"
+      ],
+      "synonyms": [
+        "speed",
+        "pace",
+        "rate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "terminal velocity",
+        "escape velocity",
+        "high velocity"
+      ],
+      "wordFamily": [
+        "velocity (n)"
+      ],
+      "coreMeaning": "سرعت در یک جهت مشخص",
+      "note": "velocity برداری است (جهت دارد)",
+      "trap": "velocity ≠ speed؛ velocity جهت دارد",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "momentum",
+      "translation": "تکانه",
+      "ipa": "/moʊˈmentəm/",
+      "partOfSpeech": "noun",
+      "example": "The car gained momentum as it rolled down the hill.",
+      "definitions": [
+        "The quantity of motion of a moving body, measured as mass times velocity"
+      ],
+      "synonyms": [
+        "impetus",
+        "drive",
+        "force"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "gain momentum",
+        "lose momentum",
+        "conservation of momentum"
+      ],
+      "wordFamily": [
+        "momentum (n)"
+      ],
+      "coreMeaning": "کمیت حرکت (جرم × سرعت)",
+      "note": "momentum = mass × velocity",
+      "trap": "momentum ≠ speed؛ momentum به جرم هم بستگی دارد",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "radiation",
+      "translation": "تابش",
+      "ipa": "/ˌreɪdiˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The sun emits harmful ultraviolet radiation.",
+      "definitions": [
+        "The emission of energy as electromagnetic waves or moving subatomic particles"
+      ],
+      "synonyms": [
+        "emission",
+        "rays",
+        "waves"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "nuclear radiation",
+        "radiation exposure",
+        "radiation therapy"
+      ],
+      "wordFamily": [
+        "radiation (n)",
+        "radiate (v)",
+        "radiant (adj)"
+      ],
+      "coreMeaning": "انتشار انرژی به صورت امواج یا ذرات",
+      "note": "انواع: alpha، beta، gamma",
+      "trap": "radiation ≠ radioactivity؛ radiation عام‌تر",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "spectrum",
+      "translation": "طیف",
+      "ipa": "/ˈspektrəm/",
+      "partOfSpeech": "noun",
+      "example": "The visible spectrum includes all the colors of the rainbow.",
+      "definitions": [
+        "A band of colors produced by separation of light components"
+      ],
+      "synonyms": [
+        "range",
+        "scale",
+        "band"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "electromagnetic spectrum",
+        "visible spectrum",
+        "broad spectrum"
+      ],
+      "wordFamily": [
+        "spectrum (n)",
+        "spectral (adj)"
+      ],
+      "coreMeaning": "نواری از رنگ‌ها بر اساس طول موج",
+      "note": "طیف مرئی فقط بخش کوچکی از طیف الکترومغناطیسی",
+      "trap": "spectrum ≠ range؛ spectrum علمی‌تر",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "nucleus",
+      "translation": "هسته",
+      "ipa": "/ˈnjuːkliəs/",
+      "partOfSpeech": "noun",
+      "example": "The nucleus of an atom contains protons and neutrons.",
+      "definitions": [
+        "The central part of an atom or cell"
+      ],
+      "synonyms": [
+        "core",
+        "center",
+        "heart"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "atomic nucleus",
+        "cell nucleus",
+        "nuclear energy"
+      ],
+      "wordFamily": [
+        "nucleus (n)",
+        "nuclear (adj)"
+      ],
+      "coreMeaning": "مرکز اتم یا سلول",
+      "note": "جمع آن nuclei است",
+      "trap": "nucleus ≠ core؛ nucleus اصطلاح علمی دقیق‌تر",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "electron",
+      "translation": "الکترون",
+      "ipa": "/ɪˈlektrɑːn/",
+      "partOfSpeech": "noun",
+      "example": "Electrons orbit the nucleus of an atom.",
+      "definitions": [
+        "A stable subatomic particle with a negative electric charge"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "proton",
+        "neutron"
+      ],
+      "collocations": [
+        "electron cloud",
+        "free electron",
+        "electron microscope"
+      ],
+      "wordFamily": [
+        "electron (n)",
+        "electronic (adj)",
+        "electricity (n)"
+      ],
+      "coreMeaning": "ذره زیراتمی با بار منفی",
+      "note": "الکترون‌ها در اطراف هسته می‌چرخند",
+      "trap": "electron ≠ electricity؛ electron ذره، electricity جریان",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "proton",
+      "translation": "پروتون",
+      "ipa": "/ˈproʊtɑːn/",
+      "partOfSpeech": "noun",
+      "example": "A proton has a positive electric charge.",
+      "definitions": [
+        "A stable subatomic particle with a positive charge found in atomic nuclei"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "electron",
+        "neutron"
+      ],
+      "collocations": [
+        "proton number",
+        "proton beam",
+        "hydrogen proton"
+      ],
+      "wordFamily": [
+        "proton (n)"
+      ],
+      "coreMeaning": "ذره زیراتمی با بار مثبت",
+      "note": "تعداد پروتون‌ها عدد اتمی را تعیین می‌کند",
+      "trap": "proton ≠ neutron",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "neutron",
+      "translation": "نوترون",
+      "ipa": "/ˈnuːtrɑːn/",
+      "partOfSpeech": "noun",
+      "example": "Neutrons have no electric charge.",
+      "definitions": [
+        "A subatomic particle with no electric charge"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "proton",
+        "electron"
+      ],
+      "collocations": [
+        "neutron star",
+        "free neutron",
+        "neutron bomb"
+      ],
+      "wordFamily": [
+        "neutron (n)",
+        "neutral (adj)"
+      ],
+      "coreMeaning": "ذره زیراتمی بدون بار",
+      "note": "نوترون‌ها به پایداری هسته کمک می‌کنند",
+      "trap": "neutron ≠ neutral",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "isotope",
+      "translation": "ایزوتوپ",
+      "ipa": "/ˈaɪsətoʊp/",
+      "partOfSpeech": "noun",
+      "example": "Carbon-14 is a radioactive isotope used in dating ancient objects.",
+      "definitions": [
+        "Atoms of the same element with different numbers of neutrons"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "radioactive isotope",
+        "stable isotope",
+        "isotope ratio"
+      ],
+      "wordFamily": [
+        "isotope (n)",
+        "isotopic (adj)"
+      ],
+      "coreMeaning": "اتم‌های یک عنصر با تعداد نوترون متفاوت",
+      "note": "ایزوتوپ‌ها خواص شیمیایی یکسان ولی جرم متفاوت دارند",
+      "trap": "isotope ≠ element",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "nuclear",
+      "translation": "هسته‌ای",
+      "ipa": "/ˈnjuːkliər/",
+      "partOfSpeech": "adjective",
+      "example": "Nuclear energy is a controversial topic.",
+      "definitions": [
+        "Relating to the nucleus of an atom"
+      ],
+      "synonyms": [
+        "atomic"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "nuclear energy",
+        "nuclear power",
+        "nuclear reaction"
+      ],
+      "wordFamily": [
+        "nucleus (n)",
+        "nuclear (adj)"
+      ],
+      "coreMeaning": "مربوط به هسته اتم",
+      "note": "nuclear تلفظ صحیح: NEW-klee-er",
+      "trap": "nuclear ≠ atomic",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "quantum",
+      "translation": "کوانتومی",
+      "ipa": "/ˈkwɑːntəm/",
+      "partOfSpeech": "adjective",
+      "example": "Quantum mechanics describes the behavior of subatomic particles.",
+      "definitions": [
+        "Relating to quantum mechanics or quantum physics"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "classical"
+      ],
+      "collocations": [
+        "quantum mechanics",
+        "quantum physics",
+        "quantum computing"
+      ],
+      "wordFamily": [
+        "quantum (n/adj)"
+      ],
+      "coreMeaning": "مربوط به فیزیک ذرات زیراتمی",
+      "note": "quantum از کلمه لاتین quantus گرفته شده",
+      "trap": "quantum ≠ classical",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "electromagnetic",
+      "translation": "الکترومغناطیسی",
+      "ipa": "/ɪˌlektrəʊmæɡˈnetɪk/",
+      "partOfSpeech": "adjective",
+      "example": "Light is an electromagnetic wave.",
+      "definitions": [
+        "Relating to the interrelation of electric currents and magnetic fields"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "electromagnetic wave",
+        "electromagnetic field",
+        "electromagnetic spectrum"
+      ],
+      "wordFamily": [
+        "electromagnetic (adj)",
+        "electromagnetism (n)"
+      ],
+      "coreMeaning": "مربوط به امواج الکتریکی و مغناطیسی",
+      "note": "نور، رادیو و اشعه ایکس electromagnetic هستند",
+      "trap": "electromagnetic ≠ electric",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "ecosystem",
+      "translation": "اکوسیستم",
+      "ipa": "/ˈiːkoʊsɪstəm/",
+      "partOfSpeech": "noun",
+      "example": "Coral reefs are one of the most diverse ecosystems on Earth.",
+      "definitions": [
+        "A biological community of interacting organisms and their physical environment"
+      ],
+      "synonyms": [
+        "biome",
+        "habitat",
+        "environment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "marine ecosystem",
+        "ecosystem balance",
+        "ecosystem services"
+      ],
+      "wordFamily": [
+        "ecosystem (n)"
+      ],
+      "coreMeaning": "جامعه زیستی و محیط فیزیکی",
+      "note": "اکوسیستم‌ها می‌توانند کوچک یا بزرگ باشند",
+      "trap": "ecosystem ≠ environment؛ ecosystem شامل موجودات زنده",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "biodiversity",
+      "translation": "تنوع زیستی",
+      "ipa": "/ˌbaɪoʊdaɪˈvɜːrsəti/",
+      "partOfSpeech": "noun",
+      "example": "The rainforest has incredible biodiversity.",
+      "definitions": [
+        "The variety of life in a particular habitat or ecosystem"
+      ],
+      "synonyms": [
+        "biological diversity",
+        "species variety"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "loss of biodiversity",
+        "biodiversity hotspot",
+        "protect biodiversity"
+      ],
+      "wordFamily": [
+        "biodiversity (n)"
+      ],
+      "coreMeaning": "تنوع موجودات زنده",
+      "note": "شامل تنوع ژنتیکی، گونه‌ای و اکوسیستمی",
+      "trap": "biodiversity ≠ species count",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "habitat",
+      "translation": "زیستگاه",
+      "ipa": "/ˈhæbɪtæt/",
+      "partOfSpeech": "noun",
+      "example": "Deforestation is destroying the habitat of many species.",
+      "definitions": [
+        "The natural home or environment of an organism"
+      ],
+      "synonyms": [
+        "home",
+        "environment",
+        "territory"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "natural habitat",
+        "habitat loss",
+        "habitat destruction"
+      ],
+      "wordFamily": [
+        "habitat (n)"
+      ],
+      "coreMeaning": "محیط طبیعی زندگی یک موجود زنده",
+      "note": "habitat شامل شرایط آب و هوایی و غذا هم هست",
+      "trap": "habitat ≠ ecosystem؛ habitat خانه یک گونه، ecosystem کل سیستم",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "predator",
+      "translation": "شکارچی",
+      "ipa": "/ˈpredətər/",
+      "partOfSpeech": "noun",
+      "example": "The lion is the top predator in the African savanna.",
+      "definitions": [
+        "An animal that naturally preys on others"
+      ],
+      "synonyms": [
+        "hunter",
+        "carnivore"
+      ],
+      "antonyms": [
+        "prey"
+      ],
+      "collocations": [
+        "apex predator",
+        "predator-prey relationship",
+        "natural predator"
+      ],
+      "wordFamily": [
+        "predator (n)",
+        "predatory (adj)"
+      ],
+      "coreMeaning": "حیوانی که حیوانات دیگر را شکار می‌کند",
+      "note": "shark یک apex predator است",
+      "trap": "predator ≠ prey",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "prey",
+      "translation": "شکار",
+      "ipa": "/preɪ/",
+      "partOfSpeech": "noun",
+      "example": "Mice are common prey for owls.",
+      "definitions": [
+        "An animal that is hunted and killed by another for food"
+      ],
+      "synonyms": [
+        "victim",
+        "target",
+        "quarry"
+      ],
+      "antonyms": [
+        "predator"
+      ],
+      "collocations": [
+        "fall prey to",
+        "prey on",
+        "easy prey"
+      ],
+      "wordFamily": [
+        "prey (n/v)"
+      ],
+      "coreMeaning": "حیوانی که شکار می‌شود",
+      "note": "prey هم اسم و هم فعل است",
+      "trap": "prey ≠ pray؛ prey شکار، pray دعا",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "pollutant",
+      "translation": "آلاینده",
+      "ipa": "/pəˈluːtənt/",
+      "partOfSpeech": "noun",
+      "example": "Factory emissions are a major source of pollutants.",
+      "definitions": [
+        "A substance that pollutes the environment"
+      ],
+      "synonyms": [
+        "contaminant",
+        "toxin",
+        "waste"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "air pollutant",
+        "water pollutant",
+        "chemical pollutant"
+      ],
+      "wordFamily": [
+        "pollutant (n)",
+        "pollute (v)",
+        "pollution (n)"
+      ],
+      "coreMeaning": "ماده‌ای که محیط زیست را آلوده می‌کند",
+      "note": "pollutant می‌تواند شیمیایی، فیزیکی یا بیولوژیکی باشد",
+      "trap": "pollutant ≠ pollution",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "emission",
+      "translation": "انتشار",
+      "ipa": "/ɪˈmɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Carbon emissions must be reduced to combat climate change.",
+      "definitions": [
+        "The production and discharge of something, especially gas or radiation"
+      ],
+      "synonyms": [
+        "discharge",
+        "release",
+        "output"
+      ],
+      "antonyms": [
+        "absorption"
+      ],
+      "collocations": [
+        "carbon emission",
+        "reduce emissions",
+        "greenhouse gas emissions"
+      ],
+      "wordFamily": [
+        "emission (n)",
+        "emit (v)"
+      ],
+      "coreMeaning": "تولید و آزادسازی گاز یا تشعشع",
+      "note": "emission معمولاً به گازهای گلخانه‌ای اشاره دارد",
+      "trap": "emission ≠ discharge",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "greenhouse effect",
+      "translation": "اثر گلخانه‌ای",
+      "ipa": "/ˈɡriːnhaʊs ɪˈfekt/",
+      "partOfSpeech": "noun",
+      "example": "The greenhouse effect is causing global temperatures to rise.",
+      "definitions": [
+        "The trapping of the sun's warmth in a planet's lower atmosphere"
+      ],
+      "synonyms": [
+        "global warming",
+        "climate warming"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "enhanced greenhouse effect",
+        "greenhouse gases",
+        "greenhouse effect gases"
+      ],
+      "wordFamily": [
+        "greenhouse effect (n)"
+      ],
+      "coreMeaning": "به دام افتادن گرمای خورشید در جو",
+      "note": "CO2 و methane مهم‌ترین گازهای گلخانه‌ای هستند",
+      "trap": "greenhouse effect ≠ global warming؛ greenhouse effect علت، global warming نتیجه",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "deforestation",
+      "translation": "جنگل‌زدایی",
+      "ipa": "/diːˌfɔːrɪˈsteɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Deforestation in the Amazon is a major environmental concern.",
+      "definitions": [
+        "The clearing or destruction of forests"
+      ],
+      "synonyms": [
+        "forest clearing",
+        "logging",
+        "tree removal"
+      ],
+      "antonyms": [
+        "reforestation",
+        "afforestation"
+      ],
+      "collocations": [
+        "tropical deforestation",
+        "stop deforestation",
+        "deforestation rate"
+      ],
+      "wordFamily": [
+        "deforestation (n)",
+        "deforest (v)"
+      ],
+      "coreMeaning": "از بین بردن جنگل‌ها",
+      "note": "جنگل‌زدایی باعث از دست رفتن تنوع زیستی می‌شود",
+      "trap": "deforestation ≠ logging",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "erosion",
+      "translation": "فرسایش",
+      "ipa": "/ɪˈroʊʒən/",
+      "partOfSpeech": "noun",
+      "example": "Wind and water cause erosion of the soil.",
+      "definitions": [
+        "The wearing away of rock or soil by natural agents"
+      ],
+      "synonyms": [
+        "weathering",
+        "wearing",
+        "deterioration"
+      ],
+      "antonyms": [
+        "buildup",
+        "accretion"
+      ],
+      "collocations": [
+        "soil erosion",
+        "coastal erosion",
+        "erosion control"
+      ],
+      "wordFamily": [
+        "erosion (n)",
+        "erode (v)"
+      ],
+      "coreMeaning": "ساییدگی خاک یا سنگ توسط عوامل طبیعی",
+      "note": "فرسایش خاک مشکل بزرگ زیست‌محیطی است",
+      "trap": "erosion ≠ weathering؛ erosion جابجایی، weathering تخریب در محل",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "fossil",
+      "translation": "فسیل",
+      "ipa": "/ˈfɑːsəl/",
+      "partOfSpeech": "noun",
+      "example": "Scientists found a fossil of a dinosaur in the desert.",
+      "definitions": [
+        "The remains or impression of a prehistoric organism preserved in rock"
+      ],
+      "synonyms": [
+        "relic",
+        "remains",
+        "artifact"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fossil fuel",
+        "fossil record",
+        "fossil discovery"
+      ],
+      "wordFamily": [
+        "fossil (n)",
+        "fossilize (v)"
+      ],
+      "coreMeaning": "باقی‌مانده موجودات ماقبل تاریخ در سنگ",
+      "note": "سوخت‌های فسیلی از بقایای موجودات باستانی ساخته شده‌اند",
+      "trap": "fossil ≠ artifact؛ fossil طبیعی، artifact ساخته دست بشر",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "renewable",
+      "translation": "تجدیدپذیر",
+      "ipa": "/rɪˈnuːəbəl/",
+      "partOfSpeech": "adjective",
+      "example": "Solar and wind are examples of renewable energy sources.",
+      "definitions": [
+        "Capable of being renewed or used again without being depleted"
+      ],
+      "synonyms": [
+        "sustainable",
+        "replenishable"
+      ],
+      "antonyms": [
+        "nonrenewable",
+        "finite"
+      ],
+      "collocations": [
+        "renewable energy",
+        "renewable resources",
+        "renewable source"
+      ],
+      "wordFamily": [
+        "renewable (adj)",
+        "renew (v)"
+      ],
+      "coreMeaning": "قابل استفاده مجدد بدون تمام شدن",
+      "note": "خورشیدی، بادی، آبی، زمین‌گرمایی",
+      "trap": "renewable ≠ sustainable",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "sustainable",
+      "translation": "پایدار",
+      "ipa": "/səˈsteɪnəbəl/",
+      "partOfSpeech": "adjective",
+      "example": "We need to find sustainable solutions to environmental problems.",
+      "definitions": [
+        "Able to be maintained without depleting resources"
+      ],
+      "synonyms": [
+        "viable",
+        "maintainable",
+        "enduring"
+      ],
+      "antonyms": [
+        "unsustainable"
+      ],
+      "collocations": [
+        "sustainable development",
+        "sustainable energy",
+        "environmentally sustainable"
+      ],
+      "wordFamily": [
+        "sustainability (n)",
+        "sustainable (adj)",
+        "sustain (v)"
+      ],
+      "coreMeaning": "قابل حفظ در بلندمدت بدون تخلیه منابع",
+      "note": "توسعه پایدار نیازهای حال را بدون آسیب به آینده برآورده می‌کند",
+      "trap": "sustainable ≠ renewable",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "conservation",
+      "translation": "حفاظت",
+      "ipa": "/ˌkɑːnsərˈveɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Conservation efforts have helped protect endangered species.",
+      "definitions": [
+        "The protection of plants, animals, and natural resources"
+      ],
+      "synonyms": [
+        "preservation",
+        "protection",
+        "safeguarding"
+      ],
+      "antonyms": [
+        "destruction",
+        "exploitation"
+      ],
+      "collocations": [
+        "wildlife conservation",
+        "conservation efforts",
+        "energy conservation"
+      ],
+      "wordFamily": [
+        "conservation (n)",
+        "conserve (v)",
+        "conservationist (n)"
+      ],
+      "coreMeaning": "حفاظت از طبیعت و منابع طبیعی",
+      "note": "conservation هم حفظ محیط زیست و هم صرفه‌جویی",
+      "trap": "conservation ≠ preservation",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "contamination",
+      "translation": "آلودگی",
+      "ipa": "/kənˌtæmɪˈneɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The contamination of the water supply posed a serious health risk.",
+      "definitions": [
+        "The process of making something impure by adding harmful substances"
+      ],
+      "synonyms": [
+        "pollution",
+        "tainting",
+        "poisoning"
+      ],
+      "antonyms": [
+        "purification"
+      ],
+      "collocations": [
+        "water contamination",
+        "soil contamination",
+        "nuclear contamination"
+      ],
+      "wordFamily": [
+        "contamination (n)",
+        "contaminate (v)",
+        "contaminant (n)"
+      ],
+      "coreMeaning": "ورود مواد مضر به آب، هوا یا خاک",
+      "note": "contamination معمولاً محلی‌تر است",
+      "trap": "contamination ≠ pollution",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "extinction",
+      "translation": "انقراض",
+      "ipa": "/ɪkˈstɪŋkʃən/",
+      "partOfSpeech": "noun",
+      "example": "Many species face extinction due to habitat loss.",
+      "definitions": [
+        "The state or process of a species ceasing to exist"
+      ],
+      "synonyms": [
+        "dying out",
+        "disappearance",
+        "elimination"
+      ],
+      "antonyms": [
+        "survival"
+      ],
+      "collocations": [
+        "face extinction",
+        "mass extinction",
+        "extinction event"
+      ],
+      "wordFamily": [
+        "extinction (n)",
+        "extinct (adj)"
+      ],
+      "coreMeaning": "از بین رفتن کامل یک گونه",
+      "note": "انقراض دایناسورها 65 میلیون سال پیش",
+      "trap": "extinction ≠ endangerment",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "temperate",
+      "translation": "معتدل",
+      "ipa": "/ˈtempərət/",
+      "partOfSpeech": "adjective",
+      "example": "The temperate zone has moderate temperatures year-round.",
+      "definitions": [
+        "Relating to or denoting a region with mild temperatures"
+      ],
+      "synonyms": [
+        "mild",
+        "moderate"
+      ],
+      "antonyms": [
+        "extreme",
+        "tropical"
+      ],
+      "collocations": [
+        "temperate zone",
+        "temperate climate",
+        "temperate region"
+      ],
+      "wordFamily": [
+        "temperate (adj)",
+        "temperance (n)"
+      ],
+      "coreMeaning": "دارای آب و هوای معتدل",
+      "note": "temperate zone بین مدارهای 23.5 و 66.5 درجه",
+      "trap": "temperate ≠ temperature؛ temperate صفت، temperature اسم",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "atmosphere",
+      "translation": "جو",
+      "ipa": "/ˈætməsfɪr/",
+      "partOfSpeech": "noun",
+      "example": "The atmosphere protects us from harmful solar radiation.",
+      "definitions": [
+        "The envelope of gases surrounding the earth"
+      ],
+      "synonyms": [
+        "air",
+        "sky",
+        "envelope"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "Earth's atmosphere",
+        "atmospheric pressure",
+        "upper atmosphere"
+      ],
+      "wordFamily": [
+        "atmosphere (n)",
+        "atmospheric (adj)"
+      ],
+      "coreMeaning": "لایه گازی اطراف زمین",
+      "note": "جو زمین از 78% نیتروژن و 21% اکسیژن تشکیل شده",
+      "trap": "atmosphere ≠ air",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "precipitation",
+      "translation": "بارش",
+      "ipa": "/prɪˌsɪpɪˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Annual precipitation in this area is about 500 millimeters.",
+      "definitions": [
+        "Rain, snow, sleet, or hail that falls from the atmosphere"
+      ],
+      "synonyms": [
+        "rainfall",
+        "rain",
+        "moisture"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "annual precipitation",
+        "heavy precipitation",
+        "precipitation rate"
+      ],
+      "wordFamily": [
+        "precipitation (n)",
+        "precipitate (v)"
+      ],
+      "coreMeaning": "بارش باران، برف یا تگرگ",
+      "note": "precipitation شامل برف و تگرگ هم هست",
+      "trap": "precipitation ≠ rain",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "arid",
+      "translation": "خشک، بیابانی",
+      "ipa": "/ˈærɪd/",
+      "partOfSpeech": "adjective",
+      "example": "The arid desert receives very little rainfall.",
+      "definitions": [
+        "Having little or no rain; very dry"
+      ],
+      "synonyms": [
+        "dry",
+        "parched",
+        "barren"
+      ],
+      "antonyms": [
+        "humid",
+        "wet",
+        "moist"
+      ],
+      "collocations": [
+        "arid climate",
+        "arid region",
+        "arid landscape"
+      ],
+      "wordFamily": [
+        "aridity (n)",
+        "arid (adj)"
+      ],
+      "coreMeaning": "بسیار خشک و کم‌بارش",
+      "note": "arid معمولاً برای مناطق بیابانی استفاده می‌شود",
+      "trap": "arid ≠ dry؛ arid شدیدتر و علمی‌تر",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "inundation",
+      "translation": "طغیان، سیلاب",
+      "ipa": "/ˌɪnʌnˈdeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The inundation of the coastal areas displaced thousands of people.",
+      "definitions": [
+        "An overwhelming abundance of something; flooding"
+      ],
+      "synonyms": [
+        "flood",
+        "deluge",
+        "overflow"
+      ],
+      "antonyms": [
+        "drought"
+      ],
+      "collocations": [
+        "coastal inundation",
+        "inundation risk",
+        "inundation map"
+      ],
+      "wordFamily": [
+        "inundate (v)",
+        "inundation (n)"
+      ],
+      "coreMeaning": "طغیان آب و زیر آب رفتن",
+      "note": "inundation رسمی‌تر از flood است",
+      "trap": "inundation ≠ flood؛ inundation علمی‌تر",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "carbon footprint",
+      "translation": "ردپای کربن",
+      "ipa": "/ˈkɑːrbən ˈfʊtprɪnt/",
+      "partOfSpeech": "noun",
+      "example": "We should all try to reduce our carbon footprint.",
+      "definitions": [
+        "The total amount of greenhouse gases produced by an individual or organization"
+      ],
+      "synonyms": [
+        "environmental impact",
+        "emissions profile"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "reduce carbon footprint",
+        "calculate carbon footprint",
+        "carbon footprint offset"
+      ],
+      "wordFamily": [
+        "carbon footprint (n)"
+      ],
+      "coreMeaning": "کل مقدار گازهای گلخانه‌ای تولیدشده",
+      "note": "شامل CO2 و سایر گازها",
+      "trap": "carbon footprint ≠ pollution",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "ozone layer",
+      "translation": "لایه ازن",
+      "ipa": "/ˈoʊzoʊn ˌleɪər/",
+      "partOfSpeech": "noun",
+      "example": "The ozone layer protects life on Earth from UV radiation.",
+      "definitions": [
+        "A layer of the atmosphere that absorbs most UV radiation"
+      ],
+      "synonyms": [
+        "ozonosphere"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "ozone layer depletion",
+        "protect the ozone layer",
+        "ozone hole"
+      ],
+      "wordFamily": [
+        "ozone (n)"
+      ],
+      "coreMeaning": "لایه‌ای از جو که اشعه ماوراء بنفش را جذب می‌کند",
+      "note": "CFCها باعث تخریب لایه ازن شدند",
+      "trap": "ozone layer ≠ atmosphere",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "photosynthesis",
+      "translation": "فتوسنتز",
+      "ipa": "/ˌfoʊtoʊˈsɪnθəsɪs/",
+      "partOfSpeech": "noun",
+      "example": "Photosynthesis is the process by which plants convert sunlight into energy.",
+      "definitions": [
+        "The process by which green plants use sunlight to synthesize nutrients"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "photosynthesis process",
+        "photosynthesis rate",
+        "photosynthetic organisms"
+      ],
+      "wordFamily": [
+        "photosynthesis (n)",
+        "photosynthetic (adj)"
+      ],
+      "coreMeaning": "تبدیل نور خورشید به انرژی شیمیایی توسط گیاهان",
+      "note": "CO2 و آب → گلوکز و اکسیژن",
+      "trap": "photosynthesis ≠ respiration",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "respiration",
+      "translation": "تنفس سلولی",
+      "ipa": "/ˌrespɪˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Cellular respiration converts glucose into energy.",
+      "definitions": [
+        "The chemical process in which organisms produce energy from food"
+      ],
+      "synonyms": [
+        "breathing",
+        "inhalation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cellular respiration",
+        "aerobic respiration",
+        "respiration rate"
+      ],
+      "wordFamily": [
+        "respiration (n)",
+        "respire (v)",
+        "respiratory (adj)"
+      ],
+      "coreMeaning": "تبدیل گلوکز به انرژی در سلول‌ها",
+      "note": "اکسیژن مصرف و CO2 تولید می‌کند",
+      "trap": "respiration ≠ breathing",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "metabolism",
+      "translation": "متابولیسم",
+      "ipa": "/məˈtæbəlɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "A fast metabolism helps you burn calories more quickly.",
+      "definitions": [
+        "The chemical processes that occur within a living organism to maintain life"
+      ],
+      "synonyms": [
+        "biochemistry",
+        "body chemistry"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fast metabolism",
+        "basal metabolism",
+        "metabolic rate"
+      ],
+      "wordFamily": [
+        "metabolism (n)",
+        "metabolic (adj)",
+        "metabolize (v)"
+      ],
+      "coreMeaning": "واکنش‌های شیمیایی برای حفظ حیات",
+      "note": "شامل آنابولیسم و کاتابولیسم",
+      "trap": "metabolism ≠ digestion",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "immune system",
+      "translation": "سیستم ایمنی",
+      "ipa": "/ɪˈmjuːn ˌsɪstəm/",
+      "partOfSpeech": "noun",
+      "example": "A strong immune system helps fight off infections.",
+      "definitions": [
+        "The body's defense system against disease"
+      ],
+      "synonyms": [
+        "defense system",
+        "immune response"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "strengthen the immune system",
+        "immune system disorder",
+        "immune response"
+      ],
+      "wordFamily": [
+        "immune (adj)",
+        "immunity (n)",
+        "immunize (v)"
+      ],
+      "coreMeaning": "سیستم دفاعی بدن",
+      "note": "شامل گلبول‌های سفید و آنتی‌بادی‌ها",
+      "trap": "immune system ≠ medicine",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "pathogen",
+      "translation": "بیماری‌زا",
+      "ipa": "/ˈpæθədʒən/",
+      "partOfSpeech": "noun",
+      "example": "The pathogen was identified as a new strain of bacteria.",
+      "definitions": [
+        "A bacterium, virus, or other microorganism that can cause disease"
+      ],
+      "synonyms": [
+        "germ",
+        "virus",
+        "bacteria"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "airborne pathogen",
+        "pathogen detection",
+        "pathogen resistance"
+      ],
+      "wordFamily": [
+        "pathogen (n)",
+        "pathogenic (adj)"
+      ],
+      "coreMeaning": "میکروارگانیسم عامل بیماری",
+      "note": "شامل باکتری، ویروس، قارچ و انگل",
+      "trap": "pathogen ≠ disease",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "antibiotic",
+      "translation": "آنتی‌بیوتیک",
+      "ipa": "/ˌæntɪbaɪˈɑːtɪk/",
+      "partOfSpeech": "noun",
+      "example": "The doctor prescribed antibiotics for the bacterial infection.",
+      "definitions": [
+        "A medicine that inhibits the growth of or destroys bacteria"
+      ],
+      "synonyms": [
+        "antimicrobial",
+        "antibacterial"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take antibiotics",
+        "antibiotic resistance",
+        "broad-spectrum antibiotic"
+      ],
+      "wordFamily": [
+        "antibiotic (n/adj)"
+      ],
+      "coreMeaning": "داروی ضد باکتری",
+      "note": "آنتی‌بیوتیک فقط روی باکتری اثر دارد",
+      "trap": "antibiotic ≠ antiviral",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "immunization",
+      "translation": "ایمن‌سازی",
+      "ipa": "/ˌɪmjunaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Childhood immunization programs have saved millions of lives.",
+      "definitions": [
+        "The process of making a person immune to infection"
+      ],
+      "synonyms": [
+        "vaccination",
+        "inoculation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "childhood immunization",
+        "immunization program",
+        "immunization schedule"
+      ],
+      "wordFamily": [
+        "immunize (v)",
+        "immunization (n)",
+        "immune (adj)"
+      ],
+      "coreMeaning": "ایمن کردن بدن در برابر بیماری",
+      "note": "immunization معمولاً از طریق واکسن انجام می‌شود",
+      "trap": "immunization ≠ vaccination؛ immunization فرآیند، vaccination نوع خاص",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "diagnosis",
+      "translation": "تشخیص پزشکی",
+      "ipa": "/ˌdaɪəɡˈnoʊsɪs/",
+      "partOfSpeech": "noun",
+      "example": "Early diagnosis of cancer can save lives.",
+      "definitions": [
+        "The identification of the nature of an illness by examination"
+      ],
+      "synonyms": [
+        "identification",
+        "detection",
+        "determination"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "make a diagnosis",
+        "early diagnosis",
+        "differential diagnosis"
+      ],
+      "wordFamily": [
+        "diagnosis (n)",
+        "diagnose (v)",
+        "diagnostic (adj)"
+      ],
+      "coreMeaning": "شناسایی بیماری از طریق بررسی علائم",
+      "note": "جمع آن diagnoses است",
+      "trap": "diagnosis ≠ prognosis",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "manifestation",
+      "translation": "تظاهر، بروز",
+      "ipa": "/ˌmænɪfesˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Fever is a common manifestation of infection.",
+      "definitions": [
+        "An event, action, or thing that is a sign or evidence of something"
+      ],
+      "synonyms": [
+        "sign",
+        "indication",
+        "symptom"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "clinical manifestation",
+        "manifestation of disease",
+        "physical manifestation"
+      ],
+      "wordFamily": [
+        "manifest (v)",
+        "manifestation (n)"
+      ],
+      "coreMeaning": "نشانه یا بروز یک بیماری یا وضعیت",
+      "note": "manifestation رسمی‌تر از symptom است",
+      "trap": "manifestation ≠ symptom؛ manifestation عام‌تر",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "intervention",
+      "translation": "مداخله",
+      "ipa": "/ˌɪntərˈvenʃən/",
+      "partOfSpeech": "noun",
+      "example": "Early intervention can prevent the disease from spreading.",
+      "definitions": [
+        "The action or process of intervening; action taken to improve a situation"
+      ],
+      "synonyms": [
+        "interference",
+        "involvement",
+        "action"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "medical intervention",
+        "early intervention",
+        "surgical intervention"
+      ],
+      "wordFamily": [
+        "intervene (v)",
+        "intervention (n)"
+      ],
+      "coreMeaning": "اقدام برای بهبود یک وضعیت",
+      "note": "intervention می‌تواند پزشکی، نظامی یا اجتماعی باشد",
+      "trap": "intervention ≠ treatment؛ intervention اقدام، treatment درمان",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "clinical trial",
+      "translation": "کارآزمایی بالینی",
+      "ipa": "/ˈklɪnɪkəl ˈtraɪəl/",
+      "partOfSpeech": "noun",
+      "example": "The new drug is currently undergoing clinical trials.",
+      "definitions": [
+        "A research study performed on people to evaluate a medical intervention"
+      ],
+      "synonyms": [
+        "medical trial",
+        "drug trial",
+        "human trial"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "conduct clinical trials",
+        "clinical trial phase",
+        "clinical trial results"
+      ],
+      "wordFamily": [
+        "clinical trial (n)"
+      ],
+      "coreMeaning": "مطالعه تحقیقاتی روی انسان",
+      "note": "4 فاز دارد",
+      "trap": "clinical trial ≠ experiment",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "microscope",
+      "translation": "میکروسکوپ",
+      "ipa": "/ˈmaɪkrəskoʊp/",
+      "partOfSpeech": "noun",
+      "example": "The scientist examined the cells under a microscope.",
+      "definitions": [
+        "An instrument used to see objects too small for the naked eye"
+      ],
+      "synonyms": [
+        "magnifier",
+        "lens"
+      ],
+      "antonyms": [
+        "telescope"
+      ],
+      "collocations": [
+        "electron microscope",
+        "under the microscope",
+        "microscope slide"
+      ],
+      "wordFamily": [
+        "microscope (n)",
+        "microscopic (adj)"
+      ],
+      "coreMeaning": "ابزاری برای دیدن اجسام بسیار کوچک",
+      "note": "میکروسکوپ الکترونی بیش از 1 میلیون برابر بزرگنمایی دارد",
+      "trap": "microscope ≠ telescope",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "telescope",
+      "translation": "تلسکوپ",
+      "ipa": "/ˈtelɪskoʊp/",
+      "partOfSpeech": "noun",
+      "example": "Galileo used a telescope to observe the moons of Jupiter.",
+      "definitions": [
+        "An instrument designed to make distant objects appear nearer"
+      ],
+      "synonyms": [
+        "scope",
+        "spyglass"
+      ],
+      "antonyms": [
+        "microscope"
+      ],
+      "collocations": [
+        "astronomical telescope",
+        "space telescope",
+        "telescope lens"
+      ],
+      "wordFamily": [
+        "telescope (n)",
+        "telescopic (adj)"
+      ],
+      "coreMeaning": "ابزاری برای نزدیک‌تر دیدن اجسام دور",
+      "note": "تلسکوپ فضایی هابل تصاویر خارق‌العاده‌ای ثبت کرده",
+      "trap": "telescope ≠ microscope",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "apparatus",
+      "translation": "تجهیزات، دستگاه",
+      "ipa": "/ˌæpəˈrætəs/",
+      "partOfSpeech": "noun",
+      "example": "The laboratory apparatus must be sterilized before use.",
+      "definitions": [
+        "The technical equipment or machinery needed for a particular activity"
+      ],
+      "synonyms": [
+        "equipment",
+        "device",
+        "instrument"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "laboratory apparatus",
+        "scientific apparatus",
+        "experimental apparatus"
+      ],
+      "wordFamily": [
+        "apparatus (n)"
+      ],
+      "coreMeaning": "تجهیزات فنی برای یک فعالیت خاص",
+      "note": "apparatus هم مفرد و هم جمع (apparatuses) است",
+      "trap": "apparatus ≠ equipment؛ apparatus خاص‌تر و فنی‌تر",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "specimen",
+      "translation": "نمونه آزمایشگاهی",
+      "ipa": "/ˈspesɪmən/",
+      "partOfSpeech": "noun",
+      "example": "The biologist collected specimens from the field.",
+      "definitions": [
+        "An example of something collected for examination"
+      ],
+      "synonyms": [
+        "sample",
+        "example",
+        "model"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "collect specimens",
+        "specimen jar",
+        "biological specimen"
+      ],
+      "wordFamily": [
+        "specimen (n)"
+      ],
+      "coreMeaning": "نمونه برای بررسی علمی",
+      "note": "specimen معمولاً فیزیکی است",
+      "trap": "specimen ≠ sample",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "magnetism",
+      "translation": "مغناطیس",
+      "ipa": "/ˈæɡnətɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "The Earth's magnetism affects compass needles.",
+      "definitions": [
+        "A physical phenomenon produced by the motion of electric charge"
+      ],
+      "synonyms": [
+        "magnetic force"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "force of magnetism",
+        "electromagnetism",
+        "magnetic field"
+      ],
+      "wordFamily": [
+        "magnetism (n)",
+        "magnetic (adj)",
+        "magnetize (v)"
+      ],
+      "coreMeaning": "نیروی فیزیکی ناشی از حرکت بار الکتریکی",
+      "note": "مغناطیس زمین از هسته مذاب ناشی می‌شود",
+      "trap": "magnetism ≠ electricity",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "optics",
+      "translation": "اپتیک",
+      "ipa": "/ˈɑːptɪks/",
+      "partOfSpeech": "noun",
+      "example": "Optics is the branch of physics that studies light.",
+      "definitions": [
+        "The branch of physics that studies the behavior and properties of light"
+      ],
+      "synonyms": [
+        "optical science",
+        "photonics"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fiber optics",
+        "optical illusion",
+        "geometric optics"
+      ],
+      "wordFamily": [
+        "optics (n)",
+        "optical (adj)"
+      ],
+      "coreMeaning": "شاخه‌ای از فیزیک مطالعه نور",
+      "note": "شامل بازتاب، شکست و پراش",
+      "trap": "optics ≠ light",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "thermodynamics",
+      "translation": "ترمودینامیک",
+      "ipa": "/ˌθɜːrmoʊdaɪˈnæmɪks/",
+      "partOfSpeech": "noun",
+      "example": "Thermodynamics deals with heat and energy transfer.",
+      "definitions": [
+        "The branch of physics dealing with heat and energy"
+      ],
+      "synonyms": [
+        "thermal physics",
+        "heat science"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "laws of thermodynamics",
+        "thermodynamic system",
+        "thermodynamic equilibrium"
+      ],
+      "wordFamily": [
+        "thermodynamics (n)",
+        "thermodynamic (adj)"
+      ],
+      "coreMeaning": "شاخه‌ای از فیزیک مربوط به گرما",
+      "note": "قانون اول: انرژی نه خلق و نه نابود می‌شود",
+      "trap": "thermodynamics ≠ heat",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "entropy",
+      "translation": "آنتروپی",
+      "ipa": "/ˈentrəpi/",
+      "partOfSpeech": "noun",
+      "example": "Entropy in a closed system always increases over time.",
+      "definitions": [
+        "A measure of disorder or randomness in a system"
+      ],
+      "synonyms": [
+        "disorder",
+        "randomness",
+        "chaos"
+      ],
+      "antonyms": [
+        "order"
+      ],
+      "collocations": [
+        "increase entropy",
+        "entropy change",
+        "law of entropy"
+      ],
+      "wordFamily": [
+        "entropy (n)"
+      ],
+      "coreMeaning": "مقیاس بی‌نظمی یک سیستم",
+      "note": "قانون دوم ترمودینامیک",
+      "trap": "entropy ≠ disorder",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "oxidation",
+      "translation": "اکسیداسیون",
+      "ipa": "/ˌɑːksɪˈdeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Rusting is a form of oxidation.",
+      "definitions": [
+        "The process of combining with oxygen or losing electrons"
+      ],
+      "synonyms": [
+        "rusting",
+        "corrosion",
+        "burning"
+      ],
+      "antonyms": [
+        "reduction"
+      ],
+      "collocations": [
+        "oxidation reaction",
+        "oxidation process",
+        "oxidation state"
+      ],
+      "wordFamily": [
+        "oxidation (n)",
+        "oxidize (v)"
+      ],
+      "coreMeaning": "ترکیب با اکسیژن یا از دست دادن الکترون",
+      "note": "زنگ زدن آهن نمونه‌ای از oxidation",
+      "trap": "oxidation ≠ reduction",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "polymer",
+      "translation": "پلیمر",
+      "ipa": "/ˈpɑːlɪmər/",
+      "partOfSpeech": "noun",
+      "example": "Plastics are made from synthetic polymers.",
+      "definitions": [
+        "A substance made of large molecules formed from repeating units"
+      ],
+      "synonyms": [
+        "macromolecule",
+        "plastic"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "synthetic polymer",
+        "natural polymer",
+        "polymer chain"
+      ],
+      "wordFamily": [
+        "polymer (n)",
+        "polymerization (n)"
+      ],
+      "coreMeaning": "ماده‌ای از مولکول‌های بزرگ",
+      "note": "پلاستیک و DNA هر دو پلیمر هستند",
+      "trap": "polymer ≠ plastic",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "solvent",
+      "translation": "حلال",
+      "ipa": "/ˈsɑːlvənt/",
+      "partOfSpeech": "noun",
+      "example": "Water is known as the universal solvent.",
+      "definitions": [
+        "A substance that dissolves a solute to form a solution"
+      ],
+      "synonyms": [
+        "dissolving agent"
+      ],
+      "antonyms": [
+        "solute"
+      ],
+      "collocations": [
+        "organic solvent",
+        "universal solvent",
+        "solvent abuse"
+      ],
+      "wordFamily": [
+        "solvent (n/adj)",
+        "dissolve (v)",
+        "solution (n)"
+      ],
+      "coreMeaning": "ماده‌ای که ماده دیگری را حل می‌کند",
+      "note": "آب حلال شناخته شده است",
+      "trap": "solvent ≠ solute",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "solute",
+      "translation": "حل‌شونده",
+      "ipa": "/ˈsɑːljuːt/",
+      "partOfSpeech": "noun",
+      "example": "Salt is the solute in saltwater.",
+      "definitions": [
+        "The substance that is dissolved in a solvent"
+      ],
+      "synonyms": [
+        "dissolved substance"
+      ],
+      "antonyms": [
+        "solvent"
+      ],
+      "collocations": [
+        "solute concentration",
+        "dissolve the solute"
+      ],
+      "wordFamily": [
+        "solute (n)",
+        "dissolve (v)"
+      ],
+      "coreMeaning": "ماده‌ای که در حلال حل می‌شود",
+      "note": "در آب نمک: نمک solute و آب solvent",
+      "trap": "solute ≠ solvent",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "concentration",
+      "translation": "غلظت",
+      "ipa": "/ˌkɑːnsənˈtreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The concentration of sugar in the solution was too high.",
+      "definitions": [
+        "The relative amount of a substance in a mixture"
+      ],
+      "synonyms": [
+        "density",
+        "strength",
+        "potency"
+      ],
+      "antonyms": [
+        "dilution"
+      ],
+      "collocations": [
+        "high concentration",
+        "concentration level",
+        "increase concentration"
+      ],
+      "wordFamily": [
+        "concentration (n)",
+        "concentrate (v)"
+      ],
+      "coreMeaning": "مقدار نسبی یک ماده در مخلوط",
+      "note": "concentration معانی دیگری هم دارد: تمرکز",
+      "trap": "concentration ≠ density",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "dilute",
+      "translation": "رقیق کردن",
+      "ipa": "/daɪˈluːt/",
+      "partOfSpeech": "verb",
+      "example": "Dilute the acid with water before use.",
+      "definitions": [
+        "To make a liquid weaker by adding water or another solvent"
+      ],
+      "synonyms": [
+        "water down",
+        "thin",
+        "weaken"
+      ],
+      "antonyms": [
+        "concentrate",
+        "strengthen"
+      ],
+      "collocations": [
+        "dilute with water",
+        "dilute solution",
+        "dilute acid"
+      ],
+      "wordFamily": [
+        "dilute (v/adj)",
+        "dilution (n)"
+      ],
+      "coreMeaning": "اضافه کردن حلال برای کاهش غلظت",
+      "note": "رقیق کردن اسید با احتیاط انجام شود",
+      "trap": "dilute ≠ concentrate",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "evaporate",
+      "translation": "تبخیر شدن",
+      "ipa": "/ɪˈvæpəreɪt/",
+      "partOfSpeech": "verb",
+      "example": "Water evaporates when heated to 100°C.",
+      "definitions": [
+        "To turn from liquid into vapor"
+      ],
+      "synonyms": [
+        "vaporize",
+        "dry up",
+        "disappear"
+      ],
+      "antonyms": [
+        "condense"
+      ],
+      "collocations": [
+        "evaporate quickly",
+        "evaporate water",
+        "heat to evaporate"
+      ],
+      "wordFamily": [
+        "evaporate (v)",
+        "evaporation (n)"
+      ],
+      "coreMeaning": "تبدیل مایع به بخار",
+      "note": "تبخیر در دمای پایین‌تر از جوش هم رخ می‌دهد",
+      "trap": "evaporate ≠ boil",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "condense",
+      "translation": "میعان شدن",
+      "ipa": "/kənˈdens/",
+      "partOfSpeech": "verb",
+      "example": "Steam condenses into water when it cools.",
+      "definitions": [
+        "To change from a gas or vapor to a liquid"
+      ],
+      "synonyms": [
+        "liquefy",
+        "solidify"
+      ],
+      "antonyms": [
+        "evaporate",
+        "vaporize"
+      ],
+      "collocations": [
+        "condense into",
+        "condensation point",
+        "condensed water"
+      ],
+      "wordFamily": [
+        "condense (v)",
+        "condensation (n)"
+      ],
+      "coreMeaning": "تبدیل بخار به مایع",
+      "note": "میعان برعکس تبخیر است",
+      "trap": "condense ≠ compress",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "sublimation",
+      "translation": "تصعید",
+      "ipa": "/ˌsʌblɪˈmeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Dry ice undergoes sublimation at room temperature.",
+      "definitions": [
+        "The transition of a substance directly from solid to gas"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "sublimation process",
+        "sublimation point"
+      ],
+      "wordFamily": [
+        "sublimation (n)",
+        "sublimate (v)"
+      ],
+      "coreMeaning": "تبدیل مستقیم جامد به گاز",
+      "note": "یخ خشک نمونه معروف sublimation",
+      "trap": "sublimation ≠ evaporation",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "viscosity",
+      "translation": "گران‌روی",
+      "ipa": "/vɪˈskɑːsəti/",
+      "partOfSpeech": "noun",
+      "example": "Honey has a high viscosity compared to water.",
+      "definitions": [
+        "The state of being thick and resistant to flow"
+      ],
+      "synonyms": [
+        "thickness",
+        "consistency",
+        "resistance"
+      ],
+      "antonyms": [
+        "fluidity"
+      ],
+      "collocations": [
+        "high viscosity",
+        "low viscosity",
+        "viscosity of a fluid"
+      ],
+      "wordFamily": [
+        "viscosity (n)",
+        "viscous (adj)"
+      ],
+      "coreMeaning": "مقاومت مایع در برابر جاری شدن",
+      "note": "عسل ویسکوزیته بالا، آب ویسکوزیته پایین",
+      "trap": "viscosity ≠ thickness",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "density",
+      "translation": "چگالی",
+      "ipa": "/ˈdensəti/",
+      "partOfSpeech": "noun",
+      "example": "The density of gold is much higher than that of water.",
+      "definitions": [
+        "The degree of compactness of a substance; mass per unit volume"
+      ],
+      "synonyms": [
+        "thickness",
+        "compactness",
+        "concentration"
+      ],
+      "antonyms": [
+        "lightness",
+        "sparseness"
+      ],
+      "collocations": [
+        "population density",
+        "high density",
+        "density of a substance"
+      ],
+      "wordFamily": [
+        "density (n)",
+        "dense (adj)"
+      ],
+      "coreMeaning": "جرم واحد حجم",
+      "note": "چگالی آب: 1 گرم بر سانتی‌متر مکعب",
+      "trap": "density ≠ weight",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "buoyancy",
+      "translation": "شناوری",
+      "ipa": "/ˈbɔɪənsi/",
+      "partOfSpeech": "noun",
+      "example": "The buoyancy of the boat kept it afloat.",
+      "definitions": [
+        "The ability or tendency to float in water or other fluid"
+      ],
+      "synonyms": [
+        "floatability",
+        "lightness"
+      ],
+      "antonyms": [
+        "heaviness",
+        "sinking"
+      ],
+      "collocations": [
+        "buoyancy force",
+        "buoyancy of water",
+        "positive buoyancy"
+      ],
+      "wordFamily": [
+        "buoyancy (n)",
+        "buoyant (adj)"
+      ],
+      "coreMeaning": "توانایی شناور ماندن در مایع",
+      "note": "اصل ارشمیدس: نیروی شناوری برابر وزن مایع جابجا شده",
+      "trap": "buoyancy ≠ float",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "turbulence",
+      "translation": "آشفتگی",
+      "ipa": "/ˈtɜːrbjuləns/",
+      "partOfSpeech": "noun",
+      "example": "The plane encountered severe turbulence during the flight.",
+      "definitions": [
+        "Violent or unsteady movement of air or water"
+      ],
+      "synonyms": [
+        "agitation",
+        "instability",
+        "disturbance"
+      ],
+      "antonyms": [
+        "calm",
+        "stability"
+      ],
+      "collocations": [
+        "air turbulence",
+        "atmospheric turbulence",
+        "turbulence flow"
+      ],
+      "wordFamily": [
+        "turbulence (n)",
+        "turbulent (adj)"
+      ],
+      "coreMeaning": "حرکت خشن و نامنظم هوا یا آب",
+      "note": "توربولانس هوایی خطرناک است",
+      "trap": "turbulence ≠ storm",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "sediment",
+      "translation": "رسوب",
+      "ipa": "/ˈsedɪmənt/",
+      "partOfSpeech": "noun",
+      "example": "Sediment accumulated at the bottom of the river.",
+      "definitions": [
+        "Matter that settles to the bottom of a liquid"
+      ],
+      "synonyms": [
+        "deposit",
+        "residue",
+        "dregs"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "river sediment",
+        "sediment layer",
+        "sediment deposition"
+      ],
+      "wordFamily": [
+        "sediment (n)",
+        "sedimentary (adj)"
+      ],
+      "coreMeaning": "مواد ته‌نشین‌شده",
+      "note": "رسوب‌گذاری طی میلیون‌ها سال سنگ رسوبی تشکیل می‌دهد",
+      "trap": "sediment ≠ deposit",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "mineral",
+      "translation": "کانی",
+      "ipa": "/ˈmɪnərəl/",
+      "partOfSpeech": "noun",
+      "example": "Calcium is an important mineral for bone health.",
+      "definitions": [
+        "A natural inorganic substance with a definite chemical composition"
+      ],
+      "synonyms": [
+        "ore",
+        "crystal",
+        "rock"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "mineral water",
+        "mineral resources",
+        "essential minerals"
+      ],
+      "wordFamily": [
+        "mineral (n/adj)"
+      ],
+      "coreMeaning": "ماده طبیعی غیرآلی با ساختار بلوری",
+      "note": "بیش از 5000 نوع کانی شناخته شده",
+      "trap": "mineral ≠ rock",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "crystal",
+      "translation": "بلور",
+      "ipa": "/ˈkrɪstəl/",
+      "partOfSpeech": "noun",
+      "example": "Salt crystals formed as the water evaporated.",
+      "definitions": [
+        "A solid whose atoms are arranged in a highly ordered pattern"
+      ],
+      "synonyms": [
+        "gem",
+        "jewel",
+        "mineral"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "crystal structure",
+        "crystal clear",
+        "grow crystals"
+      ],
+      "wordFamily": [
+        "crystal (n)",
+        "crystallize (v)",
+        "crystalline (adj)"
+      ],
+      "coreMeaning": "جامدی با اتم‌های مرتب",
+      "note": "بلورها طبیعی یا مصنوعی",
+      "trap": "crystal ≠ glass",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "geothermal",
+      "translation": "زمین‌گرمایی",
+      "ipa": "/ˌdʒiːoʊˈθɜːrməl/",
+      "partOfSpeech": "adjective",
+      "example": "Iceland uses geothermal energy to heat homes.",
+      "definitions": [
+        "Relating to or produced by the internal heat of the earth"
+      ],
+      "synonyms": [
+        "earth-heated"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "geothermal energy",
+        "geothermal power",
+        "geothermal plant"
+      ],
+      "wordFamily": [
+        "geothermal (adj)"
+      ],
+      "coreMeaning": "مربوط به گرمای داخلی زمین",
+      "note": "انرژی زمین‌گرمایی تجدیدپذیر است",
+      "trap": "geothermal ≠ volcanic",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "seismic",
+      "translation": "لرزه‌ای",
+      "ipa": "/ˈsaɪzmɪk/",
+      "partOfSpeech": "adjective",
+      "example": "Seismic activity has increased in the region.",
+      "definitions": [
+        "Relating to earthquakes or other vibrations of the earth"
+      ],
+      "synonyms": [
+        "earthquake-related",
+        "tectonic"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "seismic activity",
+        "seismic wave",
+        "seismic zone"
+      ],
+      "wordFamily": [
+        "seismology (n)",
+        "seismic (adj)"
+      ],
+      "coreMeaning": "مربوط به زلزله",
+      "note": "امواج لرزه‌ای اطلاعاتی درباره داخل زمین می‌دهند",
+      "trap": "seismic ≠ volcanic",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "tectonic",
+      "translation": "تکتونیک",
+      "ipa": "/tekˈtɑːnɪk/",
+      "partOfSpeech": "adjective",
+      "example": "Tectonic plates are constantly moving beneath the Earth's surface.",
+      "definitions": [
+        "Relating to the structure of the earth's crust"
+      ],
+      "synonyms": [
+        "geological",
+        "structural"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "tectonic plates",
+        "tectonic activity",
+        "tectonic shift"
+      ],
+      "wordFamily": [
+        "tectonics (n)",
+        "tectonic (adj)"
+      ],
+      "coreMeaning": "مربوط به ساختار پوسته زمین",
+      "note": "صفحات تکتونیکی باعث زلزله و آتشفشان می‌شوند",
+      "trap": "tectonic ≠ seismic",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "volcanic",
+      "translation": "آتشفشانی",
+      "ipa": "/vɑːlˈkænɪk/",
+      "partOfSpeech": "adjective",
+      "example": "The volcanic eruption destroyed several villages.",
+      "definitions": [
+        "Relating to or produced by a volcano"
+      ],
+      "synonyms": [
+        "igneous",
+        "magmatic"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "volcanic eruption",
+        "volcanic ash",
+        "volcanic activity"
+      ],
+      "wordFamily": [
+        "volcano (n)",
+        "volcanic (adj)",
+        "volcanism (n)"
+      ],
+      "coreMeaning": "مربوط به آتشفشان",
+      "note": "آتشفشان‌ها آب و هوای جهانی را تغییر می‌دهند",
+      "trap": "volcanic ≠ seismic",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "magma",
+      "translation": "ماگما",
+      "ipa": "/ˈmæɡmə/",
+      "partOfSpeech": "noun",
+      "example": "Magma rises from deep within the Earth.",
+      "definitions": [
+        "Hot fluid material below the earth's crust, from which lava is formed"
+      ],
+      "synonyms": [
+        "molten rock",
+        "lava"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "magma chamber",
+        "magma flow",
+        "volcanic magma"
+      ],
+      "wordFamily": [
+        "magma (n)",
+        "magmatic (adj)"
+      ],
+      "coreMeaning": "مواد مذاب زیر پوسته زمین",
+      "note": "وقتی magma به سطح برسد، lava نامیده می‌شود",
+      "trap": "magma ≠ lava",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "lava",
+      "translation": "گدازه",
+      "ipa": "/ˈlɑːvə/",
+      "partOfSpeech": "noun",
+      "example": "The lava flowed down the side of the volcano.",
+      "definitions": [
+        "Hot molten rock erupted from a volcano"
+      ],
+      "synonyms": [
+        "magma",
+        "molten rock"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "lava flow",
+        "lava field",
+        "volcanic lava"
+      ],
+      "wordFamily": [
+        "lava (n)"
+      ],
+      "coreMeaning": "مواد مذاب خارج‌شده از آتشفشان",
+      "note": "لاوا بیش از 1000 درجه سانتیگراد",
+      "trap": "lava ≠ magma",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "glacier",
+      "translation": "یخچال طبیعی",
+      "ipa": "/ˈɡleɪʃər/",
+      "partOfSpeech": "noun",
+      "example": "The glacier has retreated significantly due to global warming.",
+      "definitions": [
+        "A slowly moving mass of ice formed by the accumulation of snow"
+      ],
+      "synonyms": [
+        "ice sheet",
+        "ice cap",
+        "iceberg"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "glacier retreat",
+        "glacial movement",
+        "glacier formation"
+      ],
+      "wordFamily": [
+        "glacier (n)",
+        "glacial (adj)"
+      ],
+      "coreMeaning": "توده بزرگ یخ متحرک",
+      "note": "یخچال‌ها 70% آب شیرین جهان را ذخیره می‌کنند",
+      "trap": "glacier ≠ iceberg",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "permafrost",
+      "translation": "یخ‌بست دائمی",
+      "ipa": "/ˈpɜːrməfrɔːst/",
+      "partOfSpeech": "noun",
+      "example": "Permafrost in the Arctic is melting due to climate change.",
+      "definitions": [
+        "Ground that remains frozen for two or more consecutive years"
+      ],
+      "synonyms": [
+        "frozen ground",
+        "permanently frozen soil"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "permafrost layer",
+        "permafrost melting",
+        "thawing permafrost"
+      ],
+      "wordFamily": [
+        "permafrost (n)"
+      ],
+      "coreMeaning": "زمین یخ‌زده دائمی",
+      "note": "ذوب permafrost گاز متان آزاد می‌کند",
+      "trap": "permafrost ≠ ice",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "biodiversity hotspot",
+      "translation": "نقطه داغ تنوع زیستی",
+      "ipa": "/ˌbaɪoʊdaɪˈvɜːrsəti ˈhɑːtspɑːt/",
+      "partOfSpeech": "noun",
+      "example": "The Amazon rainforest is a major biodiversity hotspot.",
+      "definitions": [
+        "A biogeographic region with significant biodiversity under threat"
+      ],
+      "synonyms": [
+        "ecological priority area"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "global biodiversity hotspot",
+        "biodiversity hotspot region"
+      ],
+      "wordFamily": [
+        "biodiversity hotspot (n)"
+      ],
+      "coreMeaning": "منطقه با تنوع زیستی بالا در خطر",
+      "note": "2.5% زمین ولی 50% گونه‌های گیاهی",
+      "trap": "biodiversity hotspot ≠ national park",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "endangered species",
+      "translation": "گونه در خطر انقراض",
+      "ipa": "/ɪnˈdeɪndʒərd ˈspiːʃiːz/",
+      "partOfSpeech": "noun",
+      "example": "The giant panda is an endangered species.",
+      "definitions": [
+        "A species at serious risk of extinction"
+      ],
+      "synonyms": [
+        "threatened species",
+        "at-risk species"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "critically endangered species",
+        "endangered species list",
+        "protect endangered species"
+      ],
+      "wordFamily": [
+        "endangered (adj)",
+        "species (n)"
+      ],
+      "coreMeaning": "گونه در خطر جدی انقراض",
+      "note": "IUCN فهرست گونه‌های در خطر را تهیه می‌کند",
+      "trap": "endangered ≠ extinct",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "invasive species",
+      "translation": "گونه مهاجم",
+      "ipa": "/ɪnˈveɪsɪv ˈspiːʃiːz/",
+      "partOfSpeech": "noun",
+      "example": "Invasive species can destroy native ecosystems.",
+      "definitions": [
+        "A non-native species that causes harm"
+      ],
+      "synonyms": [
+        "alien species",
+        "non-native species"
+      ],
+      "antonyms": [
+        "native species"
+      ],
+      "collocations": [
+        "invasive species control",
+        "invasive species removal",
+        "invasive species threat"
+      ],
+      "wordFamily": [
+        "invasive (adj)",
+        "species (n)"
+      ],
+      "coreMeaning": "گونه غیربومی آسیب‌رسان",
+      "note": "گونه‌های مهاجم گونه‌های بومی را از بین می‌برند",
+      "trap": "invasive ≠ exotic",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "food chain",
+      "translation": "زنجیره غذایی",
+      "ipa": "/fuːd tʃeɪn/",
+      "partOfSpeech": "noun",
+      "example": "Humans are at the top of the food chain.",
+      "definitions": [
+        "A hierarchical series of organisms each dependent on the next as food"
+      ],
+      "synonyms": [
+        "food web",
+        "trophic level"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "top of the food chain",
+        "food chain disruption",
+        "marine food chain"
+      ],
+      "wordFamily": [
+        "food chain (n)"
+      ],
+      "coreMeaning": "سلسله‌مراتب تغذیه",
+      "note": "از تولیدکنندگان به مصرف‌کنندگان",
+      "trap": "food chain ≠ food web",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "carbon cycle",
+      "translation": "چرخه کربن",
+      "ipa": "/ˈkɑːrbən ˈsaɪkəl/",
+      "partOfSpeech": "noun",
+      "example": "The carbon cycle is essential for maintaining life on Earth.",
+      "definitions": [
+        "The biogeochemical cycle by which carbon is exchanged among Earth's systems"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "global carbon cycle",
+        "carbon cycle balance",
+        "disrupt the carbon cycle"
+      ],
+      "wordFamily": [
+        "carbon cycle (n)"
+      ],
+      "coreMeaning": "چرخه تبادل کربن",
+      "note": "سوخت‌های فسیلی چرخه کربن را مختل کرده‌اند",
+      "trap": "carbon cycle ≠ carbon footprint",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "nitrogen cycle",
+      "translation": "چرخه نیتروژن",
+      "ipa": "/ˈnaɪtrədʒən ˈsaɪkəl/",
+      "partOfSpeech": "noun",
+      "example": "The nitrogen cycle is crucial for plant growth.",
+      "definitions": [
+        "The series of processes by which nitrogen is interconverted in the environment"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "nitrogen cycle process",
+        "nitrogen fixation",
+        "disrupt the nitrogen cycle"
+      ],
+      "wordFamily": [
+        "nitrogen cycle (n)"
+      ],
+      "coreMeaning": "فرآیندهای تبدیل نیتروژن",
+      "note": "تثبیت نیتروژن توسط باکتری‌ها",
+      "trap": "nitrogen cycle ≠ carbon cycle",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "water cycle",
+      "translation": "چرخه آب",
+      "ipa": "/ˈwɔːtər ˈsaɪkəl/",
+      "partOfSpeech": "noun",
+      "example": "The water cycle describes how water moves through the environment.",
+      "definitions": [
+        "The continuous movement of water within the earth and atmosphere"
+      ],
+      "synonyms": [
+        "hydrological cycle"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "global water cycle",
+        "water cycle diagram",
+        "disrupt the water cycle"
+      ],
+      "wordFamily": [
+        "water cycle (n)"
+      ],
+      "coreMeaning": "حرکت مداوم آب بین زمین و جو",
+      "note": "شامل تبخیر، میعان، بارش و جریان سطحی",
+      "trap": "water cycle ≠ rain",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "ocean acidification",
+      "translation": "اسیدی شدن اقیانوس‌ها",
+      "ipa": "/ˈoʊʃən əˌsɪdɪfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Ocean acidification threatens coral reefs worldwide.",
+      "definitions": [
+        "The ongoing decrease in the pH of the oceans caused by CO2 uptake"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "ocean acidification effects",
+        "combat ocean acidification"
+      ],
+      "wordFamily": [
+        "ocean acidification (n)",
+        "acidify (v)"
+      ],
+      "coreMeaning": "کاهش pH اقیانوس‌ها به دلیل CO2",
+      "note": "به مرجان‌ها و موجودات دریایی آسیب می‌زند",
+      "trap": "ocean acidification ≠ pollution",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "sea level rise",
+      "translation": "افزایش سطح دریا",
+      "ipa": "/siː ˈlevəl raɪz/",
+      "partOfSpeech": "noun",
+      "example": "Sea level rise threatens coastal communities.",
+      "definitions": [
+        "An increase in the level of the world's oceans due to global warming"
+      ],
+      "synonyms": [
+        "rising seas",
+        "coastal flooding"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "global sea level rise",
+        "sea level rise projections",
+        "combat sea level rise"
+      ],
+      "wordFamily": [
+        "sea level rise (n)"
+      ],
+      "coreMeaning": "بالا آمدن سطح آب دریاها",
+      "note": "از سال 1900 حدود 20 سانتی‌متر",
+      "trap": "sea level rise ≠ flood",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "renewable energy",
+      "translation": "انرژی تجدیدپذیر",
+      "ipa": "/rɪˈnuːəbəl ˈenərdʒi/",
+      "partOfSpeech": "noun",
+      "example": "Renewable energy sources include solar, wind, and hydropower.",
+      "definitions": [
+        "Energy from a source that is not depleted when used"
+      ],
+      "synonyms": [
+        "clean energy",
+        "green energy",
+        "sustainable energy"
+      ],
+      "antonyms": [
+        "fossil fuel",
+        "nonrenewable energy"
+      ],
+      "collocations": [
+        "renewable energy source",
+        "renewable energy sector",
+        "invest in renewable energy"
+      ],
+      "wordFamily": [
+        "renewable energy (n)"
+      ],
+      "coreMeaning": "انرژی از منابع تجدیدپذیر",
+      "note": "خورشیدی، بادی، آبی، زمین‌گرمایی",
+      "trap": "renewable energy ≠ clean energy",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "solar panel",
+      "translation": "پنل خورشیدی",
+      "ipa": "/ˈsoʊlər ˈpænəl/",
+      "partOfSpeech": "noun",
+      "example": "Solar panels convert sunlight into electricity.",
+      "definitions": [
+        "A device that converts sunlight into electrical energy"
+      ],
+      "synonyms": [
+        "photovoltaic panel",
+        "PV panel"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "install solar panels",
+        "solar panel efficiency",
+        "solar panel system"
+      ],
+      "wordFamily": [
+        "solar panel (n)"
+      ],
+      "coreMeaning": "دستگاه تبدیل نور خورشید به برق",
+      "note": "بازده 15-20%",
+      "trap": "solar panel ≠ solar cell",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "wind turbine",
+      "translation": "توربین بادی",
+      "ipa": "/wɪnd ˈtɜːrbaɪn/",
+      "partOfSpeech": "noun",
+      "example": "Wind turbines generate clean electricity from wind.",
+      "definitions": [
+        "A device that converts wind energy into electrical energy"
+      ],
+      "synonyms": [
+        "windmill",
+        "wind generator"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "wind turbine farm",
+        "offshore wind turbine",
+        "wind turbine blade"
+      ],
+      "wordFamily": [
+        "wind turbine (n)"
+      ],
+      "coreMeaning": "دستگاه تبدیل انرژی باد به برق",
+      "note": "تا 15 مگاوات",
+      "trap": "wind turbine ≠ windmill",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "hydropower",
+      "translation": "نیروی آب",
+      "ipa": "/ˈhaɪdroʊˌpaʊər/",
+      "partOfSpeech": "noun",
+      "example": "Hydropower is one of the oldest sources of renewable energy.",
+      "definitions": [
+        "Electricity produced from the energy of falling or fast-running water"
+      ],
+      "synonyms": [
+        "hydroelectric power",
+        "water power"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "hydropower plant",
+        "hydropower dam",
+        "hydropower generation"
+      ],
+      "wordFamily": [
+        "hydropower (n)"
+      ],
+      "coreMeaning": "تولید برق از انرژی آب",
+      "note": "سد‌های بزرگ بیشترین نیروی آب را تولید می‌کنند",
+      "trap": "hydropower ≠ hydroelectric",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "biodegradable",
+      "translation": "تجزیه‌پذیر",
+      "ipa": "/ˌbaɪoʊdɪˈɡreɪdəbəl/",
+      "partOfSpeech": "adjective",
+      "example": "Biodegradable packaging is better for the environment.",
+      "definitions": [
+        "Capable of being decomposed by bacteria or other living organisms"
+      ],
+      "synonyms": [
+        "decomposable",
+        "organic"
+      ],
+      "antonyms": [
+        "non-biodegradable"
+      ],
+      "collocations": [
+        "biodegradable material",
+        "biodegradable waste",
+        "biodegradable plastic"
+      ],
+      "wordFamily": [
+        "biodegradable (adj)",
+        "biodegrade (v)"
+      ],
+      "coreMeaning": "قابل تجزیه توسط موجودات زنده",
+      "note": "پلاستیک‌های معمولی صدها سال طول می‌کشد",
+      "trap": "biodegradable ≠ compostable",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "compost",
+      "translation": "کمپوست",
+      "ipa": "/ˈkɑːmpoʊst/",
+      "partOfSpeech": "noun",
+      "example": "The garden uses compost made from kitchen scraps.",
+      "definitions": [
+        "Decomposed organic matter used as a fertilizer"
+      ],
+      "synonyms": [
+        "organic fertilizer",
+        "humus"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "compost bin",
+        "compost heap",
+        "make compost"
+      ],
+      "wordFamily": [
+        "compost (n/v)"
+      ],
+      "coreMeaning": "مواد آلی تجزیه‌شده برای کود",
+      "note": "کمپوست‌سازی کاهش زباله",
+      "trap": "compost ≠ fertilizer",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "landfill",
+      "translation": "محل دفن زباله",
+      "ipa": "/ˈlændfɪl/",
+      "partOfSpeech": "noun",
+      "example": "The landfill is reaching its maximum capacity.",
+      "definitions": [
+        "A site for the disposal of waste by burial"
+      ],
+      "synonyms": [
+        "dump",
+        "waste site",
+        "garbage dump"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "landfill site",
+        "landfill waste",
+        "reduce landfill"
+      ],
+      "wordFamily": [
+        "landfill (n)"
+      ],
+      "coreMeaning": "محل دفن زباله",
+      "note": "لندفیل‌ها آلودگی آب و خاک ایجاد می‌کنند",
+      "trap": "landfill ≠ dump",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "reuse",
+      "translation": "استفاده مجدد",
+      "ipa": "/riːˈjuːz/",
+      "partOfSpeech": "verb",
+      "example": "We should reuse containers instead of throwing them away.",
+      "definitions": [
+        "To use again or more than once"
+      ],
+      "synonyms": [
+        "recycle",
+        "repurpose",
+        "reclaim"
+      ],
+      "antonyms": [
+        "discard",
+        "waste"
+      ],
+      "collocations": [
+        "reuse containers",
+        "reuse materials",
+        "reduce, reuse, recycle"
+      ],
+      "wordFamily": [
+        "reuse (v/n)",
+        "reusable (adj)"
+      ],
+      "coreMeaning": "استفاده دوباره از چیزی",
+      "note": "reduce, reuse, recycle سه اصل مدیریت زباله",
+      "trap": "reuse ≠ recycle؛ reuse بدون تبدیل، recycle با تبدیل",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "contaminant",
+      "translation": "آلاینده",
+      "ipa": "/kənˈtæmɪnənt/",
+      "partOfSpeech": "noun",
+      "example": "The water was tested for chemical contaminants.",
+      "definitions": [
+        "A substance that contaminates something"
+      ],
+      "synonyms": [
+        "pollutant",
+        "toxin",
+        "impurity"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "chemical contaminant",
+        "water contaminant",
+        "remove contaminants"
+      ],
+      "wordFamily": [
+        "contaminate (v)",
+        "contamination (n)",
+        "contaminant (n)"
+      ],
+      "coreMeaning": "ماده‌ای که چیزی را آلوده می‌کند",
+      "note": "contaminant معمولاً در آب و غذا استفاده می‌شود",
+      "trap": "contaminant ≠ pollutant؛ contaminant عام‌تر",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "toxic",
+      "translation": "سمّی",
+      "ipa": "/ˈtɑːksɪk/",
+      "partOfSpeech": "adjective",
+      "example": "The factory released toxic chemicals into the river.",
+      "definitions": [
+        "Poisonous; capable of causing death or serious debilitation"
+      ],
+      "synonyms": [
+        "poisonous",
+        "harmful",
+        "deadly"
+      ],
+      "antonyms": [
+        "harmless",
+        "safe"
+      ],
+      "collocations": [
+        "toxic waste",
+        "toxic substance",
+        "highly toxic"
+      ],
+      "wordFamily": [
+        "toxicity (n)",
+        "toxic (adj)"
+      ],
+      "coreMeaning": "زهرآگین",
+      "note": "toxic مجازی هم هست: toxic relationship",
+      "trap": "toxic ≠ poisonous",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "hazardous",
+      "translation": "خطرناک",
+      "ipa": "/ˈhæzərdəs/",
+      "partOfSpeech": "adjective",
+      "example": "Hazardous waste must be disposed of carefully.",
+      "definitions": [
+        "Dangerous; likely to cause damage or harm"
+      ],
+      "synonyms": [
+        "dangerous",
+        "risky",
+        "perilous"
+      ],
+      "antonyms": [
+        "safe",
+        "harmless"
+      ],
+      "collocations": [
+        "hazardous waste",
+        "hazardous material",
+        "hazardous chemicals"
+      ],
+      "wordFamily": [
+        "hazard (n)",
+        "hazardous (adj)"
+      ],
+      "coreMeaning": "خطرناک و قابلیت ایجاد آسیب",
+      "note": "hazardous waste نیاز به دفع ویژه دارد",
+      "trap": "hazardous ≠ dangerous",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "deplete",
+      "translation": "تخلیه کردن",
+      "ipa": "/dɪˈpliːt/",
+      "partOfSpeech": "verb",
+      "example": "Overfishing has depleted fish stocks in the ocean.",
+      "definitions": [
+        "To use up the supply or resources of something"
+      ],
+      "synonyms": [
+        "exhaust",
+        "drain",
+        "consume"
+      ],
+      "antonyms": [
+        "replenish",
+        "restore"
+      ],
+      "collocations": [
+        "deplete resources",
+        "deplete energy",
+        "severely depleted"
+      ],
+      "wordFamily": [
+        "deplete (v)",
+        "depletion (n)"
+      ],
+      "coreMeaning": "تمام کردن منابع",
+      "note": "depletion of the ozone layer مشکل مهم",
+      "trap": "deplete ≠ reduce",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "degrade",
+      "translation": "تجزیه کردن",
+      "ipa": "/dɪˈɡreɪd/",
+      "partOfSpeech": "verb",
+      "example": "Plastic takes hundreds of years to degrade.",
+      "definitions": [
+        "To break down or deteriorate chemically"
+      ],
+      "synonyms": [
+        "deteriorate",
+        "decompose",
+        "break down"
+      ],
+      "antonyms": [
+        "improve",
+        "enhance"
+      ],
+      "collocations": [
+        "degrade naturally",
+        "degrade over time",
+        "environmental degradation"
+      ],
+      "wordFamily": [
+        "degrade (v)",
+        "degradation (n)"
+      ],
+      "coreMeaning": "تجزیه شدن یا کاهش کیفیت",
+      "note": "پلاستیک به سختی degrade می‌شود",
+      "trap": "degrade ≠ decompose",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "mitigate",
+      "translation": "کاهش دادن",
+      "ipa": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "example": "Governments must take action to mitigate climate change.",
+      "definitions": [
+        "To make less severe, serious, or painful"
+      ],
+      "synonyms": [
+        "reduce",
+        "alleviate",
+        "lessen"
+      ],
+      "antonyms": [
+        "aggravate",
+        "worsen"
+      ],
+      "collocations": [
+        "mitigate the effects",
+        "mitigate risk",
+        "mitigation strategies"
+      ],
+      "wordFamily": [
+        "mitigate (v)",
+        "mitigation (n)"
+      ],
+      "coreMeaning": "کاهش شدت اثرات منفی",
+      "note": "mitigation شامل کاهش انتشار و سازگاری",
+      "trap": "mitigate ≠ eliminate",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "acclimate",
+      "translation": "خو گرفتن",
+      "ipa": "/ˈæklɪmeɪt/",
+      "partOfSpeech": "verb",
+      "example": "It takes time to acclimate to a new environment.",
+      "definitions": [
+        "To become accustomed to a new climate or conditions"
+      ],
+      "synonyms": [
+        "adjust",
+        "adapt",
+        "acclimatize"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "acclimate to",
+        "acclimate to the heat",
+        "acclimate to new conditions"
+      ],
+      "wordFamily": [
+        "acclimate (v)",
+        "acclimation (n)"
+      ],
+      "coreMeaning": "عادت کردن به شرایط جدید آب و هوایی",
+      "note": "acclimate بیشتر در آمریکای شمالی، acclimatize در بریتانیا",
+      "trap": "acclimate ≠ adapt؛ acclimate خاص آب و هوا، adapt عام‌تر",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "resilient",
+      "translation": "تاب‌آور",
+      "ipa": "/rɪˈzɪliənt/",
+      "partOfSpeech": "adjective",
+      "example": "Ecosystems can be surprisingly resilient to disturbances.",
+      "definitions": [
+        "Able to withstand or recover quickly from difficult conditions"
+      ],
+      "synonyms": [
+        "tough",
+        "strong",
+        "adaptable"
+      ],
+      "antonyms": [
+        "fragile",
+        "vulnerable"
+      ],
+      "collocations": [
+        "resilient ecosystem",
+        "resilient community",
+        "build resilience"
+      ],
+      "wordFamily": [
+        "resilience (n)",
+        "resilient (adj)"
+      ],
+      "coreMeaning": "توانایی مقاومت و بازیابی سریع",
+      "note": "تاب‌آوری در اکولوژی و روان‌شناسی مهم",
+      "trap": "resilient ≠ strong",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "vulnerable",
+      "translation": "آسیب‌پذیر",
+      "ipa": "/ˈvʌlnərəbəl/",
+      "partOfSpeech": "adjective",
+      "example": "Coastal areas are vulnerable to sea level rise.",
+      "definitions": [
+        "Susceptible to physical or emotional attack or harm"
+      ],
+      "synonyms": [
+        "susceptible",
+        "exposed",
+        "at risk"
+      ],
+      "antonyms": [
+        "resilient",
+        "protected"
+      ],
+      "collocations": [
+        "vulnerable to",
+        "vulnerable species",
+        "vulnerable population"
+      ],
+      "wordFamily": [
+        "vulnerability (n)",
+        "vulnerable (adj)"
+      ],
+      "coreMeaning": "در معرض آسیب",
+      "note": "گونه‌های آسیب‌پذیر بیشتر در خطر انقراض",
+      "trap": "vulnerable ≠ weak",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "sustainable development",
+      "translation": "توسعه پایدار",
+      "ipa": "/səˈsteɪnəbəl dɪˈveləpmənt/",
+      "partOfSpeech": "noun",
+      "example": "Sustainable development balances economic growth with environmental protection.",
+      "definitions": [
+        "Development that meets present needs without compromising future generations"
+      ],
+      "synonyms": [
+        "green development",
+        "eco-friendly development"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sustainable development goals",
+        "promote sustainable development",
+        "sustainable development strategy"
+      ],
+      "wordFamily": [
+        "sustainable development (n)"
+      ],
+      "coreMeaning": "توسعه بدون آسیب به آینده",
+      "note": "SDGs سازمان ملل 17 هدف دارد",
+      "trap": "sustainable development ≠ economic growth",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "climate change",
+      "translation": "تغییرات آب و هوایی",
+      "ipa": "/ˈklaɪmət tʃeɪndʒ/",
+      "partOfSpeech": "noun",
+      "example": "Climate change is the greatest challenge of our time.",
+      "definitions": [
+        "A long-term change in the Earth's climate"
+      ],
+      "synonyms": [
+        "global warming",
+        "climate crisis"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "combat climate change",
+        "climate change effects",
+        "climate change adaptation"
+      ],
+      "wordFamily": [
+        "climate change (n)"
+      ],
+      "coreMeaning": "تغییر بلندمدت آب و هوا",
+      "note": "فعالیت‌های انسانی مهم‌ترین عامل",
+      "trap": "climate change ≠ weather change",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "global warming",
+      "translation": "گرمایش جهانی",
+      "ipa": "/ˈɡloʊbəl ˈwɔːrmɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Global warming is causing ice caps to melt.",
+      "definitions": [
+        "The gradual increase in the overall temperature of the earth's atmosphere"
+      ],
+      "synonyms": [
+        "climate warming",
+        "temperature rise"
+      ],
+      "antonyms": [
+        "global cooling"
+      ],
+      "collocations": [
+        "combat global warming",
+        "global warming effects",
+        "global warming trend"
+      ],
+      "wordFamily": [
+        "global warming (n)"
+      ],
+      "coreMeaning": "افزایش تدریجی دمای جو زمین",
+      "note": "از سال 1880 حدود 1.1 درجه افزایش",
+      "trap": "global warming ≠ climate change",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "carbon dioxide",
+      "translation": "دی‌اکسید کربن",
+      "ipa": "/ˌkɑːrbən daɪˈɑːksaɪd/",
+      "partOfSpeech": "noun",
+      "example": "Carbon dioxide is a major greenhouse gas.",
+      "definitions": [
+        "A colorless gas produced by burning carbon; a greenhouse gas"
+      ],
+      "synonyms": [
+        "CO2",
+        "carbonic acid gas"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "carbon dioxide emissions",
+        "reduce carbon dioxide",
+        "carbon dioxide levels"
+      ],
+      "wordFamily": [
+        "carbon dioxide (n)"
+      ],
+      "coreMeaning": "گاز بی‌رنگ حاصل از سوخت کربن",
+      "note": "CO2 مهم‌ترین گاز گلخانه‌ای انسانی",
+      "trap": "carbon dioxide ≠ carbon monoxide",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "methane",
+      "translation": "متان",
+      "ipa": "/ˈmeθeɪn/",
+      "partOfSpeech": "noun",
+      "example": "Methane is a potent greenhouse gas emitted by livestock.",
+      "definitions": [
+        "A colorless flammable gas, the main constituent of natural gas"
+      ],
+      "synonyms": [
+        "natural gas",
+        "CH4"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "methane emissions",
+        "methane gas",
+        "methane reduction"
+      ],
+      "wordFamily": [
+        "methane (n)"
+      ],
+      "coreMeaning": "گاز بی‌رنگ و قابل اشتعال",
+      "note": "متان 80 برابر قوی‌تر از CO2",
+      "trap": "methane ≠ natural gas",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "fossil fuel",
+      "translation": "سوخت فسیلی",
+      "ipa": "/ˈfɑːsəl fjuːəl/",
+      "partOfSpeech": "noun",
+      "example": "Burning fossil fuels releases greenhouse gases.",
+      "definitions": [
+        "A natural fuel formed from the remains of living organisms"
+      ],
+      "synonyms": [
+        "nonrenewable energy",
+        "petroleum",
+        "coal"
+      ],
+      "antonyms": [
+        "renewable energy"
+      ],
+      "collocations": [
+        "burn fossil fuels",
+        "fossil fuel industry",
+        "fossil fuel reserves"
+      ],
+      "wordFamily": [
+        "fossil fuel (n)"
+      ],
+      "coreMeaning": "سوخت طبیعی از بقایای موجودات باستانی",
+      "note": "مسئول بیشتر انتشار CO2",
+      "trap": "fossil fuel ≠ renewable energy",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "greenhouse gas",
+      "translation": "گاز گلخانه‌ای",
+      "ipa": "/ˈɡriːnhaʊs ɡæs/",
+      "partOfSpeech": "noun",
+      "example": "Carbon dioxide and methane are the main greenhouse gases.",
+      "definitions": [
+        "A gas that contributes to the greenhouse effect"
+      ],
+      "synonyms": [
+        "GHG",
+        "climate gas"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "greenhouse gas emissions",
+        "reduce greenhouse gases",
+        "greenhouse gas levels"
+      ],
+      "wordFamily": [
+        "greenhouse gas (n)"
+      ],
+      "coreMeaning": "گازی که به اثر گلخانه‌ای کمک می‌کند",
+      "note": "CO2، CH4، N2O و فلوئوروکربن‌ها",
+      "trap": "greenhouse gas ≠ pollution",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "ozone",
+      "translation": "اُزن",
+      "ipa": "/ˈoʊzoʊn/",
+      "partOfSpeech": "noun",
+      "example": "Ozone in the stratosphere protects us from UV radiation.",
+      "definitions": [
+        "A form of oxygen with three atoms per molecule"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "ozone layer",
+        "ozone depletion",
+        "ground-level ozone"
+      ],
+      "wordFamily": [
+        "ozone (n)"
+      ],
+      "coreMeaning": "گاز بی‌رنگ با بوی تند",
+      "note": "در جو بالا مفید، در سطح زمین مضر",
+      "trap": "ozone ≠ oxygen",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "viability",
+      "translation": "قابلیت اجرا، زیست‌پذیری",
+      "ipa": "/ˌvaɪəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "example": "The viability of the project depends on funding.",
+      "definitions": [
+        "The ability to work successfully; the ability to survive or live"
+      ],
+      "synonyms": [
+        "feasibility",
+        "sustainability",
+        "practicality"
+      ],
+      "antonyms": [
+        "impracticability"
+      ],
+      "collocations": [
+        "economic viability",
+        "long-term viability",
+        "question the viability"
+      ],
+      "wordFamily": [
+        "viable (adj)",
+        "viability (n)"
+      ],
+      "coreMeaning": "توانایی موفقیت یا بقا",
+      "note": "viability در علم: توانایی زنده ماندن",
+      "trap": "viability ≠ sustainability؛ viability توانایی بقا، sustainability پایداری",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "ecological footprint",
+      "translation": "ردپای اکولوژیکی",
+      "ipa": "/ˌiːkəˈlɑːdʒɪkəl ˈfʊtprɪnt/",
+      "partOfSpeech": "noun",
+      "example": "Reducing our ecological footprint is essential for the planet.",
+      "definitions": [
+        "The impact of a person on the environment expressed as land required"
+      ],
+      "synonyms": [
+        "environmental footprint"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "reduce ecological footprint",
+        "calculate ecological footprint",
+        "ecological footprint analysis"
+      ],
+      "wordFamily": [
+        "ecological footprint (n)"
+      ],
+      "coreMeaning": "تأثیر بر محیط زیست بر حسب زمین مورد نیاز",
+      "note": "شامل مصرف انرژی، غذا، آب و زباله",
+      "trap": "ecological footprint ≠ carbon footprint",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "biome",
+      "translation": "بوم‌ناحیه",
+      "ipa": "/baɪˈoʊm/",
+      "partOfSpeech": "noun",
+      "example": "The tropical rainforest is the most biodiverse biome on Earth.",
+      "definitions": [
+        "A large naturally occurring community of flora and fauna"
+      ],
+      "synonyms": [
+        "ecosystem",
+        "habitat zone"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "terrestrial biome",
+        "aquatic biome",
+        "major biome"
+      ],
+      "wordFamily": [
+        "biome (n)"
+      ],
+      "coreMeaning": "جامعه بزرگ طبیعی در یک زیستگاه اصلی",
+      "note": "جنگل، علفزار، بیابان، توندرا، تایگا",
+      "trap": "biome ≠ ecosystem",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "symbiosis",
+      "translation": "همزیستی",
+      "ipa": "/ˌsɪmbaɪˈoʊsɪs/",
+      "partOfSpeech": "noun",
+      "example": "The relationship between bees and flowers is an example of symbiosis.",
+      "definitions": [
+        "Interaction between two different organisms living in close association"
+      ],
+      "synonyms": [
+        "mutualism",
+        "coexistence",
+        "partnership"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "mutualistic symbiosis",
+        "parasitic symbiosis",
+        "symbiotic relationship"
+      ],
+      "wordFamily": [
+        "symbiosis (n)",
+        "symbiotic (adj)"
+      ],
+      "coreMeaning": "تعامل بین دو موجود زنده متفاوت",
+      "note": "سه نوع: mutualism، parasitism، commensalism",
+      "trap": "symbiosis ≠ cooperation",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "mutation",
+      "translation": "جهش",
+      "ipa": "/mjuːˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "A genetic mutation caused the disease.",
+      "definitions": [
+        "A change in the DNA sequence of an organism"
+      ],
+      "synonyms": [
+        "alteration",
+        "variation",
+        "modification"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "genetic mutation",
+        "random mutation",
+        "mutation rate"
+      ],
+      "wordFamily": [
+        "mutation (n)",
+        "mutate (v)",
+        "mutant (adj/n)"
+      ],
+      "coreMeaning": "تغییر در توالی DNA",
+      "note": "جهش‌ها مفید، مضر یا خنثی",
+      "trap": "mutation ≠ evolution",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "natural selection",
+      "translation": "انتخاب طبیعی",
+      "ipa": "/ˈnætʃərəl sɪˈlekʃən/",
+      "partOfSpeech": "noun",
+      "example": "Natural selection is the mechanism of evolution proposed by Darwin.",
+      "definitions": [
+        "The process whereby organisms better adapted tend to survive and reproduce"
+      ],
+      "synonyms": [
+        "survival of the fittest",
+        "adaptation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "theory of natural selection",
+        "natural selection pressure",
+        "natural selection process"
+      ],
+      "wordFamily": [
+        "natural selection (n)"
+      ],
+      "coreMeaning": "بقای موجودات سازگارتر",
+      "note": "مکانیزم اصلی تکامل داروین",
+      "trap": "natural selection ≠ artificial selection",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "adaptation",
+      "translation": "سازگاری",
+      "ipa": "/ˌædæpˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Camouflage is an adaptation that helps animals avoid predators.",
+      "definitions": [
+        "A change by which an organism becomes better suited to its environment"
+      ],
+      "synonyms": [
+        "adjustment",
+        "modification",
+        "acclimation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "environmental adaptation",
+        "evolutionary adaptation",
+        "adaptation to change"
+      ],
+      "wordFamily": [
+        "adaptation (n)",
+        "adapt (v)",
+        "adaptive (adj)"
+      ],
+      "coreMeaning": "تغییر برای سازگاری بهتر",
+      "note": "می‌تواند فیزیکی، رفتاری یا فیزیولوژیکی",
+      "trap": "adaptation ≠ evolution",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "speciation",
+      "translation": "گونه‌زایی",
+      "ipa": "/ˌspiːʃiˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Geographic isolation can lead to speciation.",
+      "definitions": [
+        "The formation of new and distinct species in the course of evolution"
+      ],
+      "synonyms": [
+        "species formation",
+        "divergence"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "allopatric speciation",
+        "sympatric speciation",
+        "speciation process"
+      ],
+      "wordFamily": [
+        "speciation (n)"
+      ],
+      "coreMeaning": "تشکیل گونه‌های جدید",
+      "note": "جدایی جغرافیایی رایج‌ترین عامل",
+      "trap": "speciation ≠ evolution",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "phylogenetics",
+      "translation": "تبارزایی",
+      "ipa": "/ˌfaɪlədʒəˈnetɪks/",
+      "partOfSpeech": "noun",
+      "example": "Phylogenetics helps us understand evolutionary relationships.",
+      "definitions": [
+        "The study of evolutionary relationships among organisms"
+      ],
+      "synonyms": [
+        "evolutionary biology",
+        "systematics"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "phylogenetic tree",
+        "phylogenetic analysis",
+        "phylogenetic relationship"
+      ],
+      "wordFamily": [
+        "phylogenetics (n)",
+        "phylogenetic (adj)"
+      ],
+      "coreMeaning": "مطالعه روابط تکاملی",
+      "note": "درخت تبارزایی نمودار روابط تکاملی",
+      "trap": "phylogenetics ≠ taxonomy",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "taxonomy",
+      "translation": "طبقه‌بندی",
+      "ipa": "/tækˈsɑːnəmi/",
+      "partOfSpeech": "noun",
+      "example": "Linnaeus developed the modern system of taxonomy.",
+      "definitions": [
+        "The branch of science concerned with classification of organisms"
+      ],
+      "synonyms": [
+        "classification",
+        "systematics",
+        "categorization"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "biological taxonomy",
+        "taxonomy classification",
+        "taxonomy system"
+      ],
+      "wordFamily": [
+        "taxonomy (n)",
+        "taxonomic (adj)"
+      ],
+      "coreMeaning": "طبقه‌بندی موجودات زنده",
+      "note": "Kingdom, Phylum, Class, Order, Family, Genus, Species",
+      "trap": "taxonomy ≠ phylogenetics",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "microbiology",
+      "translation": "میکروبیولوژی",
+      "ipa": "/ˌmaɪkroʊbaɪˈɑːlədʒi/",
+      "partOfSpeech": "noun",
+      "example": "Microbiology studies organisms too small to see with the naked eye.",
+      "definitions": [
+        "The study of microscopic organisms"
+      ],
+      "synonyms": [
+        "microbial science"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "medical microbiology",
+        "environmental microbiology",
+        "microbiology lab"
+      ],
+      "wordFamily": [
+        "microbiology (n)",
+        "microbiological (adj)",
+        "microbiologist (n)"
+      ],
+      "coreMeaning": "مطالعه موجودات میکروسکوپی",
+      "note": "شامل باکتری‌شناسی، ویروس‌شناسی و قارچ‌شناسی",
+      "trap": "microbiology ≠ biology",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "biochemistry",
+      "translation": "بیوشیمی",
+      "ipa": "/ˌbaɪoʊˈkemɪstri/",
+      "partOfSpeech": "noun",
+      "example": "Biochemistry explores the chemical processes within living organisms.",
+      "definitions": [
+        "The study of chemical processes in living organisms"
+      ],
+      "synonyms": [
+        "biological chemistry",
+        "molecular biology"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "biochemistry lab",
+        "biochemistry research",
+        "biochemistry degree"
+      ],
+      "wordFamily": [
+        "biochemistry (n)",
+        "biochemical (adj)"
+      ],
+      "coreMeaning": "فرآیندهای شیمیایی در موجودات زنده",
+      "note": "پل بین شیمی و زیست‌شناسی",
+      "trap": "biochemistry ≠ chemistry",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "genetics",
+      "translation": "ژنتیک",
+      "ipa": "/dʒəˈnetɪks/",
+      "partOfSpeech": "noun",
+      "example": "Genetics explains how traits are inherited from parents.",
+      "definitions": [
+        "The study of heredity and variation of inherited characteristics"
+      ],
+      "synonyms": [
+        "heredity",
+        "genomics"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "human genetics",
+        "molecular genetics",
+        "genetics research"
+      ],
+      "wordFamily": [
+        "genetics (n)",
+        "genetic (adj)",
+        "genetically (adv)"
+      ],
+      "coreMeaning": "مطالعه وراثت",
+      "note": "ژنتیک مندلی پایه علم ژنتیک",
+      "trap": "genetics ≠ genomics",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "genomics",
+      "translation": "ژنومیکس",
+      "ipa": "/dʒɪˈnoʊmɪks/",
+      "partOfSpeech": "noun",
+      "example": "Genomics has revolutionized our understanding of human biology.",
+      "definitions": [
+        "The study of an organism's complete set of DNA"
+      ],
+      "synonyms": [
+        "genome science",
+        "genetic analysis"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "comparative genomics",
+        "genomics research",
+        "genomics data"
+      ],
+      "wordFamily": [
+        "genomics (n)",
+        "genomic (adj)"
+      ],
+      "coreMeaning": "مطالعه کل ژنوم",
+      "note": "پروژه ژنوم انسان 2003 تکمیل شد",
+      "trap": "genomics ≠ genetics",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "biotechnology",
+      "translation": "زیست‌فناوری",
+      "ipa": "/ˌbaɪoʊtekˈnɑːlədʒi/",
+      "partOfSpeech": "noun",
+      "example": "Biotechnology is used to develop new medicines and crops.",
+      "definitions": [
+        "The use of living systems to develop or make products"
+      ],
+      "synonyms": [
+        "bioengineering",
+        "genetic engineering"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "modern biotechnology",
+        "biotechnology industry",
+        "biotechnology applications"
+      ],
+      "wordFamily": [
+        "biotechnology (n)",
+        "biotechnological (adj)"
+      ],
+      "coreMeaning": "استفاده از سیستم‌های زنده برای محصولات",
+      "note": "شامل مهندسی ژنتیک و کشاورزی",
+      "trap": "biotechnology ≠ biology",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "pharmacology",
+      "translation": "داروشناسی",
+      "ipa": "/ˌfɑːrməˈkɑːlədʒi/",
+      "partOfSpeech": "noun",
+      "example": "Pharmacology studies how drugs affect the body.",
+      "definitions": [
+        "The study of drug action"
+      ],
+      "synonyms": [
+        "drug science",
+        "pharmaceutical science"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "clinical pharmacology",
+        "pharmacology research",
+        "pharmacology degree"
+      ],
+      "wordFamily": [
+        "pharmacology (n)",
+        "pharmacological (adj)"
+      ],
+      "coreMeaning": "مطالعه اثر داروها",
+      "note": "شامل فارماکودینامیک و فارماکوکینتیک",
+      "trap": "pharmacology ≠ pharmacy",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "epidemiology",
+      "translation": "همه‌گیرشناسی",
+      "ipa": "/ˌepɪˌdiːmiˈɑːlədʒi/",
+      "partOfSpeech": "noun",
+      "example": "Epidemiology tracks the spread of diseases in populations.",
+      "definitions": [
+        "The study of the distribution and determinants of health-related states"
+      ],
+      "synonyms": [
+        "public health science",
+        "disease study"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "epidemiology study",
+        "epidemiology data",
+        "epidemiology research"
+      ],
+      "wordFamily": [
+        "epidemiology (n)",
+        "epidemiological (adj)",
+        "epidemiologist (n)"
+      ],
+      "coreMeaning": "مطالعه توزیع بیماری‌ها در جمعیت",
+      "note": "نقش کلیدی در مبارزه با همه‌گیری‌ها",
+      "trap": "epidemiology ≠ medicine",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "pathology",
+      "translation": "آسیب‌شناسی",
+      "ipa": "/pəˈθɑːlədʒi/",
+      "partOfSpeech": "noun",
+      "example": "The pathology report confirmed the diagnosis.",
+      "definitions": [
+        "The study of the causes and effects of diseases"
+      ],
+      "synonyms": [
+        "disease science",
+        "morbid anatomy"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "clinical pathology",
+        "pathology report",
+        "pathology lab"
+      ],
+      "wordFamily": [
+        "pathology (n)",
+        "pathological (adj)",
+        "pathologist (n)"
+      ],
+      "coreMeaning": "مطالعه علل و اثرات بیماری‌ها",
+      "note": "پاتولوژیست‌ها بافت‌ها را بررسی می‌کنند",
+      "trap": "pathology ≠ diagnosis",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "neuroscience",
+      "translation": "عصب‌شناسی",
+      "ipa": "/ˈnʊroʊsaɪəns/",
+      "partOfSpeech": "noun",
+      "example": "Neuroscience explores how the brain and nervous system work.",
+      "definitions": [
+        "The scientific study of the nervous system"
+      ],
+      "synonyms": [
+        "brain science",
+        "neurobiology"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cognitive neuroscience",
+        "neuroscience research",
+        "neuroscience lab"
+      ],
+      "wordFamily": [
+        "neuroscience (n)",
+        "neuroscientific (adj)",
+        "neuroscientist (n)"
+      ],
+      "coreMeaning": "مطالعه علمی سیستم عصبی",
+      "note": "شامل مغز، نخاع و اعصاب",
+      "trap": "neuroscience ≠ neurology",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "cognitive",
+      "translation": "شناختی",
+      "ipa": "/ˈkɑːɡnətɪv/",
+      "partOfSpeech": "adjective",
+      "example": "Cognitive abilities include memory, attention, and problem-solving.",
+      "definitions": [
+        "Relating to mental processes of perception, memory, and reasoning"
+      ],
+      "synonyms": [
+        "mental",
+        "intellectual",
+        "psychological"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cognitive function",
+        "cognitive development",
+        "cognitive science"
+      ],
+      "wordFamily": [
+        "cognition (n)",
+        "cognitive (adj)"
+      ],
+      "coreMeaning": "مربوط به فرآیندهای ذهنی",
+      "note": "شامل یادگیری، حافظه، ادراک و زبان",
+      "trap": "cognitive ≠ physical",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "empirical evidence",
+      "translation": "شواهد تجربی",
+      "ipa": "/ɪmˈpɪrɪkəl ˈevɪdəns/",
+      "partOfSpeech": "noun",
+      "example": "The theory is supported by strong empirical evidence.",
+      "definitions": [
+        "Evidence based on observation and experiment"
+      ],
+      "synonyms": [
+        "experimental evidence",
+        "observational evidence"
+      ],
+      "antonyms": [
+        "theoretical evidence"
+      ],
+      "collocations": [
+        "gather empirical evidence",
+        "empirical evidence supports",
+        "strong empirical evidence"
+      ],
+      "wordFamily": [
+        "empirical evidence (n)"
+      ],
+      "coreMeaning": "شواهد حاصل از مشاهده و آزمایش",
+      "note": "پایه و اساس روش علمی",
+      "trap": "empirical evidence ≠ anecdotal evidence",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "peer-reviewed",
+      "translation": "داوری‌شده",
+      "ipa": "/ˌpɪr rɪˈvjuːd/",
+      "partOfSpeech": "adjective",
+      "example": "Only peer-reviewed articles were included in the meta-analysis.",
+      "definitions": [
+        "Evaluated by other experts before publication"
+      ],
+      "synonyms": [
+        "refereed",
+        "juried"
+      ],
+      "antonyms": [
+        "non-reviewed"
+      ],
+      "collocations": [
+        "peer-reviewed journal",
+        "peer-reviewed article",
+        "peer-reviewed research"
+      ],
+      "wordFamily": [
+        "peer-reviewed (adj)"
+      ],
+      "coreMeaning": "ارزیابی‌شده توسط متخصصان",
+      "note": "معتبرترین منابع علمی",
+      "trap": "peer-reviewed ≠ published",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "meta-analysis",
+      "translation": "فراتحلیل",
+      "ipa": "/ˌmetə əˈnæləsɪs/",
+      "partOfSpeech": "noun",
+      "example": "The meta-analysis combined results from 20 different studies.",
+      "definitions": [
+        "A statistical analysis combining results of multiple studies"
+      ],
+      "synonyms": [
+        "systematic review",
+        "quantitative review"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "conduct a meta-analysis",
+        "meta-analysis results",
+        "meta-analysis study"
+      ],
+      "wordFamily": [
+        "meta-analysis (n)"
+      ],
+      "coreMeaning": "ترکیب نتایج چندین مطالعه",
+      "note": "قوی‌ترین سطح شواهد علمی",
+      "trap": "meta-analysis ≠ systematic review",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "longitudinal study",
+      "translation": "مطالعه طولی",
+      "ipa": "/ˌlɑːndʒɪˈtuːdɪnəl ˈstʌdi/",
+      "partOfSpeech": "noun",
+      "example": "The longitudinal study followed participants for over 20 years.",
+      "definitions": [
+        "A research design involving repeated observations over long periods"
+      ],
+      "synonyms": [
+        "cohort study",
+        "follow-up study"
+      ],
+      "antonyms": [
+        "cross-sectional study"
+      ],
+      "collocations": [
+        "longitudinal study design",
+        "longitudinal data",
+        "longitudinal research"
+      ],
+      "wordFamily": [
+        "longitudinal study (n)"
+      ],
+      "coreMeaning": "مشاهدات مکرر در طول زمان",
+      "note": "برای درک تغییرات در طول زمان",
+      "trap": "longitudinal study ≠ cross-sectional study",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "control group",
+      "translation": "گروه کنترل",
+      "ipa": "/kənˈtroʊl ɡruːp/",
+      "partOfSpeech": "noun",
+      "example": "The control group did not receive the treatment.",
+      "definitions": [
+        "A group in an experiment that does not receive the treatment"
+      ],
+      "synonyms": [
+        "comparison group",
+        "reference group"
+      ],
+      "antonyms": [
+        "experimental group",
+        "treatment group"
+      ],
+      "collocations": [
+        "use a control group",
+        "control group design",
+        "placebo control group"
+      ],
+      "wordFamily": [
+        "control group (n)"
+      ],
+      "coreMeaning": "گروه بدون درمان به عنوان معیار",
+      "note": "برای مقایسه اثر درمان ضروری",
+      "trap": "control group ≠ experimental group",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "placebo",
+      "translation": "دارونما",
+      "ipa": "/pləˈsiːboʊ/",
+      "partOfSpeech": "noun",
+      "example": "Half the patients received the drug, and the other half received a placebo.",
+      "definitions": [
+        "A substance with no therapeutic effect used as a control"
+      ],
+      "synonyms": [
+        "dummy pill",
+        "sugar pill",
+        "sham treatment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "placebo effect",
+        "placebo group",
+        "placebo-controlled trial"
+      ],
+      "wordFamily": [
+        "placebo (n)"
+      ],
+      "coreMeaning": "ماده بدون اثر درمانی",
+      "note": "اثر دارونما نشان‌دهنده قدرت باور",
+      "trap": "placebo ≠ drug",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "placebo effect",
+      "translation": "اثر دارونما",
+      "ipa": "/pləˈsiːboʊ ɪˈfekt/",
+      "partOfSpeech": "noun",
+      "example": "The placebo effect demonstrates the power of belief in healing.",
+      "definitions": [
+        "A beneficial effect produced by a placebo that cannot be attributed to the treatment"
+      ],
+      "synonyms": [
+        "expectation effect",
+        "mind-body effect"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "strong placebo effect",
+        "placebo effect study",
+        "account for placebo effect"
+      ],
+      "wordFamily": [
+        "placebo effect (n)"
+      ],
+      "coreMeaning": "اثر مثبت ناشی از باور بیمار",
+      "note": "نشان‌دهنده ارتباط ذهن و بدن",
+      "trap": "placebo effect ≠ real effect",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "double-blind study",
+      "translation": "مطالعه دوسوکور",
+      "ipa": "/ˌdʌbəl ˈblaɪnd ˈstʌdi/",
+      "partOfSpeech": "noun",
+      "example": "The double-blind study ensured unbiased results.",
+      "definitions": [
+        "An experiment where neither participants nor researchers know who receives treatment"
+      ],
+      "synonyms": [
+        "double-blind trial",
+        "double-blind experiment"
+      ],
+      "antonyms": [
+        "single-blind study"
+      ],
+      "collocations": [
+        "double-blind study design",
+        "double-blind placebo-controlled study"
+      ],
+      "wordFamily": [
+        "double-blind study (n)"
+      ],
+      "coreMeaning": "آزمایش بدون اطلاع هیچ‌کس",
+      "note": "استاندارد طلایی تحقیقات پزشکی",
+      "trap": "double-blind ≠ single-blind",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "randomized trial",
+      "translation": "کارآزمایی تصادفی‌شده",
+      "ipa": "/ˈrændəmaɪzd ˈtraɪəl/",
+      "partOfSpeech": "noun",
+      "example": "The randomized trial showed the drug was effective.",
+      "definitions": [
+        "A study where participants are randomly assigned to groups"
+      ],
+      "synonyms": [
+        "randomized controlled trial",
+        "RCT"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "randomized clinical trial",
+        "randomized trial design",
+        "randomized trial results"
+      ],
+      "wordFamily": [
+        "randomized trial (n)"
+      ],
+      "coreMeaning": "تقسیم تصادفی به گروه‌ها",
+      "note": "معتبرترین نوع کارآزمایی",
+      "trap": "randomized trial ≠ observational study",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "observational study",
+      "translation": "مطالعه مشاهده‌ای",
+      "ipa": "/ˌɑːbzərˈveɪʃənəl ˈstʌdi/",
+      "partOfSpeech": "noun",
+      "example": "The observational study found a correlation between diet and health.",
+      "definitions": [
+        "A study where the researcher observes without manipulating variables"
+      ],
+      "synonyms": [
+        "descriptive study",
+        "non-experimental study"
+      ],
+      "antonyms": [
+        "experimental study"
+      ],
+      "collocations": [
+        "observational study design",
+        "observational study data",
+        "observational study limitations"
+      ],
+      "wordFamily": [
+        "observational study (n)"
+      ],
+      "coreMeaning": "مشاهده بدون دخالت",
+      "note": "نمی‌تواند علیت را اثبات کند",
+      "trap": "observational study ≠ experimental study",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "sample size",
+      "translation": "حجم نمونه",
+      "ipa": "/ˈsæmpəl saɪz/",
+      "partOfSpeech": "noun",
+      "example": "A larger sample size increases the reliability of the results.",
+      "definitions": [
+        "The number of individuals or observations included in a study"
+      ],
+      "synonyms": [
+        "number of participants",
+        "study population"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "increase sample size",
+        "small sample size",
+        "adequate sample size"
+      ],
+      "wordFamily": [
+        "sample size (n)"
+      ],
+      "coreMeaning": "تعداد افراد در مطالعه",
+      "note": "بزرگ‌تر = قابل اعتمادتر",
+      "trap": "sample size ≠ population",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "subjectivity",
+      "translation": "ذهنیت",
+      "ipa": "/ˌsʌbdʒekˈtɪvəti/",
+      "partOfSpeech": "noun",
+      "example": "The researcher acknowledged the subjectivity of the data interpretation.",
+      "definitions": [
+        "The quality of being based on personal feelings rather than facts"
+      ],
+      "synonyms": [
+        "personal bias",
+        "partiality",
+        "individual perspective"
+      ],
+      "antonyms": [
+        "objectivity",
+        "impartiality"
+      ],
+      "collocations": [
+        "inherent subjectivity",
+        "reduce subjectivity",
+        "subjectivity of interpretation"
+      ],
+      "wordFamily": [
+        "subjective (adj)",
+        "subjectivity (n)"
+      ],
+      "coreMeaning": "مبتنی بودن بر احساسات و نظرات شخصی",
+      "note": "در علم تلاش می‌شود subjectivity کاهش یابد",
+      "trap": "subjectivity ≠ bias؛ subjectivity طبیعی، bias ناعادلانه",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "anomaly",
+      "translation": "ناهنجاری",
+      "ipa": "/əˈnɑːməli/",
+      "partOfSpeech": "noun",
+      "example": "The data showed an anomaly that required further investigation.",
+      "definitions": [
+        "Something that deviates from what is standard or expected"
+      ],
+      "synonyms": [
+        "irregularity",
+        "deviation",
+        "abnormality"
+      ],
+      "antonyms": [
+        "norm",
+        "regularity"
+      ],
+      "collocations": [
+        "statistical anomaly",
+        "detect an anomaly",
+        "anomaly detection"
+      ],
+      "wordFamily": [
+        "anomaly (n)",
+        "anomalous (adj)"
+      ],
+      "coreMeaning": "انحراف از حالت عادی",
+      "note": "ممکن است نشانه خطا یا کشف مهم",
+      "trap": "anomaly ≠ error",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "paradigm shift",
+      "translation": "جابجایی پارادایم",
+      "ipa": "/ˈpærədaɪm ʃɪft/",
+      "partOfSpeech": "noun",
+      "example": "The discovery of DNA caused a paradigm shift in biology.",
+      "definitions": [
+        "A fundamental change in the basic concepts of a discipline"
+      ],
+      "synonyms": [
+        "revolution",
+        "transformation",
+        "breakthrough"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "scientific paradigm shift",
+        "cause a paradigm shift",
+        "paradigm shift in thinking"
+      ],
+      "wordFamily": [
+        "paradigm shift (n)"
+      ],
+      "coreMeaning": "تغییر بنیادی در علم",
+      "note": "托马س کوهن این مفهوم را مطرح کرد",
+      "trap": "paradigm shift ≠ change",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "falsifiable",
+      "translation": "قابل ابطال",
+      "ipa": "/ˈfɔːlsɪfaɪəbəl/",
+      "partOfSpeech": "adjective",
+      "example": "A good scientific hypothesis must be falsifiable.",
+      "definitions": [
+        "Able to be proven false by observation or experiment"
+      ],
+      "synonyms": [
+        "testable",
+        "refutable"
+      ],
+      "antonyms": [
+        "unfalsifiable"
+      ],
+      "collocations": [
+        "falsifiable hypothesis",
+        "falsifiable claim",
+        "falsifiable prediction"
+      ],
+      "wordFamily": [
+        "falsifiable (adj)",
+        "falsify (v)",
+        "falsification (n)"
+      ],
+      "coreMeaning": "قابلیت رد شدن",
+      "note": "کارل پوپر: falsifiability شرط علمی بودن",
+      "trap": "falsifiable ≠ false",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "replicable",
+      "translation": "تکرارپذیر",
+      "ipa": "/ˈreplɪkəbəl/",
+      "partOfSpeech": "adjective",
+      "example": "The results of the experiment must be replicable.",
+      "definitions": [
+        "Able to be reproduced yielding the same results"
+      ],
+      "synonyms": [
+        "reproducible",
+        "repeatable"
+      ],
+      "antonyms": [
+        "unreplicable"
+      ],
+      "collocations": [
+        "replicable results",
+        "replicable study",
+        "highly replicable"
+      ],
+      "wordFamily": [
+        "replicable (adj)",
+        "replicate (v)",
+        "replication (n)"
+      ],
+      "coreMeaning": "قابلیت تکرار با همان نتایج",
+      "note": "بحران بزرگ علم مدرن",
+      "trap": "replicable ≠ valid",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "reproducible",
+      "translation": "بازتولیدپذیر",
+      "ipa": "/ˌriːprəˈduːsəbəl/",
+      "partOfSpeech": "adjective",
+      "example": "The study must be reproducible by other researchers.",
+      "definitions": [
+        "Able to be recreated following a documented procedure"
+      ],
+      "synonyms": [
+        "replicable",
+        "repeatable"
+      ],
+      "antonyms": [
+        "unreproducible"
+      ],
+      "collocations": [
+        "reproducible results",
+        "reproducible research",
+        "make research reproducible"
+      ],
+      "wordFamily": [
+        "reproducible (adj)",
+        "reproduce (v)",
+        "reproduction (n)"
+      ],
+      "coreMeaning": "بازتولید توسط محققان دیگر",
+      "note": "شامل کد، داده و روش‌ها",
+      "trap": "reproducible ≠ replicable",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "scientific method",
+      "translation": "روش علمی",
+      "ipa": "/ˌsaɪənˈtɪfɪk ˈmeθəd/",
+      "partOfSpeech": "noun",
+      "example": "The scientific method is the foundation of all scientific research.",
+      "definitions": [
+        "A systematic approach involving observation, hypothesis, experimentation, and conclusion"
+      ],
+      "synonyms": [
+        "research methodology",
+        "empirical method"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "follow the scientific method",
+        "scientific method steps",
+        "apply the scientific method"
+      ],
+      "wordFamily": [
+        "scientific method (n)"
+      ],
+      "coreMeaning": "روه سیستماتیک تحقیق",
+      "note": "مراحل: مشاهده، سؤال، فرضیه، آزمایش، تحلیل، نتیجه‌گیری",
+      "trap": "scientific method ≠ research method",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "citation",
+      "translation": "استناد",
+      "ipa": "/saɪˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Proper citation of sources is essential in academic writing.",
+      "definitions": [
+        "A reference to a source of information used in research"
+      ],
+      "synonyms": [
+        "reference",
+        "quotation",
+        "attribution"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "academic citation",
+        "citation format",
+        "citation count"
+      ],
+      "wordFamily": [
+        "citation (n)",
+        "cite (v)"
+      ],
+      "coreMeaning": "ارجاع به منبع",
+      "note": "APA، MLA و Chicago فرمت‌های رایج",
+      "trap": "citation ≠ quote",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "plagiarism",
+      "translation": "سرقت ادبی",
+      "ipa": "/ˈpleɪdʒərɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Plagiarism is a serious offense in academic institutions.",
+      "definitions": [
+        "Taking someone else's work and passing it off as one's own"
+      ],
+      "synonyms": [
+        "copying",
+        "theft",
+        "piracy"
+      ],
+      "antonyms": [
+        "originality"
+      ],
+      "collocations": [
+        "commit plagiarism",
+        "accusation of plagiarism",
+        "avoid plagiarism"
+      ],
+      "wordFamily": [
+        "plagiarism (n)",
+        "plagiarize (v)"
+      ],
+      "coreMeaning": "استفاده بدون ذکر منبع",
+      "note": "می‌تواند منجر به اخراج شود",
+      "trap": "plagiarism ≠ citation",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "hypothesis testing",
+      "translation": "آزمون فرضیه",
+      "ipa": "/haɪˈpɑːθəsɪs ˈtestɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Hypothesis testing is a fundamental tool in statistics.",
+      "definitions": [
+        "A statistical method to determine whether to reject a null hypothesis"
+      ],
+      "synonyms": [
+        "statistical testing",
+        "significance testing"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "hypothesis testing method",
+        "hypothesis testing results",
+        "null hypothesis testing"
+      ],
+      "wordFamily": [
+        "hypothesis testing (n)"
+      ],
+      "coreMeaning": "روش آماری تعیین رد فرضیه صفر",
+      "note": "H0 و H1 وجود دارد",
+      "trap": "hypothesis testing ≠ proving",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "null hypothesis",
+      "translation": "فرضیه صفر",
+      "ipa": "/nʌl haɪˈpɑːθəsɪs/",
+      "partOfSpeech": "noun",
+      "example": "The null hypothesis states that there is no significant difference.",
+      "definitions": [
+        "A hypothesis that there is no significant difference between variables"
+      ],
+      "synonyms": [
+        "default hypothesis",
+        "H0"
+      ],
+      "antonyms": [
+        "alternative hypothesis"
+      ],
+      "collocations": [
+        "reject the null hypothesis",
+        "fail to reject the null hypothesis",
+        "null hypothesis testing"
+      ],
+      "wordFamily": [
+        "null hypothesis (n)"
+      ],
+      "coreMeaning": "فرضیه عدم تفاوت معنادار",
+      "note": "هدف آزمون رد یا عدم رد آن",
+      "trap": "null hypothesis ≠ alternative hypothesis",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "p-value",
+      "translation": "مقدار p",
+      "ipa": "/piː ˈvæljuː/",
+      "partOfSpeech": "noun",
+      "example": "A p-value less than 0.05 is typically considered statistically significant.",
+      "definitions": [
+        "The probability of obtaining results at least as extreme as observed, assuming H0 is true"
+      ],
+      "synonyms": [
+        "probability value",
+        "significance level"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "low p-value",
+        "p-value threshold",
+        "calculate p-value"
+      ],
+      "wordFamily": [
+        "p-value (n)"
+      ],
+      "coreMeaning": "احتمال نتایج مشاهده‌شده با فرض صحت H0",
+      "note": "p<0.05 معمولاً معنادار تلقی می‌شود",
+      "trap": "p-value ≠ probability",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "standard deviation",
+      "translation": "انحراف معیار",
+      "ipa": "/ˈstændərd ˌdiːviˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The standard deviation indicates how spread out the data is.",
+      "definitions": [
+        "A measure of the amount of variation or dispersion in a set of values"
+      ],
+      "synonyms": [
+        "SD",
+        "spread",
+        "dispersion"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "calculate standard deviation",
+        "high standard deviation",
+        "low standard deviation"
+      ],
+      "wordFamily": [
+        "standard deviation (n)"
+      ],
+      "coreMeaning": "مقیاس پراکندگی داده‌ها",
+      "note": "انحراف معیار بالا = پراکندگی زیاد",
+      "trap": "standard deviation ≠ variance",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "mean",
+      "translation": "میانگین",
+      "ipa": "/miːn/",
+      "partOfSpeech": "noun",
+      "example": "The mean score of the class was 75 out of 100.",
+      "definitions": [
+        "The average of a set of numbers"
+      ],
+      "synonyms": [
+        "average",
+        "arithmetic mean"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "calculate the mean",
+        "mean value",
+        "mean score"
+      ],
+      "wordFamily": [
+        "mean (n/adj/v)"
+      ],
+      "coreMeaning": "میانگین حسابی",
+      "note": "مجموع ÷ تعداد",
+      "trap": "mean ≠ median",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "median",
+      "translation": "میانه",
+      "ipa": "/ˈmidiən/",
+      "partOfSpeech": "noun",
+      "example": "The median income is a better measure than the mean in skewed distributions.",
+      "definitions": [
+        "The middle value in a set of numbers arranged in order"
+      ],
+      "synonyms": [
+        "middle value",
+        "midpoint"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "median value",
+        "median income",
+        "median score"
+      ],
+      "wordFamily": [
+        "median (n/adj)"
+      ],
+      "coreMeaning": "مقدار وسط در ترتیب صعودی",
+      "note": "در توزیع نامتقارن بهتر از mean",
+      "trap": "median ≠ mean",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "rigorous",
+      "translation": "سخت‌گیرانه، دقیق",
+      "ipa": "/ˈrɪɡərəs/",
+      "partOfSpeech": "adjective",
+      "example": "The research followed a rigorous methodology.",
+      "definitions": [
+        "Extremely thorough, exhaustive, or accurate"
+      ],
+      "synonyms": [
+        "strict",
+        "thorough",
+        "meticulous"
+      ],
+      "antonyms": [
+        "lax",
+        "lenient",
+        "careless"
+      ],
+      "collocations": [
+        "rigorous methodology",
+        "rigorous testing",
+        "rigorous standards"
+      ],
+      "wordFamily": [
+        "rigor (n)",
+        "rigorous (adj)",
+        "rigorously (adv)"
+      ],
+      "coreMeaning": "بسیار دقیق و سخت‌گیرانه",
+      "note": "در تحقیقات علمی: rigorous methodology روش تحقیق دقیق و سخت‌گیرانه",
+      "trap": "rigorous ≠ difficult؛ rigorous دقیق، difficult سخت",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "accurate",
+      "translation": "دقیق",
+      "ipa": "/ˈækjərət/",
+      "partOfSpeech": "adjective",
+      "example": "The measurements must be accurate for the experiment to succeed.",
+      "definitions": [
+        "Correct in all details; exact"
+      ],
+      "synonyms": [
+        "precise",
+        "exact",
+        "correct"
+      ],
+      "antonyms": [
+        "inaccurate",
+        "imprecise",
+        "wrong"
+      ],
+      "collocations": [
+        "accurate measurement",
+        "accurate data",
+        "highly accurate"
+      ],
+      "wordFamily": [
+        "accuracy (n)",
+        "accurate (adj)",
+        "accurately (adv)"
+      ],
+      "coreMeaning": "صحیح و بدون خطا",
+      "note": "accurate ≠ precise؛ accurate نزدیک به واقعیت، precise جزئیات زیاد",
+      "trap": "accurate ≠ precise",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "reliable",
+      "translation": "قابل اعتماد",
+      "ipa": "/rɪˈlaɪəbəl/",
+      "partOfSpeech": "adjective",
+      "example": "The data must be reliable for the conclusions to be valid.",
+      "definitions": [
+        "Consistently good in quality; able to be trusted"
+      ],
+      "synonyms": [
+        "dependable",
+        "trustworthy",
+        "consistent"
+      ],
+      "antonyms": [
+        "unreliable",
+        "untrustworthy"
+      ],
+      "collocations": [
+        "reliable source",
+        "reliable data",
+        "highly reliable"
+      ],
+      "wordFamily": [
+        "reliability (n)",
+        "reliable (adj)",
+        "rely (v)"
+      ],
+      "coreMeaning": "همیشه با کیفیت",
+      "note": "reliable data برای نتیجه‌گیری ضروری",
+      "trap": "reliable ≠ valid",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    },
+    {
+      "word": "valid",
+      "translation": "معتبر",
+      "ipa": "/ˈvælɪd/",
+      "partOfSpeech": "adjective",
+      "example": "The experiment produced valid results.",
+      "definitions": [
+        "Well-grounded or justifiable; logically sound"
+      ],
+      "synonyms": [
+        "legitimate",
+        "sound",
+        "justified"
+      ],
+      "antonyms": [
+        "invalid",
+        "unjustified"
+      ],
+      "collocations": [
+        "valid argument",
+        "valid reason",
+        "scientifically valid"
+      ],
+      "wordFamily": [
+        "validity (n)",
+        "valid (adj)",
+        "validate (v)"
+      ],
+      "coreMeaning": "منطقی و قابل دفاع",
+      "note": "valid ≠ true؛ valid منطقی، true واقعی",
+      "trap": "valid ≠ true",
+      "tags": [
+        "B2",
+        "science"
+      ]
+    }
+  ]
+}

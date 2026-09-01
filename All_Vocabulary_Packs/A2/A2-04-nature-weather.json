@@ -1,0 +1,3295 @@
+{
+  "name": "طبیعت و آب‌وهوا",
+  "description": "۱۰۰ کلمه درباره طبیعت، آب‌وهوا، جغرافیا و محیط زیست — سطح A2",
+  "category": "A2 — پایه",
+  "level": "A2",
+  "packId": "A2-04",
+  "words": [
+    {
+      "word": "sunny",
+      "translation": "آفتابی",
+      "ipa": "/ˈsʌni/",
+      "partOfSpeech": "adjective",
+      "example": "It is a beautiful sunny day today.",
+      "definitions": [
+        "having a lot of bright light from the sun"
+      ],
+      "synonyms": [
+        "bright",
+        "clear"
+      ],
+      "antonyms": [
+        "cloudy",
+        "overcast"
+      ],
+      "collocations": [
+        "sunny day",
+        "sunny weather",
+        "sunny side"
+      ],
+      "wordFamily": [
+        "sun (n)",
+        "sunshine (n)",
+        "sunlight (n)"
+      ],
+      "coreMeaning": "روزی که نور خورشید زیاد باشد",
+      "note": "از sun + y ساخته شده؛ صفتی برای توصیف روز آفتابی",
+      "trap": "با sunburn (آفتاب‌سوختگی) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "cloudy",
+      "translation": "ابری",
+      "ipa": "/ˈklaʊdi/",
+      "partOfSpeech": "adjective",
+      "example": "The sky is cloudy today; it might rain.",
+      "definitions": [
+        "covered with clouds; not clear"
+      ],
+      "synonyms": [
+        "overcast",
+        "grey"
+      ],
+      "antonyms": [
+        "sunny",
+        "clear"
+      ],
+      "collocations": [
+        "cloudy sky",
+        "cloudy day",
+        "partly cloudy"
+      ],
+      "wordFamily": [
+        "cloud (n)",
+        "cloudiness (n)"
+      ],
+      "coreMeaning": "زمانی که آسمان پوشیده از ابر باشد",
+      "note": "ابری بودن لزوماً به معنای بارندگی نیست",
+      "trap": "cloudy ≠ rainy؛ ممکن است ابری باشد ولی باران نیاید",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "rainy",
+      "translation": "بارانی",
+      "ipa": "/ˈreɪni/",
+      "partOfSpeech": "adjective",
+      "example": "I always carry an umbrella on rainy days.",
+      "definitions": [
+        "having a lot of rain"
+      ],
+      "synonyms": [
+        "wet",
+        "drizzly"
+      ],
+      "antonyms": [
+        "dry",
+        "sunny"
+      ],
+      "collocations": [
+        "rainy day",
+        "rainy season",
+        "rainy weather"
+      ],
+      "wordFamily": [
+        "rain (n)",
+        "rainfall (n)",
+        "rainbow (n)"
+      ],
+      "coreMeaning": "روزی که باران ببارد",
+      "note": "rainy day اصطلاحاً به روزهای سخت هم اشاره دارد",
+      "trap": "rainy (صفت) با rain (اسم/فعل) فرق دارد",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "windy",
+      "translation": "بادی",
+      "ipa": "/ˈwɪndi/",
+      "partOfSpeech": "adjective",
+      "example": "It is too windy to fly a kite today.",
+      "definitions": [
+        "having a lot of wind"
+      ],
+      "synonyms": [
+        "breezy",
+        "gusty"
+      ],
+      "antonyms": [
+        "calm",
+        "still"
+      ],
+      "collocations": [
+        "windy day",
+        "windy weather",
+        "windy city"
+      ],
+      "wordFamily": [
+        "wind (n)",
+        "windbreak (n)"
+      ],
+      "coreMeaning": "روزی که باد شدیدی بوزد",
+      "note": "windy city لقب شهر شیکاگو است",
+      "trap": "windy /ˈwɪndi/ با window /ˈwɪndoʊ/ اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "snowy",
+      "translation": "برفی",
+      "ipa": "/ˈsnoʊi/",
+      "partOfSpeech": "adjective",
+      "example": "The children love playing on snowy mornings.",
+      "definitions": [
+        "covered with snow; having a lot of snow"
+      ],
+      "synonyms": [
+        "frosty",
+        "icy"
+      ],
+      "antonyms": [
+        "warm",
+        "mild"
+      ],
+      "collocations": [
+        "snowy day",
+        "snowy mountain",
+        "snowy weather"
+      ],
+      "wordFamily": [
+        "snow (n)",
+        "snowfall (n)",
+        "snowflake (n)"
+      ],
+      "coreMeaning": "روزی که برف ببارد یا زمین پوشیده از برف باشد",
+      "note": "snowy برای توصیف مکان یا روز برفی استفاده می‌شود",
+      "trap": "snowy (صفت) با snow (اسم/فعل) فرق دارد",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "foggy",
+      "translation": "مه‌آلود",
+      "ipa": "/ˈfɔːɡi/",
+      "partOfSpeech": "adjective",
+      "example": "Be careful driving in foggy conditions.",
+      "definitions": [
+        "full of fog; not clear"
+      ],
+      "synonyms": [
+        "misty",
+        "hazy"
+      ],
+      "antonyms": [
+        "clear",
+        "bright"
+      ],
+      "collocations": [
+        "foggy morning",
+        "foggy weather",
+        "foggy day"
+      ],
+      "wordFamily": [
+        "fog (n)",
+        "foghorn (n)"
+      ],
+      "coreMeaning": "هوایی که مه غلیظ داشته باشد و دید کم باشد",
+      "note": "مه با مه‌نازک (mist) فرق دارد؛ fog غلیظ‌تر است",
+      "trap": "foggy /ˈfɔːɡi/ — حرف g تلفظ می‌شود",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "stormy",
+      "translation": "طوفانی",
+      "ipa": "/ˈstɔːrmi/",
+      "partOfSpeech": "adjective",
+      "example": "The stormy weather kept everyone indoors.",
+      "definitions": [
+        "having strong winds and heavy rain"
+      ],
+      "synonyms": [
+        "tempestuous",
+        "rough"
+      ],
+      "antonyms": [
+        "calm",
+        "peaceful"
+      ],
+      "collocations": [
+        "stormy night",
+        "stormy weather",
+        "stormy sea"
+      ],
+      "wordFamily": [
+        "storm (n)",
+        "thunderstorm (n)"
+      ],
+      "coreMeaning": "هوایی که طوفان و باد شدید داشته باشد",
+      "note": "stormy می‌تواند برای روابط عاطفی هم استفاده شود",
+      "trap": "stormy با story (داستان) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "temperature",
+      "translation": "دما / درجه حرارت",
+      "ipa": "/ˈtemprətʃər/",
+      "partOfSpeech": "noun",
+      "example": "The temperature dropped below zero last night.",
+      "definitions": [
+        "the degree of heat or cold in the air or in a body"
+      ],
+      "synonyms": [
+        "heat level"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "high temperature",
+        "low temperature",
+        "body temperature",
+        "temperature drops"
+      ],
+      "wordFamily": [
+        "temperate (adj)"
+      ],
+      "coreMeaning": "میزان گرما یا سرمای هوا یا بدن",
+      "note": "با thermometer (دماسنج) اندازه‌گیری می‌شود",
+      "trap": "temperature ۴ هجا دارد: tem-per-a-ture",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "forecast",
+      "translation": "پیش‌بینی",
+      "ipa": "/ˈfɔːrkæst/",
+      "partOfSpeech": "noun",
+      "example": "The weather forecast says it will rain tomorrow.",
+      "definitions": [
+        "a prediction about what will happen, especially the weather"
+      ],
+      "synonyms": [
+        "prediction",
+        "outlook"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "weather forecast",
+        "forecast says",
+        "forecast for tomorrow"
+      ],
+      "wordFamily": [
+        "forecaster (n)"
+      ],
+      "coreMeaning": "پیش‌بینی آب‌وهوا یا رویدادهای آینده",
+      "note": "forecast — گذشته و اسم یکی هستند: forecast",
+      "trap": "گذشته forecast است نه forecasted (هرچند forecasted هم گاهی استفاده می‌شود)",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "climate",
+      "translation": "اقلیم / آب‌وهوای بلندمدت",
+      "ipa": "/ˈklaɪmət/",
+      "partOfSpeech": "noun",
+      "example": "The climate in this region is very dry.",
+      "definitions": [
+        "the usual weather conditions in a particular area over a long period"
+      ],
+      "synonyms": [
+        "weather pattern"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "climate change",
+        "tropical climate",
+        "climate zone"
+      ],
+      "wordFamily": [
+        "climatic (adj)"
+      ],
+      "coreMeaning": "الگوی آب‌وهوایی یک منطقه در بلندمدت",
+      "note": "climate (بلندمدت) با weather (کوتاه‌مدت) فرق دارد",
+      "trap": "climate ≠ weather؛ climate مربوط به سال‌ها و دهه‌هاست",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "thunder",
+      "translation": "رعد / صدای رعد",
+      "ipa": "/ˈθʌndər/",
+      "partOfSpeech": "noun",
+      "example": "We could hear thunder in the distance.",
+      "definitions": [
+        "the loud noise that follows a flash of lightning"
+      ],
+      "synonyms": [
+        "boom",
+        "rumble"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "thunder and lightning",
+        "thunder storm",
+        "thunder rolls"
+      ],
+      "wordFamily": [
+        "thunderstorm (n)",
+        "thunderbolt (n)"
+      ],
+      "coreMeaning": "صدای بلندی که بعد از رعد و برق می‌آید",
+      "note": "رعد (thunder) صداست و برق (lightning) نور است",
+      "trap": "thunder صداست، lightning نورش — هر دو با هم می‌آیند ولی متفاوتند",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "lightning",
+      "translation": "برق / صاعقه",
+      "ipa": "/ˈlaɪtnɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Lightning struck the tree during the storm.",
+      "definitions": [
+        "a bright flash of light in the sky during a storm"
+      ],
+      "synonyms": [
+        "bolt",
+        "flash"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "lightning strike",
+        "flash of lightning",
+        "lightning bolt"
+      ],
+      "wordFamily": [
+        "light (n)"
+      ],
+      "coreMeaning": "جرقه نورانی در آسمان هنگام طوفان",
+      "note": "lightning خطرناک است؛ زیر درخت بلند پناه نگیرید",
+      "trap": "lightning (صاعقه) ≠ lighting (روشنایی) — بدون e نوشته می‌شود",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "rainbow",
+      "translation": "رنگین‌کمان",
+      "ipa": "/ˈreɪnboʊ/",
+      "partOfSpeech": "noun",
+      "example": "A beautiful rainbow appeared after the rain.",
+      "definitions": [
+        "an arch of colors in the sky caused by sunlight shining through rain"
+      ],
+      "synonyms": [
+        "arc"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "rainbow colors",
+        "over the rainbow",
+        "rainbow appears"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "قوس رنگی در آسمان بعد از باران",
+      "note": "هفت رنگ دارد: قرمز، نارنجی، زرد، سبز، آبی، نیلی، بنفش",
+      "trap": "rainbow یک کلمه است (rain + bow)، نه دو کلمه جدا",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "breeze",
+      "translation": "نسیم / باد ملایم",
+      "ipa": "/briːz/",
+      "partOfSpeech": "noun",
+      "example": "A gentle breeze blew through the open window.",
+      "definitions": [
+        "a light, gentle wind"
+      ],
+      "synonyms": [
+        "draft",
+        "puff of air"
+      ],
+      "antonyms": [
+        "gale",
+        "storm"
+      ],
+      "collocations": [
+        "gentle breeze",
+        "cool breeze",
+        "sea breeze",
+        "morning breeze"
+      ],
+      "wordFamily": [
+        "breezy (adj)"
+      ],
+      "coreMeaning": "باد ملایم و خوشایند",
+      "note": "breeze معمولاً حس مثبت دارد؛ باد خنک و دلپذیر",
+      "trap": "breeze (نسیم) با freeze (یخ زدن) قافیه نیستند",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "drought",
+      "translation": "خشکسالی",
+      "ipa": "/draʊt/",
+      "partOfSpeech": "noun",
+      "example": "The drought lasted for several months.",
+      "definitions": [
+        "a long period of time with no rain"
+      ],
+      "synonyms": [
+        "dry spell",
+        "aridity"
+      ],
+      "antonyms": [
+        "flood",
+        "rain"
+      ],
+      "collocations": [
+        "severe drought",
+        "drought conditions",
+        "during the drought"
+      ],
+      "wordFamily": [
+        "droughty (adj)"
+      ],
+      "coreMeaning": "دوره طولانی بدون بارندگی",
+      "note": "خشکسالی می‌تواند به کمبود غذا و آب منجر شود",
+      "trap": "drought /draʊt/ — gh تلفظ نمی‌شود",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "flood",
+      "translation": "سیل",
+      "ipa": "/flʌd/",
+      "partOfSpeech": "noun",
+      "example": "The heavy rain caused a flood in the village.",
+      "definitions": [
+        "a large amount of water covering an area that is usually dry"
+      ],
+      "synonyms": [
+        "deluge",
+        "inundation"
+      ],
+      "antonyms": [
+        "drought"
+      ],
+      "collocations": [
+        "flash flood",
+        "flood damage",
+        "flood warning"
+      ],
+      "wordFamily": [
+        "flooding (n)"
+      ],
+      "coreMeaning": "جمع شدن آب زیاد و غرق شدن زمین",
+      "note": "سیل یکی از بلایای طبیعی خطرناک است",
+      "trap": "flood /flʌd/ — oo مثل flood تلفظ می‌شود نه food",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "freeze",
+      "translation": "یخ زدن / منجمد شدن",
+      "ipa": "/friːz/",
+      "partOfSpeech": "verb",
+      "example": "Water freezes at zero degrees Celsius.",
+      "definitions": [
+        "to become solid because of cold; to turn into ice"
+      ],
+      "synonyms": [
+        "solidify",
+        "ice over"
+      ],
+      "antonyms": [
+        "melt",
+        "thaw"
+      ],
+      "collocations": [
+        "freeze over",
+        "freeze to death",
+        "freeze up"
+      ],
+      "wordFamily": [
+        "freezing (adj)",
+        "frozen (adj)",
+        "freezer (n)"
+      ],
+      "coreMeaning": "تبدیل شدن آب به یخ بر اثر سرما",
+      "note": "freeze – froze – frozen: افعال بی‌قاعده",
+      "trap": "freeze (یخ زدن) ≠ breeze (نسیم) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "humid",
+      "translation": "مرطوب / شرجی",
+      "ipa": "/ˈhjuːmɪd/",
+      "partOfSpeech": "adjective",
+      "example": "Summer in this city is very hot and humid.",
+      "definitions": [
+        "having a lot of water vapor in the air"
+      ],
+      "synonyms": [
+        "muggy",
+        "damp"
+      ],
+      "antonyms": [
+        "dry",
+        "arid"
+      ],
+      "collocations": [
+        "humid climate",
+        "hot and humid",
+        "humid air"
+      ],
+      "wordFamily": [
+        "humidity (n)"
+      ],
+      "coreMeaning": "هوایی که رطوبت زیادی داشته باشد",
+      "note": "humid بیشتر در مناطق گرمسیری و ساحلی رایج است",
+      "trap": "humid (مرطوب) ≠ human (انسان) — تلفظ و معنی متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "mild",
+      "translation": "ملایم / معتدل",
+      "ipa": "/maɪld/",
+      "partOfSpeech": "adjective",
+      "example": "We had a mild winter this year.",
+      "definitions": [
+        "not very cold, hot, strong, or severe"
+      ],
+      "synonyms": [
+        "gentle",
+        "moderate"
+      ],
+      "antonyms": [
+        "extreme",
+        "severe",
+        "harsh"
+      ],
+      "collocations": [
+        "mild weather",
+        "mild climate",
+        "mild winter"
+      ],
+      "wordFamily": [
+        "mildly (adv)",
+        "mildness (n)"
+      ],
+      "coreMeaning": "آب‌هوایی که نه خیلی سرد باشد نه خیلی گرم",
+      "note": "mild هم برای آب‌وهوا و هم برای طعم غذا استفاده می‌شود",
+      "trap": "mild (ملایم) ≠ wild (وحشی) — فقط یک حرف فرق دارد",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "dry",
+      "translation": "خشک",
+      "ipa": "/draɪ/",
+      "partOfSpeech": "adjective",
+      "example": "The clothes are dry now; you can wear them.",
+      "definitions": [
+        "not wet; having no water or moisture"
+      ],
+      "synonyms": [
+        "arid",
+        "parched"
+      ],
+      "antonyms": [
+        "wet",
+        "moist",
+        "humid"
+      ],
+      "collocations": [
+        "dry weather",
+        "dry skin",
+        "dry out",
+        "hang dry"
+      ],
+      "wordFamily": [
+        "drought (n)",
+        "dryness (n)"
+      ],
+      "coreMeaning": "بدون رطوبت یا آب",
+      "note": "dry هم صفت (خشک) و هم فعل (خشک کردن) است",
+      "trap": "dry (خشک) ≠ cry (گریه) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "wet",
+      "translation": "تر / خیس",
+      "ipa": "/wet/",
+      "partOfSpeech": "adjective",
+      "example": "My shoes got wet in the rain.",
+      "definitions": [
+        "covered with water or another liquid"
+      ],
+      "synonyms": [
+        "damp",
+        "moist",
+        "soaked"
+      ],
+      "antonyms": [
+        "dry"
+      ],
+      "collocations": [
+        "wet weather",
+        "get wet",
+        "wet clothes",
+        "wet season"
+      ],
+      "wordFamily": [
+        "wetness (n)"
+      ],
+      "coreMeaning": "پوشیده از آب یا مایع",
+      "note": "wet – wet – wet: شکل گذشته تغییر نمی‌کند",
+      "trap": "wet (تر) ≠ vet (دامپزشک) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "warm",
+      "translation": "گرم",
+      "ipa": "/wɔːrm/",
+      "partOfSpeech": "adjective",
+      "example": "It is warm enough to sit outside today.",
+      "definitions": [
+        "having a temperature that is pleasant; not too hot or cold"
+      ],
+      "synonyms": [
+        "mild",
+        "pleasant"
+      ],
+      "antonyms": [
+        "cool",
+        "cold"
+      ],
+      "collocations": [
+        "warm weather",
+        "warm up",
+        "warm clothes",
+        "warm heart"
+      ],
+      "wordFamily": [
+        "warmth (n)",
+        "warming (n)"
+      ],
+      "coreMeaning": "دمای مطبوع؛ نه خیلی گرم نه خیلی سرد",
+      "note": "warm از hot ملایم‌تر است",
+      "trap": "warm (گرم) ≠ warn (هشدار دادن) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "cool",
+      "translation": "خنک",
+      "ipa": "/kuːl/",
+      "partOfSpeech": "adjective",
+      "example": "The evening air is cool and refreshing.",
+      "definitions": [
+        "slightly cold; pleasantly low temperature"
+      ],
+      "synonyms": [
+        "chilly",
+        "refreshing"
+      ],
+      "antonyms": [
+        "warm",
+        "hot"
+      ],
+      "collocations": [
+        "cool weather",
+        "cool breeze",
+        "cool down",
+        "cool night"
+      ],
+      "wordFamily": [
+        "coolness (n)"
+      ],
+      "coreMeaning": "کمی سرد؛ خنک و مطبوع",
+      "note": "cool همچنین به معنای باحال و جذاب (عامیانه) است",
+      "trap": "cool (خنک) ≠ cold (سرد) — cool ملایم‌تر از cold است",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "clear",
+      "translation": "صاف / شفاف",
+      "ipa": "/klɪr/",
+      "partOfSpeech": "adjective",
+      "example": "The sky is clear tonight; we can see the stars.",
+      "definitions": [
+        "easy to see through; not cloudy or blocked"
+      ],
+      "synonyms": [
+        "transparent",
+        "bright"
+      ],
+      "antonyms": [
+        "cloudy",
+        "foggy",
+        "unclear"
+      ],
+      "collocations": [
+        "clear sky",
+        "clear day",
+        "clear water",
+        "clear up"
+      ],
+      "wordFamily": [
+        "clearly (adv)",
+        "clarity (n)"
+      ],
+      "coreMeaning": "شفاف و بدون ابر یا مانع",
+      "note": "clear معنی‌های زیادی دارد: صاف، واضح، پاک کردن",
+      "trap": "clear (صاف) ≠ clean (تمیز) — معنی متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "bright",
+      "translation": "روشن / درخشان",
+      "ipa": "/braɪt/",
+      "partOfSpeech": "adjective",
+      "example": "The sun is very bright today.",
+      "definitions": [
+        "giving a lot of light; strong in color"
+      ],
+      "synonyms": [
+        "shiny",
+        "radiant",
+        "vivid"
+      ],
+      "antonyms": [
+        "dark",
+        "dim",
+        "dull"
+      ],
+      "collocations": [
+        "bright light",
+        "bright color",
+        "bright day",
+        "bright future"
+      ],
+      "wordFamily": [
+        "brightly (adv)",
+        "brightness (n)",
+        "brighten (v)"
+      ],
+      "coreMeaning": "پرنور و درخشان",
+      "note": "bright هم برای نور و هم برای هوش استفاده می‌شود",
+      "trap": "bright (روشن) ≠ light (نور) — bright شدت نور بیشتری دارد",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "dark",
+      "translation": "تاریک",
+      "ipa": "/dɑːrk/",
+      "partOfSpeech": "adjective",
+      "example": "It gets dark early in winter.",
+      "definitions": [
+        "having little or no light"
+      ],
+      "synonyms": [
+        "dim",
+        "shadowy",
+        "black"
+      ],
+      "antonyms": [
+        "bright",
+        "light"
+      ],
+      "collocations": [
+        "dark night",
+        "dark room",
+        "dark sky",
+        "in the dark"
+      ],
+      "wordFamily": [
+        "darkness (n)",
+        "darken (v)"
+      ],
+      "coreMeaning": "بدون نور یا با نور کم",
+      "note": "dark هم برای رنگ تیره و هم برای نبود نور استفاده می‌شود",
+      "trap": "dark (تاریک) ≠ duck (اردک) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "sunrise",
+      "translation": "طلوع خورشید",
+      "ipa": "/ˈsʌnraɪz/",
+      "partOfSpeech": "noun",
+      "example": "We woke up early to watch the sunrise.",
+      "definitions": [
+        "the time when the sun appears in the morning"
+      ],
+      "synonyms": [
+        "dawn",
+        "daybreak"
+      ],
+      "antonyms": [
+        "sunset"
+      ],
+      "collocations": [
+        "at sunrise",
+        "sunrise time",
+        "beautiful sunrise"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "لحظه‌ای که خورشید صبح از افق بالا می‌آید",
+      "note": "sunrise یک کلمه مرکب (sun + rise) است",
+      "trap": "sunrise (طلوع) ≠ sunset (غروب) — متضاد هستند",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "sunset",
+      "translation": "غروب خورشید",
+      "ipa": "/ˈsʌnset/",
+      "partOfSpeech": "noun",
+      "example": "The sunset over the ocean was spectacular.",
+      "definitions": [
+        "the time when the sun goes down in the evening"
+      ],
+      "synonyms": [
+        "dusk",
+        "nightfall"
+      ],
+      "antonyms": [
+        "sunrise"
+      ],
+      "collocations": [
+        "at sunset",
+        "sunset time",
+        "beautiful sunset",
+        "sunset colors"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "لحظه‌ای که خورشید عصر در افق پایین می‌رود",
+      "note": "sunset یک کلمه مرکب (sun + set) است",
+      "trap": "sunset (غروب) ≠ sunrise (طلوع) — متضاد هستند",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "sky",
+      "translation": "آسمان",
+      "ipa": "/skaɪ/",
+      "partOfSpeech": "noun",
+      "example": "Look at the beautiful blue sky!",
+      "definitions": [
+        "the space above the earth where clouds and the sun appear"
+      ],
+      "synonyms": [
+        "heavens"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "blue sky",
+        "clear sky",
+        "night sky",
+        "sky line"
+      ],
+      "wordFamily": [
+        "skyline (n)",
+        "skylight (n)"
+      ],
+      "coreMeaning": "فضای بالای زمین که خورشید، ماه و ستاره‌ها دیده می‌شوند",
+      "note": "sky معمولاً آبی است ولی در غروب نارنجی و قرمز می‌شود",
+      "trap": "sky (آسمان) ≠ ski (اسکی) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "star",
+      "translation": "ستاره",
+      "ipa": "/stɑːr/",
+      "partOfSpeech": "noun",
+      "example": "You can see millions of stars on a clear night.",
+      "definitions": [
+        "a bright point of light in the night sky; a famous person"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bright star",
+        "star light",
+        "movie star",
+        "star sign"
+      ],
+      "wordFamily": [
+        "starry (adj)",
+        "starlight (n)"
+      ],
+      "coreMeaning": "نقطه درخشان نورانی در آسمان شب",
+      "note": "ستاره‌ها کره‌های بزرگ گازی هستند مثل خورشید ما",
+      "trap": "star (ستاره) ≠ stare (خیره نگاه کردن) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "moon",
+      "translation": "ماه",
+      "ipa": "/muːn/",
+      "partOfSpeech": "noun",
+      "example": "The full moon looks beautiful tonight.",
+      "definitions": [
+        "the round object that moves around the earth and shines at night"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "full moon",
+        "moon light",
+        "moon rise",
+        "over the moon"
+      ],
+      "wordFamily": [
+        "moonlight (n)",
+        "moonlit (adj)"
+      ],
+      "coreMeaning": "جسم آسمانی که به دور زمین می‌چرخد و شب می‌درخشد",
+      "note": "ماه هر ۲۹.۵ روز یک بار کامل می‌شود",
+      "trap": "moon (ماه) ≠ noon (ظهر) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "weather",
+      "translation": "آب‌وهوا",
+      "ipa": "/ˈweðər/",
+      "partOfSpeech": "noun",
+      "example": "The weather is nice today; let us go for a walk.",
+      "definitions": [
+        "the condition of the atmosphere at a particular time and place"
+      ],
+      "synonyms": [
+        "climate",
+        "conditions"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "weather forecast",
+        "weather report",
+        "bad weather",
+        "weather changes"
+      ],
+      "wordFamily": [
+        "weatherman (n)",
+        "weatherproof (adj)"
+      ],
+      "coreMeaning": "وضعیت جوی در یک زمان و مکان خاص",
+      "note": "weather (کوتاه‌مدت) با climate (بلندمدت) فرق دارد",
+      "trap": "weather (آب‌وهوا) ≠ whether (آیا) — هم‌آوا ولی معنی متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "frost",
+      "translation": "یخ‌بندان / سرمای شدید",
+      "ipa": "/frɔːst/",
+      "partOfSpeech": "noun",
+      "example": "There was frost on the car windows this morning.",
+      "definitions": [
+        "a thin layer of ice on surfaces when the temperature is very cold"
+      ],
+      "synonyms": [
+        "ice",
+        "freeze"
+      ],
+      "antonyms": [
+        "thaw"
+      ],
+      "collocations": [
+        "morning frost",
+        "frost bite",
+        "first frost",
+        "heavy frost"
+      ],
+      "wordFamily": [
+        "frosty (adj)",
+        "frostbite (n)"
+      ],
+      "coreMeaning": "لایه نازک یخ روی سطوح در هوای خیلی سرد",
+      "note": "frost معمولاً صبح زود روی شیشه و گیاهان دیده می‌شود",
+      "trap": "frost (یخ‌بندان) ≠ frozen (یخ‌زده) — frost اسم، frozen صفت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "melt",
+      "translation": "آب شدن / ذوب شدن",
+      "ipa": "/melt/",
+      "partOfSpeech": "verb",
+      "example": "The ice cream melted in the hot sun.",
+      "definitions": [
+        "to change from solid to liquid because of heat"
+      ],
+      "synonyms": [
+        "thaw",
+        "dissolve"
+      ],
+      "antonyms": [
+        "freeze",
+        "solidify"
+      ],
+      "collocations": [
+        "melt away",
+        "melt down",
+        "snow melts",
+        "ice melts"
+      ],
+      "wordFamily": [
+        "melting (adj)"
+      ],
+      "coreMeaning": "تبدیل شدن جامد به مایع بر اثر گرما",
+      "note": "یخ در دمای صفر درجه ذوب می‌شود",
+      "trap": "melt (ذوب) ≠ metal (فلز) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "pour",
+      "translation": "ریختن / باریدن شدید",
+      "ipa": "/pɔːr/",
+      "partOfSpeech": "verb",
+      "example": "It is pouring outside; take an umbrella.",
+      "definitions": [
+        "to flow quickly in a large amount; to rain very heavily"
+      ],
+      "synonyms": [
+        "stream",
+        "dump"
+      ],
+      "antonyms": [
+        "trickle"
+      ],
+      "collocations": [
+        "pour rain",
+        "pour water",
+        "pour down",
+        "it is pouring"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ریختن مایع یا باران شدید",
+      "note": "pouring rain یعنی باران خیلی شدید",
+      "trap": "pour (ریختن) ≠ poor (فقیر) ≠ pore (منفذ) — هم‌آوا ولی معنی متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "shine",
+      "translation": "درخشیدن / تابیدن",
+      "ipa": "/ʃaɪn/",
+      "partOfSpeech": "verb",
+      "example": "The sun was shining brightly all day.",
+      "definitions": [
+        "to give out bright light"
+      ],
+      "synonyms": [
+        "glow",
+        "beam",
+        "radiate"
+      ],
+      "antonyms": [
+        "dim",
+        "darken"
+      ],
+      "collocations": [
+        "sun shines",
+        "shine brightly",
+        "shine through"
+      ],
+      "wordFamily": [
+        "shiny (adj)",
+        "sunshine (n)"
+      ],
+      "coreMeaning": "نور دادن و درخشیدن",
+      "note": "shine – shone – shone: فعل بی‌قاعده",
+      "trap": "shine (درخشیدن) ≠ sign (علامت) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "blow",
+      "translation": "وزیدن",
+      "ipa": "/bloʊ/",
+      "partOfSpeech": "verb",
+      "example": "The wind is blowing very hard today.",
+      "definitions": [
+        "to move and make air move; when wind moves"
+      ],
+      "synonyms": [
+        "gust",
+        "whistle"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "wind blows",
+        "blow away",
+        "blow out",
+        "blow up"
+      ],
+      "wordFamily": [
+        "blower (n)"
+      ],
+      "coreMeaning": "حرکت هوا یا باد",
+      "note": "blow – blew – blown: فعل بی‌قاعده",
+      "trap": "blow (وزیدن) ≠ flow (جریان) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "rise",
+      "translation": "بالا رفتن / طلوع کردن",
+      "ipa": "/raɪz/",
+      "partOfSpeech": "verb",
+      "example": "The sun rises in the east.",
+      "definitions": [
+        "to go up; to move to a higher position"
+      ],
+      "synonyms": [
+        "ascend",
+        "climb",
+        "increase"
+      ],
+      "antonyms": [
+        "fall",
+        "set",
+        "drop"
+      ],
+      "collocations": [
+        "sunrise",
+        "rise up",
+        "rise and fall",
+        "on the rise"
+      ],
+      "wordFamily": [
+        "rising (adj)"
+      ],
+      "coreMeaning": "بالا رفتن یا طلوع کردن",
+      "note": "rise – rose – risen: فعل بی‌قاعده",
+      "trap": "rise (بالا رفتن) ≠ raise (بالا بردن) — rise بدون مفعول، raise با مفعول",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "set",
+      "translation": "غروب کردن",
+      "ipa": "/set/",
+      "partOfSpeech": "verb",
+      "example": "The sun sets in the west.",
+      "definitions": [
+        "to go down below the horizon"
+      ],
+      "synonyms": [
+        "sink",
+        "descend"
+      ],
+      "antonyms": [
+        "rise"
+      ],
+      "collocations": [
+        "sunset",
+        "set up",
+        "set off",
+        "set the table"
+      ],
+      "wordFamily": [
+        "setting (n)"
+      ],
+      "coreMeaning": "پایین رفتن خورشید در افق؛ غروب",
+      "note": "set – set – set: شکل گذشته تغییر نمی‌کند",
+      "trap": "set (غروب) ≠ sit (نشستن) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "cover",
+      "translation": "پوشاندن / پوشش",
+      "ipa": "/ˈkʌvər/",
+      "partOfSpeech": "verb",
+      "example": "Snow covered the ground all winter.",
+      "definitions": [
+        "to put something over or on top of something else"
+      ],
+      "synonyms": [
+        "conceal",
+        "hide",
+        "blanket"
+      ],
+      "antonyms": [
+        "expose",
+        "uncover"
+      ],
+      "collocations": [
+        "cover up",
+        "snow cover",
+        "cloud cover",
+        "book cover"
+      ],
+      "wordFamily": [
+        "coverage (n)",
+        "covering (n)"
+      ],
+      "coreMeaning": "قرار دادن چیزی روی چیز دیگر برای پوشاندن",
+      "note": "cover معنی‌های زیادی دارد: پوشش، جلد کتاب، بیمه",
+      "trap": "cover (پوشاندن) ≠ discover (کشف کردن) — discover = dis + cover",
+      "tags": [
+        "A2",
+        "nature",
+        "weather"
+      ]
+    },
+    {
+      "word": "mountain",
+      "translation": "کوه",
+      "ipa": "/ˈmaʊntən/",
+      "partOfSpeech": "noun",
+      "example": "We climbed the mountain last weekend.",
+      "definitions": [
+        "a very high, natural elevation of the earth surface"
+      ],
+      "synonyms": [
+        "peak",
+        "summit"
+      ],
+      "antonyms": [
+        "valley"
+      ],
+      "collocations": [
+        "mountain range",
+        "mountain top",
+        "climb a mountain"
+      ],
+      "wordFamily": [
+        "mountainous (adj)",
+        "mountaineer (n)"
+      ],
+      "coreMeaning": "بلندی بزرگ طبیعی روی زمین",
+      "note": "mountain از hill بزرگ‌تر است",
+      "trap": "mountain /ˈmaʊntən/ — t تلفظ نمی‌شود",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "river",
+      "translation": "رودخانه",
+      "ipa": "/ˈrɪvər/",
+      "partOfSpeech": "noun",
+      "example": "The river flows through the city center.",
+      "definitions": [
+        "a large, natural stream of water flowing to the sea or a lake"
+      ],
+      "synonyms": [
+        "stream",
+        "waterway"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "river bank",
+        "along the river",
+        "cross the river"
+      ],
+      "wordFamily": [
+        "riverbank (n)"
+      ],
+      "coreMeaning": "جریان بزرگ آب شیرین که به دریا می‌ریزد",
+      "note": "رودخانه‌ها برای حمل‌ونقل و آبیاری مهم هستند",
+      "trap": "river (رودخانه) ≠ rivet (پرچ) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "lake",
+      "translation": "دریاچه",
+      "ipa": "/leɪk/",
+      "partOfSpeech": "noun",
+      "example": "We went swimming in the lake.",
+      "definitions": [
+        "a large area of water surrounded by land"
+      ],
+      "synonyms": [
+        "pond"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "by the lake",
+        "lake side",
+        "lake water"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پهنه بزرگ آب شیرین محصور در خشکی",
+      "note": "lake از pond بزرگ‌تر است",
+      "trap": "lake (دریاچه) ≠ lack (کمبود) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "forest",
+      "translation": "جنگل",
+      "ipa": "/ˈfɔːrɪst/",
+      "partOfSpeech": "noun",
+      "example": "The forest is home to many wild animals.",
+      "definitions": [
+        "a large area covered with trees and plants"
+      ],
+      "synonyms": [
+        "woods",
+        "woodland"
+      ],
+      "antonyms": [
+        "desert"
+      ],
+      "collocations": [
+        "tropical forest",
+        "forest fire",
+        "deep in the forest"
+      ],
+      "wordFamily": [
+        "forestry (n)"
+      ],
+      "coreMeaning": "منطقه وسیع پوشیده از درختان",
+      "note": "جنگل‌های استوایی بیشترین تنوع زیستی را دارند",
+      "trap": "forest /ˈfɔːrɪst/ — تأکید روی هجای اول است",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "ocean",
+      "translation": "اقیانوس",
+      "ipa": "/ˈoʊʃən/",
+      "partOfSpeech": "noun",
+      "example": "The Pacific Ocean is the largest ocean in the world.",
+      "definitions": [
+        "a very large area of salt water that covers most of the earth"
+      ],
+      "synonyms": [
+        "sea"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "ocean floor",
+        "across the ocean",
+        "ocean current"
+      ],
+      "wordFamily": [
+        "oceanic (adj)"
+      ],
+      "coreMeaning": "پهنه بسیار بزرگ آب شور روی زمین",
+      "note": "پنج اقیانوس اصلی: آرام، اطلس، هند، منجمد شمالی، منجمد جنوبی",
+      "trap": "ocean (اقیانوس) از sea (دریا) بزرگ‌تر است",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "beach",
+      "translation": "ساحل شنی",
+      "ipa": "/biːtʃ/",
+      "partOfSpeech": "noun",
+      "example": "We spent the day at the beach.",
+      "definitions": [
+        "an area of sand or small stones beside the sea or a lake"
+      ],
+      "synonyms": [
+        "shore",
+        "coast"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sandy beach",
+        "beach towel",
+        "on the beach",
+        "beach vacation"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "قسمت شنی یا سنگریزه‌ای کنار دریا",
+      "note": "beach معمولاً شنی است؛ shore کلی‌تر است",
+      "trap": "beach (ساحل) ≠ peach (هلو) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "island",
+      "translation": "جزیره",
+      "ipa": "/ˈaɪlənd/",
+      "partOfSpeech": "noun",
+      "example": "They live on a small island in the Pacific.",
+      "definitions": [
+        "a piece of land surrounded by water on all sides"
+      ],
+      "synonyms": [
+        "isle"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "tropical island",
+        "desert island",
+        "island life"
+      ],
+      "wordFamily": [
+        "islander (n)"
+      ],
+      "coreMeaning": "قطعه‌ای خشکی که از همه طرف آب احاطه کرده باشد",
+      "note": "s در island تلفظ نمی‌شود",
+      "trap": "island /ˈaɪlənd/ — s خاموش است",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "desert",
+      "translation": "بیابان",
+      "ipa": "/ˈdezərt/",
+      "partOfSpeech": "noun",
+      "example": "The Sahara is the largest hot desert in the world.",
+      "definitions": [
+        "a large, dry area of land with very few plants and little water"
+      ],
+      "synonyms": [
+        "wasteland",
+        "arid land"
+      ],
+      "antonyms": [
+        "forest",
+        "jungle"
+      ],
+      "collocations": [
+        "hot desert",
+        "desert sand",
+        "desert climate"
+      ],
+      "wordFamily": [
+        "deserted (adj)"
+      ],
+      "coreMeaning": "منطقه خشک و بی‌آب‌وعلف با بارندگی بسیار کم",
+      "note": "desert (اسم: بیابان) ≠ dessert (شیرینی بعد از غذا)",
+      "trap": "desert /ˈdezərt/ (بیابان) ≠ dessert /dɪˈzɜːrt/ (دسر) — تلفظ و معنی متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "valley",
+      "translation": "دره",
+      "ipa": "/ˈvæli/",
+      "partOfSpeech": "noun",
+      "example": "The village is located in a beautiful valley.",
+      "definitions": [
+        "a low area of land between hills or mountains"
+      ],
+      "synonyms": [
+        "gorge",
+        "canyon"
+      ],
+      "antonyms": [
+        "mountain",
+        "hill"
+      ],
+      "collocations": [
+        "river valley",
+        "mountain valley",
+        "valley floor"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "زمین پست بین دو کوه یا تپه",
+      "note": "دره‌ها معمولاً رودخانه دارند",
+      "trap": "valley /ˈvæli/ — دو هجا دارد",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "waterfall",
+      "translation": "آبشار",
+      "ipa": "/ˈwɔːtərfɔːl/",
+      "partOfSpeech": "noun",
+      "example": "The waterfall is over 50 meters high.",
+      "definitions": [
+        "a place where water falls down from a high point, like a cliff"
+      ],
+      "synonyms": [
+        "cascade",
+        "falls"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "beautiful waterfall",
+        "waterfall drops",
+        "near the waterfall"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "آبی که از ارتفاع زیاد به پایین می‌ریزد",
+      "note": "آبشارها جاذبه گردشگری مهمی هستند",
+      "trap": "waterfall یک کلمه مرکب است (water + fall)",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "hill",
+      "translation": "تپه",
+      "ipa": "/hɪl/",
+      "partOfSpeech": "noun",
+      "example": "We walked up the hill to see the view.",
+      "definitions": [
+        "a naturally raised area of land, smaller than a mountain"
+      ],
+      "synonyms": [
+        "mound",
+        "slope"
+      ],
+      "antonyms": [
+        "valley"
+      ],
+      "collocations": [
+        "green hill",
+        "hill side",
+        "over the hill",
+        "uphill"
+      ],
+      "wordFamily": [
+        "hilly (adj)",
+        "hillside (n)",
+        "hilltop (n)"
+      ],
+      "coreMeaning": "بلندی کوچک طبیعی روی زمین",
+      "note": "hill از mountain کوچک‌تر است",
+      "trap": "hill (تپه) ≠ hell (جهنم) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "cliff",
+      "translation": "صخره / پرتگاه",
+      "ipa": "/klɪf/",
+      "partOfSpeech": "noun",
+      "example": "Be careful near the edge of the cliff.",
+      "definitions": [
+        "a steep, high rock face, especially at the edge of the sea"
+      ],
+      "synonyms": [
+        "precipice",
+        "bluff"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "steep cliff",
+        "cliff edge",
+        "off the cliff",
+        "sea cliff"
+      ],
+      "wordFamily": [
+        "cliffside (n)"
+      ],
+      "coreMeaning": "صخره بلند و شیب‌دار معمولاً کنار دریا",
+      "note": "صخره‌های ساحلی می‌توانند بسیار خطرناک باشند",
+      "trap": "cliff /klɪf/ — دو حرف f در انتها",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "cave",
+      "translation": "غار",
+      "ipa": "/keɪv/",
+      "partOfSpeech": "noun",
+      "example": "We explored a cave in the mountains.",
+      "definitions": [
+        "a large hole in the side of a hill, cliff, or under the ground"
+      ],
+      "synonyms": [
+        "cavern",
+        "grotto"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "dark cave",
+        "cave entrance",
+        "explore a cave"
+      ],
+      "wordFamily": [
+        "caveman (n)"
+      ],
+      "coreMeaning": "حفره بزرگ طبیعی در کوه یا زمین",
+      "note": "غارها در گذته محل سکونت انسان‌ها بودند",
+      "trap": "cave (غار) ≠ cage (قفس) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "field",
+      "translation": "مزرعه / دشت",
+      "ipa": "/fiːld/",
+      "partOfSpeech": "noun",
+      "example": "The cows are eating grass in the field.",
+      "definitions": [
+        "an area of land used for growing crops or keeping animals"
+      ],
+      "synonyms": [
+        "meadow",
+        "pasture"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "open field",
+        "field of flowers",
+        "rice field"
+      ],
+      "wordFamily": [
+        "fieldwork (n)"
+      ],
+      "coreMeaning": "زمین باز برای کشاورزی یا چرا",
+      "note": "field معنی‌های مختلف دارد: مزرعه، حوزه (علمی)، زمین بازی",
+      "trap": "field (مزرعه) ≠ shield (سپر) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "pond",
+      "translation": "برکه",
+      "ipa": "/pɑːnd/",
+      "partOfSpeech": "noun",
+      "example": "There are frogs in the pond behind our house.",
+      "definitions": [
+        "a small area of still water"
+      ],
+      "synonyms": [
+        "pool"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fish pond",
+        "duck pond",
+        "by the pond"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "آبگیر کوچک طبیعی یا مصنوعی",
+      "note": "pond از lake بسیار کوچک‌تر است",
+      "trap": "pond (برکه) ≠ pound (پوند) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "stream",
+      "translation": "جویبار / نهر",
+      "ipa": "/striːm/",
+      "partOfSpeech": "noun",
+      "example": "A small stream runs through the forest.",
+      "definitions": [
+        "a small, narrow river"
+      ],
+      "synonyms": [
+        "brook",
+        "creek"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "mountain stream",
+        "stream of water",
+        "along the stream"
+      ],
+      "wordFamily": [
+        "streaming (adj)"
+      ],
+      "coreMeaning": "جریان باریک آب معمولاً در طبیعت",
+      "note": "stream همچنین در فناوری به معنای پخش آنلاین است",
+      "trap": "stream (جویبار) ≠ steam (بخار) — فقط یک حرف فرق دارد",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "shore",
+      "translation": "ساحل / کناره",
+      "ipa": "/ʃɔːr/",
+      "partOfSpeech": "noun",
+      "example": "We walked along the shore collecting shells.",
+      "definitions": [
+        "the land along the edge of a sea, lake, or river"
+      ],
+      "synonyms": [
+        "coast",
+        "bank"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "along the shore",
+        "shore line",
+        "offshore"
+      ],
+      "wordFamily": [
+        "shoreline (n)",
+        "offshore (adj)"
+      ],
+      "coreMeaning": "زمین کنار آب (دریا، دریاچه یا رودخانه)",
+      "note": "shore کلی‌تر از beach است؛ می‌تواند سنگی هم باشد",
+      "trap": "shore (ساحل) ≠ sure (مطمئن) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "coast",
+      "translation": "ساحل دریا / خط ساحلی",
+      "ipa": "/koʊst/",
+      "partOfSpeech": "noun",
+      "example": "They drove along the coast to reach the city.",
+      "definitions": [
+        "the land next to the sea; the seashore"
+      ],
+      "synonyms": [
+        "seashore",
+        "seaside"
+      ],
+      "antonyms": [
+        "inland"
+      ],
+      "collocations": [
+        "east coast",
+        "coast line",
+        "along the coast"
+      ],
+      "wordFamily": [
+        "coastal (adj)"
+      ],
+      "coreMeaning": "ناحیه‌ای که خشکی به دریا می‌رسد",
+      "note": "coast بیشتر برای مناطق وسیع ساحلی استفاده می‌شود",
+      "trap": "coast (ساحل) ≠ cost (هزینه) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "wave",
+      "translation": "موج",
+      "ipa": "/weɪv/",
+      "partOfSpeech": "noun",
+      "example": "The waves were very high during the storm.",
+      "definitions": [
+        "a moving ridge on the surface of water"
+      ],
+      "synonyms": [
+        "breaker",
+        "swell"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "big wave",
+        "ocean wave",
+        "wave crashes",
+        "heat wave"
+      ],
+      "wordFamily": [
+        "wavy (adj)"
+      ],
+      "coreMeaning": "حرکت بالا و پایین آب در سطح دریا",
+      "note": "wave همچنین به معنای تکان دادن دست است",
+      "trap": "wave (موج) ≠ waive (چشم‌پوشی کردن) — هم‌آوا ولی معنی متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "tide",
+      "translation": "جزر و مد",
+      "ipa": "/taɪd/",
+      "partOfSpeech": "noun",
+      "example": "The tide comes in twice a day.",
+      "definitions": [
+        "the regular rise and fall of the level of the sea"
+      ],
+      "synonyms": [
+        "current"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "high tide",
+        "low tide",
+        "tide comes in",
+        "tide goes out"
+      ],
+      "wordFamily": [
+        "tidal (adj)"
+      ],
+      "coreMeaning": "بالا و پایین رفتن منظم سطح آب دریا",
+      "note": "جزر و مد به خاطر جاذبه ماه و خورشید اتفاق می‌افتد",
+      "trap": "tide (جزر و مد) ≠ tied (بسته شده) — هم‌آوا هستند",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "hillside",
+      "translation": "دامنه تپه",
+      "ipa": "/ˈhɪlsaɪd/",
+      "partOfSpeech": "noun",
+      "example": "The hillside was covered with wildflowers.",
+      "definitions": [
+        "the side or slope of a hill"
+      ],
+      "synonyms": [
+        "slope",
+        "incline"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "steep hillside",
+        "hillside village",
+        "on the hillside"
+      ],
+      "wordFamily": [
+        "hill (n)",
+        "hilltop (n)"
+      ],
+      "coreMeaning": "شیب یا دامنه یک تپه",
+      "note": "hillside معمولاً برای توصیف منظره استفاده می‌شود",
+      "trap": "hillside یک کلمه مرکب است (hill + side)",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "country",
+      "translation": "کشور",
+      "ipa": "/ˈkʌntri/",
+      "partOfSpeech": "noun",
+      "example": "Japan is an island country in East Asia.",
+      "definitions": [
+        "a nation with its own government; an area of land"
+      ],
+      "synonyms": [
+        "nation",
+        "state"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "developed country",
+        "country side",
+        "foreign country"
+      ],
+      "wordFamily": [
+        "countryside (n)"
+      ],
+      "coreMeaning": "ملت یا سرزمین با حکومت مستقل",
+      "note": "country هم به معنای کشور و هم حومه شهر است",
+      "trap": "country (کشور) ≠ county (شهرستان) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "city",
+      "translation": "شهر بزرگ",
+      "ipa": "/ˈsɪti/",
+      "partOfSpeech": "noun",
+      "example": "London is one of the largest cities in Europe.",
+      "definitions": [
+        "a large town; an important center of population"
+      ],
+      "synonyms": [
+        "metropolis",
+        "urban area"
+      ],
+      "antonyms": [
+        "village",
+        "countryside"
+      ],
+      "collocations": [
+        "big city",
+        "city center",
+        "city life"
+      ],
+      "wordFamily": [
+        "citizen (n)",
+        "citizenship (n)"
+      ],
+      "coreMeaning": "شهر بزرگ با جمعیت زیاد",
+      "note": "city معمولاً از town بزرگ‌تر است",
+      "trap": "city (شهر) ≠ sit (نشستن) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "village",
+      "translation": "روستا",
+      "ipa": "/ˈvɪlɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "She grew up in a small village near the mountains.",
+      "definitions": [
+        "a small group of houses and other buildings in the countryside"
+      ],
+      "synonyms": [
+        "hamlet",
+        "settlement"
+      ],
+      "antonyms": [
+        "city",
+        "town"
+      ],
+      "collocations": [
+        "small village",
+        "village life",
+        "village people"
+      ],
+      "wordFamily": [
+        "villager (n)"
+      ],
+      "coreMeaning": "محله کوچک روستایی با جمعیت کم",
+      "note": "village از town کوچک‌تر است",
+      "trap": "village /ˈvɪlɪdʒ/ — دو هجا دارد",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "north",
+      "translation": "شمال",
+      "ipa": "/nɔːrθ/",
+      "partOfSpeech": "noun",
+      "example": "The cold winds come from the north.",
+      "definitions": [
+        "the direction that is on the left when you face the rising sun"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "south"
+      ],
+      "collocations": [
+        "north pole",
+        "north wind",
+        "in the north",
+        "north side"
+      ],
+      "wordFamily": [
+        "northern (adj)",
+        "northward (adv)"
+      ],
+      "coreMeaning": "جهت بالای نقشه؛ سمت قطب شمال",
+      "note": "north همیشه با حرف بزرگ نوشته نمی‌شود مگر اسم خاص باشد",
+      "trap": "north (شمال) ≠ norse (نروژی باستان) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "south",
+      "translation": "جنوب",
+      "ipa": "/saʊθ/",
+      "partOfSpeech": "noun",
+      "example": "Many birds fly south in the winter.",
+      "definitions": [
+        "the direction that is on the right when you face the rising sun"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "north"
+      ],
+      "collocations": [
+        "south pole",
+        "south side",
+        "in the south",
+        "south wind"
+      ],
+      "wordFamily": [
+        "southern (adj)",
+        "southward (adv)"
+      ],
+      "coreMeaning": "جهت پایین نقشه؛ سمت قطب جنوب",
+      "note": "پرندگان مهاجر در زمستان به جنوب پرواز می‌کنند",
+      "trap": "south /saʊθ/ — th مثل think تلفظ می‌شود",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "east",
+      "translation": "شرق",
+      "ipa": "/iːst/",
+      "partOfSpeech": "noun",
+      "example": "The sun rises in the east.",
+      "definitions": [
+        "the direction where the sun rises"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "west"
+      ],
+      "collocations": [
+        "east coast",
+        "middle east",
+        "in the east",
+        "east side"
+      ],
+      "wordFamily": [
+        "eastern (adj)",
+        "eastward (adv)"
+      ],
+      "coreMeaning": "جهتی که خورشید از آن طلوع می‌کند",
+      "note": "خورشید همیشه از شرق طلوع می‌کند",
+      "trap": "east (شرق) ≠ eat (خوردن) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "west",
+      "translation": "غرب",
+      "ipa": "/west/",
+      "partOfSpeech": "noun",
+      "example": "The sun sets in the west.",
+      "definitions": [
+        "the direction where the sun goes down"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "east"
+      ],
+      "collocations": [
+        "west coast",
+        "in the west",
+        "west side",
+        "wild west"
+      ],
+      "wordFamily": [
+        "western (adj)",
+        "westward (adv)"
+      ],
+      "coreMeaning": "جهتی که خورشید در آن غروب می‌کند",
+      "note": "غرب معمولاً با فیلم‌های وسترن (cowboy) همراه است",
+      "trap": "west (غرب) ≠ best (بهترین) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "border",
+      "translation": "مرز",
+      "ipa": "/ˈbɔːrdər/",
+      "partOfSpeech": "noun",
+      "example": "The river forms the border between the two countries.",
+      "definitions": [
+        "the line that separates two countries or areas"
+      ],
+      "synonyms": [
+        "boundary",
+        "frontier"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cross the border",
+        "border control",
+        "border line"
+      ],
+      "wordFamily": [
+        "borderline (adj)"
+      ],
+      "coreMeaning": "خط جداکننده دو کشور یا منطقه",
+      "note": "عبور از مرز نیاز به پاسپورت دارد",
+      "trap": "border (مرز) ≠ boarder (مسافرخانه‌نشین) — هم‌آوا ولی معنی متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "population",
+      "translation": "جمعیت",
+      "ipa": "/ˌpɑːpjuˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The population of this city is about two million.",
+      "definitions": [
+        "the total number of people living in a particular area"
+      ],
+      "synonyms": [
+        "inhabitants",
+        "residents"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "world population",
+        "population growth",
+        "population density"
+      ],
+      "wordFamily": [
+        "populate (v)",
+        "populous (adj)"
+      ],
+      "coreMeaning": "تعداد کل افراد ساکن در یک منطقه",
+      "note": "جمعیت جهان بیش از ۸ میلیارد نفر است",
+      "trap": "population /ˌpɑːpjuˈleɪʃən/ — تأکید روی leɪ است",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "continent",
+      "translation": "قاره",
+      "ipa": "/ˈkɑːntɪnənt/",
+      "partOfSpeech": "noun",
+      "example": "Africa is the second largest continent.",
+      "definitions": [
+        "one of the seven large land masses on the earth"
+      ],
+      "synonyms": [
+        "landmass"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "seven continents",
+        "across the continent",
+        "continent of Asia"
+      ],
+      "wordFamily": [
+        "continental (adj)"
+      ],
+      "coreMeaning": "یکی از هفت خشکی بزرگ زمین",
+      "note": "هفت قاره: آسیا، آفریقا، آمریکای شمالی، آمریکای جنوبی، اروپا، اقیانوسیه، قطب جنوب",
+      "trap": "continent (قاره) ≠ content (محتوا) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "region",
+      "translation": "منطقه / ناحیه",
+      "ipa": "/ˈriːdʒən/",
+      "partOfSpeech": "noun",
+      "example": "This region is famous for its wine.",
+      "definitions": [
+        "a large area of a country or the world"
+      ],
+      "synonyms": [
+        "area",
+        "zone",
+        "district"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "tropical region",
+        "northern region",
+        "in the region"
+      ],
+      "wordFamily": [
+        "regional (adj)"
+      ],
+      "coreMeaning": "بخش بزرگی از یک کشور یا جهان",
+      "note": "region می‌تواند جغرافیایی، سیاسی یا فرهنگی باشد",
+      "trap": "region /ˈriːdʒən/ — تأکید روی هجای اول",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "area",
+      "translation": "منطقه / مساحت",
+      "ipa": "/ˈeriə/",
+      "partOfSpeech": "noun",
+      "example": "This area has a lot of parks and trees.",
+      "definitions": [
+        "a particular part of a place, city, or country; the size of a surface"
+      ],
+      "synonyms": [
+        "zone",
+        "region",
+        "district"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "local area",
+        "area code",
+        "in the area",
+        "rural area"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "بخش یا ناحیه‌ای از یک مکان",
+      "note": "area هم به معنای مکان و هم مساحت است",
+      "trap": "area /ˈeriə/ — سه هجا: a-re-a",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "capital",
+      "translation": "پایتخت",
+      "ipa": "/ˈkæpɪtəl/",
+      "partOfSpeech": "noun",
+      "example": "Paris is the capital of France.",
+      "definitions": [
+        "the most important city of a country, where the government is"
+      ],
+      "synonyms": [
+        "capital city"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "capital city",
+        "national capital",
+        "state capital"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "شهر اصلی و مرکز حکومت یک کشور",
+      "note": "capital همچنین به معنای سرمایه (مالی) و حرف بزرگ است",
+      "trap": "capital (پایتخت) ≠ capitol (ساختمان کنگره) — تلفظ و معنی متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "land",
+      "translation": "زمین / خشکی",
+      "ipa": "/lænd/",
+      "partOfSpeech": "noun",
+      "example": "The plane will land in ten minutes.",
+      "definitions": [
+        "the solid part of the earth surface; to arrive on the ground"
+      ],
+      "synonyms": [
+        "ground",
+        "earth",
+        "soil"
+      ],
+      "antonyms": [
+        "sea",
+        "water"
+      ],
+      "collocations": [
+        "land on",
+        "land area",
+        "dry land",
+        "native land"
+      ],
+      "wordFamily": [
+        "landing (n)",
+        "landlord (n)",
+        "landscape (n)"
+      ],
+      "coreMeaning": "سطح جامد زمین؛ خشکی مقابل آب",
+      "note": "land معنی‌های زیادی دارد: زمین، کشور، فرود آمدن",
+      "trap": "land (زمین) ≠ lend (قرض دادن) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "geography"
+      ]
+    },
+    {
+      "word": "pollution",
+      "translation": "آلودگی",
+      "ipa": "/pəˈluːʃən/",
+      "partOfSpeech": "noun",
+      "example": "Air pollution is a serious problem in big cities.",
+      "definitions": [
+        "the process of making air, water, or land dirty and harmful"
+      ],
+      "synonyms": [
+        "contamination"
+      ],
+      "antonyms": [
+        "purification"
+      ],
+      "collocations": [
+        "air pollution",
+        "water pollution",
+        "pollution level",
+        "reduce pollution"
+      ],
+      "wordFamily": [
+        "pollute (v)",
+        "pollutant (n)"
+      ],
+      "coreMeaning": "آلوده کردن هوا، آب یا زمین با مواد مضر",
+      "note": "آلودگی هوا سالانه میلیون‌ها نفر را بیمار می‌کند",
+      "trap": "pollution /pəˈluːʃən/ — تأکید روی luː است",
+      "tags": [
+        "A2",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "word": "recycle",
+      "translation": "بازیافت کردن",
+      "ipa": "/riːˈsaɪkəl/",
+      "partOfSpeech": "verb",
+      "example": "We should recycle plastic bottles and paper.",
+      "definitions": [
+        "to process used materials so they can be used again"
+      ],
+      "synonyms": [
+        "reprocess",
+        "reuse"
+      ],
+      "antonyms": [
+        "waste",
+        "discard"
+      ],
+      "collocations": [
+        "recycle bin",
+        "recycle paper",
+        "recycle plastic"
+      ],
+      "wordFamily": [
+        "recycling (n)",
+        "recyclable (adj)"
+      ],
+      "coreMeaning": "تبدیل مواد دورریختنی به مواد قابل استفاده مجدد",
+      "note": "بازیافت به حفظ محیط زیست کمک می‌کند",
+      "trap": "recycle /riːˈsaɪkəl/ — تأکید روی sai است",
+      "tags": [
+        "A2",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "word": "waste",
+      "translation": "زباله / هدر دادن",
+      "ipa": "/weɪst/",
+      "partOfSpeech": "noun",
+      "example": "Do not waste water; turn off the tap.",
+      "definitions": [
+        "things that are no longer needed; to use something carelessly"
+      ],
+      "synonyms": [
+        "garbage",
+        "rubbish"
+      ],
+      "antonyms": [
+        "save",
+        "conserve"
+      ],
+      "collocations": [
+        "waste of time",
+        "waste water",
+        "waste bin",
+        "food waste"
+      ],
+      "wordFamily": [
+        "wasteful (adj)"
+      ],
+      "coreMeaning": "مواد دورریختنی یا استفاده نادرست از چیزی",
+      "note": "waste هم اسم (زباله) و هم فعل (هدر دادن) است",
+      "trap": "waste (زباله) ≠ waist (کمر) — هم‌آوا ولی معنی متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "word": "energy",
+      "translation": "انرژی / نیرو",
+      "ipa": "/ˈenərdʒi/",
+      "partOfSpeech": "noun",
+      "example": "Solar energy is clean and renewable.",
+      "definitions": [
+        "the power from sources such as the sun, wind, or fuel"
+      ],
+      "synonyms": [
+        "power",
+        "force"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "solar energy",
+        "renewable energy",
+        "save energy",
+        "energy drink"
+      ],
+      "wordFamily": [
+        "energetic (adj)",
+        "energize (v)"
+      ],
+      "coreMeaning": "نیروی لازم برای انجام کار یا فعالیت",
+      "note": "انرژی تجدیدپذیر (renewable) بهتر از سوخت فسیلی است",
+      "trap": "energy /ˈenərdʒi/ — سه هجا: en-er-gy",
+      "tags": [
+        "A2",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "word": "plastic",
+      "translation": "پلاستیک",
+      "ipa": "/ˈplæstɪk/",
+      "partOfSpeech": "noun",
+      "example": "We should use less plastic to protect the environment.",
+      "definitions": [
+        "a light, artificial material that can be shaped when soft"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "plastic bag",
+        "plastic bottle",
+        "plastic waste",
+        "single-use plastic"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماده مصنوعی سبک که در همه‌چیز استفاده می‌شود",
+      "note": "پلاستیک صدها سال طول می‌کشد تا تجزیه شود",
+      "trap": "plastic (پلاستیک) ≠ plaster (گچ) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "word": "nature",
+      "translation": "طبیعت",
+      "ipa": "/ˈneɪtʃər/",
+      "partOfSpeech": "noun",
+      "example": "I love spending time in nature.",
+      "definitions": [
+        "the physical world including plants, animals, and landscapes"
+      ],
+      "synonyms": [
+        "the natural world",
+        "the outdoors"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "nature lover",
+        "in nature",
+        "nature reserve",
+        "mother nature"
+      ],
+      "wordFamily": [
+        "natural (adj)",
+        "naturally (adv)",
+        "naturalist (n)"
+      ],
+      "coreMeaning": "جهان طبیعی شامل گیاهان، حیوانات و مناظر",
+      "note": "nature همچنین به معنای ذات و طبیعت چیزی است",
+      "trap": "nature (طبیعت) ≠ natural (طبیعی) — یکی اسم است یکی صفت",
+      "tags": [
+        "A2",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "word": "environment",
+      "translation": "محیط زیست / محیط",
+      "ipa": "/ɪnˈvaɪrənmənt/",
+      "partOfSpeech": "noun",
+      "example": "We must protect the environment for future generations.",
+      "definitions": [
+        "the natural world; the conditions around you"
+      ],
+      "synonyms": [
+        "ecosystem",
+        "surroundings"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "natural environment",
+        "protect the environment",
+        "environment friendly"
+      ],
+      "wordFamily": [
+        "environmental (adj)",
+        "environmentally (adv)"
+      ],
+      "coreMeaning": "محیط طبیعی اطراف ما شامل هوا، آب و خاک",
+      "note": "محیط زیست یکی از مهم‌ترین مسائل جهان امروز است",
+      "trap": "environment /ɪnˈvaɪrənmənt/ — n قبل از m خاموش تلفظ نمی‌شود",
+      "tags": [
+        "A2",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "word": "protect",
+      "translation": "محافظت کردن",
+      "ipa": "/prəˈtekt/",
+      "partOfSpeech": "verb",
+      "example": "We need to protect endangered animals.",
+      "definitions": [
+        "to keep someone or something safe from harm"
+      ],
+      "synonyms": [
+        "defend",
+        "guard",
+        "shield"
+      ],
+      "antonyms": [
+        "endanger",
+        "harm"
+      ],
+      "collocations": [
+        "protect the environment",
+        "protect from",
+        "protect against"
+      ],
+      "wordFamily": [
+        "protection (n)",
+        "protective (adj)",
+        "protector (n)"
+      ],
+      "coreMeaning": "نگه داشتن کسی یا چیزی از آسیب",
+      "note": "protect از protect + ion ساخته می‌شود",
+      "trap": "protect (محافظت) ≠ protest (اعتراض) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "word": "damage",
+      "translation": "آسیب / خسارت",
+      "ipa": "/ˈdæmɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "The storm caused serious damage to the buildings.",
+      "definitions": [
+        "physical harm that makes something less valuable or useful"
+      ],
+      "synonyms": [
+        "harm",
+        "destruction",
+        "injury"
+      ],
+      "antonyms": [
+        "repair",
+        "fix"
+      ],
+      "collocations": [
+        "cause damage",
+        "damage to",
+        "brain damage",
+        "storm damage"
+      ],
+      "wordFamily": [
+        "damaging (adj)"
+      ],
+      "coreMeaning": "آسیب فیزیکی که چیزی را خراب کند",
+      "note": "damage معمولاً غیرقابل جبران نیست ولی هزینه‌بر است",
+      "trap": "damage (آسیب) ≠ manage (مدیریت کردن) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "word": "resource",
+      "translation": "منبع / منابع",
+      "ipa": "/ˈriːsɔːrs/",
+      "partOfSpeech": "noun",
+      "example": "Water is a precious natural resource.",
+      "definitions": [
+        "something useful that a country, person, or organization has"
+      ],
+      "synonyms": [
+        "supply",
+        "reserve"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "natural resource",
+        "human resources",
+        "resource management"
+      ],
+      "wordFamily": [
+        "resourceful (adj)"
+      ],
+      "coreMeaning": "چیز مفیدی که در دسترس باشد و بتوان از آن استفاده کرد",
+      "note": "منابع طبیعی شامل آب، نفت، گاز و جنگل هستند",
+      "trap": "resource /ˈriːsɔːrs/ — تأکید روی هجای اول",
+      "tags": [
+        "A2",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "word": "global",
+      "translation": "جهانی",
+      "ipa": "/ˈɡloʊbəl/",
+      "partOfSpeech": "adjective",
+      "example": "Global warming is a serious concern for everyone.",
+      "definitions": [
+        "relating to the whole world"
+      ],
+      "synonyms": [
+        "worldwide",
+        "international"
+      ],
+      "antonyms": [
+        "local",
+        "national"
+      ],
+      "collocations": [
+        "global warming",
+        "global issue",
+        "global economy"
+      ],
+      "wordFamily": [
+        "globally (adv)",
+        "globalize (v)",
+        "globalization (n)"
+      ],
+      "coreMeaning": "مربوط به کل جهان",
+      "note": "global warming به معنای گرم شدن کره زمین است",
+      "trap": "global (جهانی) ≠ globe (کره) — یکی صفت است یکی اسم",
+      "tags": [
+        "A2",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "word": "earth",
+      "translation": "زمین / کره خاکی",
+      "ipa": "/ɜːrθ/",
+      "partOfSpeech": "noun",
+      "example": "The earth goes around the sun once a year.",
+      "definitions": [
+        "the planet we live on; soil or ground"
+      ],
+      "synonyms": [
+        "the world",
+        "the globe",
+        "soil"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "planet earth",
+        "on earth",
+        "down to earth",
+        "earthquake"
+      ],
+      "wordFamily": [
+        "earthquake (n)",
+        "earthy (adj)"
+      ],
+      "coreMeaning": "سیاره‌ای که روی آن زندگی می‌کنیم",
+      "note": "earth هم به معنای کره زمین و هم خاک است",
+      "trap": "earth /ɜːrθ/ — th مثل think تلفظ می‌شود",
+      "tags": [
+        "A2",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "word": "planet",
+      "translation": "سیاره",
+      "ipa": "/ˈplænɪt/",
+      "partOfSpeech": "noun",
+      "example": "Mars is the fourth planet from the sun.",
+      "definitions": [
+        "a large, round object in space that moves around a star"
+      ],
+      "synonyms": [
+        "world"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "planet earth",
+        "solar system planets",
+        "save the planet"
+      ],
+      "wordFamily": [
+        "planetary (adj)"
+      ],
+      "coreMeaning": "جسم بزرگ آسمانی که به دور ستاره می‌چرخد",
+      "note": "هشت سیاره در منظومه شمسی وجود دارد",
+      "trap": "planet (سیاره) ≠ plane (هواپیما) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "word": "tree",
+      "translation": "درخت",
+      "ipa": "/triː/",
+      "partOfSpeech": "noun",
+      "example": "There is a big tree in front of our house.",
+      "definitions": [
+        "a tall plant with a wooden trunk and branches"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "tall tree",
+        "tree trunk",
+        "palm tree",
+        "family tree"
+      ],
+      "wordFamily": [
+        "treeless (adj)"
+      ],
+      "coreMeaning": "گیاه بزرگ چوبی با تنه و شاخه",
+      "note": "درختان اکسیژن تولید می‌کنند و برای محیط زیست حیاتی هستند",
+      "trap": "tree (درخت) ≠ three (سه) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "plants"
+      ]
+    },
+    {
+      "word": "flower",
+      "translation": "گل",
+      "ipa": "/ˈflaʊər/",
+      "partOfSpeech": "noun",
+      "example": "The flowers in the garden are beautiful in spring.",
+      "definitions": [
+        "the colorful part of a plant; to produce flowers"
+      ],
+      "synonyms": [
+        "bloom",
+        "blossom"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "wild flower",
+        "flower garden",
+        "flower shop",
+        "in flower"
+      ],
+      "wordFamily": [
+        "flowering (adj)",
+        "flowerbed (n)"
+      ],
+      "coreMeaning": "بخش رنگارنگ گیاه که تولید بذر می‌کند",
+      "note": "flower هم اسم (گل) و هم فعل (گل دادن) است",
+      "trap": "flower (گل) ≠ flour (آرد) — هم‌آوا ولی معنی متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "plants"
+      ]
+    },
+    {
+      "word": "grass",
+      "translation": "چمن / علف",
+      "ipa": "/ɡræs/",
+      "partOfSpeech": "noun",
+      "example": "The children are playing on the grass.",
+      "definitions": [
+        "a common plant with thin, green leaves that covers the ground"
+      ],
+      "synonyms": [
+        "lawn",
+        "turf"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "green grass",
+        "cut the grass",
+        "grass field",
+        "tall grass"
+      ],
+      "wordFamily": [
+        "grassy (adj)",
+        "grassland (n)"
+      ],
+      "coreMeaning": "گیاه سبز کوتاه که زمین را می‌پوشاند",
+      "note": "grass معمولاً در چمن‌زارها و پارک‌ها رشد می‌کند",
+      "trap": "grass (علف) ≠ glass (شیشه) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "plants"
+      ]
+    },
+    {
+      "word": "leaf",
+      "translation": "برگ",
+      "ipa": "/liːf/",
+      "partOfSpeech": "noun",
+      "example": "The leaves turn red and yellow in autumn.",
+      "definitions": [
+        "a flat, green part of a plant that grows from a stem or branch"
+      ],
+      "synonyms": [
+        "foliage"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "green leaf",
+        "fallen leaves",
+        "leaf fall",
+        "tea leaf"
+      ],
+      "wordFamily": [
+        "leafy (adj)"
+      ],
+      "coreMeaning": "بخش سبز و پهن گیاه که نور خورشید جذب می‌کند",
+      "note": "جمع leaf → leaves (بی‌قاعده)",
+      "trap": "leaf (برگ) ≠ leave (ترک کردن) — هم‌آوا ولی معنی متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "plants"
+      ]
+    },
+    {
+      "word": "seed",
+      "translation": "بذر / دانه",
+      "ipa": "/siːd/",
+      "partOfSpeech": "noun",
+      "example": "Plant the seed in the soil and water it regularly.",
+      "definitions": [
+        "a small, hard part of a plant from which a new plant grows"
+      ],
+      "synonyms": [
+        "grain",
+        "kernel"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "plant a seed",
+        "seed grows",
+        "sunflower seed",
+        "seed packet"
+      ],
+      "wordFamily": [
+        "seedless (adj)"
+      ],
+      "coreMeaning": "دانه کوچکی که گیاه جدید از آن رشد می‌کند",
+      "note": "بذرها برای رشد به آب، نور و خاک نیاز دارند",
+      "trap": "seed (بذر) ≠ seem (به نظر رسیدن) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "plants"
+      ]
+    },
+    {
+      "word": "root",
+      "translation": "ریشه",
+      "ipa": "/ruːt/",
+      "partOfSpeech": "noun",
+      "example": "The roots of the tree go deep into the ground.",
+      "definitions": [
+        "the part of a plant that grows under the ground and absorbs water"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "tree root",
+        "root system",
+        "take root",
+        "root cause"
+      ],
+      "wordFamily": [
+        "rootless (adj)"
+      ],
+      "coreMeaning": "بخش زیرزمینی گیاه که آب و مواد معدنی جذب می‌کند",
+      "note": "root همچنین به معنای ریشه (علت اصلی) است",
+      "trap": "root (ریشه) ≠ route (مسیر) — هم‌آوا ولی معنی متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "plants"
+      ]
+    },
+    {
+      "word": "branch",
+      "translation": "شاخه",
+      "ipa": "/bræntʃ/",
+      "partOfSpeech": "noun",
+      "example": "A bird is sitting on the branch of the tree.",
+      "definitions": [
+        "a part of a tree that grows out from the trunk"
+      ],
+      "synonyms": [
+        "limb",
+        "bough"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "tree branch",
+        "branch office",
+        "olive branch"
+      ],
+      "wordFamily": [
+        "branching (adj)"
+      ],
+      "coreMeaning": "شاخه درخت که از تنه جدا می‌شود",
+      "note": "branch همچنین به معنای شعبه (بانک، فروشگاه) است",
+      "trap": "branch (شاخه) ≠ bench (نیمکت) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "plants"
+      ]
+    },
+    {
+      "word": "bush",
+      "translation": "بوته / درختچه",
+      "ipa": "/bʊʃ/",
+      "partOfSpeech": "noun",
+      "example": "There are some bushes in front of the house.",
+      "definitions": [
+        "a plant with many thin branches growing close to the ground"
+      ],
+      "synonyms": [
+        "shrub",
+        "hedge"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "rose bush",
+        "bush fire",
+        "beat around the bush"
+      ],
+      "wordFamily": [
+        "bushy (adj)"
+      ],
+      "coreMeaning": "گیاه کوتاه و پرشاخه نزدیک به زمین",
+      "note": "bush از tree کوتاه‌تر و پرتر است",
+      "trap": "bush (بوته) ≠ push (هل دادن) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "plants"
+      ]
+    },
+    {
+      "word": "plant",
+      "translation": "گیاه / کاشتن",
+      "ipa": "/plænt/",
+      "partOfSpeech": "noun",
+      "example": "We planted some flowers in the garden.",
+      "definitions": [
+        "a living thing that grows in the ground; to put a plant in the ground"
+      ],
+      "synonyms": [
+        "vegetation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "indoor plant",
+        "plant a tree",
+        "plant grows",
+        "power plant"
+      ],
+      "wordFamily": [
+        "plantation (n)",
+        "planting (n)"
+      ],
+      "coreMeaning": "موجود زنده‌ای که در خاک رشد می‌کند یا کاشتن",
+      "note": "plant هم اسم (گیاه) و هم فعل (کاشتن) است",
+      "trap": "plant (گیاه) ≠ plan (برنامه) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "plants"
+      ]
+    },
+    {
+      "word": "soil",
+      "translation": "خاک",
+      "ipa": "/sɔɪl/",
+      "partOfSpeech": "noun",
+      "example": "The soil in this area is very rich and good for farming.",
+      "definitions": [
+        "the top layer of earth in which plants grow"
+      ],
+      "synonyms": [
+        "earth",
+        "ground",
+        "dirt"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "rich soil",
+        "soil erosion",
+        "fertile soil",
+        "sandy soil"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "لایه بالایی زمین که گیاهان در آن رشد می‌کنند",
+      "note": "خاک حاصلخیز برای کشاورزی ضروری است",
+      "trap": "soil (خاک) ≠ soul (روح) — هم‌آوا ولی معنی متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "plants"
+      ]
+    },
+    {
+      "word": "grow",
+      "translation": "رشد کردن / کاشتن",
+      "ipa": "/ɡroʊ/",
+      "partOfSpeech": "verb",
+      "example": "Plants grow faster in warm weather.",
+      "definitions": [
+        "to increase in size; to cultivate plants"
+      ],
+      "synonyms": [
+        "develop",
+        "expand",
+        "cultivate"
+      ],
+      "antonyms": [
+        "shrink",
+        "decrease"
+      ],
+      "collocations": [
+        "grow up",
+        "grow flowers",
+        "grow food",
+        "grow quickly"
+      ],
+      "wordFamily": [
+        "growth (n)",
+        "growing (adj)"
+      ],
+      "coreMeaning": "بزرگ شدن یا پرورش دادن گیاه",
+      "note": "grow – grew – grown: فعل بی‌قاعده",
+      "trap": "grow (رشد) ≠ glow (درخشیدن) — تلفظ متفاوت",
+      "tags": [
+        "A2",
+        "nature",
+        "plants"
+      ]
+    },
+    {
+      "word": "humidity",
+      "translation": "رطوبت",
+      "ipa": "/hjuːˈmɪdəti/",
+      "partOfSpeech": "noun",
+      "example": "The humidity is very high today.",
+      "definitions": [
+        "the amount of water in the air"
+      ],
+      "synonyms": [
+        "moisture"
+      ],
+      "antonyms": [
+        "dryness"
+      ],
+      "collocations": [
+        "high humidity",
+        "low humidity",
+        "humidity level"
+      ],
+      "wordFamily": [
+        "humid (adj)"
+      ],
+      "coreMeaning": "میزان رطوبت هوا",
+      "note": "high humidity = رطوبت بالا",
+      "trap": "humidity: hu-MID-i-ty",
+      "tags": [
+        "A2",
+        "weather",
+        "nature"
+      ]
+    }
+  ]
+}

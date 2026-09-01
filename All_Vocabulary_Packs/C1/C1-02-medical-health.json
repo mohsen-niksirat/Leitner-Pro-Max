@@ -1,0 +1,2408 @@
+{
+  "id": "C1-02",
+  "name": "پزشکی و سلامت",
+  "description": "واژگان تخصصی پزشکی، بهداشت و علوم پزشکی",
+  "level": "C1",
+  "theme": "medical-health",
+  "words": [
+    {
+      "word": "etiology",
+      "translation": "علت‌شناسی",
+      "example": "The etiology of the disease is unknown.",
+      "synonyms": [
+        "causation",
+        "pathogenesis"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "pathogenesis",
+      "translation": "پاتوژنز",
+      "example": "Understanding pathogenesis is crucial for treatment.",
+      "synonyms": [
+        "disease development",
+        "pathology"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "prognosis",
+      "translation": "پیش‌آگهی",
+      "example": "The prognosis is favorable.",
+      "synonyms": [
+        "outlook",
+        "forecast"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "diagnosis",
+      "translation": "تشخیص",
+      "example": "Early diagnosis improves outcomes.",
+      "synonyms": [
+        "identification",
+        "detection"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "differential diagnosis",
+      "translation": "تشخیص افتراقی",
+      "example": "The differential diagnosis is extensive.",
+      "synonyms": [
+        "distinguishing conditions"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "symptom",
+      "translation": "علامت",
+      "example": "Fever is a common symptom.",
+      "synonyms": [
+        "sign",
+        "indication"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "syndrome",
+      "translation": "سندرم",
+      "example": "The syndrome includes multiple symptoms.",
+      "synonyms": [
+        "disorder",
+        "complex"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "chronic",
+      "translation": "مزمن",
+      "example": "Chronic conditions require long-term care.",
+      "synonyms": [
+        "persistent",
+        "long-lasting"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "acute",
+      "translation": "حاد",
+      "example": "Acute pain requires immediate attention.",
+      "synonyms": [
+        "sudden",
+        "severe"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "benign",
+      "translation": "خوش‌خیم",
+      "example": "The tumor is benign.",
+      "synonyms": [
+        "harmless",
+        "nonmalignant"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "malignant",
+      "translation": "بدخیم",
+      "example": "Malignant cells spread rapidly.",
+      "synonyms": [
+        "cancerous",
+        "invasive"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "metastasis",
+      "translation": "متاستاز",
+      "example": "Metastasis indicates advanced cancer.",
+      "synonyms": [
+        "spread",
+        "dissemination"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "oncology",
+      "translation": "انکولوژی",
+      "example": "Oncology treats cancer.",
+      "synonyms": [
+        "cancer medicine",
+        "tumor study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "hematology",
+      "translation": "خون‌شناسی",
+      "example": "Hematology studies blood disorders.",
+      "synonyms": [
+        "blood study",
+        "hematology"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "cardiology",
+      "translation": "قلب‌شناسی",
+      "example": "Cardiology focuses on heart diseases.",
+      "synonyms": [
+        "heart medicine",
+        "cardiac study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "neurology",
+      "translation": "مغز و اعصاب",
+      "example": "Neurology treats nervous system disorders.",
+      "synonyms": [
+        "brain medicine",
+        "neural study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "nephrology",
+      "translation": "کلیه‌شناسی",
+      "example": "Nephrology manages kidney diseases.",
+      "synonyms": [
+        "renal medicine",
+        "kidney study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "gastroenterology",
+      "translation": "گوارش‌شناسی",
+      "example": "Gastroenterology treats digestive disorders.",
+      "synonyms": [
+        "digestive medicine",
+        "GI study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "pulmonology",
+      "translation": "ریه‌شناسی",
+      "example": "Pulmonology focuses on lung diseases.",
+      "synonyms": [
+        "respiratory medicine",
+        "lung study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "dermatology",
+      "translation": "پوست‌شناسی",
+      "example": "Dermatology treats skin conditions.",
+      "synonyms": [
+        "skin medicine",
+        "cutaneous study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "ophthalmology",
+      "translation": "چشم‌شناسی",
+      "example": "Ophthalmology treats eye disorders.",
+      "synonyms": [
+        "eye medicine",
+        "ocular study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "otolaryngology",
+      "translation": "گوش و حلق و بینی",
+      "example": "Otolaryngology treats ENT conditions.",
+      "synonyms": [
+        "ENT",
+        "head and neck medicine"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "orthopedics",
+      "translation": "ارتوپدی",
+      "example": "Orthopedics treats bone and joint problems.",
+      "synonyms": [
+        "bone medicine",
+        "musculoskeletal study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "endocrinology",
+      "translation": "غدد درون‌ریز",
+      "example": "Endocrinology manages hormonal disorders.",
+      "synonyms": [
+        "hormone study",
+        "metabolic medicine"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "rheumatology",
+      "translation": "روماتولوژی",
+      "example": "Rheumatology treats autoimmune diseases.",
+      "synonyms": [
+        "joint medicine",
+        "connective tissue study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "urology",
+      "translation": "ادرار‌شناسی",
+      "example": "Urology treats urinary tract conditions.",
+      "synonyms": [
+        "urinary medicine",
+        "genitourinary study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "gynecology",
+      "translation": "زنان و زایمان",
+      "example": "Gynecology focuses on female health.",
+      "synonyms": [
+        "women's health",
+        "reproductive medicine"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "obstetrics",
+      "translation": "زایمان",
+      "example": "Obstetrics manages pregnancy and birth.",
+      "synonyms": [
+        "maternity",
+        "childbirth"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "pediatrics",
+      "translation": "اطفال",
+      "example": "Pediatrics treats children.",
+      "synonyms": [
+        "child medicine",
+        "young patient care"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "geriatrics",
+      "translation": "سالمندان",
+      "example": "Geriatrics cares for the elderly.",
+      "synonyms": [
+        "elderly medicine",
+        "aging study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "psychiatry",
+      "translation": "روان‌پزشکی",
+      "example": "Psychiatry treats mental disorders.",
+      "synonyms": [
+        "mental health medicine",
+        "psychological treatment"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "psychology",
+      "translation": "روان‌شناسی",
+      "example": "Psychology studies behavior and mind.",
+      "synonyms": [
+        "mind study",
+        "behavioral science"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "pharmacology",
+      "translation": "دارو‌شناسی",
+      "example": "Pharmacology studies drug effects.",
+      "synonyms": [
+        "drug study",
+        "medication science"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "toxicology",
+      "translation": "سم‌شناسی",
+      "example": "Toxicology assesses chemical dangers.",
+      "synonyms": [
+        "poison study",
+        "harmful substance study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "immunology",
+      "translation": "ایمنی‌شناسی",
+      "example": "Immunology studies the immune system.",
+      "synonyms": [
+        "immune study",
+        "defense system science"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "genetics",
+      "translation": "ژنتیک",
+      "example": "Genetics explains heredity.",
+      "synonyms": [
+        "heredity study",
+        "gene science"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "genomics",
+      "translation": "ژنومیک",
+      "example": "Genomics maps the entire genome.",
+      "synonyms": [
+        "genome study",
+        "genetic mapping"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "epidemiology",
+      "translation": "همه‌گیری‌شناسی",
+      "example": "Epidemiology tracks disease patterns.",
+      "synonyms": [
+        "disease spread study",
+        "public health science"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "biostatistics",
+      "translation": "آمار زیستی",
+      "example": "Biostatistics analyzes health data.",
+      "synonyms": [
+        "health statistics",
+        "medical data analysis"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "clinical trial",
+      "translation": "کارآزمایی بالینی",
+      "example": "The clinical trial tested a new drug.",
+      "synonyms": [
+        "medical experiment",
+        "patient study"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "placebo",
+      "translation": "پلاسیبو",
+      "example": "The placebo group showed improvement.",
+      "synonyms": [
+        "dummy treatment",
+        "sham"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "double-blind",
+      "translation": "دوکور",
+      "example": "A double-blind study prevents bias.",
+      "synonyms": [
+        "blinded study",
+        "unbiased trial"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "randomized",
+      "translation": "تصادفی",
+      "example": "Randomized trials ensure validity.",
+      "synonyms": [
+        "chance assignment",
+        "unbiased allocation"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "cohort",
+      "translation": "گروه",
+      "example": "The cohort study followed patients for years.",
+      "synonyms": [
+        "group",
+        "sample population"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "cross-sectional",
+      "translation": "مقطعی",
+      "example": "Cross-sectional studies capture snapshots.",
+      "synonyms": [
+        "snapshot study",
+        "point-in-time"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "longitudinal",
+      "translation": "طولی",
+      "example": "Longitudinal studies track changes over time.",
+      "synonyms": [
+        "long-term",
+        "extended"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "etiology",
+      "translation": "علت‌شناسی",
+      "example": "The etiology remains unclear.",
+      "synonyms": [
+        "causation",
+        "origin"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "pathology",
+      "translation": "پاتولوژی",
+      "example": "Pathology examines diseased tissues.",
+      "synonyms": [
+        "disease study",
+        "tissue analysis"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "histology",
+      "translation": "بافت‌شناسی",
+      "example": "Histology studies tissue structure.",
+      "synonyms": [
+        "tissue study",
+        "microscopic anatomy"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "cytology",
+      "translation": "سلول‌شناسی",
+      "example": "Cytology examines individual cells.",
+      "synonyms": [
+        "cell study",
+        "cellular analysis"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "anatomy",
+      "translation": "کالبدشناسی",
+      "example": "Anatomy studies body structure.",
+      "synonyms": [
+        "body structure",
+        "morphology"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "physiology",
+      "translation": "فیزیولوژی",
+      "example": "Physiology explains body functions.",
+      "synonyms": [
+        "function study",
+        "bodily processes"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "surgery",
+      "translation": "جراحی",
+      "example": "Surgery removed the tumor.",
+      "synonyms": [
+        "operation",
+        "procedure"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "anesthesia",
+      "translation": "بیهوشی",
+      "example": "Anesthesia prevents pain during surgery.",
+      "synonyms": [
+        "numbing",
+        "sedation"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "hemostasis",
+      "translation": "هموستاز",
+      "example": "Hemostasis stops bleeding.",
+      "synonyms": [
+        "blood clotting",
+        "coagulation"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "inflammation",
+      "translation": "التهاب",
+      "example": "Inflammation is a response to injury.",
+      "synonyms": [
+        "swelling",
+        "irritation"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "edema",
+      "translation": "ادم",
+      "example": "Edema causes swelling.",
+      "synonyms": [
+        "swelling",
+        "fluid retention"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "necrosis",
+      "translation": "نکروز",
+      "example": "Necrosis indicates tissue death.",
+      "synonyms": [
+        "cell death",
+        "tissue death"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "apoptosis",
+      "translation": "آپوپتوز",
+      "example": "Apoptosis is programmed cell death.",
+      "synonyms": [
+        "cell suicide",
+        "programmed death"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "mitosis",
+      "translation": "میتوز",
+      "example": "Mitosis produces identical cells.",
+      "synonyms": [
+        "cell division",
+        "replication"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "meiosis",
+      "translation": "میوز",
+      "example": "Meiosis produces gametes.",
+      "synonyms": [
+        "reductive division",
+        "gamete formation"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "differentiation",
+      "translation": "تمایز",
+      "example": "Cells differentiate into specialized types.",
+      "synonyms": [
+        "specialization",
+        "development"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "regeneration",
+      "translation": "باززایی",
+      "example": "Regeneration repairs damaged tissue.",
+      "synonyms": [
+        "repair",
+        "recovery"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "angiogenesis",
+      "translation": "آنژیوژنز",
+      "example": "Angiogenesis forms new blood vessels.",
+      "synonyms": [
+        "vessel growth",
+        "vascularization"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "hypertrophy",
+      "translation": "هیپرتروفی",
+      "example": "Hypertrophy enlarges organs.",
+      "synonyms": [
+        "enlargement",
+        "overgrowth"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "atrophy",
+      "translation": "آتروفی",
+      "example": "Atrophy weakens muscles.",
+      "synonyms": [
+        "wasting",
+        "shrinkage"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "hyperplasia",
+      "translation": "هیپرپلازی",
+      "example": "Hyperplasia increases cell number.",
+      "synonyms": [
+        "overgrowth",
+        "proliferation"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "dysplasia",
+      "translation": "دیسپلازی",
+      "example": "Dysplasia indicates abnormal cell growth.",
+      "synonyms": [
+        "abnormal development",
+        "premalignant change"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "neoplasia",
+      "translation": "نوپلازی",
+      "example": "Neoplasia produces tumors.",
+      "synonyms": [
+        "tumor formation",
+        "new growth"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "carcinoma",
+      "translation": "کارسینوما",
+      "example": "Carcinoma is a common cancer type.",
+      "synonyms": [
+        "epithelial cancer",
+        "malignant tumor"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "sarcoma",
+      "translation": "سارکوما",
+      "example": "Sarcoma affects connective tissue.",
+      "synonyms": [
+        "connective tissue cancer",
+        "soft tissue tumor"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "lymphoma",
+      "translation": "لنفوم",
+      "example": "Lymphoma affects the lymphatic system.",
+      "synonyms": [
+        "lymph cancer",
+        "immune system tumor"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "leukemia",
+      "translation": "لوکمی",
+      "example": "Leukemia is a blood cancer.",
+      "synonyms": [
+        "blood cancer",
+        "bone marrow cancer"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "chemotherapy",
+      "translation": "شیمی‌درمانی",
+      "example": "Chemotherapy kills cancer cells.",
+      "synonyms": [
+        "drug therapy",
+        "chemical treatment"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "radiation therapy",
+      "translation": "پرتو‌درمانی",
+      "example": "Radiation therapy targets tumors.",
+      "synonyms": [
+        "radiotherapy",
+        "radiation treatment"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "immunotherapy",
+      "translation": "ایمنی‌درمانی",
+      "example": "Immunotherapy boosts the immune system.",
+      "synonyms": [
+        "immune treatment",
+        "biological therapy"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "transplant",
+      "translation": "پیوند",
+      "example": "Organ transplant saves lives.",
+      "synonyms": [
+        "graft",
+        "implantation"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "donor",
+      "translation": "اهداءکننده",
+      "example": "The organ donor saved three lives.",
+      "synonyms": [
+        "contributor",
+        "supplier"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "recipient",
+      "translation": "گیرنده",
+      "example": "The recipient recovered quickly.",
+      "synonyms": [
+        "receiver",
+        "patient"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "graft-versus-host",
+      "translation": "پیوند علیه میزبان",
+      "example": "Graft-versus-host disease is a complication.",
+      "synonyms": [
+        "GVHD",
+        "immune reaction"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "autoimmune",
+      "translation": "خودایمنی",
+      "example": "Autoimmune diseases attack the body.",
+      "synonyms": [
+        "self-immune",
+        "autoaggressive"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "antibody",
+      "translation": "آنتی‌بادی",
+      "example": "Antibodies fight infections.",
+      "synonyms": [
+        "immunoglobulin",
+        "defense protein"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "antigen",
+      "translation": "آنتی‌ژن",
+      "example": "Antigens trigger immune responses.",
+      "synonyms": [
+        "immunogen",
+        "foreign substance"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "vaccine",
+      "translation": "واکسن",
+      "example": "Vaccines prevent diseases.",
+      "synonyms": [
+        "immunization",
+        "inoculation"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "mRNA",
+      "translation": "mRNA",
+      "example": "mRNA vaccines use genetic instructions.",
+      "synonyms": [
+        "messenger RNA",
+        "genetic vaccine"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "vector",
+      "translation": "ناقل",
+      "example": "Viral vectors deliver genetic material.",
+      "synonyms": [
+        "carrier",
+        "delivery system"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "plasmid",
+      "translation": "پلاسمید",
+      "example": "Plasmids carry foreign DNA.",
+      "synonyms": [
+        "circular DNA",
+        "vector"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "CRISPR",
+      "translation": "CRISPR",
+      "example": "CRISPR edits genes precisely.",
+      "synonyms": [
+        "gene editing",
+        "genetic scissors"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "gene therapy",
+      "translation": "ژن‌درمانی",
+      "example": "Gene therapy treats genetic disorders.",
+      "synonyms": [
+        "genetic treatment",
+        "gene correction"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "stem cell",
+      "translation": "سلول بنیادی",
+      "example": "Stem cells can become any cell type.",
+      "synonyms": [
+        "progenitor cell",
+        "undifferentiated cell"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "biopsy",
+      "translation": "بیوپسی",
+      "example": "A biopsy confirmed the diagnosis.",
+      "synonyms": [
+        "tissue sample",
+        "tissue removal"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "imaging",
+      "translation": "تصویربرداری",
+      "example": "Imaging reveals internal structures.",
+      "synonyms": [
+        "scanning",
+        "radiography"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "MRI",
+      "translation": "ام‌آرآی",
+      "example": "MRI provides detailed images.",
+      "synonyms": [
+        "magnetic resonance",
+        "scan"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "CT scan",
+      "translation": "اسکنر سی‌تی",
+      "example": "CT scan detects abnormalities.",
+      "synonyms": [
+        "computed tomography",
+        "CAT scan"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "ultrasound",
+      "translation": "اولتراسوند",
+      "example": "Ultrasound is safe during pregnancy.",
+      "synonyms": [
+        "sonography",
+        "sonogram"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "X-ray",
+      "translation": "ایکس‌ری",
+      "example": "X-ray shows bone fractures.",
+      "synonyms": [
+        "radiograph",
+        "radiation image"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "endoscopy",
+      "translation": "اندوسکوپی",
+      "example": "Endoscopy examines the digestive tract.",
+      "synonyms": [
+        "internal camera",
+        "scope exam"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "colonoscopy",
+      "translation": "کولونوسکوپی",
+      "example": "Colonoscopy screens for cancer.",
+      "synonyms": [
+        "colon exam",
+        "bowel scope"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "bronchoscopy",
+      "translation": "برونکوسکوپی",
+      "example": "Bronchoscopy examines the airways.",
+      "synonyms": [
+        "lung scope",
+        "airway exam"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "catheterization",
+      "translation": "کاتتریزاسیون",
+      "example": "Cardiac catheterization checks heart vessels.",
+      "synonyms": [
+        "catheter procedure",
+        "tube insertion"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "angiography",
+      "translation": "آنژیوگرافی",
+      "example": "Angiography visualizes blood vessels.",
+      "synonyms": [
+        "vessel imaging",
+        "arteriography"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "hematology",
+      "translation": "هماتولوژی",
+      "example": "Hematology analyzes blood samples.",
+      "synonyms": [
+        "blood study",
+        "blood analysis"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "thrombosis",
+      "translation": "ترومبوز",
+      "example": "Thrombosis causes blood clots.",
+      "synonyms": [
+        "clotting",
+        "embolism"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "embolism",
+      "translation": "آمبولی",
+      "example": "A pulmonary embolism is life-threatening.",
+      "synonyms": [
+        "clot travel",
+        "blockage"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "atherosclerosis",
+      "translation": "آترواسکلروز",
+      "example": "Atherosclerosis narrows arteries.",
+      "synonyms": [
+        "hardening of arteries",
+        "plaque buildup"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "hypertension",
+      "translation": "فشار خون",
+      "example": "Hypertension increases heart disease risk.",
+      "synonyms": [
+        "high blood pressure",
+        "elevated BP"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "hypotension",
+      "translation": "افت فشار",
+      "example": "Hypotension causes dizziness.",
+      "synonyms": [
+        "low blood pressure",
+        "dropped BP"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "myocardial infarction",
+      "translation": "سکته قلبی",
+      "example": "Myocardial infarction requires emergency care.",
+      "synonyms": [
+        "heart attack",
+        "cardiac arrest"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "stroke",
+      "translation": "سکته مغزی",
+      "example": "Stroke damages brain tissue.",
+      "synonyms": [
+        "cerebrovascular accident",
+        "brain attack"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "congestive heart failure",
+      "translation": "نارسایی قلبی",
+      "example": "CHF reduces cardiac output.",
+      "synonyms": [
+        "heart failure",
+        "cardiac insufficiency"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "arrhythmia",
+      "translation": "آریتمی",
+      "example": "Arrhythmia disrupts heart rhythm.",
+      "synonyms": [
+        "irregular heartbeat",
+        "dysrhythmia"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "fibrillation",
+      "translation": "فیبریلاسیون",
+      "example": "Atrial fibrillation is common in elderly.",
+      "synonyms": [
+        "rapid quivering",
+        "uncoordinated contraction"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "tachycardia",
+      "translation": "تاکی‌کاردی",
+      "example": "Tachycardia speeds up the heart.",
+      "synonyms": [
+        "fast heart rate",
+        "rapid pulse"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "bradycardia",
+      "translation": "برادی‌کاردی",
+      "example": "Bradycardia slows the heart.",
+      "synonyms": [
+        "slow heart rate",
+        "low pulse"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "pneumonia",
+      "translation": "سینه‌پهلو",
+      "example": "Pneumonia inflames the lungs.",
+      "synonyms": [
+        "lung infection",
+        "respiratory infection"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "bronchitis",
+      "translation": "برونشیت",
+      "example": "Bronchitis inflames the airways.",
+      "synonyms": [
+        "airway inflammation",
+        "chest cold"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "emphysema",
+      "translation": "آمفیزم",
+      "example": "Emphysema damages air sacs.",
+      "synonyms": [
+        "lung damage",
+        "alveolar destruction"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "asthma",
+      "translation": "آسم",
+      "example": "Asthma narrows the airways.",
+      "synonyms": [
+        "respiratory condition",
+        "breathing disorder"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "COPD",
+      "translation": "بیماری انسدادی مزمن",
+      "example": "COPD progressively limits breathing.",
+      "synonyms": [
+        "chronic obstructive",
+        "lung disease"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "diabetes mellitus",
+      "translation": "دیابت",
+      "example": "Diabetes affects insulin production.",
+      "synonyms": [
+        "sugar disease",
+        "metabolic disorder"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "insulin",
+      "translation": "انسولین",
+      "example": "Insulin regulates blood sugar.",
+      "synonyms": [
+        "hormone",
+        "glucose regulator"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "glucose",
+      "translation": "گلوکز",
+      "example": "Glucose fuels cells.",
+      "synonyms": [
+        "blood sugar",
+        "dextrose"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "hyperglycemia",
+      "translation": "هیپرگلیسمی",
+      "example": "Hyperglycemia elevates blood sugar.",
+      "synonyms": [
+        "high blood sugar",
+        "elevated glucose"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "hypoglycemia",
+      "translation": "هیپوگلیسمی",
+      "example": "Hypoglycemia dangerously lowers blood sugar.",
+      "synonyms": [
+        "low blood sugar",
+        "sugar drop"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "metabolism",
+      "translation": "متابولیسم",
+      "example": "Metabolism converts food to energy.",
+      "synonyms": [
+        "energy conversion",
+        "chemical processes"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "catabolism",
+      "translation": "کاتابولیسم",
+      "example": "Catabolism breaks down molecules.",
+      "synonyms": [
+        "breakdown",
+        "degradation"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "anabolism",
+      "translation": "آنابولیسم",
+      "example": "Anabolism builds complex molecules.",
+      "synonyms": [
+        "synthesis",
+        "construction"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "homeostasis",
+      "translation": "همئوستازی",
+      "example": "Homeostasis maintains internal balance.",
+      "synonyms": [
+        "equilibrium",
+        "stability"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "osmosis",
+      "translation": "اسمز",
+      "example": "Osmosis moves water across membranes.",
+      "synonyms": [
+        "diffusion",
+        "absorption"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "diffusion",
+      "translation": "انتشار",
+      "example": "Diffusion spreads molecules evenly.",
+      "synonyms": [
+        "dispersal",
+        "scattering"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "perfusion",
+      "translation": "پرفیوژن",
+      "example": "Perfusion delivers blood to tissues.",
+      "synonyms": [
+        "blood flow",
+        "irrigation"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "ventilation",
+      "translation": "تهویه",
+      "example": "Ventilation supplies air to the lungs.",
+      "synonyms": [
+        "breathing",
+        "airflow"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "oxygenation",
+      "translation": "اکسیژن‌رسانی",
+      "example": "Oxygenation enriches blood with oxygen.",
+      "synonyms": [
+        "oxygen supply",
+        "oxidation"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "acidosis",
+      "translation": "اسیدوز",
+      "example": "Acidosis lowers blood pH.",
+      "synonyms": [
+        "acidemia",
+        "pH drop"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "alkalosis",
+      "translation": "آلکالوز",
+      "example": "Alkalosis raises blood pH.",
+      "synonyms": [
+        "alkalemia",
+        "pH rise"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "electrolyte",
+      "translation": "الکترولیت",
+      "example": "Electrolyte imbalance is dangerous.",
+      "synonyms": [
+        "ion",
+        "charged mineral"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "sodium",
+      "translation": "سدیم",
+      "example": "Sodium regulates fluid balance.",
+      "synonyms": [
+        "Na",
+        "salt mineral"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "potassium",
+      "translation": "پتاسیم",
+      "example": "Potassium supports heart function.",
+      "synonyms": [
+        "K",
+        "electrolyte mineral"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "calcium",
+      "translation": "کلسیم",
+      "example": "Calcium strengthens bones.",
+      "synonyms": [
+        "Ca",
+        "bone mineral"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "hemoglobin",
+      "translation": "هموگلوبین",
+      "example": "Hemoglobin carries oxygen.",
+      "synonyms": [
+        "Hb",
+        "oxygen-binding protein"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "albumin",
+      "translation": "آلبومین",
+      "example": "Albumin maintains osmotic pressure.",
+      "synonyms": [
+        "blood protein",
+        "carrier protein"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "creatinine",
+      "translation": "کراتینین",
+      "example": "Creatinine levels indicate kidney function.",
+      "synonyms": [
+        "waste product",
+        "kidney marker"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "bilirubin",
+      "translation": "بیلی‌روبین",
+      "example": "Bilirubin causes jaundice.",
+      "synonyms": [
+        "bile pigment",
+        "liver marker"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "liver",
+      "translation": "کبد",
+      "example": "The liver detoxifies blood.",
+      "synonyms": [
+        "hepatic organ",
+        "detox organ"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "kidney",
+      "translation": "کلیه",
+      "example": "Kidneys filter waste.",
+      "synonyms": [
+        "renal organ",
+        "filter organ"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "pancreas",
+      "translation": "لوزالمعده",
+      "example": "The pancreas produces insulin.",
+      "synonyms": [
+        "insulin organ",
+        "digestive gland"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "spleen",
+      "translation": "طحال",
+      "example": "The spleen filters blood.",
+      "synonyms": [
+        "blood filter",
+        "lymphoid organ"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "thymus",
+      "translation": "تیموس",
+      "example": "The thymus trains T cells.",
+      "synonyms": [
+        "T cell school",
+        "immune organ"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "bone marrow",
+      "translation": "مغز استخوان",
+      "example": "Bone marrow produces blood cells.",
+      "synonyms": [
+        "hematopoietic tissue",
+        "marrow"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "red blood cell",
+      "translation": "گلبول قرمز",
+      "example": "Red blood cells carry oxygen.",
+      "synonyms": [
+        "erythrocyte",
+        "RBC"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "white blood cell",
+      "translation": "گلبول سفید",
+      "example": "White blood cells fight infection.",
+      "synonyms": [
+        "leukocyte",
+        "WBC"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "platelet",
+      "translation": "پلاکت",
+      "example": "Platelets help blood clot.",
+      "synonyms": [
+        "thrombocyte",
+        "clotting cell"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "plasma",
+      "translation": "پلاسما",
+      "example": "Plasma carries blood cells.",
+      "synonyms": [
+        "blood fluid",
+        "serum"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "serum",
+      "translation": "سرم",
+      "example": "Serum contains antibodies.",
+      "synonyms": [
+        "plasma",
+        "blood fraction"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "antibiotic",
+      "translation": "آنتی‌بیوتیک",
+      "example": "Antibiotics kill bacteria.",
+      "synonyms": [
+        "antimicrobial",
+        "bacterial killer"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "antiviral",
+      "translation": "ضدویروس",
+      "example": "Antivirals inhibit viruses.",
+      "synonyms": [
+        "viral inhibitor",
+        "virus fighter"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "antifungal",
+      "translation": "ضدقارچ",
+      "example": "Antifungals treat fungal infections.",
+      "synonyms": [
+        "fungicide",
+        "anti-mycotic"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "analgesic",
+      "translation": "مسکن",
+      "example": "Analgesics relieve pain.",
+      "synonyms": [
+        "painkiller",
+        "pain reliever"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "anti-inflammatory",
+      "translation": "ضدالتهاب",
+      "example": "Anti-inflammatories reduce swelling.",
+      "synonyms": [
+        "anti-swelling",
+        "NSAID"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "corticosteroid",
+      "translation": "کورتیکواستروئید",
+      "example": "Corticosteroids suppress inflammation.",
+      "synonyms": [
+        "steroid",
+        "anti-inflammatory hormone"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "anticoagulant",
+      "translation": "ضدانعقاد",
+      "example": "Anticoagulants prevent clots.",
+      "synonyms": [
+        "blood thinner",
+        "clot preventer"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "antihypertensive",
+      "translation": "ضدفشارخون",
+      "example": "Antihypertensives lower blood pressure.",
+      "synonyms": [
+        "BP reducer",
+        "pressure medication"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "antidepressant",
+      "translation": "ضدافسردگی",
+      "example": "Antidepressants improve mood.",
+      "synonyms": [
+        "mood lifter",
+        "serotonin booster"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "anxiolytic",
+      "translation": "ضدانxiety",
+      "example": "Anxiolytics reduce anxiety.",
+      "synonyms": [
+        "anti-anxiety",
+        "calming drug"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "sedative",
+      "translation": "آرام‌بخش",
+      "example": "Sedatives promote relaxation.",
+      "synonyms": [
+        "calmer",
+        "tranquilizer"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "diuretic",
+      "translation": "ادرارآور",
+      "example": "Diuretics increase urine output.",
+      "synonyms": [
+        "water pill",
+        "fluid remover"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "emetic",
+      "translation": "استفراغ‌آور",
+      "example": "Emetics induce vomiting.",
+      "synonyms": [
+        "vomit inducer",
+        "nausea drug"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "laxative",
+      "translation": "ملین",
+      "example": "Laxatives relieve constipation.",
+      "synonyms": [
+        "bowel mover",
+        "purgative"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "prophylaxis",
+      "translation": "پیشگیری",
+      "example": "Prophylaxis prevents disease.",
+      "synonyms": [
+        "prevention",
+        "precaution"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "palliative",
+      "translation": "تسکینی",
+      "example": "Palliative care eases suffering.",
+      "synonyms": [
+        "comfort care",
+        "symptom management"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "rehabilitation",
+      "translation": "توانبخشی",
+      "example": "Rehabilitation restores function.",
+      "synonyms": [
+        "recovery",
+        "physical therapy"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "physiotherapy",
+      "translation": "فیزیوتراپی",
+      "example": "Physiotherapy improves mobility.",
+      "synonyms": [
+        "physical therapy",
+        "movement therapy"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "occupational therapy",
+      "translation": "کاردرمانی",
+      "example": "Occupational therapy enhances daily skills.",
+      "synonyms": [
+        "OT",
+        "functional therapy"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "speech therapy",
+      "translation": "گفتاردرمانی",
+      "example": "Speech therapy improves communication.",
+      "synonyms": [
+        "logopedics",
+        "communication therapy"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "prosthetic",
+      "translation": "پروتز",
+      "example": "The prosthetic limb restores movement.",
+      "synonyms": [
+        "artificial limb",
+        "replacement"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "orthotic",
+      "translation": "ارتوتز",
+      "example": "Orthotics support body structure.",
+      "synonyms": [
+        "brace",
+        "support device"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "implant",
+      "translation": "ایمپلنت",
+      "example": "Dental implants replace teeth.",
+      "synonyms": [
+        "prosthetic",
+        "insertion"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "stent",
+      "translation": "استنت",
+      "example": "Stents open blocked arteries.",
+      "synonyms": [
+        "tube",
+        "support graft"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "pacemaker",
+      "translation": "ضربان‌ساز",
+      "example": "Pacemaker regulates heartbeat.",
+      "synonyms": [
+        "cardiac device",
+        "heart stimulator"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "defibrillator",
+      "translation": "دفیبریلاتور",
+      "example": "Defibrillator shocks the heart back to rhythm.",
+      "synonyms": [
+        "shock device",
+        "AED"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "ventilator",
+      "translation": "ونتیلاتور",
+      "example": "Ventilator assists breathing.",
+      "synonyms": [
+        "respirator",
+        "breathing machine"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "dialysis",
+      "translation": "دیالیز",
+      "example": "Dialysis filters blood externally.",
+      "synonyms": [
+        "kidney machine",
+        "filtration"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "surgical",
+      "translation": "جراحی",
+      "example": "Surgical intervention was necessary.",
+      "synonyms": [
+        "operative",
+        "invasive"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "minimally invasive",
+      "translation": "کم‌تهاجمی",
+      "example": "Minimally invasive surgery speeds recovery.",
+      "synonyms": [
+        "laparoscopic",
+        "keyhole"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "laparoscopy",
+      "translation": "لاپاراسکوپی",
+      "example": "Laparoscopy uses small incisions.",
+      "synonyms": [
+        "keyhole surgery",
+        "scope surgery"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "robotic surgery",
+      "translation": "جراحی رباتیک",
+      "example": "Robotic surgery enhances precision.",
+      "synonyms": [
+        "da Vinci surgery",
+        "computer-assisted"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "triage",
+      "translation": "تریاژ",
+      "example": "Triage prioritizes patients by urgency.",
+      "synonyms": [
+        "sorting",
+        "prioritization"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "resuscitation",
+      "translation": "احیا",
+      "example": "CPR is a form of resuscitation.",
+      "synonyms": [
+        "revival",
+        "reanimation"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "ICU",
+      "translation": "آی‌سی‌یو",
+      "example": "The patient was admitted to the ICU.",
+      "synonyms": [
+        "intensive care",
+        "critical care unit"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "outpatient",
+      "translation": "سرپایی",
+      "example": "Outpatient treatment doesn't require admission.",
+      "synonyms": [
+        "ambulatory",
+        "non-hospitalized"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "inpatient",
+      "translation": "بستری",
+      "example": "Inpatient care requires hospital stay.",
+      "synonyms": [
+        "hospitalized",
+        "admitted"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "ambulance",
+      "translation": "آمبولانس",
+      "example": "The ambulance transported the patient.",
+      "synonyms": [
+        "emergency vehicle",
+        "medic transport"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "epidemic",
+      "translation": "همه‌گیری",
+      "example": "The epidemic spread rapidly.",
+      "synonyms": [
+        "outbreak",
+        "plague"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "pandemic",
+      "translation": "همه‌گیری جهانی",
+      "example": "The pandemic affected millions.",
+      "synonyms": [
+        "global outbreak",
+        "worldwide epidemic"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "endemic",
+      "translation": "بومی",
+      "example": "Malaria is endemic in some regions.",
+      "synonyms": [
+        "native",
+        "regionally prevalent"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "sporadic",
+      "translation": "پراکنده",
+      "example": "Sporadic cases were reported.",
+      "synonyms": [
+        "occasional",
+        "scattered"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "nosocomial",
+      "translation": "بيمارستاني",
+      "example": "Nosocomial infections occur in hospitals.",
+      "synonyms": [
+        "hospital-acquired",
+        "in-hospital"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "zoonosis",
+      "translation": "بیماری مشترک",
+      "example": "Zoonosis passes from animals to humans.",
+      "synonyms": [
+        "animal disease",
+        "cross-species infection"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "antimicrobial resistance",
+      "translation": "مقاومت ضد میکروبی",
+      "example": "AMR threatens modern medicine.",
+      "synonyms": [
+        "drug resistance",
+        "superbug evolution"
+      ],
+      "tags": [
+        "medical"
+      ]
+    },
+    {
+      "word": "biofilm",
+      "translation": "بایوفیلم",
+      "example": "Biofilms protect bacteria from treatment.",
+      "synonyms": [
+        "microbial mat",
+        "bacterial colony"
+      ],
+      "tags": [
+        "medical"
+      ]
+    }
+  ]
+}

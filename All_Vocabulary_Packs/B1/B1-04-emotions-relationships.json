@@ -1,0 +1,3911 @@
+{
+  "name": "احساسات و روابط",
+  "description": "۲۰۰ کلمه درباره احساسات، شخصیت، روابط و روانشناسی — سطح B1",
+  "category": "B1 — متوسط",
+  "level": "B1",
+  "packId": "B1-04",
+  "words": [
+    {
+      "word": "anxious",
+      "translation": "مضطرب، نگران",
+      "ipa": "/ˈæŋkʃəs/",
+      "partOfSpeech": "adjective",
+      "example": "She felt anxious before the job interview.",
+      "definitions": [
+        "feeling worried or uneasy about something with an uncertain outcome"
+      ],
+      "synonyms": [
+        "worried",
+        "nervous",
+        "uneasy"
+      ],
+      "antonyms": [
+        "calm",
+        "relaxed",
+        "confident"
+      ],
+      "collocations": [
+        "feel anxious",
+        "anxious about",
+        "anxious moment"
+      ],
+      "wordFamily": [
+        "anxiety (n)",
+        "anxiously (adv)"
+      ],
+      "coreMeaning": "احساس نگرانی و بی‌قراری درباره چیزی نامعلوم",
+      "note": "anxious معمولاً درباره نگرانی آینده استفاده می‌شود، نه ترس از خطر فوری",
+      "trap": "با eager اشتباه نگیرید: anxious for یعنی نگران، eager for یعنی مشتاق",
+      "tags": [
+        "B1",
+        "emotions",
+        "feelings"
+      ]
+    },
+    {
+      "word": "frustrated",
+      "translation": "سرخورده، کلافه",
+      "ipa": "/ˈfrʌstreɪtɪd/",
+      "partOfSpeech": "adjective",
+      "example": "He became frustrated when he couldn't solve the problem.",
+      "definitions": [
+        "feeling upset or annoyed because of inability to change or achieve something"
+      ],
+      "synonyms": [
+        "annoyed",
+        "irritated",
+        "discouraged"
+      ],
+      "antonyms": [
+        "satisfied",
+        "pleased",
+        "fulfilled"
+      ],
+      "collocations": [
+        "feel frustrated",
+        "become frustrated",
+        "frustrated with"
+      ],
+      "wordFamily": [
+        "frustration (n)",
+        "frustrate (v)",
+        "frustrating (adj)"
+      ],
+      "coreMeaning": "احساس ناامیدی و کلافگی وقتی نمی‌توانید به چیزی برسید",
+      "note": "frustrated بیشتر حالتی است که مانعی جلوی پیشرفت شما را گرفته",
+      "trap": "با angry اشتباه نگیرید؛ frustrated بیشتر ناشی از ناتوانی است تا خشم",
+      "tags": [
+        "B1",
+        "emotions",
+        "feelings"
+      ]
+    },
+    {
+      "word": "overwhelmed",
+      "translation": "درمانده، غرق‌شده",
+      "ipa": "/ˌoʊvərˈwɛlmd/",
+      "partOfSpeech": "adjective",
+      "example": "She was overwhelmed by the amount of support she received.",
+      "definitions": [
+        "feeling buried or drowned beneath a huge amount of something; emotionally overcome"
+      ],
+      "synonyms": [
+        "overcome",
+        "swamped",
+        "inundated"
+      ],
+      "antonyms": [
+        "composed",
+        "unfazed",
+        "in control"
+      ],
+      "collocations": [
+        "feel overwhelmed",
+        "overwhelmed by",
+        "overwhelmed with emotion"
+      ],
+      "wordFamily": [
+        "overwhelm (v)",
+        "overwhelming (adj)"
+      ],
+      "coreMeaning": "احساس غرق شدن زیر بار احساسات یا مسئولیت‌ها",
+      "note": "هم برای احساسات مثبت و هم منفی استفاده می‌شود",
+      "trap": "فقط به معنای منفی نیست؛ overwhelmed with joy هم درست است",
+      "tags": [
+        "B1",
+        "emotions",
+        "feelings"
+      ]
+    },
+    {
+      "word": "content",
+      "translation": "راضی، خشنود",
+      "ipa": "/kənˈtɛnt/",
+      "partOfSpeech": "adjective",
+      "example": "He seemed content with his simple life.",
+      "definitions": [
+        "in a state of peaceful happiness and satisfaction"
+      ],
+      "synonyms": [
+        "satisfied",
+        "pleased",
+        "fulfilled"
+      ],
+      "antonyms": [
+        "discontent",
+        "dissatisfied",
+        "unhappy"
+      ],
+      "collocations": [
+        "content with",
+        "feel content",
+        "perfectly content"
+      ],
+      "wordFamily": [
+        "contentment (n)",
+        "discontent (n)"
+      ],
+      "coreMeaning": "احساس رضایت آرام و پایدار از وضعیت فعلی",
+      "note": "content آرام‌تر از happy است؛ یعنی بدون نیاز به چیز بیشتر",
+      "trap": "با content (اسم) به معنای محتوا اشتباه نگیرید؛ تلفظ متفاوت است",
+      "tags": [
+        "B1",
+        "emotions",
+        "feelings"
+      ]
+    },
+    {
+      "word": "grateful",
+      "translation": "سپاسگزار، قدردان",
+      "ipa": "/ˈɡreɪtfəl/",
+      "partOfSpeech": "adjective",
+      "example": "I'm grateful for your help during the difficult time.",
+      "definitions": [
+        "feeling or showing an appreciation of kindness; thankful"
+      ],
+      "synonyms": [
+        "thankful",
+        "appreciative",
+        "obliged"
+      ],
+      "antonyms": [
+        "ungrateful",
+        "unappreciative",
+        "unthankful"
+      ],
+      "collocations": [
+        "grateful for",
+        "grateful to",
+        "deeply grateful"
+      ],
+      "wordFamily": [
+        "gratitude (n)",
+        "ungrateful (adj)",
+        "gratefully (adv)"
+      ],
+      "coreMeaning": "احساس قدردانی عمیق از لطف یا کمک دیگران",
+      "note": "grateful to someone (شخص) ولی grateful for something (چیز)",
+      "trap": "با greatful (غلط املایی رایج) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "emotions",
+        "feelings"
+      ]
+    },
+    {
+      "word": "jealous",
+      "translation": "حسود",
+      "ipa": "/ˈdʒɛləs/",
+      "partOfSpeech": "adjective",
+      "example": "She felt jealous when her friend got the promotion.",
+      "definitions": [
+        "feeling or showing envy of someone's achievements or advantages"
+      ],
+      "synonyms": [
+        "envious",
+        "covetous",
+        "resentful"
+      ],
+      "antonyms": [
+        "generous",
+        "content",
+        "admiring"
+      ],
+      "collocations": [
+        "jealous of",
+        "feel jealous",
+        "jealous type"
+      ],
+      "wordFamily": [
+        "jealousy (n)",
+        "jealously (adv)"
+      ],
+      "coreMeaning": "احساس حسادت نسبت به موفقیت یا دارایی دیگران",
+      "note": "jealous of برای حسادت به چیزی، jealous about برای حسادت در رابطه",
+      "trap": "jealous و envy تفاوت ظریفی دارند: jealous بیشتر تهدید احساسی، envy بیشتر آرزوی داشتن",
+      "tags": [
+        "B1",
+        "emotions",
+        "feelings"
+      ]
+    },
+    {
+      "word": "embarrassed",
+      "translation": "شرمنده، خجل",
+      "ipa": "/ɪmˈbærəst/",
+      "partOfSpeech": "adjective",
+      "example": "He was embarrassed when he forgot her name.",
+      "definitions": [
+        "feeling awkward, self-conscious, or ashamed"
+      ],
+      "synonyms": [
+        "ashamed",
+        "humiliated",
+        "self-conscious"
+      ],
+      "antonyms": [
+        "proud",
+        "confident",
+        "unashamed"
+      ],
+      "collocations": [
+        "feel embarrassed",
+        "embarrassed about",
+        "deeply embarrassed"
+      ],
+      "wordFamily": [
+        "embarrass (v)",
+        "embarrassment (n)",
+        "embarrassing (adj)"
+      ],
+      "coreMeaning": "احساس شرمندگی و خجالت در موقعیت ناخوشایند",
+      "note": "embarrassed احساس درونی، embarrassing چیزی که باعث خجالت می‌شود",
+      "trap": "با embarrassed (احساس) و embarrassing (علت) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "emotions",
+        "feelings"
+      ]
+    },
+    {
+      "word": "ashamed",
+      "translation": "شرمسار، سرافکنده",
+      "ipa": "/əˈʃeɪmd/",
+      "partOfSpeech": "adjective",
+      "example": "She felt ashamed of lying to her parents.",
+      "definitions": [
+        "feeling shame or guilt because of one's own actions or characteristics"
+      ],
+      "synonyms": [
+        "guilty",
+        "remorseful",
+        "humiliated"
+      ],
+      "antonyms": [
+        "proud",
+        "unashamed",
+        "guiltless"
+      ],
+      "collocations": [
+        "ashamed of",
+        "feel ashamed",
+        "nothing to be ashamed of"
+      ],
+      "wordFamily": [
+        "shame (n)",
+        "shameful (adj)",
+        "shameless (adj)"
+      ],
+      "coreMeaning": "احساس شرم و پشیمانی عمیق از رفتار خود",
+      "note": "ashamed شدیدتر از embarrassed است و معمولاً به دلیل کار اشتباه است",
+      "trap": "ashamed از خودتان، embarrassed از موقعیت؛ تفاوت مهمی است",
+      "tags": [
+        "B1",
+        "emotions",
+        "feelings"
+      ]
+    },
+    {
+      "word": "proud",
+      "translation": "مفتخر، سربلند",
+      "ipa": "/praʊd/",
+      "partOfSpeech": "adjective",
+      "example": "She was proud of her daughter's achievements.",
+      "definitions": [
+        "feeling deep pleasure or satisfaction as a result of one's own or someone's achievements"
+      ],
+      "synonyms": [
+        "pleased",
+        "honored",
+        "dignified"
+      ],
+      "antonyms": [
+        "ashamed",
+        "embarrassed",
+        "humble"
+      ],
+      "collocations": [
+        "proud of",
+        "feel proud",
+        "justifiably proud"
+      ],
+      "wordFamily": [
+        "pride (n)",
+        "proudly (adv)"
+      ],
+      "coreMeaning": "احساس غرور و سربلندی از موفقیت خود یا دیگران",
+      "note": "proud of someone/something — حتماً با of استفاده می‌شود",
+      "trap": "proud می‌تواند مثبت (افتخار) یا منفی (تکبر) باشد بسته به زمینه",
+      "tags": [
+        "B1",
+        "emotions",
+        "feelings"
+      ]
+    },
+    {
+      "word": "confused",
+      "translation": "گیج، سردرگم",
+      "ipa": "/kənˈfjuːzd/",
+      "partOfSpeech": "adjective",
+      "example": "I'm confused by the instructions.",
+      "definitions": [
+        "unable to think clearly; bewildered"
+      ],
+      "synonyms": [
+        "bewildered",
+        "puzzled",
+        "perplexed"
+      ],
+      "antonyms": [
+        "clear",
+        "certain",
+        "understanding"
+      ],
+      "collocations": [
+        "feel confused",
+        "confused about",
+        "easily confused"
+      ],
+      "wordFamily": [
+        "confuse (v)",
+        "confusion (n)",
+        "confusing (adj)"
+      ],
+      "coreMeaning": "احساس گیجی و ناتوانی در فهمیدن موضوع",
+      "note": "confused احساس شما، confusing چیزی که گیج‌کننده است",
+      "trap": "با confused (احساس) و confusing (علت) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "emotions",
+        "feelings"
+      ]
+    },
+    {
+      "word": "disappointed",
+      "translation": "ناامید، مأیوس",
+      "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+      "partOfSpeech": "adjective",
+      "example": "He was disappointed with the test results.",
+      "definitions": [
+        "feeling sad or displeased because hopes or expectations were not met"
+      ],
+      "synonyms": [
+        "let down",
+        "disheartened",
+        "discouraged"
+      ],
+      "antonyms": [
+        "pleased",
+        "satisfied",
+        "delighted"
+      ],
+      "collocations": [
+        "disappointed with",
+        "disappointed in",
+        "deeply disappointed"
+      ],
+      "wordFamily": [
+        "disappoint (v)",
+        "disappointment (n)",
+        "disappointing (adj)"
+      ],
+      "coreMeaning": "احساس ناامیدی وقتی انتظارات برآورده نمی‌شود",
+      "note": "disappointed in someone (شخص)، disappointed with/about something (چیز)",
+      "trap": "با depressing اشتباه نگیرید: disappointed احساس شما، depressing چیزی که ناراحت‌کننده است",
+      "tags": [
+        "B1",
+        "emotions",
+        "feelings"
+      ]
+    },
+    {
+      "word": "relieved",
+      "translation": "آسوده‌خاطر",
+      "ipa": "/rɪˈliːvd/",
+      "partOfSpeech": "adjective",
+      "example": "She was relieved to hear the good news.",
+      "definitions": [
+        "feeling reassured and relaxed after anxiety or distress has been removed"
+      ],
+      "synonyms": [
+        "reassured",
+        "comforted",
+        "unburdened"
+      ],
+      "antonyms": [
+        "anxious",
+        "worried",
+        "tense"
+      ],
+      "collocations": [
+        "feel relieved",
+        "relieved to hear",
+        "visibly relieved"
+      ],
+      "wordFamily": [
+        "relief (n)",
+        "relieve (v)",
+        "relieving (adj)"
+      ],
+      "coreMeaning": "احساس آرامش پس از رفع نگرانی یا استرس",
+      "note": "معمولاً بعد از یک موقعیت نگران‌کننده که خوب تمام شده استفاده می‌شود",
+      "trap": "با relaxed اشتباه نگیرید؛ relieved معمولاً بعد از یک نگرانی خاص است",
+      "tags": [
+        "B1",
+        "emotions",
+        "feelings"
+      ]
+    },
+    {
+      "word": "ambitious",
+      "translation": "جاه‌طلب، بلندپرواز",
+      "ipa": "/æmˈbɪʃəs/",
+      "partOfSpeech": "adjective",
+      "example": "She is an ambitious young woman who wants to become a CEO.",
+      "definitions": [
+        "having a strong desire and determination to succeed"
+      ],
+      "synonyms": [
+        "driven",
+        "determined",
+        "aspiring"
+      ],
+      "antonyms": [
+        "lazy",
+        "unambitious",
+        "apathetic"
+      ],
+      "collocations": [
+        "highly ambitious",
+        "ambitious plan",
+        "ambitious goal"
+      ],
+      "wordFamily": [
+        "ambition (n)",
+        "ambitiously (adv)"
+      ],
+      "coreMeaning": "داشتن انگیزه و اراده قوی برای رسیدن به موفقیت",
+      "note": "ambitious هم می‌تواند مثبت (باانگیزه) و هم منفی (بیش از حد طمع‌کار) باشد",
+      "trap": "با aggressive اشتباه نگیرید؛ ambitious لزوماً به معنای تهاجمی نیست",
+      "tags": [
+        "B1",
+        "personality",
+        "character"
+      ]
+    },
+    {
+      "word": "generous",
+      "translation": "سخاوتمند، بخشنده",
+      "ipa": "/ˈdʒɛnərəs/",
+      "partOfSpeech": "adjective",
+      "example": "He is generous with his time and money.",
+      "definitions": [
+        "willing to give more than is expected; kind and giving"
+      ],
+      "synonyms": [
+        "charitable",
+        "giving",
+        "liberal"
+      ],
+      "antonyms": [
+        "selfish",
+        "stingy",
+        "greedy"
+      ],
+      "collocations": [
+        "generous with",
+        "generous offer",
+        "incredibly generous"
+      ],
+      "wordFamily": [
+        "generosity (n)",
+        "generously (adv)"
+      ],
+      "coreMeaning": "تمایل به بخشش و کمک بیش از انتظار",
+      "note": "generous with time/money/help — با with استفاده می‌شود",
+      "trap": "فقط درباره پول نیست؛ generous with time/help هم رایج است",
+      "tags": [
+        "B1",
+        "personality",
+        "character"
+      ]
+    },
+    {
+      "word": "honest",
+      "translation": "صادق، راستگو",
+      "ipa": "/ˈɒnɪst/",
+      "partOfSpeech": "adjective",
+      "example": "She gave an honest answer to the question.",
+      "definitions": [
+        "free from deceit; truthful and sincere"
+      ],
+      "synonyms": [
+        "truthful",
+        "sincere",
+        "candid"
+      ],
+      "antonyms": [
+        "dishonest",
+        "deceitful",
+        "lying"
+      ],
+      "collocations": [
+        "honest opinion",
+        "honest mistake",
+        "to be honest"
+      ],
+      "wordFamily": [
+        "honesty (n)",
+        "honestly (adv)",
+        "dishonest (adj)"
+      ],
+      "coreMeaning": "صداقت و راستگویی در رفتار و گفتار",
+      "note": "h حرف h ساکت است: /ˈɒnɪst/ نه /ˈhɒnɪst/",
+      "trap": "honest با h ساکت شروع می‌شود؛ بسیاری اشتباه تلفظ می‌کنند",
+      "tags": [
+        "B1",
+        "personality",
+        "character"
+      ]
+    },
+    {
+      "word": "loyal",
+      "translation": "وفادار",
+      "ipa": "/ˈlɔɪəl/",
+      "partOfSpeech": "adjective",
+      "example": "A loyal friend stood by her during the crisis.",
+      "definitions": [
+        "giving firm and constant support to a person or institution"
+      ],
+      "synonyms": [
+        "faithful",
+        "devoted",
+        "dedicated"
+      ],
+      "antonyms": [
+        "disloyal",
+        "treacherous",
+        "unfaithful"
+      ],
+      "collocations": [
+        "loyal to",
+        "loyal friend",
+        "remain loyal"
+      ],
+      "wordFamily": [
+        "loyalty (n)",
+        "disloyal (adj)",
+        "loyally (adv)"
+      ],
+      "coreMeaning": "پایبندی و وفاداری به شخص یا اصول",
+      "note": "loyal to someone/something — حتماً با to استفاده می‌شود",
+      "trap": "با royal (سلطنتی) اشتباه نگیرید؛ تلفظ مشابه ولی معنا متفاوت",
+      "tags": [
+        "B1",
+        "personality",
+        "relationships"
+      ]
+    },
+    {
+      "word": "reliable",
+      "translation": "قابل اعتماد",
+      "ipa": "/rɪˈlaɪəbəl/",
+      "partOfSpeech": "adjective",
+      "example": "She is a reliable employee who never misses a deadline.",
+      "definitions": [
+        "consistently good in quality; able to be trusted"
+      ],
+      "synonyms": [
+        "dependable",
+        "trustworthy",
+        "consistent"
+      ],
+      "antonyms": [
+        "unreliable",
+        "untrustworthy",
+        "inconsistent"
+      ],
+      "collocations": [
+        "reliable source",
+        "reliable friend",
+        "highly reliable"
+      ],
+      "wordFamily": [
+        "rely (v)",
+        "reliability (n)",
+        "unreliable (adj)"
+      ],
+      "coreMeaning": "قابلیت اعتماد و تکیه کردن روی کسی یا چیزی",
+      "note": "reliable برای اشخاص و اشیاء هر دو استفاده می‌شود",
+      "trap": "با responsible (مسئول) اشتباه نگیرید؛ reliable یعنی قابل اتکا",
+      "tags": [
+        "B1",
+        "personality",
+        "character"
+      ]
+    },
+    {
+      "word": "selfish",
+      "translation": "خودخواه",
+      "ipa": "/ˈsɛlfɪʃ/",
+      "partOfSpeech": "adjective",
+      "example": "It was selfish of him to take all the credit.",
+      "definitions": [
+        "lacking consideration for others; concerned chiefly with one's own interests"
+      ],
+      "synonyms": [
+        "egotistical",
+        "self-centered",
+        "greedy"
+      ],
+      "antonyms": [
+        "generous",
+        "selfless",
+        "altruistic"
+      ],
+      "collocations": [
+        "selfish behavior",
+        "selfish person",
+        "purely selfish"
+      ],
+      "wordFamily": [
+        "self (n)",
+        "selfishness (n)",
+        "selflessly (adv)",
+        "selfless (adj)"
+      ],
+      "coreMeaning": "فکر کردن فقط به خود و بی‌توجهی به نیازهای دیگران",
+      "note": "selfish صفت منفی است و همیشه نقد محسوب می‌شود",
+      "trap": "با self-confident (خودباور) اشتباه نگیرید؛ معنای کاملاً متفاوتی دارد",
+      "tags": [
+        "B1",
+        "personality",
+        "character"
+      ]
+    },
+    {
+      "word": "stubborn",
+      "translation": "لجباز، سرسخت",
+      "ipa": "/ˈstʌbərn/",
+      "partOfSpeech": "adjective",
+      "example": "He's too stubborn to admit he was wrong.",
+      "definitions": [
+        "having or showing dogged determination not to change one's attitude or position"
+      ],
+      "synonyms": [
+        "obstinate",
+        "unyielding",
+        "headstrong"
+      ],
+      "antonyms": [
+        "flexible",
+        "agreeable",
+        "open-minded"
+      ],
+      "collocations": [
+        "stubborn person",
+        "stubborn about",
+        "stubborn refusal"
+      ],
+      "wordFamily": [
+        "stubbornness (n)",
+        "stubbornly (adv)"
+      ],
+      "coreMeaning": "اصرار بر نظر خود و حاضر نبودن به تغییر",
+      "note": "stubborn می‌تواند منفی (لجباز) یا مثبت (مصمم) باشد",
+      "trap": "با strong-willed (قوی‌اراده) تفاوت دارد؛ stubborn معمولاً بار منفی دارد",
+      "tags": [
+        "B1",
+        "personality",
+        "character"
+      ]
+    },
+    {
+      "word": "humble",
+      "translation": "متواضع، فروتن",
+      "ipa": "/ˈhʌmbəl/",
+      "partOfSpeech": "adjective",
+      "example": "Despite his success, he remains humble and kind.",
+      "definitions": [
+        "having a modest or low view of one's importance; not arrogant"
+      ],
+      "synonyms": [
+        "modest",
+        "unassuming",
+        "down-to-earth"
+      ],
+      "antonyms": [
+        "arrogant",
+        "proud",
+        "conceited"
+      ],
+      "collocations": [
+        "stay humble",
+        "humble beginnings",
+        "humble opinion"
+      ],
+      "wordFamily": [
+        "humility (n)",
+        "humbly (adv)"
+      ],
+      "coreMeaning": "فروتنی و نداشتن غرور بی‌جا",
+      "note": "humble beginnings = شروع‌های ساده و فروتنانه",
+      "trap": "humble brag = تواضع ظاهری برای خودنمایی؛ اصطلاح رایج",
+      "tags": [
+        "B1",
+        "personality",
+        "character"
+      ]
+    },
+    {
+      "word": "arrogant",
+      "translation": "متکبر، مغرور",
+      "ipa": "/ˈærəɡənt/",
+      "partOfSpeech": "adjective",
+      "example": "His arrogant attitude made him unpopular.",
+      "definitions": [
+        "having an exaggerated sense of one's own importance or abilities"
+      ],
+      "synonyms": [
+        "conceited",
+        "haughty",
+        "pompous"
+      ],
+      "antonyms": [
+        "humble",
+        "modest",
+        "unassuming"
+      ],
+      "collocations": [
+        "arrogant attitude",
+        "arrogant person",
+        "come across as arrogant"
+      ],
+      "wordFamily": [
+        "arrogance (n)",
+        "arrogantly (adv)"
+      ],
+      "coreMeaning": "غرور و تکبر بیش از حد و نگاه بالا به پایین به دیگران",
+      "note": "arrogant شدیدتر از proud است و همیشه بار منفی دارد",
+      "trap": "با confident (خودباور) اشتباه نگیرید؛ arrogant بیش از حد و منفی است",
+      "tags": [
+        "B1",
+        "personality",
+        "character"
+      ]
+    },
+    {
+      "word": "compassionate",
+      "translation": "دلسوز، مهربان",
+      "ipa": "/kəmˈpæʃənət/",
+      "partOfSpeech": "adjective",
+      "example": "A compassionate nurse comforted the patient.",
+      "definitions": [
+        "feeling or showing sympathy and concern for others' suffering"
+      ],
+      "synonyms": [
+        "caring",
+        "empathetic",
+        "sympathetic"
+      ],
+      "antonyms": [
+        "callous",
+        "indifferent",
+        "heartless"
+      ],
+      "collocations": [
+        "compassionate person",
+        "compassionate care",
+        "deeply compassionate"
+      ],
+      "wordFamily": [
+        "compassion (n)",
+        "compassionately (adv)"
+      ],
+      "coreMeaning": "احساس دلسوزی و همدردی عمیق با رنج دیگران",
+      "note": "compassion از ریشه لاتین 'رنج با هم' می‌آید",
+      "trap": "با sympathetic تفاوت دارد؛ compassionate فعال‌تر و عمیق‌تر است",
+      "tags": [
+        "B1",
+        "personality",
+        "emotions"
+      ]
+    },
+    {
+      "word": "sensitive",
+      "translation": "حساس، زودرنج",
+      "ipa": "/ˈsɛnsɪtɪv/",
+      "partOfSpeech": "adjective",
+      "example": "She is very sensitive to criticism.",
+      "definitions": [
+        "easily affected by emotional or physical stimuli; quick to detect changes"
+      ],
+      "synonyms": [
+        "perceptive",
+        "responsive",
+        "delicate"
+      ],
+      "antonyms": [
+        "insensitive",
+        "thick-skinned",
+        "numb"
+      ],
+      "collocations": [
+        "sensitive to",
+        "highly sensitive",
+        "sensitive topic"
+      ],
+      "wordFamily": [
+        "sensitivity (n)",
+        "insensitive (adj)",
+        "sensitively (adv)"
+      ],
+      "coreMeaning": "واکنش سریع و شدید به احساسات یا تغییرات",
+      "note": "sensitive هم مثبت (حساس و باهوش) و هم منفی (زودرنج) است",
+      "trap": "با sensible (عاقلانه) اشتباه نگیرید؛ معنای کاملاً متفاوتی دارد",
+      "tags": [
+        "B1",
+        "personality",
+        "emotions"
+      ]
+    },
+    {
+      "word": "empathy",
+      "translation": "همدلی",
+      "ipa": "/ˈɛmpəθi/",
+      "partOfSpeech": "noun",
+      "example": "Good leaders show empathy toward their team members.",
+      "definitions": [
+        "the ability to understand and share the feelings of another person"
+      ],
+      "synonyms": [
+        "compassion",
+        "understanding",
+        "sensitivity"
+      ],
+      "antonyms": [
+        "apathy",
+        "indifference",
+        "insensitivity"
+      ],
+      "collocations": [
+        "show empathy",
+        "feel empathy",
+        "lack of empathy"
+      ],
+      "wordFamily": [
+        "empathize (v)",
+        "empathetic (adj)"
+      ],
+      "coreMeaning": "توانایی درک و احساس کردن آنچه دیگران احساس می‌کنند",
+      "note": "empathy با sympathy فرق دارد: empathy یعنی خودتان هم احساس کنید",
+      "trap": "empathy (درک احساس) ≠ sympathy (اظهار تأسف)؛ تفاوت مهمی است",
+      "tags": [
+        "B1",
+        "emotions",
+        "psychology"
+      ]
+    },
+    {
+      "word": "affection",
+      "translation": "محبت، علاقه",
+      "ipa": "/əˈfɛkʃən/",
+      "partOfSpeech": "noun",
+      "example": "She showed great affection for her grandchildren.",
+      "definitions": [
+        "a gentle feeling of fondness or liking"
+      ],
+      "synonyms": [
+        "fondness",
+        "love",
+        "devotion"
+      ],
+      "antonyms": [
+        "hatred",
+        "dislike",
+        "animosity"
+      ],
+      "collocations": [
+        "show affection",
+        "deep affection",
+        "affection for"
+      ],
+      "wordFamily": [
+        "affect (v)",
+        "affectionate (adj)",
+        "affectionately (adv)"
+      ],
+      "coreMeaning": "احساس محبت و علاقه ملایم و پایدار",
+      "note": "affection ملایم‌تر از love است و برای خانواده و دوستان استفاده می‌شود",
+      "trap": "با effect (اثر) اشتباه نگیرید؛ affection ≠ effect",
+      "tags": [
+        "B1",
+        "emotions",
+        "relationships"
+      ]
+    },
+    {
+      "word": "attraction",
+      "translation": "جذابیت، کشش",
+      "ipa": "/əˈtrækʃən/",
+      "partOfSpeech": "noun",
+      "example": "There was an immediate attraction between them.",
+      "definitions": [
+        "the action or power of evoking interest, pleasure, or liking"
+      ],
+      "synonyms": [
+        "appeal",
+        "charm",
+        "magnetism"
+      ],
+      "antonyms": [
+        "repulsion",
+        "disgust",
+        "aversion"
+      ],
+      "collocations": [
+        "physical attraction",
+        "tourist attraction",
+        "mutual attraction"
+      ],
+      "wordFamily": [
+        "attract (v)",
+        "attractive (adj)",
+        "unattractive (adj)"
+      ],
+      "coreMeaning": "کشش و جذب شدن به شخص یا چیزی",
+      "note": "attraction هم برای احساسات بین افراد و هم برای جاذبه‌های گردشگری استفاده می‌شود",
+      "trap": "با attention (توجه) اشتباه نگیرید؛ attraction کشش عمیق‌تری است",
+      "tags": [
+        "B1",
+        "relationships",
+        "emotions"
+      ]
+    },
+    {
+      "word": "commitment",
+      "translation": "تعهد، پایبندی",
+      "ipa": "/kəˈmɪtmənt/",
+      "partOfSpeech": "noun",
+      "example": "Marriage requires commitment from both partners.",
+      "definitions": [
+        "the state of being dedicated to a cause, activity, or relationship"
+      ],
+      "synonyms": [
+        "dedication",
+        "devotion",
+        "pledge"
+      ],
+      "antonyms": [
+        "indifference",
+        "neglect",
+        "apathy"
+      ],
+      "collocations": [
+        "make a commitment",
+        "show commitment",
+        "long-term commitment"
+      ],
+      "wordFamily": [
+        "commit (v)",
+        "committed (adj)",
+        "uncommitted (adj)"
+      ],
+      "coreMeaning": "تعهد و پایبندی به یک رابطه، هدف یا وظیفه",
+      "note": "commitment to something — حتماً با to استفاده می‌شود",
+      "trap": "با committal (ارجاع به دادگاه) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "relationships",
+        "personality"
+      ]
+    },
+    {
+      "word": "trust",
+      "translation": "اعتماد",
+      "ipa": "/trʌst/",
+      "partOfSpeech": "noun/verb",
+      "example": "Trust is the foundation of any good relationship.",
+      "definitions": [
+        "firm belief in the reliability, truth, or ability of someone or something"
+      ],
+      "synonyms": [
+        "faith",
+        "confidence",
+        "reliance"
+      ],
+      "antonyms": [
+        "distrust",
+        "suspicion",
+        "doubt"
+      ],
+      "collocations": [
+        "build trust",
+        "trust in",
+        "earn trust",
+        "betray trust"
+      ],
+      "wordFamily": [
+        "trust (n/v)",
+        "trustworthy (adj)",
+        "distrust (n/v)"
+      ],
+      "coreMeaning": "اعتماد و اطمینان به قابلیت و صداقت کسی",
+      "note": "trust in someone (اعتماد به کسی) — trust someone with something (اطمینان به کسی درباره چیزی)",
+      "trap": "trust به عنوان فعل نیاز به to ندارد: I trust him (نه I trust to him)",
+      "tags": [
+        "B1",
+        "relationships",
+        "emotions"
+      ]
+    },
+    {
+      "word": "betrayal",
+      "translation": "خیانت",
+      "ipa": "/bɪˈtreɪəl/",
+      "partOfSpeech": "noun",
+      "example": "The betrayal of trust can destroy a friendship.",
+      "definitions": [
+        "the action of being disloyal or treacherous to someone who trusts you"
+      ],
+      "synonyms": [
+        "treachery",
+        "disloyalty",
+        "deception"
+      ],
+      "antonyms": [
+        "loyalty",
+        "faithfulness",
+        "devotion"
+      ],
+      "collocations": [
+        "sense of betrayal",
+        "ultimate betrayal",
+        "betrayal of trust"
+      ],
+      "wordFamily": [
+        "betray (v)",
+        "betrayer (n)"
+      ],
+      "coreMeaning": "نقض اعتماد و وفاداری توسط کسی که به او اعتماد داشتید",
+      "note": "betrayal معمولاً دردناک‌ترین تجربه در روابط است",
+      "trap": "با treason (خیانت به کشور) اشتباه نگیرید؛ betrayal بیشتر شخصی است",
+      "tags": [
+        "B1",
+        "relationships",
+        "emotions"
+      ]
+    },
+    {
+      "word": "forgiveness",
+      "translation": "بخشش، عفو",
+      "ipa": "/fərˈɡɪvnəs/",
+      "partOfSpeech": "noun",
+      "example": "Forgiveness is not always easy, but it is necessary.",
+      "definitions": [
+        "the action of forgiving someone; the act of pardoning an offense"
+      ],
+      "synonyms": [
+        "pardon",
+        "mercy",
+        "absolution"
+      ],
+      "antonyms": [
+        "resentment",
+        "vengeance",
+        "grudge"
+      ],
+      "collocations": [
+        "ask for forgiveness",
+        "seek forgiveness",
+        "power of forgiveness"
+      ],
+      "wordFamily": [
+        "forgive (v)",
+        "forgiving (adj)",
+        "unforgiving (adj)"
+      ],
+      "coreMeaning": "عمل بخشیدن کسی که اشتباهی مرتکب شده",
+      "note": "forgiveness فرآیندی است که بیشتر به نفع خود بخشاینده است",
+      "trap": "با apology (عذرخواهی) اشتباه نگیرید؛ forgiveness بخشیدن است، نه عذرخواهی",
+      "tags": [
+        "B1",
+        "relationships",
+        "emotions"
+      ]
+    },
+    {
+      "word": "conflict",
+      "translation": "تعارض، اختلاف",
+      "ipa": "/ˈkɒnflɪkt/",
+      "partOfSpeech": "noun",
+      "example": "There was a conflict between the two coworkers.",
+      "definitions": [
+        "a serious disagreement or argument; a clash between opposing forces"
+      ],
+      "synonyms": [
+        "dispute",
+        "clash",
+        "disagreement"
+      ],
+      "antonyms": [
+        "agreement",
+        "harmony",
+        "peace"
+      ],
+      "collocations": [
+        "resolve a conflict",
+        "conflict with",
+        "inner conflict"
+      ],
+      "wordFamily": [
+        "conflict (n/v)",
+        "conflicting (adj)"
+      ],
+      "coreMeaning": "اختلاف نظر یا تقابل بین دو طرف",
+      "note": "conflict هم اسم و هم فعل است؛ تلفظ متفاوت: noun=/ˈkɒnflɪkt/ verb=/kənˈflɪkt/",
+      "trap": "تفاوت تلفظ اسم و فعل را یاد بگیرید: stress روی هجای اول (اسم) vs دوم (فعل)",
+      "tags": [
+        "B1",
+        "relationships",
+        "psychology"
+      ]
+    },
+    {
+      "word": "compromise",
+      "translation": "مصالحه، سازش",
+      "ipa": "/ˈkɒmprəmaɪz/",
+      "partOfSpeech": "noun/verb",
+      "example": "They reached a compromise after hours of negotiation.",
+      "definitions": [
+        "an agreement by which each side gives up something; to settle by mutual concession"
+      ],
+      "synonyms": [
+        "settlement",
+        "concession",
+        "agreement"
+      ],
+      "antonyms": [
+        "disagreement",
+        "stubbornness",
+        "inflexibility"
+      ],
+      "collocations": [
+        "reach a compromise",
+        "make a compromise",
+        "willing to compromise"
+      ],
+      "wordFamily": [
+        "compromise (n/v)"
+      ],
+      "coreMeaning": "توافق از طریق کوتاه آمدن هر دو طرف",
+      "note": "compromise در روابط ضروری است اما نباید همیشه یک طرف کوتاه بیاید",
+      "trap": "با comprise (شامل بودن) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "relationships",
+        "psychology"
+      ]
+    },
+    {
+      "word": "intimacy",
+      "translation": "صمیمیت، نزدیکی",
+      "ipa": "/ˈɪntɪməsi/",
+      "partOfSpeech": "noun",
+      "example": "Emotional intimacy is just as important as physical closeness.",
+      "definitions": [
+        "close familiarity or friendship; a private, close personal relationship"
+      ],
+      "synonyms": [
+        "closeness",
+        "familiarity",
+        "affection"
+      ],
+      "antonyms": [
+        "distance",
+        "detachment",
+        "estrangement"
+      ],
+      "collocations": [
+        "emotional intimacy",
+        "build intimacy",
+        "lack of intimacy"
+      ],
+      "wordFamily": [
+        "intimate (adj)",
+        "intimately (adv)"
+      ],
+      "coreMeaning": "نزدیکی و صمیمیت عمیق بین دو نفر",
+      "note": "intimacy فقط جنسی نیست؛ emotional intimacy به همان اندازه مهم است",
+      "trap": "با privacy (حریم خصوصی) اشتباه نگیرید؛ intimacy نزدیکی مثبت است",
+      "tags": [
+        "B1",
+        "relationships",
+        "emotions"
+      ]
+    },
+    {
+      "word": "behavior",
+      "translation": "رفتار",
+      "ipa": "/bɪˈheɪvjər/",
+      "partOfSpeech": "noun",
+      "example": "His behavior at the meeting was unacceptable.",
+      "definitions": [
+        "the way in which one acts or conducts oneself"
+      ],
+      "synonyms": [
+        "conduct",
+        "manner",
+        "actions"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "good behavior",
+        "behavior pattern",
+        "change behavior"
+      ],
+      "wordFamily": [
+        "behave (v)",
+        "behavioral (adj)"
+      ],
+      "coreMeaning": "نحوه عملکرد و رفتار یک فرد",
+      "note": "در انگلیسی بریتانیسی behaviour نوشته می‌شود",
+      "trap": "املای آمریکایی behavior بدون u است؛ بریتانیسی behaviour با u",
+      "tags": [
+        "B1",
+        "psychology",
+        "personality"
+      ]
+    },
+    {
+      "word": "attitude",
+      "translation": "نگرش، طرز فکر",
+      "ipa": "/ˈætɪtuːd/",
+      "partOfSpeech": "noun",
+      "example": "She has a positive attitude toward life.",
+      "definitions": [
+        "a settled way of thinking or feeling about something"
+      ],
+      "synonyms": [
+        "outlook",
+        "mindset",
+        "disposition"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "positive attitude",
+        "change attitude",
+        "attitude toward"
+      ],
+      "wordFamily": [
+        "attitudinal (adj)"
+      ],
+      "coreMeaning": "نگرش و طرز فکر فرد نسبت به موضوعات",
+      "note": "attitude toward (آمریکایی) / attitude towards (بریتانیایی)",
+      "trap": "با altitude (ارتفاع) اشتباه نگیرید؛ تلفظ مشابه ولی معنا متفاوت",
+      "tags": [
+        "B1",
+        "psychology",
+        "personality"
+      ]
+    },
+    {
+      "word": "perception",
+      "translation": "ادراک، برداشت",
+      "ipa": "/pərˈsɛpʃən/",
+      "partOfSpeech": "noun",
+      "example": "Public perception of the company changed after the scandal.",
+      "definitions": [
+        "the ability to see, hear, or become aware of something; a way of regarding something"
+      ],
+      "synonyms": [
+        "awareness",
+        "understanding",
+        "interpretation"
+      ],
+      "antonyms": [
+        "ignorance",
+        "obliviousness"
+      ],
+      "collocations": [
+        "public perception",
+        "change perception",
+        "perception of"
+      ],
+      "wordFamily": [
+        "perceive (v)",
+        "perceptive (adj)"
+      ],
+      "coreMeaning": "نحوه درک و تفسیر واقعیت توسط فرد",
+      "note": "perception ذهنی است و ممکن است با واقعیت متفاوت باشد",
+      "trap": "با reception (پذیرش) اشتباه نگیرید؛ perception درک ذهنی است",
+      "tags": [
+        "B1",
+        "psychology",
+        "personality"
+      ]
+    },
+    {
+      "word": "motivation",
+      "translation": "انگیزه، محرک",
+      "ipa": "/ˌmoʊtɪˈveɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "His motivation for studying hard was to get into a good university.",
+      "definitions": [
+        "the reason or reasons for acting in a particular way; enthusiasm for doing something"
+      ],
+      "synonyms": [
+        "drive",
+        "incentive",
+        "inspiration"
+      ],
+      "antonyms": [
+        "apathy",
+        "indifference",
+        "discouragement"
+      ],
+      "collocations": [
+        "lack motivation",
+        "find motivation",
+        "motivation behind"
+      ],
+      "wordFamily": [
+        "motivate (v)",
+        "motivated (adj)",
+        "motivational (adj)"
+      ],
+      "coreMeaning": "نیروی درونی یا بیرونی که انسان را به عمل وامی‌دارد",
+      "note": "motivation می‌تواند درونی (علاقه) یا بیرونی (پاداش) باشد",
+      "trap": "با emotion (احساس) اشتباه نگیرید؛ motivation انگیزه است، نه احساس",
+      "tags": [
+        "B1",
+        "psychology",
+        "personality"
+      ]
+    },
+    {
+      "word": "instinct",
+      "translation": "غریزه، نهاد",
+      "ipa": "/ˈɪnstɪŋkt/",
+      "partOfSpeech": "noun",
+      "example": "Her instinct told her something was wrong.",
+      "definitions": [
+        "an innate, typically fixed pattern of behavior; a natural feeling"
+      ],
+      "synonyms": [
+        "intuition",
+        "impulse",
+        "urge"
+      ],
+      "antonyms": [
+        "reason",
+        "logic",
+        "deliberation"
+      ],
+      "collocations": [
+        "natural instinct",
+        "maternal instinct",
+        "trust your instinct"
+      ],
+      "wordFamily": [
+        "instinctive (adj)",
+        "instinctively (adv)"
+      ],
+      "coreMeaning": "رفتار ذاتی و طبیعی که نیاز به آموزش ندارد",
+      "note": "instinct غریزی و ذاتی است؛ intuition شهودی و اکتسابی",
+      "trap": "با intuition (شهود) اشتباه نگیرید؛ instinct ذاتی، intuition اکتسابی",
+      "tags": [
+        "B1",
+        "psychology",
+        "personality"
+      ]
+    },
+    {
+      "word": "conscience",
+      "translation": "وجدان",
+      "ipa": "/ˈkɒnʃəns/",
+      "partOfSpeech": "noun",
+      "example": "His conscience wouldn't let him lie.",
+      "definitions": [
+        "an inner feeling acting as a guide to the rightness or wrongness of one's behavior"
+      ],
+      "synonyms": [
+        "morality",
+        "sense of right",
+        "scruples"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "guilty conscience",
+        "clear conscience",
+        "prick of conscience"
+      ],
+      "wordFamily": [
+        "conscientious (adj)"
+      ],
+      "coreMeaning": "احساس درونی تشخیص درست از غلط",
+      "note": "conscience با conscious (هوشیار) هم‌ریشه ولی معنای متفاوت دارد",
+      "trap": "با conscious (هوشیار) و consciousness (آگاهی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "psychology",
+        "personality"
+      ]
+    },
+    {
+      "word": "subconscious",
+      "translation": "ناخودآگاه",
+      "ipa": "/ˌsʌbˈkɒnʃəs/",
+      "partOfSpeech": "adjective/noun",
+      "example": "The subconscious mind influences our daily decisions.",
+      "definitions": [
+        "of or concerning the part of the mind not fully aware but influencing actions"
+      ],
+      "synonyms": [
+        "unconscious",
+        "inner mind",
+        "hidden mind"
+      ],
+      "antonyms": [
+        "conscious",
+        "aware",
+        "deliberate"
+      ],
+      "collocations": [
+        "subconscious mind",
+        "subconscious thought",
+        "subconscious desire"
+      ],
+      "wordFamily": [
+        "subconsciously (adv)"
+      ],
+      "coreMeaning": "بخشی از ذهن که بدون آگاهی بر رفتار تأثیر می‌گذارد",
+      "note": "subconscious بخشی از ذهن است که به آن دسترسی مستقیم نداریم",
+      "trap": "با unconscious (بیهوش) اشتباه نگیرید؛ subconscious ناخودآگاه ذهنی است",
+      "tags": [
+        "B1",
+        "psychology"
+      ]
+    },
+    {
+      "word": "appreciate",
+      "translation": "قدردانی کردن",
+      "ipa": "/əˈpriːʃieɪt/",
+      "partOfSpeech": "verb",
+      "example": "I really appreciate your help with the project.",
+      "definitions": [
+        "to recognize the full worth of; to be grateful for something"
+      ],
+      "synonyms": [
+        "value",
+        "cherish",
+        "be grateful for"
+      ],
+      "antonyms": [
+        "depreciate",
+        "undervalue",
+        "disregard"
+      ],
+      "collocations": [
+        "appreciate help",
+        "deeply appreciate",
+        "appreciate the value"
+      ],
+      "wordFamily": [
+        "appreciation (n)",
+        "appreciative (adj)"
+      ],
+      "coreMeaning": "شناخت ارزش و قدردانی از چیزی یا کسی",
+      "note": "appreciate هم به معنای قدردانی و هم بالا رفتن ارزش (قیمت) است",
+      "trap": "با approximate (تقریبی) اشتباه نگیرید؛ تلفظ و معنا متفاوت",
+      "tags": [
+        "B1",
+        "emotions",
+        "relationships"
+      ]
+    },
+    {
+      "word": "tolerate",
+      "translation": "تحمل کردن",
+      "ipa": "/ˈtɒləreɪt/",
+      "partOfSpeech": "verb",
+      "example": "I can't tolerate rude behavior.",
+      "definitions": [
+        "to allow the existence of something without interference; to endure something unpleasant"
+      ],
+      "synonyms": [
+        "endure",
+        "bear",
+        "put up with"
+      ],
+      "antonyms": [
+        "reject",
+        "refuse",
+        "intolerate"
+      ],
+      "collocations": [
+        "can't tolerate",
+        "tolerate pain",
+        "tolerate behavior"
+      ],
+      "wordFamily": [
+        "tolerance (n)",
+        "tolerant (adj)",
+        "intolerant (adj)"
+      ],
+      "coreMeaning": "تحمل و صبر در برابر چیزی ناخوشایند",
+      "note": "tolerate بیشتر منفعلانه است؛ accept فعال‌تر و مثبت‌تر",
+      "trap": "با accept (پذیرش) اشتباه نگیرید؛ tolerate بار منفی دارد",
+      "tags": [
+        "B1",
+        "emotions",
+        "relationships"
+      ]
+    },
+    {
+      "word": "forgive",
+      "translation": "بخشیدن",
+      "ipa": "/fərˈɡɪv/",
+      "partOfSpeech": "verb",
+      "example": "It took her a long time to forgive him for what he did.",
+      "definitions": [
+        "to stop feeling angry or resentful toward someone for an offense"
+      ],
+      "synonyms": [
+        "pardon",
+        "excuse",
+        "absolve"
+      ],
+      "antonyms": [
+        "blame",
+        "resent",
+        "hold a grudge"
+      ],
+      "collocations": [
+        "forgive someone for",
+        "hard to forgive",
+        "easily forgive"
+      ],
+      "wordFamily": [
+        "forgiveness (n)",
+        "forgiving (adj)",
+        "unforgivable (adj)"
+      ],
+      "coreMeaning": "رهایی از خشم و کینه نسبت به کسی که اشتباه کرده",
+      "note": "forgive someone for something — حتماً با for استفاده می‌شود",
+      "trap": "با forget (فراموش کردن) اشتباه نگیرید؛ forgive بخشیدن است، forget فراموشی",
+      "tags": [
+        "B1",
+        "emotions",
+        "relationships"
+      ]
+    },
+    {
+      "word": "betray",
+      "translation": "خیانت کردن",
+      "ipa": "/bɪˈtreɪ/",
+      "partOfSpeech": "verb",
+      "example": "He betrayed his friend's trust by sharing the secret.",
+      "definitions": [
+        "to be disloyal to; to reveal or deliver to an enemy by treachery"
+      ],
+      "synonyms": [
+        "deceive",
+        "double-cross",
+        "be disloyal to"
+      ],
+      "antonyms": [
+        "support",
+        "defend",
+        "be loyal to"
+      ],
+      "collocations": [
+        "betray trust",
+        "betray a friend",
+        "betray one's country"
+      ],
+      "wordFamily": [
+        "betrayal (n)",
+        "betrayer (n)"
+      ],
+      "coreMeaning": "نقض اعتماد و وفاداری نسبت به کسی",
+      "note": "betray هم برای خیانت شخصی و هم خیانت ملی استفاده می‌شود",
+      "trap": "با portray (تصویر کردن) اشتباه نگیرید؛ تلفظ مشابه ولی معنا متفاوت",
+      "tags": [
+        "B1",
+        "relationships",
+        "emotions"
+      ]
+    },
+    {
+      "word": "admire",
+      "translation": "تحسین کردن",
+      "ipa": "/ədˈmaɪər/",
+      "partOfSpeech": "verb",
+      "example": "I admire her courage and determination.",
+      "definitions": [
+        "to regard with respect and warm approval"
+      ],
+      "synonyms": [
+        "respect",
+        "esteem",
+        "look up to"
+      ],
+      "antonyms": [
+        "despise",
+        "scorn",
+        "look down on"
+      ],
+      "collocations": [
+        "admire someone for",
+        "greatly admire",
+        "admire the view"
+      ],
+      "wordFamily": [
+        "admiration (n)",
+        "admirable (adj)",
+        "admirer (n)"
+      ],
+      "coreMeaning": "نگاه با احترام و تحسین به کسی یا چیزی",
+      "note": "admire someone for something — حتماً با for استفاده می‌شود",
+      "trap": "با admit (اعتراف کردن) اشتباه نگیرید؛ admire تحسین است",
+      "tags": [
+        "B1",
+        "emotions",
+        "relationships"
+      ]
+    },
+    {
+      "word": "despise",
+      "translation": "از صمیم قلب متنفر بودن",
+      "ipa": "/dɪˈspaɪz/",
+      "partOfSpeech": "verb",
+      "example": "She despises people who lie.",
+      "definitions": [
+        "to feel contempt or a deep repugnance for"
+      ],
+      "synonyms": [
+        "loathe",
+        "detest",
+        "scorn"
+      ],
+      "antonyms": [
+        "admire",
+        "respect",
+        "love"
+      ],
+      "collocations": [
+        "despise someone for",
+        "utterly despise"
+      ],
+      "wordFamily": [
+        "despicable (adj)",
+        "despite (prep)"
+      ],
+      "coreMeaning": "احساس تنفر عمیق و تحقیر نسبت به کسی یا چیزی",
+      "note": "despise شدیدتر از hate است و شامل تحقیر هم می‌شود",
+      "trap": "با despite (علی‌رغم) اشتباه نگیرید؛ despise فعل، despite حرف اضافه",
+      "tags": [
+        "B1",
+        "emotions",
+        "relationships"
+      ]
+    },
+    {
+      "word": "envy",
+      "translation": "حسادت، رشک",
+      "ipa": "/ˈɛnvi/",
+      "partOfSpeech": "noun/verb",
+      "example": "She couldn't hide her envy when she saw their new house.",
+      "definitions": [
+        "a feeling of discontent aroused by someone else's possessions or qualities"
+      ],
+      "synonyms": [
+        "jealousy",
+        "covetousness",
+        "resentment"
+      ],
+      "antonyms": [
+        "admiration",
+        "contentment",
+        "generosity"
+      ],
+      "collocations": [
+        "feel envy",
+        "envy of",
+        "green with envy"
+      ],
+      "wordFamily": [
+        "envious (adj)",
+        "enviously (adv)"
+      ],
+      "coreMeaning": "احساس ناخوشایند نسبت به دارایی یا موفقیت دیگران",
+      "note": "envy وقتی چیزی می‌خواهید که دیگری دارد؛ jealousy وقتی چیزی دارید که نگران از دست دادنش هستید",
+      "trap": "envy و jealousy متفاوت‌اند: envy آرزوی داشتن، jealousy ترس از دست دادن",
+      "tags": [
+        "B1",
+        "emotions",
+        "relationships"
+      ]
+    },
+    {
+      "word": "grief",
+      "translation": "اندوه، غم از دست دادن",
+      "ipa": "/ɡriːf/",
+      "partOfSpeech": "noun",
+      "example": "She was overcome with grief after her mother's death.",
+      "definitions": [
+        "deep sorrow, especially caused by someone's death"
+      ],
+      "synonyms": [
+        "sorrow",
+        "mourning",
+        "heartache"
+      ],
+      "antonyms": [
+        "joy",
+        "happiness",
+        "delight"
+      ],
+      "collocations": [
+        "overcome with grief",
+        "deep grief",
+        "process grief"
+      ],
+      "wordFamily": [
+        "grieve (v)",
+        "grievous (adj)"
+      ],
+      "coreMeaning": "غم و اندوه عمیق معمولاً ناشی از از دست دادن عزیزان",
+      "note": "grief معمولاً با مرگ مرتبط است اما برای هر فقدان بزرگی استفاده می‌شود",
+      "trap": "با brief (کوتاه) اشتباه نگیرید؛ تلفظ مشابه ولی معنا متفاوت",
+      "tags": [
+        "B1",
+        "emotions",
+        "psychology"
+      ]
+    },
+    {
+      "word": "loneliness",
+      "translation": "تنهایی، احساس انزوا",
+      "ipa": "/ˈloʊnlinəs/",
+      "partOfSpeech": "noun",
+      "example": "Loneliness can have serious effects on mental health.",
+      "definitions": [
+        "sadness because one has no friends or company"
+      ],
+      "synonyms": [
+        "isolation",
+        "solitude",
+        "desolation"
+      ],
+      "antonyms": [
+        "companionship",
+        "togetherness",
+        "belonging"
+      ],
+      "collocations": [
+        "feel loneliness",
+        "sense of loneliness",
+        "combat loneliness"
+      ],
+      "wordFamily": [
+        "lonely (adj)",
+        "lone (adj)"
+      ],
+      "coreMeaning": "احساس تنهایی و نداشتن همراه یا ارتباط",
+      "note": "loneliness احساس منفی است؛ solitude (تنهایی انتخابی) می‌تواند مثبت باشد",
+      "trap": "loneliness (احساس بد) ≠ solitude (تنهایی انتخابی و آرامش‌بخش)",
+      "tags": [
+        "B1",
+        "emotions",
+        "psychology"
+      ]
+    },
+    {
+      "word": "self-esteem",
+      "translation": "عزت نفس",
+      "ipa": "/ˌsɛlf ɪˈstiːm/",
+      "partOfSpeech": "noun",
+      "example": "Low self-esteem can affect every aspect of your life.",
+      "definitions": [
+        "confidence in one's own worth or abilities; self-respect"
+      ],
+      "synonyms": [
+        "self-worth",
+        "self-confidence",
+        "self-respect"
+      ],
+      "antonyms": [
+        "self-doubt",
+        "insecurity",
+        "inferiority"
+      ],
+      "collocations": [
+        "build self-esteem",
+        "low self-esteem",
+        "boost self-esteem"
+      ],
+      "wordFamily": [
+        "esteem (n/v)"
+      ],
+      "coreMeaning": "ارزش‌گذاری فرد نسبت به خود و توانایی‌هایش",
+      "note": "self-esteem پایین می‌تواند منجر به افسردگی و اضطراب شود",
+      "trap": "با self-confidence (اعتماد به نفس) تفاوت دارد؛ self-esteem ارزش‌گذاری، self-confidence اعتماد",
+      "tags": [
+        "B1",
+        "psychology",
+        "personality"
+      ]
+    },
+    {
+      "word": "insecurity",
+      "translation": "ناامنی، بی‌اعتمادی به خود",
+      "ipa": "/ˌɪnsɪˈkjʊrəti/",
+      "partOfSpeech": "noun",
+      "example": "His insecurity made him jealous of her other friends.",
+      "definitions": [
+        "uncertainty or anxiety about oneself; lack of confidence"
+      ],
+      "synonyms": [
+        "self-doubt",
+        "uncertainty",
+        "vulnerability"
+      ],
+      "antonyms": [
+        "confidence",
+        "security",
+        "assurance"
+      ],
+      "collocations": [
+        "feel insecurity",
+        "deep insecurity",
+        "insecurity about"
+      ],
+      "wordFamily": [
+        "insecure (adj)",
+        "secure (adj)",
+        "security (n)"
+      ],
+      "coreMeaning": "احساس عدم اطمینان و بی‌اعتمادی نسبت به خود",
+      "note": "insecurity می‌تواند در روابط، کار، یا ظاهر باشد",
+      "trap": "با security (امنیت) اشتباه نگیرید؛ insecurity نقطه مقابل آن است",
+      "tags": [
+        "B1",
+        "psychology",
+        "emotions"
+      ]
+    },
+    {
+      "word": "vulnerable",
+      "translation": "آسیب‌پذیر، شکننده",
+      "ipa": "/ˈvʌlnərəbəl/",
+      "partOfSpeech": "adjective",
+      "example": "She felt vulnerable after sharing her deepest fears.",
+      "definitions": [
+        "susceptible to physical or emotional attack or harm"
+      ],
+      "synonyms": [
+        "exposed",
+        "defenseless",
+        "susceptible"
+      ],
+      "antonyms": [
+        "invulnerable",
+        "protected",
+        "strong"
+      ],
+      "collocations": [
+        "feel vulnerable",
+        "vulnerable to",
+        "emotionally vulnerable"
+      ],
+      "wordFamily": [
+        "vulnerability (n)",
+        "invulnerable (adj)"
+      ],
+      "coreMeaning": "آسیب‌پذیری و در معرض خطر بودن از نظر احساسی یا جسمی",
+      "note": "vulnerable بودن در روابط نشانه شجاعت است، نه ضعف",
+      "trap": "تلفظ: /ˈvʌlnərəbəl/ — حرف l دوم ساکت نیست",
+      "tags": [
+        "B1",
+        "emotions",
+        "psychology"
+      ]
+    },
+    {
+      "word": "resentment",
+      "translation": "رنجش، کینه",
+      "ipa": "/rɪˈzɛntmənt/",
+      "partOfSpeech": "noun",
+      "example": "Years of resentment had built up between them.",
+      "definitions": [
+        "bitter indignation at having been treated unfairly"
+      ],
+      "synonyms": [
+        "bitterness",
+        "grudge",
+        "ill will"
+      ],
+      "antonyms": [
+        "forgiveness",
+        "goodwill",
+        "acceptance"
+      ],
+      "collocations": [
+        "hold resentment",
+        "build up resentment",
+        "deep resentment"
+      ],
+      "wordFamily": [
+        "resent (v)",
+        "resentful (adj)"
+      ],
+      "coreMeaning": "احساس تلخ ناشی از بی‌عدالتی یا رفتار ناعادلانه",
+      "note": "resentment معمولاً به مرور زمان جمع می‌شود و انفجاری می‌شود",
+      "trap": "با resentment (رنجش) و resentment (احساس تلخ) اشتباه نگیرید؛ همان کلمه است",
+      "tags": [
+        "B1",
+        "emotions",
+        "relationships"
+      ]
+    },
+    {
+      "word": "sincerity",
+      "translation": "صداقت، خلوص نیت",
+      "ipa": "/sɪnˈsɛrəti/",
+      "partOfSpeech": "noun",
+      "example": "I appreciate the sincerity of your apology.",
+      "definitions": [
+        "the quality of being free from pretense, deceit, or hypocrisy"
+      ],
+      "synonyms": [
+        "honesty",
+        "genuineness",
+        "authenticity"
+      ],
+      "antonyms": [
+        "insincerity",
+        "hypocrisy",
+        "deceit"
+      ],
+      "collocations": [
+        "sincerity of",
+        "doubt sincerity",
+        "with sincerity"
+      ],
+      "wordFamily": [
+        "sincere (adj)",
+        "sincerely (adv)",
+        "insincere (adj)"
+      ],
+      "coreMeaning": "صداقت و خلوص نیت در رفتار و گفتار",
+      "note": "sincerely yours = با احترام — پایان نامه‌های رسمی",
+      "trap": "با severity (شدت) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "personality",
+        "relationships"
+      ]
+    },
+    {
+      "word": "courage",
+      "translation": "شجاعت، دلیری",
+      "ipa": "/ˈkʌrɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "It takes courage to stand up for what you believe in.",
+      "definitions": [
+        "the ability to do something that frightens one; bravery"
+      ],
+      "synonyms": [
+        "bravery",
+        "valor",
+        "boldness"
+      ],
+      "antonyms": [
+        "cowardice",
+        "fear",
+        "timidity"
+      ],
+      "collocations": [
+        "show courage",
+        "have courage",
+        "courage to do"
+      ],
+      "wordFamily": [
+        "courageous (adj)",
+        "courageously (adv)",
+        "discourage (v)"
+      ],
+      "coreMeaning": "توانایی عمل کردن علی‌رغم ترس",
+      "note": "courage نبودن ترس نیست؛ عمل کردن با وجود ترس است",
+      "trap": "با encourage (تشویق کردن) اشتباه نگیرید؛ encourage از courage مشتق شده",
+      "tags": [
+        "B1",
+        "personality",
+        "emotions"
+      ]
+    },
+    {
+      "word": "loyalty",
+      "translation": "وفاداری",
+      "ipa": "/ˈlɔɪəlti/",
+      "partOfSpeech": "noun",
+      "example": "Loyalty is an important quality in a friend.",
+      "definitions": [
+        "the quality of being loyal; faithfulness to commitments"
+      ],
+      "synonyms": [
+        "faithfulness",
+        "devotion",
+        "allegiance"
+      ],
+      "antonyms": [
+        "disloyalty",
+        "treachery",
+        "betrayal"
+      ],
+      "collocations": [
+        "show loyalty",
+        "loyalty to",
+        "undying loyalty"
+      ],
+      "wordFamily": [
+        "loyal (adj)",
+        "disloyal (adj)",
+        "loyally (adv)"
+      ],
+      "coreMeaning": "پایبندی و وفاداری به شخص، گروه یا اصول",
+      "note": "loyalty to someone/something — حتماً با to استفاده می‌شود",
+      "trap": "با royalty (خاندان سلطنتی) اشتباه نگیرید؛ تلفظ مشابه",
+      "tags": [
+        "B1",
+        "relationships",
+        "personality"
+      ]
+    },
+    {
+      "word": "harmony",
+      "translation": "هماهنگی، سازگاری",
+      "ipa": "/ˈhɑːrməni/",
+      "partOfSpeech": "noun",
+      "example": "They lived in harmony with their neighbors.",
+      "definitions": [
+        "the state of being in agreement or concord"
+      ],
+      "synonyms": [
+        "accord",
+        "unity",
+        "peace"
+      ],
+      "antonyms": [
+        "discord",
+        "conflict",
+        "disharmony"
+      ],
+      "collocations": [
+        "in harmony",
+        "live in harmony",
+        "harmony with"
+      ],
+      "wordFamily": [
+        "harmonious (adj)",
+        "harmonize (v)",
+        "disharmony (n)"
+      ],
+      "coreMeaning": "وضعیت توافق و سازگاری بین افراد یا عناصر",
+      "note": "in harmony with = در هماهنگی با — اصطلاح رایج",
+      "trap": "با ceremony (مراسم) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "relationships",
+        "psychology"
+      ]
+    },
+    {
+      "word": "denial",
+      "translation": "انکار، رد",
+      "ipa": "/dɪˈnaɪəl/",
+      "partOfSpeech": "noun",
+      "example": "He was in denial about his addiction.",
+      "definitions": [
+        "the action of declaring something to be untrue; refusal to accept reality"
+      ],
+      "synonyms": [
+        "rejection",
+        "refusal",
+        "disclaimer"
+      ],
+      "antonyms": [
+        "acceptance",
+        "acknowledgment",
+        "admission"
+      ],
+      "collocations": [
+        "in denial",
+        "flat denial",
+        "denial of"
+      ],
+      "wordFamily": [
+        "deny (v)",
+        "deniable (adj)"
+      ],
+      "coreMeaning": "نپذیرفتن واقعیت یا حقیقت",
+      "note": "in denial = در حالت انکار — اصطلاح روانشناسی رایج",
+      "trap": "با dental (دندانپزشکی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "psychology",
+        "emotions"
+      ]
+    },
+    {
+      "word": "obsession",
+      "translation": "وسواس فکری",
+      "ipa": "/əbˈsɛʃən/",
+      "partOfSpeech": "noun",
+      "example": "His obsession with perfection was exhausting.",
+      "definitions": [
+        "the state of being obsessed with someone or something"
+      ],
+      "synonyms": [
+        "fixation",
+        "compulsion",
+        "preoccupation"
+      ],
+      "antonyms": [
+        "indifference",
+        "apathy",
+        "disinterest"
+      ],
+      "collocations": [
+        "obsession with",
+        "become an obsession",
+        "unhealthy obsession"
+      ],
+      "wordFamily": [
+        "obsess (v)",
+        "obsessive (adj)",
+        "obsessed (adj)"
+      ],
+      "coreMeaning": "فکر مداوم و غیرقابل کنترل درباره چیزی یا کسی",
+      "note": "obsession with something — حتماً با with استفاده می‌شود",
+      "trap": "با possession (مالکیت) اشتباه نگیرید؛ obsession وسواس، possession دارایی",
+      "tags": [
+        "B1",
+        "psychology",
+        "emotions"
+      ]
+    },
+    {
+      "word": "mood",
+      "translation": "خلق و خو، حالت روحی",
+      "ipa": "/muːd/",
+      "partOfSpeech": "noun",
+      "example": "She's in a good mood today.",
+      "definitions": [
+        "a temporary state of mind or feeling"
+      ],
+      "synonyms": [
+        "temper",
+        "disposition",
+        "spirit"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "in a good mood",
+        "in a bad mood",
+        "mood swings"
+      ],
+      "wordFamily": [
+        "moody (adj)"
+      ],
+      "coreMeaning": "حالت روحی و احساسی موقت فرد",
+      "note": "mood swings = نوسانات خلقی — معمولاً نشانه مشکل روحی",
+      "trap": "با moon (ماه) اشتباه نگیرید؛ تلفظ مشابه ولی معنا متفاوت",
+      "tags": [
+        "B1",
+        "emotions",
+        "psychology"
+      ]
+    },
+    {
+      "word": "temper",
+      "translation": "عصبانیت، خشم کوتاه‌مدت",
+      "ipa": "/ˈtɛmpər/",
+      "partOfSpeech": "noun",
+      "example": "He has a terrible temper when things don't go his way.",
+      "definitions": [
+        "a person's state of mind in terms of being angry or calm"
+      ],
+      "synonyms": [
+        "anger",
+        "fury",
+        "irritability"
+      ],
+      "antonyms": [
+        "calm",
+        "patience",
+        "composure"
+      ],
+      "collocations": [
+        "lose your temper",
+        "short temper",
+        "keep your temper"
+      ],
+      "wordFamily": [
+        "temperament (n)",
+        "temperamental (adj)"
+      ],
+      "coreMeaning": "تمایل به عصبانیت و خشم",
+      "note": "lose your temper = عصبانی شدن — اصطلاح بسیار رایج",
+      "trap": "با temperature (دما) اشتباه نگیرید؛ temper خشم، temperature دما",
+      "tags": [
+        "B1",
+        "emotions",
+        "personality"
+      ]
+    },
+    {
+      "word": "sympathy",
+      "translation": "همدردی، تأسف",
+      "ipa": "/ˈsɪmpəθi/",
+      "partOfSpeech": "noun",
+      "example": "She expressed sympathy for the victims' families.",
+      "definitions": [
+        "feelings of pity and sorrow for someone else's misfortune"
+      ],
+      "synonyms": [
+        "compassion",
+        "pity",
+        "condolence"
+      ],
+      "antonyms": [
+        "indifference",
+        "apathy",
+        "antipathy"
+      ],
+      "collocations": [
+        "express sympathy",
+        "feel sympathy",
+        "sympathy for"
+      ],
+      "wordFamily": [
+        "sympathize (v)",
+        "sympathetic (adj)",
+        "unsympathetic (adj)"
+      ],
+      "coreMeaning": "احساس تأسف و همدردی برای مشکلات دیگران",
+      "note": "sympathy از بیرون نگاه می‌کنید؛ empathy خودتان هم احساس می‌کنید",
+      "trap": "sympathy (همدردی از بیرون) ≠ empathy (همدلی از درون)",
+      "tags": [
+        "B1",
+        "emotions",
+        "relationships"
+      ]
+    },
+    {
+      "word": "gratitude",
+      "translation": "سپاسگزاری، قدردانی",
+      "ipa": "/ˈɡrætɪtuːd/",
+      "partOfSpeech": "noun",
+      "example": "She expressed her gratitude with a heartfelt letter.",
+      "definitions": [
+        "the quality of being thankful; readiness to show appreciation"
+      ],
+      "synonyms": [
+        "thankfulness",
+        "appreciation",
+        "gratefulness"
+      ],
+      "antonyms": [
+        "ingratitude",
+        "ungratefulness"
+      ],
+      "collocations": [
+        "express gratitude",
+        "sense of gratitude",
+        "gratitude for"
+      ],
+      "wordFamily": [
+        "grateful (adj)",
+        "ungrateful (adj)"
+      ],
+      "coreMeaning": "احساس سپاسگزاری و قدردانی از لطف دیگران",
+      "note": "gratitude journal = دفتر سپاسگزاری — تکنیک روانشناسی مثبت",
+      "trap": "با attitude (نگرش) اشتباه نگیرید؛ gratitude سپاسگزاری است",
+      "tags": [
+        "B1",
+        "emotions",
+        "psychology"
+      ]
+    },
+    {
+      "word": "jealousy",
+      "translation": "حسادت",
+      "ipa": "/ˈdʒɛləsi/",
+      "partOfSpeech": "noun",
+      "example": "Jealousy can destroy even the strongest relationships.",
+      "definitions": [
+        "the state of being envious; feeling of resentment against someone"
+      ],
+      "synonyms": [
+        "envy",
+        "resentment",
+        "covetousness"
+      ],
+      "antonyms": [
+        "generosity",
+        "contentment",
+        "admiration"
+      ],
+      "collocations": [
+        "feel jealousy",
+        "jealousy over",
+        "consume with jealousy"
+      ],
+      "wordFamily": [
+        "jealous (adj)",
+        "jealously (adv)"
+      ],
+      "coreMeaning": "احساس حسادت و رقابت ناسالم نسبت به دیگران",
+      "note": "jealousy می‌تواند رابطه را نابود کند؛ باید مدیریت شود",
+      "trap": "jealousy (ترس از دست دادن) ≠ envy (آرزوی داشتن)",
+      "tags": [
+        "B1",
+        "emotions",
+        "relationships"
+      ]
+    },
+    {
+      "word": "embarrassment",
+      "translation": "شرمندگی، خجالت",
+      "ipa": "/ɪmˈbærəsmənt/",
+      "partOfSpeech": "noun",
+      "example": "To her embarrassment, she forgot his name.",
+      "definitions": [
+        "a feeling of self-consciousness, shame, or awkwardness"
+      ],
+      "synonyms": [
+        "shame",
+        "humiliation",
+        "mortification"
+      ],
+      "antonyms": [
+        "pride",
+        "confidence",
+        "composure"
+      ],
+      "collocations": [
+        "cause embarrassment",
+        "to one's embarrassment",
+        "public embarrassment"
+      ],
+      "wordFamily": [
+        "embarrass (v)",
+        "embarrassed (adj)",
+        "embarrassing (adj)"
+      ],
+      "coreMeaning": "احساس شرمندگی و خجالت در موقعیت ناخوشایند",
+      "note": "to one's embarrassment = به شرمندگی‌اش — اصطلاح رایج",
+      "trap": "با embarrass (فعل) و embarrassing (صفت علت) و embarrassed (صفت احساس) فرق دارد",
+      "tags": [
+        "B1",
+        "emotions",
+        "psychology"
+      ]
+    },
+    {
+      "word": "disappointment",
+      "translation": "ناامیدی، یأس",
+      "ipa": "/ˌdɪsəˈpɔɪntmənt/",
+      "partOfSpeech": "noun",
+      "example": "The cancellation of the trip was a great disappointment.",
+      "definitions": [
+        "sadness caused by the non-fulfillment of one's hopes"
+      ],
+      "synonyms": [
+        "letdown",
+        "disillusionment",
+        "discouragement"
+      ],
+      "antonyms": [
+        "satisfaction",
+        "delight",
+        "fulfillment"
+      ],
+      "collocations": [
+        "express disappointment",
+        "great disappointment",
+        "disappointment with"
+      ],
+      "wordFamily": [
+        "disappoint (v)",
+        "disappointed (adj)",
+        "disappointing (adj)"
+      ],
+      "coreMeaning": "احساس ناراحتی ناشی از برآورده نشدن انتظارات",
+      "note": "disappointment in someone (شخص)، disappointment with/about something (چیز)",
+      "trap": "با appointment (قرار ملاقات) اشتباه نگیرید؛ dis- پیشوند منفی‌ساز",
+      "tags": [
+        "B1",
+        "emotions",
+        "psychology"
+      ]
+    },
+    {
+      "word": "frustration",
+      "translation": "ناامیدی، سرخوردگی",
+      "ipa": "/frʌˈstreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "He expressed his frustration with the slow progress.",
+      "definitions": [
+        "the feeling of being upset as a result of being unable to achieve something"
+      ],
+      "synonyms": [
+        "exasperation",
+        "irritation",
+        "annoyance"
+      ],
+      "antonyms": [
+        "satisfaction",
+        "fulfillment",
+        "contentment"
+      ],
+      "collocations": [
+        "express frustration",
+        "frustration with",
+        "growing frustration"
+      ],
+      "wordFamily": [
+        "frustrate (v)",
+        "frustrated (adj)",
+        "frustrating (adj)"
+      ],
+      "coreMeaning": "احساس کلافگی ناشی از ناتوانی در رسیدن به هدف",
+      "note": "frustration with someone/something — حتماً با with استفاده می‌شود",
+      "trap": "با destruction (تخریب) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "emotions",
+        "psychology"
+      ]
+    },
+    {
+      "word": "anxiety",
+      "translation": "اضطراب، دلهره",
+      "ipa": "/æŋˈzaɪəti/",
+      "partOfSpeech": "noun",
+      "example": "Anxiety about the future is common among young people.",
+      "definitions": [
+        "a feeling of worry, nervousness, or unease about something uncertain"
+      ],
+      "synonyms": [
+        "worry",
+        "nervousness",
+        "unease"
+      ],
+      "antonyms": [
+        "calm",
+        "confidence",
+        "peace"
+      ],
+      "collocations": [
+        "feel anxiety",
+        "anxiety about",
+        "anxiety disorder"
+      ],
+      "wordFamily": [
+        "anxious (adj)",
+        "anxiously (adv)"
+      ],
+      "coreMeaning": "احساس نگرانی و اضطراب مداوم درباره آینده",
+      "note": "anxiety disorder = اختلال اضطراب — یک بیماری روانی جدی",
+      "trap": "با anger (خشم) اشتباه نگیرید؛ متفاوت‌اند",
+      "tags": [
+        "B1",
+        "emotions",
+        "psychology"
+      ]
+    },
+    {
+      "word": "passion",
+      "translation": "اشتیاق، شور",
+      "ipa": "/ˈpæʃən/",
+      "partOfSpeech": "noun",
+      "example": "She has a passion for music and art.",
+      "definitions": [
+        "strong and barely controllable emotion; intense enthusiasm"
+      ],
+      "synonyms": [
+        "enthusiasm",
+        "zeal",
+        "fervor"
+      ],
+      "antonyms": [
+        "apathy",
+        "indifference",
+        "disinterest"
+      ],
+      "collocations": [
+        "have a passion for",
+        "with passion",
+        "follow your passion"
+      ],
+      "wordFamily": [
+        "passionate (adj)",
+        "passionately (adv)",
+        "dispassionate (adj)"
+      ],
+      "coreMeaning": "احساس شدید و عمیق نسبت به چیزی که دوست دارید",
+      "note": "passion هم برای علاقه و هم برای عشق شدید استفاده می‌شود",
+      "trap": "با patience (صبر) اشتباه نگیرید؛ passion اشتیاق، patience صبر",
+      "tags": [
+        "B1",
+        "emotions",
+        "personality"
+      ]
+    },
+    {
+      "word": "devotion",
+      "translation": "فداکاری، وقف",
+      "ipa": "/dɪˈvoʊʃən/",
+      "partOfSpeech": "noun",
+      "example": "His devotion to his family was admirable.",
+      "definitions": [
+        "love, loyalty, or enthusiasm for a person, activity, or cause"
+      ],
+      "synonyms": [
+        "dedication",
+        "commitment",
+        "loyalty"
+      ],
+      "antonyms": [
+        "neglect",
+        "indifference",
+        "disloyalty"
+      ],
+      "collocations": [
+        "devotion to",
+        "show devotion",
+        "unwavering devotion"
+      ],
+      "wordFamily": [
+        "devote (v)",
+        "devoted (adj)"
+      ],
+      "coreMeaning": "عشق و وفاداری عمیق و پایدار نسبت به کسی یا چیزی",
+      "note": "devotion to someone/something — حتماً با to استفاده می‌شود",
+      "trap": "با emotion (احساس) اشتباه نگیرید؛ devotion فداکاری است",
+      "tags": [
+        "B1",
+        "emotions",
+        "relationships"
+      ]
+    },
+    {
+      "word": "admiration",
+      "translation": "تحسین، احترام",
+      "ipa": "/ˌædməˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "She looked at him with admiration.",
+      "definitions": [
+        "respect and warm approval"
+      ],
+      "synonyms": [
+        "respect",
+        "esteem",
+        "regard"
+      ],
+      "antonyms": [
+        "contempt",
+        "scorn",
+        "disdain"
+      ],
+      "collocations": [
+        "look with admiration",
+        "express admiration",
+        "admiration for"
+      ],
+      "wordFamily": [
+        "admire (v)",
+        "admirable (adj)",
+        "admirer (n)"
+      ],
+      "coreMeaning": "احساس احترام و تحسین نسبت به کسی یا چیزی",
+      "note": "admiration for someone — حتماً با for استفاده می‌شود",
+      "trap": "با administration (مدیریت) اشتباه نگیرید؛ admiration تحسین است",
+      "tags": [
+        "B1",
+        "emotions",
+        "relationships"
+      ]
+    },
+    {
+      "word": "hostility",
+      "translation": "خصومت، دشمنی",
+      "ipa": "/hɒˈstɪləti/",
+      "partOfSpeech": "noun",
+      "example": "There was obvious hostility between the two groups.",
+      "definitions": [
+        "unfriendly or aggressive feelings or behavior"
+      ],
+      "synonyms": [
+        "animosity",
+        "enmity",
+        "aggression"
+      ],
+      "antonyms": [
+        "friendliness",
+        "goodwill",
+        "amity"
+      ],
+      "collocations": [
+        "show hostility",
+        "hostility toward",
+        "open hostility"
+      ],
+      "wordFamily": [
+        "hostile (adj)",
+        "hostilely (adv)"
+      ],
+      "coreMeaning": "احساس دشمنی و خصومت آشکار",
+      "note": "hostility toward someone — حتماً با toward استفاده می‌شود",
+      "trap": "با hospitality (مهمان‌نوازی) اشتباه نگیرید؛ معنای کاملاً متضاد",
+      "tags": [
+        "B1",
+        "emotions",
+        "relationships"
+      ]
+    },
+    {
+      "word": "compassion",
+      "translation": "دلسوزی، شفقت",
+      "ipa": "/kəmˈpæʃən/",
+      "partOfSpeech": "noun",
+      "example": "She showed great compassion for the homeless.",
+      "definitions": [
+        "sympathetic pity and concern for the sufferings of others"
+      ],
+      "synonyms": [
+        "sympathy",
+        "empathy",
+        "mercy"
+      ],
+      "antonyms": [
+        "indifference",
+        "cruelty",
+        "heartlessness"
+      ],
+      "collocations": [
+        "show compassion",
+        "compassion for",
+        "act of compassion"
+      ],
+      "wordFamily": [
+        "compassionate (adj)",
+        "compassionately (adv)"
+      ],
+      "coreMeaning": "احساس دلسوزی عمیق و تمایل به کمک به رنج‌دیدگان",
+      "note": "compassion فعال‌تر از sympathy است؛ فقط احساس نیست، عمل هم هست",
+      "trap": "با passion (اشتیاق) اشتباه نگیرید؛ compassion دلسوزی است",
+      "tags": [
+        "B1",
+        "emotions",
+        "psychology"
+      ]
+    },
+    {
+      "word": "integrity",
+      "translation": "صداقت، درستکاری",
+      "ipa": "/ɪnˈtɛɡrəti/",
+      "partOfSpeech": "noun",
+      "example": "He is a man of integrity who always keeps his promises.",
+      "definitions": [
+        "the quality of being honest and having strong moral principles"
+      ],
+      "synonyms": [
+        "honesty",
+        "uprightness",
+        "honor"
+      ],
+      "antonyms": [
+        "dishonesty",
+        "corruption",
+        "deceit"
+      ],
+      "collocations": [
+        "personal integrity",
+        "lack integrity",
+        "man of integrity"
+      ],
+      "wordFamily": [
+        "integral (adj)",
+        "integrate (v)"
+      ],
+      "coreMeaning": "پایبندی به اصول اخلاقی و صداقت در همه شرایط",
+      "note": "integrity یعنی وقتی کسی نگاه نمی‌کند هم درست عمل کنید",
+      "trap": "با integration (ادغام) اشتباه نگیرید؛ integrity صداقت است",
+      "tags": [
+        "B1",
+        "personality",
+        "psychology"
+      ]
+    },
+    {
+      "word": "dignity",
+      "translation": "وقار، شرافت",
+      "ipa": "/ˈdɪɡnəti/",
+      "partOfSpeech": "noun",
+      "example": "She handled the criticism with dignity and grace.",
+      "definitions": [
+        "the state or quality of being worthy of honor or respect"
+      ],
+      "synonyms": [
+        "honor",
+        "self-respect",
+        "nobility"
+      ],
+      "antonyms": [
+        "dishonor",
+        "humiliation",
+        "shame"
+      ],
+      "collocations": [
+        "with dignity",
+        "human dignity",
+        "lose dignity"
+      ],
+      "wordFamily": [
+        "dignify (v)",
+        "dignified (adj)",
+        "indignity (n)"
+      ],
+      "coreMeaning": "احساس ارزشمندی و رفتار با وقار و احترام",
+      "note": "with dignity = با وقار — نشانه قدرت درونی",
+      "trap": "با dynasty (سلسله) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "personality",
+        "psychology"
+      ]
+    },
+    {
+      "word": "wisdom",
+      "translation": "حکمت، خردمندی",
+      "ipa": "/ˈwɪzdəm/",
+      "partOfSpeech": "noun",
+      "example": "With age comes wisdom and understanding.",
+      "definitions": [
+        "the quality of having experience, knowledge, and good judgment"
+      ],
+      "synonyms": [
+        "insight",
+        "sagacity",
+        "prudence"
+      ],
+      "antonyms": [
+        "ignorance",
+        "foolishness",
+        "stupidity"
+      ],
+      "collocations": [
+        "words of wisdom",
+        "conventional wisdom",
+        "gain wisdom"
+      ],
+      "wordFamily": [
+        "wise (adj)",
+        "wisely (adv)",
+        "unwise (adj)"
+      ],
+      "coreMeaning": "توانایی تصمیم‌گیری درست بر اساس تجربه و دانش",
+      "note": "wisdom از تجربه و تأمل به دست می‌آید، نه فقط از تحصیل",
+      "trap": "با wizard (جادوگر) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "personality",
+        "psychology"
+      ]
+    },
+    {
+      "word": "patience",
+      "translation": "صبر، بردباری",
+      "ipa": "/ˈpeɪʃəns/",
+      "partOfSpeech": "noun",
+      "example": "Teaching requires a lot of patience.",
+      "definitions": [
+        "the capacity to accept delay without becoming annoyed"
+      ],
+      "synonyms": [
+        "tolerance",
+        "endurance",
+        "forbearance"
+      ],
+      "antonyms": [
+        "impatience",
+        "restlessness",
+        "intolerance"
+      ],
+      "collocations": [
+        "have patience",
+        "run out of patience",
+        "patience with"
+      ],
+      "wordFamily": [
+        "patient (adj)",
+        "patiently (adv)",
+        "impatient (adj)"
+      ],
+      "coreMeaning": "توانایی صبر کردن بدون ناراحتی یا عصبانیت",
+      "note": "run out of patience = صبر تمام شدن — اصطلاح رایج",
+      "trap": "با patients (بیماران) اشتباه نگیرید؛ هم‌آوا هستند",
+      "tags": [
+        "B1",
+        "personality",
+        "emotions"
+      ]
+    },
+    {
+      "word": "tolerance",
+      "translation": "مدارا، تحمل",
+      "ipa": "/ˈtɒlərəns/",
+      "partOfSpeech": "noun",
+      "example": "We should show tolerance toward people with different beliefs.",
+      "definitions": [
+        "the ability or willingness to tolerate something"
+      ],
+      "synonyms": [
+        "acceptance",
+        "open-mindedness",
+        "forbearance"
+      ],
+      "antonyms": [
+        "intolerance",
+        "prejudice",
+        "bigotry"
+      ],
+      "collocations": [
+        "show tolerance",
+        "zero tolerance",
+        "tolerance for"
+      ],
+      "wordFamily": [
+        "tolerate (v)",
+        "tolerant (adj)",
+        "intolerant (adj)"
+      ],
+      "coreMeaning": "پذیرش و تحمل نظرات و رفتارهای متفاوت",
+      "note": "zero tolerance = سیاست عدم تحمل — اصطلاح سیاسی و اجتماعی",
+      "trap": "با tolerance (مدارا) و tolerance (تحمل دارو) دو معنای متفاوت دارد",
+      "tags": [
+        "B1",
+        "personality",
+        "psychology"
+      ]
+    },
+    {
+      "word": "generosity",
+      "translation": "سخاوت، بخشندگی",
+      "ipa": "/ˌdʒɛnəˈrɒsəti/",
+      "partOfSpeech": "noun",
+      "example": "His generosity toward the poor was well known.",
+      "definitions": [
+        "the quality of being kind and not selfish; willingness to give"
+      ],
+      "synonyms": [
+        "charity",
+        "liberality",
+        "kindness"
+      ],
+      "antonyms": [
+        "stinginess",
+        "greed",
+        "selfishness"
+      ],
+      "collocations": [
+        "show generosity",
+        "act of generosity",
+        "generosity of spirit"
+      ],
+      "wordFamily": [
+        "generous (adj)",
+        "generously (adv)"
+      ],
+      "coreMeaning": "تمایل به بخشش و کمک بدون انتظار بازگشت",
+      "note": "generosity of spirit = بخشندگی روحی — یعنی بخشیدن حتی وقتی سخت است",
+      "trap": "با generation (نسل) اشتباه نگیرید؛ generosity سخاوت است",
+      "tags": [
+        "B1",
+        "personality",
+        "relationships"
+      ]
+    },
+    {
+      "word": "honesty",
+      "translation": "صداقت",
+      "ipa": "/ˈɒnɪsti/",
+      "partOfSpeech": "noun",
+      "example": "Honesty is the foundation of a good relationship.",
+      "definitions": [
+        "the quality of being honest; truthfulness and sincerity"
+      ],
+      "synonyms": [
+        "truthfulness",
+        "sincerity",
+        "candor"
+      ],
+      "antonyms": [
+        "dishonesty",
+        "deceit",
+        "lying"
+      ],
+      "collocations": [
+        "honesty is the best policy",
+        "in all honesty",
+        "brutal honesty"
+      ],
+      "wordFamily": [
+        "honest (adj)",
+        "honestly (adv)",
+        "dishonest (adj)"
+      ],
+      "coreMeaning": "صداقت و راستگویی در تمام رفتارها",
+      "note": "honesty is the best policy = صداقت بهترین سیاست است — ضرب‌المثل معروف",
+      "trap": "h حرف h ساکت است: /ˈɒnɪsti/",
+      "tags": [
+        "B1",
+        "personality",
+        "relationships"
+      ]
+    },
+    {
+      "word": "humility",
+      "translation": "تواضع، فروتنی",
+      "ipa": "/hjuːˈmɪləti/",
+      "partOfSpeech": "noun",
+      "example": "True leaders show humility and listen to others.",
+      "definitions": [
+        "a modest or low view of one's importance"
+      ],
+      "synonyms": [
+        "modesty",
+        "meekness",
+        "unpretentiousness"
+      ],
+      "antonyms": [
+        "arrogance",
+        "pride",
+        "conceit"
+      ],
+      "collocations": [
+        "show humility",
+        "with humility",
+        "false humility"
+      ],
+      "wordFamily": [
+        "humble (adj)",
+        "humbly (adv)"
+      ],
+      "coreMeaning": "فروتنی و نداشتن غرور بی‌جا",
+      "note": "humility نشانه قدرت است، نه ضعف",
+      "trap": "با humidity (رطوبت) اشتباه نگیرید؛ تلفظ مشابه ولی معنا متفاوت",
+      "tags": [
+        "B1",
+        "personality",
+        "psychology"
+      ]
+    },
+    {
+      "word": "arrogance",
+      "translation": "تکبر، غرور",
+      "ipa": "/ˈærəɡəns/",
+      "partOfSpeech": "noun",
+      "example": "His arrogance made him unpopular among his colleagues.",
+      "definitions": [
+        "the quality of being arrogant; exaggerated sense of one's importance"
+      ],
+      "synonyms": [
+        "conceit",
+        "haughtiness",
+        "pride"
+      ],
+      "antonyms": [
+        "humility",
+        "modesty",
+        "meekness"
+      ],
+      "collocations": [
+        "pure arrogance",
+        "arrogance of",
+        "display arrogance"
+      ],
+      "wordFamily": [
+        "arrogant (adj)",
+        "arrogantly (adv)"
+      ],
+      "coreMeaning": "غرور و تکبر بیش از حد و نگاه بالا به پایین",
+      "note": "arrogance معمولاً افراد را از شما دور می‌کند",
+      "trap": "با ignorance (نادانی) اشتباه نگیرید؛ arrogance تکبر است",
+      "tags": [
+        "B1",
+        "personality",
+        "psychology"
+      ]
+    },
+    {
+      "word": "sensitivity",
+      "translation": "حساسیت، ظرافت",
+      "ipa": "/ˌsɛnsɪˈtɪvəti/",
+      "partOfSpeech": "noun",
+      "example": "She handled the situation with great sensitivity.",
+      "definitions": [
+        "the quality of being sensitive; awareness of others' feelings"
+      ],
+      "synonyms": [
+        "awareness",
+        "perceptiveness",
+        "responsiveness"
+      ],
+      "antonyms": [
+        "insensitivity",
+        "numbness",
+        "indifference"
+      ],
+      "collocations": [
+        "show sensitivity",
+        "cultural sensitivity",
+        "sensitivity to"
+      ],
+      "wordFamily": [
+        "sensitive (adj)",
+        "insensitive (adj)"
+      ],
+      "coreMeaning": "توانایی درک و توجه به احساسات و نیازهای دیگران",
+      "note": "cultural sensitivity = حساسیت فرهنگی — مهم در دنیای امروز",
+      "trap": "با sensibility (درک) تفاوت دارد",
+      "tags": [
+        "B1",
+        "personality",
+        "emotions"
+      ]
+    },
+    {
+      "word": "temperament",
+      "translation": "خلق و خوی ذاتی، مزاج",
+      "ipa": "/ˈtɛmprəmənt/",
+      "partOfSpeech": "noun",
+      "example": "She has a calm and gentle temperament.",
+      "definitions": [
+        "a person's or animal's nature as it permanently affects their behavior"
+      ],
+      "synonyms": [
+        "nature",
+        "disposition",
+        "character"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "calm temperament",
+        "artistic temperament",
+        "by temperament"
+      ],
+      "wordFamily": [
+        "temperamental (adj)",
+        "temperamentally (adv)"
+      ],
+      "coreMeaning": "طبع و خلق و خوی ذاتی و پایدار فرد",
+      "note": "temperament ذاتی است؛ mood موقتی",
+      "trap": "با temper (عصبانیت) اشتباه نگیرید؛ temperament کل شخصیت است",
+      "tags": [
+        "B1",
+        "personality",
+        "psychology"
+      ]
+    },
+    {
+      "word": "introvert",
+      "translation": "درون‌گرا",
+      "ipa": "/ˈɪntrəvɜːrt/",
+      "partOfSpeech": "noun/adjective",
+      "example": "As an introvert, she prefers quiet evenings at home.",
+      "definitions": [
+        "a shy, quiet person who prefers to be alone or with a few close friends"
+      ],
+      "synonyms": [
+        "loner",
+        "homebody",
+        "reserved person"
+      ],
+      "antonyms": [
+        "extrovert",
+        "outgoing person"
+      ],
+      "collocations": [
+        "introvert personality",
+        "social introvert",
+        "introvert and extrovert"
+      ],
+      "wordFamily": [
+        "introversion (n)",
+        "introverted (adj)"
+      ],
+      "coreMeaning": "فردی که انرژی خود را از تنهایی می‌گیرد",
+      "note": "introvert بودن بد نیست؛ فقط نوع متفاوتی از تعامل اجتماعی است",
+      "trap": "introvert لزوماً خجالتی نیست؛ فقط تنهایی را ترجیح می‌دهد",
+      "tags": [
+        "B1",
+        "personality",
+        "psychology"
+      ]
+    },
+    {
+      "word": "extrovert",
+      "translation": "برون‌گرا",
+      "ipa": "/ˈɛkstrəvɜːrt/",
+      "partOfSpeech": "noun/adjective",
+      "example": "He's a natural extrovert who loves parties.",
+      "definitions": [
+        "an outgoing, socially confident person"
+      ],
+      "synonyms": [
+        "outgoing person",
+        "social butterfly"
+      ],
+      "antonyms": [
+        "introvert",
+        "loner"
+      ],
+      "collocations": [
+        "extrovert personality",
+        "natural extrovert",
+        "extrovert and introvert"
+      ],
+      "wordFamily": [
+        "extroversion (n)",
+        "extroverted (adj)"
+      ],
+      "coreMeaning": "فردی که انرژی خود را از تعامل اجتماعی می‌گیرد",
+      "note": "extrovert بودن به معنای سطحی بودن نیست",
+      "trap": "با extrovert (برون‌گرا) و extravagant (اسراف‌کار) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "personality",
+        "psychology"
+      ]
+    },
+    {
+      "word": "charisma",
+      "translation": "جذابیت شخصیتی، فرهمندی",
+      "ipa": "/kəˈrɪzmə/",
+      "partOfSpeech": "noun",
+      "example": "The leader's charisma inspired thousands of people.",
+      "definitions": [
+        "compelling attractiveness or charm that can inspire devotion"
+      ],
+      "synonyms": [
+        "charm",
+        "magnetism",
+        "appeal"
+      ],
+      "antonyms": [
+        "dullness",
+        "unattractiveness"
+      ],
+      "collocations": [
+        "natural charisma",
+        "personal charisma",
+        "charisma and charm"
+      ],
+      "wordFamily": [
+        "charismatic (adj)"
+      ],
+      "coreMeaning": "جذابیت و قدرت نفوذ ذاتی در دیگران",
+      "note": "charisma ذاتی است اما می‌توان آن را تقویت کرد",
+      "trap": "با character (شخصیت) اشتباه نگیرید؛ charisma جذابیت خاص است",
+      "tags": [
+        "B1",
+        "personality",
+        "psychology"
+      ]
+    },
+    {
+      "word": "attachment",
+      "translation": "دلبستگی",
+      "example": "He has a strong attachment to his home.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "aversion",
+      "translation": "تنفر",
+      "example": "She has an aversion to spiders.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "connection",
+      "translation": "ارتباط",
+      "example": "They have a strong connection.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "contentment",
+      "translation": "رضایت",
+      "example": "She felt contentment after the meal.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "contempt",
+      "translation": "تحقیر",
+      "example": "He looked at her with contempt.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "despair",
+      "translation": "ناامیدی",
+      "example": "She felt despair after the loss.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "disdain",
+      "translation": "توهین",
+      "example": "She looked at him with disdain.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "disgust",
+      "translation": "انزجار",
+      "example": "The smell caused disgust.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "distress",
+      "translation": "پریشانی",
+      "example": "She was in great distress.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "ecstasy",
+      "translation": "شوق",
+      "example": "She was filled with ecstasy.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "enchantment",
+      "translation": "جادو",
+      "example": "The place was full of enchantment.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "fascination",
+      "translation": "شیفتگی",
+      "example": "He has a fascination with art.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "fondness",
+      "translation": "علاقه",
+      "example": "She has a fondness for cats.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "guilt",
+      "translation": "احساس گناه",
+      "example": "She felt guilt after the incident.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "hatred",
+      "translation": "نفرت",
+      "example": "He felt hatred towards his enemy.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "hysteria",
+      "translation": "هیستری",
+      "example": "The crowd was in a state of hysteria.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "infatuation",
+      "translation": "عشق",
+      "example": "His infatuation with her was intense.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "irritation",
+      "translation": "آزار",
+      "example": "She felt irritation at the noise.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "joy",
+      "translation": "شادی",
+      "example": "The news brought her joy.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "loathing",
+      "translation": "تنفر",
+      "example": "He felt loathing towards the bully.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "longing",
+      "translation": "دلتنهگی",
+      "example": "She felt longing for home.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "love",
+      "translation": "عشق",
+      "example": "Love conquers all.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "misery",
+      "translation": "بیچارگی",
+      "example": "He lived in misery.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "neglect",
+      "translation": "غفلت",
+      "example": "Child neglect is a serious issue.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "nostalgia",
+      "translation": "دلتنگی",
+      "example": "She felt nostalgia for her childhood.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "optimism",
+      "translation": "خوش‌بینی",
+      "example": "Optimism is important for success.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "outrage",
+      "translation": "خشم",
+      "example": "The decision caused outrage.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "pardon",
+      "translation": "بخشش",
+      "example": "She asked for pardon.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "pathos",
+      "translation": "اندوه",
+      "example": "The speech was full of pathos.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "pessimism",
+      "translation": "بدبینی",
+      "example": "Pessimism can be harmful.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "pity",
+      "translation": "دل‌سوزی",
+      "example": "She felt pity for the homeless.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "pensiveness",
+      "translation": "تفکر",
+      "example": "Her pensiveness was noticeable.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "placidity",
+      "translation": "آرامش",
+      "example": "His placidity was admirable.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "pride",
+      "translation": "غرور",
+      "example": "She takes pride in her work.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "rage",
+      "translation": "خشم",
+      "example": "He was filled with rage.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "rapport",
+      "translation": "ارتباط",
+      "example": "They have a good rapport.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "regret",
+      "translation": "پشیمانی",
+      "example": "She felt regret for her actions.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "rejection",
+      "translation": "رد شدن",
+      "example": "The rejection hurt her feelings.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "relief",
+      "translation": "آسودگی",
+      "example": "She felt relief after the exam.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "rivalry",
+      "translation": "رقابت",
+      "example": "There is a healthy rivalry between them.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "romance",
+      "translation": "عاشقانه",
+      "example": "Their romance blossomed.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "satisfaction",
+      "translation": "رضایت",
+      "example": "She felt satisfaction after the work.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "sorrow",
+      "translation": "اندوه",
+      "example": "He was filled with sorrow.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "tenderness",
+      "translation": "لطف",
+      "example": "He showed tenderness to the child.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "terror",
+      "translation": "ترس",
+      "example": "The terror was overwhelming.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "vengeance",
+      "translation": "انتقام",
+      "example": "He sought vengeance for the wrong.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "warmth",
+      "translation": "گرمی",
+      "example": "Her warmth was welcoming.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "wrath",
+      "translation": "خشم",
+      "example": "The wrath of the storm was fierce.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "yearning",
+      "translation": "شوق",
+      "example": "She felt yearning for adventure.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "affinity",
+      "translation": "نزدیکی",
+      "example": "He has an affinity for music.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "animosity",
+      "translation": "خصومت",
+      "example": "There was animosity between them.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "antagonism",
+      "translation": "خصومت",
+      "example": "He felt antagonism towards the idea.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "apathy",
+      "translation": "بی‌تفاوتی",
+      "example": "Voter apathy is a problem.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "ardor",
+      "translation": "شور",
+      "example": "He spoke with ardor.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "benevolence",
+      "translation": "نیکوکاری",
+      "example": "Her benevolence was appreciated.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "camaraderie",
+      "translation": "رفاقت",
+      "example": "There is camaraderie in the team.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "catharsis",
+      "translation": "تسکین",
+      "example": "Writing provided catharsis.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "consolation",
+      "translation": "تسلی",
+      "example": "She found consolation in friends.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "congeniality",
+      "translation": "سازگاری",
+      "example": "Their congeniality was evident.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "consternation",
+      "translation": "وحشت",
+      "example": "The news caused consternation.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "deference",
+      "translation": "احترام",
+      "example": "He showed deference to his elders.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "detestation",
+      "translation": "نفرت",
+      "example": "She felt detestation for the act.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "disillusionment",
+      "translation": "ناامیدی",
+      "example": "She felt disillusionment with the system.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "eloquence",
+      "translation": "فصاحت",
+      "example": "His eloquence moved the audience.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "emancipation",
+      "translation": "آزادی",
+      "example": "The emancipation of slaves was historic.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "endearment",
+      "translation": "محبت",
+      "example": "Terms of endearment are common.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "enmity",
+      "translation": "خصومت",
+      "example": "There was enmity between the families.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "euphoria",
+      "translation": "خوشحالی",
+      "example": "She felt euphoria after the victory.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "fraternity",
+      "translation": "برادری",
+      "example": "The fraternity was strong.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "fury",
+      "translation": "خشم",
+      "example": "He was filled with fury.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "grudge",
+      "translation": "کینه",
+      "example": "She held a grudge against him.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "indignation",
+      "translation": "خشم",
+      "example": "She felt indignation at the injustice.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "innocence",
+      "translation": "بی‌گناهی",
+      "example": "His innocence was proven.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "irreverence",
+      "translation": "بی‌احترامی",
+      "example": "His irreverence was offensive.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "melancholy",
+      "translation": "اندوه",
+      "example": "A sense of melancholy filled the room.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "murderous",
+      "translation": "کشنده",
+      "example": "His murderous intent was clear.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "nonchalance",
+      "translation": "بی‌خیالی",
+      "example": "Her nonchalance was surprising.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "obeisance",
+      "translation": "اطاعت",
+      "example": "He showed obeisance to the king.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "paranoia",
+      "translation": "بدگمانی",
+      "example": "His paranoia grew.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "partisan",
+      "translation": "طرفدار",
+      "example": "He was a partisan supporter.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "penitence",
+      "translation": "توبه",
+      "example": "His penitence was sincere.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "perfidy",
+      "translation": "خیانت",
+      "example": "His perfidy was discovered.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "perturbation",
+      "translation": "آشفتگی",
+      "example": "She felt perturbation.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "piety",
+      "translation": "تقوی",
+      "example": "His piety was evident.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "profundity",
+      "translation": "عمق",
+      "example": "The profundity of his words was moving.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "remorse",
+      "translation": "پشیمانی",
+      "example": "He felt remorse for his actions.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "reverence",
+      "translation": "احترام",
+      "example": "She showed reverence to the teacher.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "sarcasm",
+      "translation": "کنایه",
+      "example": "His sarcasm was hurtful.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "solidarity",
+      "translation": "همبستگی",
+      "example": "They showed solidarity with the cause.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "stoicism",
+      "translation": ".maskari",
+      "example": "His stoicism was admirable.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "trepidation",
+      "translation": "ترس",
+      "example": "She entered the room with trepidation.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "turpitude",
+      "translation": "پستی",
+      "example": "His moral turpitude was exposed.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "vanity",
+      "translation": "خودپسندی",
+      "example": "His vanity was obvious.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "vehemence",
+      "translation": "شدت",
+      "example": "She spoke with vehemence.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "veneration",
+      "translation": "تکریم",
+      "example": "He showed veneration to the elder.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "vindictiveness",
+      "translation": "انتقام‌جویی",
+      "example": "Her vindictiveness was apparent.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "wistfulness",
+      "translation": "دلتنهگی",
+      "example": "Her wistfulness was touching.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "zeal",
+      "translation": "شوق",
+      "example": "He worked with zeal.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "amity",
+      "translation": "دوستی",
+      "example": "They lived in amity with neighbors.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "amicable",
+      "translation": "دوستانه",
+      "example": "They reached an amicable agreement.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "animus",
+      "translation": "خصومت",
+      "example": "There was animus between them.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "bliss",
+      "translation": "خوشبختی",
+      "example": "Marital bliss is desired.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "caprice",
+      "translation": "变动无常",
+      "example": "Her caprice was unpredictable.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "chagrin",
+      "translation": "اندوه",
+      "example": "He felt chagrin at the defeat.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "complacency",
+      "translation": "رضایت",
+      "example": "Complacency can lead to failure.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "conceit",
+      "translation": "خودپسندی",
+      "example": "His conceit was annoying.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "delight",
+      "translation": "لذت",
+      "example": "The news brought her delight.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "disgrace",
+      "translation": "ننگ",
+      "example": "The scandal brought disgrace.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "elation",
+      "translation": "شادمانی",
+      "example": "She felt elation at the news.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "fervor",
+      "translation": "شور",
+      "example": "He spoke with fervor.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "solace",
+      "translation": "تسلی",
+      "example": "She found solace in music.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "sorority",
+      "translation": "خواهری",
+      "example": "She joined the sorority.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "tumult",
+      "translation": "آشوب",
+      "example": "The tumult of emotions was overwhelming.",
+      "partOfSpeech": "noun"
+    }
+  ]
+}

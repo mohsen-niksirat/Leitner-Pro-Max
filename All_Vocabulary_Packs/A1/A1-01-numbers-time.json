@@ -1,0 +1,2687 @@
+{
+  "name": "اعداد و زمان",
+  "description": "۱۰۰ کلمه پایه درباره اعداد، روزها، ماه‌ها و زمان — سطح A1",
+  "category": "A1 — مبتدی",
+  "level": "A1",
+  "packId": "A1-01",
+  "words": [
+    {
+      "word": "one",
+      "translation": "یک",
+      "ipa": "/wʌn/",
+      "partOfSpeech": "number",
+      "example": "I have one cat.",
+      "definitions": [
+        "the number 1"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "one of",
+        "one day"
+      ],
+      "wordFamily": [
+        "first (adj)"
+      ],
+      "coreMeaning": "عدد یک، نخستین عدد طبیعی",
+      "note": "پرکاربردترین عدد در انگلیسی",
+      "trap": "با won (برنده شدن) اشتباه نگیرید، تلفظ یکسان است",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "two",
+      "translation": "دو",
+      "ipa": "/tuː/",
+      "partOfSpeech": "number",
+      "example": "There are two books on the table.",
+      "definitions": [
+        "the number 2"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "two of",
+        "in two"
+      ],
+      "wordFamily": [
+        "second (adj)",
+        "twice (adv)"
+      ],
+      "coreMeaning": "عدد دو",
+      "note": "با too (همچنین/خیلی) و to (به) هم‌آوا است",
+      "trap": "two، too و to تلفظ یکسان دارند اما معنی متفاوت",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "three",
+      "translation": "سه",
+      "ipa": "/θriː/",
+      "partOfSpeech": "number",
+      "example": "She has three brothers.",
+      "definitions": [
+        "the number 3"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "three times",
+        "in three"
+      ],
+      "wordFamily": [
+        "third (adj)",
+        "thrice (adv)"
+      ],
+      "coreMeaning": "عدد سه",
+      "note": "صدای th در ابتدای این کلمه مهم است",
+      "trap": "حرف θ (th) را با s یا t اشتباه نگیرید",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "four",
+      "translation": "چهار",
+      "ipa": "/fɔːr/",
+      "partOfSpeech": "number",
+      "example": "There are four seasons in a year.",
+      "definitions": [
+        "the number 4"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "four times",
+        "on all fours"
+      ],
+      "wordFamily": [
+        "fourth (adj)"
+      ],
+      "coreMeaning": "عدد چهار",
+      "note": "با for (برای) هم‌آوا است",
+      "trap": "four و for تلفظ تقریباً یکسان دارند",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "five",
+      "translation": "پنج",
+      "ipa": "/faɪv/",
+      "partOfSpeech": "number",
+      "example": "Give me five minutes, please.",
+      "definitions": [
+        "the number 5"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "high five",
+        "five o'clock"
+      ],
+      "wordFamily": [
+        "fifth (adj)"
+      ],
+      "coreMeaning": "عدد پنج",
+      "note": "عدد پنج پایه بسیاری از شمارش‌هاست",
+      "trap": "",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "six",
+      "translation": "شش",
+      "ipa": "/sɪks/",
+      "partOfSpeech": "number",
+      "example": "There are six days in a school week.",
+      "definitions": [
+        "the number 6"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "six o'clock",
+        "at sixes and sevens"
+      ],
+      "wordFamily": [
+        "sixth (adj)"
+      ],
+      "coreMeaning": "عدد شش",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "seven",
+      "translation": "هفت",
+      "ipa": "/ˈsev.ən/",
+      "partOfSpeech": "number",
+      "example": "There are seven days in a week.",
+      "definitions": [
+        "the number 7"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "seven o'clock",
+        "lucky seven"
+      ],
+      "wordFamily": [
+        "seventh (adj)"
+      ],
+      "coreMeaning": "عدد هفت",
+      "note": "در بسیاری از فرهنگ‌ها عدد خوش‌شانسی است",
+      "trap": "",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "eight",
+      "translation": "هشت",
+      "ipa": "/eɪt/",
+      "partOfSpeech": "number",
+      "example": "The meeting starts at eight.",
+      "definitions": [
+        "the number 8"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "eight o'clock",
+        "figure eight"
+      ],
+      "wordFamily": [
+        "eighth (adj)"
+      ],
+      "coreMeaning": "عدد هشت",
+      "note": "",
+      "trap": "با ate (خورد) اشتباه نگیرید، تلفظ یکسان است",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "nine",
+      "translation": "نه",
+      "ipa": "/naɪn/",
+      "partOfSpeech": "number",
+      "example": "I wake up at nine every day.",
+      "definitions": [
+        "the number 9"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "nine o'clock",
+        "nine times out of ten"
+      ],
+      "wordFamily": [
+        "ninth (adj)"
+      ],
+      "coreMeaning": "عدد نه",
+      "note": "",
+      "trap": "با noon (ظهر) اشتباه نگیرید",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "ten",
+      "translation": "ده",
+      "ipa": "/ten/",
+      "partOfSpeech": "number",
+      "example": "I scored ten out of ten on the test.",
+      "definitions": [
+        "the number 10"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "ten o'clock",
+        "top ten"
+      ],
+      "wordFamily": [
+        "tenth (adj)"
+      ],
+      "coreMeaning": "عدد ده",
+      "note": "ده پایه سیستم اعداد است",
+      "trap": "",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "eleven",
+      "translation": "یازده",
+      "ipa": "/ɪˈlev.ən/",
+      "partOfSpeech": "number",
+      "example": "The bus comes at eleven.",
+      "definitions": [
+        "the number 11"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "eleven o'clock"
+      ],
+      "wordFamily": [
+        "eleventh (adj)"
+      ],
+      "coreMeaning": "عدد یازده",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "twelve",
+      "translation": "دوازده",
+      "ipa": "/twelv/",
+      "partOfSpeech": "number",
+      "example": "There are twelve months in a year.",
+      "definitions": [
+        "the number 12"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "twelve o'clock",
+        "noon"
+      ],
+      "wordFamily": [
+        "twelfth (adj)"
+      ],
+      "coreMeaning": "عدد دوازده",
+      "note": "دوازده ماه در سال و دوازده ساعت در نیم‌روز",
+      "trap": "",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "thirteen",
+      "translation": "سیزده",
+      "ipa": "/ˌθɜːrˈtiːn/",
+      "partOfSpeech": "number",
+      "example": "She is thirteen years old.",
+      "definitions": [
+        "the number 13"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "thirteen years old"
+      ],
+      "wordFamily": [
+        "thirteenth (adj)"
+      ],
+      "coreMeaning": "عدد سیزده",
+      "note": "در بعضی فرهنگ‌ها عدد نحس است",
+      "trap": "",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "fourteen",
+      "translation": "چهارده",
+      "ipa": "/ˌfɔːrˈtiːn/",
+      "partOfSpeech": "number",
+      "example": "He is fourteen.",
+      "definitions": [
+        "the number 14"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "fourteen days"
+      ],
+      "wordFamily": [
+        "fourteenth (adj)"
+      ],
+      "coreMeaning": "عدد چهارده",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "fifteen",
+      "translation": "پانزده",
+      "ipa": "/ˌfɪfˈtiːn/",
+      "partOfSpeech": "number",
+      "example": "The class starts in fifteen minutes.",
+      "definitions": [
+        "the number 15"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "fifteen minutes"
+      ],
+      "wordFamily": [
+        "fifteenth (adj)"
+      ],
+      "coreMeaning": "عدد پانزده",
+      "note": "پانزده دقیقه یک ربع ساعت است",
+      "trap": "",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "twenty",
+      "translation": "بیست",
+      "ipa": "/ˈtwen.t̬i/",
+      "partOfSpeech": "number",
+      "example": "I have twenty students in my class.",
+      "definitions": [
+        "the number 20"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "twenty-one",
+        "in my twenties"
+      ],
+      "wordFamily": [
+        "twentieth (adj)"
+      ],
+      "coreMeaning": "عدد بیست",
+      "note": "بیست پایه اعداد ده‌تایی بعد از ده است",
+      "trap": "",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "thirty",
+      "translation": "سی",
+      "ipa": "/ˈθɜːr.t̬i/",
+      "partOfSpeech": "number",
+      "example": "The meeting is at thirty past nine.",
+      "definitions": [
+        "the number 30"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "thirty minutes",
+        "thirty years old"
+      ],
+      "wordFamily": [
+        "thirtieth (adj)"
+      ],
+      "coreMeaning": "عدد سی",
+      "note": "سی دقیقه نیم ساعت است",
+      "trap": "",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "forty",
+      "translation": "چهل",
+      "ipa": "/ˈfɔːr.t̬i/",
+      "partOfSpeech": "number",
+      "example": "She is forty years old.",
+      "definitions": [
+        "the number 40"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "forty winks",
+        "forty years"
+      ],
+      "wordFamily": [
+        "fortieth (adj)"
+      ],
+      "coreMeaning": "عدد چهل",
+      "note": "",
+      "trap": "با fourty اشتباه ننویسید! four → forty (بدون u)",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "fifty",
+      "translation": "پنجاه",
+      "ipa": "/ˈfɪf.t̬i/",
+      "partOfSpeech": "number",
+      "example": "There are fifty states in the USA.",
+      "definitions": [
+        "the number 50"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "fifty-fifty",
+        "over fifty"
+      ],
+      "wordFamily": [
+        "fiftieth (adj)"
+      ],
+      "coreMeaning": "عدد پنجاه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "hundred",
+      "translation": "صد",
+      "ipa": "/ˈhʌn.drəd/",
+      "partOfSpeech": "number",
+      "example": "There are a hundred students in the school.",
+      "definitions": [
+        "the number 100"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "hundreds of",
+        "one hundred percent"
+      ],
+      "wordFamily": [
+        "hundredth (adj)"
+      ],
+      "coreMeaning": "عدد صد",
+      "note": "قبل از hundred معمولاً a یا one می‌آید",
+      "trap": "جمع: hundreds of (نه hundred of)",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "thousand",
+      "translation": "هزار",
+      "ipa": "/ˈθaʊ.zənd/",
+      "partOfSpeech": "number",
+      "example": "The book costs two thousand dollars.",
+      "definitions": [
+        "the number 1,000"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "thousands of",
+        "ten thousand"
+      ],
+      "wordFamily": [
+        "thousandth (adj)"
+      ],
+      "coreMeaning": "عدد هزار",
+      "note": "",
+      "trap": "جمع: thousands of (نه thousand of)",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "zero",
+      "translation": "صفر",
+      "ipa": "/ˈzɪr.oʊ/",
+      "partOfSpeech": "number",
+      "example": "The temperature is zero degrees.",
+      "definitions": [
+        "the number 0; nothing"
+      ],
+      "synonyms": [
+        "nothing",
+        "nil"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "zero tolerance",
+        "ground zero"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "عدد صفر، هیچ",
+      "note": "در انگلیسی آمریکایی zero و در بریتانیایی nought هم استفاده می‌شود",
+      "trap": "تلفظ: ZEE-ro (آمریکایی) نه ZERO",
+      "tags": [
+        "A1",
+        "numbers"
+      ]
+    },
+    {
+      "word": "first",
+      "translation": "اول",
+      "ipa": "/fɜːrst/",
+      "partOfSpeech": "adjective",
+      "example": "This is my first day at school.",
+      "definitions": [
+        "coming before all others in time or order"
+      ],
+      "synonyms": [
+        "initial",
+        "primary"
+      ],
+      "antonyms": [
+        "last"
+      ],
+      "collocations": [
+        "first of all",
+        "first place",
+        "first time"
+      ],
+      "wordFamily": [
+        "one (num)",
+        "firstly (adv)"
+      ],
+      "coreMeaning": "اولین، نخستین",
+      "note": "ترتیبی عدد یک",
+      "trap": "با once (یک بار) اشتباه نگیرید",
+      "tags": [
+        "A1",
+        "numbers",
+        "ordinal"
+      ]
+    },
+    {
+      "word": "second",
+      "translation": "دوم",
+      "ipa": "/ˈsek.ənd/",
+      "partOfSpeech": "adjective",
+      "example": "She finished in second place.",
+      "definitions": [
+        "coming after the first in order"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "first"
+      ],
+      "collocations": [
+        "second floor",
+        "second time",
+        "second language"
+      ],
+      "wordFamily": [
+        "two (num)",
+        "secondly (adv)"
+      ],
+      "coreMeaning": "دومین",
+      "note": "همچنین به معنی «ثانیه» هم هست",
+      "trap": "second هم «دوم» معنی می‌دهد هم «ثانیه» — به بافتار توجه کنید",
+      "tags": [
+        "A1",
+        "numbers",
+        "ordinal"
+      ]
+    },
+    {
+      "word": "third",
+      "translation": "سوم",
+      "ipa": "/θɜːrd/",
+      "partOfSpeech": "adjective",
+      "example": "He lives on the third floor.",
+      "definitions": [
+        "coming after the second in order"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "first"
+      ],
+      "collocations": [
+        "third place",
+        "third world",
+        "third time"
+      ],
+      "wordFamily": [
+        "three (num)",
+        "thirdly (adv)"
+      ],
+      "coreMeaning": "سومین",
+      "note": "",
+      "trap": "نوشته می‌شود third نه threed",
+      "tags": [
+        "A1",
+        "numbers",
+        "ordinal"
+      ]
+    },
+    {
+      "word": "Monday",
+      "translation": "دوشنبه",
+      "ipa": "/ˈmʌn.deɪ/",
+      "partOfSpeech": "noun",
+      "example": "I start work on Monday.",
+      "definitions": [
+        "the day between Sunday and Tuesday"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "on Monday",
+        "Monday morning",
+        "next Monday"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "روز دوشنبه، اولین روز کاری هفته",
+      "note": "با حرف بزرگ نوشته می‌شود",
+      "trap": "",
+      "tags": [
+        "A1",
+        "days"
+      ]
+    },
+    {
+      "word": "Tuesday",
+      "translation": "سه‌شنبه",
+      "ipa": "/ˈtuːz.deɪ/",
+      "partOfSpeech": "noun",
+      "example": "We have a meeting on Tuesday.",
+      "definitions": [
+        "the day between Monday and Wednesday"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "on Tuesday",
+        "Tuesday evening"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "روز سه‌شنبه",
+      "note": "با حرف بزرگ نوشته می‌شود",
+      "trap": "",
+      "tags": [
+        "A1",
+        "days"
+      ]
+    },
+    {
+      "word": "Wednesday",
+      "translation": "چهارشنبه",
+      "ipa": "/ˈwenz.deɪ/",
+      "partOfSpeech": "noun",
+      "example": "Wednesday is the middle of the week.",
+      "definitions": [
+        "the day between Tuesday and Thursday"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "on Wednesday",
+        "Wednesday afternoon"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "روز چهارشنبه",
+      "note": "حرف d تلفظ نمی‌شود",
+      "trap": "نوشتن: Wed-nes-day ولی تلفظ: WENZ-day — d خاموش است",
+      "tags": [
+        "A1",
+        "days"
+      ]
+    },
+    {
+      "word": "Thursday",
+      "translation": "پنجشنبه",
+      "ipa": "/ˈθɜːrz.deɪ/",
+      "partOfSpeech": "noun",
+      "example": "Thursday is my favorite day.",
+      "definitions": [
+        "the day between Wednesday and Friday"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "on Thursday",
+        "Thursday night"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "روز پنجشنبه",
+      "note": "",
+      "trap": "صدای th در ابتدا مهم است",
+      "tags": [
+        "A1",
+        "days"
+      ]
+    },
+    {
+      "word": "Friday",
+      "translation": "جمعه",
+      "ipa": "/ˈfraɪ.deɪ/",
+      "partOfSpeech": "noun",
+      "example": "Thank God it's Friday!",
+      "definitions": [
+        "the day between Thursday and Saturday"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "on Friday",
+        "Friday evening",
+        "TGIF"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "روز جمعه",
+      "note": "آخرین روز کاری در بسیاری از کشورها",
+      "trap": "",
+      "tags": [
+        "A1",
+        "days"
+      ]
+    },
+    {
+      "word": "Saturday",
+      "translation": "شنبه",
+      "ipa": "/ˈsæt.ɚ.deɪ/",
+      "partOfSpeech": "noun",
+      "example": "I go to the park on Saturday.",
+      "definitions": [
+        "the day between Friday and Sunday"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "on Saturday",
+        "Saturday morning"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "روز شنبه",
+      "note": "در بسیاری کشورها اولین روز آخر هفته است",
+      "trap": "",
+      "tags": [
+        "A1",
+        "days"
+      ]
+    },
+    {
+      "word": "Sunday",
+      "translation": "یکشنبه",
+      "ipa": "/ˈsʌn.deɪ/",
+      "partOfSpeech": "noun",
+      "example": "We go to church on Sunday.",
+      "definitions": [
+        "the day between Saturday and Monday"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "on Sunday",
+        "Sunday morning",
+        "every Sunday"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "روز یکشنبه",
+      "note": "در بسیاری کشورها آخرین روز آخر هفته است",
+      "trap": "",
+      "tags": [
+        "A1",
+        "days"
+      ]
+    },
+    {
+      "word": "week",
+      "translation": "هفته",
+      "ipa": "/wiːk/",
+      "partOfSpeech": "noun",
+      "example": "I work five days a week.",
+      "definitions": [
+        "a period of seven days"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "this week",
+        "next week",
+        "last week",
+        "every week"
+      ],
+      "wordFamily": [
+        "weekly (adj/adv)"
+      ],
+      "coreMeaning": "دوره هفت روزه",
+      "note": "",
+      "trap": "با weak (ضعیف) اشتباه نگیرید، تلفظ یکسان است",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "weekend",
+      "translation": "آخر هفته",
+      "ipa": "/ˌwiːkˈend/",
+      "partOfSpeech": "noun",
+      "example": "What do you do on the weekend?",
+      "definitions": [
+        "Saturday and Sunday"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "weekday"
+      ],
+      "collocations": [
+        "on the weekend",
+        "this weekend",
+        "long weekend"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "روزهای شنبه و یکشنبه، پایان هفته",
+      "note": "در بریتانیایی: at the weekend",
+      "trap": "آمریکایی: on the weekend / بریتانیایی: at the weekend",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "weekday",
+      "translation": "روز کاری/هفته",
+      "ipa": "/ˈwiːk.deɪ/",
+      "partOfSpeech": "noun",
+      "example": "I only work on weekdays.",
+      "definitions": [
+        "any day from Monday to Friday"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "weekend"
+      ],
+      "collocations": [
+        "on weekdays",
+        "weekday mornings"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "روزهای دوشنبه تا جمعه، روزهای کاری",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "January",
+      "translation": "ژانویه",
+      "ipa": "/ˈdʒæn.ju.er.i/",
+      "partOfSpeech": "noun",
+      "example": "January is the first month of the year.",
+      "definitions": [
+        "the first month of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in January",
+        "last January",
+        "next January"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماه اول سال میلادی",
+      "note": "با حرف بزرگ نوشته می‌شود",
+      "trap": "",
+      "tags": [
+        "A1",
+        "months"
+      ]
+    },
+    {
+      "word": "February",
+      "translation": "فوریه",
+      "ipa": "/ˈfeb.ru.er.i/",
+      "partOfSpeech": "noun",
+      "example": "February has 28 or 29 days.",
+      "definitions": [
+        "the second month of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in February",
+        "February 14th"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماه دوم سال میلادی",
+      "note": "ماه عشق (ولنتاین ۱۴ فوریه)",
+      "trap": "r اول تلفظ نمی‌شود: FEB-yoo-ary",
+      "tags": [
+        "A1",
+        "months"
+      ]
+    },
+    {
+      "word": "March",
+      "translation": "مارس",
+      "ipa": "/mɑːrtʃ/",
+      "partOfSpeech": "noun",
+      "example": "Spring begins in March.",
+      "definitions": [
+        "the third month of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in March",
+        "last March"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماه سوم سال میلادی، آغاز بهار",
+      "note": "همچنین فعل march به معنی رژه رفتن",
+      "trap": "با march (رژه) اشتباه نگیرید — بافتار مهم است",
+      "tags": [
+        "A1",
+        "months"
+      ]
+    },
+    {
+      "word": "April",
+      "translation": "آوریل",
+      "ipa": "/ˈeɪ.prəl/",
+      "partOfSpeech": "noun",
+      "example": "My birthday is in April.",
+      "definitions": [
+        "the fourth month of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in April",
+        "April Fools' Day"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماه چهارم سال میلادی",
+      "note": "اول آوریل روز دروغ آوریل است",
+      "trap": "",
+      "tags": [
+        "A1",
+        "months"
+      ]
+    },
+    {
+      "word": "May",
+      "translation": "مه",
+      "ipa": "/meɪ/",
+      "partOfSpeech": "noun",
+      "example": "May is a beautiful month.",
+      "definitions": [
+        "the fifth month of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in May",
+        "May Day"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماه پنجم سال میلادی",
+      "note": "همچنین فعل may به معنی «ممکن است»",
+      "trap": "با may (ممکن است) اشتباه نگیرید — بافتار مهم است",
+      "tags": [
+        "A1",
+        "months"
+      ]
+    },
+    {
+      "word": "June",
+      "translation": "ژوئن",
+      "ipa": "/dʒuːn/",
+      "partOfSpeech": "noun",
+      "example": "School ends in June.",
+      "definitions": [
+        "the sixth month of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in June",
+        "June 1st"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماه ششم سال میلادی، آغاز تابستان",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "months"
+      ]
+    },
+    {
+      "word": "July",
+      "translation": "ژوئیه",
+      "ipa": "/dʒuˈlaɪ/",
+      "partOfSpeech": "noun",
+      "example": "July is usually very hot.",
+      "definitions": [
+        "the seventh month of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in July",
+        "4th of July"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماه هفتم سال میلادی",
+      "note": "۴ ژوئیه روز استقلال آمریکاست",
+      "trap": "",
+      "tags": [
+        "A1",
+        "months"
+      ]
+    },
+    {
+      "word": "August",
+      "translation": "اوت/آگوست",
+      "ipa": "/ˈɔː.ɡəst/",
+      "partOfSpeech": "noun",
+      "example": "We go on vacation in August.",
+      "definitions": [
+        "the eighth month of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in August",
+        "August 15th"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماه هشتم سال میلادی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "months"
+      ]
+    },
+    {
+      "word": "September",
+      "translation": "سپتامبر",
+      "ipa": "/sepˈtem.bɚ/",
+      "partOfSpeech": "noun",
+      "example": "School starts in September.",
+      "definitions": [
+        "the ninth month of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in September",
+        "September 1st"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماه نهم سال میلادی، آغاز پاییز",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "months"
+      ]
+    },
+    {
+      "word": "October",
+      "translation": "اکتبر",
+      "ipa": "/ɑːkˈtoʊ.bɚ/",
+      "partOfSpeech": "noun",
+      "example": "October is my favorite month.",
+      "definitions": [
+        "the tenth month of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in October",
+        "October 31st"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماه دهم سال میلادی",
+      "note": "۳۱ اکتبر هالووین است",
+      "trap": "",
+      "tags": [
+        "A1",
+        "months"
+      ]
+    },
+    {
+      "word": "November",
+      "translation": "نوامبر",
+      "ipa": "/noʊˈvem.bɚ/",
+      "partOfSpeech": "noun",
+      "example": "November is cold.",
+      "definitions": [
+        "the eleventh month of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in November",
+        "late November"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماه یازدهم سال میلادی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "months"
+      ]
+    },
+    {
+      "word": "December",
+      "translation": "دسامبر",
+      "ipa": "/dɪˈsem.bɚ/",
+      "partOfSpeech": "noun",
+      "example": "December is the last month of the year.",
+      "definitions": [
+        "the twelfth and last month of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in December",
+        "December 25th"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماه دوازدهم و آخر سال میلادی",
+      "note": "کریسمس ۲۵ دسامبر است",
+      "trap": "",
+      "tags": [
+        "A1",
+        "months"
+      ]
+    },
+    {
+      "word": "spring",
+      "translation": "بهار",
+      "ipa": "/sprɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Flowers bloom in spring.",
+      "definitions": [
+        "the season between winter and summer"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "autumn"
+      ],
+      "collocations": [
+        "in spring",
+        "spring flowers",
+        "spring break"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فصل بهار، بین زمستان و تابستان",
+      "note": "همچنین به معنی «فنر» هم هست",
+      "trap": "",
+      "tags": [
+        "A1",
+        "seasons"
+      ]
+    },
+    {
+      "word": "summer",
+      "translation": "تابستان",
+      "ipa": "/ˈsʌm.ɚ/",
+      "partOfSpeech": "noun",
+      "example": "It is very hot in summer.",
+      "definitions": [
+        "the warmest season of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "winter"
+      ],
+      "collocations": [
+        "in summer",
+        "summer vacation",
+        "summer holiday"
+      ],
+      "wordFamily": [
+        "summery (adj)"
+      ],
+      "coreMeaning": "فصل تابستان، گرم‌ترین فصل",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "seasons"
+      ]
+    },
+    {
+      "word": "autumn",
+      "translation": "پاییز",
+      "ipa": "/ˈɔː.t̬əm/",
+      "partOfSpeech": "noun",
+      "example": "The leaves change color in autumn.",
+      "definitions": [
+        "the season between summer and winter"
+      ],
+      "synonyms": [
+        "fall"
+      ],
+      "antonyms": [
+        "spring"
+      ],
+      "collocations": [
+        "in autumn",
+        "autumn leaves",
+        "early autumn"
+      ],
+      "wordFamily": [
+        "autumnal (adj)"
+      ],
+      "coreMeaning": "فصل پاییز، بین تابستان و زمستان",
+      "note": "در آمریکایی fall هم گفته می‌شود",
+      "trap": "آمریکایی‌ها fall می‌گویند، بریتانیایی‌ها autumn",
+      "tags": [
+        "A1",
+        "seasons"
+      ]
+    },
+    {
+      "word": "winter",
+      "translation": "زمستان",
+      "ipa": "/ˈwɪn.t̬ɚ/",
+      "partOfSpeech": "noun",
+      "example": "It snows in winter.",
+      "definitions": [
+        "the coldest season of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "summer"
+      ],
+      "collocations": [
+        "in winter",
+        "winter clothes",
+        "winter break"
+      ],
+      "wordFamily": [
+        "wintry (adj)"
+      ],
+      "coreMeaning": "فصل زمستان، سردترین فصل",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "seasons"
+      ]
+    },
+    {
+      "word": "morning",
+      "translation": "صبح",
+      "ipa": "/ˈmɔːr.nɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Good morning! How are you?",
+      "definitions": [
+        "the early part of the day, from sunrise to noon"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "evening"
+      ],
+      "collocations": [
+        "in the morning",
+        "good morning",
+        "this morning",
+        "morning coffee"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اوایل روز، از طلوع تا ظهر",
+      "note": "صبح بخیر = Good morning",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "afternoon",
+      "translation": "بعدازظهر",
+      "ipa": "/ˌæf.tɚˈnuːn/",
+      "partOfSpeech": "noun",
+      "example": "Let's meet in the afternoon.",
+      "definitions": [
+        "the time from noon to evening"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in the afternoon",
+        "good afternoon",
+        "this afternoon"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "از ظهر تا غروب",
+      "note": "بعدازظهر بخیر = Good afternoon",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "evening",
+      "translation": "عصر/غروب",
+      "ipa": "/ˈiːv.nɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Good evening, everyone!",
+      "definitions": [
+        "the part of the day between afternoon and night"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "morning"
+      ],
+      "collocations": [
+        "in the evening",
+        "good evening",
+        "this evening",
+        "evening class"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "از غروب تا شب",
+      "note": "عصر بخیر = Good evening",
+      "trap": "evening و night یکی نیستند — evening قبل از night است",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "night",
+      "translation": "شب",
+      "ipa": "/naɪt/",
+      "partOfSpeech": "noun",
+      "example": "Good night! Sleep well.",
+      "definitions": [
+        "the time of darkness between evening and morning"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "day"
+      ],
+      "collocations": [
+        "at night",
+        "good night",
+        "last night",
+        "tonight"
+      ],
+      "wordFamily": [
+        "nightly (adj)"
+      ],
+      "coreMeaning": "تاریکی بین غروب و طلوع",
+      "note": "شب بخیر = Good night (موقع خداحافظی)",
+      "trap": "Good night فقط موقع خواب/خداحافظی است، نه سلام",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "today",
+      "translation": "امروز",
+      "ipa": "/təˈdeɪ/",
+      "partOfSpeech": "adverb",
+      "example": "Today is Monday.",
+      "definitions": [
+        "on or during this present day"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "yesterday",
+        "tomorrow"
+      ],
+      "collocations": [
+        "today morning",
+        "earlier today"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "همین روز، امروز",
+      "note": "",
+      "trap": "نگویید today morning — بگویید this morning",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "yesterday",
+      "translation": "دیروز",
+      "ipa": "/ˈjes.tɚ.deɪ/",
+      "partOfSpeech": "adverb",
+      "example": "I went to the store yesterday.",
+      "definitions": [
+        "on the day before today"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "today",
+        "tomorrow"
+      ],
+      "collocations": [
+        "yesterday morning",
+        "yesterday evening"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "روز قبل از امروز",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "tomorrow",
+      "translation": "فردا",
+      "ipa": "/təˈmɔːr.oʊ/",
+      "partOfSpeech": "adverb",
+      "example": "See you tomorrow!",
+      "definitions": [
+        "on the day after today"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "today",
+        "yesterday"
+      ],
+      "collocations": [
+        "tomorrow morning",
+        "tomorrow night"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "روز بعد از امروز",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "hour",
+      "translation": "ساعت (یک ساعت)",
+      "ipa": "/aʊər/",
+      "partOfSpeech": "noun",
+      "example": "The movie is two hours long.",
+      "definitions": [
+        "a period of time equal to 60 minutes"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "an hour",
+        "hour by hour",
+        "rush hour"
+      ],
+      "wordFamily": [
+        "hourly (adj)"
+      ],
+      "coreMeaning": "واحد زمان برابر ۶۰ دقیقه",
+      "note": "حرف h خاموش است: an hour (نه a hour)",
+      "trap": "می‌گوییم an hour چون h تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "minute",
+      "translation": "دقیقه",
+      "ipa": "/ˈmɪn.ɪt/",
+      "partOfSpeech": "noun",
+      "example": "Wait a minute, please.",
+      "definitions": [
+        "a period of time equal to 60 seconds"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in a minute",
+        "wait a minute",
+        "just a minute"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "واحد زمان برابر ۶۰ ثانیه",
+      "note": "همچنین به معنی «ریز، کوچک» (minute /maɪˈnjuːt/)",
+      "trap": "minute (دقیقه) و minute (ریز) تلفظ متفاوت دارند",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "o'clock",
+      "translation": "ساعت (دقیقاً)",
+      "ipa": "/əˈklɑːk/",
+      "partOfSpeech": "adverb",
+      "example": "It's three o'clock.",
+      "definitions": [
+        "used after a number to mean exactly that hour"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "one o'clock",
+        "ten o'clock",
+        "at six o'clock"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ساعت فلان (فقط برای ساعت‌های کامل)",
+      "note": "فقط با ساعت‌های کامل استفاده می‌شود، نه مثلاً 3:15",
+      "trap": "فقط ساعت کامل: three o'clock ✅ / three fifteen o'clock ❌",
+      "tags": [
+        "A1",
+        "time",
+        "clock"
+      ]
+    },
+    {
+      "word": "half past",
+      "translation": "سی دقیقه بعد از / نیم",
+      "ipa": "/hæf pæst/",
+      "partOfSpeech": "adverb",
+      "example": "It's half past seven.",
+      "definitions": [
+        "thirty minutes after the hour"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "half past one",
+        "half past nine"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نیم ساعت بعد از ساعت — مثلاً half past seven = ۷:۳۰",
+      "note": "در آمریکایی معمولاً seven thirty هم گفته می‌شود",
+      "trap": "فقط برای :30 استفاده می‌شود",
+      "tags": [
+        "A1",
+        "time",
+        "clock"
+      ]
+    },
+    {
+      "word": "quarter past",
+      "translation": "ربع بعد از",
+      "ipa": "/ˈkwɔːr.t̬ɚ pæst/",
+      "partOfSpeech": "adverb",
+      "example": "It's quarter past eight.",
+      "definitions": [
+        "fifteen minutes after the hour"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "quarter past six",
+        "quarter past ten"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "۱۵ دقیقه بعد از ساعت — مثلاً quarter past eight = ۸:۱۵",
+      "note": "quarter = یک‌ربع = ۱۵ دقیقه",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time",
+        "clock"
+      ]
+    },
+    {
+      "word": "quarter to",
+      "translation": "ربع مانده به",
+      "ipa": "/ˈkwɔːr.t̬ɚ tuː/",
+      "partOfSpeech": "adverb",
+      "example": "It's quarter to five.",
+      "definitions": [
+        "fifteen minutes before the hour"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "quarter to three",
+        "quarter to twelve"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "۱۵ دقیقه مانده به ساعت — مثلاً quarter to five = ۴:۴۵",
+      "note": "به جای to در آمریکایی of هم استفاده می‌شود",
+      "trap": "quarter to five = 4:45 نه 5:15",
+      "tags": [
+        "A1",
+        "time",
+        "clock"
+      ]
+    },
+    {
+      "word": "year",
+      "translation": "سال",
+      "ipa": "/jɪr/",
+      "partOfSpeech": "noun",
+      "example": "There are twelve months in a year.",
+      "definitions": [
+        "a period of 365 days (or 366 in a leap year)"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "this year",
+        "last year",
+        "next year",
+        "every year"
+      ],
+      "wordFamily": [
+        "yearly (adj/adv)",
+        "annual (adj)"
+      ],
+      "coreMeaning": "دوره ۳۶۵ روزه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "month",
+      "translation": "ماه",
+      "ipa": "/mʌnθ/",
+      "partOfSpeech": "noun",
+      "example": "This month is very busy.",
+      "definitions": [
+        "any of the twelve periods of time into which the year is divided"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "this month",
+        "last month",
+        "next month",
+        "every month"
+      ],
+      "wordFamily": [
+        "monthly (adj/adv)"
+      ],
+      "coreMeaning": "یکی از دوازده بخش سال",
+      "note": "",
+      "trap": "صدای th در انتها مهم است",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "day",
+      "translation": "روز",
+      "ipa": "/deɪ/",
+      "partOfSpeech": "noun",
+      "example": "Have a nice day!",
+      "definitions": [
+        "a period of 24 hours"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "night"
+      ],
+      "collocations": [
+        "every day",
+        "day by day",
+        "one day",
+        "birthday"
+      ],
+      "wordFamily": [
+        "daily (adj)"
+      ],
+      "coreMeaning": "دوره ۲۴ ساعته",
+      "note": "every day (هر روز) ≠ everyday (روزانه/معمولی)",
+      "trap": "every day (副词) ≠ everyday (形容词)",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "time",
+      "translation": "زمان/وقت",
+      "ipa": "/taɪm/",
+      "partOfSpeech": "noun",
+      "example": "What time is it?",
+      "definitions": [
+        "the ongoing progression of events; a particular point in this progression"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "what time",
+        "on time",
+        "in time",
+        "all the time"
+      ],
+      "wordFamily": [
+        "timely (adj)"
+      ],
+      "coreMeaning": "زمان، وقت — پیشرفت مداوم رویدادها",
+      "note": "همچنین به معنی «دفعه»: three times = سه بار",
+      "trap": "time هم «زمان» است هم «دفعه»",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "clock",
+      "translation": "ساعت (دیواری/رومیزی)",
+      "ipa": "/klɑːk/",
+      "partOfSpeech": "noun",
+      "example": "The clock says it's noon.",
+      "definitions": [
+        "a device for measuring and showing time"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "alarm clock",
+        "around the clock",
+        "o'clock"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "وسیله نمایش زمان",
+      "note": "ساعت مچی = watch / ساعت دیواری = clock",
+      "trap": "clock (ساعت دیواری) ≠ watch (ساعت مچی)",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "watch",
+      "translation": "ساعت مچی",
+      "ipa": "/wɑːtʃ/",
+      "partOfSpeech": "noun",
+      "example": "What does your watch say?",
+      "definitions": [
+        "a small clock worn on the wrist"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "wrist watch",
+        "check your watch"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ساعت مچی، وسیله کوچک نمایش زمان",
+      "note": "همچنین فعل watch به معنی «تماشا کردن»",
+      "trap": "watch (ساعت مچی) ≠ clock (ساعت دیواری)",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "now",
+      "translation": "الان/اکنون",
+      "ipa": "/naʊ/",
+      "partOfSpeech": "adverb",
+      "example": "I am busy now.",
+      "definitions": [
+        "at the present time"
+      ],
+      "synonyms": [
+        "currently",
+        "right now"
+      ],
+      "antonyms": [
+        "then"
+      ],
+      "collocations": [
+        "right now",
+        "just now",
+        "from now on"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "در همین لحظه، اکنون",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "then",
+      "translation": "آن‌وقت/سپس",
+      "ipa": "/ðen/",
+      "partOfSpeech": "adverb",
+      "example": "I went home, and then I ate dinner.",
+      "definitions": [
+        "at that time; next; after that"
+      ],
+      "synonyms": [
+        "afterwards",
+        "next"
+      ],
+      "antonyms": [
+        "now"
+      ],
+      "collocations": [
+        "and then",
+        "back then",
+        "since then"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "در آن زمان، سپس، بعد",
+      "note": "",
+      "trap": "با than (از) اشتباه نگیرید",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "always",
+      "translation": "همیشه",
+      "ipa": "/ˈɔːl.weɪz/",
+      "partOfSpeech": "adverb",
+      "example": "I always drink coffee in the morning.",
+      "definitions": [
+        "at all times; every time"
+      ],
+      "synonyms": [
+        "forever",
+        "constantly"
+      ],
+      "antonyms": [
+        "never"
+      ],
+      "collocations": [
+        "always on time",
+        "almost always"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "در تمام مواقع، بدون استثنا",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "never",
+      "translation": "هرگز/هیچ‌وقت",
+      "ipa": "/ˈnev.ɚ/",
+      "partOfSpeech": "adverb",
+      "example": "I never eat meat.",
+      "definitions": [
+        "at no time; not ever"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "always"
+      ],
+      "collocations": [
+        "never mind",
+        "never again"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "در هیچ زمانی، ابداً",
+      "note": "جمله را منفی می‌کند: I never go (نه I don't never go)",
+      "trap": "never خودش منفی است — دوباره منفی نکنید",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "sometimes",
+      "translation": "گاهی",
+      "ipa": "/ˈsʌm.taɪmz/",
+      "partOfSpeech": "adverb",
+      "example": "Sometimes I walk to school.",
+      "definitions": [
+        "on some occasions but not all"
+      ],
+      "synonyms": [
+        "occasionally"
+      ],
+      "antonyms": [
+        "always",
+        "never"
+      ],
+      "collocations": [
+        "sometimes I think",
+        "every now and then"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "در بعضی مواقع، نه همیشه",
+      "note": "",
+      "trap": "با sometime (یک وقتی) و some times (چند بار) اشتباه نگیرید",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "often",
+      "translation": "اغلب/زیاد",
+      "ipa": "/ˈɔː.fən/",
+      "partOfSpeech": "adverb",
+      "example": "I often go to the gym.",
+      "definitions": [
+        "many times; frequently"
+      ],
+      "synonyms": [
+        "frequently"
+      ],
+      "antonyms": [
+        "rarely",
+        "seldom"
+      ],
+      "collocations": [
+        "very often",
+        "how often",
+        "more often"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "با تکرار زیاد، اکثر اوقات",
+      "note": "t خاموش است: OFF-en",
+      "trap": "بسیاری t را تلفظ می‌کنند ولی صحیح بدون t است",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "early",
+      "translation": "زود",
+      "ipa": "/ˈɜːr.li/",
+      "partOfSpeech": "adverb/adjective",
+      "example": "I wake up early every day.",
+      "definitions": [
+        "before the expected or usual time"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "late"
+      ],
+      "collocations": [
+        "early morning",
+        "early bird",
+        "too early"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "قبل از زمان مورد انتظار",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "late",
+      "translation": "دیر",
+      "ipa": "/leɪt/",
+      "partOfSpeech": "adverb/adjective",
+      "example": "Sorry, I'm late.",
+      "definitions": [
+        "after the expected or usual time"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "early"
+      ],
+      "collocations": [
+        "too late",
+        "late at night",
+        "be late for"
+      ],
+      "wordFamily": [
+        "lately (adv)"
+      ],
+      "coreMeaning": "بعد از زمان مورد انتظار",
+      "note": "lately = اخیراً (نه «دیر»)",
+      "trap": "late (دیر) ≠ lately (اخیراً)",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "soon",
+      "translation": "به‌زودی",
+      "ipa": "/suːn/",
+      "partOfSpeech": "adverb",
+      "example": "I will see you soon.",
+      "definitions": [
+        "in a short time from now"
+      ],
+      "synonyms": [
+        "shortly"
+      ],
+      "antonyms": [
+        "late"
+      ],
+      "collocations": [
+        "as soon as",
+        "sooner or later",
+        "see you soon"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "در آینده نزدیک",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "ago",
+      "translation": "پیش/قبل",
+      "ipa": "/əˈɡoʊ/",
+      "partOfSpeech": "adverb",
+      "example": "I came here two days ago.",
+      "definitions": [
+        "in the past; before now"
+      ],
+      "synonyms": [
+        "before"
+      ],
+      "antonyms": [
+        "from now"
+      ],
+      "collocations": [
+        "two days ago",
+        "a long time ago",
+        "years ago"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "در گذشته، قبل از الان",
+      "note": "همیشه بعد از زمان می‌آید: two days ago",
+      "trap": "ago همیشه بعد از مدت زمان می‌آید: three hours ago ✅ / ago three hours ❌",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "before",
+      "translation": "قبل از",
+      "ipa": "/bɪˈfɔːr/",
+      "partOfSpeech": "preposition",
+      "example": "Wash your hands before eating.",
+      "definitions": [
+        "earlier than; in front of"
+      ],
+      "synonyms": [
+        "prior to"
+      ],
+      "antonyms": [
+        "after"
+      ],
+      "collocations": [
+        "before noon",
+        "the day before",
+        "before long"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "در زمان یا مکان زودتر از",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "after",
+      "translation": "بعد از",
+      "ipa": "/ˈæf.tɚ/",
+      "partOfSpeech": "preposition",
+      "example": "Let's eat after class.",
+      "definitions": [
+        "later than; following in time"
+      ],
+      "synonyms": [
+        "following"
+      ],
+      "antonyms": [
+        "before"
+      ],
+      "collocations": [
+        "after school",
+        "after lunch",
+        "day after day"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "در زمان یا مکان دیرتر از",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "tonight",
+      "translation": "امشب",
+      "ipa": "/təˈnaɪt/",
+      "partOfSpeech": "adverb/noun",
+      "example": "Let's watch a movie tonight.",
+      "definitions": [
+        "on or during the present or coming night"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "tonight's show",
+        "later tonight"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "شب امروز",
+      "note": "",
+      "trap": "tonight یک کلمه است نه to night",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "weekly",
+      "translation": "هفتگی",
+      "ipa": "/ˈwiːk.li/",
+      "partOfSpeech": "adjective/adverb",
+      "example": "We have a weekly meeting.",
+      "definitions": [
+        "happening or done once a week"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "weekly meeting",
+        "weekly schedule"
+      ],
+      "wordFamily": [
+        "week (n)"
+      ],
+      "coreMeaning": "هر هفته، مربوط به هر هفته",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "monthly",
+      "translation": "ماهانه",
+      "ipa": "/ˈmʌnθ.li/",
+      "partOfSpeech": "adjective/adverb",
+      "example": "I pay rent monthly.",
+      "definitions": [
+        "happening or done once a month"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "monthly payment",
+        "monthly report"
+      ],
+      "wordFamily": [
+        "month (n)"
+      ],
+      "coreMeaning": "هر ماه، مربوط به هر ماه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "yearly",
+      "translation": "سالانه",
+      "ipa": "/ˈjɪr.li/",
+      "partOfSpeech": "adjective/adverb",
+      "example": "We have a yearly vacation.",
+      "definitions": [
+        "happening or done once a year"
+      ],
+      "synonyms": [
+        "annual"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "yearly income",
+        "yearly report"
+      ],
+      "wordFamily": [
+        "year (n)",
+        "annual (adj)"
+      ],
+      "coreMeaning": "هر سال، مربوط به هر سال",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "noon",
+      "translation": "ظهر",
+      "ipa": "/nuːn/",
+      "partOfSpeech": "noun",
+      "example": "Let's meet at noon.",
+      "definitions": [
+        "twelve o'clock in the middle of the day"
+      ],
+      "synonyms": [
+        "midday"
+      ],
+      "antonyms": [
+        "midnight"
+      ],
+      "collocations": [
+        "at noon",
+        "before noon",
+        "high noon"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ساعت ۱۲ ظهر",
+      "note": "",
+      "trap": "با nine (نه) اشتباه نگیرید",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "midnight",
+      "translation": "نیمه‌شب",
+      "ipa": "/ˈmɪd.naɪt/",
+      "partOfSpeech": "noun",
+      "example": "The party starts at midnight.",
+      "definitions": [
+        "twelve o'clock at night"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "noon"
+      ],
+      "collocations": [
+        "at midnight",
+        "after midnight",
+        "midnight snack"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ساعت ۱۲ شب",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "moment",
+      "translation": "لحظه",
+      "ipa": "/ˈmoʊ.mənt/",
+      "partOfSpeech": "noun",
+      "example": "Wait a moment, please.",
+      "definitions": [
+        "a very short period of time"
+      ],
+      "synonyms": [
+        "instant",
+        "second"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "just a moment",
+        "at the moment",
+        "one moment"
+      ],
+      "wordFamily": [
+        "momentary (adj)"
+      ],
+      "coreMeaning": "زمان بسیار کوتاه",
+      "note": "at the moment = در حال حاضر",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "birthday",
+      "translation": "تولد/زادروز",
+      "ipa": "/ˈbɜːrθ.deɪ/",
+      "partOfSpeech": "noun",
+      "example": "Happy birthday to you!",
+      "definitions": [
+        "the anniversary of the day someone was born"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "happy birthday",
+        "birthday party",
+        "birthday cake"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سالگرد روز تولد",
+      "note": "تبریک تولد: Happy birthday!",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "holiday",
+      "translation": "تعطیلات/جشن",
+      "ipa": "/ˈhɑː.lə.deɪ/",
+      "partOfSpeech": "noun",
+      "example": "We go on holiday in summer.",
+      "definitions": [
+        "a day of celebration; a vacation period"
+      ],
+      "synonyms": [
+        "vacation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "public holiday",
+        "on holiday",
+        "holiday season"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "روز یا دوره تعطیل و جشن",
+      "note": "در بریتانیایی holiday / در آمریکایی vacation",
+      "trap": "بریتانیایی: holiday / آمریکایی: vacation — هر دو درست‌اند",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "date",
+      "translation": "تاریخ",
+      "ipa": "/deɪt/",
+      "partOfSpeech": "noun",
+      "example": "What is the date today?",
+      "definitions": [
+        "the day of the month or year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "today's date",
+        "date of birth",
+        "expiration date"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "تاریخ روز، ماه و سال",
+      "note": "همچنین به معنی «قرار ملاقات» و «خرما»",
+      "trap": "date هم «تاریخ» است هم «قرار ملاقات» و هم «خرما»",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "season",
+      "translation": "فصل",
+      "ipa": "/ˈsiː.zən/",
+      "partOfSpeech": "noun",
+      "example": "There are four seasons in a year.",
+      "definitions": [
+        "each of the four divisions of the year"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "four seasons",
+        "dry season",
+        "rainy season"
+      ],
+      "wordFamily": [
+        "seasonal (adj)"
+      ],
+      "coreMeaning": "یکی از چهار بخش سال (بهار، تابستان، پاییز، زمستان)",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "quarter",
+      "translation": "ربع",
+      "ipa": "/ˈkwɔːr.t̬ɚ/",
+      "partOfSpeech": "noun",
+      "example": "A quarter of an hour is fifteen minutes.",
+      "definitions": [
+        "one fourth; 15 minutes on a clock"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "a quarter past",
+        "a quarter to",
+        "a quarter of"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "یک‌چهارم — در ساعت ۱۵ دقیقه",
+      "note": "quarter past three = 3:15 / quarter to three = 2:45",
+      "trap": "quarter past و quarter to متفاوت‌اند",
+      "tags": [
+        "A1",
+        "time",
+        "clock"
+      ]
+    },
+    {
+      "word": "half",
+      "translation": "نصف/نیم",
+      "ipa": "/hæf/",
+      "partOfSpeech": "noun/adjective",
+      "example": "I ate half of the cake.",
+      "definitions": [
+        "one of two equal parts; 50%"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "whole"
+      ],
+      "collocations": [
+        "half past",
+        "half an hour",
+        "half price"
+      ],
+      "wordFamily": [
+        "halve (v)"
+      ],
+      "coreMeaning": "یک دوم، پنجاه درصد",
+      "note": "half past three = ۳:۳۰",
+      "trap": "جمع: halves (نه halfs)",
+      "tags": [
+        "A1",
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "word": "once",
+      "translation": "یک بار",
+      "ipa": "/wʌns/",
+      "partOfSpeech": "adverb",
+      "example": "I go swimming once a week.",
+      "definitions": [
+        "one time; on one occasion"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "twice"
+      ],
+      "collocations": [
+        "once a week",
+        "once upon a time",
+        "at once"
+      ],
+      "wordFamily": [
+        "one (num)"
+      ],
+      "coreMeaning": "یک مرتبه، یک دفعه",
+      "note": "once upon a time = روزی روزگاری",
+      "trap": "با one (عدد یک) اشتباه نگیرید",
+      "tags": [
+        "A1",
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "word": "twice",
+      "translation": "دو بار",
+      "ipa": "/twaɪs/",
+      "partOfSpeech": "adverb",
+      "example": "I brush my teeth twice a day.",
+      "definitions": [
+        "two times; on two occasions"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "once"
+      ],
+      "collocations": [
+        "twice a day",
+        "twice a week",
+        "think twice"
+      ],
+      "wordFamily": [
+        "two (num)"
+      ],
+      "coreMeaning": "دو مرتبه، دو دفعه",
+      "note": "",
+      "trap": "برای سه بار به بالا از three times استفاده می‌شود نه thrice",
+      "tags": [
+        "A1",
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "word": "next",
+      "translation": "بعدی/آینده",
+      "ipa": "/nekst/",
+      "partOfSpeech": "adjective/adverb",
+      "example": "See you next week.",
+      "definitions": [
+        "coming immediately after the present one"
+      ],
+      "synonyms": [
+        "following"
+      ],
+      "antonyms": [
+        "last",
+        "previous"
+      ],
+      "collocations": [
+        "next week",
+        "next time",
+        "next door"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "بلافاصله بعد از این",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "last",
+      "translation": "قبلی/گذشته",
+      "ipa": "/læst/",
+      "partOfSpeech": "adjective",
+      "example": "I saw her last Monday.",
+      "definitions": [
+        "most recent; coming before the present"
+      ],
+      "synonyms": [
+        "previous"
+      ],
+      "antonyms": [
+        "next"
+      ],
+      "collocations": [
+        "last week",
+        "last month",
+        "last year",
+        "last time"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اخیر، قبل از این",
+      "note": "همچنین به معنی «آخرین»: the last one",
+      "trap": "last week = هفته قبل / the last week = آخرین هفته",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    },
+    {
+      "word": "every",
+      "translation": "هر",
+      "ipa": "/ˈev.ri/",
+      "partOfSpeech": "determiner",
+      "example": "I study English every day.",
+      "definitions": [
+        "each one without exception"
+      ],
+      "synonyms": [
+        "each"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "every day",
+        "every week",
+        "every month",
+        "every year"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "تمام، بدون استثنا",
+      "note": "every + مفرد: every day ✅ / every days ❌",
+      "trap": "همیشه با اسم مفرد می‌آید",
+      "tags": [
+        "A1",
+        "time"
+      ]
+    }
+  ]
+}

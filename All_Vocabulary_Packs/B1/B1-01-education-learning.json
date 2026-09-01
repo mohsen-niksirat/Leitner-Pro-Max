@@ -1,0 +1,1634 @@
+{
+  "name": "تحصیل و یادگیری",
+  "description": "واژگان سطح B1 — موضوع: تحصیل، یادگیری و محیط آکادمیک",
+  "category": "B1 — متوسط",
+  "level": "B1",
+  "packId": "B1-01",
+  "words": [
+    {
+      "word": "academic",
+      "translation": "آکادمیک، دانشگاهی",
+      "ipa": "/ˌækəˈdemɪk/",
+      "partOfSpeech": "adj",
+      "example": "She has an academic background in mathematics.",
+      "definitions": [
+        "relating to education and scholarship"
+      ],
+      "synonyms": [
+        "scholarly",
+        "educational"
+      ],
+      "antonyms": [
+        "practical"
+      ],
+      "collocations": [
+        "academic performance",
+        "academic success"
+      ],
+      "wordFamily": [
+        "academy (n)",
+        "academically (adv)"
+      ],
+      "coreMeaning": "مرتبط با تحصیلات و دانشگاه",
+      "note": "اغلب برای توصیف محیط‌های آموزشی استفاده می‌شود",
+      "trap": "با scholar (دانشمند) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "syllabus",
+      "translation": "برنامه درسی، سرفصل",
+      "ipa": "/ˈsɪləbəs/",
+      "partOfSpeech": "noun",
+      "example": "The professor distributed the syllabus on the first day.",
+      "definitions": [
+        "an outline of the subjects in a course"
+      ],
+      "synonyms": [
+        "curriculum",
+        "program"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "course syllabus",
+        "follow the syllabus"
+      ],
+      "wordFamily": [
+        "syllabi (plural)"
+      ],
+      "coreMeaning": "فهرست موضوعات و محتوای یک دوره آموزشی",
+      "note": "جمع: syllabi یا syllabuses",
+      "trap": "با syllable (هجا) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "semester",
+      "translation": "ترم تحصیلی",
+      "ipa": "/sɪˈmestər/",
+      "partOfSpeech": "noun",
+      "example": "Fall semester starts in September.",
+      "definitions": [
+        "a half-year term in a school or college"
+      ],
+      "synonyms": [
+        "term",
+        "quarter"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fall semester",
+        "spring semester"
+      ],
+      "wordFamily": [
+        "semestral (adj)"
+      ],
+      "coreMeaning": "نیم‌سال تحصیلی در دانشگاه",
+      "note": "معمولاً دو ترم در سال تحصیلی وجود دارد",
+      "trap": "با seminar (سمینار) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "enrollment",
+      "translation": "ثبت‌نام",
+      "ipa": "/ɪnˈroʊlmənt/",
+      "partOfSpeech": "noun",
+      "example": "Enrollment has increased by 15% this year.",
+      "definitions": [
+        "the act of officially joining a course or institution"
+      ],
+      "synonyms": [
+        "registration",
+        "admission"
+      ],
+      "antonyms": [
+        "withdrawal"
+      ],
+      "collocations": [
+        "student enrollment",
+        "enrollment process"
+      ],
+      "wordFamily": [
+        "enroll (v)",
+        "enrolled (adj)"
+      ],
+      "coreMeaning": "فرآیند ثبت‌نام در دوره آموزشی",
+      "note": "هم برای دانشگاه و هم برای دوره‌های آموزشی استفاده می‌شود",
+      "trap": "با roll (لیست) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "tuition",
+      "translation": " شهریه",
+      "ipa": "/tuːˈɪʃn/",
+      "partOfSpeech": "noun",
+      "example": "Tuition fees have risen significantly.",
+      "definitions": [
+        " fees paid for instruction"
+      ],
+      "synonyms": [
+        "fees",
+        "charges"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "tuition fees",
+        "pay tuition"
+      ],
+      "wordFamily": [
+        "tuition (n)"
+      ],
+      "coreMeaning": "هزینه تحصیل و آموزش",
+      "note": "در آمریکای شمالی بسیار رایج است",
+      "trap": "با intuition (شهود) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "scholarship",
+      "translation": "بورسیه تحصیلی",
+      "ipa": "/ˈskɑːlərʃɪp/",
+      "partOfSpeech": "noun",
+      "example": "She received a full scholarship to study abroad.",
+      "definitions": [
+        "a grant of financial aid awarded to a student"
+      ],
+      "synonyms": [
+        "grant",
+        "fellowship"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "win a scholarship",
+        "scholarship program"
+      ],
+      "wordFamily": [
+        "scholar (n)"
+      ],
+      "coreMeaning": "کمک هزینه تحصیلی برای دانشجویان",
+      "note": "هم برای تحصیل و هم برای تحقیق استفاده می‌شود",
+      "trap": "با school (مدرسه) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "lecture",
+      "translation": "سخنرانی، درس",
+      "ipa": "/ˈlektʃər/",
+      "partOfSpeech": "noun",
+      "example": "The professor gave a lecture on quantum physics.",
+      "definitions": [
+        "an educational talk to an audience"
+      ],
+      "synonyms": [
+        "talk",
+        "presentation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "give a lecture",
+        "attend a lecture"
+      ],
+      "wordFamily": [
+        "lecturer (n)"
+      ],
+      "coreMeaning": "جلسه آموزشی با سخنرانی معلم",
+      "note": "معمولاً در دانشگاه‌ها استفاده می‌شود",
+      "trap": "با lettuce (کاهو) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "tutorial",
+      "translation": "آموزش عملی، کارگاه",
+      "ipa": "/tuːˈtɔːriəl/",
+      "partOfSpeech": "noun",
+      "example": "The tutorial helped me understand the software.",
+      "definitions": [
+        "a period of individual or small-group instruction"
+      ],
+      "synonyms": [
+        "workshop",
+        "session"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "online tutorial",
+        "video tutorial"
+      ],
+      "wordFamily": [
+        "tutor (n)"
+      ],
+      "coreMeaning": "جلسه آموزش عملی و تعاملی",
+      "note": "اغلب تعاملی‌تر از lecture است",
+      "trap": "با tutor (معلم خصوصی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "campus",
+      "translation": "محوطه دانشگاه",
+      "ipa": "/ˈkæmpəs/",
+      "partOfSpeech": "noun",
+      "example": "The university has a beautiful campus.",
+      "definitions": [
+        "the grounds of a college or university"
+      ],
+      "synonyms": [
+        "grounds",
+        "premises"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "on campus",
+        "off campus"
+      ],
+      "wordFamily": [
+        "campus (n)"
+      ],
+      "coreMeaning": "محوطه و ساختمان‌های دانشگاه",
+      "note": "هم برای دانشگاه و هم برای مدرسه استفاده می‌شود",
+      "trap": "با camp (اردوگاه) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "dormitory",
+      "translation": "خوابگاه دانشجویی",
+      "ipa": "/ˈdɔːrmɪtɔːri/",
+      "partOfSpeech": "noun",
+      "example": "She lives in the university dormitory.",
+      "definitions": [
+        "a building for students to live in"
+      ],
+      "synonyms": [
+        "residence hall",
+        "hall"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "dormitory room",
+        "dormitory life"
+      ],
+      "wordFamily": [
+        "dorm (n)"
+      ],
+      "coreMeaning": "محل اقامت دانشجویان در دانشگاه",
+      "note": "مخفف: dorm",
+      "trap": "با dorm (خوابگاه) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "assignment",
+      "translation": "تکلیف، تمرین",
+      "ipa": "/əˈsaɪnmənt/",
+      "partOfSpeech": "noun",
+      "example": "The assignment is due next Monday.",
+      "definitions": [
+        "a task or piece of work assigned to someone"
+      ],
+      "synonyms": [
+        "task",
+        "homework"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "complete an assignment",
+        "assignment deadline"
+      ],
+      "wordFamily": [
+        "assign (v)"
+      ],
+      "coreMeaning": "تکلیف یا تمرینی که به دانشجو داده می‌شود",
+      "note": "اغلب شامل کار نوشتاری است",
+      "trap": "با signature (امضا) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "homework",
+      "translation": "تکلیف خانه",
+      "ipa": "/ˈhoʊmwɜːrk/",
+      "partOfSpeech": "noun",
+      "example": "I have a lot of homework to do tonight.",
+      "definitions": [
+        "schoolwork that a student is required to do at home"
+      ],
+      "synonyms": [
+        "assignment",
+        "study"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "do homework",
+        "homework assignment"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "تکلیفی که در خانه انجام می‌شود",
+      "note": "اغلب برای دانش‌آموزان مدرسه استفاده می‌شود",
+      "trap": "با housework (کار خانه) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "exam",
+      "translation": "امتحان",
+      "ipa": "/ɪɡˈzæm/",
+      "partOfSpeech": "noun",
+      "example": "The final exam will cover all chapters.",
+      "definitions": [
+        "a formal test of knowledge or ability"
+      ],
+      "synonyms": [
+        "test",
+        "assessment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take an exam",
+        "pass an exam"
+      ],
+      "wordFamily": [
+        "examination (n)"
+      ],
+      "coreMeaning": "آزمون رسمی برای سنجش دانش",
+      "note": "مخفف examination",
+      "trap": "با example (مثال) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "grade",
+      "translation": "نمره، درجه",
+      "ipa": "/ɡreɪd/",
+      "partOfSpeech": "noun",
+      "example": "She got an A grade in mathematics.",
+      "definitions": [
+        "a mark indicating the quality of work"
+      ],
+      "synonyms": [
+        "mark",
+        "score"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "get a good grade",
+        "grade point average"
+      ],
+      "wordFamily": [
+        "graded (adj)"
+      ],
+      "coreMeaning": "نمره یا درجه‌ای که در امتحان گرفته می‌شود",
+      "note": "GPA مخفف grade point average است",
+      "trap": "با gradual (تدریجی) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "dissertation",
+      "translation": "رساله، پایان‌نامه",
+      "ipa": "/ˌdɪsərˈteɪʃn/",
+      "partOfSpeech": "noun",
+      "example": "He spent three years writing his dissertation.",
+      "definitions": [
+        "a long essay on a particular subject"
+      ],
+      "synonyms": [
+        "thesis",
+        "treatise"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "doctoral dissertation",
+        "write a dissertation"
+      ],
+      "wordFamily": [
+        "dissertation (n)"
+      ],
+      "coreMeaning": "مقاله بلند و تحقیقی در مقطع دکترا",
+      "note": "اغلب طولانی‌تر از thesis است",
+      "trap": "با discussion (بحث) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "conclusion",
+      "translation": "نتیجه‌گیری",
+      "ipa": "/kənˈkluːʒn/",
+      "partOfSpeech": "noun",
+      "example": "The conclusion summarized the main findings.",
+      "definitions": [
+        "a judgment or decision reached by reasoning"
+      ],
+      "synonyms": [
+        "result",
+        "outcome"
+      ],
+      "antonyms": [
+        "premise"
+      ],
+      "collocations": [
+        "draw a conclusion",
+        "in conclusion"
+      ],
+      "wordFamily": [
+        "conclude (v)",
+        "conclusive (adj)"
+      ],
+      "coreMeaning": "نتیجه‌ای که از استدلال یا تحقیق گرفته می‌شود",
+      "note": "اغلب در انتهای مقاله یا تحقیق می‌آید",
+      "trap": "با conclusion و conclude اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "instruct",
+      "translation": "آموزش دادن، راهنمایی کردن",
+      "ipa": "/ɪnˈstrʌkt/",
+      "partOfSpeech": "verb",
+      "example": "The teacher will instruct students on the new material.",
+      "definitions": [
+        "to teach someone a subject or skill"
+      ],
+      "synonyms": [
+        "teach",
+        "educate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "instruct students",
+        "instruct on"
+      ],
+      "wordFamily": [
+        "instruction (n)",
+        "instructor (n)"
+      ],
+      "coreMeaning": "آموزش دادن و راهنمایی کردن",
+      "note": "رسمی‌تر از teach است",
+      "trap": "با construct (ساختن) اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "instructor",
+      "translation": "مربی، معلم",
+      "ipa": "/ɪnˈstrʌktər/",
+      "partOfSpeech": "noun",
+      "example": "The driving instructor was very patient.",
+      "definitions": [
+        "a person who teaches a particular subject"
+      ],
+      "synonyms": [
+        "teacher",
+        "tutor"
+      ],
+      "antonyms": [
+        "student"
+      ],
+      "collocations": [
+        "certified instructor",
+        "course instructor"
+      ],
+      "wordFamily": [
+        "instruct (v)",
+        "instruction (n)"
+      ],
+      "coreMeaning": "فردی که یک موضوع خاص را آموزش می‌دهد",
+      "note": "اغلب در دوره‌های عملی استفاده می‌شود",
+      "trap": "با instructor و instruct اشتباه نگیرید",
+      "tags": [
+        "B1",
+        "education"
+      ]
+    },
+    {
+      "word": "academy",
+      "translation": "آکادمی",
+      "example": "She enrolled in a prestigious academy.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "alumni",
+      "translation": "فارغ‌التحصیلان",
+      "example": "The alumni gathered for the reunion.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "commencement",
+      "translation": "مراسم فارغ‌التحصیلی",
+      "example": "The commencement ceremony was held in June.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "curriculum",
+      "translation": " برنامه درسی",
+      "example": "The curriculum includes math and science.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "examination",
+      "translation": "امتحان",
+      "example": "The examination will be held next week.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "faculty",
+      "translation": "هیئت علمی",
+      "example": "The faculty meeting is scheduled for Monday.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "graduate",
+      "translation": "فارغ‌التحصیل",
+      "example": "He will graduate with honors.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "literacy",
+      "translation": "سواد",
+      "example": "Literacy rates have improved significantly.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "mentoring",
+      "translation": "راهنمایی",
+      "example": "She enjoys mentoring new students.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "pedagogy",
+      "translation": "روش تدریس",
+      "example": "Modern pedagogy emphasizes student engagement.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "professor",
+      "translation": "استاد",
+      "example": "The professor is an expert in physics.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "seminar",
+      "translation": "کارگاه",
+      "example": "He attended a research seminar.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "tutoring",
+      "translation": "تدریس خصوصی",
+      "example": "She offers tutoring in mathematics.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "undergraduate",
+      "translation": "کارشناسی",
+      "example": "He is an undergraduate student.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "thesis",
+      "translation": "پایان‌نامه",
+      "example": "She defended her thesis successfully.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "postgraduate",
+      "translation": "کارشناسی ارشد",
+      "example": "She is a postgraduate student.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "accreditation",
+      "translation": "اعتباردهی",
+      "example": "The university received accreditation.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "attain",
+      "translation": "دستیابی",
+      "example": "She worked hard to attain her goals.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "audit",
+      "translation": "بررسی",
+      "example": "The professor will audit the class.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "certification",
+      "translation": "گواهینامه",
+      "example": "She earned her certification in nursing.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "competency",
+      "translation": "شایستگی",
+      "example": "She demonstrated competency in the subject.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "confer",
+      "translation": "اعطا",
+      "example": "The university will confer degrees.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "credential",
+      "translation": "مدارک",
+      "example": "He presented his credentials.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "discipline",
+      "translation": "رشته",
+      "example": "She chose biology as her discipline.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "elective",
+      "translation": "اختیاری",
+      "example": "Art is an elective course.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "endorse",
+      "translation": "تایید",
+      "example": "The board endorsed the proposal.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "extracurricular",
+      "translation": "فوق برنامه",
+      "example": "She participates in extracurricular activities.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "foundational",
+      "translation": "پایه‌ای",
+      "example": "This course provides foundational knowledge.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "graduation",
+      "translation": "فارغ‌التحصیلی",
+      "example": "The graduation ceremony was beautiful.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "impart",
+      "translation": "منتقل کردن",
+      "example": "Teachers impart knowledge to students.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "intern",
+      "translation": "کارآموز",
+      "example": "She is an intern at the hospital.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "internship",
+      "translation": "دوره کارآموزی",
+      "example": "The internship provides valuable experience.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "learn",
+      "translation": "یادگیری",
+      "example": "Children learn quickly.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "learner",
+      "translation": "یادگیرنده",
+      "example": "She is a fast learner.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "learning",
+      "translation": "یادگیری",
+      "example": "Lifelong learning is important.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "lesson",
+      "translation": "درس",
+      "example": "Today's lesson is about history.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "literature",
+      "translation": "ادبیات",
+      "example": "She studies English literature.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "mainstream",
+      "translation": "اصلی",
+      "example": "This theory has become mainstream.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "major",
+      "translation": "رشته اصلی",
+      "example": "Her major is computer science.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "mastery",
+      "translation": "تسلط",
+      "example": "He achieved mastery of the language.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "methodology",
+      "translation": "روش‌شناسی",
+      "example": "The research methodology is sound.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "minor",
+      "translation": "رشته فرعی",
+      "example": "His minor is psychology.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "module",
+      "translation": "ماژول",
+      "example": "This module covers advanced topics.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "observation",
+      "translation": "مشاهده",
+      "example": "Classroom observation is part of training.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "orient",
+      "translation": "جهت‌یابی",
+      "example": "The orientation helps new students.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "orientation",
+      "translation": "آشنایی",
+      "example": "The orientation session is tomorrow.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "paradigm",
+      "translation": "الگو",
+      "example": "This represents a new paradigm.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "pass",
+      "translation": "قبول شدن",
+      "example": "She passed the exam with flying colors.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "prerequisite",
+      "translation": "پیش‌نیاز",
+      "example": "Math is a prerequisite for physics.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "proficiency",
+      "translation": "تبحر",
+      "example": "She has proficiency in three languages.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "program",
+      "translation": "برنامه",
+      "example": "The graduate program is excellent.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "qualify",
+      "translation": "صلاحیت",
+      "example": "She qualified for the scholarship.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "research",
+      "translation": "تحقیق",
+      "example": "He is conducting research on cancer.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "revision",
+      "translation": "بازنگری",
+      "example": "The syllabus underwent revision.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "scholar",
+      "translation": "پژوهشگر",
+      "example": "She is a renowned scholar.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "score",
+      "translation": "امتیاز",
+      "example": "He achieved a high score.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "skilled",
+      "translation": "ماهر",
+      "example": "She is a skilled programmer.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "specialization",
+      "translation": "تخصص",
+      "example": "His specialization is in AI.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "study",
+      "translation": "مطالعه",
+      "example": "She spends hours studying.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "subject",
+      "translation": "درس",
+      "example": "Math is her favorite subject.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "teach",
+      "translation": "تدریس",
+      "example": "She teaches English.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "teacher",
+      "translation": "معلم",
+      "example": "The teacher is very patient.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "teaching",
+      "translation": "تدریس",
+      "example": "Teaching is a noble profession.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "textbook",
+      "translation": "کتاب درسی",
+      "example": "The textbook is comprehensive.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "training",
+      "translation": "آموزش",
+      "example": "The training program is intensive.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "understand",
+      "translation": "فهمیدن",
+      "example": "Students understand the concept.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "understanding",
+      "translation": "فهم",
+      "example": "She has a deep understanding.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "vocation",
+      "translation": "حرفه",
+      "example": "Teaching is her vocation.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "vocational",
+      "translation": "حرفه‌ای",
+      "example": "Vocational training is practical.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "workshop",
+      "translation": "کارگاه",
+      "example": "The workshop was hands-on.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "academician",
+      "translation": "عضو آکادمی",
+      "example": "She is a distinguished academician.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "admission",
+      "translation": "پذیرش",
+      "example": "She received her admission letter.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "affect",
+      "translation": "تاثیر گذاشتن",
+      "example": "Sleep affects learning.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "alma mater",
+      "translation": "محل تحصیل",
+      "example": "He donated to his alma mater.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "appraise",
+      "translation": "ارزیابی کردن",
+      "example": "The teacher appraised the student's work.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "aptitude",
+      "translation": "استعداد",
+      "example": "She has an aptitude for math.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "assess",
+      "translation": "ارزیابی",
+      "example": "Teachers assess student progress.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "assessment",
+      "translation": "ارزیابی",
+      "example": "The assessment was thorough.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "authoritative",
+      "translation": "معتبر",
+      "example": "This is an authoritative source.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "benchmark",
+      "translation": "معیار",
+      "example": "This sets the benchmark for quality.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "cognitive",
+      "translation": "شناختی",
+      "example": "Cognitive development is important.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "comprehend",
+      "translation": "درک کردن",
+      "example": "Students comprehend the material.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "comprehensive",
+      "translation": "جامع",
+      "example": "The exam was comprehensive.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "concentrate",
+      "translation": "تمرکز کردن",
+      "example": "Students concentrate on their work.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "concentration",
+      "translation": "تمرکز",
+      "example": "Concentration is key to learning.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "connotation",
+      "translation": "مفهوم",
+      "example": "The word has a positive connotation.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "contemplate",
+      "translation": "تأمل کردن",
+      "example": "She contemplated the meaning.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "contemplation",
+      "translation": "تأمل",
+      "example": "Deep contemplation is required.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "context",
+      "translation": "زمینه",
+      "example": "Context is important in language.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "controversy",
+      "translation": "مناقشه",
+      "example": "The topic caused controversy.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "core",
+      "translation": "هسته",
+      "example": "Math is a core subject.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "coursework",
+      "translation": "تکالیف درسی",
+      "example": "The coursework is demanding.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "criterion",
+      "translation": "معیار",
+      "example": "What is the criterion for success?",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "debate",
+      "translation": "بحث",
+      "example": "The debate was lively.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "decipher",
+      "translation": "رمزگشایی",
+      "example": "She deciphered the ancient text.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "dedication",
+      "translation": "فداکاری",
+      "example": "Her dedication to study is admirable.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "diligent",
+      "translation": "پرتلاش",
+      "example": "She is a diligent student.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "discourse",
+      "translation": "گفتمان",
+      "example": "Academic discourse requires formal language.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "elaborate",
+      "translation": "تشریح کردن",
+      "example": "Can you elaborate on that point?",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "empirical",
+      "translation": "تجربی",
+      "example": "The study is empirical.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "endeavor",
+      "translation": "تلاش",
+      "example": "Learning is a lifelong endeavor.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "enumerate",
+      "translation": "شمردن",
+      "example": "She enumerated the benefits.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "epistemology",
+      "translation": "معرفت‌شناسی",
+      "example": "Epistemology studies knowledge.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "erudite",
+      "translation": "عالم",
+      "example": "He is an erudite scholar.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "evidence",
+      "translation": "شواهد",
+      "example": "The evidence supports the theory.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "exemplary",
+      "translation": "نمونه",
+      "example": "Her work is exemplary.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "exposition",
+      "translation": "تشریح",
+      "example": "The exposition clarified the concept.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "flourish",
+      "translation": "شکوفایی",
+      "example": "Students flourish in a supportive environment.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "forthcoming",
+      "translation": "در راه",
+      "example": "The forthcoming semester is busy.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "foster",
+      "translation": "پرورش دادن",
+      "example": "Schools foster creativity.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "fundamental",
+      "translation": "اساسی",
+      "example": "This is a fundamental principle.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "generic",
+      "translation": "عمومی",
+      "example": "This is a generic approach.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "globe",
+      "translation": "جهان",
+      "example": "Students from around the globe participate.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "gravitas",
+      "translation": "وقار",
+      "example": "He spoke with gravitas.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "heuristic",
+      "translation": "اکتشافی",
+      "example": "Heuristic learning is effective.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "hypothesis",
+      "translation": "فرضیه",
+      "example": "The hypothesis was tested.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "ideology",
+      "translation": "ایدئولوژی",
+      "example": "The educational ideology is progressive.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "illuminate",
+      "translation": "روشن کردن",
+      "example": "The study illuminates the issue.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "impetus",
+      "translation": "محرک",
+      "example": "Success provides impetus for more work.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "implicit",
+      "translation": "ضمنی",
+      "example": "There is an implicit understanding.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "induce",
+      "translation": "ایجاد کردن",
+      "example": "Curiosity induces learning.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "innovative",
+      "translation": "نوآورانه",
+      "example": "She has innovative teaching methods.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "inquiry",
+      "translation": "پژوهش",
+      "example": "Scientific inquiry is important.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "integrate",
+      "translation": "ادغام کردن",
+      "example": "Schools integrate technology.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "intellectual",
+      "translation": "فکری",
+      "example": "He is an intellectual leader.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "intensive",
+      "translation": "فشرده",
+      "example": "The course is intensive.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "interdisciplinary",
+      "translation": "بین‌رشته‌ای",
+      "example": "This is an interdisciplinary field.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "invoke",
+      "translation": "فراخواندن",
+      "example": "She invoked multiple theories.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "juxtapose",
+      "translation": "مقایسه کردن",
+      "example": "She juxtaposed different approaches.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "kinesthetic",
+      "translation": "حرکتی",
+      "example": "Kinesthetic learners need movement.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "lateral",
+      "translation": " جانبی",
+      "example": "Lateral thinking is creative.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "liberal",
+      "translation": "آزاداندیش",
+      "example": "She has a liberal education.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "lucid",
+      "translation": "شفاف",
+      "example": "The explanation was lucid.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "metacognition",
+      "translation": "فراتشخیص",
+      "example": "Metacognition improves learning.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "nuance",
+      "translation": "ظرافت",
+      "example": "Language has many nuances.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "objective",
+      "translation": "هدف",
+      "example": "The objective is clear.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "parallel",
+      "translation": "موازی",
+      "example": "The courses run in parallel.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "parameter",
+      "translation": "پارامتر",
+      "example": "The parameters are defined.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "perseverance",
+      "translation": "استقامت",
+      "example": "Perseverance leads to success.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "phenomenon",
+      "translation": "پدیده",
+      "example": "This is a global phenomenon.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "philosophy",
+      "translation": "فلسفه",
+      "example": "Her teaching philosophy is unique.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "plagiarism",
+      "translation": "سرقت ادبی",
+      "example": "Plagiarism is taken seriously.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "potent",
+      "translation": "قوی",
+      "example": "Education is a potent tool.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "precept",
+      "translation": "اصول",
+      "example": "He follows the precepts of science.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "principle",
+      "translation": "اصل",
+      "example": "The principle is fundamental.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "profound",
+      "translation": "عمیق",
+      "example": "The book had a profound impact.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "proliferate",
+      "translation": "گسترش یافتن",
+      "example": "Online courses proliferate.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "proponent",
+      "translation": "حامی",
+      "example": "She is a proponent of STEM education.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "propensity",
+      "translation": "گرایش",
+      "example": "He has a propensity for learning.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "rationale",
+      "translation": "دلیل",
+      "example": "The rationale is explained.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "recapitulate",
+      "translation": "خلاصه کردن",
+      "example": "Let me recapitulate the main points.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "reiterate",
+      "translation": "تکرار کردن",
+      "example": "She reiterated the importance of study.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "rigorous",
+      "translation": "سختگیرانه",
+      "example": "The program is rigorous.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "salient",
+      "translation": "برجسته",
+      "example": "The salient points were discussed.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "scrutinize",
+      "translation": "بررسی دقیق",
+      "example": "She scrutinized the data.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "speculate",
+      "translation": "حدس زدن",
+      "example": "Scientists speculate about the future.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "spectrum",
+      "translation": "طیف",
+      "example": "The course covers a wide spectrum.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "spontaneous",
+      "translation": "خودانگیخته",
+      "example": "Spontaneous learning is natural.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "stakeholder",
+      "translation": "ذی‌نفع",
+      "example": "Parents are key stakeholders.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "stringent",
+      "translation": "سخت",
+      "example": "The rules are stringent.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "subjective",
+      "translation": " ذهنی",
+      "example": "Grading can be subjective.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "synthesize",
+      "translation": "ترکیب کردن",
+      "example": "She synthesized the research findings.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "tangible",
+      "translation": "ملموس",
+      "example": "The results are tangible.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "tenacious",
+      "translation": "پرتلاش",
+      "example": "She is a tenacious learner.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "tout",
+      "translation": "تبلیغ کردن",
+      "example": "The school touts its achievements.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "ubiquitous",
+      "translation": "همه‌جا حاضر",
+      "example": "Technology is ubiquitous.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "utilitarian",
+      "translation": "عملگرا",
+      "example": "The approach is utilitarian.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "validate",
+      "translation": "تایید کردن",
+      "example": "The research validates the theory.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "variable",
+      "translation": "متغیر",
+      "example": "The variable affects the outcome.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "versatile",
+      "translation": "همه‌کاره",
+      "example": "She is a versatile learner.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "viable",
+      "translation": "عملی",
+      "example": "This is a viable solution.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "visionary",
+      "translation": "آینده‌نگر",
+      "example": "She is a visionary educator.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "vivacious",
+      "translation": "سرزنده",
+      "example": "The class is vivacious.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "vociferous",
+      "translation": "پرسروصدا",
+      "example": "The vociferous debate continued.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "warrant",
+      "translation": "تضمین کردن",
+      "example": "The results warrant further study.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "yield",
+      "translation": "نتیجه دادن",
+      "example": "The research yielded insights.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "absorb",
+      "translation": "جذب کردن",
+      "example": "Students absorb knowledge quickly.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "cultivate",
+      "translation": "پرورش دادن",
+      "example": "We must cultivate good habits.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "deem",
+      "translation": "محسوب کردن",
+      "example": "The work was deemed excellent.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "emulate",
+      "translation": "تقلید کردن",
+      "example": "She tries to emulate her mentor.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "feasible",
+      "translation": "عملی",
+      "example": "The plan is feasible.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "lucrative",
+      "translation": "سودآور",
+      "example": "Teaching can be a lucrative career.",
+      "partOfSpeech": "adjective"
+    }
+  ]
+}

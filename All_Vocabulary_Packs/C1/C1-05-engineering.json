@@ -1,0 +1,2405 @@
+{
+  "id": "C1-05",
+  "name": "تخصصی مهندسی",
+  "description": "واژگان تخصصی مهندسی، فناوری و صنعت",
+  "level": "C1",
+  "theme": "engineering",
+  "words": [
+    {
+      "word": "algorithm",
+      "translation": "الگوریتم",
+      "example": "The algorithm processes data efficiently.",
+      "synonyms": [
+        "procedure",
+        "method"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "bandwidth",
+      "translation": "پهنای باند",
+      "example": "Bandwidth determines data transfer rate.",
+      "synonyms": [
+        "capacity",
+        "throughput"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "latency",
+      "translation": "تاخیر",
+      "example": "Low latency is crucial for gaming.",
+      "synonyms": [
+        "delay",
+        "response time"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "throughput",
+      "translation": "نرخ انتقال",
+      "example": "Throughput measures data volume.",
+      "synonyms": [
+        "output rate",
+        "capacity"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "scalability",
+      "translation": "مقیاس‌پذیری",
+      "example": "Scalability ensures growth support.",
+      "synonyms": [
+        "expandability",
+        "flexibility"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "redundancy",
+      "translation": "تکرار",
+      "example": "Redundancy provides backup systems.",
+      "synonyms": [
+        "backup",
+        "duplication"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "fault tolerance",
+      "translation": "تحمل خطا",
+      "example": "Fault tolerance prevents crashes.",
+      "synonyms": [
+        "resilience",
+        "reliability"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "throughput",
+      "translation": "خروجی",
+      "example": "Throughput increases with optimization.",
+      "synonyms": [
+        "output",
+        "performance"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "parallel processing",
+      "translation": "پردازش موازی",
+      "example": "Parallel processing speeds up computation.",
+      "synonyms": [
+        "concurrent processing",
+        "multi-threading"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "threading",
+      "translation": "threading",
+      "example": "Threading manages concurrent tasks.",
+      "synonyms": [
+        "multi-threading",
+        "concurrency"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "concurrency",
+      "translation": "همزمانی",
+      "example": "Concurrency handles multiple operations.",
+      "synonyms": [
+        "parallelism",
+        "simultaneity"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "synchronization",
+      "translation": "همگام‌سازی",
+      "example": "Synchronization coordinates threads.",
+      "synonyms": [
+        "coordination",
+        "alignment"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "deadlock",
+      "translation": " بن‌بست",
+      "example": "Deadlock halts system progress.",
+      "synonyms": [
+        "gridlock",
+        "stalemate"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "race condition",
+      "translation": "شرط مسابقه",
+      "example": "Race conditions cause unpredictable behavior.",
+      "synonyms": [
+        "timing issue",
+        "contention"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "encapsulation",
+      "translation": "کپسوله‌سازی",
+      "example": "Encapsulation hides implementation details.",
+      "synonyms": [
+        "abstraction",
+        "information hiding"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "polymorphism",
+      "translation": "چندشکلی",
+      "example": "Polymorphism enables flexible code.",
+      "synonyms": [
+        "versatility",
+        "adaptability"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "inheritance",
+      "translation": "ارث‌بری",
+      "example": "Inheritance promotes code reuse.",
+      "synonyms": [
+        "derivation",
+        "specialization"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "abstraction",
+      "translation": "انتزاع",
+      "example": "Abstraction simplifies complex systems.",
+      "synonyms": [
+        "generalization",
+        "simplification"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "modular",
+      "translation": "ماژولار",
+      "example": "Modular design allows easy updates.",
+      "synonyms": [
+        "component-based",
+        "composable"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "refactoring",
+      "translation": "بازآرایی",
+      "example": "Refactoring improves code quality.",
+      "synonyms": [
+        "restructuring",
+        "reorganizing"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "debugging",
+      "translation": "اشکال‌زدایی",
+      "example": "Debugging finds and fixes errors.",
+      "synonyms": [
+        "troubleshooting",
+        "error correction"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "testing",
+      "translation": "تست",
+      "example": "Testing validates functionality.",
+      "synonyms": [
+        "verification",
+        "validation"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "deployment",
+      "translation": "استقرار",
+      "example": "Deployment makes the app available.",
+      "synonyms": [
+        "release",
+        "launch"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "version control",
+      "translation": "کنترل نسخه",
+      "example": "Version control tracks changes.",
+      "synonyms": [
+        "source control",
+        "revision control"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "CI/CD",
+      "translation": "CI/CD",
+      "example": "CI/CD automates deployment.",
+      "synonyms": [
+        "continuous integration",
+        "continuous delivery"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "containerization",
+      "translation": "کانتینرسازی",
+      "example": "Containerization standardizes environments.",
+      "synonyms": [
+        "Docker",
+        "virtualization"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "microservices",
+      "translation": "سرویس‌های خرد",
+      "example": "Microservices enable independent deployment.",
+      "synonyms": [
+        "service-oriented",
+        "distributed architecture"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "monolith",
+      "translation": "یکپارچه",
+      "example": "The monolith is harder to maintain.",
+      "synonyms": [
+        "single codebase",
+        "unified system"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "API",
+      "translation": "API",
+      "example": "The API connects services.",
+      "synonyms": [
+        "interface",
+        "gateway"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "endpoint",
+      "translation": "نقطه اتصال",
+      "example": "The endpoint handles requests.",
+      "synonyms": [
+        "route",
+        "URL"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "middleware",
+      "translation": "میان‌افزار",
+      "example": "Middleware connects front and back end.",
+      "synonyms": [
+        "intermediary",
+        "bridge"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "load balancer",
+      "translation": "متعادل‌کننده بار",
+      "example": "The load balancer distributes traffic.",
+      "synonyms": [
+        "traffic distributor",
+        "traffic manager"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "caching",
+      "translation": "کشینگ",
+      "example": "Caching improves response time.",
+      "synonyms": [
+        "buffering",
+        "temporary storage"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "database",
+      "translation": "پایگاه داده",
+      "example": "The database stores information.",
+      "synonyms": [
+        "data store",
+        "repository"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "schema",
+      "translation": "اسکیما",
+      "example": "The database schema is normalized.",
+      "synonyms": [
+        "structure",
+        "blueprint"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "query",
+      "translation": "کوئری",
+      "example": "The query retrieves data.",
+      "synonyms": [
+        "request",
+        "search"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "index",
+      "translation": "ایندکس",
+      "example": "The index speeds up queries.",
+      "synonyms": [
+        "catalog",
+        "reference"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "normalization",
+      "translation": "نرمال‌سازی",
+      "example": "Normalization reduces redundancy.",
+      "synonyms": [
+        "organization",
+        "structuring"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "replication",
+      "translation": "تکثیر",
+      "example": "Replication ensures data availability.",
+      "synonyms": [
+        "duplication",
+        "copying"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "sharding",
+      "translation": "شاردینگ",
+      "example": "Sharding distributes data across servers.",
+      "synonyms": [
+        "horizontal partitioning",
+        "data splitting"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "consistency",
+      "translation": "سازگاری",
+      "example": "Consistency ensures data integrity.",
+      "synonyms": [
+        "uniformity",
+        "reliability"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "availability",
+      "translation": "دسترسی",
+      "example": "Availability measures uptime.",
+      "synonyms": [
+        "accessibility",
+        "uptime"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "partition tolerance",
+      "translation": "تحمل تقسیم",
+      "example": "Partition tolerance handles network splits.",
+      "synonyms": [
+        "network resilience",
+        "split tolerance"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "CAP theorem",
+      "translation": "نظریه CAP",
+      "example": "CAP theorem explains trade-offs.",
+      "synonyms": [
+        "Brewer's theorem",
+        "consistency-availability-partition"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "eventual consistency",
+      "translation": "سازگاری نهایی",
+      "example": "Eventual consistency allows temporary divergence.",
+      "synonyms": [
+        "weak consistency",
+        "optimistic replication"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "ACID",
+      "translation": "ACID",
+      "example": "ACID properties ensure transaction safety.",
+      "synonyms": [
+        "atomicity-consistency-isolation-durability"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "BASE",
+      "translation": "BASE",
+      "example": "BASE properties support scalability.",
+      "synonyms": [
+        "basic availability-soft state-eventual consistency"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "horizontal scaling",
+      "translation": "مقیاس افقی",
+      "example": "Horizontal scaling adds more servers.",
+      "synonyms": [
+        "scaling out",
+        "distributed scaling"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "vertical scaling",
+      "translation": "مقیاس عمودی",
+      "example": "Vertical scaling upgrades hardware.",
+      "synonyms": [
+        "scaling up",
+        "server upgrade"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "DevOps",
+      "translation": "DevOps",
+      "example": "DevOps bridges development and operations.",
+      "synonyms": [
+        "development-operations",
+        "continuous improvement"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "monitoring",
+      "translation": "مانیتورینگ",
+      "example": "Monitoring tracks system health.",
+      "synonyms": [
+        "surveillance",
+        "observability"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "logging",
+      "translation": "لاگینگ",
+      "example": "Logging records events.",
+      "synonyms": [
+        "event recording",
+        "audit trail"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "alerting",
+      "translation": "هشدار",
+      "example": "Alerting notifies of issues.",
+      "synonyms": [
+        "notification",
+        "warning"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "SLA",
+      "translation": "SLA",
+      "example": "The SLA defines uptime guarantees.",
+      "synonyms": [
+        "service level agreement",
+        "uptime contract"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "SLO",
+      "translation": "SLO",
+      "example": "The SLO sets reliability targets.",
+      "synonyms": [
+        "service level objective",
+        "performance target"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "SLI",
+      "translation": "SLI",
+      "example": "The SLI measures service performance.",
+      "synonyms": [
+        "service level indicator",
+        "metric"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "observability",
+      "translation": "مشاهده‌پذیری",
+      "example": "Observability enables debugging production.",
+      "synonyms": [
+        "inspectability",
+        "transparency"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "tracing",
+      "translation": "ردیابی",
+      "example": "Tracing follows requests through services.",
+      "synonyms": [
+        "request tracking",
+        "distributed tracing"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "profiling",
+      "translation": "پروفایلینگ",
+      "example": "Profiling identifies bottlenecks.",
+      "synonyms": [
+        "performance analysis",
+        "optimization"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "bottleneck",
+      "translation": "گلوگاه",
+      "example": "The bottleneck slows the system.",
+      "synonyms": [
+        "constraint",
+        "limitation"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "optimization",
+      "translation": "بهینه‌سازی",
+      "example": "Optimization improves performance.",
+      "synonyms": [
+        "improvement",
+        "enhancement"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "circuit breaker",
+      "translation": "کلید حفاظتی",
+      "example": "The circuit breaker prevents cascading failures.",
+      "synonyms": [
+        "safety switch",
+        "failure prevention"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "rate limiting",
+      "translation": "محدودیت نرخ",
+      "example": "Rate limiting prevents abuse.",
+      "synonyms": [
+        "throttling",
+        "traffic control"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "throttling",
+      "translation": "tring",
+      "example": "Throttling controls request flow.",
+      "synonyms": [
+        "rate limiting",
+        "traffic shaping"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "retry logic",
+      "translation": "منطق تلاش مجدد",
+      "example": "Retry logic handles transient failures.",
+      "synonyms": [
+        "re-attempt",
+        "resilience pattern"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "exponential backoff",
+      "translation": "عقب‌نشینی نمایی",
+      "example": "Exponential backoff reduces retry pressure.",
+      "synonyms": [
+        "increasing delay",
+        "adaptive retry"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "idempotency",
+      "translation": "idempotency",
+      "example": "Idempotency ensures safe retries.",
+      "synonyms": [
+        "repeat safety",
+        "no side effects"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "backpressure",
+      "translation": "فشار بازگشت",
+      "example": "Backpressure prevents system overload.",
+      "synonyms": [
+        "flow control",
+        "congestion control"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "message queue",
+      "translation": "صف پیام",
+      "example": "The message queue decouples services.",
+      "synonyms": [
+        "job queue",
+        "task queue"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "pub/sub",
+      "translation": "انتشار/اشتراک",
+      "example": "Pub/sub broadcasts events.",
+      "synonyms": [
+        "publish-subscribe",
+        "event broadcasting"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "event sourcing",
+      "translation": "منبع رویداد",
+      "example": "Event sourcing stores all state changes.",
+      "synonyms": [
+        "event log",
+        "audit log"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "CQRS",
+      "translation": "CQRS",
+      "example": "CQRS separates reads and writes.",
+      "synonyms": [
+        "command query responsibility segregation"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "domain-driven design",
+      "translation": "طراحی هدایت‌شده با حوزه",
+      "example": "DDD models complex business logic.",
+      "synonyms": [
+        "DDD",
+        "business-driven design"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "bounded context",
+      "translation": "زمینه محدود",
+      "example": "Bounded contexts define service boundaries.",
+      "synonyms": [
+        "service boundary",
+        "domain boundary"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "aggregate",
+      "translation": "تجمع",
+      "example": "The aggregate enforces consistency.",
+      "synonyms": [
+        "cluster",
+        "collection"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "repository pattern",
+      "translation": "الگوی مخزن",
+      "example": "The repository pattern abstracts data access.",
+      "synonyms": [
+        "data access layer",
+        "persistence layer"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "dependency injection",
+      "translation": "تزریق وابستگی",
+      "example": "DI promotes loose coupling.",
+      "synonyms": [
+        "IoC",
+        "inversion of control"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "loose coupling",
+      "translation": "اتصال سست",
+      "example": "Loose coupling improves maintainability.",
+      "synonyms": [
+        "low coupling",
+        "independence"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "high cohesion",
+      "translation": "چسبندگی بالا",
+      "example": "High cohesion groups related functionality.",
+      "synonyms": [
+        "tight integration",
+        "focused modules"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "SOLID principles",
+      "translation": "اصول SOLID",
+      "example": "SOLID principles guide good design.",
+      "synonyms": [
+        "object-oriented principles",
+        "design principles"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "design pattern",
+      "translation": "الگوی طراحی",
+      "example": "Design patterns solve common problems.",
+      "synonyms": [
+        "solution template",
+        "reusable approach"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "singleton",
+      "translation": "تکثیر ناپذیر",
+      "example": "Singleton ensures one instance.",
+      "synonyms": [
+        "single instance",
+        "one copy"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "factory",
+      "translation": "کارخانه",
+      "example": "Factory creates objects.",
+      "synonyms": [
+        "object creator",
+        "builder"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "observer",
+      "translation": "ناظر",
+      "example": "Observer watches for changes.",
+      "synonyms": [
+        "listener",
+        "watcher"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "strategy",
+      "translation": "استراتژی",
+      "example": "Strategy selects algorithm at runtime.",
+      "synonyms": [
+        "algorithm selection",
+        "behavioral pattern"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "adapter",
+      "translation": "آداپتور",
+      "example": "Adapter converts interfaces.",
+      "synonyms": [
+        "wrapper",
+        "converter"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "decorator",
+      "translation": "تزئینگر",
+      "example": "Decorator adds behavior dynamically.",
+      "synonyms": [
+        "wrapper",
+        "enhancer"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "facade",
+      "translation": "فاساد",
+      "example": "Facade simplifies complex subsystems.",
+      "synonyms": [
+        "simplified interface",
+        "front-end"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "proxy",
+      "translation": "پراکسی",
+      "example": "Proxy controls access.",
+      "synonyms": [
+        "surrogate",
+        "intermediary"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "mediator",
+      "translation": "میانجی",
+      "example": "Mediator coordinates interactions.",
+      "synonyms": [
+        "coordinator",
+        "controller"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "chain of responsibility",
+      "translation": "زنجیره مسئولیت",
+      "example": "Chain of responsibility passes requests.",
+      "synonyms": [
+        "pipeline",
+        "middleware chain"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "command",
+      "translation": "دستور",
+      "example": "Command encapsulates actions.",
+      "synonyms": [
+        "action",
+        "operation"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "iterator",
+      "translation": "تکرارگر",
+      "example": "Iterator traverses collections.",
+      "synonyms": [
+        "traverser",
+        "navigator"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "state pattern",
+      "translation": "الگوی وضعیت",
+      "example": "State pattern manages object state.",
+      "synonyms": [
+        "state machine",
+        "behavior switching"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "template method",
+      "translation": "مетод قالبی",
+      "example": "Template method defines algorithm skeleton.",
+      "synonyms": [
+        "algorithm template",
+        "skeleton"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "visitor pattern",
+      "translation": "الگوی بازدیدکننده",
+      "example": "Visitor pattern adds operations without modification.",
+      "synonyms": [
+        "traversal pattern",
+        "action pattern"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "composite pattern",
+      "translation": "الگوی ترکیبی",
+      "example": "Composite pattern treats objects as trees.",
+      "synonyms": [
+        "tree pattern",
+        "hierarchy pattern"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "bridge pattern",
+      "translation": "الگوی پل",
+      "example": "Bridge pattern separates abstraction from implementation.",
+      "synonyms": [
+        "abstraction-implementation",
+        "decoupling pattern"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "prototype pattern",
+      "translation": "الگوی نمونه",
+      "example": "Prototype pattern clones objects.",
+      "synonyms": [
+        "cloning",
+        "copy pattern"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "builder pattern",
+      "translation": "الگوی سازنده",
+      "example": "Builder pattern constructs complex objects.",
+      "synonyms": [
+        "object builder",
+        "construction pattern"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "abstract factory",
+      "translation": "کارخانه انتزاعی",
+      "example": "Abstract factory creates families of objects.",
+      "synonyms": [
+        "factory of factories",
+        "creation pattern"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "memento pattern",
+      "translation": "الگوی یادگاری",
+      "example": "Memento pattern saves object state.",
+      "synonyms": [
+        "snapshot",
+        "backup"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "interpreter pattern",
+      "translation": "الگوی مفسر",
+      "example": "Interpreter pattern evaluates expressions.",
+      "synonyms": [
+        "language processor",
+        "grammar evaluator"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "flyweight pattern",
+      "translation": "الگوی وزن سبک",
+      "example": "Flyweight pattern shares objects.",
+      "synonyms": [
+        "shared object",
+        "memory optimization"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "hardware",
+      "translation": "سخت‌افزار",
+      "example": "Hardware requires physical components.",
+      "synonyms": [
+        "equipment",
+        "machinery"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "firmware",
+      "translation": "فریمور",
+      "example": "Firmware runs on embedded devices.",
+      "synonyms": [
+        "embedded software",
+        "device software"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "embedded system",
+      "translation": "سیستم نهفته",
+      "example": "Embedded systems control appliances.",
+      "synonyms": [
+        "embedded computer",
+        "integrated system"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "IoT",
+      "translation": "اینترنت اشیا",
+      "example": "IoT connects devices online.",
+      "synonyms": [
+        "Internet of Things",
+        "connected devices"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "edge computing",
+      "translation": "پردازش لبه",
+      "example": "Edge computing processes data locally.",
+      "synonyms": [
+        "distributed computing",
+        "local processing"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "cloud computing",
+      "translation": "پردازش ابری",
+      "example": "Cloud computing provides scalable resources.",
+      "synonyms": [
+        "on-demand computing",
+        "remote processing"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "serverless",
+      "translation": "بدون سرور",
+      "example": "Serverless architecture eliminates server management.",
+      "synonyms": [
+        "Function-as-a-Service",
+        "FaaS"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "virtualization",
+      "translation": "مجازی‌سازی",
+      "example": "Virtualization creates virtual machines.",
+      "synonyms": [
+        "emulation",
+        "abstraction"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "hypervisor",
+      "translation": "هایپروایزر",
+      "example": "The hypervisor manages virtual machines.",
+      "synonyms": [
+        "virtual machine manager",
+        "VMM"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "container",
+      "translation": "کانتینر",
+      "example": "Containers package applications.",
+      "synonyms": [
+        "lightweight VM",
+        "application package"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "orchestration",
+      "translation": "ارکستراسیون",
+      "example": "Orchestration manages containers.",
+      "synonyms": [
+        "coordination",
+        "management"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "Kubernetes",
+      "translation": "کوبرنتیز",
+      "example": "Kubernetes orchestrates containers.",
+      "synonyms": [
+        "K8s",
+        "container orchestration"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "Docker",
+      "translation": "داکر",
+      "example": "Docker creates containers.",
+      "synonyms": [
+        "containerization platform",
+        "container runtime"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "Git",
+      "translation": "گیت",
+      "example": "Git tracks code changes.",
+      "synonyms": [
+        "version control",
+        "source control"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "GitHub",
+      "translation": "گیت‌هاب",
+      "example": "GitHub hosts repositories.",
+      "synonyms": [
+        "code hosting",
+        "collaboration platform"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "CI/CD pipeline",
+      "translation": "خط لوله CI/CD",
+      "example": "The CI/CD pipeline automates delivery.",
+      "synonyms": [
+        "automation pipeline",
+        "deployment pipeline"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "Jenkins",
+      "translation": "جنکینز",
+      "example": "Jenkins runs automated tests.",
+      "synonyms": [
+        "automation server",
+        "build tool"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "Ansible",
+      "translation": "انسیبل",
+      "example": "Ansible automates configuration.",
+      "synonyms": [
+        "automation tool",
+        "configuration manager"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "Terraform",
+      "translation": "ترافورم",
+      "example": "Terraform provisions infrastructure.",
+      "synonyms": [
+        "IaC tool",
+        "infrastructure automation"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "infrastructure as code",
+      "translation": "زیرساخت به عنوان کد",
+      "example": "IaC manages infrastructure via code.",
+      "synonyms": [
+        "programmable infrastructure",
+        "automated provisioning"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "IaC",
+      "translation": "IaC",
+      "example": "IaC enables reproducible environments.",
+      "synonyms": [
+        "Infrastructure as Code",
+        "infrastructure automation"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "monitoring stack",
+      "translation": "استک مانیتورینگ",
+      "example": "The monitoring stack tracks performance.",
+      "synonyms": [
+        "observability stack",
+        "metrics system"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "Prometheus",
+      "translation": "پرومتئوس",
+      "example": "Prometheus collects metrics.",
+      "synonyms": [
+        "metrics system",
+        "monitoring tool"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "Grafana",
+      "translation": "گرافان",
+      "example": "Grafana visualizes metrics.",
+      "synonyms": [
+        "dashboard",
+        "visualization tool"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "ELK stack",
+      "translation": "استک ELK",
+      "example": "The ELK stack analyzes logs.",
+      "synonyms": [
+        "Elasticsearch-Logstash-Kibana",
+        "log analysis"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "Sentry",
+      "translation": "سنتی",
+      "example": "Sentry tracks errors.",
+      "synonyms": [
+        "error tracking",
+        "exception monitoring"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "Datadog",
+      "translation": "داتاداگ",
+      "example": "Datadog monitors infrastructure.",
+      "synonyms": [
+        "monitoring platform",
+        "observability tool"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "New Relic",
+      "translation": "نیورلیک",
+      "example": "New Relic monitors application performance.",
+      "synonyms": [
+        "APM tool",
+        "performance monitoring"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "security",
+      "translation": "امنیت",
+      "example": "Security protects against threats.",
+      "synonyms": [
+        "protection",
+        "defense"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "authentication",
+      "translation": "احراز هویت",
+      "example": "Authentication verifies identity.",
+      "synonyms": [
+        "verification",
+        "login"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "authorization",
+      "translation": "مجوزدهی",
+      "example": "Authorization grants access.",
+      "synonyms": [
+        "permission",
+        "access control"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "encryption",
+      "translation": "رمزگذاری",
+      "example": "Encryption secures data.",
+      "synonyms": [
+        "coding",
+        "protection"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "decryption",
+      "translation": "رمزگشایی",
+      "example": "Decryption unlocks data.",
+      "synonyms": [
+        "decoding",
+        "unprotection"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "TLS",
+      "translation": "TLS",
+      "example": "TLS encrypts connections.",
+      "synonyms": [
+        "Transport Layer Security",
+        "SSL"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "SSL",
+      "translation": "SSL",
+      "example": "SSL secures web traffic.",
+      "synonyms": [
+        "Secure Sockets Layer",
+        "TLS"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "firewall",
+      "translation": "فایروال",
+      "example": "The firewall blocks malicious traffic.",
+      "synonyms": [
+        "network security",
+        "filter"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "vulnerability",
+      "translation": "آسیب‌پذیری",
+      "example": "Vulnerabilities must be patched.",
+      "synonyms": [
+        "weakness",
+        "flaw"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "exploit",
+      "translation": "بهره‌برداری",
+      "example": "The exploit targets a vulnerability.",
+      "synonyms": [
+        "attack",
+        "weapon"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "penetration testing",
+      "translation": "تست نفوذ",
+      "example": "Penetration testing finds security flaws.",
+      "synonyms": [
+        "pen testing",
+        "ethical hacking"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "OWASP",
+      "translation": "OWASP",
+      "example": "OWASP guidelines improve security.",
+      "synonyms": [
+        "Open Web Application Security Project"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "zero trust",
+      "translation": "اعتماد صفر",
+      "example": "Zero trust verifies every request.",
+      "synonyms": [
+        "no implicit trust",
+        "verify always"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "DevSecOps",
+      "translation": "DevSecOps",
+      "example": "DevSecOps integrates security into DevOps.",
+      "synonyms": [
+        "secure DevOps",
+        "security-first DevOps"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "technical debt",
+      "translation": "بدهی فنی",
+      "example": "Technical debt accumulates over time.",
+      "synonyms": [
+        "code debt",
+        "maintenance burden"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "agile",
+      "translation": "چابک",
+      "example": "Agile development is iterative.",
+      "synonyms": [
+        "flexible",
+        "adaptive"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "scrum",
+      "translation": "اسکرام",
+      "example": "Scrum organizes team work.",
+      "synonyms": [
+        "agile framework",
+        "sprint-based"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "sprint",
+      "translation": "اسپرینت",
+      "example": "The sprint lasts two weeks.",
+      "synonyms": [
+        "iteration",
+        "cycle"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "standup",
+      "translation": "جلسه ایستاده",
+      "example": "The standup syncs the team.",
+      "synonyms": [
+        "daily sync",
+        "morning meeting"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "retrospective",
+      "translation": "بازنگری",
+      "example": "The retrospective improves processes.",
+      "synonyms": [
+        "review",
+        "reflection"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "backlog",
+      "translation": "پس‌مانده",
+      "example": "The backlog contains pending tasks.",
+      "synonyms": [
+        "to-do list",
+        "task queue"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "story points",
+      "translation": "امتیاز داستان",
+      "example": "Story points estimate effort.",
+      "synonyms": [
+        "complexity points",
+        "effort estimate"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "Kanban",
+      "translation": "کانبان",
+      "example": "Kanban visualizes workflow.",
+      "synonyms": [
+        "visual management",
+        "flow board"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "DORA metrics",
+      "translation": "معیارهای DORA",
+      "example": "DORA metrics measure DevOps performance.",
+      "synonyms": [
+        "deployment metrics",
+        "delivery performance"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "infrastructure",
+      "translation": "زیرساخت",
+      "example": "Infrastructure supports applications.",
+      "synonyms": [
+        "foundation",
+        "platform"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "deployment environment",
+      "translation": "محیط استقرار",
+      "example": "The deployment environment must match production.",
+      "synonyms": [
+        "runtime environment",
+        "host environment"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "staging",
+      "translation": "آزمایشگاهی",
+      "example": "The staging environment mirrors production.",
+      "synonyms": [
+        "pre-production",
+        "testing environment"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "production",
+      "translation": "تولید",
+      "example": "The production system is live.",
+      "synonyms": [
+        "live",
+        "real environment"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "rollback",
+      "translation": "بازگشت",
+      "example": "The rollback reverts changes.",
+      "synonyms": [
+        "revert",
+        "undo"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "canary deployment",
+      "translation": "استقرار قناری",
+      "example": "Canary deployment tests with limited users.",
+      "synonyms": [
+        "gradual rollout",
+        "incremental release"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "blue-green deployment",
+      "translation": "استقرار آبی-سبز",
+      "example": "Blue-green deployment enables zero-downtime.",
+      "synonyms": [
+        "two-environment",
+        "dual deployment"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "feature flag",
+      "translation": "پرچم ویژگی",
+      "example": "Feature flags control feature access.",
+      "synonyms": [
+        "feature toggle",
+        "release toggle"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "dark launch",
+      "translation": "راه‌اندازی تاریک",
+      "example": "Dark launch tests new features invisibly.",
+      "synonyms": [
+        "invisible deployment",
+        "stealth release"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "A/B testing",
+      "translation": "تست A/B",
+      "example": "A/B testing compares versions.",
+      "synonyms": [
+        "split testing",
+        "comparison testing"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "chaos engineering",
+      "translation": "مهندسی هرج‌ومرج",
+      "example": "Chaos engineering tests system resilience.",
+      "synonyms": [
+        "resilience testing",
+        "fault injection"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "game day",
+      "translation": "روز بازی",
+      "example": "Game day simulates failures.",
+      "synonyms": [
+        "drill",
+        "simulation"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "disaster recovery",
+      "translation": "بازیابی فاجعه",
+      "example": "Disaster recovery ensures business continuity.",
+      "synonyms": [
+        "backup plan",
+        "resilience strategy"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "high availability",
+      "translation": "دسترسی بالا",
+      "example": "High availability minimizes downtime.",
+      "synonyms": [
+        "uptime",
+        "reliability"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "failover",
+      "translation": "شکست‌خوردن",
+      "example": "Failover switches to backup systems.",
+      "synonyms": [
+        "switching",
+        "backup activation"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "load testing",
+      "translation": "تست بار",
+      "example": "Load testing simulates high traffic.",
+      "synonyms": [
+        "stress testing",
+        "capacity testing"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "stress testing",
+      "translation": "تست استرس",
+      "example": "Stress testing pushes limits.",
+      "synonyms": [
+        "breaking point",
+        "极限 testing"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "performance testing",
+      "translation": "تست عملکرد",
+      "example": "Performance testing measures speed.",
+      "synonyms": [
+        "speed testing",
+        "benchmark testing"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "integration testing",
+      "translation": "تست یکپارچه",
+      "example": "Integration testing verifies components work together.",
+      "synonyms": [
+        "end-to-end testing",
+        "system testing"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "unit testing",
+      "translation": "تست واحد",
+      "example": "Unit testing verifies individual functions.",
+      "synonyms": [
+        "component testing",
+        "isolated testing"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "regression testing",
+      "translation": "تست رگرسیون",
+      "example": "Regression testing catches new bugs.",
+      "synonyms": [
+        "retest",
+        "confirmation testing"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "test coverage",
+      "translation": "پوشش تست",
+      "example": "Test coverage measures test completeness.",
+      "synonyms": [
+        "code coverage",
+        "test thoroughness"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "mocking",
+      "translation": "شبیه‌سازی",
+      "example": "Mocking replaces external dependencies.",
+      "synonyms": [
+        "stubbing",
+        "faking"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "stubbing",
+      "translation": "stubbing",
+      "example": "Stubbing provides predefined responses.",
+      "synonyms": [
+        "mocking",
+        "faking"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "code review",
+      "translation": "بررسی کد",
+      "example": "Code review improves code quality.",
+      "synonyms": [
+        "peer review",
+        "inspection"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "linter",
+      "translation": "لینتر",
+      "example": "The linter enforces code style.",
+      "synonyms": [
+        "style checker",
+        "code analyzer"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "code smell",
+      "translation": "بوی کد",
+      "example": "Code smells indicate design problems.",
+      "synonyms": [
+        "anti-pattern",
+        "design flaw"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "refactoring",
+      "translation": "بازآرایی کد",
+      "example": "Refactoring reduces technical debt.",
+      "synonyms": [
+        "restructuring",
+        "reorganizing"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "code debt",
+      "translation": "بدهی کد",
+      "example": "Code debt accumulates with shortcuts.",
+      "synonyms": [
+        "technical debt",
+        "maintenance burden"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "legacy code",
+      "translation": "کد قدیمی",
+      "example": "Legacy code is hard to maintain.",
+      "synonyms": [
+        "old code",
+        "outdated code"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "greenfield",
+      "translation": "زمین سبز",
+      "example": "Greenfield projects start fresh.",
+      "synonyms": [
+        "new project",
+        "fresh start"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "brownfield",
+      "translation": "زمین قهوه‌ای",
+      "example": "Brownfield projects build on existing systems.",
+      "synonyms": [
+        "existing project",
+        "incremental"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "cybersecurity",
+      "translation": "امنیت سایبری",
+      "example": "Cybersecurity protects against attacks.",
+      "synonyms": [
+        "information security",
+        "network security"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "phishing",
+      "translation": "فیشینگ",
+      "example": "Phishing scams steal credentials.",
+      "synonyms": [
+        "social engineering",
+        "scam"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "ransomware",
+      "translation": "باج‌افزار",
+      "example": "Ransomware encrypts files.",
+      "synonyms": [
+        "crypto-locker",
+        "extortion software"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "malware",
+      "translation": "بدافزار",
+      "example": "Malware infects systems.",
+      "synonyms": [
+        "virus",
+        "trojan"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "DDoS",
+      "translation": "DDoS",
+      "example": "DDoS attacks overwhelm servers.",
+      "synonyms": [
+        "distributed denial of service",
+        "flooding attack"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "botnet",
+      "translation": "شبکه ربات",
+      "example": "Botnets execute coordinated attacks.",
+      "synonyms": [
+        "zombie network",
+        "automated network"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "API gateway",
+      "translation": "دروازه API",
+      "example": "The API gateway routes requests.",
+      "synonyms": [
+        "entry point",
+        "traffic manager"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "service mesh",
+      "translation": "مش سرویس",
+      "example": "Service mesh manages inter-service communication.",
+      "synonyms": [
+        "network layer",
+        "communication layer"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "sidecar proxy",
+      "translation": "پراکسی جانبی",
+      "example": "Sidecar proxy handles service traffic.",
+      "synonyms": [
+        "companion proxy",
+        "helper process"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "service discovery",
+      "translation": "کشف سرویس",
+      "example": "Service discovery finds available services.",
+      "synonyms": [
+        "registry lookup",
+        "dynamic discovery"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "circuit breaker pattern",
+      "translation": "الگوی کلید حفاظتی",
+      "example": "Circuit breaker prevents cascading failures.",
+      "synonyms": [
+        "failure prevention",
+        "safety mechanism"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "word": "bulkhead pattern",
+      "translation": "الگوی محفظه",
+      "example": "Bulkhead pattern isolates failures.",
+      "synonyms": [
+        "isolation pattern",
+        "compartmentalization"
+      ],
+      "tags": [
+        "engineering"
+      ]
+    }
+  ]
+}

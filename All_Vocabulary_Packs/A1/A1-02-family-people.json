@@ -1,0 +1,3008 @@
+{
+  "name": "خانواده و افراد",
+  "description": "۱۰۰ کلمه پایه درباره خانواده، بدن و احساسات — سطح A1",
+  "category": "A1 — مبتدی",
+  "level": "A1",
+  "packId": "A1-02",
+  "words": [
+    {
+      "word": "mother",
+      "translation": "مادر",
+      "ipa": "/ˈmʌðər/",
+      "partOfSpeech": "noun",
+      "example": "My mother cooks dinner every night.",
+      "definitions": [
+        "a female parent"
+      ],
+      "synonyms": [
+        "mom",
+        "mama"
+      ],
+      "antonyms": [
+        "father"
+      ],
+      "collocations": [
+        "mother tongue",
+        "working mother"
+      ],
+      "wordFamily": [
+        "mother (n)",
+        "motherly (adj)"
+      ],
+      "coreMeaning": "مادر، زنی که فرزند دارد",
+      "note": "در مکالمه روزمره بیشتر از mom استفاده می‌شود",
+      "trap": "mother رسمی‌تر از mom است؛ هر دو صحیح هستند",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "father",
+      "translation": "پدر",
+      "ipa": "/ˈfɑːðər/",
+      "partOfSpeech": "noun",
+      "example": "My father works in a hospital.",
+      "definitions": [
+        "a male parent"
+      ],
+      "synonyms": [
+        "dad",
+        "papa"
+      ],
+      "antonyms": [
+        "mother"
+      ],
+      "collocations": [
+        "father figure",
+        "father-in-law"
+      ],
+      "wordFamily": [
+        "father (n)",
+        "fatherly (adj)"
+      ],
+      "coreMeaning": "پدر، مردی که فرزند دارد",
+      "note": "در مکالمه غیررسمی از dad استفاده می‌شود",
+      "trap": "father-in-law به معنی پدر همسر است، نه پدربزرگ",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "sister",
+      "translation": "خواهر",
+      "ipa": "/ˈsɪstər/",
+      "partOfSpeech": "noun",
+      "example": "I have one sister. Her name is Sara.",
+      "definitions": [
+        "a female sibling"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "brother"
+      ],
+      "collocations": [
+        "big sister",
+        "little sister"
+      ],
+      "wordFamily": [
+        "sister (n)",
+        "sisterly (adj)"
+      ],
+      "coreMeaning": "خواهر، دختری که با تو والدین مشترک دارد",
+      "note": "big sister یعنی خواهر بزرگ‌تر",
+      "trap": "sister فقط برای خواهر خونی است؛ برای خواهر شوهر از sister-in-law استفاده می‌شود",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "brother",
+      "translation": "برادر",
+      "ipa": "/ˈbrʌðər/",
+      "partOfSpeech": "noun",
+      "example": "My brother is fifteen years old.",
+      "definitions": [
+        "a male sibling"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "sister"
+      ],
+      "collocations": [
+        "big brother",
+        "little brother"
+      ],
+      "wordFamily": [
+        "brother (n)",
+        "brotherly (adj)"
+      ],
+      "coreMeaning": "برادر، پسری که با تو والدین مشترک دارد",
+      "note": "big brother یعنی برادر بزرگ‌تر",
+      "trap": "brother-in-law به معنی برادر همسر یا شوهر خواهر است",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "son",
+      "translation": "پسر (فرزند)",
+      "ipa": "/sʌn/",
+      "partOfSpeech": "noun",
+      "example": "They have a son and a daughter.",
+      "definitions": [
+        "a male child"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "daughter"
+      ],
+      "collocations": [
+        "eldest son",
+        "son-in-law"
+      ],
+      "wordFamily": [
+        "son (n)"
+      ],
+      "coreMeaning": "پسر، فرزند مذکر",
+      "note": "تلفظ son مثل sun (خورشید) است",
+      "trap": "son و sun هم‌آوا هستند؛ از روی context باید فهمید کدام است",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "daughter",
+      "translation": "دختر (فرزند)",
+      "ipa": "/ˈdɔːtər/",
+      "partOfSpeech": "noun",
+      "example": "Their daughter is six years old.",
+      "definitions": [
+        "a female child"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "son"
+      ],
+      "collocations": [
+        "eldest daughter",
+        "daughter-in-law"
+      ],
+      "wordFamily": [
+        "daughter (n)"
+      ],
+      "coreMeaning": "دختر، فرزند مؤنث",
+      "note": "حرف gh در daughter بی‌صدا است",
+      "trap": "بسیاری از زبان‌آموزان gh را تلفظ می‌کنند ولی بی‌صداست",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "husband",
+      "translation": "شوهر",
+      "ipa": "/ˈhʌzbənd/",
+      "partOfSpeech": "noun",
+      "example": "Her husband is a teacher.",
+      "definitions": [
+        "a married man"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "wife"
+      ],
+      "collocations": [
+        "ex-husband",
+        "husband and wife"
+      ],
+      "wordFamily": [
+        "husband (n)"
+      ],
+      "coreMeaning": "شوهر، مردی که ازدواج کرده",
+      "note": "مخفف ندارد",
+      "trap": "حرف h در ابتدای husband تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "wife",
+      "translation": "همسر (زن)",
+      "ipa": "/waɪf/",
+      "partOfSpeech": "noun",
+      "example": "My wife is a doctor.",
+      "definitions": [
+        "a married woman"
+      ],
+      "synonyms": [
+        "spouse"
+      ],
+      "antonyms": [
+        "husband"
+      ],
+      "collocations": [
+        "ex-wife",
+        "husband and wife"
+      ],
+      "wordFamily": [
+        "wife (n)",
+        "wifely (adj)"
+      ],
+      "coreMeaning": "همسر زن، زنی که ازدواج کرده",
+      "note": "جمع wife به صورت wives است",
+      "trap": "جمع wife به صورت wives نوشته می‌شود، نه wifes",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "baby",
+      "translation": "نوزاد، بچه",
+      "ipa": "/ˈbeɪbi/",
+      "partOfSpeech": "noun",
+      "example": "The baby is sleeping.",
+      "definitions": [
+        "a very young child"
+      ],
+      "synonyms": [
+        "infant"
+      ],
+      "antonyms": [
+        "adult"
+      ],
+      "collocations": [
+        "baby boy",
+        "baby girl"
+      ],
+      "wordFamily": [
+        "baby (n)"
+      ],
+      "coreMeaning": "نوزاد، بچه کوچک",
+      "note": "هم برای دختر و هم پسر استفاده می‌شود",
+      "trap": "جمع baby به صورت babies است",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "grandmother",
+      "translation": "مادربزرگ",
+      "ipa": "/ˈɡrænmʌðər/",
+      "partOfSpeech": "noun",
+      "example": "My grandmother tells great stories.",
+      "definitions": [
+        "the mother of one's parent"
+      ],
+      "synonyms": [
+        "grandma",
+        "granny"
+      ],
+      "antonyms": [
+        "grandfather"
+      ],
+      "collocations": [
+        "maternal grandmother",
+        "paternal grandmother"
+      ],
+      "wordFamily": [
+        "grandmother (n)"
+      ],
+      "coreMeaning": "مادربزرگ، مادر پدر یا مادر",
+      "note": "در مکالمه معمولاً grandma گفته می‌شود",
+      "trap": "grandmother یک کلمه است، جدا نوشته نمی‌شود",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "grandfather",
+      "translation": "پدربزرگ",
+      "ipa": "/ˈɡrænfɑːðər/",
+      "partOfSpeech": "noun",
+      "example": "My grandfather is eighty years old.",
+      "definitions": [
+        "the father of one's parent"
+      ],
+      "synonyms": [
+        "grandpa",
+        "grandad"
+      ],
+      "antonyms": [
+        "grandmother"
+      ],
+      "collocations": [
+        "maternal grandfather",
+        "paternal grandfather"
+      ],
+      "wordFamily": [
+        "grandfather (n)"
+      ],
+      "coreMeaning": "پدربزرگ، پدر پدر یا مادر",
+      "note": "در مکالمه معمولاً grandpa گفته می‌شود",
+      "trap": "grandfather یک کلمه است، جدا نوشته نمی‌شود",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "aunt",
+      "translation": "عمه، خاله",
+      "ipa": "/ænt/",
+      "partOfSpeech": "noun",
+      "example": "My aunt lives in London.",
+      "definitions": [
+        "the sister of one's parent, or the wife of one's uncle"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "uncle"
+      ],
+      "collocations": [
+        "aunt and uncle",
+        "great aunt"
+      ],
+      "wordFamily": [
+        "aunt (n)"
+      ],
+      "coreMeaning": "خواهر پدر یا مادر، یا همسر عمو/دایی",
+      "note": "در انگلیسی aunt هم عمه و هم خاله می‌شود",
+      "trap": "برخلاف فارسی، انگلیسی بین عمه و خاله فرقی نمی‌گذارد",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "uncle",
+      "translation": "عمو، دایی",
+      "ipa": "/ˈʌŋkəl/",
+      "partOfSpeech": "noun",
+      "example": "My uncle is a pilot.",
+      "definitions": [
+        "the brother of one's parent, or the husband of one's aunt"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "aunt"
+      ],
+      "collocations": [
+        "uncle and aunt",
+        "great uncle"
+      ],
+      "wordFamily": [
+        "uncle (n)"
+      ],
+      "coreMeaning": "برادر پدر یا مادر، یا همسر عمه/خاله",
+      "note": "در انگلیسی uncle هم عمو و هم دایی می‌شود",
+      "trap": "برخلاف فارسی، انگلیسی بین عمو و دایی فرقی نمی‌گذارد",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "cousin",
+      "translation": "پسرعمو، دخترعمو، پسردایی، دختردایی",
+      "ipa": "/ˈkʌzən/",
+      "partOfSpeech": "noun",
+      "example": "I have three cousins.",
+      "definitions": [
+        "a child of one's uncle or aunt"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "first cousin",
+        "cousin brother"
+      ],
+      "wordFamily": [
+        "cousin (n)"
+      ],
+      "coreMeaning": "فرزند عمو، عمه، دایی یا خاله",
+      "note": "در انگلیسی cousin برای همه این نسبت‌ها یک کلمه است",
+      "trap": "برخلاف فارسی، cousin بدون جنسیت است",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "parent",
+      "translation": "والدین",
+      "ipa": "/ˈperənt/",
+      "partOfSpeech": "noun",
+      "example": "Both my parents work.",
+      "definitions": [
+        "a mother or father"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "child"
+      ],
+      "collocations": [
+        "single parent",
+        "parent company"
+      ],
+      "wordFamily": [
+        "parent (n)",
+        "parental (adj)"
+      ],
+      "coreMeaning": "پدر یا مادر",
+      "note": "معمولاً به صورت جمع parents استفاده می‌شود",
+      "trap": "parent یک نفر است؛ parents یعنی پدر و مادر",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "child",
+      "translation": "فرزند، بچه",
+      "ipa": "/tʃaɪld/",
+      "partOfSpeech": "noun",
+      "example": "The child is playing in the park.",
+      "definitions": [
+        "a young human being"
+      ],
+      "synonyms": [
+        "kid"
+      ],
+      "antonyms": [
+        "adult",
+        "parent"
+      ],
+      "collocations": [
+        "child care",
+        "only child"
+      ],
+      "wordFamily": [
+        "child (n)",
+        "childhood (n)",
+        "childish (adj)"
+      ],
+      "coreMeaning": "بچه، فرزند",
+      "note": "جمع child به صورت children است",
+      "trap": "جمع child به صورت children است، نه childs",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "family",
+      "translation": "خانواده",
+      "ipa": "/ˈfæməli/",
+      "partOfSpeech": "noun",
+      "example": "My family is big.",
+      "definitions": [
+        "a group of people related by blood or marriage"
+      ],
+      "synonyms": [
+        "relatives"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "family member",
+        "big family"
+      ],
+      "wordFamily": [
+        "family (n)",
+        "familial (adj)"
+      ],
+      "coreMeaning": "خانواده، گروهی از افراد مرتبط",
+      "note": "family هم می‌تواند مفرد و هم جمع باشد",
+      "trap": "my family is یا my family are هر دو صحیح هستند",
+      "tags": [
+        "A1",
+        "family"
+      ]
+    },
+    {
+      "word": "head",
+      "translation": "سر",
+      "ipa": "/hed/",
+      "partOfSpeech": "noun",
+      "example": "I have a headache.",
+      "definitions": [
+        "the upper part of the body containing the brain"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "headache",
+        "head and shoulders"
+      ],
+      "wordFamily": [
+        "head (n)"
+      ],
+      "coreMeaning": "سر، بالاترین بخش بدن",
+      "note": "حرف ea در head مثل e کوتاه تلفظ می‌شود",
+      "trap": "head مثل heat تلفظ نمی‌شود؛ ea کوتاه است",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "eye",
+      "translation": "چشم",
+      "ipa": "/aɪ/",
+      "partOfSpeech": "noun",
+      "example": "She has blue eyes.",
+      "definitions": [
+        "the organ of sight"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "eye contact",
+        "blue eyes"
+      ],
+      "wordFamily": [
+        "eye (n)"
+      ],
+      "coreMeaning": "چشم، عضو بینایی",
+      "note": "جمع eyes تلفظ /aɪz/ دارد",
+      "trap": "eye مثل I تلفظ می‌شود، نه ای",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "ear",
+      "translation": "گوش",
+      "ipa": "/ɪr/",
+      "partOfSpeech": "noun",
+      "example": "I have an ear infection.",
+      "definitions": [
+        "the organ of hearing"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "ear infection",
+        "play it by ear"
+      ],
+      "wordFamily": [
+        "ear (n)"
+      ],
+      "coreMeaning": "گوش، عضو شنوایی",
+      "note": "ear مثل air تلفظ می‌شود",
+      "trap": "ear و air و hair هم‌قافیه هستند",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "nose",
+      "translation": "بینی",
+      "ipa": "/noʊz/",
+      "partOfSpeech": "noun",
+      "example": "My nose is red because it's cold.",
+      "definitions": [
+        "the part of the face used for smelling and breathing"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "runny nose",
+        "blow your nose"
+      ],
+      "wordFamily": [
+        "nose (n)"
+      ],
+      "coreMeaning": "بینی، عضو بویایی و تنفس",
+      "note": "حرف s در nose به صورت z تلفظ می‌شود",
+      "trap": "nose با s تلفظ /z/ دارد، نه /s/",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "mouth",
+      "translation": "دهان",
+      "ipa": "/maʊθ/",
+      "partOfSpeech": "noun",
+      "example": "Open your mouth, please.",
+      "definitions": [
+        "the opening in the face used for eating and speaking"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "open your mouth",
+        "mouth and nose"
+      ],
+      "wordFamily": [
+        "mouth (n)"
+      ],
+      "coreMeaning": "دهان، عضو خوردن و صحبت کردن",
+      "note": "جمع mouths تلفظ /maʊðz/ دارد",
+      "trap": "th در mouth بی‌صداست مثل think، نه مثل this",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "hand",
+      "translation": "دست",
+      "ipa": "/hænd/",
+      "partOfSpeech": "noun",
+      "example": "Wash your hands before eating.",
+      "definitions": [
+        "the end part of the arm including fingers"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "foot"
+      ],
+      "collocations": [
+        "shake hands",
+        "right hand"
+      ],
+      "wordFamily": [
+        "hand (n)",
+        "handy (adj)"
+      ],
+      "coreMeaning": "دست، عضو انتهایی بازو شامل انگشتان",
+      "note": "معمولاً به صورت جمع hands استفاده می‌شود",
+      "trap": "hand مثل head تلفظ می‌شود ولی معنی متفاوتی دارد",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "arm",
+      "translation": "بازو",
+      "ipa": "/ɑːrm/",
+      "partOfSpeech": "noun",
+      "example": "She broke her arm.",
+      "definitions": [
+        "the upper limb of the body from shoulder to hand"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "leg"
+      ],
+      "collocations": [
+        "arm in arm",
+        "right arm"
+      ],
+      "wordFamily": [
+        "arm (n)"
+      ],
+      "coreMeaning": "بازو، از شانه تا دست",
+      "note": "arm هم به معنی بازو و هم سلاح است",
+      "trap": "arm دو معنی دارد: بازو و سلاح؛ از context باید فهمید",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "leg",
+      "translation": "پا",
+      "ipa": "/leɡ/",
+      "partOfSpeech": "noun",
+      "example": "My leg hurts.",
+      "definitions": [
+        "the lower limb of the body used for walking"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "arm"
+      ],
+      "collocations": [
+        "break your leg",
+        "long legs"
+      ],
+      "wordFamily": [
+        "leg (n)"
+      ],
+      "coreMeaning": "پا، عضو پایینی بدن برای راه رفتن",
+      "note": "leg به قسمت از ران تا پا می‌گویند",
+      "trap": "leg و foot متفاوت هستند؛ leg کل پا، foot فقط کف پا",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "foot",
+      "translation": "پا (کف پا)",
+      "ipa": "/fʊt/",
+      "partOfSpeech": "noun",
+      "example": "My foot is size ten.",
+      "definitions": [
+        "the lower end of the leg used for standing"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "hand"
+      ],
+      "collocations": [
+        "on foot",
+        "bare foot"
+      ],
+      "wordFamily": [
+        "foot (n)",
+        "footstep (n)"
+      ],
+      "coreMeaning": "کف پا، انتهای پا",
+      "note": "جمع foot به صورت feet است",
+      "trap": "جمع foot به صورت feet است، نه foots",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "hair",
+      "translation": "مو",
+      "ipa": "/her/",
+      "partOfSpeech": "noun",
+      "example": "She has long brown hair.",
+      "definitions": [
+        "the thin strands growing on the head and body"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "long hair",
+        "brush your hair"
+      ],
+      "wordFamily": [
+        "hair (n)",
+        "hairy (adj)"
+      ],
+      "coreMeaning": "مو، رشته‌های نازک روی سر و بدن",
+      "note": "hair معمولاً به صورت مفرد استفاده می‌شود",
+      "trap": "hair مفرد است ولی hairs برای چند تار مو استفاده می‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "face",
+      "translation": "صورت",
+      "ipa": "/feɪs/",
+      "partOfSpeech": "noun",
+      "example": "Wash your face every morning.",
+      "definitions": [
+        "the front part of the head"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "face to face",
+        "happy face"
+      ],
+      "wordFamily": [
+        "face (n)"
+      ],
+      "coreMeaning": "صورت، جلوی سر",
+      "note": "face هم اسم و هم فعل است",
+      "trap": "face به معنی صورت و هم به معنی رو به رو شدن است",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "tooth",
+      "translation": "دندان",
+      "ipa": "/tuːθ/",
+      "partOfSpeech": "noun",
+      "example": "Brush your teeth twice a day.",
+      "definitions": [
+        "one of the hard white structures in the mouth"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "brush your teeth",
+        "tooth brush"
+      ],
+      "wordFamily": [
+        "tooth (n)",
+        "toothache (n)"
+      ],
+      "coreMeaning": "دندان، عضو سفید سخت در دهان",
+      "note": "جمع tooth به صورت teeth است",
+      "trap": "جمع tooth به صورت teeth است، نه tooths",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "finger",
+      "translation": "انگشت دست",
+      "ipa": "/ˈfɪŋɡər/",
+      "partOfSpeech": "noun",
+      "example": "I hurt my finger.",
+      "definitions": [
+        "one of the five long parts at the end of the hand"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "toe"
+      ],
+      "collocations": [
+        "finger nail",
+        "point your finger"
+      ],
+      "wordFamily": [
+        "finger (n)"
+      ],
+      "coreMeaning": "انگشت دست",
+      "note": "انگشت پا toe نام دارد",
+      "trap": "finger فقط انگشت دست است؛ انگشت پا toe است",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "toe",
+      "translation": "انگشت پا",
+      "ipa": "/toʊ/",
+      "partOfSpeech": "noun",
+      "example": "I stubbed my toe.",
+      "definitions": [
+        "one of the five parts at the end of the foot"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "finger"
+      ],
+      "collocations": [
+        "big toe",
+        "toe nail"
+      ],
+      "wordFamily": [
+        "toe (n)"
+      ],
+      "coreMeaning": "انگشت پا",
+      "note": "انگشت دست finger نام دارد",
+      "trap": "toe مثل tow تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "back",
+      "translation": "کمر، پشت",
+      "ipa": "/bæk/",
+      "partOfSpeech": "noun",
+      "example": "My back hurts from sitting too long.",
+      "definitions": [
+        "the rear part of the human body from shoulders to hips"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "front"
+      ],
+      "collocations": [
+        "back pain",
+        "on your back"
+      ],
+      "wordFamily": [
+        "back (n)",
+        "backward (adv)"
+      ],
+      "coreMeaning": "کمر، پشت بدن",
+      "note": "back معانی زیادی دارد ولی به عنوان عضو بدن یعنی کمر",
+      "trap": "back هم اسم و هم قید است؛ از context باید فهمید",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "stomach",
+      "translation": "شکم، معده",
+      "ipa": "/ˈstʌmək/",
+      "partOfSpeech": "noun",
+      "example": "My stomach hurts.",
+      "definitions": [
+        "the front part of the body below the chest"
+      ],
+      "synonyms": [
+        "belly",
+        "tummy"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "stomach ache",
+        "empty stomach"
+      ],
+      "wordFamily": [
+        "stomach (n)"
+      ],
+      "coreMeaning": "شکم، معده",
+      "note": "stomach ache یعنی دل درد",
+      "trap": "حرف ch در stomach مثل k تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "neck",
+      "translation": "گردن",
+      "ipa": "/nek/",
+      "partOfSpeech": "noun",
+      "example": "I have a pain in my neck.",
+      "definitions": [
+        "the part connecting the head to the body"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "neck and neck",
+        "necklace"
+      ],
+      "wordFamily": [
+        "neck (n)"
+      ],
+      "coreMeaning": "گردن، بخش اتصال سر به بدن",
+      "note": "necklace (گردنبند) از neck گرفته شده",
+      "trap": "neck مثل next بدون st تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "shoulder",
+      "translation": "شانه",
+      "ipa": "/ˈʃoʊldər/",
+      "partOfSpeech": "noun",
+      "example": "He put his arm around my shoulder.",
+      "definitions": [
+        "the part of the body between the neck and the arm"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "shoulder to shoulder",
+        "cold shoulder"
+      ],
+      "wordFamily": [
+        "shoulder (n)"
+      ],
+      "coreMeaning": "شانه، بخش بین گردن و بازو",
+      "note": "cold shoulder یعنی بی‌توجهی کردن",
+      "trap": "shoulder مثل should + er تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "knee",
+      "translation": "زانو",
+      "ipa": "/niː/",
+      "partOfSpeech": "noun",
+      "example": "I hurt my knee playing football.",
+      "definitions": [
+        "the joint in the middle of the leg"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bend your knee",
+        "knee cap"
+      ],
+      "wordFamily": [
+        "knee (n)"
+      ],
+      "coreMeaning": "زانو، مفصل وسط پا",
+      "note": "حرف k در knee بی‌صداست",
+      "trap": "knee مثل need بدون d تلفظ می‌شود؛ k بی‌صداست",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "heart",
+      "translation": "قلب",
+      "ipa": "/hɑːrt/",
+      "partOfSpeech": "noun",
+      "example": "My heart beats fast when I run.",
+      "definitions": [
+        "the organ that pumps blood through the body"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "heart attack",
+        "broken heart"
+      ],
+      "wordFamily": [
+        "heart (n)",
+        "heartfelt (adj)"
+      ],
+      "coreMeaning": "قلب، عضو پمپاژ خون",
+      "note": "heart هم به معنی قلب جسمی و هم احساسی است",
+      "trap": "heart مثل art با h تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "skin",
+      "translation": "پوست",
+      "ipa": "/skɪn/",
+      "partOfSpeech": "noun",
+      "example": "She has soft skin.",
+      "definitions": [
+        "the outer covering of the body"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "skin color",
+        "dry skin"
+      ],
+      "wordFamily": [
+        "skin (n)",
+        "skinny (adj)"
+      ],
+      "coreMeaning": "پوست، پوشش خارجی بدن",
+      "note": "skinny از skin گرفته شده و به معنی لاغر است",
+      "trap": "skin مثل sin با k تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "bone",
+      "translation": "استخوان",
+      "ipa": "/boʊn/",
+      "partOfSpeech": "noun",
+      "example": "He broke a bone in his arm.",
+      "definitions": [
+        "any of the hard parts inside the body"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "broken bone",
+        "bone structure"
+      ],
+      "wordFamily": [
+        "bone (n)",
+        "bony (adj)"
+      ],
+      "coreMeaning": "استخوان، بخش سخت داخل بدن",
+      "note": "bone مثل phone بدون ph تلفظ می‌شود",
+      "trap": "bone مثل born تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "blood",
+      "translation": "خون",
+      "ipa": "/blʌd/",
+      "partOfSpeech": "noun",
+      "example": "The doctor took a blood sample.",
+      "definitions": [
+        "the red liquid that flows through the body"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "blood test",
+        "blood type"
+      ],
+      "wordFamily": [
+        "blood (n)",
+        "bloody (adj)"
+      ],
+      "coreMeaning": "خون، مایع قرمز در بدن",
+      "note": "blood type یعنی گروه خونی",
+      "trap": "blood مثل flood تلفظ می‌شود ولی با bl",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "brain",
+      "translation": "مغز",
+      "ipa": "/breɪn/",
+      "partOfSpeech": "noun",
+      "example": "The brain controls the body.",
+      "definitions": [
+        "the organ inside the head that controls the body"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "brain damage",
+        "brain storm"
+      ],
+      "wordFamily": [
+        "brain (n)",
+        "brainy (adj)"
+      ],
+      "coreMeaning": "مغز، عضو کنترل بدن در سر",
+      "note": "brainy یعنی باهوش",
+      "trap": "brain مثل brand تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "muscle",
+      "translation": "ماهیچه، عضله",
+      "ipa": "/ˈmʌsəl/",
+      "partOfSpeech": "noun",
+      "example": "He has strong muscles.",
+      "definitions": [
+        "a body part that can tighten to produce movement"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "muscle pain",
+        "build muscle"
+      ],
+      "wordFamily": [
+        "muscle (n)",
+        "muscular (adj)"
+      ],
+      "coreMeaning": "ماهیچه، عضله، بافت حرکتی بدن",
+      "note": "muscular یعنی عضلانی",
+      "trap": "حرف c در muscle بی‌صداست",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "lip",
+      "translation": "لب",
+      "ipa": "/lɪp/",
+      "partOfSpeech": "noun",
+      "example": "She has red lips.",
+      "definitions": [
+        "either of the two soft parts at the opening of the mouth"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "lip stick",
+        "lower lip"
+      ],
+      "wordFamily": [
+        "lip (n)"
+      ],
+      "coreMeaning": "لب، بخش نرم دهان",
+      "note": "lipstick یعنی رژ لب",
+      "trap": "lip مثل leap تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "chin",
+      "translation": "چانه",
+      "ipa": "/tʃɪn/",
+      "partOfSpeech": "noun",
+      "example": "He has a small chin.",
+      "definitions": [
+        "the part of the face below the mouth"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "double chin",
+        "chin up"
+      ],
+      "wordFamily": [
+        "chin (n)"
+      ],
+      "coreMeaning": "چانه، بخش زیر دهان",
+      "note": "chin up یعنی سرت رو بالا بگیر",
+      "trap": "chin مثل chain تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "chest",
+      "translation": "سینه",
+      "ipa": "/tʃest/",
+      "partOfSpeech": "noun",
+      "example": "He has a pain in his chest.",
+      "definitions": [
+        "the front part of the body between the neck and stomach"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "chest pain",
+        "chest of drawers"
+      ],
+      "wordFamily": [
+        "chest (n)"
+      ],
+      "coreMeaning": "سینه، بخش جلوی بدن بین گردن و شکم",
+      "note": "chest of drawers یعنی کمد کشویی",
+      "trap": "chest مثل chess تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "elbow",
+      "translation": "آرنج",
+      "ipa": "/ˈelboʊ/",
+      "partOfSpeech": "noun",
+      "example": "I hit my elbow on the table.",
+      "definitions": [
+        "the joint between the upper and lower arm"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "elbow room",
+        "elbow grease"
+      ],
+      "wordFamily": [
+        "elbow (n)"
+      ],
+      "coreMeaning": "آرنج، مفصل بین بازو و ساعد",
+      "note": "elbow grease یعنی سخت کار کردن",
+      "trap": "elbow مثل L + bow تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "ankle",
+      "translation": "مچ پا",
+      "ipa": "/ˈæŋkəl/",
+      "partOfSpeech": "noun",
+      "example": "She twisted her ankle.",
+      "definitions": [
+        "the joint connecting the foot and the leg"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "ankle sprain",
+        "ankle bracelet"
+      ],
+      "wordFamily": [
+        "ankle (n)"
+      ],
+      "coreMeaning": "مچ پا، مفصل اتصال پا به ساق",
+      "note": "ankle sprain یعنی پیچ خوردگی مچ پا",
+      "trap": "ankle مثل angle تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "wrist",
+      "translation": "مچ دست",
+      "ipa": "/rɪst/",
+      "partOfSpeech": "noun",
+      "example": "She wears a watch on her wrist.",
+      "definitions": [
+        "the joint connecting the hand to the arm"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "wrist watch",
+        "wrist band"
+      ],
+      "wordFamily": [
+        "wrist (n)"
+      ],
+      "coreMeaning": "مچ دست، مفصل اتصال دست به بازو",
+      "note": "wristband یعنی دستبند",
+      "trap": "wrist مثل write تلفظ نمی‌شود؛ w بی‌صداست",
+      "tags": [
+        "A1",
+        "body"
+      ]
+    },
+    {
+      "word": "happy",
+      "translation": "خوشحال",
+      "ipa": "/ˈhæpi/",
+      "partOfSpeech": "adjective",
+      "example": "I am happy to see you.",
+      "definitions": [
+        "feeling or showing pleasure or contentment"
+      ],
+      "synonyms": [
+        "glad",
+        "cheerful"
+      ],
+      "antonyms": [
+        "sad",
+        "unhappy"
+      ],
+      "collocations": [
+        "happy birthday",
+        "happy ending"
+      ],
+      "wordFamily": [
+        "happy (adj)",
+        "happiness (n)",
+        "happily (adv)"
+      ],
+      "coreMeaning": "خوشحال، احساس لذت و رضایت",
+      "note": "happy birthday یعنی تولدت مبارک",
+      "trap": "happy مثل happen شروع می‌شود ولی معنی متفاوتی دارد",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "sad",
+      "translation": "ناراحت، غمگین",
+      "ipa": "/sæd/",
+      "partOfSpeech": "adjective",
+      "example": "She looks sad today.",
+      "definitions": [
+        "feeling or showing sorrow"
+      ],
+      "synonyms": [
+        "unhappy",
+        "upset"
+      ],
+      "antonyms": [
+        "happy",
+        "glad"
+      ],
+      "collocations": [
+        "sad story",
+        "feel sad"
+      ],
+      "wordFamily": [
+        "sad (adj)",
+        "sadness (n)",
+        "sadly (adv)"
+      ],
+      "coreMeaning": "غمگین، ناراحت",
+      "note": "sad و unhappy هر دو یک معنی می‌دهند",
+      "trap": "sad مثل said تلفظ نمی‌شود؛ sad /sæd/، said /sed/",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "angry",
+      "translation": "عصبانی",
+      "ipa": "/ˈæŋɡri/",
+      "partOfSpeech": "adjective",
+      "example": "Don't be angry with me.",
+      "definitions": [
+        "feeling strong displeasure"
+      ],
+      "synonyms": [
+        "mad",
+        "furious"
+      ],
+      "antonyms": [
+        "calm",
+        "happy"
+      ],
+      "collocations": [
+        "angry with",
+        "get angry"
+      ],
+      "wordFamily": [
+        "angry (adj)",
+        "anger (n)",
+        "angrily (adv)"
+      ],
+      "coreMeaning": "عصبانی، خشمگین",
+      "note": "angry with someone یعنی از کسی عصبانی بودن",
+      "trap": "angry at یا angry with هر دو صحیح هستند",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "tired",
+      "translation": "خسته",
+      "ipa": "/taɪərd/",
+      "partOfSpeech": "adjective",
+      "example": "I am very tired.",
+      "definitions": [
+        "in need of rest or sleep"
+      ],
+      "synonyms": [
+        "exhausted",
+        "weary"
+      ],
+      "antonyms": [
+        "energetic",
+        "fresh"
+      ],
+      "collocations": [
+        "feel tired",
+        "tired of"
+      ],
+      "wordFamily": [
+        "tired (adj)",
+        "tire (v)",
+        "tiring (adj)"
+      ],
+      "coreMeaning": "خسته، نیاز به استراحت",
+      "note": "tired of something یعنی از چیزی خسته شدن",
+      "trap": "tired مثل tried تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "hungry",
+      "translation": "گرسنه",
+      "ipa": "/ˈhʌŋɡri/",
+      "partOfSpeech": "adjective",
+      "example": "I am hungry. Let's eat.",
+      "definitions": [
+        "feeling the need for food"
+      ],
+      "synonyms": [
+        "starving"
+      ],
+      "antonyms": [
+        "full"
+      ],
+      "collocations": [
+        "feel hungry",
+        "go hungry"
+      ],
+      "wordFamily": [
+        "hungry (adj)",
+        "hunger (n)"
+      ],
+      "coreMeaning": "گرسنه، نیاز به غذا",
+      "note": "hungry مثل angry با y ختم می‌شود",
+      "trap": "hungry مثل angry به y ختم می‌شود ولی معنی متفاوتی دارد",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "thirsty",
+      "translation": "تشنه",
+      "ipa": "/ˈθɜːrsti/",
+      "partOfSpeech": "adjective",
+      "example": "I am thirsty. Can I have some water?",
+      "definitions": [
+        "feeling the need to drink"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "feel thirsty",
+        "thirsty for"
+      ],
+      "wordFamily": [
+        "thirsty (adj)",
+        "thirst (n)"
+      ],
+      "coreMeaning": "تشنه، نیاز به نوشیدن",
+      "note": "thirsty for knowledge یعنی تشنه دانش",
+      "trap": "thirsty مثل thirty تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "scared",
+      "translation": "ترسیده",
+      "ipa": "/skerd/",
+      "partOfSpeech": "adjective",
+      "example": "The child is scared of the dark.",
+      "definitions": [
+        "feeling fear or anxiety"
+      ],
+      "synonyms": [
+        "afraid",
+        "frightened"
+      ],
+      "antonyms": [
+        "brave",
+        "fearless"
+      ],
+      "collocations": [
+        "scared of",
+        "get scared"
+      ],
+      "wordFamily": [
+        "scared (adj)",
+        "scare (v)",
+        "scary (adj)"
+      ],
+      "coreMeaning": "ترسیده، احساس ترس",
+      "note": "scared of something یعنی از چیزی ترسیدن",
+      "trap": "scared و scary متفاوت هستند: scared احساس شما، scary چیزی که ترسناک است",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "sick",
+      "translation": "بیمار",
+      "ipa": "/sɪk/",
+      "partOfSpeech": "adjective",
+      "example": "She is sick and can't come to school.",
+      "definitions": [
+        "affected by illness"
+      ],
+      "synonyms": [
+        "ill",
+        "unwell"
+      ],
+      "antonyms": [
+        "healthy",
+        "well"
+      ],
+      "collocations": [
+        "feel sick",
+        "sick leave"
+      ],
+      "wordFamily": [
+        "sick (adj)",
+        "sickness (n)"
+      ],
+      "coreMeaning": "بیمار، مریض",
+      "note": "sick مثل ill است ولی ill رسمی‌تر است",
+      "trap": "sick of something یعنی از چیزی خسته شدن، نه بیمار بودن",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "cold",
+      "translation": "سرد",
+      "ipa": "/koʊld/",
+      "partOfSpeech": "adjective",
+      "example": "It is cold outside.",
+      "definitions": [
+        "having a low temperature"
+      ],
+      "synonyms": [
+        "chilly",
+        "freezing"
+      ],
+      "antonyms": [
+        "hot",
+        "warm"
+      ],
+      "collocations": [
+        "cold weather",
+        "catch a cold"
+      ],
+      "wordFamily": [
+        "cold (adj)",
+        "coldness (n)"
+      ],
+      "coreMeaning": "سرد، دمای پایین",
+      "note": "catch a cold یعنی سرما خوردن",
+      "trap": "cold هم صفت و هم اسم است (سرماخوردگی)",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "hot",
+      "translation": "گرم، داغ",
+      "ipa": "/hɑːt/",
+      "partOfSpeech": "adjective",
+      "example": "The coffee is very hot.",
+      "definitions": [
+        "having a high temperature"
+      ],
+      "synonyms": [
+        "warm",
+        "boiling"
+      ],
+      "antonyms": [
+        "cold",
+        "cool"
+      ],
+      "collocations": [
+        "hot weather",
+        "hot water"
+      ],
+      "wordFamily": [
+        "hot (adj)",
+        "hotness (n)"
+      ],
+      "coreMeaning": "گرم، داغ، دمای بالا",
+      "note": "hot هم به معنی گرم و هم تند (غذا) است",
+      "trap": "hot مثل hat تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "calm",
+      "translation": "آرام",
+      "ipa": "/kɑːm/",
+      "partOfSpeech": "adjective",
+      "example": "Please stay calm.",
+      "definitions": [
+        "not showing or feeling nervousness, anger, or other emotions"
+      ],
+      "synonyms": [
+        "relaxed",
+        "peaceful"
+      ],
+      "antonyms": [
+        "angry",
+        "nervous"
+      ],
+      "collocations": [
+        "stay calm",
+        "calm down"
+      ],
+      "wordFamily": [
+        "calm (adj)",
+        "calmly (adv)",
+        "calmness (n)"
+      ],
+      "coreMeaning": "آرام، بدون اضطراب",
+      "note": "calm down یعنی آرام شدن",
+      "trap": "حرف l در calm بی‌صداست",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "nervous",
+      "translation": "عصبی، مضطرب",
+      "ipa": "/ˈnɜːrvəs/",
+      "partOfSpeech": "adjective",
+      "example": "I feel nervous before the test.",
+      "definitions": [
+        "easily agitated or anxious"
+      ],
+      "synonyms": [
+        "anxious",
+        "worried"
+      ],
+      "antonyms": [
+        "calm",
+        "relaxed"
+      ],
+      "collocations": [
+        "feel nervous",
+        "nervous system"
+      ],
+      "wordFamily": [
+        "nervous (adj)",
+        "nerve (n)",
+        "nervously (adv)"
+      ],
+      "coreMeaning": "مضطرب، عصبی",
+      "note": "nervous about something یعنی درباره چیزی مضطرب بودن",
+      "trap": "nervous مثل nerve + ous تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "excited",
+      "translation": "هیجان‌زده",
+      "ipa": "/ɪkˈsaɪtɪd/",
+      "partOfSpeech": "adjective",
+      "example": "I am excited about the trip.",
+      "definitions": [
+        "feeling or showing happiness and enthusiasm"
+      ],
+      "synonyms": [
+        "thrilled",
+        "enthusiastic"
+      ],
+      "antonyms": [
+        "bored"
+      ],
+      "collocations": [
+        "excited about",
+        "get excited"
+      ],
+      "wordFamily": [
+        "excited (adj)",
+        "excite (v)",
+        "exciting (adj)",
+        "excitement (n)"
+      ],
+      "coreMeaning": "هیجان‌زده، پر از شور و اشتیاق",
+      "note": "excited درباره احساس شما، exciting درباره چیزی که هیجان‌انگیز است",
+      "trap": "excited و exciting متفاوت هستند",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "worried",
+      "translation": "نگران",
+      "ipa": "/ˈwɜːrid/",
+      "partOfSpeech": "adjective",
+      "example": "She is worried about her exam.",
+      "definitions": [
+        "feeling anxious or troubled about actual or potential problems"
+      ],
+      "synonyms": [
+        "concerned",
+        "anxious"
+      ],
+      "antonyms": [
+        "calm",
+        "relaxed"
+      ],
+      "collocations": [
+        "worried about",
+        "get worried"
+      ],
+      "wordFamily": [
+        "worried (adj)",
+        "worry (v)",
+        "worrying (adj)"
+      ],
+      "coreMeaning": "نگران، احساس اضطراب درباره مشکل",
+      "note": "worried about something یعنی نگران چیزی بودن",
+      "trap": "worried مثل worry + ed تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "emotions"
+      ]
+    },
+    {
+      "word": "tall",
+      "translation": "بلندقد",
+      "ipa": "/tɔːl/",
+      "partOfSpeech": "adjective",
+      "example": "He is very tall.",
+      "definitions": [
+        "having a greater than average height"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "short"
+      ],
+      "collocations": [
+        "tall building",
+        "tall person"
+      ],
+      "wordFamily": [
+        "tall (adj)"
+      ],
+      "coreMeaning": "بلندقد، قد بلند",
+      "note": "tall برای انسان و ساختمان استفاده می‌شود",
+      "trap": "tall فقط برای اشیاء عمودی است؛ برای طول از long استفاده می‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "short",
+      "translation": "کوتاه‌قد",
+      "ipa": "/ʃɔːrt/",
+      "partOfSpeech": "adjective",
+      "example": "She is short but strong.",
+      "definitions": [
+        "having a small height"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "tall"
+      ],
+      "collocations": [
+        "short person",
+        "short and tall"
+      ],
+      "wordFamily": [
+        "short (adj)",
+        "shortness (n)"
+      ],
+      "coreMeaning": "کوتاه‌قد، قد کوتاه",
+      "note": "short هم به معنی کوتاه‌قد و هم کوتاه (طول) است",
+      "trap": "short برای انسان یعنی کوتاه‌قد، برای چیز دیگر یعنی کوتاه",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "young",
+      "translation": "جوان",
+      "ipa": "/jʌŋ/",
+      "partOfSpeech": "adjective",
+      "example": "She is a young woman.",
+      "definitions": [
+        "having lived for only a short time"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "old"
+      ],
+      "collocations": [
+        "young people",
+        "young and old"
+      ],
+      "wordFamily": [
+        "young (adj)",
+        "youth (n)"
+      ],
+      "coreMeaning": "جوان، سن کم",
+      "note": "young مثل tongue تلفظ می‌شود",
+      "trap": "young مثل lung تلفظ می‌شود، نه young مثل you",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "old",
+      "translation": "پیر، مسن",
+      "ipa": "/oʊld/",
+      "partOfSpeech": "adjective",
+      "example": "My grandfather is very old.",
+      "definitions": [
+        "having lived for a long time"
+      ],
+      "synonyms": [
+        "elderly",
+        "aged"
+      ],
+      "antonyms": [
+        "young",
+        "new"
+      ],
+      "collocations": [
+        "old people",
+        "old and young"
+      ],
+      "wordFamily": [
+        "old (adj)"
+      ],
+      "coreMeaning": "پیر، مسن، سن زیاد",
+      "note": "old هم به معنی پیر و هم قدیمی است",
+      "trap": "old دو معنی دارد: پیر (برای انسان) و قدیمی (برای اشیاء)",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "beautiful",
+      "translation": "زیبا",
+      "ipa": "/ˈbjuːtɪfəl/",
+      "partOfSpeech": "adjective",
+      "example": "She is a beautiful woman.",
+      "definitions": [
+        "pleasing to the senses or mind"
+      ],
+      "synonyms": [
+        "pretty",
+        "lovely"
+      ],
+      "antonyms": [
+        "ugly"
+      ],
+      "collocations": [
+        "beautiful day",
+        "beautiful woman"
+      ],
+      "wordFamily": [
+        "beautiful (adj)",
+        "beauty (n)",
+        "beautifully (adv)"
+      ],
+      "coreMeaning": "زیبا، خوشگل",
+      "note": "beautiful بیشتر برای زنان و منظره استفاده می‌شود",
+      "trap": "beautiful مثل بیوتیفول تلفظ نمی‌شود؛ تاکید روی بیو است",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "handsome",
+      "translation": "خوش‌تیپ، خوش‌قیافه",
+      "ipa": "/ˈhænsəm/",
+      "partOfSpeech": "adjective",
+      "example": "He is a handsome man.",
+      "definitions": [
+        "good-looking (typically for men)"
+      ],
+      "synonyms": [
+        "good-looking",
+        "attractive"
+      ],
+      "antonyms": [
+        "ugly"
+      ],
+      "collocations": [
+        "handsome man",
+        "handsome boy"
+      ],
+      "wordFamily": [
+        "handsome (adj)"
+      ],
+      "coreMeaning": "خوش‌تیپ، خوش‌قیافه (معمولاً برای مردان)",
+      "note": "handsome معمولاً برای مردان استفاده می‌شود",
+      "trap": "handsome مثل هندسام تلفظ نمی‌شود؛ d بی‌صداست",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "pretty",
+      "translation": "خوشگل، زیبا",
+      "ipa": "/ˈprɪti/",
+      "partOfSpeech": "adjective",
+      "example": "She has a pretty smile.",
+      "definitions": [
+        "attractive in a delicate way"
+      ],
+      "synonyms": [
+        "beautiful",
+        "lovely"
+      ],
+      "antonyms": [
+        "ugly"
+      ],
+      "collocations": [
+        "pretty girl",
+        "pretty good"
+      ],
+      "wordFamily": [
+        "pretty (adj)",
+        "prettily (adv)"
+      ],
+      "coreMeaning": "خوشگل، زیبا (معمولاً برای زنان و دختران)",
+      "note": "pretty هم صفت و هم قید (به معنی نسبتاً) است",
+      "trap": "pretty good یعنی نسبتاً خوب، نه خیلی خوب",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "ugly",
+      "translation": "زشت",
+      "ipa": "/ˈʌɡli/",
+      "partOfSpeech": "adjective",
+      "example": "That's an ugly building.",
+      "definitions": [
+        "unpleasant to look at"
+      ],
+      "synonyms": [
+        "unattractive"
+      ],
+      "antonyms": [
+        "beautiful",
+        "pretty",
+        "handsome"
+      ],
+      "collocations": [
+        "ugly face",
+        "ugly duckling"
+      ],
+      "wordFamily": [
+        "ugly (adj)",
+        "ugliness (n)"
+      ],
+      "coreMeaning": "زشت، ناخوشایند",
+      "note": "ugly duckling یعنی جوجه اردک زشت (داستان معروف)",
+      "trap": "ugly مثل ugly تلفظ می‌شود، نه آگلی",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "kind",
+      "translation": "مهربان",
+      "ipa": "/kaɪnd/",
+      "partOfSpeech": "adjective",
+      "example": "She is very kind to everyone.",
+      "definitions": [
+        "generous, helpful, and caring about others"
+      ],
+      "synonyms": [
+        "nice",
+        "gentle"
+      ],
+      "antonyms": [
+        "cruel",
+        "mean"
+      ],
+      "collocations": [
+        "kind person",
+        "kind of"
+      ],
+      "wordFamily": [
+        "kind (adj)",
+        "kindness (n)",
+        "kindly (adv)"
+      ],
+      "coreMeaning": "مهربان، خوش‌قلب",
+      "note": "kind هم به معنی مهربان و هم نوع است",
+      "trap": "kind دو معنی دارد: مهربان (صفت) و نوع (اسم)",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "nice",
+      "translation": "خوب، خوشایند",
+      "ipa": "/naɪs/",
+      "partOfSpeech": "adjective",
+      "example": "She is a nice person.",
+      "definitions": [
+        "pleasant, agreeable, or attractive"
+      ],
+      "synonyms": [
+        "kind",
+        "pleasant"
+      ],
+      "antonyms": [
+        "mean",
+        "nasty"
+      ],
+      "collocations": [
+        "nice day",
+        "nice person"
+      ],
+      "wordFamily": [
+        "nice (adj)",
+        "nicely (adv)"
+      ],
+      "coreMeaning": "خوب، خوشایند، مهربان",
+      "note": "nice یکی از پرکاربردترین صفات در انگلیسی است",
+      "trap": "nice مثل niece تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "fat",
+      "translation": "چاق",
+      "ipa": "/fæt/",
+      "partOfSpeech": "adjective",
+      "example": "The cat is very fat.",
+      "definitions": [
+        "having a lot of extra flesh on the body"
+      ],
+      "synonyms": [
+        "overweight",
+        "plump"
+      ],
+      "antonyms": [
+        "thin",
+        "slim"
+      ],
+      "collocations": [
+        "fat person",
+        "get fat"
+      ],
+      "wordFamily": [
+        "fat (adj)",
+        "fatty (adj)"
+      ],
+      "coreMeaning": "چاق، دارای اضافه وزن",
+      "note": "fat ممکن است بی‌ادبانه باشد؛ overweight بهتر است",
+      "trap": "fat می‌تواند بی‌ادبانه باشد؛ در صحبت رسمی از overweight استفاده کنید",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "thin",
+      "translation": "لاغر",
+      "ipa": "/θɪn/",
+      "partOfSpeech": "adjective",
+      "example": "She is tall and thin.",
+      "definitions": [
+        "having little flesh on the body"
+      ],
+      "synonyms": [
+        "slim",
+        "skinny"
+      ],
+      "antonyms": [
+        "fat",
+        "overweight"
+      ],
+      "collocations": [
+        "thin person",
+        "thin and tall"
+      ],
+      "wordFamily": [
+        "thin (adj)",
+        "thinness (n)"
+      ],
+      "coreMeaning": "لاغر، کم‌گوشت",
+      "note": "thin مثل think بدون k تلفظ می‌شود",
+      "trap": "thin مثل tin با th تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "strong",
+      "translation": "قوی",
+      "ipa": "/strɔːŋ/",
+      "partOfSpeech": "adjective",
+      "example": "He is very strong.",
+      "definitions": [
+        "having great physical power"
+      ],
+      "synonyms": [
+        "powerful",
+        "muscular"
+      ],
+      "antonyms": [
+        "weak"
+      ],
+      "collocations": [
+        "strong man",
+        "strong and weak"
+      ],
+      "wordFamily": [
+        "strong (adj)",
+        "strength (n)",
+        "strongly (adv)"
+      ],
+      "coreMeaning": "قوی، نیرومند",
+      "note": "strong مثل song با str تلفظ می‌شود",
+      "trap": "strong مثل strange تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "weak",
+      "translation": "ضعیف",
+      "ipa": "/wiːk/",
+      "partOfSpeech": "adjective",
+      "example": "I feel weak after being sick.",
+      "definitions": [
+        "lacking physical strength"
+      ],
+      "synonyms": [
+        "feeble",
+        "frail"
+      ],
+      "antonyms": [
+        "strong"
+      ],
+      "collocations": [
+        "weak point",
+        "feel weak"
+      ],
+      "wordFamily": [
+        "weak (adj)",
+        "weakness (n)",
+        "weakly (adv)"
+      ],
+      "coreMeaning": "ضعیف، بدون قدرت",
+      "note": "weak مثل week تلفظ می‌شود",
+      "trap": "weak و week هم‌آوا هستند",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "fast",
+      "translation": "سریع",
+      "ipa": "/fæst/",
+      "partOfSpeech": "adjective",
+      "example": "He is a fast runner.",
+      "definitions": [
+        "moving or capable of moving at high speed"
+      ],
+      "synonyms": [
+        "quick",
+        "rapid"
+      ],
+      "antonyms": [
+        "slow"
+      ],
+      "collocations": [
+        "fast food",
+        "fast runner"
+      ],
+      "wordFamily": [
+        "fast (adj)",
+        "fast (adv)"
+      ],
+      "coreMeaning": "سریع، تند",
+      "note": "fast هم صفت و هم قید است",
+      "trap": "fast مثل last تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "slow",
+      "translation": "آهسته، کند",
+      "ipa": "/sloʊ/",
+      "partOfSpeech": "adjective",
+      "example": "The turtle is very slow.",
+      "definitions": [
+        "moving or operating at low speed"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "fast",
+        "quick"
+      ],
+      "collocations": [
+        "slow down",
+        "slow motion"
+      ],
+      "wordFamily": [
+        "slow (adj)",
+        "slowly (adv)"
+      ],
+      "coreMeaning": "آهسته، کند",
+      "note": "slow down یعنی آهسته‌تر شدن",
+      "trap": "slow مثل snow تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "big",
+      "translation": "بزرگ",
+      "ipa": "/bɪɡ/",
+      "partOfSpeech": "adjective",
+      "example": "They live in a big house.",
+      "definitions": [
+        "of considerable size or extent"
+      ],
+      "synonyms": [
+        "large",
+        "huge"
+      ],
+      "antonyms": [
+        "small",
+        "little"
+      ],
+      "collocations": [
+        "big house",
+        "big family"
+      ],
+      "wordFamily": [
+        "big (adj)",
+        "bigness (n)"
+      ],
+      "coreMeaning": "بزرگ، اندازه زیاد",
+      "note": "big مثل bag بدون a تلفظ می‌شود",
+      "trap": "big مثل bag تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "small",
+      "translation": "کوچک",
+      "ipa": "/smɔːl/",
+      "partOfSpeech": "adjective",
+      "example": "I have a small dog.",
+      "definitions": [
+        "of a size that is less than normal"
+      ],
+      "synonyms": [
+        "little",
+        "tiny"
+      ],
+      "antonyms": [
+        "big",
+        "large"
+      ],
+      "collocations": [
+        "small house",
+        "small child"
+      ],
+      "wordFamily": [
+        "small (adj)",
+        "smallness (n)"
+      ],
+      "coreMeaning": "کوچک، اندازه کم",
+      "note": "small مثل tall تلفظ می‌شود ولی با sm",
+      "trap": "small مثل smell تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "new",
+      "translation": "جدید",
+      "ipa": "/nuː/",
+      "partOfSpeech": "adjective",
+      "example": "I have a new phone.",
+      "definitions": [
+        "not existing before; recently made or discovered"
+      ],
+      "synonyms": [
+        "fresh",
+        "recent"
+      ],
+      "antonyms": [
+        "old"
+      ],
+      "collocations": [
+        "new house",
+        "new friend"
+      ],
+      "wordFamily": [
+        "new (adj)",
+        "newly (adv)"
+      ],
+      "coreMeaning": "جدید، تازه",
+      "note": "new مثل knew تلفظ می‌شود",
+      "trap": "new و knew هم‌آوا هستند",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "good",
+      "translation": "خوب",
+      "ipa": "/ɡʊd/",
+      "partOfSpeech": "adjective",
+      "example": "She is a good student.",
+      "definitions": [
+        "of a high quality or standard"
+      ],
+      "synonyms": [
+        "excellent",
+        "great"
+      ],
+      "antonyms": [
+        "bad"
+      ],
+      "collocations": [
+        "good morning",
+        "good job"
+      ],
+      "wordFamily": [
+        "good (adj)",
+        "goodness (n)",
+        "well (adv)"
+      ],
+      "coreMeaning": "خوب، با کیفیت بالا",
+      "note": "قید good به صورت well است، نه goodly",
+      "trap": "قید good نیست؛ well است. I speak English well (نه good)",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "bad",
+      "translation": "بد",
+      "ipa": "/bæd/",
+      "partOfSpeech": "adjective",
+      "example": "That's a bad idea.",
+      "definitions": [
+        "of poor quality or low standard"
+      ],
+      "synonyms": [
+        "terrible",
+        "awful"
+      ],
+      "antonyms": [
+        "good"
+      ],
+      "collocations": [
+        "bad day",
+        "bad news"
+      ],
+      "wordFamily": [
+        "bad (adj)",
+        "badly (adv)"
+      ],
+      "coreMeaning": "بد، بی‌کیفیت",
+      "note": "bad مثل bed تلفظ نمی‌شود",
+      "trap": "bad مثل bed تلفظ نمی‌شود؛ /bæd/ نه /bed/",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "rich",
+      "translation": "پولدار، ثروتمند",
+      "ipa": "/rɪtʃ/",
+      "partOfSpeech": "adjective",
+      "example": "He is a rich man.",
+      "definitions": [
+        "having a great deal of money or assets"
+      ],
+      "synonyms": [
+        "wealthy",
+        "well-off"
+      ],
+      "antonyms": [
+        "poor"
+      ],
+      "collocations": [
+        "rich person",
+        "get rich"
+      ],
+      "wordFamily": [
+        "rich (adj)",
+        "riches (n)",
+        "richness (n)"
+      ],
+      "coreMeaning": "پولدار، ثروتمند",
+      "note": "rich مثل reach تلفظ می‌شود ولی بدون a",
+      "trap": "rich مثل reach تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "poor",
+      "translation": "فقیر",
+      "ipa": "/pʊr/",
+      "partOfSpeech": "adjective",
+      "example": "The family is very poor.",
+      "definitions": [
+        "lacking sufficient money to live at a standard considered comfortable"
+      ],
+      "synonyms": [
+        "broke",
+        "needy"
+      ],
+      "antonyms": [
+        "rich",
+        "wealthy"
+      ],
+      "collocations": [
+        "poor family",
+        "poor people"
+      ],
+      "wordFamily": [
+        "poor (adj)",
+        "poverty (n)"
+      ],
+      "coreMeaning": "فقیر، بدون پول",
+      "note": "poor هم به معنی فقیر و هم بیچاره است",
+      "trap": "poor مثل pour تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "healthy",
+      "translation": "سالم",
+      "ipa": "/ˈhelθi/",
+      "partOfSpeech": "adjective",
+      "example": "She is a healthy child.",
+      "definitions": [
+        "in good physical or mental condition"
+      ],
+      "synonyms": [
+        "well",
+        "fit"
+      ],
+      "antonyms": [
+        "sick",
+        "ill",
+        "unhealthy"
+      ],
+      "collocations": [
+        "healthy food",
+        "stay healthy"
+      ],
+      "wordFamily": [
+        "healthy (adj)",
+        "health (n)",
+        "healthily (adv)"
+      ],
+      "coreMeaning": "سالم، در وضعیت خوب جسمی",
+      "note": "healthy food یعنی غذای سالم",
+      "trap": "healthy مثل health + y تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "person",
+      "translation": "شخص، فرد",
+      "ipa": "/ˈpɜːrsən/",
+      "partOfSpeech": "noun",
+      "example": "She is a nice person.",
+      "definitions": [
+        "a human being"
+      ],
+      "synonyms": [
+        "individual",
+        "human"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "good person",
+        "person to person"
+      ],
+      "wordFamily": [
+        "person (n)",
+        "personal (adj)",
+        "personality (n)"
+      ],
+      "coreMeaning": "شخص، فرد انسانی",
+      "note": "جمع person به صورت people است",
+      "trap": "جمع person به صورت people است، نه persons",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "people",
+      "translation": "مردم، افراد",
+      "ipa": "/ˈpiːpəl/",
+      "partOfSpeech": "noun",
+      "example": "Many people live in this city.",
+      "definitions": [
+        "human beings in general; a group of persons"
+      ],
+      "synonyms": [
+        "folks",
+        "individuals"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "young people",
+        "people say"
+      ],
+      "wordFamily": [
+        "people (n)"
+      ],
+      "coreMeaning": "مردم، افراد",
+      "note": "people جمع person است ولی خودش هم می‌تواند جمع باشد (peoples)",
+      "trap": "people جمع person است؛ peoples برای ملت‌های مختلف است",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "man",
+      "translation": "مرد",
+      "ipa": "/mæn/",
+      "partOfSpeech": "noun",
+      "example": "The man is tall.",
+      "definitions": [
+        "an adult male human"
+      ],
+      "synonyms": [
+        "guy",
+        "gentleman"
+      ],
+      "antonyms": [
+        "woman"
+      ],
+      "collocations": [
+        "old man",
+        "young man"
+      ],
+      "wordFamily": [
+        "man (n)",
+        "manly (adj)"
+      ],
+      "coreMeaning": "مرد، انسان مذکر بالغ",
+      "note": "جمع man به صورت men است",
+      "trap": "جمع man به صورت men است، نه mans",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "woman",
+      "translation": "زن",
+      "ipa": "/ˈwʊmən/",
+      "partOfSpeech": "noun",
+      "example": "The woman is a doctor.",
+      "definitions": [
+        "an adult female human"
+      ],
+      "synonyms": [
+        "lady",
+        "girl"
+      ],
+      "antonyms": [
+        "man"
+      ],
+      "collocations": [
+        "young woman",
+        "old woman"
+      ],
+      "wordFamily": [
+        "woman (n)",
+        "womanly (adj)"
+      ],
+      "coreMeaning": "زن، انسان مؤنث بالغ",
+      "note": "جمع woman به صورت women است",
+      "trap": "جمع woman به صورت women تلفظ /ˈwɪmɪn/ است",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "boy",
+      "translation": "پسر",
+      "ipa": "/bɔɪ/",
+      "partOfSpeech": "noun",
+      "example": "The boy is playing football.",
+      "definitions": [
+        "a male child or young man"
+      ],
+      "synonyms": [
+        "lad",
+        "kid"
+      ],
+      "antonyms": [
+        "girl"
+      ],
+      "collocations": [
+        "little boy",
+        "boy friend"
+      ],
+      "wordFamily": [
+        "boy (n)",
+        "boyhood (n)"
+      ],
+      "coreMeaning": "پسر، کودک مذکر",
+      "note": "boyfriend یک کلمه است و به معنی دوست‌پسر است",
+      "trap": "boy مثل buy تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "girl",
+      "translation": "دختر",
+      "ipa": "/ɡɜːrl/",
+      "partOfSpeech": "noun",
+      "example": "The girl is reading a book.",
+      "definitions": [
+        "a female child or young woman"
+      ],
+      "synonyms": [
+        "lass",
+        "kid"
+      ],
+      "antonyms": [
+        "boy"
+      ],
+      "collocations": [
+        "little girl",
+        "girl friend"
+      ],
+      "wordFamily": [
+        "girl (n)",
+        "girlish (adj)"
+      ],
+      "coreMeaning": "دختر، کودک مؤنث",
+      "note": "girlfriend یک کلمه است و به معنی دوست‌دختر است",
+      "trap": "girl مثل grill تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "friend",
+      "translation": "دوست",
+      "ipa": "/frend/",
+      "partOfSpeech": "noun",
+      "example": "She is my best friend.",
+      "definitions": [
+        "a person you know well and like"
+      ],
+      "synonyms": [
+        "pal",
+        "buddy"
+      ],
+      "antonyms": [
+        "enemy"
+      ],
+      "collocations": [
+        "best friend",
+        "make friends"
+      ],
+      "wordFamily": [
+        "friend (n)",
+        "friendly (adj)",
+        "friendship (n)"
+      ],
+      "coreMeaning": "دوست، کسی که با او صمیمی هستی",
+      "note": "friendly صفت است و به معنی دوستانه",
+      "trap": "friend مثل fiend تلفظ نمی‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "neighbor",
+      "translation": "همسایه",
+      "ipa": "/ˈneɪbər/",
+      "partOfSpeech": "noun",
+      "example": "My neighbor is very friendly.",
+      "definitions": [
+        "a person living near or next door"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "next door neighbor",
+        "good neighbor"
+      ],
+      "wordFamily": [
+        "neighbor (n)",
+        "neighborhood (n)"
+      ],
+      "coreMeaning": "همسایه، کسی که نزدیک زندگی می‌کند",
+      "note": "neighborhood یعنی محله",
+      "trap": "در انگلیسی بریتانیایی neighbour نوشته می‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "teacher",
+      "translation": "معلم",
+      "ipa": "/ˈtiːtʃər/",
+      "partOfSpeech": "noun",
+      "example": "My teacher is very kind.",
+      "definitions": [
+        "a person who teaches"
+      ],
+      "synonyms": [
+        "instructor",
+        "educator"
+      ],
+      "antonyms": [
+        "student"
+      ],
+      "collocations": [
+        "math teacher",
+        "good teacher"
+      ],
+      "wordFamily": [
+        "teacher (n)",
+        "teach (v)"
+      ],
+      "coreMeaning": "معلم، کسی که آموزش می‌دهد",
+      "note": "teacher از فعل teach گرفته شده",
+      "trap": "teacher مثل teach + er تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "student",
+      "translation": "دانش‌آموز، دانشجو",
+      "ipa": "/ˈstuːdənt/",
+      "partOfSpeech": "noun",
+      "example": "I am a student at this school.",
+      "definitions": [
+        "a person who is studying"
+      ],
+      "synonyms": [
+        "pupil",
+        "learner"
+      ],
+      "antonyms": [
+        "teacher"
+      ],
+      "collocations": [
+        "good student",
+        "university student"
+      ],
+      "wordFamily": [
+        "student (n)",
+        "study (v)"
+      ],
+      "coreMeaning": "دانش‌آموز، کسی که درس می‌خواند",
+      "note": "student برای دانشگاه و pupil برای مدرسه ابتدایی",
+      "trap": "student مثل study + ent تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "doctor",
+      "translation": "دکتر، پزشک",
+      "ipa": "/ˈdɑːktər/",
+      "partOfSpeech": "noun",
+      "example": "I need to see a doctor.",
+      "definitions": [
+        "a person qualified to treat people who are ill"
+      ],
+      "synonyms": [
+        "physician"
+      ],
+      "antonyms": [
+        "patient"
+      ],
+      "collocations": [
+        "see a doctor",
+        "family doctor"
+      ],
+      "wordFamily": [
+        "doctor (n)"
+      ],
+      "coreMeaning": "دکتر، پزشک",
+      "note": "doctor هم به معنی پزشک و هم دکترا (مدرک) است",
+      "trap": "doctor مثل do + ctor تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "nurse",
+      "translation": "پرستار",
+      "ipa": "/nɜːrs/",
+      "partOfSpeech": "noun",
+      "example": "The nurse took care of the patient.",
+      "definitions": [
+        "a person trained to care for the sick"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "male nurse",
+        "head nurse"
+      ],
+      "wordFamily": [
+        "nurse (n)",
+        "nursing (n)"
+      ],
+      "coreMeaning": "پرستار، کسی که از بیمار مراقبت می‌کند",
+      "note": "nurse مثل purse تلفظ می‌شود ولی با n",
+      "trap": "nurse مثل nurse تلفظ می‌شود، نه نورس",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "police",
+      "translation": "پلیس",
+      "ipa": "/pəˈliːs/",
+      "partOfSpeech": "noun",
+      "example": "Call the police!",
+      "definitions": [
+        "the official force responsible for maintaining law and order"
+      ],
+      "synonyms": [
+        "cops"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "police officer",
+        "police station"
+      ],
+      "wordFamily": [
+        "police (n)",
+        "policeman (n)"
+      ],
+      "coreMeaning": "پلیس، نیروی انتظامی",
+      "note": "police همیشه جمع است؛ یک پلیس a police officer است",
+      "trap": "police جمع است؛ نمی‌گوییم a police، بلکه a police officer",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    },
+    {
+      "word": "worker",
+      "translation": "کارگر، کارمند",
+      "ipa": "/ˈwɜːrkər/",
+      "partOfSpeech": "noun",
+      "example": "He is a factory worker.",
+      "definitions": [
+        "a person who works"
+      ],
+      "synonyms": [
+        "employee",
+        "laborer"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "factory worker",
+        "hard worker"
+      ],
+      "wordFamily": [
+        "worker (n)",
+        "work (v)"
+      ],
+      "coreMeaning": "کارگر، کسی که کار می‌کند",
+      "note": "worker از فعل work گرفته شده",
+      "trap": "worker مثل work + er تلفظ می‌شود",
+      "tags": [
+        "A1",
+        "describing"
+      ]
+    }
+  ]
+}

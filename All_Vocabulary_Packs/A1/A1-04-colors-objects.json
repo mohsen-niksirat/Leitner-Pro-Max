@@ -1,0 +1,2864 @@
+{
+  "name": "رنگ‌ها و اشیا",
+  "description": "۱۰۰ کلمه پایه درباره رنگ‌ها، لباس، اشیا و حیوانات — سطح A1",
+  "category": "A1 — مبتدی",
+  "level": "A1",
+  "packId": "A1-04",
+  "words": [
+    {
+      "word": "red",
+      "translation": "قرمز",
+      "ipa": "/rɛd/",
+      "partOfSpeech": "adjective",
+      "example": "The apple is red.",
+      "definitions": [
+        "having the color of blood or fire"
+      ],
+      "synonyms": [
+        "crimson",
+        "scarlet"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "red light",
+        "red car"
+      ],
+      "wordFamily": [
+        "redness (n)"
+      ],
+      "coreMeaning": "رنگ قرمز، رنگ خون یا آتش",
+      "note": "قرمز یکی از رنگ‌های اصلی است.",
+      "trap": "با 'read' (خواندن) اشتباه نگیرید؛ تلفظ متفاوت است.",
+      "tags": [
+        "A1",
+        "colors"
+      ]
+    },
+    {
+      "word": "blue",
+      "translation": "آبی",
+      "ipa": "/bluː/",
+      "partOfSpeech": "adjective",
+      "example": "The sky is blue.",
+      "definitions": [
+        "having the color of the sky or sea"
+      ],
+      "synonyms": [
+        "azure",
+        "navy"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "blue sky",
+        "blue eyes"
+      ],
+      "wordFamily": [
+        "bluish (adj)"
+      ],
+      "coreMeaning": "رنگ آبی، رنگ آسمان یا دریا",
+      "note": "آبی یکی از رنگ‌های اصلی است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "colors"
+      ]
+    },
+    {
+      "word": "green",
+      "translation": "سبز",
+      "ipa": "/ɡriːn/",
+      "partOfSpeech": "adjective",
+      "example": "The grass is green.",
+      "definitions": [
+        "having the color of grass or leaves"
+      ],
+      "synonyms": [
+        "emerald",
+        "olive"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "green light",
+        "green tea"
+      ],
+      "wordFamily": [
+        "greenness (n)"
+      ],
+      "coreMeaning": "رنگ سبز، رنگ چمن یا برگ",
+      "note": "سبز رنگ طبیعت است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "colors"
+      ]
+    },
+    {
+      "word": "yellow",
+      "translation": "زرد",
+      "ipa": "/ˈjɛloʊ/",
+      "partOfSpeech": "adjective",
+      "example": "The sun is yellow.",
+      "definitions": [
+        "having the color of lemons or the sun"
+      ],
+      "synonyms": [
+        "golden",
+        "amber"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "yellow light",
+        "yellow taxi"
+      ],
+      "wordFamily": [
+        "yellowish (adj)"
+      ],
+      "coreMeaning": "رنگ زرد، رنگ لیمو یا خورشید",
+      "note": "زرد یکی از رنگ‌های اصلی است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "colors"
+      ]
+    },
+    {
+      "word": "black",
+      "translation": "سیاه",
+      "ipa": "/blæk/",
+      "partOfSpeech": "adjective",
+      "example": "The cat is black.",
+      "definitions": [
+        "having the darkest color, opposite of white"
+      ],
+      "synonyms": [
+        "dark",
+        "ebony"
+      ],
+      "antonyms": [
+        "white"
+      ],
+      "collocations": [
+        "black coffee",
+        "blackboard"
+      ],
+      "wordFamily": [
+        "blackness (n)"
+      ],
+      "coreMeaning": "رنگ سیاه، تیره‌ترین رنگ",
+      "note": "سیاه و سفید متضاد هستند.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "colors"
+      ]
+    },
+    {
+      "word": "white",
+      "translation": "سفید",
+      "ipa": "/waɪt/",
+      "partOfSpeech": "adjective",
+      "example": "Snow is white.",
+      "definitions": [
+        "having the lightest color, opposite of black"
+      ],
+      "synonyms": [
+        "pale",
+        "snowy"
+      ],
+      "antonyms": [
+        "black"
+      ],
+      "collocations": [
+        "white paper",
+        "white shirt"
+      ],
+      "wordFamily": [
+        "whiteness (n)",
+        "whiten (v)"
+      ],
+      "coreMeaning": "رنگ سفید، روشن‌ترین رنگ",
+      "note": "سفید نماد پاکی است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "colors"
+      ]
+    },
+    {
+      "word": "pink",
+      "translation": "صورتی",
+      "ipa": "/pɪŋk/",
+      "partOfSpeech": "adjective",
+      "example": "She likes pink flowers.",
+      "definitions": [
+        "having a pale red color"
+      ],
+      "synonyms": [
+        "rose",
+        "salmon"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "pink dress",
+        "pink panther"
+      ],
+      "wordFamily": [
+        "pinkish (adj)"
+      ],
+      "coreMeaning": "رنگ صورتی، قرمز کم‌رنگ",
+      "note": "صورتی رنگ ملایمی بین قرمز و سفید است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "colors"
+      ]
+    },
+    {
+      "word": "color",
+      "translation": "رنگ",
+      "ipa": "/ˈkʌlər/",
+      "partOfSpeech": "noun",
+      "example": "What color is your car?",
+      "definitions": [
+        "the appearance of things based on light reflection"
+      ],
+      "synonyms": [
+        "hue",
+        "shade"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "favorite color",
+        "bright color"
+      ],
+      "wordFamily": [
+        "colorful (adj)",
+        "colorless (adj)"
+      ],
+      "coreMeaning": "رنگ، ظاهر اشیا بر اساس نور",
+      "note": "در بریتانیایی 'colour' نوشته می‌شود.",
+      "trap": "املای آمریکایی 'color' و بریتانیایی 'colour' است.",
+      "tags": [
+        "A1",
+        "colors"
+      ]
+    },
+    {
+      "word": "circle",
+      "translation": "دایره",
+      "ipa": "/ˈsɜːrkəl/",
+      "partOfSpeech": "noun",
+      "example": "Draw a circle on the paper.",
+      "definitions": [
+        "a round shape with no corners"
+      ],
+      "synonyms": [
+        "ring",
+        "loop"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "draw a circle",
+        "circle shape"
+      ],
+      "wordFamily": [
+        "circular (adj)"
+      ],
+      "coreMeaning": "شکل گرد بدون گوشه",
+      "note": "دایره شکلی کاملاً گرد است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "shapes"
+      ]
+    },
+    {
+      "word": "square",
+      "translation": "مربع",
+      "ipa": "/skwɛr/",
+      "partOfSpeech": "noun",
+      "example": "A square has four equal sides.",
+      "definitions": [
+        "a shape with four equal sides and four right angles"
+      ],
+      "synonyms": [
+        "rectangle"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "square room",
+        "square shape"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "شکل چهارضلعی با اضلاع مساوی",
+      "note": "مربع چهار ضلع مساوی و چهار زاویه قائمه دارد.",
+      "trap": "square هم اسم (مربع) و هم صفت (مربعی) است.",
+      "tags": [
+        "A1",
+        "shapes"
+      ]
+    },
+    {
+      "word": "triangle",
+      "translation": "مثلث",
+      "ipa": "/ˈtraɪæŋɡəl/",
+      "partOfSpeech": "noun",
+      "example": "A triangle has three sides.",
+      "definitions": [
+        "a shape with three sides and three angles"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "triangle shape",
+        "right triangle"
+      ],
+      "wordFamily": [
+        "triangular (adj)"
+      ],
+      "coreMeaning": "شکل سه‌ضلعی",
+      "note": "مثلث سه ضلع و سه زاویه دارد.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "shapes"
+      ]
+    },
+    {
+      "word": "shape",
+      "translation": "شکل",
+      "ipa": "/ʃeɪp/",
+      "partOfSpeech": "noun",
+      "example": "What shape is this?",
+      "definitions": [
+        "the outer form of something"
+      ],
+      "synonyms": [
+        "form",
+        "figure"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "round shape",
+        "different shapes"
+      ],
+      "wordFamily": [
+        "shapely (adj)",
+        "shapeless (adj)"
+      ],
+      "coreMeaning": "شکل، فرم ظاهری چیزی",
+      "note": "shape به فرم و ظاهر کلی شیء اشاره دارد.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "shapes"
+      ]
+    },
+    {
+      "word": "shirt",
+      "translation": "پیراهن",
+      "ipa": "/ʃɜːrt/",
+      "partOfSpeech": "noun",
+      "example": "He is wearing a blue shirt.",
+      "definitions": [
+        "a piece of clothing for the upper body with sleeves and buttons"
+      ],
+      "synonyms": [
+        "blouse"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "white shirt",
+        "t-shirt"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پیراهن، لباس بالاتنه با دکمه",
+      "note": "shirt معمولاً دکمه دارد و t-shirt بدون دکمه است.",
+      "trap": "shirt و skirt (دامن) را اشتباه نگیرید.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "pants",
+      "translation": "شلوار",
+      "ipa": "/pænts/",
+      "partOfSpeech": "noun",
+      "example": "These pants are too long.",
+      "definitions": [
+        "a piece of clothing covering each leg separately"
+      ],
+      "synonyms": [
+        "trousers",
+        "slacks"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "blue pants",
+        "long pants"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "شلوار، لباس پا",
+      "note": "در بریتانیایی 'trousers' رایج‌تر است.",
+      "trap": "pants در آمریکایی و trousers در بریتانیایی استفاده می‌شود.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "shoes",
+      "translation": "کفش",
+      "ipa": "/ʃuːz/",
+      "partOfSpeech": "noun",
+      "example": "I need new shoes.",
+      "definitions": [
+        "coverings worn on the feet"
+      ],
+      "synonyms": [
+        "footwear",
+        "sneakers"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "running shoes",
+        "pair of shoes"
+      ],
+      "wordFamily": [
+        "shoe (n)"
+      ],
+      "coreMeaning": "کفش، پوشش پا",
+      "note": "shoes همیشه به صورت جمع استفاده می‌شود.",
+      "trap": "shoe مفرد و shoes جمع است؛ اما معمولاً به صورت جمع استفاده می‌شود.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "hat",
+      "translation": "کلاه",
+      "ipa": "/hæt/",
+      "partOfSpeech": "noun",
+      "example": "She is wearing a red hat.",
+      "definitions": [
+        "a covering for the head"
+      ],
+      "synonyms": [
+        "cap",
+        "beanie"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sun hat",
+        "wear a hat"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "کلاه، پوشش سر",
+      "note": "hat کلاه لبه‌دار است و cap کلاه بدون لبه.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "dress",
+      "translation": "لباس / پیراهن زنانه",
+      "ipa": "/drɛs/",
+      "partOfSpeech": "noun",
+      "example": "She wears a beautiful dress.",
+      "definitions": [
+        "a piece of clothing for women that covers the body and extends over the legs"
+      ],
+      "synonyms": [
+        "gown",
+        "frock"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "wedding dress",
+        "summer dress"
+      ],
+      "wordFamily": [
+        "dress (v)"
+      ],
+      "coreMeaning": "پیراهن زنانه، لباس یک‌تکه",
+      "note": "dress هم اسم (لباس) و هم فعل (لباس پوشیدن) است.",
+      "trap": "dress هم اسم و هم فعل است؛ در جمله به نقش آن دقت کنید.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "jacket",
+      "translation": "ژاکت / کاپشن",
+      "ipa": "/ˈdʒækɪt/",
+      "partOfSpeech": "noun",
+      "example": "Put on your jacket. It's cold.",
+      "definitions": [
+        "a short coat with sleeves that opens at the front"
+      ],
+      "synonyms": [
+        "coat",
+        "blazer"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "winter jacket",
+        "leather jacket"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ژاکت، لباس رو با آستین",
+      "note": "jacket کوتاه‌تر از coat است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "socks",
+      "translation": "جوراب",
+      "ipa": "/sɒks/",
+      "partOfSpeech": "noun",
+      "example": "I wear socks with my shoes.",
+      "definitions": [
+        "coverings for the feet worn inside shoes"
+      ],
+      "synonyms": [
+        "stockings"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "pair of socks",
+        "wool socks"
+      ],
+      "wordFamily": [
+        "sock (n)"
+      ],
+      "coreMeaning": "جوراب، پوشش داخل کفش",
+      "note": "معمولاً به صورت جمع (socks) استفاده می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "skirt",
+      "translation": "دامن",
+      "ipa": "/skɜːrt/",
+      "partOfSpeech": "noun",
+      "example": "She is wearing a long skirt.",
+      "definitions": [
+        "a piece of clothing that hangs from the waist"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "long skirt",
+        "short skirt"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "دامن، لباس آویزان از کمر",
+      "note": "skirt و shirt را اشتباه نگیرید.",
+      "trap": "skirt (دامن) و shirt (پیراهن) تلفظ مشابهی دارند اما معنی متفاوت.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "book",
+      "translation": "کتاب",
+      "ipa": "/bʊk/",
+      "partOfSpeech": "noun",
+      "example": "I am reading a book.",
+      "definitions": [
+        "a set of printed pages bound together"
+      ],
+      "synonyms": [
+        "volume",
+        "text"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "read a book",
+        "book store"
+      ],
+      "wordFamily": [
+        "book (v)",
+        "booking (n)"
+      ],
+      "coreMeaning": "کتاب، مجموعه صفحات چاپی",
+      "note": "book هم اسم (کتاب) و هم فعل (رزرو کردن) است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "pen",
+      "translation": "خودکار",
+      "ipa": "/pɛn/",
+      "partOfSpeech": "noun",
+      "example": "Can I borrow your pen?",
+      "definitions": [
+        "an instrument for writing with ink"
+      ],
+      "synonyms": [
+        "ballpoint"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "ink pen",
+        "pen and paper"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "خودکار، ابزار نوشتن با جوهر",
+      "note": "pen با جوهر می‌نویسد و pencil با مداد.",
+      "trap": "pen (خودکار) و pin (سنجاق) تلفظ متفاوتی دارند.",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "pencil",
+      "translation": "مداد",
+      "ipa": "/ˈpɛnsəl/",
+      "partOfSpeech": "noun",
+      "example": "I need a pencil to draw.",
+      "definitions": [
+        "an instrument for writing or drawing with graphite"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "pencil case",
+        "sharpen a pencil"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مداد، ابزار نوشتن با گرافیت",
+      "note": "pencil با گرافیت می‌نویسد و قابل پاک کردن است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "paper",
+      "translation": "کاغذ",
+      "ipa": "/ˈpeɪpər/",
+      "partOfSpeech": "noun",
+      "example": "Write your name on the paper.",
+      "definitions": [
+        "a thin material used for writing or printing"
+      ],
+      "synonyms": [
+        "sheet",
+        "page"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "piece of paper",
+        "paper towel"
+      ],
+      "wordFamily": [
+        "paper (adj)"
+      ],
+      "coreMeaning": "کاغذ، ماده نازک برای نوشتن",
+      "note": "paper معمولاً غیرقابل شمارش است؛ a piece of paper بگویید.",
+      "trap": "paper معمولاً غیرقابل شمارش است؛ نگویید 'a paper'، بگویید 'a piece of paper'.",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "notebook",
+      "translation": "دفتر",
+      "ipa": "/ˈnoʊtbʊk/",
+      "partOfSpeech": "noun",
+      "example": "I write notes in my notebook.",
+      "definitions": [
+        "a book of blank pages for writing in"
+      ],
+      "synonyms": [
+        "notepad",
+        "journal"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "spiral notebook",
+        "notebook paper"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "دفتر، کتاب خالی برای نوشتن",
+      "note": "notebook هم به دفتر کاغذی و هم لپ‌تاپ گفته می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "phone",
+      "translation": "تلفن",
+      "ipa": "/foʊn/",
+      "partOfSpeech": "noun",
+      "example": "My phone is on the table.",
+      "definitions": [
+        "a device used for communication by voice"
+      ],
+      "synonyms": [
+        "telephone",
+        "cell phone"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "phone call",
+        "phone number"
+      ],
+      "wordFamily": [
+        "phone (v)",
+        "phonetic (adj)"
+      ],
+      "coreMeaning": "تلفن، دستگاه ارتباط صوتی",
+      "note": "phone مخفف telephone است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "computer",
+      "translation": "کامپیوتر",
+      "ipa": "/kəmˈpjuːtər/",
+      "partOfSpeech": "noun",
+      "example": "I use my computer every day.",
+      "definitions": [
+        "an electronic device for processing data"
+      ],
+      "synonyms": [
+        "PC",
+        "laptop"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "personal computer",
+        "computer game"
+      ],
+      "wordFamily": [
+        "compute (v)",
+        "computation (n)"
+      ],
+      "coreMeaning": "کامپیوتر، دستگاه الکترونیکی پردازش داده",
+      "note": "computer شامل لپ‌تاپ و دسکتاپ می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "television",
+      "translation": "تلویزیون",
+      "ipa": "/ˈtɛlɪvɪʒən/",
+      "partOfSpeech": "noun",
+      "example": "We watch television in the evening.",
+      "definitions": [
+        "a device for receiving broadcast images and sound"
+      ],
+      "synonyms": [
+        "TV",
+        "telly"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "watch television",
+        "television show"
+      ],
+      "wordFamily": [
+        "televisual (adj)"
+      ],
+      "coreMeaning": "تلویزیون، دستگاه دریافت تصویر و صدا",
+      "note": "مخفف آن TV است که رایج‌تر است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "car",
+      "translation": "ماشین / اتومبیل",
+      "ipa": "/kɑːr/",
+      "partOfSpeech": "noun",
+      "example": "My father drives a car to work.",
+      "definitions": [
+        "a road vehicle with four wheels and an engine"
+      ],
+      "synonyms": [
+        "automobile",
+        "vehicle"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "drive a car",
+        "car accident"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "ماشین، وسیله نقلیه چهارچرخ",
+      "note": "car رایج‌ترین کلمه برای اتومبیل است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "bicycle",
+      "translation": "دوچرخه",
+      "ipa": "/ˈbaɪsɪkəl/",
+      "partOfSpeech": "noun",
+      "example": "I ride my bicycle to school.",
+      "definitions": [
+        "a two-wheeled vehicle powered by pedaling"
+      ],
+      "synonyms": [
+        "bike",
+        "cycle"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "ride a bicycle",
+        "bicycle lane"
+      ],
+      "wordFamily": [
+        "bicyclist (n)"
+      ],
+      "coreMeaning": "دوچرخه، وسیله دوچرخ با رکاب",
+      "note": "bike مخفف رایج bicycle است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "umbrella",
+      "translation": "چتر",
+      "ipa": "/ʌmˈbrɛlə/",
+      "partOfSpeech": "noun",
+      "example": "Take an umbrella. It might rain.",
+      "definitions": [
+        "a device used as protection against rain"
+      ],
+      "synonyms": [
+        "brolly"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "open an umbrella",
+        "rain umbrella"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "چتر، وسیله محافظت در برابر باران",
+      "note": "umbrella برای باران و parasol برای آفتاب است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "bottle",
+      "translation": "بطری",
+      "ipa": "/ˈbɒtəl/",
+      "partOfSpeech": "noun",
+      "example": "There is a bottle of water on the table.",
+      "definitions": [
+        "a narrow-necked container for holding liquids"
+      ],
+      "synonyms": [
+        "flask"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "water bottle",
+        "glass bottle"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "بطری، ظرف گردن‌باریک برای مایعات",
+      "note": "bottle ظرف بسته و glass لیوان باز است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "lamp",
+      "translation": "چراغ / لامپ",
+      "ipa": "/læmp/",
+      "partOfSpeech": "noun",
+      "example": "Turn on the lamp.",
+      "definitions": [
+        "a device that produces light"
+      ],
+      "synonyms": [
+        "light",
+        "lantern"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "desk lamp",
+        "table lamp"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "چراغ، دستگاه تولید نور",
+      "note": "lamp چراغ رومیزی/ایستاده و light نور عمومی است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "cat",
+      "translation": "گربه",
+      "ipa": "/kæt/",
+      "partOfSpeech": "noun",
+      "example": "The cat is sleeping on the sofa.",
+      "definitions": [
+        "a small domesticated animal kept as a pet"
+      ],
+      "synonyms": [
+        "kitten",
+        "feline"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "pet cat",
+        "black cat"
+      ],
+      "wordFamily": [
+        "kitten (n)"
+      ],
+      "coreMeaning": "گربه، حیوان خانگی کوچک",
+      "note": "kitten بچه گربه است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "dog",
+      "translation": "سگ",
+      "ipa": "/dɒɡ/",
+      "partOfSpeech": "noun",
+      "example": "The dog is playing in the park.",
+      "definitions": [
+        "a domesticated carnivorous mammal kept as a pet"
+      ],
+      "synonyms": [
+        "puppy",
+        "canine"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "pet dog",
+        "guard dog"
+      ],
+      "wordFamily": [
+        "puppy (n)"
+      ],
+      "coreMeaning": "سگ، حیوان خانگی وفادار",
+      "note": "puppy بچه سگ است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "bird",
+      "translation": "پرنده",
+      "ipa": "/bɜːrd/",
+      "partOfSpeech": "noun",
+      "example": "A bird is singing in the tree.",
+      "definitions": [
+        "a warm-blooded animal with feathers and wings"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bird song",
+        "pet bird"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پرنده، حیوان بالدار",
+      "note": "bird به همه پرندگان گفته می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "horse",
+      "translation": "اسب",
+      "ipa": "/hɔːrs/",
+      "partOfSpeech": "noun",
+      "example": "The horse is running fast.",
+      "definitions": [
+        "a large four-legged animal used for riding"
+      ],
+      "synonyms": [
+        "stallion",
+        "mare"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "ride a horse",
+        "horse riding"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اسب، حیوان بزرگ چهارپا",
+      "note": "stallion اسب نر و mare اسب ماده است.",
+      "trap": "horse (اسب) و house (خانه) تلفظ متفاوتی دارند.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "cow",
+      "translation": "گاو",
+      "ipa": "/kaʊ/",
+      "partOfSpeech": "noun",
+      "example": "The cow gives us milk.",
+      "definitions": [
+        "a large female farm animal kept for milk"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "dairy cow",
+        "cow milk"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "گاو، حیوان بزرگ مزرعه",
+      "note": "cow گاو ماده و bull گاو نر است.",
+      "trap": "cow (گاو) و crow (کلاغ) تلفظ متفاوتی دارند.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "rabbit",
+      "translation": "خرگوش",
+      "ipa": "/ˈræbɪt/",
+      "partOfSpeech": "noun",
+      "example": "The rabbit is eating a carrot.",
+      "definitions": [
+        "a small animal with long ears and a short tail"
+      ],
+      "synonyms": [
+        "bunny"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "pet rabbit",
+        "rabbit hole"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "خرگوش، حیوان کوچک با گوش بلند",
+      "note": "bunny نام محبت‌آمیز خرگوش است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "mouse",
+      "translation": "موش",
+      "ipa": "/maʊs/",
+      "partOfSpeech": "noun",
+      "example": "I saw a mouse in the kitchen.",
+      "definitions": [
+        "a small rodent with a long tail"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "house mouse",
+        "mouse trap"
+      ],
+      "wordFamily": [
+        "mice (n, plural)"
+      ],
+      "coreMeaning": "موش، جونده کوچک",
+      "note": "جمع mouse → mice است (نه mouses).",
+      "trap": "جمع mouse به صورت غیرمنتظم mice است، نه mouses.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "elephant",
+      "translation": "فیل",
+      "ipa": "/ˈɛlɪfənt/",
+      "partOfSpeech": "noun",
+      "example": "The elephant is very big.",
+      "definitions": [
+        "the largest living land animal with a trunk"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "African elephant",
+        "elephant trunk"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فیل، بزرگ‌ترین حیوان خشکی",
+      "note": "فیل بزرگ‌ترین حیوان خشکی است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "lion",
+      "translation": "شیر",
+      "ipa": "/ˈlaɪən/",
+      "partOfSpeech": "noun",
+      "example": "The lion is the king of the jungle.",
+      "definitions": [
+        "a large wild cat known as the king of beasts"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "lion king",
+        "lion roar"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "شیر، حیوان بزرگ گربه‌سان",
+      "note": "lion شیر نر و lioness شیر ماده است.",
+      "trap": "lion (شیر حیوان) و lyin' (دروغ گفتن محاوره‌ای) تلفظ مشابهی دارند.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "bear",
+      "translation": "خرس",
+      "ipa": "/bɛr/",
+      "partOfSpeech": "noun",
+      "example": "The bear lives in the forest.",
+      "definitions": [
+        "a large heavy mammal with thick fur"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "polar bear",
+        "teddy bear"
+      ],
+      "wordFamily": [
+        "bear (v)"
+      ],
+      "coreMeaning": "خرس، حیوان بزرگ با خز ضخیم",
+      "note": "bear هم اسم (خرس) و هم فعل (تحمل کردن) است.",
+      "trap": "bear (خرس) و bare (لخت/عریان) تلفظ یکسان اما املای متفاوت دارند.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "animal",
+      "translation": "حیوان",
+      "ipa": "/ˈænɪməl/",
+      "partOfSpeech": "noun",
+      "example": "I love animals.",
+      "definitions": [
+        "a living organism that can move and feel"
+      ],
+      "synonyms": [
+        "creature",
+        "beast"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "pet animal",
+        "wild animal"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "حیوان، موجود زنده متحرک",
+      "note": "animal شامل همه حیوانات می‌شود.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "ball",
+      "translation": "توپ",
+      "ipa": "/bɔːl/",
+      "partOfSpeech": "noun",
+      "example": "The children are playing with a ball.",
+      "definitions": [
+        "a round object used in games and sports"
+      ],
+      "synonyms": [
+        "sphere"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "tennis ball",
+        "ball game"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "توپ، شیء گرد بازی",
+      "note": "ball هم توپ و هم مجلس رقص معنی می‌دهد.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "money",
+      "translation": "پول",
+      "ipa": "/ˈmʌni/",
+      "partOfSpeech": "noun",
+      "example": "I don't have enough money.",
+      "definitions": [
+        "a medium of exchange for goods and services"
+      ],
+      "synonyms": [
+        "cash",
+        "currency"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "make money",
+        "save money"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پول، وسیله مبادله",
+      "note": "money غیرقابل شمارش است؛ نگویید 'a money'.",
+      "trap": "money غیرقابل شمارش است؛ بگویید 'some money' نه 'a money'.",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "store",
+      "translation": "فروشگاه",
+      "ipa": "/stɔːr/",
+      "partOfSpeech": "noun",
+      "example": "I buy food at the store.",
+      "definitions": [
+        "a place where goods are sold"
+      ],
+      "synonyms": [
+        "shop",
+        "market"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "grocery store",
+        "department store"
+      ],
+      "wordFamily": [
+        "store (v)",
+        "storage (n)"
+      ],
+      "coreMeaning": "فروشگاه، محل فروش کالا",
+      "note": "store آمریکایی و shop بریتانیایی است.",
+      "trap": "store (فروشگاه) آمریکایی و shop بریتانیایی است.",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "street",
+      "translation": "خیابان",
+      "ipa": "/striːt/",
+      "partOfSpeech": "noun",
+      "example": "I live on this street.",
+      "definitions": [
+        "a public road in a city or town"
+      ],
+      "synonyms": [
+        "road",
+        "avenue"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "main street",
+        "street corner"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "خیابان، جاده عمومی شهر",
+      "note": "street خیابان شهری و road جاده عمومی است.",
+      "trap": "street (خیابان شهری) و road (جاده) تفاوت دارند.",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "park",
+      "translation": "پارک",
+      "ipa": "/pɑːrk/",
+      "partOfSpeech": "noun",
+      "example": "Children play in the park.",
+      "definitions": [
+        "a public green area in a town for recreation"
+      ],
+      "synonyms": [
+        "garden",
+        "playground"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "city park",
+        "national park"
+      ],
+      "wordFamily": [
+        "park (v)",
+        "parking (n)"
+      ],
+      "coreMeaning": "پارک، فضای سبز عمومی",
+      "note": "park هم اسم (پارک) و هم فعل (پارک کردن) است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "school",
+      "translation": "مدرسه",
+      "ipa": "/skuːl/",
+      "partOfSpeech": "noun",
+      "example": "I go to school every day.",
+      "definitions": [
+        "a place where children go to learn"
+      ],
+      "synonyms": [
+        "academy"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go to school",
+        "school bus"
+      ],
+      "wordFamily": [
+        "school (v)",
+        "schooling (n)"
+      ],
+      "coreMeaning": "مدرسه، محل آموزش",
+      "note": "school بدون the یعنی مدرسه رفتن (فعالیت).",
+      "trap": "go to school (مدرسه رفتن) و go to the school (به آن ساختمان رفتن) تفاوت دارند.",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "name",
+      "translation": "نام",
+      "ipa": "/neɪm/",
+      "partOfSpeech": "noun",
+      "example": "What is your name?",
+      "definitions": [
+        "a word by which a person or thing is known"
+      ],
+      "synonyms": [
+        "title",
+        "label"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "first name",
+        "last name"
+      ],
+      "wordFamily": [
+        "name (v)",
+        "namely (adv)"
+      ],
+      "coreMeaning": "نام، کلمه شناسایی شخص یا چیزی",
+      "note": "first name نام کوچک و last name نام خانوادگی است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "number",
+      "translation": "عدد / شماره",
+      "ipa": "/ˈnʌmbər/",
+      "partOfSpeech": "noun",
+      "example": "What is your phone number?",
+      "definitions": [
+        "a mathematical value or a symbol used in counting"
+      ],
+      "synonyms": [
+        "digit",
+        "figure"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "phone number",
+        "room number"
+      ],
+      "wordFamily": [
+        "numberless (adj)"
+      ],
+      "coreMeaning": "عدد یا شماره",
+      "note": "number هم عدد ریاضی و هم شماره تلفن/اتاق است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "letter",
+      "translation": "حرف / نامه",
+      "ipa": "/ˈlɛtər/",
+      "partOfSpeech": "noun",
+      "example": "Write a letter to your friend.",
+      "definitions": [
+        "a character of the alphabet, or a written message"
+      ],
+      "synonyms": [
+        "character",
+        "note"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "write a letter",
+        "love letter"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "حرف الفبا یا نامه نوشته‌شده",
+      "note": "letter هم حرف الفبا (A, B, C) و هم نامه است.",
+      "trap": "letter دو معنی مهم دارد: حرف الفبا و نامه.",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "word",
+      "translation": "کلمه",
+      "ipa": "/wɜːrd/",
+      "partOfSpeech": "noun",
+      "example": "How do you spell this word?",
+      "definitions": [
+        "a single unit of language with meaning"
+      ],
+      "synonyms": [
+        "term",
+        "vocabulary"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "new word",
+        "word list"
+      ],
+      "wordFamily": [
+        "wordy (adj)"
+      ],
+      "coreMeaning": "کلمه، واحد زبانی با معنی",
+      "note": "word کلمه و letter حرف است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "question",
+      "translation": "سوال",
+      "ipa": "/ˈkwɛstʃən/",
+      "partOfSpeech": "noun",
+      "example": "Do you have a question?",
+      "definitions": [
+        "a sentence that asks for information"
+      ],
+      "synonyms": [
+        "query",
+        "inquiry"
+      ],
+      "antonyms": [
+        "answer"
+      ],
+      "collocations": [
+        "ask a question",
+        "answer a question"
+      ],
+      "wordFamily": [
+        "question (v)",
+        "questionable (adj)"
+      ],
+      "coreMeaning": "سوال، جمله‌ای که اطلاعات می‌خواهد",
+      "note": "question سوال و answer جواب است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "answer",
+      "translation": "جواب",
+      "ipa": "/ˈænsər/",
+      "partOfSpeech": "noun",
+      "example": "The answer is correct.",
+      "definitions": [
+        "a response to a question"
+      ],
+      "synonyms": [
+        "reply",
+        "response"
+      ],
+      "antonyms": [
+        "question"
+      ],
+      "collocations": [
+        "right answer",
+        "answer a question"
+      ],
+      "wordFamily": [
+        "answer (v)"
+      ],
+      "coreMeaning": "جواب، پاسخ به سوال",
+      "note": "answer هم اسم (جواب) و هم فعل (جواب دادن) است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "story",
+      "translation": "داستان",
+      "ipa": "/ˈstɔːri/",
+      "partOfSpeech": "noun",
+      "example": "Tell me a story.",
+      "definitions": [
+        "a narrative of events, real or imagined"
+      ],
+      "synonyms": [
+        "tale",
+        "narrative"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "love story",
+        "short story"
+      ],
+      "wordFamily": [
+        "storyteller (n)"
+      ],
+      "coreMeaning": "داستان، روایت وقایع",
+      "note": "story داستان و history تاریخ است؛ اما از یک ریشه.",
+      "trap": "story (داستان) و storey/story (طبقه ساختمان) املای یکسان دارند.",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "idea",
+      "translation": "ایده / فکر",
+      "ipa": "/aɪˈdiːə/",
+      "partOfSpeech": "noun",
+      "example": "That's a good idea!",
+      "definitions": [
+        "a thought or suggestion about what to do"
+      ],
+      "synonyms": [
+        "thought",
+        "concept"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "good idea",
+        "have an idea"
+      ],
+      "wordFamily": [
+        "ideal (adj)",
+        "ideally (adv)"
+      ],
+      "coreMeaning": "ایده، فکر یا پیشنهاد",
+      "note": "idea فکر و thought فرایند فکر کردن است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "place",
+      "translation": "مکان / جا",
+      "ipa": "/pleɪs/",
+      "partOfSpeech": "noun",
+      "example": "This is a beautiful place.",
+      "definitions": [
+        "a particular position or area"
+      ],
+      "synonyms": [
+        "location",
+        "spot"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take place",
+        "in place of"
+      ],
+      "wordFamily": [
+        "place (v)",
+        "placement (n)"
+      ],
+      "coreMeaning": "مکان، محل مشخص",
+      "note": "place مکان عمومی و location موقعیت دقیق است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "thing",
+      "translation": "چیز",
+      "ipa": "/θɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "What is this thing?",
+      "definitions": [
+        "an object or entity that is not specifically named"
+      ],
+      "synonyms": [
+        "object",
+        "item"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "one thing",
+        "every thing"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "چیز، شیء یا موضوع نامشخص",
+      "note": "thing کلمه‌ای عمومی برای هر شیء یا موضوع است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "body",
+      "translation": "بدن",
+      "ipa": "/ˈbɒdi/",
+      "partOfSpeech": "noun",
+      "example": "Exercise is good for your body.",
+      "definitions": [
+        "the physical structure of a person or animal"
+      ],
+      "synonyms": [
+        "physique",
+        "figure"
+      ],
+      "antonyms": [
+        "mind"
+      ],
+      "collocations": [
+        "human body",
+        "body language"
+      ],
+      "wordFamily": [
+        "bodily (adj)"
+      ],
+      "coreMeaning": "بدن، ساختار فیزیکی انسان یا حیوان",
+      "note": "body بدن فیزیکی و mind ذهن است.",
+      "trap": "",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "silver",
+      "translation": "نقره‌ای",
+      "ipa": "/ˈsɪlvər/",
+      "partOfSpeech": "adjective",
+      "example": "She wore a silver necklace.",
+      "definitions": [
+        "having the color of silver; shiny grayish-white"
+      ],
+      "synonyms": [
+        "metallic"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "silver ring",
+        "silver color",
+        "silver medal"
+      ],
+      "wordFamily": [
+        "silver",
+        "silvery"
+      ],
+      "coreMeaning": "رنگ نقره‌ای، براق و خاکستری روشن",
+      "note": "هم به عنوان اسم (فلز نقره) و هم صفت (رنگ نقره‌ای) استفاده می‌شود.",
+      "trap": "با 'sliver' (تکه باریک) اشتباه نشود.",
+      "tags": [
+        "A1",
+        "colors"
+      ]
+    },
+    {
+      "word": "golden",
+      "translation": "طلایی",
+      "ipa": "/ˈɡoʊldən/",
+      "partOfSpeech": "adjective",
+      "example": "The golden sun was setting behind the mountains.",
+      "definitions": [
+        "having the color of gold; bright yellow"
+      ],
+      "synonyms": [
+        "gold",
+        "gilded"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "golden hair",
+        "golden rule",
+        "golden opportunity"
+      ],
+      "wordFamily": [
+        "gold",
+        "golden",
+        "goldfish"
+      ],
+      "coreMeaning": "رنگ طلایی، زرد درخشان",
+      "note": "golden صفت است ولی gold هم می‌تواند صفت باشد. golden بیشتر برای توصیف رنگ و ظاهر استفاده می‌شود.",
+      "trap": "تفاوت golden (صفت) و gold (اسم یا صفت) را یاد بگیرید.",
+      "tags": [
+        "A1",
+        "colors"
+      ]
+    },
+    {
+      "word": "jeans",
+      "translation": "شلوار جین",
+      "ipa": "/dʒiːnz/",
+      "partOfSpeech": "noun",
+      "example": "He always wears blue jeans.",
+      "definitions": [
+        "casual pants made of denim fabric"
+      ],
+      "synonyms": [
+        "denims"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "blue jeans",
+        "wear jeans",
+        "pair of jeans"
+      ],
+      "wordFamily": [
+        "jeans"
+      ],
+      "coreMeaning": "شلوار جین، شلوار کتانی",
+      "note": "همیشه به صورت جمع (jeans) استفاده می‌شود، حتی وقتی یک عدد است: a pair of jeans.",
+      "trap": "هرگز نگویید 'a jean' — همیشه jeans یا a pair of jeans.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "sweater",
+      "translation": "ژاکت، پلیور",
+      "ipa": "/ˈswɛtər/",
+      "partOfSpeech": "noun",
+      "example": "It's cold, so I'm wearing a sweater.",
+      "definitions": [
+        "a warm knitted piece of clothing for the upper body"
+      ],
+      "synonyms": [
+        "pullover",
+        "jumper"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "wool sweater",
+        "wear a sweater",
+        "put on a sweater"
+      ],
+      "wordFamily": [
+        "sweater",
+        "sweat"
+      ],
+      "coreMeaning": "لباس گرم بافتنی برای بالاتنه",
+      "note": "در انگلیسی بریتانیایی به آن jumper هم می‌گویند.",
+      "trap": "sweater ربطی به sweat (عرق) ندارد، هرچند ریشه‌اش یکی است.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "scarf",
+      "translation": "شال، روسری",
+      "ipa": "/skɑːrf/",
+      "partOfSpeech": "noun",
+      "example": "She wrapped a warm scarf around her neck.",
+      "definitions": [
+        "a piece of cloth worn around the neck or head for warmth or decoration"
+      ],
+      "synonyms": [
+        "shawl",
+        "wrap"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "silk scarf",
+        "wear a scarf",
+        "wrap a scarf"
+      ],
+      "wordFamily": [
+        "scarf",
+        "scarves"
+      ],
+      "coreMeaning": "پارچه‌ای که دور گردن یا سر می‌پیچند",
+      "note": "جمع آن scarves یا scarfs است.",
+      "trap": "جمع: scarves (رایج‌تر) یا scarfs — هر دو صحیح است.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "gloves",
+      "translation": "دستکش",
+      "ipa": "/ɡlʌvz/",
+      "partOfSpeech": "noun",
+      "example": "You need gloves when it's very cold.",
+      "definitions": [
+        "coverings for the hands with separate fingers"
+      ],
+      "synonyms": [
+        "mittens"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "leather gloves",
+        "wear gloves",
+        "pair of gloves"
+      ],
+      "wordFamily": [
+        "glove",
+        "gloves"
+      ],
+      "coreMeaning": "پوشش دست با انگشتان جداگانه",
+      "note": "معمولاً به صورت جمع استفاده می‌شود چون جفت هستند.",
+      "trap": "gloves (با انگشتان جدا) با mittens (بدون انگشت جدا) فرق دارد.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "boots",
+      "translation": "چکمه، بوت",
+      "ipa": "/buːts/",
+      "partOfSpeech": "noun",
+      "example": "She wore boots because it was raining.",
+      "definitions": [
+        "strong shoes that cover the foot and ankle, often the lower leg too"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "rain boots",
+        "hiking boots",
+        "pair of boots"
+      ],
+      "wordFamily": [
+        "boot",
+        "boots"
+      ],
+      "coreMeaning": "کفش بلند و محکم که مچ پا و گاهی ساق را می‌پوشاند",
+      "note": "برای باران، برف یا کوهنوردی استفاده می‌شود.",
+      "trap": "جمع boot نیست — boots همیشه جمع است (یک جفت boots).",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "belt",
+      "translation": "کمربند",
+      "ipa": "/bɛlt/",
+      "partOfSpeech": "noun",
+      "example": "He wore a black belt with his pants.",
+      "definitions": [
+        "a strip of leather or other material worn around the waist"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "leather belt",
+        "wear a belt",
+        "buckle a belt"
+      ],
+      "wordFamily": [
+        "belt"
+      ],
+      "coreMeaning": "نوار چرمی یا پارچه‌ای که دور کمر می‌بندند",
+      "note": "هم برای نگه داشتن شلوار و هم برای تزئین استفاده می‌شود.",
+      "trap": "belt (کمربند) با bell (زنگ) از نظر تلفظ فرق دارد.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "tie",
+      "translation": "کراوات",
+      "ipa": "/taɪ/",
+      "partOfSpeech": "noun",
+      "example": "He wore a red tie to the meeting.",
+      "definitions": [
+        "a long piece of cloth worn around the neck under a shirt collar"
+      ],
+      "synonyms": [
+        "necktie"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "wear a tie",
+        "silk tie",
+        "tie a knot"
+      ],
+      "wordFamily": [
+        "tie",
+        "ties"
+      ],
+      "coreMeaning": "نوار بلند پارچه‌ای که زیر یقه پیراهن می‌بندند",
+      "note": "tie هم اسم (کراوات) و هم فعل (بستن) است.",
+      "trap": "tie چند معنی دارد: کراوات، بستن، مساوی شدن — معنی از جمله مشخص می‌شود.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "uniform",
+      "translation": "یونیفرم، لباس فرم",
+      "ipa": "/ˈjuːnɪfɔːrm/",
+      "partOfSpeech": "noun",
+      "example": "Students must wear a uniform at this school.",
+      "definitions": [
+        "a special set of clothes worn by members of the same group or organization"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "school uniform",
+        "wear a uniform",
+        "military uniform"
+      ],
+      "wordFamily": [
+        "uniform",
+        "uniforms"
+      ],
+      "coreMeaning": "لباس مخصوص و یکسان برای اعضای یک گروه",
+      "note": "در بسیاری از مدارس، دانش‌آموزان باید یونیفرم بپوشند.",
+      "trap": "uniform هم اسم و هم صفت (یکنواخت) است — در سطح A1 بیشتر اسم است.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "pajamas",
+      "translation": "لباس خواب",
+      "ipa": "/pəˈdʒɑːməz/",
+      "partOfSpeech": "noun",
+      "example": "I put on my pajamas before going to bed.",
+      "definitions": [
+        "clothes worn for sleeping"
+      ],
+      "synonyms": [
+        "pyjamas",
+        "PJs",
+        "nightwear"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "wear pajamas",
+        "pair of pajamas",
+        "pajama party"
+      ],
+      "wordFamily": [
+        "pajamas"
+      ],
+      "coreMeaning": "لباس راحتی مخصوص خواب",
+      "note": "املای بریتانیایی: pyjamas. همیشه به صورت جمع استفاده می‌شود.",
+      "trap": "همیشه جمع است — نگویید 'a pajama'، بگویید 'a pair of pajamas'.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "swimsuit",
+      "translation": "مایو، لباس شنا",
+      "ipa": "/ˈswɪmsuːt/",
+      "partOfSpeech": "noun",
+      "example": "She bought a new swimsuit for the beach.",
+      "definitions": [
+        "a piece of clothing worn for swimming"
+      ],
+      "synonyms": [
+        "bathing suit",
+        "swimwear"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "wear a swimsuit",
+        "one-piece swimsuit",
+        "new swimsuit"
+      ],
+      "wordFamily": [
+        "swimsuit",
+        "swim",
+        "swimming"
+      ],
+      "coreMeaning": "لباس مخصوص شنا و آب‌بازی",
+      "note": "swimsuit معمولاً به لباس یک‌تکه زنانه گفته می‌شود.",
+      "trap": "swimsuit یک کلمه مرکبی است: swim + suit.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "sunglasses",
+      "translation": "عینک آفتابی",
+      "ipa": "/ˈsʌnɡlæsɪz/",
+      "partOfSpeech": "noun",
+      "example": "Don't forget your sunglasses — it's very sunny.",
+      "definitions": [
+        "glasses with dark lenses to protect the eyes from sunlight"
+      ],
+      "synonyms": [
+        "shades"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "wear sunglasses",
+        "pair of sunglasses",
+        "dark sunglasses"
+      ],
+      "wordFamily": [
+        "sunglasses",
+        "sun",
+        "glasses"
+      ],
+      "coreMeaning": "عینک با شیشه تیره برای محافظت از چشم در برابر نور خورشید",
+      "note": "همیشه جمع است چون دو شیشه دارد، مثل glasses.",
+      "trap": "همیشه جمع است — نگویید 'a sunglass'.",
+      "tags": [
+        "A1",
+        "clothing"
+      ]
+    },
+    {
+      "word": "eraser",
+      "translation": "پاک‌کن",
+      "ipa": "/ɪˈreɪzər/",
+      "partOfSpeech": "noun",
+      "example": "Can I borrow your eraser?",
+      "definitions": [
+        "a small piece of rubber or other material used for removing pencil marks"
+      ],
+      "synonyms": [
+        "rubber"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "pencil eraser",
+        "use an eraser",
+        "whiteboard eraser"
+      ],
+      "wordFamily": [
+        "erase",
+        "eraser"
+      ],
+      "coreMeaning": "وسیله‌ای برای پاک کردن نوشته‌های مدادی",
+      "note": "در انگلیسی بریتانیایی به آن rubber می‌گویند.",
+      "trap": "در آمریکایی rubber فقط به معنی پاک‌کن است، نه لاستیک (که آن tire است).",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "chalk",
+      "translation": "گچ",
+      "ipa": "/tʃɔːk/",
+      "partOfSpeech": "noun",
+      "example": "The teacher wrote on the board with chalk.",
+      "definitions": [
+        "a soft white rock used for writing on blackboards"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "piece of chalk",
+        "chalk dust",
+        "write with chalk"
+      ],
+      "wordFamily": [
+        "chalk",
+        "chalky"
+      ],
+      "coreMeaning": "ماده نرم سفید برای نوشتن روی تخته سیاه",
+      "note": "به صورت غیرقابل شمارش استفاده می‌شود: a piece of chalk.",
+      "trap": "chalk غیرقابل شمارش است — نگویید 'a chalk'، بگویید 'a piece of chalk'.",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "globe",
+      "translation": "کره جغرافیایی",
+      "ipa": "/ɡloʊb/",
+      "partOfSpeech": "noun",
+      "example": "We have a globe in our classroom.",
+      "definitions": [
+        "a round model of the earth; any spherical object"
+      ],
+      "synonyms": [
+        "sphere",
+        "world"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "world globe",
+        "spin the globe",
+        "globe of the earth"
+      ],
+      "wordFamily": [
+        "globe",
+        "global"
+      ],
+      "coreMeaning": "مدل گرد زمین، کره",
+      "note": "globe معمولاً به کره جغرافیایی اشاره دارد اما به معنی هر شیء کروی هم هست.",
+      "trap": "globe (کره) با global (جهانی) از یک خانواده هستند.",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "map",
+      "translation": "نقشه",
+      "ipa": "/mæp/",
+      "partOfSpeech": "noun",
+      "example": "We looked at the map to find the museum.",
+      "definitions": [
+        "a drawing or plan of the earth's surface or part of it"
+      ],
+      "synonyms": [
+        "chart"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "world map",
+        "read a map",
+        "on the map"
+      ],
+      "wordFamily": [
+        "map",
+        "maps",
+        "mapping"
+      ],
+      "coreMeaning": "تصویر یا طرحی از سطح زمین یا یک منطقه",
+      "note": "map هم اسم و هم فعل (نقشه‌برداری کردن) است.",
+      "trap": "map (نقشه) و mop (تی، دستمال) تلفظ مشابهی ندارند — مراقب باشید.",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "calculator",
+      "translation": "ماشین‌حساب",
+      "ipa": "/ˈkælkjəleɪtər/",
+      "partOfSpeech": "noun",
+      "example": "You can use a calculator for the math test.",
+      "definitions": [
+        "a small electronic device used for making mathematical calculations"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "pocket calculator",
+        "use a calculator",
+        "electronic calculator"
+      ],
+      "wordFamily": [
+        "calculate",
+        "calculator",
+        "calculation"
+      ],
+      "coreMeaning": "دستگاه الکترونیکی کوچک برای انجام محاسبات ریاضی",
+      "note": "از calculate (محاسبه کردن) گرفته شده.",
+      "trap": "تلفظ: CAL-kyoo-lay-tor — حرف 'c' اول کال، نه کیول.",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "backpack",
+      "translation": "کوله‌پشتی",
+      "ipa": "/ˈbækpæk/",
+      "partOfSpeech": "noun",
+      "example": "I put my books in my backpack.",
+      "definitions": [
+        "a bag with straps that is carried on the back"
+      ],
+      "synonyms": [
+        "rucksack",
+        "knapsack"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "school backpack",
+        "carry a backpack",
+        "pack a backpack"
+      ],
+      "wordFamily": [
+        "backpack",
+        "backpacking"
+      ],
+      "coreMeaning": "کیف با بند که روی کول حمل می‌شود",
+      "note": "backpack یک کلمه مرکبی است: back + pack.",
+      "trap": "با bag (کیف معمولی) فرق دارد — backpack حتماً روی کول حمل می‌شود.",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "folder",
+      "translation": "پوشه",
+      "ipa": "/ˈfoʊldər/",
+      "partOfSpeech": "noun",
+      "example": "Keep your papers in this folder.",
+      "definitions": [
+        "a folded cover for holding loose papers"
+      ],
+      "synonyms": [
+        "file",
+        "binder"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "paper folder",
+        "file folder",
+        "put in a folder"
+      ],
+      "wordFamily": [
+        "fold",
+        "folder"
+      ],
+      "coreMeaning": "پوشش تاشده برای نگهداری کاغذها",
+      "note": "هم برای پوشه کاغذی و هم پوشه کامپیوتری استفاده می‌شود.",
+      "trap": "folder (پوشه) از fold (تا کردن) آمده — یعنی چیزی که تا می‌شود.",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "marker",
+      "translation": "ماژیک، نشانه‌گذار",
+      "ipa": "/ˈmɑːrkər/",
+      "partOfSpeech": "noun",
+      "example": "Use a red marker to underline the important words.",
+      "definitions": [
+        "a pen with a thick tip used for writing or coloring"
+      ],
+      "synonyms": [
+        "felt-tip pen",
+        "highlighter"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "permanent marker",
+        "whiteboard marker",
+        "use a marker"
+      ],
+      "wordFamily": [
+        "mark",
+        "marker",
+        "marking"
+      ],
+      "coreMeaning": "خودنویس نوک‌پهن برای نوشتن یا رنگ‌آمیزی",
+      "note": "marker معنی‌های دیگری هم دارد مثل نشانه و علامت.",
+      "trap": "marker (ماژیک) و marker (نشانه‌گذار) — هر دو از mark (علامت) آمده‌اند.",
+      "tags": [
+        "A1",
+        "school"
+      ]
+    },
+    {
+      "word": "wolf",
+      "translation": "گرگ",
+      "ipa": "/wʊlf/",
+      "partOfSpeech": "noun",
+      "example": "The wolf howled at the moon.",
+      "definitions": [
+        "a wild animal like a large dog that hunts in groups"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "lone wolf",
+        "wolf pack",
+        "cry wolf"
+      ],
+      "wordFamily": [
+        "wolf",
+        "wolves"
+      ],
+      "coreMeaning": "حیوان وحشی شبیه سگ بزرگ که به صورت گروهی شکار می‌کند",
+      "note": "جمع آن wolves است (تغییر f به ves).",
+      "trap": "جمع: wolves — نه wolfs!",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "deer",
+      "translation": "گوزن",
+      "ipa": "/dɪr/",
+      "partOfSpeech": "noun",
+      "example": "We saw a deer in the forest.",
+      "definitions": [
+        "a wild animal with long legs that eats grass and plants; males often have antlers"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "deer antlers",
+        "herd of deer",
+        "baby deer"
+      ],
+      "wordFamily": [
+        "deer"
+      ],
+      "coreMeaning": "حیوان وحشی با پاهای بلند و شاخ‌های شاخه‌دار",
+      "note": "جمع deer هم deer است (بدون تغییر).",
+      "trap": "جمع: deer — نه deers! مثل sheep و fish.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "fox",
+      "translation": "روباه",
+      "ipa": "/fɒks/",
+      "partOfSpeech": "noun",
+      "example": "The fox ran across the field.",
+      "definitions": [
+        "a wild animal with a pointed face and a thick tail, known for being clever"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "sly fox",
+        "fox hole",
+        "fox hunt"
+      ],
+      "wordFamily": [
+        "fox",
+        "foxes",
+        "foxy"
+      ],
+      "coreMeaning": "حیوان وحشی با صورت نوک‌تیز و دم پرپشت، معروف به زیرکی",
+      "note": "در فرهنگ انگلیسی، روباه نماد زیرکی و حیله‌گری است.",
+      "trap": "جمع: foxes — نه foxs! (بعد از s,x,sh,ch اضافه کردن es لازم است).",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "frog",
+      "translation": "قورباغه",
+      "ipa": "/frɒɡ/",
+      "partOfSpeech": "noun",
+      "example": "There is a frog in the pond.",
+      "definitions": [
+        "a small green animal that lives near water and can jump high"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "tree frog",
+        "frog jump",
+        "prince frog"
+      ],
+      "wordFamily": [
+        "frog",
+        "froggy"
+      ],
+      "coreMeaning": "حیوان کوچک سبز که نزدیک آب زندگی می‌کند و خوب می‌پرد",
+      "note": "قورباغه دوزیست (amphibian) است — هم در آب و هم در خشکی زندگی می‌کند.",
+      "trap": "frog (قورباغه) و fog (مه) تلفظ متفاوتی دارند.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "butterfly",
+      "translation": "پروانه",
+      "ipa": "/ˈbʌtərflaɪ/",
+      "partOfSpeech": "noun",
+      "example": "A beautiful butterfly landed on the flower.",
+      "definitions": [
+        "an insect with large colorful wings that flies during the day"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "butterfly wings",
+        "monarch butterfly",
+        "butterfly effect"
+      ],
+      "wordFamily": [
+        "butterfly",
+        "butterflies"
+      ],
+      "coreMeaning": "حشره‌ای با بال‌های بزرگ و رنگارنگ",
+      "note": "یک کلمه مرکبی: butter + fly. جمع: butterflies.",
+      "trap": "جمع: butterflies — نه butterflys! (y تبدیل به ies می‌شود).",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "bee",
+      "translation": "زنبور عسل",
+      "ipa": "/biː/",
+      "partOfSpeech": "noun",
+      "example": "The bee is collecting nectar from the flowers.",
+      "definitions": [
+        "a flying insect that makes honey and can sting"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "queen bee",
+        "busy as a bee",
+        "bee sting"
+      ],
+      "wordFamily": [
+        "bee",
+        "bees",
+        "beehive"
+      ],
+      "coreMeaning": "حشره پرنده‌ای که عسل می‌سازد و نیش می‌زند",
+      "note": "زنبور عسل برای گرده‌افشانی گیاهان بسیار مهم است.",
+      "trap": "bee (زنبور) و be (بودن) تلفظ یکسانی دارند — از جمله تشخیص دهید.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "ant",
+      "translation": "مورچه",
+      "ipa": "/ænt/",
+      "partOfSpeech": "noun",
+      "example": "There is an ant on the table.",
+      "definitions": [
+        "a very small insect that lives in large groups and works hard"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "ant hill",
+        "army ant",
+        "ant colony"
+      ],
+      "wordFamily": [
+        "ant",
+        "ants"
+      ],
+      "coreMeaning": "حشره بسیار کوچک که به صورت گروهی زندگی و کار می‌کند",
+      "note": "مورچه‌ها به کار گروهی و سخت‌کوشی معروف هستند.",
+      "trap": "ant (مورچه) و aunt (عمه/خاله) در بعضی لهجه‌ها تلفظ یکسانی دارند.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "spider",
+      "translation": "عنکبوت",
+      "ipa": "/ˈspaɪdər/",
+      "partOfSpeech": "noun",
+      "example": "There is a spider in the corner of the room.",
+      "definitions": [
+        "a small creature with eight legs that makes webs to catch insects"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "spider web",
+        "spider bite",
+        "spider silk"
+      ],
+      "wordFamily": [
+        "spider",
+        "spiders",
+        "spiderweb"
+      ],
+      "coreMeaning": "حیوان هشت‌پا که تار می‌تند",
+      "note": "عنکبوت حشره نیست — هشت پا دارد و از حشرات (شش پا) متفاوت است.",
+      "trap": "spider (عنکبوت) حشره نیست! حشرات ۶ پا دارند، عنکبوت ۸ پا دارد.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "whale",
+      "translation": "نهنگ، وال",
+      "ipa": "/weɪl/",
+      "partOfSpeech": "noun",
+      "example": "The blue whale is the largest animal on Earth.",
+      "definitions": [
+        "a very large sea animal that breathes air"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "blue whale",
+        "whale watching",
+        "killer whale"
+      ],
+      "wordFamily": [
+        "whale",
+        "whales"
+      ],
+      "coreMeaning": "حیوان بسیار بزرگ دریایی که هوا تنفس می‌کند",
+      "note": "نهنگ بزرگ‌ترین حیوان روی زمین است، اما ماهی نیست — پستاندار دریایی است.",
+      "trap": "whale (نهنگ) و while (در حالی که) تلفظ متفاوتی دارند.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "shark",
+      "translation": "کوسه",
+      "ipa": "/ʃɑːrk/",
+      "partOfSpeech": "noun",
+      "example": "The shark has many sharp teeth.",
+      "definitions": [
+        "a large dangerous sea fish with sharp teeth"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "shark attack",
+        "great white shark",
+        "shark fin"
+      ],
+      "wordFamily": [
+        "shark",
+        "sharks"
+      ],
+      "coreMeaning": "ماهی بزرگ و خطرناک دریایی با دندان‌های تیز",
+      "note": "کوسه یکی از خطرناک‌ترین حیوانات دریایی است.",
+      "trap": "shark (کوسه) و sharp (تیز) تلفظ نزدیکی دارند — مراقب باشید.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "dolphin",
+      "translation": "دلفین",
+      "ipa": "/ˈdɒlfɪn/",
+      "partOfSpeech": "noun",
+      "example": "Dolphins are very intelligent animals.",
+      "definitions": [
+        "a sea animal known for being smart and friendly, related to whales"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "dolphin show",
+        "dolphin swim",
+        "bottlenose dolphin"
+      ],
+      "wordFamily": [
+        "dolphin",
+        "dolphins"
+      ],
+      "coreMeaning": "حیوان دریایی باهوش و دوستانه، خویشاوند نهنگ",
+      "note": "دلفین‌ها بسیار باهوش هستند و می‌توانند آموزش ببینند.",
+      "trap": "dolphin پستاندار دریایی است، نه ماهی.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "penguin",
+      "translation": "پنگوئن",
+      "ipa": "/ˈpɛŋɡwɪn/",
+      "partOfSpeech": "noun",
+      "example": "Penguins live in very cold places.",
+      "definitions": [
+        "a black and white sea bird that cannot fly but can swim very well"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "emperor penguin",
+        "penguin colony",
+        "baby penguin"
+      ],
+      "wordFamily": [
+        "penguin",
+        "penguins"
+      ],
+      "coreMeaning": "پرنده سیاه و سفید دریایی که نمی‌تواند پرواز کند اما خوب شنا می‌کند",
+      "note": "پنگوئن‌ها در مناطق سرد مثل قطب جنوب زندگی می‌کنند.",
+      "trap": "پنگوئن پرنده است اما نمی‌تواند پرواز کند — فقط شنا می‌کند.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "parrot",
+      "translation": "طوطی",
+      "ipa": "/ˈpærət/",
+      "partOfSpeech": "noun",
+      "example": "The parrot can say a few words.",
+      "definitions": [
+        "a colorful bird, often kept as a pet, that can copy human speech"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "pet parrot",
+        "parrot cage",
+        "talk like a parrot"
+      ],
+      "wordFamily": [
+        "parrot",
+        "parrots"
+      ],
+      "coreMeaning": "پرنده رنگارنگ که می‌تواند حرف‌های انسان را تقلید کند",
+      "note": "طوطی‌ها می‌توانند کلمات و جملات را تکرار کنند.",
+      "trap": "parrot (طوطی) و carrot (هویج) تلفظ متفاوتی دارند.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "turtle",
+      "translation": "لاک‌پشت",
+      "ipa": "/ˈtɜːrtl/",
+      "partOfSpeech": "noun",
+      "example": "The turtle moves very slowly.",
+      "definitions": [
+        "a reptile with a hard shell on its back that moves very slowly"
+      ],
+      "synonyms": [
+        "tortoise"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sea turtle",
+        "turtle shell",
+        "turtle dove"
+      ],
+      "wordFamily": [
+        "turtle",
+        "turtles"
+      ],
+      "coreMeaning": "خزنده با لاک سخت روی پشت که خیلی آرام حرکت می‌کند",
+      "note": "turtle معمولاً به لاک‌پشت دریایی و tortoise به لاک‌پشت خشکی گفته می‌شود.",
+      "trap": "در آمریکایی turtle به همه لاک‌پشت‌ها گفته می‌شود، در بریتانیایی tortoise فقط خشکی.",
+      "tags": [
+        "A1",
+        "animals"
+      ]
+    },
+    {
+      "word": "wallet",
+      "translation": "کیف پول",
+      "ipa": "/ˈwɒlɪt/",
+      "partOfSpeech": "noun",
+      "example": "He put the money in his wallet.",
+      "definitions": [
+        "a small flat case for carrying money and cards"
+      ],
+      "synonyms": [
+        "billfold"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "leather wallet",
+        "open your wallet",
+        "lose your wallet"
+      ],
+      "wordFamily": [
+        "wallet",
+        "wallets"
+      ],
+      "coreMeaning": "جیب کوچک تخت برای حمل پول و کارت",
+      "note": "wallet معمولاً تخت و تا شدنی است، با purse (کیف پول زنانه) فرق دارد.",
+      "trap": "wallet (کیف پول مردانه) و purse (کیف پول زنانه/کیف دستی) فرق دارند.",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "purse",
+      "translation": "کیف پول زنانه",
+      "ipa": "/pɜːrs/",
+      "partOfSpeech": "noun",
+      "example": "She took some coins out of her purse.",
+      "definitions": [
+        "a small bag for carrying money, used mainly by women"
+      ],
+      "synonyms": [
+        "handbag"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "leather purse",
+        "open your purse",
+        "coin purse"
+      ],
+      "wordFamily": [
+        "purse",
+        "purses"
+      ],
+      "coreMeaning": "کیف کوچک برای حمل پول، معمولاً مخصوص زنان",
+      "note": "در بریتانیایی purse کیف پول کوچک است، در آمریکایی ممکن است به کیف دستی بزرگ هم بگویند.",
+      "trap": "purse در بریتانیا و آمریکا معنی متفاوتی دارد — مراقب باشید.",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "flashlight",
+      "translation": "چراغ قوه",
+      "ipa": "/ˈflæʃlaɪt/",
+      "partOfSpeech": "noun",
+      "example": "We need a flashlight when the power goes out.",
+      "definitions": [
+        "a small electric light that you hold in your hand"
+      ],
+      "synonyms": [
+        "torch"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "turn on a flashlight",
+        "LED flashlight",
+        "flashlight battery"
+      ],
+      "wordFamily": [
+        "flashlight",
+        "flash",
+        "light"
+      ],
+      "coreMeaning": "چراغ الکتریکی کوچک دستی",
+      "note": "در انگلیسی بریتانیایی به آن torch می‌گویند.",
+      "trap": "flashlight (آمریکایی) = torch (بریتانیایی) — torch در آمریکا مشعل آتشین است!",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    },
+    {
+      "word": "candle",
+      "translation": "شمع",
+      "ipa": "/ˈkændl/",
+      "partOfSpeech": "noun",
+      "example": "She lit a candle when the lights went out.",
+      "definitions": [
+        "a stick of wax with a string in the middle that you burn for light"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "light a candle",
+        "blow out a candle",
+        "candle light"
+      ],
+      "wordFamily": [
+        "candle",
+        "candles",
+        "candlelight"
+      ],
+      "coreMeaning": "موم با فتیله در وسط که آتش می‌گیرد و نور می‌دهد",
+      "note": "شمع هم برای نور و هم برای تولد و مناسبت‌ها استفاده می‌شود.",
+      "trap": "candle (شمع) و candy (آبنبات) تلفظ نزدیکی دارند.",
+      "tags": [
+        "A1",
+        "objects"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3222 @@
+{
+  "name": "خرید و پول",
+  "description": "۱۰۰ کلمه درباره خرید، پول، فروشگاه و پرداخت — سطح A2",
+  "category": "A2 — پایه",
+  "level": "A2",
+  "packId": "A2-02",
+  "words": [
+    {
+      "word": "price",
+      "translation": "قیمت",
+      "ipa": "/praɪs/",
+      "partOfSpeech": "noun",
+      "example": "What is the price of this jacket?",
+      "definitions": [
+        "the amount of money expected or required for buying something"
+      ],
+      "synonyms": [
+        "cost",
+        "charge"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "set a price",
+        "price tag",
+        "price range",
+        "high price"
+      ],
+      "wordFamily": [
+        "price (n)",
+        "priceless (adj)"
+      ],
+      "coreMeaning": "مبلغی که برای خرید چیزی پرداخت می‌شود",
+      "note": "قیمت به مبلغی گفته می‌شود که فروشنده برای کالا تعیین می‌کند",
+      "trap": "price فقط اسم است؛ برای گفتن «قیمتش چنده؟» بگویید: What is the price? نه How much price?",
+      "tags": [
+        "A2",
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "word": "discount",
+      "translation": "تخفیف",
+      "ipa": "/ˈdɪskaʊnt/",
+      "partOfSpeech": "noun",
+      "example": "There is a 20% discount on all shoes today.",
+      "definitions": [
+        "a reduction in the usual price of something"
+      ],
+      "synonyms": [
+        "reduction",
+        "markdown"
+      ],
+      "antonyms": [
+        "surcharge"
+      ],
+      "collocations": [
+        "give a discount",
+        "get a discount",
+        "discount price",
+        "student discount"
+      ],
+      "wordFamily": [
+        "discount (n)",
+        "discount (v)"
+      ],
+      "coreMeaning": "کاهش در قیمت معمول کالا",
+      "note": "تخفیف معمولاً به صورت درصد بیان می‌شود: 10% discount یعنی ۱۰ درصد تخفیف",
+      "trap": "discount هم اسم و هم فعل است. تلفظ اسم و فعل یکی است ولی تأکید فعل روی هجای دوم است",
+      "tags": [
+        "A2",
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "word": "sale",
+      "translation": "حراج، فروش",
+      "ipa": "/seɪl/",
+      "partOfSpeech": "noun",
+      "example": "The store is having a big sale this weekend.",
+      "definitions": [
+        "an event where goods are sold at reduced prices; the act of selling something"
+      ],
+      "synonyms": [
+        "clearance",
+        "deal"
+      ],
+      "antonyms": [
+        "purchase"
+      ],
+      "collocations": [
+        "on sale",
+        "for sale",
+        "big sale",
+        "end-of-season sale"
+      ],
+      "wordFamily": [
+        "sale (n)",
+        "sell (v)"
+      ],
+      "coreMeaning": "فروش کالا با قیمت کمتر یا رویداد حراج",
+      "note": "on sale یعنی در حراج؛ for sale یعنی برای فروش",
+      "trap": "on sale به معنی «در حراج» است نه «برای فروش». برای «برای فروش» از for sale استفاده کنید",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "receipt",
+      "translation": "رسید، قبض",
+      "ipa": "/rɪˈsiːt/",
+      "partOfSpeech": "noun",
+      "example": "Keep your receipt in case you want to return the item.",
+      "definitions": [
+        "a written acknowledgment that something has been received or paid for"
+      ],
+      "synonyms": [
+        "proof of purchase"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "keep a receipt",
+        "issue a receipt",
+        "sales receipt"
+      ],
+      "wordFamily": [
+        "receipt (n)",
+        "receive (v)"
+      ],
+      "coreMeaning": "سندی که نشان‌دهنده پرداخت یا دریافت کالا است",
+      "note": "برای مرجوع کردن کالا معمولاً رسید لازم است",
+      "trap": "حرف p در receipt تلفظ نمی‌شود: /rɪˈsiːt/",
+      "tags": [
+        "A2",
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "word": "customer",
+      "translation": "مشتری",
+      "ipa": "/ˈkʌstəmər/",
+      "partOfSpeech": "noun",
+      "example": "The customer asked for a smaller size.",
+      "definitions": [
+        "a person who buys goods or services from a shop or business"
+      ],
+      "synonyms": [
+        "client",
+        "buyer",
+        "shopper"
+      ],
+      "antonyms": [
+        "seller",
+        "vendor"
+      ],
+      "collocations": [
+        "customer service",
+        "regular customer",
+        "customer satisfaction"
+      ],
+      "wordFamily": [
+        "customer (n)",
+        "custom (n)",
+        "customize (v)"
+      ],
+      "coreMeaning": "شخصی که از فروشگاه یا کسب‌وکار خرید می‌کند",
+      "note": "customer به کسی گفته می‌شود که به طور منظم از جایی خرید می‌کند",
+      "trap": "customer و client تفاوت دارند: customer بیشتر برای خرید کالا، client برای خدمات حرفه‌ای",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "cashier",
+      "translation": "صندوقدار",
+      "ipa": "/kæˈʃɪr/",
+      "partOfSpeech": "noun",
+      "example": "The cashier scanned all the items quickly.",
+      "definitions": [
+        "a person who handles payments and receipts in a shop or bank"
+      ],
+      "synonyms": [
+        "teller"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "work as a cashier",
+        "cashier counter"
+      ],
+      "wordFamily": [
+        "cashier (n)",
+        "cash (n)"
+      ],
+      "coreMeaning": "شخصی که در فروشگاه پول دریافت می‌کند",
+      "note": "صندوقدار معمولاً پشت دستگاه صندوق می‌نشیند و پول مشتریان را دریافت می‌کند",
+      "trap": "cashier به صورت cash-ee-er تلفظ می‌شود نه cash-er",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "cart",
+      "translation": "چرخ‌دستی فروشگاه",
+      "ipa": "/kɑːrt/",
+      "partOfSpeech": "noun",
+      "example": "I need a cart because I'm buying a lot of groceries.",
+      "definitions": [
+        "a vehicle with wheels used for transporting goods, especially in a shop"
+      ],
+      "synonyms": [
+        "trolley",
+        "basket"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "shopping cart",
+        "push a cart",
+        "fill a cart"
+      ],
+      "wordFamily": [
+        "cart (n)"
+      ],
+      "coreMeaning": "چرخ‌دستی بزرگ برای حمل خرید در فروشگاه",
+      "note": "cart چرخ‌دستی بزرگ است؛ basket سبد دستی کوچک‌تر",
+      "trap": "در آمریکا shopping cart، در بریتانیا trolley گفته می‌شود",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "basket",
+      "translation": "سبد",
+      "ipa": "/ˈbæskɪt/",
+      "partOfSpeech": "noun",
+      "example": "She carried a basket around the small shop.",
+      "definitions": [
+        "a container used to hold or carry things, especially in a shop"
+      ],
+      "synonyms": [
+        "container"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "shopping basket",
+        "carry a basket",
+        "basket full of"
+      ],
+      "wordFamily": [
+        "basket (n)"
+      ],
+      "coreMeaning": "ظرف حصیری یا پلاستیکی برای حمل خرید",
+      "note": "سبد خرید معمولاً برای خریدهای کوچک‌تر استفاده می‌شود",
+      "trap": "basket فقط برای خرید نیست؛ سبد لباس، سبد میوه هم داریم",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "aisle",
+      "translation": "راهروی فروشگاه",
+      "ipa": "/aɪl/",
+      "partOfSpeech": "noun",
+      "example": "The milk is in aisle three.",
+      "definitions": [
+        "a passage between rows of shelves in a shop or supermarket"
+      ],
+      "synonyms": [
+        "passage",
+        "lane"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "down the aisle",
+        "aisle number",
+        "cleaning aisle"
+      ],
+      "wordFamily": [
+        "aisle (n)"
+      ],
+      "coreMeaning": "مسیر بین قفسه‌ها در فروشگاه",
+      "note": "هر فروشگاه بزرگ چندین راهرو دارد که هر کدام محصولات خاصی دارند",
+      "trap": "aisle حرف s تلفظ نمی‌شود: /aɪl/. با island اشتباه نشود",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "checkout",
+      "translation": "صندوق، تسویه",
+      "ipa": "/ˈtʃekaʊt/",
+      "partOfSpeech": "noun",
+      "example": "Please go to the checkout to pay for your items.",
+      "definitions": [
+        "the place in a shop where customers pay for goods; the act of paying"
+      ],
+      "synonyms": [
+        "cash register",
+        "counter"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "checkout counter",
+        "self-checkout",
+        "go to checkout"
+      ],
+      "wordFamily": [
+        "checkout (n)",
+        "check out (phrasal verb)"
+      ],
+      "coreMeaning": "محل پرداخت در فروشگاه",
+      "note": "self-checkout یعنی صندوق خودکار که مشتری خودش اسکن و پرداخت می‌کند",
+      "trap": "checkout یک کلمه مرکب است: check + out",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "coupon",
+      "translation": "کوپن، بن تخفیف",
+      "ipa": "/ˈkuːpɑːn/",
+      "partOfSpeech": "noun",
+      "example": "I have a coupon for 15% off at this store.",
+      "definitions": [
+        "a voucher that gives the holder a discount or special offer"
+      ],
+      "synonyms": [
+        "voucher",
+        "token"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "use a coupon",
+        "coupon code",
+        "clip coupons"
+      ],
+      "wordFamily": [
+        "coupon (n)"
+      ],
+      "coreMeaning": "برگه یا کدی که تخفیف یا پیشنهاد ویژه می‌دهد",
+      "note": "کوپن‌ها می‌توانند کاغذی یا الکترونیکی (کد) باشند",
+      "trap": "coupon در آمریکا /ˈkuːpɑːn/ و در بریتانیا /ˈkjuːpɒn/ تلفظ می‌شود",
+      "tags": [
+        "A2",
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "word": "bargain",
+      "translation": "معامله خوب، چانه‌زنی",
+      "ipa": "/ˈbɑːrɡɪn/",
+      "partOfSpeech": "noun",
+      "example": "This coat was a real bargain — only $20!",
+      "definitions": [
+        "something bought for less than its usual price; an agreement between parties"
+      ],
+      "synonyms": [
+        "deal",
+        "steal"
+      ],
+      "antonyms": [
+        "rip-off"
+      ],
+      "collocations": [
+        "real bargain",
+        "bargain price",
+        "bargain hunter",
+        "strike a bargain"
+      ],
+      "wordFamily": [
+        "bargain (n)",
+        "bargain (v)"
+      ],
+      "coreMeaning": "خرید با قیمت بسیار مناسب یا توافق دوطرفه",
+      "note": "a real bargain یعنی خرید خیلی خوب و ارزان",
+      "trap": "bargain هم اسم و هم فعل است. به عنوان فعل یعنی چانه زدن",
+      "tags": [
+        "A2",
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "word": "mall",
+      "translation": "مرکز خرید، پاساژ",
+      "ipa": "/mɔːl/",
+      "partOfSpeech": "noun",
+      "example": "Let's go to the mall this afternoon.",
+      "definitions": [
+        "a large enclosed shopping area with many stores"
+      ],
+      "synonyms": [
+        "shopping center",
+        "plaza"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "shopping mall",
+        "go to the mall",
+        "mall food court"
+      ],
+      "wordFamily": [
+        "mall (n)"
+      ],
+      "coreMeaning": "مجتمع بزرگ خرید با فروشگاه‌های متعدد",
+      "note": "مرکز خرید معمولاً شامل فروشگاه‌ها، رستوران‌ها و سینما است",
+      "trap": "mall در آمریکا /mɔːl/ تلفظ می‌شود، نه /mæl/",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "supermarket",
+      "translation": "سوپرمارکت",
+      "ipa": "/ˈsuːpərmɑːrkɪt/",
+      "partOfSpeech": "noun",
+      "example": "I buy my groceries at the supermarket every Saturday.",
+      "definitions": [
+        "a large self-service shop selling food and household items"
+      ],
+      "synonyms": [
+        "grocery store"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go to the supermarket",
+        "supermarket chain",
+        "local supermarket"
+      ],
+      "wordFamily": [
+        "supermarket (n)"
+      ],
+      "coreMeaning": "فروشگاه بزرگ مواد غذایی و مایحتاج روزانه",
+      "note": "در سوپرمارکت مشتری خودش کالاها را از قفسه برمی‌دارد",
+      "trap": "supermarket یک کلمه مرکب است: super + market",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "bakery",
+      "translation": "نانوایی، قنادی",
+      "ipa": "/ˈbeɪkəri/",
+      "partOfSpeech": "noun",
+      "example": "The bakery on the corner makes fresh bread every morning.",
+      "definitions": [
+        "a place where bread, cakes, and pastries are made and sold"
+      ],
+      "synonyms": [
+        "bake shop"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "local bakery",
+        "bakery items",
+        "go to the bakery"
+      ],
+      "wordFamily": [
+        "bakery (n)",
+        "bake (v)",
+        "baker (n)"
+      ],
+      "coreMeaning": "محل پخت و فروش نان و شیرینی",
+      "note": "bakery از فعل bake (پختن) گرفته شده",
+      "trap": "bakery با butcher (قصابی) و florist (گل‌فروشی) اشتباه نشود",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "market",
+      "translation": "بازار",
+      "ipa": "/ˈmɑːrkɪt/",
+      "partOfSpeech": "noun",
+      "example": "We bought fresh vegetables at the farmers' market.",
+      "definitions": [
+        "a place where goods are bought and sold; the trade in a particular commodity"
+      ],
+      "synonyms": [
+        "bazaar",
+        "marketplace"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "farmers' market",
+        "stock market",
+        "market price",
+        "open market"
+      ],
+      "wordFamily": [
+        "market (n)",
+        "marketing (n)",
+        "marketer (n)"
+      ],
+      "coreMeaning": "محل خرید و فروش کالا",
+      "note": "market می‌تواند بازار فیزیکی یا بازار اقتصادی (مثل بورس) باشد",
+      "trap": "market با supermarket فرق دارد؛ market معمولاً بازار روباز است",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "shop",
+      "translation": "مغازه",
+      "ipa": "/ʃɑːp/",
+      "partOfSpeech": "noun",
+      "example": "There's a new book shop on Main Street.",
+      "definitions": [
+        "a building or part of a building where goods are sold"
+      ],
+      "synonyms": [
+        "store"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "shop around",
+        "gift shop",
+        "coffee shop",
+        "go shopping"
+      ],
+      "wordFamily": [
+        "shop (n)",
+        "shop (v)",
+        "shopping (n)",
+        "shopper (n)"
+      ],
+      "coreMeaning": "محل فروش کالا",
+      "note": "در بریتانیا shop رایج‌تر است، در آمریکا store",
+      "trap": "shop به عنوان فعل یعنی «خرید کردن»: I like to shop online",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "vendor",
+      "translation": "فروشنده، دست‌فروش",
+      "ipa": "/ˈvendər/",
+      "partOfSpeech": "noun",
+      "example": "The street vendor was selling hot dogs.",
+      "definitions": [
+        "a person who sells things, especially on the street or at an event"
+      ],
+      "synonyms": [
+        "seller",
+        "merchant"
+      ],
+      "antonyms": [
+        "buyer",
+        "customer"
+      ],
+      "collocations": [
+        "street vendor",
+        "food vendor",
+        "vendor machine"
+      ],
+      "wordFamily": [
+        "vendor (n)",
+        "vend (v)"
+      ],
+      "coreMeaning": "شخصی که کالا می‌فروشد، معمولاً در خیابان یا رویدادها",
+      "note": "vendor معمولاً برای فروشندگان خیابانی یا غرفه‌ای استفاده می‌شود",
+      "trap": "vendor با merchant تفاوت دارد: vendor غیررسمی‌تر، merchant رسمی‌تر",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "merchant",
+      "translation": "تاجر، بازرگان",
+      "ipa": "/ˈmɜːrtʃənt/",
+      "partOfSpeech": "noun",
+      "example": "The merchant imported goods from overseas.",
+      "definitions": [
+        "a person involved in trade, especially on a large scale"
+      ],
+      "synonyms": [
+        "trader",
+        "dealer"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "merchant ship",
+        "merchant bank",
+        "online merchant"
+      ],
+      "wordFamily": [
+        "merchant (n)",
+        "merchandise (n)"
+      ],
+      "coreMeaning": "شخصی که در تجارت و بازرگانی فعالیت می‌کند",
+      "note": "merchant معمولاً برای تجارت بزرگ‌تر و رسمی‌تر از vendor استفاده می‌شود",
+      "trap": "merchant با merchant (کالا) اشتباه نشود؛ merchandise یعنی کالا",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "display",
+      "translation": "ویترین، نمایش",
+      "ipa": "/dɪˈspleɪ/",
+      "partOfSpeech": "noun",
+      "example": "The window display attracted many customers.",
+      "definitions": [
+        "an arrangement of goods for sale; the act of showing something publicly"
+      ],
+      "synonyms": [
+        "exhibition",
+        "showcase"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "window display",
+        "on display",
+        "display case"
+      ],
+      "wordFamily": [
+        "display (n)",
+        "display (v)"
+      ],
+      "coreMeaning": "نمایش کالا برای فروش یا جلب توجه",
+      "note": "ویترین مغازه مهم‌ترین بخش جذب مشتری است",
+      "trap": "display هم اسم و هم فعل است",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "counter",
+      "translation": "پیشخوان، کانتر",
+      "ipa": "/ˈkaʊntər/",
+      "partOfSpeech": "noun",
+      "example": "Please pay at the counter.",
+      "definitions": [
+        "a long flat surface over which goods are sold or business is conducted"
+      ],
+      "synonyms": [
+        "desk",
+        "bar"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "at the counter",
+        "checkout counter",
+        "service counter"
+      ],
+      "wordFamily": [
+        "counter (n)"
+      ],
+      "coreMeaning": "سطح صاف بلند برای فروش یا ارائه خدمات",
+      "note": "counter می‌تواند پیشخوان فروشگاه، آشپزخانه یا بانک باشد",
+      "trap": "counter معانی مختلفی دارد: پیشخوان، شمارنده، و حتی پیشوند به معنی «ضد»",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "cash",
+      "translation": "پول نقد",
+      "ipa": "/kæʃ/",
+      "partOfSpeech": "noun",
+      "example": "Do you accept cash or only cards?",
+      "definitions": [
+        "money in coins or notes, as opposed to checks or cards"
+      ],
+      "synonyms": [
+        "currency",
+        "funds"
+      ],
+      "antonyms": [
+        "credit"
+      ],
+      "collocations": [
+        "pay cash",
+        "cash only",
+        "cash machine",
+        "cash back"
+      ],
+      "wordFamily": [
+        "cash (n)",
+        "cashier (n)"
+      ],
+      "coreMeaning": "پول به صورت اسکناس یا سکه",
+      "note": "cash فقط پول نقد است؛ با money که کلی‌تر است فرق دارد",
+      "trap": "cash ناگذیر است و جمع ندارد. نگویید cashes",
+      "tags": [
+        "A2",
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "word": "coin",
+      "translation": "سکه",
+      "ipa": "/kɔɪn/",
+      "partOfSpeech": "noun",
+      "example": "I found a coin on the ground.",
+      "definitions": [
+        "a flat, typically round piece of metal used as money"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "bill",
+        "note"
+      ],
+      "collocations": [
+        "gold coin",
+        "coin purse",
+        "flip a coin"
+      ],
+      "wordFamily": [
+        "coin (n)",
+        "coin (v)"
+      ],
+      "coreMeaning": "قطعه فلزی گرد که به عنوان پول استفاده می‌شود",
+      "note": "سکه‌ها معمولاً ارزش کمتری از اسکناس دارند",
+      "trap": "coin به عنوان فعل یعنی «اختراع کردن» یک اصطلاح یا کلمه جدید",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "bill",
+      "translation": "اسکناس، قبض",
+      "ipa": "/bɪl/",
+      "partOfSpeech": "noun",
+      "example": "Can you break a twenty-dollar bill?",
+      "definitions": [
+        "a piece of paper money; a statement of charges for goods or services"
+      ],
+      "synonyms": [
+        "note",
+        "banknote",
+        "invoice"
+      ],
+      "antonyms": [
+        "coin"
+      ],
+      "collocations": [
+        "pay the bill",
+        "phone bill",
+        "electric bill",
+        "five-dollar bill"
+      ],
+      "wordFamily": [
+        "bill (n)"
+      ],
+      "coreMeaning": "اسکناس یا صورتحساب پرداخت",
+      "note": "bill در آمریکا هم اسکناس و هم قبض معنی می‌دهد",
+      "trap": "در بریتانیا به اسکناس note می‌گویند، نه bill",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "cost",
+      "translation": "هزینه، قیمت داشتن",
+      "ipa": "/kɔːst/",
+      "partOfSpeech": "noun",
+      "example": "The cost of living is very high in this city.",
+      "definitions": [
+        "the amount of money needed to buy or do something"
+      ],
+      "synonyms": [
+        "price",
+        "expense",
+        "charge"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cost of living",
+        "at a cost",
+        "total cost",
+        "cost effective"
+      ],
+      "wordFamily": [
+        "cost (n)",
+        "cost (v)",
+        "costly (adj)"
+      ],
+      "coreMeaning": "مبلغ مورد نیاز برای خرید یا انجام کاری",
+      "note": "cost هم اسم و هم فعل است: The book costs $10",
+      "trap": "گذشته cost هم cost است (بی‌قاعده): It cost me $50",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "cheap",
+      "translation": "ارزان",
+      "ipa": "/tʃiːp/",
+      "partOfSpeech": "adjective",
+      "example": "This shirt was really cheap — only $5!",
+      "definitions": [
+        "low in price; costing little money"
+      ],
+      "synonyms": [
+        "inexpensive",
+        "affordable",
+        "budget"
+      ],
+      "antonyms": [
+        "expensive",
+        "costly"
+      ],
+      "collocations": [
+        "cheap price",
+        "cheap and cheerful",
+        "dirt cheap"
+      ],
+      "wordFamily": [
+        "cheap (adj)",
+        "cheaply (adv)",
+        "cheapness (n)"
+      ],
+      "coreMeaning": "با قیمت پایین، ارزان",
+      "note": "cheap می‌تواند معنی منفی هم داشته باشد: بی‌کیفیت",
+      "trap": "cheap گاهی معنی «بی‌کیفیت» می‌دهد. inexpensive خنثی‌تر است",
+      "tags": [
+        "A2",
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "word": "expensive",
+      "translation": "گران",
+      "ipa": "/ɪkˈspensɪv/",
+      "partOfSpeech": "adjective",
+      "example": "That restaurant is too expensive for me.",
+      "definitions": [
+        "costing a lot of money"
+      ],
+      "synonyms": [
+        "costly",
+        "pricey"
+      ],
+      "antonyms": [
+        "cheap",
+        "inexpensive"
+      ],
+      "collocations": [
+        "too expensive",
+        "expensive taste",
+        "look expensive"
+      ],
+      "wordFamily": [
+        "expense (n)",
+        "expensive (adj)",
+        "expensively (adv)"
+      ],
+      "coreMeaning": "با قیمت بالا، گران",
+      "note": "expensive نسبت به cheap رسمی‌تر است",
+      "trap": "نگویید very expensive price. بگویید: The price is very high یا It's very expensive",
+      "tags": [
+        "A2",
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "word": "afford",
+      "translation": "توانایی مالی داشتن",
+      "ipa": "/əˈfɔːrd/",
+      "partOfSpeech": "verb",
+      "example": "I can't afford a new car right now.",
+      "definitions": [
+        "to have enough money to pay for something"
+      ],
+      "synonyms": [
+        "manage"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "can afford",
+        "afford to buy",
+        "afford to pay"
+      ],
+      "wordFamily": [
+        "afford (v)",
+        "affordable (adj)"
+      ],
+      "coreMeaning": "توانایی مالی خریدن یا انجام دادن چیزی",
+      "note": "afford معمولاً با can/could استفاده می‌شود: I can afford it",
+      "trap": "afford فقط مالی نیست: I can't afford to waste time (وقت ندارم)",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "borrow",
+      "translation": "قرض گرفتن",
+      "ipa": "/ˈbɑːroʊ/",
+      "partOfSpeech": "verb",
+      "example": "Can I borrow $10 until tomorrow?",
+      "definitions": [
+        "to take something with the intention of returning it"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "lend",
+        "return"
+      ],
+      "collocations": [
+        "borrow money",
+        "borrow from",
+        "borrow a book"
+      ],
+      "wordFamily": [
+        "borrow (v)",
+        "borrower (n)"
+      ],
+      "coreMeaning": "گرفتن چیزی با قصد پس دادن",
+      "note": "borrow از دید کسی است که می‌گیرد؛ lend از دید کسی است که می‌دهد",
+      "trap": "borrow و lend را اشتباه نگیرید: I borrow from you = You lend to me",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "lend",
+      "translation": "قرض دادن",
+      "ipa": "/lend/",
+      "partOfSpeech": "verb",
+      "example": "Could you lend me your pen?",
+      "definitions": [
+        "to give something to someone with the expectation of getting it back"
+      ],
+      "synonyms": [
+        "loan"
+      ],
+      "antonyms": [
+        "borrow"
+      ],
+      "collocations": [
+        "lend money",
+        "lend a hand",
+        "lend to"
+      ],
+      "wordFamily": [
+        "lend (v)",
+        "lender (n)",
+        "loan (n)"
+      ],
+      "coreMeaning": "دادن چیزی به کسی با انتظار پس گرفتن",
+      "note": "گذشته lend، lent است",
+      "trap": "lend و borrow جهت مخالف دارند: lend = دادن، borrow = گرفتن",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "debt",
+      "translation": "بدهی، قرض",
+      "ipa": "/det/",
+      "partOfSpeech": "noun",
+      "example": "He has a lot of credit card debt.",
+      "definitions": [
+        "money that is owed to someone else"
+      ],
+      "synonyms": [
+        "liability",
+        "obligation"
+      ],
+      "antonyms": [
+        "credit",
+        "asset"
+      ],
+      "collocations": [
+        "in debt",
+        "pay off debt",
+        "national debt",
+        "debt crisis"
+      ],
+      "wordFamily": [
+        "debt (n)",
+        "debtor (n)"
+      ],
+      "coreMeaning": "پولی که به کسی بدهکار هستید",
+      "note": "in debt یعنی بدهکار بودن",
+      "trap": "حرف b در debt تلفظ نمی‌شود: /det/",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "credit",
+      "translation": "اعتبار، بستانکاری",
+      "ipa": "/ˈkredɪt/",
+      "partOfSpeech": "noun",
+      "example": "You can buy this on credit and pay later.",
+      "definitions": [
+        "the ability to obtain goods before payment; an entry on a record of money received"
+      ],
+      "synonyms": [
+        "trust"
+      ],
+      "antonyms": [
+        "debit"
+      ],
+      "collocations": [
+        "credit card",
+        "on credit",
+        "credit score",
+        "credit limit"
+      ],
+      "wordFamily": [
+        "credit (n)",
+        "creditor (n)",
+        "credible (adj)"
+      ],
+      "coreMeaning": "امکان خرید و پرداخت در آینده",
+      "note": "credit card یعنی کارت اعتباری که بعداً پرداخت می‌کنید",
+      "trap": "credit card با debit card فرق دارد: credit = قرض، debit = از حساب خودتان",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "bank",
+      "translation": "بانک",
+      "ipa": "/bæŋk/",
+      "partOfSpeech": "noun",
+      "example": "I need to go to the bank to deposit some money.",
+      "definitions": [
+        "a financial institution that accepts deposits and makes loans"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go to the bank",
+        "bank account",
+        "bank loan",
+        "central bank"
+      ],
+      "wordFamily": [
+        "bank (n)",
+        "banker (n)",
+        "banking (n)"
+      ],
+      "coreMeaning": "مؤسسه مالی برای نگهداری پول و ارائه خدمات مالی",
+      "note": "bank معانی دیگری هم دارد: کنار رودخانه، خمیدگی",
+      "trap": "bank account یعنی حساب بانکی، نه «حساب بانک»",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "account",
+      "translation": "حساب",
+      "ipa": "/əˈkaʊnt/",
+      "partOfSpeech": "noun",
+      "example": "I opened a new bank account yesterday.",
+      "definitions": [
+        "an arrangement with a bank to keep money there; a record of financial transactions"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bank account",
+        "savings account",
+        "open an account",
+        "account number"
+      ],
+      "wordFamily": [
+        "account (n)",
+        "accountant (n)",
+        "accounting (n)"
+      ],
+      "coreMeaning": "ثبت رسمی پول یا خدمات در بانک یا شرکت",
+      "note": "account معانی مختلفی دارد: حساب بانکی، توضیح، گزارش",
+      "trap": "account به عنوان فعل یعنی «توضیح دادن»: How do you account for this?",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "savings",
+      "translation": "پس‌انداز",
+      "ipa": "/ˈseɪvɪŋz/",
+      "partOfSpeech": "noun",
+      "example": "She used her savings to buy a house.",
+      "definitions": [
+        "money that has been saved, especially in a bank; the act of saving money"
+      ],
+      "synonyms": [
+        "reserves",
+        "nest egg"
+      ],
+      "antonyms": [
+        "expenses",
+        "spending"
+      ],
+      "collocations": [
+        "savings account",
+        "life savings",
+        "build up savings"
+      ],
+      "wordFamily": [
+        "savings (n)",
+        "save (v)",
+        "saver (n)"
+      ],
+      "coreMeaning": "پولی که کنار گذاشته شده برای آینده",
+      "note": "savings account حساب پس‌انداز است که سود بیشتری دارد",
+      "trap": "savings همیشه جمع است: My savings are (نه is)",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "salary",
+      "translation": "حقوق، دستمزد ماهانه",
+      "ipa": "/ˈsæləri/",
+      "partOfSpeech": "noun",
+      "example": "His salary is $3,000 a month.",
+      "definitions": [
+        "a fixed regular payment from an employer to an employee"
+      ],
+      "synonyms": [
+        "wage",
+        "pay",
+        "income"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "monthly salary",
+        "annual salary",
+        "base salary",
+        "salary increase"
+      ],
+      "wordFamily": [
+        "salary (n)",
+        "salaried (adj)"
+      ],
+      "coreMeaning": "پول ثابتی که ماهانه از کارفرما دریافت می‌شود",
+      "note": "salary معمولاً ماهانه یا سالانه پرداخت می‌شود؛ wage ساعتی یا هفتگی",
+      "trap": "salary و wage فرق دارند: salary برای کارمندان، wage برای کارگران ساعتی",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "tip",
+      "translation": "انعام",
+      "ipa": "/tɪp/",
+      "partOfSpeech": "noun",
+      "example": "We left a generous tip for the waiter.",
+      "definitions": [
+        "a small amount of money given to someone for a service"
+      ],
+      "synonyms": [
+        "gratuity"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "leave a tip",
+        "generous tip",
+        "tip jar"
+      ],
+      "wordFamily": [
+        "tip (n)",
+        "tip (v)"
+      ],
+      "coreMeaning": "مبلغ اضافی که بابت خدمات خوب پرداخت می‌شود",
+      "note": "در آمریکا انعام معمولاً ۱۵ تا ۲۰ درصد صورتحساب است",
+      "trap": "tip معانی مختلفی دارد: نوک، نصیحت، انعام",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "fee",
+      "translation": "هزینه، حق‌الزحمه",
+      "ipa": "/fiː/",
+      "partOfSpeech": "noun",
+      "example": "There is a small fee for using the ATM.",
+      "definitions": [
+        "a payment made for professional services or a special privilege"
+      ],
+      "synonyms": [
+        "charge",
+        "cost"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "entrance fee",
+        "membership fee",
+        "service fee",
+        "registration fee"
+      ],
+      "wordFamily": [
+        "fee (n)"
+      ],
+      "coreMeaning": "مبلغی که برای خدمات یا امتیاز خاص پرداخت می‌شود",
+      "note": "fee معمولاً برای خدمات حرفه‌ای یا امکانات خاص استفاده می‌شود",
+      "trap": "fee و cost تفاوت دارند: fee برای خدمات، cost برای کالا یا هزینه کلی",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "charge",
+      "translation": "هزینه، شارژ کردن",
+      "ipa": "/tʃɑːrdʒ/",
+      "partOfSpeech": "noun",
+      "example": "There is no charge for delivery.",
+      "definitions": [
+        "the price asked for goods or services; to ask a specified price"
+      ],
+      "synonyms": [
+        "fee",
+        "cost",
+        "price"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "free of charge",
+        "extra charge",
+        "charge a fee",
+        "in charge"
+      ],
+      "wordFamily": [
+        "charge (n)",
+        "charge (v)",
+        "charger (n)"
+      ],
+      "coreMeaning": "مبلغ درخواستی برای کالا یا خدمات",
+      "note": "free of charge یعنی رایگان",
+      "trap": "charge معانی زیادی دارد: هزینه، اتهام، شارژ، مسئولیت",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "payment",
+      "translation": "پرداخت",
+      "ipa": "/ˈpeɪmənt/",
+      "partOfSpeech": "noun",
+      "example": "The payment is due at the end of the month.",
+      "definitions": [
+        "the act of paying money; an amount of money paid"
+      ],
+      "synonyms": [
+        "remittance"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "make a payment",
+        "monthly payment",
+        "payment method",
+        "down payment"
+      ],
+      "wordFamily": [
+        "payment (n)",
+        "pay (v)",
+        "payer (n)"
+      ],
+      "coreMeaning": "عمل پرداخت پول یا مبلغ پرداخت شده",
+      "note": "down payment یعنی پیش‌پرداخت",
+      "trap": "payment از pay گرفته شده ولی pay خودش A1 است",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "loan",
+      "translation": "وام، قرض",
+      "ipa": "/loʊn/",
+      "partOfSpeech": "noun",
+      "example": "She took out a loan to buy a car.",
+      "definitions": [
+        "a thing borrowed, especially a sum of money that is expected to be paid back with interest"
+      ],
+      "synonyms": [
+        "advance",
+        "credit"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "bank loan",
+        "student loan",
+        "take out a loan",
+        "pay back a loan"
+      ],
+      "wordFamily": [
+        "loan (n)",
+        "loan (v)",
+        "lender (n)"
+      ],
+      "coreMeaning": "پول قرض‌گرفته‌شده که باید با سود پس داده شود",
+      "note": "loan معمولاً از بانک گرفته می‌شود و با سود بازپرداخت می‌شود",
+      "trap": "loan هم اسم و هم فعل است: Can you loan me $20?",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "interest",
+      "translation": "بهره، سود بانکی",
+      "ipa": "/ˈɪntrəst/",
+      "partOfSpeech": "noun",
+      "example": "The bank charges 5% interest on the loan.",
+      "definitions": [
+        "money paid for the use of money lent; a charge for borrowing money"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "interest rate",
+        "pay interest",
+        "earn interest",
+        "compound interest"
+      ],
+      "wordFamily": [
+        "interest (n)",
+        "interesting (adj)",
+        "interested (adj)"
+      ],
+      "coreMeaning": "مبلغ اضافی که بابت قرض پرداخت می‌شود",
+      "note": "interest rate نرخ بهره است و معمولاً به صورت درصد سالانه بیان می‌شود",
+      "trap": "interest معانی مختلفی دارد: بهره، علاقه، منفعت",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "currency",
+      "translation": "ارز، واحد پول",
+      "ipa": "/ˈkɜːrənsi/",
+      "partOfSpeech": "noun",
+      "example": "The local currency is the dollar.",
+      "definitions": [
+        "a system of money in general use in a particular country"
+      ],
+      "synonyms": [
+        "money"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "foreign currency",
+        "exchange currency",
+        "local currency",
+        "currency exchange"
+      ],
+      "wordFamily": [
+        "currency (n)",
+        "current (adj)"
+      ],
+      "coreMeaning": "سیستم پول رایج در یک کشور",
+      "note": "هر کشور ارز خاص خود را دارد: دلار، یورو، ریال و غیره",
+      "trap": "currency با cash فرق دارد: currency سیستم پولی است، cash پول نقد است",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "fortune",
+      "translation": "ثروت، بخت",
+      "ipa": "/ˈfɔːrtʃən/",
+      "partOfSpeech": "noun",
+      "example": "He made a fortune selling real estate.",
+      "definitions": [
+        "a large amount of money or assets; luck or chance"
+      ],
+      "synonyms": [
+        "wealth",
+        "riches"
+      ],
+      "antonyms": [
+        "poverty"
+      ],
+      "collocations": [
+        "make a fortune",
+        "small fortune",
+        "fortune teller"
+      ],
+      "wordFamily": [
+        "fortune (n)",
+        "fortunate (adj)",
+        "unfortunate (adj)"
+      ],
+      "coreMeaning": "ثروت بزرگ یا شانس و اقبال",
+      "note": "make a fortune یعنی ثروتمند شدن",
+      "trap": "fortune دو معنی اصلی دارد: ثروت و شانس",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "penny",
+      "translation": "پنی (سکه کم‌ارزش)",
+      "ipa": "/ˈpeni/",
+      "partOfSpeech": "noun",
+      "example": "I found a penny on the sidewalk.",
+      "definitions": [
+        "a small coin worth one cent; a small amount of money"
+      ],
+      "synonyms": [
+        "cent"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "penny for your thoughts",
+        "pretty penny",
+        "every penny"
+      ],
+      "wordFamily": [
+        "penny (n)",
+        "pennies (plural)"
+      ],
+      "coreMeaning": "سکه کم‌ارزش معادل یک سنت",
+      "note": "penny سکه یک سنتی در آمریکا و یک پنسی در بریتانیا است",
+      "trap": "جمع penny در آمریکا pennies، در بریتانیا pence",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "dollar",
+      "translation": "دلار",
+      "ipa": "/ˈdɑːlər/",
+      "partOfSpeech": "noun",
+      "example": "This book costs ten dollars.",
+      "definitions": [
+        "the basic monetary unit of the US, Canada, Australia, and other countries"
+      ],
+      "synonyms": [
+        "buck (informal)"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "US dollar",
+        "dollar sign",
+        "one dollar",
+        "million dollars"
+      ],
+      "wordFamily": [
+        "dollar (n)"
+      ],
+      "coreMeaning": "واحد پول آمریکا و چند کشور دیگر",
+      "note": "نماد دلار $ است و با حروف USD هم نوشته می‌شود",
+      "trap": "dollar در هر کشور ارزش متفاوتی دارد",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "cent",
+      "translation": "سنت",
+      "ipa": "/sent/",
+      "partOfSpeech": "noun",
+      "example": "The candy costs only 50 cents.",
+      "definitions": [
+        "a monetary unit equal to one hundredth of a dollar"
+      ],
+      "synonyms": [
+        "penny"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "per cent",
+        "not worth a cent",
+        "every cent"
+      ],
+      "wordFamily": [
+        "cent (n)"
+      ],
+      "coreMeaning": "صدم واحد پول (یک صدم دلار)",
+      "note": "100 cents = 1 dollar",
+      "trap": "cent با sent (فرستادن) هم‌آوا است ولی معنی متفاوتی دارد",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "spend",
+      "translation": "خرج کردن، صرف کردن",
+      "ipa": "/spend/",
+      "partOfSpeech": "verb",
+      "example": "I spent too much money on clothes last month.",
+      "definitions": [
+        "to pay out money for goods or services; to use time for a purpose"
+      ],
+      "synonyms": [
+        "expend"
+      ],
+      "antonyms": [
+        "save"
+      ],
+      "collocations": [
+        "spend money",
+        "spend time",
+        "spend on",
+        "spend wisely"
+      ],
+      "wordFamily": [
+        "spend (v)",
+        "spending (n)",
+        "spender (n)"
+      ],
+      "coreMeaning": "پول یا وقت خرج کردن",
+      "note": "spend هم برای پول و هم برای وقت استفاده می‌شود",
+      "trap": "گذشته spend، spent است (بی‌قاعده)",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "save",
+      "translation": "پس‌انداز کردن، ذخیره کردن",
+      "ipa": "/seɪv/",
+      "partOfSpeech": "verb",
+      "example": "I'm saving money for a vacation.",
+      "definitions": [
+        "to keep money for future use instead of spending it; to rescue"
+      ],
+      "synonyms": [
+        "set aside"
+      ],
+      "antonyms": [
+        "spend",
+        "waste"
+      ],
+      "collocations": [
+        "save money",
+        "save up",
+        "save for",
+        "save time"
+      ],
+      "wordFamily": [
+        "save (v)",
+        "savings (n)",
+        "saver (n)"
+      ],
+      "coreMeaning": "کنار گذاشتن پول برای آینده",
+      "note": "save معانی مختلفی دارد: پس‌انداز، نجات دادن، ذخیره کردن",
+      "trap": "save up for یعنی پس‌انداز کردن برای چیز خاص",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "owe",
+      "translation": "بدهکار بودن",
+      "ipa": "/oʊ/",
+      "partOfSpeech": "verb",
+      "example": "I owe you $20 for lunch.",
+      "definitions": [
+        "to be indebted to someone for something; to be under obligation to pay"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "owe money",
+        "owe someone",
+        "owe a debt",
+        "owe a favor"
+      ],
+      "wordFamily": [
+        "owe (v)",
+        "owing (adj)"
+      ],
+      "coreMeaning": "بدهکار بودن به کسی",
+      "note": "owe یعنی باید پول یا لطفی را پس بدهید",
+      "trap": "owe با own (مالک بودن) اشتباه نشود",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "deposit",
+      "translation": "پیش‌پرداخت، سپرده",
+      "ipa": "/dɪˈpɑːzɪt/",
+      "partOfSpeech": "noun",
+      "example": "You need to pay a deposit when you rent an apartment.",
+      "definitions": [
+        "a sum of money placed in a bank account; a partial payment made as a guarantee"
+      ],
+      "synonyms": [
+        "down payment"
+      ],
+      "antonyms": [
+        "withdrawal"
+      ],
+      "collocations": [
+        "bank deposit",
+        "pay a deposit",
+        "security deposit",
+        "deposit account"
+      ],
+      "wordFamily": [
+        "deposit (n)",
+        "deposit (v)"
+      ],
+      "coreMeaning": "مبلغی که به عنوان تضمین یا پیش‌پرداخت داده می‌شود",
+      "note": "deposit هم اسم و هم فعل است: deposit money into your account",
+      "trap": "deposit با withdrawal (برداشت) جهت مخالف دارد",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "withdraw",
+      "translation": "برداشتن (پول از بانک)",
+      "ipa": "/wɪðˈdrɔː/",
+      "partOfSpeech": "verb",
+      "example": "I need to withdraw $100 from the ATM.",
+      "definitions": [
+        "to take money out of a bank account; to remove or take away"
+      ],
+      "synonyms": [
+        "take out"
+      ],
+      "antonyms": [
+        "deposit"
+      ],
+      "collocations": [
+        "withdraw money",
+        "withdraw cash",
+        "withdraw from"
+      ],
+      "wordFamily": [
+        "withdraw (v)",
+        "withdrawal (n)"
+      ],
+      "coreMeaning": "برداشتن پول از حساب بانکی",
+      "note": "withdrawal اسم فعل withdraw است",
+      "trap": "گذشته withdraw، withdrew و گذشته کامل withdrawn است",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "size",
+      "translation": "سایز، اندازه",
+      "ipa": "/saɪz/",
+      "partOfSpeech": "noun",
+      "example": "What size do you wear — small, medium, or large?",
+      "definitions": [
+        "the relative extent of something; a measurement of how big something is"
+      ],
+      "synonyms": [
+        "dimension",
+        "measurement"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "what size",
+        "size chart",
+        "one size fits all",
+        "plus size"
+      ],
+      "wordFamily": [
+        "size (n)",
+        "sized (adj)"
+      ],
+      "coreMeaning": "اندازه یا درجه بزرگی چیزی",
+      "note": "سایز لباس معمولاً S, M, L, XL نوشته می‌شود",
+      "trap": "size برای لباس، کفش، و اشیاء استفاده می‌شود",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "fit",
+      "translation": "اندازه بودن، مناسب بودن",
+      "ipa": "/fɪt/",
+      "partOfSpeech": "verb",
+      "example": "These shoes don't fit me — they're too small.",
+      "definitions": [
+        "to be the right size or shape for someone; to be suitable"
+      ],
+      "synonyms": [
+        "suit",
+        "match"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fit well",
+        "fit perfectly",
+        "try on and fit",
+        "good fit"
+      ],
+      "wordFamily": [
+        "fit (v)",
+        "fit (n)",
+        "fitting (n)"
+      ],
+      "coreMeaning": "مناسب بودن از نظر اندازه یا شکل",
+      "note": "fit هم فعل و هم اسم و هم صفت است",
+      "trap": "گذشته fit هم fit است (بی‌قاعده): The dress fit her perfectly",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "brand",
+      "translation": "برند، مارک",
+      "ipa": "/brænd/",
+      "partOfSpeech": "noun",
+      "example": "What brand of phone do you have?",
+      "definitions": [
+        "a type of product made by a particular company; a trademark"
+      ],
+      "synonyms": [
+        "make",
+        "label",
+        "trademark"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "brand name",
+        "brand new",
+        "top brand",
+        "brand loyalty"
+      ],
+      "wordFamily": [
+        "brand (n)",
+        "branding (n)"
+      ],
+      "coreMeaning": "نام تجاری یا مارک یک محصول",
+      "note": "brand new یعنی نو و آکبند",
+      "trap": "brand با make (سازنده) تفاوت دارد ولی گاهی به جای هم استفاده می‌شوند",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "fashion",
+      "translation": "مد، فشن",
+      "ipa": "/ˈfæʃən/",
+      "partOfSpeech": "noun",
+      "example": "She's always interested in the latest fashion.",
+      "definitions": [
+        "a popular trend in clothing, style, or behavior at a particular time"
+      ],
+      "synonyms": [
+        "style",
+        "trend"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fashion show",
+        "fashion industry",
+        "in fashion",
+        "out of fashion"
+      ],
+      "wordFamily": [
+        "fashion (n)",
+        "fashionable (adj)"
+      ],
+      "coreMeaning": "روش رایج و محبوب پوشیدن لباس در زمان مشخص",
+      "note": "in fashion یعنی مد روز؛ out of fashion یعنی از مد افتاده",
+      "trap": "fashion با style تفاوت دارد: fashion موقتی، style شخصی و دائمی",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "style",
+      "translation": "سبک، استایل",
+      "ipa": "/staɪl/",
+      "partOfSpeech": "noun",
+      "example": "I like your style — that outfit looks great on you.",
+      "definitions": [
+        "a manner of doing or presenting something; a particular fashion or design"
+      ],
+      "synonyms": [
+        "fashion",
+        "design",
+        "manner"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "personal style",
+        "style of clothing",
+        "in style",
+        "hairstyle"
+      ],
+      "wordFamily": [
+        "style (n)",
+        "stylish (adj)",
+        "stylist (n)"
+      ],
+      "coreMeaning": "شیوه خاص پوشش یا انجام کار",
+      "note": "style شخصی‌تر از fashion است و به سلیقه فرد بستگی دارد",
+      "trap": "style معانی مختلفی دارد: سبک، شیوه، طراحی",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "fabric",
+      "translation": "پارچه",
+      "ipa": "/ˈfæbrɪk/",
+      "partOfSpeech": "noun",
+      "example": "This fabric is very soft and comfortable.",
+      "definitions": [
+        "cloth produced by weaving or knitting fibers; material for making clothes"
+      ],
+      "synonyms": [
+        "cloth",
+        "material",
+        "textile"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cotton fabric",
+        "fabric softener",
+        "fabric store"
+      ],
+      "wordFamily": [
+        "fabric (n)"
+      ],
+      "coreMeaning": "ماده بافته‌شده برای ساخت لباس و پوشاک",
+      "note": "fabric انواع مختلف دارد: cotton, silk, wool, polyester",
+      "trap": "fabric و material گاهی به جای هم استفاده می‌شوند ولی fabric مخصوص پارچه است",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "material",
+      "translation": "ماده، جنس",
+      "ipa": "/məˈtɪriəl/",
+      "partOfSpeech": "noun",
+      "example": "What material is this shirt made of?",
+      "definitions": [
+        "the matter from which a thing is or can be made; cloth or fabric"
+      ],
+      "synonyms": [
+        "fabric",
+        "substance"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "raw material",
+        "material quality",
+        "natural material"
+      ],
+      "wordFamily": [
+        "material (n)",
+        "material (adj)",
+        "materialism (n)"
+      ],
+      "coreMeaning": "ماده‌ای که چیزی از آن ساخته شده",
+      "note": "material می‌تواند هر ماده‌ای باشد: چوب، فلز، پارچه و غیره",
+      "trap": "material به عنوان صفت یعنی «مادی»: material wealth (ثروت مادی)",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "pattern",
+      "translation": "طرح، الگو",
+      "ipa": "/ˈpætərn/",
+      "partOfSpeech": "noun",
+      "example": "I love the floral pattern on this dress.",
+      "definitions": [
+        "a repeated decorative design; a regular arrangement of shapes or colors"
+      ],
+      "synonyms": [
+        "design",
+        "motif"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "floral pattern",
+        "striped pattern",
+        "pattern design"
+      ],
+      "wordFamily": [
+        "pattern (n)",
+        "patterned (adj)"
+      ],
+      "coreMeaning": "طرح تکرارشونده روی پارچه یا سطح",
+      "note": "pattern‌های معروف: floral (گلدار)، striped (راه‌راه)، polka dot (خال‌خالی)",
+      "trap": "pattern معانی مختلفی دارد: الگو، طرح، نقشه",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "design",
+      "translation": "طراحی",
+      "ipa": "/dɪˈzaɪn/",
+      "partOfSpeech": "noun",
+      "example": "The design of this bag is very modern.",
+      "definitions": [
+        "a plan or drawing produced to show the function or appearance of something"
+      ],
+      "synonyms": [
+        "pattern",
+        "style"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "graphic design",
+        "interior design",
+        "designer brand",
+        "by design"
+      ],
+      "wordFamily": [
+        "design (n)",
+        "design (v)",
+        "designer (n)"
+      ],
+      "coreMeaning": "نقشه یا طرح برای ساختن چیزی",
+      "note": "designer brand یعنی برند طراح معروف و معمولاً گران",
+      "trap": "design هم اسم و هم فعل است: She designs clothes",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "label",
+      "translation": "برچسب، لیبل",
+      "ipa": "/ˈleɪbəl/",
+      "partOfSpeech": "noun",
+      "example": "Check the label for washing instructions.",
+      "definitions": [
+        "a piece of paper or material attached to an object with information about it"
+      ],
+      "synonyms": [
+        "tag",
+        "sticker"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "price label",
+        "care label",
+        "brand label",
+        "label maker"
+      ],
+      "wordFamily": [
+        "label (n)",
+        "label (v)"
+      ],
+      "coreMeaning": "برچسب حاوی اطلاعات روی محصول",
+      "note": "label روی لباس شامل اطلاعات شستشو، سایز و جنس است",
+      "trap": "label و tag گاهی به جای هم استفاده می‌شوند ولی label معمولاً بزرگ‌تر است",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "tag",
+      "translation": "تگ، برچسب کوچک",
+      "ipa": "/tæɡ/",
+      "partOfSpeech": "noun",
+      "example": "The price tag says $25.",
+      "definitions": [
+        "a small label attached to an item, especially with a price on it"
+      ],
+      "synonyms": [
+        "label",
+        "marker"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "price tag",
+        "remove the tag",
+        "tag sale"
+      ],
+      "wordFamily": [
+        "tag (n)",
+        "tag (v)"
+      ],
+      "coreMeaning": "برچسب کوچک روی کالا معمولاً با قیمت",
+      "note": "price tag برچسب قیمت است",
+      "trap": "tag معانی مختلفی دارد: برچسب، بازی تعقیب، هشتگ",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "zipper",
+      "translation": "زیپ",
+      "ipa": "/ˈzɪpər/",
+      "partOfSpeech": "noun",
+      "example": "The zipper on my jacket is broken.",
+      "definitions": [
+        "a fastening device with two rows of interlocking teeth operated by a sliding tab"
+      ],
+      "synonyms": [
+        "zip"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "zipper pocket",
+        "pull the zipper",
+        "zipper is stuck"
+      ],
+      "wordFamily": [
+        "zipper (n)",
+        "zip (v)"
+      ],
+      "coreMeaning": "وسیله بستن لباس با دو ردیف دندانه فلزی",
+      "note": "zipper در بریتانیا بیشتر zip گفته می‌شود",
+      "trap": "zipper با button (دکمه) فرق دارد",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "button",
+      "translation": "دکمه لباس",
+      "ipa": "/ˈbʌtən/",
+      "partOfSpeech": "noun",
+      "example": "A button fell off my shirt.",
+      "definitions": [
+        "a small disc or knob sewn onto a garment for fastening; a switch on a device"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "sew a button",
+        "press the button",
+        "button up",
+        "button-down shirt"
+      ],
+      "wordFamily": [
+        "button (n)",
+        "button (v)"
+      ],
+      "coreMeaning": "قطعه کوچک برای بستن لباس یا فشار دادن دستگاه",
+      "note": "button معانی مختلفی دارد: دکمه لباس، دکمه آسانسور، دکمه ماوس",
+      "trap": "button up یعنی دکمه کردن لباس",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "pocket",
+      "translation": "جیب",
+      "ipa": "/ˈpɑːkɪt/",
+      "partOfSpeech": "noun",
+      "example": "I keep my keys in my pocket.",
+      "definitions": [
+        "a small bag sewn into clothing for carrying small items"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "front pocket",
+        "back pocket",
+        "pocket money",
+        "out of pocket"
+      ],
+      "wordFamily": [
+        "pocket (n)",
+        "pocket (adj)"
+      ],
+      "coreMeaning": "کیسه کوچک دوخته‌شده در لباس برای حمل وسایل",
+      "note": "pocket money یعنی پول توجیبی",
+      "trap": "pocket به عنوان صفت یعنی «جیبی»: pocket dictionary (فرهنگ جیبی)",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "sleeve",
+      "translation": "آستین",
+      "ipa": "/sliːv/",
+      "partOfSpeech": "noun",
+      "example": "This shirt has long sleeves.",
+      "definitions": [
+        "the part of a garment that covers the arm"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "long sleeve",
+        "short sleeve",
+        "roll up sleeves",
+        "sleeveless"
+      ],
+      "wordFamily": [
+        "sleeve (n)",
+        "sleeveless (adj)"
+      ],
+      "coreMeaning": "بخشی از لباس که دست را می‌پوشاند",
+      "note": "long sleeve آستین بلند، short sleeve آستین کوتاه",
+      "trap": "sleeve با arm فرق دارد: sleeve بخش لباس، arm بخش بدن",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "collar",
+      "translation": "یقه",
+      "ipa": "/ˈkɑːlər/",
+      "partOfSpeech": "noun",
+      "example": "This shirt has a nice collar design.",
+      "definitions": [
+        "the part of a shirt, dress, or coat that fits around the neck"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "shirt collar",
+        "collar bone",
+        "white collar",
+        "blue collar"
+      ],
+      "wordFamily": [
+        "collar (n)"
+      ],
+      "coreMeaning": "بخشی از لباس که دور گردن قرار می‌گیرد",
+      "note": "white collar یعنی کار اداری، blue collar یعنی کار فیزیکی",
+      "trap": "collar با neck فرق دارد: collar بخش لباس، neck بخش بدن",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "waist",
+      "translation": "کمر",
+      "ipa": "/weɪst/",
+      "partOfSpeech": "noun",
+      "example": "These pants are too tight around the waist.",
+      "definitions": [
+        "the part of the body between the ribs and the hips"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "waist size",
+        "waist line",
+        "waist high",
+        "waist belt"
+      ],
+      "wordFamily": [
+        "waist (n)"
+      ],
+      "coreMeaning": "قسمت باریک بدن بین دنده‌ها و لگن",
+      "note": "waist size اندازه دور کمر است",
+      "trap": "waist با waste (هدر دادن) هم‌آوا است ولی معنی متفاوتی دارد",
+      "tags": [
+        "A2",
+        "shopping",
+        "clothing"
+      ]
+    },
+    {
+      "word": "order",
+      "translation": "سفارش",
+      "ipa": "/ˈɔːrdər/",
+      "partOfSpeech": "noun",
+      "example": "I'd like to place an order for two pizzas.",
+      "definitions": [
+        "a request for something to be made, supplied, or delivered; arrangement"
+      ],
+      "synonyms": [
+        "request"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "place an order",
+        "order online",
+        "in order",
+        "out of order"
+      ],
+      "wordFamily": [
+        "order (n)",
+        "order (v)",
+        "orderly (adj)"
+      ],
+      "coreMeaning": "درخواست خرید یا تهیه کالا یا خدمات",
+      "note": "place an order یعنی سفارش دادن",
+      "trap": "order معانی مختلفی دارد: سفارش، نظم، دستور",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "deliver",
+      "translation": "تحویل دادن",
+      "ipa": "/dɪˈlɪvər/",
+      "partOfSpeech": "verb",
+      "example": "The store delivers to your home for free.",
+      "definitions": [
+        "to bring and hand over something to the proper recipient; to transport goods"
+      ],
+      "synonyms": [
+        "ship",
+        "transport"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "deliver to",
+        "home delivery",
+        "deliver on time",
+        "express delivery"
+      ],
+      "wordFamily": [
+        "deliver (v)",
+        "delivery (n)",
+        "deliverer (n)"
+      ],
+      "coreMeaning": "رساندن کالا به مشتری یا مقصد",
+      "note": "home delivery یعنی تحویل درب منزل",
+      "trap": "deliver معانی مختلفی دارد: تحویل، اجرا کردن (سخنرانی)، زایمان",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "refund",
+      "translation": "بازپرداخت، استرداد",
+      "ipa": "/ˈriːfʌnd/",
+      "partOfSpeech": "noun",
+      "example": "I got a full refund for the broken item.",
+      "definitions": [
+        "a return of money for a defective or unwanted product"
+      ],
+      "synonyms": [
+        "reimbursement",
+        "repayment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "full refund",
+        "ask for a refund",
+        "refund policy",
+        "money-back refund"
+      ],
+      "wordFamily": [
+        "refund (n)",
+        "refund (v)"
+      ],
+      "coreMeaning": "پس دادن پول بابت کالای معیوب یا ناخواسته",
+      "note": "refund policy سیاست بازپرداخت فروشگاه است",
+      "trap": "refund هم اسم و هم فعل است: I want a refund / They will refund me",
+      "tags": [
+        "A2",
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "word": "exchange",
+      "translation": "تعویض، مبادله",
+      "ipa": "/ɪksˈtʃeɪndʒ/",
+      "partOfSpeech": "noun",
+      "example": "Can I exchange this shirt for a larger size?",
+      "definitions": [
+        "the act of giving one thing and receiving another in return"
+      ],
+      "synonyms": [
+        "swap",
+        "trade"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "exchange rate",
+        "in exchange for",
+        "exchange policy",
+        "currency exchange"
+      ],
+      "wordFamily": [
+        "exchange (n)",
+        "exchange (v)"
+      ],
+      "coreMeaning": "دادن چیزی و گرفتن چیز دیگر در عوض",
+      "note": "exchange rate نرخ تبدیل ارز است",
+      "trap": "exchange با refund فرق دارد: exchange تعویض، refund پس دادن پول",
+      "tags": [
+        "A2",
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "word": "return",
+      "translation": "برگرداندن، مرجوع کردن",
+      "ipa": "/rɪˈtɜːrn/",
+      "partOfSpeech": "verb",
+      "example": "I need to return this shirt — it doesn't fit.",
+      "definitions": [
+        "to give, put, or send something back; to come back to a place"
+      ],
+      "synonyms": [
+        "send back"
+      ],
+      "antonyms": [
+        "keep"
+      ],
+      "collocations": [
+        "return policy",
+        "return an item",
+        "in return",
+        "return address"
+      ],
+      "wordFamily": [
+        "return (v)",
+        "return (n)"
+      ],
+      "coreMeaning": "پس دادن کالا به فروشگاه",
+      "note": "return policy سیاست مرجوعی فروشگاه است",
+      "trap": "return معانی مختلفی دارد: برگرداندن، بازگشت، سود سرمایه",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "wrap",
+      "translation": "کادو کردن، بسته‌بندی",
+      "ipa": "/ræp/",
+      "partOfSpeech": "verb",
+      "example": "Could you wrap this as a gift, please?",
+      "definitions": [
+        "to cover something by winding or folding paper or cloth around it"
+      ],
+      "synonyms": [
+        "package",
+        "cover"
+      ],
+      "antonyms": [
+        "unwrap"
+      ],
+      "collocations": [
+        "gift wrap",
+        "wrap up",
+        "wrap a present"
+      ],
+      "wordFamily": [
+        "wrap (v)",
+        "wrapper (n)",
+        "wrapping (n)"
+      ],
+      "coreMeaning": "پیچیدن کاغذ یا پارچه دور چیزی",
+      "note": "gift wrap یعنی کاغذ کادو یا کادو کردن",
+      "trap": "wrap با rap (ضربه زدن) اشتباه نشود",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "pack",
+      "translation": "بسته‌بندی کردن",
+      "ipa": "/pæk/",
+      "partOfSpeech": "verb",
+      "example": "The cashier packed the groceries into bags.",
+      "definitions": [
+        "to fill a bag or container with things; to put things together for transport"
+      ],
+      "synonyms": [
+        "package",
+        "box"
+      ],
+      "antonyms": [
+        "unpack"
+      ],
+      "collocations": [
+        "pack a bag",
+        "pack up",
+        "six-pack",
+        "pack of gum"
+      ],
+      "wordFamily": [
+        "pack (v)",
+        "pack (n)",
+        "package (n)",
+        "packing (n)"
+      ],
+      "coreMeaning": "قرار دادن اشیاء در کیسه یا جعبه برای حمل",
+      "note": "pack up یعنی جمع کردن وسایل",
+      "trap": "pack هم فعل و هم اسم است: a pack of cards (یک دست ورق)",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "browse",
+      "translation": "ویترین‌گردی، مرور کردن",
+      "ipa": "/braʊz/",
+      "partOfSpeech": "verb",
+      "example": "I was just browsing — I'm not ready to buy yet.",
+      "definitions": [
+        "to look at goods in a shop without a definite intention to buy; to scan casually"
+      ],
+      "synonyms": [
+        "look around",
+        "window-shop"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "browse the web",
+        "browse through",
+        "just browsing"
+      ],
+      "wordFamily": [
+        "browse (v)",
+        "browser (n)"
+      ],
+      "coreMeaning": "نگاه کردن به کالاها بدون قصد خرید جدی",
+      "note": "just browsing پاسخ رایج وقتی فروشنده می‌پرسد «کمک می‌خواهید؟»",
+      "trap": "browse هم برای فروشگاه و هم برای اینترنت استفاده می‌شود",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "compare",
+      "translation": "مقایسه کردن",
+      "ipa": "/kəmˈper/",
+      "partOfSpeech": "verb",
+      "example": "Let's compare prices before we buy.",
+      "definitions": [
+        "to examine the similarities and differences between two or more things"
+      ],
+      "synonyms": [
+        "contrast"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "compare prices",
+        "compare with",
+        "comparison shop"
+      ],
+      "wordFamily": [
+        "compare (v)",
+        "comparison (n)",
+        "comparable (adj)"
+      ],
+      "coreMeaning": "بررسی شباهت‌ها و تفاوت‌ها بین دو یا چند چیز",
+      "note": "comparison shopping یعنی مقایسه قیمت‌ها قبل از خرید",
+      "trap": "compare to و compare with تفاوت دارند: compare with برای مقایسه دقیق",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "queue",
+      "translation": "صف",
+      "ipa": "/kjuː/",
+      "partOfSpeech": "noun",
+      "example": "There was a long queue at the checkout.",
+      "definitions": [
+        "a line of people waiting for something"
+      ],
+      "synonyms": [
+        "line"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "stand in a queue",
+        "long queue",
+        "queue up",
+        "jump the queue"
+      ],
+      "wordFamily": [
+        "queue (n)",
+        "queue (v)"
+      ],
+      "coreMeaning": "ردیف افراد منتظر برای دریافت خدمات",
+      "note": "در بریتانیا queue، در آمریکا line گفته می‌شود",
+      "trap": "queue حرف‌های ue تلفظ نمی‌شوند: /kjuː/",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "total",
+      "translation": "جمع کل",
+      "ipa": "/ˈtoʊtəl/",
+      "partOfSpeech": "noun",
+      "example": "The total comes to $45.50.",
+      "definitions": [
+        "the whole amount; the final sum after adding everything together"
+      ],
+      "synonyms": [
+        "sum",
+        "amount"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "total amount",
+        "in total",
+        "grand total",
+        "total cost"
+      ],
+      "wordFamily": [
+        "total (n)",
+        "total (adj)",
+        "totally (adv)"
+      ],
+      "coreMeaning": "مبلغ نهایی پس از جمع همه اقلام",
+      "note": "in total یعنی در مجموع، روی هم رفته",
+      "trap": "total هم اسم و هم صفت است: total cost (هزینه کل) / The total is $50",
+      "tags": [
+        "A2",
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "word": "amount",
+      "translation": "مقدار، مبلغ",
+      "ipa": "/əˈmaʊnt/",
+      "partOfSpeech": "noun",
+      "example": "What is the total amount I owe?",
+      "definitions": [
+        "a quantity of something, especially money; the total of two or more quantities"
+      ],
+      "synonyms": [
+        "sum",
+        "quantity"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "total amount",
+        "large amount",
+        "amount of money",
+        "small amount"
+      ],
+      "wordFamily": [
+        "amount (n)",
+        "amount (v)"
+      ],
+      "coreMeaning": "مقدار یا مجموع چیزی، به ویژه پول",
+      "note": "amount معمولاً برای چیزهای غیرقابل شمارش استفاده می‌شود",
+      "trap": "amount با number فرق دارد: amount غیرقابل شمارش، number قابل شمارش",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "value",
+      "translation": "ارزش",
+      "ipa": "/ˈvæljuː/",
+      "partOfSpeech": "noun",
+      "example": "The value of this painting is over $10,000.",
+      "definitions": [
+        "the worth of something; the importance or usefulness of something"
+      ],
+      "synonyms": [
+        "worth",
+        "merit"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "good value",
+        "value for money",
+        "market value",
+        "high value"
+      ],
+      "wordFamily": [
+        "value (n)",
+        "value (v)",
+        "valuable (adj)",
+        "invaluable (adj)"
+      ],
+      "coreMeaning": "ارزش مالی یا اهمیت چیزی",
+      "note": "value for money یعنی ارزش خرید، به‌صرفه بودن",
+      "trap": "value for money یعنی کیفیت خوب نسبت به قیمت، نه لزوماً ارزان بودن",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "worth",
+      "translation": "ارزش داشتن",
+      "ipa": "/wɜːrθ/",
+      "partOfSpeech": "adjective",
+      "example": "This watch is worth about $200.",
+      "definitions": [
+        "having a value equivalent to; deserving of"
+      ],
+      "synonyms": [
+        "valued at"
+      ],
+      "antonyms": [
+        "worthless"
+      ],
+      "collocations": [
+        "worth it",
+        "worth doing",
+        "net worth",
+        "well worth"
+      ],
+      "wordFamily": [
+        "worth (adj)",
+        "worthy (adj)",
+        "worthless (adj)"
+      ],
+      "coreMeaning": "ارزش داشتن به مقدار مشخص",
+      "note": "worth it یعنی ارزشش را داشتن",
+      "trap": "worth با value فرق دارد: worth صفت است، value اسم",
+      "tags": [
+        "A2",
+        "money"
+      ]
+    },
+    {
+      "word": "offer",
+      "translation": "پیشنهاد، عرضه",
+      "ipa": "/ˈɔːfər/",
+      "partOfSpeech": "noun",
+      "example": "The store has a special offer on electronics this week.",
+      "definitions": [
+        "a proposal to sell something at a stated price; a special deal"
+      ],
+      "synonyms": [
+        "deal",
+        "proposal"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "special offer",
+        "on offer",
+        "make an offer",
+        "offer price"
+      ],
+      "wordFamily": [
+        "offer (n)",
+        "offer (v)"
+      ],
+      "coreMeaning": "پیشنهاد فروش یا معامله ویژه",
+      "note": "on offer یعنی در حال حراج یا با پیشنهاد ویژه",
+      "trap": "offer هم اسم و هم فعل است: They offered me a discount / a special offer",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "deal",
+      "translation": "معامله، توافق",
+      "ipa": "/diːl/",
+      "partOfSpeech": "noun",
+      "example": "We got a great deal on our new sofa.",
+      "definitions": [
+        "an agreement between parties; a bargain or advantageous purchase"
+      ],
+      "synonyms": [
+        "bargain",
+        "agreement"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "good deal",
+        "great deal",
+        "deal with",
+        "close a deal"
+      ],
+      "wordFamily": [
+        "deal (n)",
+        "deal (v)",
+        "dealer (n)"
+      ],
+      "coreMeaning": "توافق یا معامله بین دو طرف",
+      "note": "a great deal یعنی معامله خوب و به‌صرفه",
+      "trap": "a great deal of یعنی مقدار زیادی: a great deal of money",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "item",
+      "translation": "قلم کالا، آیتم",
+      "ipa": "/ˈaɪtəm/",
+      "partOfSpeech": "noun",
+      "example": "Each item in the store has a price tag.",
+      "definitions": [
+        "an individual article or unit; a single thing in a list or collection"
+      ],
+      "synonyms": [
+        "article",
+        "product"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "item of clothing",
+        "menu item",
+        "single item",
+        "item number"
+      ],
+      "wordFamily": [
+        "item (n)"
+      ],
+      "coreMeaning": "یک قلم کالا یا شیء منفرد",
+      "note": "item معمولاً در فروشگاه و لیست استفاده می‌شود",
+      "trap": "item معانی مختلفی دارد: کالا، آیتم منو، بند لیست",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "product",
+      "translation": "محصول",
+      "ipa": "/ˈprɑːdʌkt/",
+      "partOfSpeech": "noun",
+      "example": "This product is made in Japan.",
+      "definitions": [
+        "an article manufactured or refined for sale; a result of a process"
+      ],
+      "synonyms": [
+        "goods",
+        "merchandise"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "product quality",
+        "product line",
+        "new product",
+        "product review"
+      ],
+      "wordFamily": [
+        "product (n)",
+        "produce (v)",
+        "production (n)",
+        "productive (adj)"
+      ],
+      "coreMeaning": "کالای ساخته‌شده برای فروش",
+      "note": "product review نظر مشتریان درباره محصول است",
+      "trap": "product و produce تفاوت دارند: product کالای ساخته‌شده، produce میوه و سبزیجات",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "goods",
+      "translation": "کالاها، اجناس",
+      "ipa": "/ɡʊdz/",
+      "partOfSpeech": "noun",
+      "example": "The store sells a variety of household goods.",
+      "definitions": [
+        "merchandise or possessions; things that are produced to be sold"
+      ],
+      "synonyms": [
+        "merchandise",
+        "products"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "household goods",
+        "goods and services",
+        "deliver goods",
+        "damaged goods"
+      ],
+      "wordFamily": [
+        "goods (n)",
+        "good (adj)"
+      ],
+      "coreMeaning": "کالاها و اجناس قابل فروش",
+      "note": "goods همیشه جمع است و مفرد ندارد",
+      "trap": "goods با good (خوب) فرق دارد: goods فقط اسم جمع است",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "quality",
+      "translation": "کیفیت",
+      "ipa": "/ˈkwɑːləti/",
+      "partOfSpeech": "noun",
+      "example": "The quality of this product is excellent.",
+      "definitions": [
+        "the standard of something as measured against similar things; a distinctive attribute"
+      ],
+      "synonyms": [
+        "standard",
+        "grade"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "high quality",
+        "low quality",
+        "quality control",
+        "quality product"
+      ],
+      "wordFamily": [
+        "quality (n)",
+        "qualitative (adj)"
+      ],
+      "coreMeaning": "سطح خوبی یا بدی چیزی",
+      "note": "high quality یعنی باکیفیت، low quality یعنی بی‌کیفیت",
+      "trap": "quality به عنوان صفت یعنی «باکیفیت»: quality products",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "quantity",
+      "translation": "تعداد، مقدار",
+      "ipa": "/ˈkwɑːntəti/",
+      "partOfSpeech": "noun",
+      "example": "We need a large quantity of paper for the office.",
+      "definitions": [
+        "the amount or number of something; a large amount"
+      ],
+      "synonyms": [
+        "amount",
+        "volume"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "large quantity",
+        "small quantity",
+        "quantity discount",
+        "in quantity"
+      ],
+      "wordFamily": [
+        "quantity (n)",
+        "quantitative (adj)"
+      ],
+      "coreMeaning": "مقدار یا تعداد چیزی",
+      "note": "quantity discount تخفیف برای خرید عمده است",
+      "trap": "quantity برای چیزهای قابل شمارش و غیرقابل شمارش هر دو استفاده می‌شود",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "register",
+      "translation": "صندوق فروش، ثبت‌نام",
+      "ipa": "/ˈredʒɪstər/",
+      "partOfSpeech": "noun",
+      "example": "Please pay at the register.",
+      "definitions": [
+        "a machine used in shops to calculate and record transactions; an official list"
+      ],
+      "synonyms": [
+        "cash register",
+        "till"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cash register",
+        "at the register",
+        "register for",
+        "register a complaint"
+      ],
+      "wordFamily": [
+        "register (n)",
+        "register (v)",
+        "registration (n)"
+      ],
+      "coreMeaning": "دستگاه صندوق فروشگاه برای ثبت خرید و پرداخت",
+      "note": "cash register دستگاه صندوق است که پول نگهداری می‌کند",
+      "trap": "register هم اسم و هم فعل است: register for a class (ثبت‌نام کردن)",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "purchase",
+      "translation": "خرید، خریداری",
+      "ipa": "/ˈpɜːrtʃəs/",
+      "partOfSpeech": "noun",
+      "example": "Make your purchase before the sale ends.",
+      "definitions": [
+        "the action of buying something; something that has been bought"
+      ],
+      "synonyms": [
+        "buy",
+        "acquisition"
+      ],
+      "antonyms": [
+        "sale"
+      ],
+      "collocations": [
+        "make a purchase",
+        "purchase price",
+        "purchase order",
+        "online purchase"
+      ],
+      "wordFamily": [
+        "purchase (n)",
+        "purchase (v)"
+      ],
+      "coreMeaning": "عمل خریدن یا چیز خریداری‌شده",
+      "note": "purchase رسمی‌تر از buy است",
+      "trap": "purchase بیشتر در زبان رسمی و تجاری استفاده می‌شود",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "shopping",
+      "translation": "خرید کردن",
+      "ipa": "/ˈʃɑːpɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "I love going shopping on weekends.",
+      "definitions": [
+        "the activity of buying goods from shops"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go shopping",
+        "shopping bag",
+        "shopping list",
+        "online shopping"
+      ],
+      "wordFamily": [
+        "shopping (n)",
+        "shop (v)",
+        "shopper (n)"
+      ],
+      "coreMeaning": "فعالیت خرید کردن از فروشگاه‌ها",
+      "note": "go shopping یعنی برای خرید بیرون رفتن",
+      "trap": "shopping اسم مصدر است و از فعل shop گرفته شده",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "consumer",
+      "translation": "مصرف‌کننده",
+      "ipa": "/kənˈsuːmər/",
+      "partOfSpeech": "noun",
+      "example": "Consumer rights are protected by law.",
+      "definitions": [
+        "a person who buys goods or services for personal use"
+      ],
+      "synonyms": [
+        "buyer",
+        "customer"
+      ],
+      "antonyms": [
+        "producer",
+        "seller"
+      ],
+      "collocations": [
+        "consumer rights",
+        "consumer goods",
+        "consumer demand"
+      ],
+      "wordFamily": [
+        "consumer (n)",
+        "consume (v)",
+        "consumption (n)"
+      ],
+      "coreMeaning": "شخصی که کالا یا خدمات را برای استفاده شخصی می‌خرد",
+      "note": "consumer rights حقوق مصرف‌کننده است",
+      "trap": "consumer با customer تفاوت دارد: consumer مصرف‌کننده نهایی، customer خریدار",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "supply",
+      "translation": "عرضه، تأمین",
+      "ipa": "/səˈplaɪ/",
+      "partOfSpeech": "noun",
+      "example": "The supply of fresh vegetables is limited in winter.",
+      "definitions": [
+        "a stock of something available for use; the act of providing something"
+      ],
+      "synonyms": [
+        "stock",
+        "provision"
+      ],
+      "antonyms": [
+        "demand"
+      ],
+      "collocations": [
+        "supply and demand",
+        "in short supply",
+        "supply chain",
+        "office supplies"
+      ],
+      "wordFamily": [
+        "supply (n)",
+        "supply (v)",
+        "supplier (n)"
+      ],
+      "coreMeaning": "موجودی کالا برای استفاده یا فروش",
+      "note": "supply and demand عرضه و تقاضا اصل اساسی اقتصاد است",
+      "trap": "supply هم اسم و هم فعل است: They supply food / a good supply",
+      "tags": [
+        "A2",
+        "shopping"
+      ]
+    },
+    {
+      "word": "warranty",
+      "translation": "گارانتی، ضمانت‌نامه",
+      "ipa": "/ˈwɔːrənti/",
+      "partOfSpeech": "noun",
+      "example": "The laptop has a two-year warranty.",
+      "definitions": [
+        "a written promise to repair or replace a product"
+      ],
+      "synonyms": [
+        "guarantee"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "under warranty",
+        "warranty period",
+        "warranty claim"
+      ],
+      "wordFamily": [
+        "warrant (v)"
+      ],
+      "coreMeaning": "ضمانت رسمی محصول",
+      "note": "under warranty = تحت پوشش گارانتی",
+      "trap": "warranty ≠ warrant — warrant حکم/مجوز است",
+      "tags": [
+        "A2",
+        "shopping",
+        "service"
+      ]
+    },
+    {
+      "word": "installment",
+      "translation": "قسط",
+      "ipa": "/ɪnˈstɔːlmənt/",
+      "partOfSpeech": "noun",
+      "example": "I bought the car in installments.",
+      "definitions": [
+        "one of the regular payments for something"
+      ],
+      "synonyms": [
+        "payment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "pay in installments",
+        "monthly installment",
+        "installment plan"
+      ],
+      "wordFamily": [
+        "install (v)"
+      ],
+      "coreMeaning": "پرداخت بخش‌بندی شده",
+      "note": "in installments = به صورت اقساط",
+      "trap": "installment ≠ installation — installation نصب است",
+      "tags": [
+        "A2",
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "word": "wholesale",
+      "translation": "عمده‌فروشی",
+      "ipa": "/ˈhoʊlseɪl/",
+      "partOfSpeech": "noun",
+      "example": "They sell wholesale to stores.",
+      "definitions": [
+        "selling goods in large quantities at low prices"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "retail"
+      ],
+      "collocations": [
+        "wholesale price",
+        "wholesale market",
+        "buy wholesale"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "فروش عمده",
+      "note": "wholesale ≠ retail — retail خرده‌فروشی است",
+      "trap": "wholesale: whole-sale",
+      "tags": [
+        "A2",
+        "shopping",
+        "business"
+      ]
+    },
+    {
+      "word": "luxury",
+      "translation": "لوکس، تجملی",
+      "ipa": "/ˈlʌkʃəri/",
+      "partOfSpeech": "noun",
+      "example": "This hotel is pure luxury.",
+      "definitions": [
+        "something expensive and not necessary"
+      ],
+      "synonyms": [
+        "extravagance"
+      ],
+      "antonyms": [
+        "necessity"
+      ],
+      "collocations": [
+        "luxury hotel",
+        "luxury brand",
+        "luxury car"
+      ],
+      "wordFamily": [
+        "luxurious (adj)"
+      ],
+      "coreMeaning": "تجمل و رفاه بالا",
+      "note": "luxury brand = برند لوکس",
+      "trap": "luxury: LUX-u-ry",
+      "tags": [
+        "A2",
+        "shopping",
+        "general"
+      ]
+    },
+    {
+      "word": "barcode",
+      "translation": "بارکد",
+      "ipa": "/ˈbɑːrkoʊd/",
+      "partOfSpeech": "noun",
+      "example": "Scan the barcode at the checkout.",
+      "definitions": [
+        "a pattern of lines read by a machine"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "scan barcode",
+        "barcode scanner",
+        "barcode number"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "کد خطی روی محصولات",
+      "note": "scan barcode = بارکد اسکن کردن",
+      "trap": "barcode: bar-code",
+      "tags": [
+        "A2",
+        "shopping",
+        "technology"
+      ]
+    }
+  ]
+}

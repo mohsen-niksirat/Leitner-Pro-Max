@@ -1,0 +1,2409 @@
+{
+  "id": "C2-01",
+  "name": "ادبیات و نثر پیشرفته",
+  "description": "واژگان پیشرفته ادبیات، نثر و نویسندگی حرفه‌ای",
+  "level": "C2",
+  "theme": "advanced-literature",
+  "words": [
+    {
+      "word": "aesthete",
+      "translation": "زیباپسند",
+      "example": "The aesthete appreciates beauty in all forms.",
+      "synonyms": [
+        "connoisseur",
+        "art lover"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "allegory",
+      "translation": "تمثیل",
+      "example": "The novel is an allegory for corruption.",
+      "synonyms": [
+        "parable",
+        "fable"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "allusion",
+      "translation": "اشاره ادبی",
+      "example": "The allusion references Greek mythology.",
+      "synonyms": [
+        "reference",
+        "mention"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "analogy",
+      "translation": "تشبیه",
+      "example": "The analogy clarifies complex ideas.",
+      "synonyms": [
+        "comparison",
+        "parallel"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "anecdote",
+      "translation": "حکایت",
+      "example": "The anecdote illustrates the point.",
+      "synonyms": [
+        "story",
+        "tale"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "aphorism",
+      "translation": "گزاره کوتاه",
+      "example": "The aphorism captures wisdom.",
+      "synonyms": [
+        "maxim",
+        "saying"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "archetype",
+      "translation": "آرکه‌تایپ",
+      "example": "The hero is an archetype.",
+      "synonyms": [
+        "prototype",
+        "model"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "bildungsroman",
+      "translation": "رمان بلوغ",
+      "example": "The bildungsroman traces youth.",
+      "synonyms": [
+        "coming-of-age",
+        "growing-up"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "caesura",
+      "translation": "وقفه",
+      "example": "The caesura creates dramatic pause.",
+      "synonyms": [
+        "break",
+        "pause"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "canon",
+      "translation": "کانون",
+      "example": "The literary canon includes classics.",
+      "synonyms": [
+        "classics",
+        "standard works"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "catharsis",
+      "translation": "تطهیر",
+      "example": "The ending provides catharsis.",
+      "synonyms": [
+        "purging",
+        "emotional release"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "chronological",
+      "translation": "زمانی",
+      "example": "The narrative is chronological.",
+      "synonyms": [
+        "sequential",
+        "ordered"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "denouement",
+      "translation": "گره‌گشایی",
+      "example": "The denouement resolves tension.",
+      "synonyms": [
+        "resolution",
+        "conclusion"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "didactic",
+      "translation": "آموزشی",
+      "example": "The didactic novel teaches lessons.",
+      "synonyms": [
+        "instructive",
+        "moralistic"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "ekphrasis",
+      "translation": "توصیف تصویر",
+      "example": "Ekphrasis describes visual art.",
+      "synonyms": [
+        "art description",
+        "visual representation"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "ellipsis",
+      "translation": "حذف",
+      "example": "The ellipsis creates suspense.",
+      "synonyms": [
+        "omission",
+        "gapping"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "encomium",
+      "translation": "ستایش",
+      "example": "The encomium praises the author.",
+      "synonyms": [
+        "tribute",
+        "panegyric"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "enjambment",
+      "translation": "گذر وزن",
+      "example": "Enjambment flows across lines.",
+      "synonyms": [
+        "run-on line",
+        "line continuation"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "epistolary",
+      "translation": "نامه‌ای",
+      "example": "The epistolary novel uses letters.",
+      "synonyms": [
+        "letter-based",
+        "correspondence"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "euphemism",
+      "translation": "کنایه ملایم",
+      "example": "The euphemism softens harsh truth.",
+      "synonyms": [
+        "understatement",
+        "softened term"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "flashback",
+      "translation": "فلاش‌بک",
+      "example": "The flashback reveals past events.",
+      "synonyms": [
+        "retrospection",
+        "memory"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "foreshadowing",
+      "translation": "پیشگویی",
+      "example": "Foreshadowing hints at danger.",
+      "synonyms": [
+        "prefiguring",
+        "prediction"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "hamartia",
+      "translation": "خطای سرنوشت‌ساز",
+      "example": "Hamartia leads to tragedy.",
+      "synonyms": [
+        "tragic flaw",
+        "fatal error"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "hubris",
+      "translation": "غرور بیش از حد",
+      "example": "Hubris blinds the protagonist.",
+      "synonyms": [
+        "arrogance",
+        "overconfidence"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "hyperbole",
+      "translation": "مبالغه",
+      "example": "Hyperbole emphasizes emotion.",
+      "synonyms": [
+        "exaggeration",
+        "overstatement"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "irony",
+      "translation": "آیرونی",
+      "example": "Situational irony surprises.",
+      "synonyms": [
+        "sarcasm",
+        "paradox"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "juxtaposition",
+      "translation": "کنار هم قرار دادن",
+      "example": "Juxtaposition highlights contrast.",
+      "synonyms": [
+        "contrast",
+        "comparison"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "metaphor",
+      "translation": "استعاره",
+      "example": "The metaphor deepens meaning.",
+      "synonyms": [
+        "analogy",
+        "figure of speech"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "motif",
+      "translation": "درون‌مایه",
+      "example": "The motif of death recurs.",
+      "synonyms": [
+        "theme",
+        "pattern"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "narrative",
+      "translation": "روایت",
+      "example": "The narrative unfolds slowly.",
+      "synonyms": [
+        "story",
+        "tale"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "onomatopoeia",
+      "translation": "واژه صدادار",
+      "example": "Onomatopoeia mimics sounds.",
+      "synonyms": [
+        "sound word",
+        "echo word"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "oxymoron",
+      "translation": "اکسیمورون",
+      "example": "The oxymoron combines opposites.",
+      "synonyms": [
+        "contradiction",
+        "paradox"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "palimpsest",
+      "translation": "پالیمپسست",
+      "example": "The text is a palimpsest.",
+      "synonyms": [
+        "overwritten text",
+        "layered work"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "paradox",
+      "translation": "پارادوکس",
+      "example": "The paradox challenges logic.",
+      "synonyms": [
+        "contradiction",
+        "puzzle"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "pathos",
+      "translation": "تاثیر احساسی",
+      "example": "The scene evokes deep pathos.",
+      "synonyms": [
+        "emotion",
+        "poignancy"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "peripeteia",
+      "translation": "چرخش ناگهانی",
+      "example": "The peripeteia reverses fortune.",
+      "synonyms": [
+        "reversal",
+        "turning point"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "persona",
+      "translation": "شخصیت ادبی",
+      "example": "The persona represents the author.",
+      "synonyms": [
+        "character",
+        "voice"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "personification",
+      "translation": "انسان‌انگاری",
+      "example": "Personification gives nature human traits.",
+      "synonyms": [
+        "anthropomorphism",
+        "embodiment"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "prose",
+      "translation": "نثر",
+      "example": "The prose is elegant.",
+      "synonyms": [
+        "writing",
+        "text"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "rhetoric",
+      "translation": "بلاغت",
+      "example": "Rhetoric persuades audiences.",
+      "synonyms": [
+        "eloquence",
+        "persuasion"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "simile",
+      "translation": "تشبیه",
+      "example": "The simile compares love to fire.",
+      "synonyms": [
+        "comparison",
+        "analogy"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "soliloquy",
+      "translation": "تک‌گویی",
+      "example": "The soliloquy reveals inner thoughts.",
+      "synonyms": [
+        "monologue",
+        "aside"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "stanza",
+      "translation": "بیت",
+      "example": "The poem has five stanzas.",
+      "synonyms": [
+        "verse",
+        "section"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "symbolism",
+      "translation": "نمادگرایی",
+      "example": "Symbolism enriches the text.",
+      "synonyms": [
+        "representation",
+        "imagery"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "synecdoche",
+      "translation": "کنایه",
+      "example": "Synecdoche uses part for whole.",
+      "synonyms": [
+        "metonymy",
+        "representation"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "trope",
+      "translation": "تغییر معنایی",
+      "example": "Literary tropes recur in texts.",
+      "synonyms": [
+        "device",
+        "convention"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "understatement",
+      "translation": "تخفیف",
+      "example": "Understatement creates ironic effect.",
+      "synonyms": [
+        "litotes",
+        "minimization"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "verisimilitude",
+      "translation": "شباهت به واقعیت",
+      "example": "Verisimilitude makes fiction believable.",
+      "synonyms": [
+        "realism",
+        "authenticity"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "zeitgeist",
+      "translation": "روح زمانه",
+      "example": "The novel captures the zeitgeist.",
+      "synonyms": [
+        "spirit of the age",
+        "cultural mood"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "aesthetic",
+      "translation": "زیبایی‌شناختی",
+      "example": "The aesthetic choices enhance beauty.",
+      "synonyms": [
+        "artistic",
+        "tasteful"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "anagnorisis",
+      "translation": "کشف ناگهانی",
+      "example": "The anagnorisis reveals truth.",
+      "synonyms": [
+        "recognition",
+        "discovery"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "antithesis",
+      "translation": "نقیض",
+      "example": "Antithesis contrasts ideas.",
+      "synonyms": [
+        "opposition",
+        "contrast"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "aphoristic",
+      "translation": "گزاره‌ای",
+      "example": "The style is aphoristic.",
+      "synonyms": [
+        "maxim-like",
+        "epigrammatic"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "apotheosis",
+      "translation": "تجلیل",
+      "example": "The apotheosis elevates the subject.",
+      "synonyms": [
+        "glorification",
+        "idealization"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "assonance",
+      "translation": "هم‌آوایی",
+      "example": "Assonance creates musicality.",
+      "synonyms": [
+        "vowel rhyme",
+        "internal rhyme"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "autodidact",
+      "translation": "خودآموز",
+      "example": "The autodidact learned alone.",
+      "synonyms": [
+        "self-taught",
+        "independent learner"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "avant-garde",
+      "translation": "پیشگام",
+      "example": "The avant-garde challenges conventions.",
+      "synonyms": [
+        "innovative",
+        "experimental"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "banality",
+      "translation": "بدیهی",
+      "example": "The banality bores readers.",
+      "synonyms": [
+        "triteness",
+        "platitude"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "baroque",
+      "translation": "باروک",
+      "example": "The baroque prose is ornate.",
+      "synonyms": [
+        "ornate",
+        "elaborate"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "bildungsroman",
+      "translation": "رمان تربیتی",
+      "example": "The bildungsroman follows growth.",
+      "synonyms": [
+        "coming-of-age",
+        "education novel"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "bricolage",
+      "translation": "بریکلاژ",
+      "example": "The bricolage combines disparate elements.",
+      "synonyms": [
+        "assemblage",
+        "patchwork"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "caricature",
+      "translation": "کاریکاتور",
+      "example": "The caricature exaggerates traits.",
+      "synonyms": [
+        "parody",
+        "exaggeration"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "circumlocution",
+      "translation": "دورگویی",
+      "example": "Circumlocution avoids direct speech.",
+      "synonyms": [
+        "verbosity",
+        "indirectness"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "colloquial",
+      "translation": "عامیانه",
+      "example": "The dialogue is colloquial.",
+      "synonyms": [
+        "informal",
+        "conversational"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "connotation",
+      "translation": "بار معنایی",
+      "example": "The word carries negative connotation.",
+      "synonyms": [
+        "implication",
+        "association"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "conversational",
+      "translation": "گفتاری",
+      "example": "The style is conversational.",
+      "synonyms": [
+        "informal",
+        "colloquial"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "critique",
+      "translation": "نقد",
+      "example": "The critique evaluates the work.",
+      "synonyms": [
+        "analysis",
+        "review"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "diction",
+      "translation": "واژه‌گزینی",
+      "example": "The diction is precise.",
+      "synonyms": [
+        "word choice",
+        "phrasing"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "didacticism",
+      "translation": "آموزش‌گرایی",
+      "example": "Didacticism aims to teach.",
+      "synonyms": [
+        "moralism",
+        "instruction"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "dissonance",
+      "translation": " عدم هماهنگی",
+      "example": "Dissonance creates tension.",
+      "synonyms": [
+        "discord",
+        "conflict"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "dystopian",
+      "translation": "دیستوپیایی",
+      "example": "The dystopian world frightens.",
+      "synonyms": [
+        "nightmarish",
+        "apocalyptic"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "ellipsis",
+      "translation": "نقطه‌چین",
+      "example": "The ellipsis leaves gaps.",
+      "synonyms": [
+        "omission",
+        "silence"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "epigram",
+      "translation": "جمله کوتاه",
+      "example": "The epigram is witty.",
+      "synonyms": [
+        "aphorism",
+        "maxim"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "epigraph",
+      "translation": "نقل‌قول آغازین",
+      "example": "The epigraph sets the tone.",
+      "synonyms": [
+        "motto",
+        "quotation"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "euphemism",
+      "translation": "کنایه ملایم",
+      "example": "Euphemism softens harshness.",
+      "synonyms": [
+        "understatement",
+        "softened term"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "exposition",
+      "translation": "مقدمه",
+      "example": "The exposition introduces characters.",
+      "synonyms": [
+        "introduction",
+        "background"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "figurative",
+      "translation": "مجازی",
+      "example": "Figurative language enriches prose.",
+      "synonyms": [
+        "metaphorical",
+        "symbolic"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "free verse",
+      "translation": "شعر نو",
+      "example": "Free verse abandons meter.",
+      "synonyms": [
+        "unrhymed",
+        "open form"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "genre",
+      "translation": "ژانر",
+      "example": "The genre blends horror and comedy.",
+      "synonyms": [
+        "category",
+        "type"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "gothic",
+      "translation": "گوتیک",
+      "example": "The gothic atmosphere is eerie.",
+      "synonyms": [
+        "dark",
+        "macabre"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "haiku",
+      "translation": "هایکو",
+      "example": "The haiku captures a moment.",
+      "synonyms": [
+        "Japanese verse",
+        "short poem"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "hagiography",
+      "translation": "زندگی‌نامه تقدیس‌آمیز",
+      "example": "The hagiography idealizes the subject.",
+      "synonyms": [
+        "idealized biography",
+        "saint's life"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "hyperbole",
+      "translation": "مبالغه",
+      "example": "Hyperbole amplifies meaning.",
+      "synonyms": [
+        "exaggeration",
+        "overstatement"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "in medias res",
+      "translation": "در میان امور",
+      "example": "The story begins in medias res.",
+      "synonyms": [
+        "starting in the middle",
+        "mid-action"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "intertextuality",
+      "translation": "بینامتنیت",
+      "example": "Intertextuality connects texts.",
+      "synonyms": [
+        "cross-referencing",
+        "textual connection"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "irony",
+      "translation": "آیرونی",
+      "example": "Dramatic irony builds tension.",
+      "synonyms": [
+        "sarcasm",
+        "paradox"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "juxtapose",
+      "translation": "کنار هم قرار دادن",
+      "example": "The author juxtaposes wealth and poverty.",
+      "synonyms": [
+        "contrast",
+        "compare"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "kenning",
+      "translation": "کنینگ",
+      "example": "The kenning uses metaphorical compound words.",
+      "synonyms": [
+        "compound metaphor",
+        "poetic phrase"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "liminal",
+      "translation": "آستانه‌ای",
+      "example": "The liminal space between worlds.",
+      "synonyms": [
+        "threshold",
+        "in-between"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "litotes",
+      "translation": "تخفیف",
+      "example": "Litotes understates meaning.",
+      "synonyms": [
+        "understatement",
+        "meiosis"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "magical realism",
+      "translation": "رئالیسم جادویی",
+      "example": "Magical realism blends reality and fantasy.",
+      "synonyms": [
+        "fantastical realism",
+        "surrealism"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "memoir",
+      "translation": "خاطرات",
+      "example": "The memoir recounts personal experiences.",
+      "synonyms": [
+        "autobiography",
+        "reminiscence"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "metafiction",
+      "translation": "فراداستان",
+      "example": "Metafiction comments on its own nature.",
+      "synonyms": [
+        "self-referential",
+        "postmodern fiction"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "monomyth",
+      "translation": "تک‌افسانه",
+      "example": "The monomyth follows the hero's journey.",
+      "synonyms": [
+        "hero's journey",
+        "universal story"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "morality play",
+      "translation": "نمایش اخلاقی",
+      "example": "The morality play teaches virtues.",
+      "synonyms": [
+        "allegorical play",
+        "moral drama"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "naturalism",
+      "translation": "طبیعت‌گرایی",
+      "example": "Naturalism emphasizes environment.",
+      "synonyms": [
+        "determinism",
+        "realism"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "neoclassical",
+      "translation": "نئوکلاسیک",
+      "example": "The neoclassical style values order.",
+      "synonyms": [
+        "classical revival",
+        "formal"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "objectivism",
+      "translation": "عینیت‌گرایی",
+      "example": "Objectivism rejects subjectivity.",
+      "synonyms": [
+        "realism",
+        "impartiality"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "odysssey",
+      "translation": "اودیسه",
+      "example": "The odyssey spans many adventures.",
+      "synonyms": [
+        "journey",
+        "epic quest"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "ode",
+      "translation": "قصیده",
+      "example": "The ode celebrates beauty.",
+      "synonyms": [
+        "hymn",
+        "song of praise"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "onomatopoeia",
+      "translation": "تقلید صدا",
+      "example": "Onomatopoeia mimics sounds.",
+      "synonyms": [
+        "sound word",
+        "echo word"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "palimpsest",
+      "translation": "متن نوشته شده دوباره",
+      "example": "The text is a palimpsest.",
+      "synonyms": [
+        "overwritten",
+        "layered"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "panegyric",
+      "translation": "خطابه ستایش",
+      "example": "The panegyric praises the leader.",
+      "synonyms": [
+        "eulogy",
+        "tribute"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "parody",
+      "translation": "پارودی",
+      "example": "The parody mocks conventions.",
+      "synonyms": [
+        "satire",
+        "imitation"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "pastiche",
+      "translation": "پاستیچ",
+      "example": "The pastiche imitates many styles.",
+      "synonyms": [
+        "imitation",
+        "collage"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "pathetic fallacy",
+      "translation": "خطای پاتتیک",
+      "example": "The pathetic fallacy mirrors emotion.",
+      "synonyms": [
+        "nature as emotion",
+        "emotional landscape"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "picaresque",
+      "translation": "پیکارسک",
+      "example": "The picaresque follows a rogue.",
+      "synonyms": [
+        "adventure novel",
+        "rogue's tale"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "platitude",
+      "translation": "کلیشه",
+      "example": "The platitude bores readers.",
+      "synonyms": [
+        "banality",
+        "truism"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "pleonasm",
+      "translation": "افزون‌گویی",
+      "example": "Pleonasm uses unnecessary words.",
+      "synonyms": [
+        "verbosity",
+        "redundancy"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "polysemy",
+      "translation": "چندمعنایی",
+      "example": "Polysemy creates ambiguity.",
+      "synonyms": [
+        "multiple meanings",
+        "ambiguity"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "postmodern",
+      "translation": "پسامدرن",
+      "example": "The postmodern novel deconstructs.",
+      "synonyms": [
+        "meta-fiction",
+        "self-referential"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "prosody",
+      "translation": "عروض",
+      "example": "Prosody governs rhythm.",
+      "synonyms": [
+        "meter",
+        "versification"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "quixotic",
+      "translation": "ایده‌آلیستی",
+      "example": "The quixotic hero dreams.",
+      "synonyms": [
+        "idealistic",
+        "romantic"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "realism",
+      "translation": "رئالیسم",
+      "example": "Realism depicts everyday life.",
+      "synonyms": [
+        "naturalism",
+        "verisimilitude"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "redaction",
+      "translation": "ویرایش",
+      "example": "The redaction removes sensitive content.",
+      "synonyms": [
+        "editing",
+        "censorship"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "rhyme scheme",
+      "translation": "نقش قافیه",
+      "example": "The rhyme scheme is ABAB.",
+      "synonyms": [
+        "pattern",
+        "structure"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "satire",
+      "translation": "طنز تلخ",
+      "example": "Satire criticizes society.",
+      "synonyms": [
+        "parody",
+        "mockery"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "scansion",
+      "translation": "وزن‌سنجی",
+      "example": "Scansion analyzes meter.",
+      "synonyms": [
+        "metrical analysis",
+        "rhythm study"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "simile",
+      "translation": "تشبیه",
+      "example": "The simile compares life to journey.",
+      "synonyms": [
+        "comparison",
+        "analogy"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "solecism",
+      "translation": "خطای زبانی",
+      "example": "The solecism amuses readers.",
+      "synonyms": [
+        "error",
+        "impropriety"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "stream of consciousness",
+      "translation": "جریان سیال ذهن",
+      "example": "Stream of consciousness captures thoughts.",
+      "synonyms": [
+        "interior monologue",
+        "free association"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "subjectivity",
+      "translation": "ذاتی بودن",
+      "example": "Subjectivity shapes perspective.",
+      "synonyms": [
+        "personal viewpoint",
+        "individuality"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "sublime",
+      "translation": "متعالی",
+      "example": "The sublime inspires awe.",
+      "synonyms": [
+        "majestic",
+        "awe-inspiring"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "surrealism",
+      "translation": "سورئالیسم",
+      "example": "Surrealism distorts reality.",
+      "synonyms": [
+        "dreamlike",
+        "fantastical"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "synecdoche",
+      "translation": "کنایه",
+      "example": "Synecdoche uses part for whole.",
+      "synonyms": [
+        "metonymy",
+        "representation"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "syntax",
+      "translation": "نحو",
+      "example": "The syntax is complex.",
+      "synonyms": [
+        "sentence structure",
+        "grammar"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "teleological",
+      "translation": "غایت‌شناختی",
+      "example": "The teleological approach seeks purpose.",
+      "synonyms": [
+        "purposive",
+        "goal-oriented"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "trope",
+      "translation": "اسلوب بیانی",
+      "example": "Literary tropes enrich writing.",
+      "synonyms": [
+        "device",
+        "convention"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "typology",
+      "translation": "تیپولوژی",
+      "example": "Typology classifies characters.",
+      "synonyms": [
+        "classification",
+        "categorization"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "verisimilitude",
+      "translation": "واقع‌نمایی",
+      "example": "Verisimilitude creates believability.",
+      "synonyms": [
+        "realism",
+        "authenticity"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "volta",
+      "translation": "چرخش",
+      "example": "The volta shifts the argument.",
+      "synonyms": [
+        "turn",
+        "shift"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "weltanschauung",
+      "translation": "جهان‌بینی",
+      "example": "The weltanschauung shapes the narrative.",
+      "synonyms": [
+        "worldview",
+        "philosophy"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "wunderkind",
+      "translation": "نابغه جوان",
+      "example": "The wunderkind published at sixteen.",
+      "synonyms": [
+        "prodigy",
+        "genius"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "zeugma",
+      "translation": "زوگما",
+      "example": "Zeugma links two meanings.",
+      "synonyms": [
+        "syllepsis",
+        "double reference"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "allegory",
+      "translation": "تمثیل",
+      "example": "The allegory teaches moral lessons.",
+      "synonyms": [
+        "parable",
+        "symbolism"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "anthropomorphism",
+      "translation": "انسان‌انگاری",
+      "example": "Anthropomorphism gives animals human traits.",
+      "synonyms": [
+        "personification",
+        "embodiment"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "apostrophe",
+      "translation": "خطاب",
+      "example": "The apostrophe addresses absent things.",
+      "synonyms": [
+        "direct address",
+        "exclamation"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "chiasmus",
+      "translation": "چیasmus",
+      "example": "Chiasmus reverses structure.",
+      "synonyms": [
+        "reversal",
+        "inverted parallelism"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "connotation",
+      "translation": "بار معنایی",
+      "example": "The connotation implies negativity.",
+      "synonyms": [
+        "implication",
+        "association"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "denotation",
+      "translation": "معنای تحت‌اللفظی",
+      "example": "The denotation is literal.",
+      "synonyms": [
+        "literal meaning",
+        "dictionary definition"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "diegesis",
+      "translation": "روایت",
+      "example": "The diegesis encompasses the story world.",
+      "synonyms": [
+        "narrative world",
+        "story"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "ekphrasis",
+      "translation": "توصیف تصویری",
+      "example": "Ekphrasis describes artworks.",
+      "synonyms": [
+        "visual description",
+        "art description"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "enallage",
+      "translation": "استخدام",
+      "example": "Enallage uses grammatical shift.",
+      "synonyms": [
+        "grammatical transference",
+        "shift"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "enthymeme",
+      "translation": "استنتاج ناقص",
+      "example": "The enthymeme omits premises.",
+      "synonyms": [
+        "syllogistic reasoning",
+        "incomplete argument"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "epanalepsis",
+      "translation": "بازگشت",
+      "example": "Epanalepsis repeats at sentence end.",
+      "synonyms": [
+        "repetition",
+        "return"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "epistrophe",
+      "translation": "تکرار پایانی",
+      "example": "Epistrophe repeats at phrase end.",
+      "synonyms": [
+        "ending repetition",
+        "closing repetition"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "eponym",
+      "translation": "نام‌گذار",
+      "example": "The eponym gives the work its title.",
+      "synonyms": [
+        "namesake",
+        "title character"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "hendiadys",
+      "translation": "هندیادیس",
+      "example": "Hendiadys expresses one idea with two words.",
+      "synonyms": [
+        "doubling",
+        "paired expression"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "hysteron proteron",
+      "translation": "معکوس‌گویی",
+      "example": "Hysteron proteron reverses time.",
+      "synonyms": [
+        "inversion",
+        "reversal"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "isocolon",
+      "translation": "ایزوکولن",
+      "example": "Isocolon creates balanced structure.",
+      "synonyms": [
+        "parallelism",
+        "balance"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "meiosis",
+      "translation": "تخفیف",
+      "example": "Meiosis understates importance.",
+      "synonyms": [
+        "understatement",
+        "litotes"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "metonymy",
+      "translation": "مجاز",
+      "example": "Metonymy uses associated terms.",
+      "synonyms": [
+        "synecdoche",
+        "representation"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "paralepsis",
+      "translation": "اظهار به غیاب",
+      "example": "Paralepsis draws attention by denial.",
+      "synonyms": [
+        "apophasis",
+        "mentioning by omission"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "paraprosdokian",
+      "translation": "پاراپروسدوکین",
+      "example": "The paraprosdokian surprises with its ending.",
+      "synonyms": [
+        "unexpected twist",
+        "surprise ending"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "parenthesis",
+      "translation": "پرانتز",
+      "example": "The parenthesis adds aside information.",
+      "synonyms": [
+        "aside",
+        "interruption"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "syllepsis",
+      "translation": "سیلپسیس",
+      "example": "Syllepsis uses one word in two ways.",
+      "synonyms": [
+        "double reference",
+        "zeugma"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "tautology",
+      "translation": "تکرار",
+      "example": "Tautology repeats the same idea.",
+      "synonyms": [
+        "redundancy",
+        "repetition"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "topos",
+      "translation": "موضوع",
+      "example": "The topos recurs in literature.",
+      "synonyms": [
+        "commonplace",
+        "convention"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "transvaluation",
+      "translation": "ارزش‌یابی مجدد",
+      "example": "Transvaluation reverses values.",
+      "synonyms": [
+        "revaluation",
+        "inversion"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "typological",
+      "translation": "تیپولوژیک",
+      "example": "The typological approach classifies.",
+      "synonyms": [
+        "classificatory",
+        "categorical"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "unreliable narrator",
+      "translation": "راوی ناامن",
+      "example": "The unreliable narrator deceives.",
+      "synonyms": [
+        "biased voice",
+        "untrustworthy storyteller"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "verisimilar",
+      "translation": "واقع‌نمایانه",
+      "example": "The verisimilar detail adds realism.",
+      "synonyms": [
+        "realistic",
+        "authentic"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "world-building",
+      "translation": "جهان‌سازی",
+      "example": "World-building creates immersive settings.",
+      "synonyms": [
+        "setting creation",
+        "universe construction"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "zeitgeist",
+      "translation": "روح زمان",
+      "example": "The novel captures the zeitgeist.",
+      "synonyms": [
+        "spirit of the age",
+        "cultural mood"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "abstraction",
+      "translation": "انتزاع",
+      "example": "Abstraction simplifies complex ideas.",
+      "synonyms": [
+        "generalization",
+        "concept"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "asides",
+      "translation": "کناره‌گویی",
+      "example": "Asides reveal hidden thoughts.",
+      "synonyms": [
+        "parenthetical",
+        "stage whisper"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "bathos",
+      "translation": "سقوط ناگهانی",
+      "example": "Bathos creates anticlimax.",
+      "synonyms": [
+        "anticlimax",
+        "triviality"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "dystopia",
+      "translation": "جهان بد",
+      "example": "The dystopia warns of the future.",
+      "synonyms": [
+        "nightmare world",
+        "anti-utopia"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "aesthetics",
+      "translation": "زیبایی‌شناسی",
+      "example": "Aesthetics studies beauty.",
+      "synonyms": [
+        "art philosophy",
+        "beauty theory"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "antagonist",
+      "translation": "ضد قهرمان",
+      "example": "The antagonist opposes the hero.",
+      "synonyms": [
+        "villain",
+        "opponent"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "atmosphere",
+      "translation": "فضا",
+      "example": "The atmosphere is tense.",
+      "synonyms": [
+        "mood",
+        "ambiance"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "backstory",
+      "translation": "پیشینه",
+      "example": "The backstory explains motivation.",
+      "synonyms": [
+        "history",
+        "background"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "climax",
+      "translation": "اوج داستان",
+      "example": "The climax resolves conflict.",
+      "synonyms": [
+        "peak",
+        "turning point"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "conflict",
+      "translation": "تعارض",
+      "example": "The conflict drives the plot.",
+      "synonyms": [
+        "struggle",
+        "tension"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "dialogue",
+      "translation": "گفتگو",
+      "example": "The dialogue reveals character.",
+      "synonyms": [
+        "conversation",
+        "speech"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "falling action",
+      "translation": "کاهش تنش",
+      "example": "The falling action follows climax.",
+      "synonyms": [
+        "resolution",
+        "aftermath"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "imagery",
+      "translation": "تصویرسازی",
+      "example": "Imagery creates vivid pictures.",
+      "synonyms": [
+        "visualization",
+        "description"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "plot",
+      "translation": "طرح داستان",
+      "example": "The plot thickens.",
+      "synonyms": [
+        "storyline",
+        "narrative"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "point of view",
+      "translation": "زاویه دید",
+      "example": "The POV shifts between characters.",
+      "synonyms": [
+        "perspective",
+        "viewpoint"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "protagonist",
+      "translation": "قهرمان داستان",
+      "example": "The protagonist faces challenges.",
+      "synonyms": [
+        "hero",
+        "main character"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "rising action",
+      "translation": "افزایش تنش",
+      "example": "The rising action builds tension.",
+      "synonyms": [
+        "build-up",
+        "development"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "setting",
+      "translation": "صحنه",
+      "example": "The setting creates atmosphere.",
+      "synonyms": [
+        "location",
+        "backdrop"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "symbol",
+      "translation": "نماد",
+      "example": "The symbol represents freedom.",
+      "synonyms": [
+        "representation",
+        "emblem"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "theme",
+      "translation": "مضمون",
+      "example": "The theme explores love.",
+      "synonyms": [
+        "subject",
+        "topic"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "tone",
+      "translation": "لحن",
+      "example": "The tone is ironic.",
+      "synonyms": [
+        "attitude",
+        "style"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "tragedy",
+      "translation": "تراژدی",
+      "example": "The tragedy ends in suffering.",
+      "synonyms": [
+        "disaster",
+        "catastrophe"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "comedy",
+      "translation": "کمدی",
+      "example": "The comedy entertains audiences.",
+      "synonyms": [
+        "humor",
+        "satire"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "tragic hero",
+      "translation": "قهرمان تراژیک",
+      "example": "The tragic hero falls from grace.",
+      "synonyms": [
+        "flawed hero",
+        "doomed protagonist"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "narrator",
+      "translation": "راوی",
+      "example": "The narrator guides the reader.",
+      "synonyms": [
+        "storyteller",
+        "voice"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "monologue",
+      "translation": "تک‌گویی",
+      "example": "The monologue reveals thoughts.",
+      "synonyms": [
+        "soliloquy",
+        "speech"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "epiphany",
+      "translation": "کشف ناگهانی",
+      "example": "The character experiences epiphany.",
+      "synonyms": [
+        "revelation",
+        "realization"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "ambiguity",
+      "translation": "ابهام",
+      "example": "Ambiguity invites interpretation.",
+      "synonyms": [
+        "uncertainty",
+        "vagueness"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "elegy",
+      "translation": "مرثیه",
+      "example": "The elegy mourns the dead.",
+      "synonyms": [
+        "lament",
+        "dirge"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "nemesis",
+      "translation": "نمسیس",
+      "example": "The nemesis brings justice.",
+      "synonyms": [
+        "retribution",
+        "downfall"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "adumbrate",
+      "translation": "تاریک کردن",
+      "example": "The author adumbrates future events.",
+      "synonyms": [
+        "foreshadow",
+        "outline"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "analepsis",
+      "translation": "فلاش‌بک",
+      "example": "Analepsis recalls past events.",
+      "synonyms": [
+        "flashback",
+        "retrospection"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "apophasis",
+      "translation": "اظهار به غیاب",
+      "example": "Apophasis mentions by denial.",
+      "synonyms": [
+        "paralepsis",
+        "mentioning by omission"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "bathetic",
+      "translation": "سقوطی",
+      "example": "The bathetic ending disappoints.",
+      "synonyms": [
+        "anticlimactic",
+        "trivial"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "defamiliarization",
+      "translation": "بیگانه‌سازی",
+      "example": "Defamiliarization makes the familiar strange.",
+      "synonyms": [
+        "estrangement",
+        "ostranenie"
+      ],
+      "tags": [
+        "literary"
+      ]
+    },
+    {
+      "word": "ergodic",
+      "translation": "ارگودیک",
+      "example": "The ergodic text requires non-linear reading.",
+      "synonyms": [
+        "non-linear",
+        "interactive"
+      ],
+      "tags": [
+        "literary"
+      ]
+    }
+  ]
+}

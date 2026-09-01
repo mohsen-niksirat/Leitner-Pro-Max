@@ -1,0 +1,3228 @@
+{
+  "name": "افعال پایه و مکالمه",
+  "description": "۱۰۰ کلمه پایه شامل افعال ضروری، احوالپرسی و عبارات روزمره — سطح A1",
+  "category": "A1 — مبتدی",
+  "level": "A1",
+  "packId": "A1-05",
+  "words": [
+    {
+      "word": "be",
+      "translation": "بودن، هستن",
+      "ipa": "/biː/",
+      "partOfSpeech": "verb",
+      "example": "I want to be a teacher.",
+      "definitions": [
+        "to exist; to have a particular quality or state"
+      ],
+      "synonyms": [
+        "exist",
+        "remain"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "be happy",
+        "be careful",
+        "be ready"
+      ],
+      "wordFamily": [
+        "being (n)",
+        "been (v)"
+      ],
+      "coreMeaning": "وجود داشتن، در حالتی بودن",
+      "note": "پرکاربردترین فعل در انگلیسی. برای توصیف حالات و هویت استفاده می‌شود.",
+      "trap": "اشکال مختلف دارد: am, is, are, was, were — با زمان عوض می‌شود.",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "have",
+      "translation": "داشتن",
+      "ipa": "/hæv/",
+      "partOfSpeech": "verb",
+      "example": "I have a new book.",
+      "definitions": [
+        "to possess or own something"
+      ],
+      "synonyms": [
+        "own",
+        "possess"
+      ],
+      "antonyms": [
+        "lack"
+      ],
+      "collocations": [
+        "have a good time",
+        "have breakfast",
+        "have to"
+      ],
+      "wordFamily": [
+        "having (n)"
+      ],
+      "coreMeaning": "مالک چیزی بودن",
+      "note": "هم فعل اصلی و هم فعل کمکی است (مثل: I have seen).",
+      "trap": "در منفی و سوالی با do/does استفاده می‌شود: Do you have...?",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "do",
+      "translation": "انجام دادن",
+      "ipa": "/duː/",
+      "partOfSpeech": "verb",
+      "example": "What do you do?",
+      "definitions": [
+        "to perform or carry out an action"
+      ],
+      "synonyms": [
+        "perform",
+        "execute"
+      ],
+      "antonyms": [
+        "undo"
+      ],
+      "collocations": [
+        "do homework",
+        "do a job",
+        "do well"
+      ],
+      "wordFamily": [
+        "doing (n)"
+      ],
+      "coreMeaning": "کاری انجام دادن",
+      "note": "هم فعل اصلی و هم فعل کمکی برای سوال و منفی است.",
+      "trap": "برای سوال و منفی در زمان حال ساده استفاده می‌شود: I don't know.",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "go",
+      "translation": "رفتن",
+      "ipa": "/ɡoʊ/",
+      "partOfSpeech": "verb",
+      "example": "I go to school every day.",
+      "definitions": [
+        "to move or travel from one place to another"
+      ],
+      "synonyms": [
+        "move",
+        "travel"
+      ],
+      "antonyms": [
+        "come",
+        "stay"
+      ],
+      "collocations": [
+        "go home",
+        "go to work",
+        "go shopping"
+      ],
+      "wordFamily": [
+        "going (n)"
+      ],
+      "coreMeaning": "حرکت کردن از مکانی به مکان دیگر",
+      "note": "شکل گذشته: went — شکل سوم: gone",
+      "trap": "گذشته آن went است نه goed.",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "come",
+      "translation": "آمدن",
+      "ipa": "/kʌm/",
+      "partOfSpeech": "verb",
+      "example": "Please come here.",
+      "definitions": [
+        "to move toward the speaker or a specified place"
+      ],
+      "synonyms": [
+        "arrive",
+        "approach"
+      ],
+      "antonyms": [
+        "go",
+        "leave"
+      ],
+      "collocations": [
+        "come here",
+        "come home",
+        "come back"
+      ],
+      "wordFamily": [
+        "coming (n)"
+      ],
+      "coreMeaning": "به سمت گوینده حرکت کردن",
+      "note": "شکل گذشته: came — شکل سوم: come",
+      "trap": "شکل سوم هم مثل حال است: I have come (نه I have came).",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "see",
+      "translation": "دیدن",
+      "ipa": "/siː/",
+      "partOfSpeech": "verb",
+      "example": "I can see the mountain.",
+      "definitions": [
+        "to perceive with the eyes"
+      ],
+      "synonyms": [
+        "look",
+        "watch"
+      ],
+      "antonyms": [
+        "miss",
+        "overlook"
+      ],
+      "collocations": [
+        "see you later",
+        "see a doctor",
+        "see a movie"
+      ],
+      "wordFamily": [
+        "sight (n)",
+        "seeing (n)"
+      ],
+      "coreMeaning": "با چشم چیزی را درک کردن",
+      "note": "با look فرق دارد: see غیرارادی است، look ارادی.",
+      "trap": "گذشته: saw — سوم: seen. نه seed!",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "eat",
+      "translation": "خوردن",
+      "ipa": "/iːt/",
+      "partOfSpeech": "verb",
+      "example": "I eat breakfast at 7.",
+      "definitions": [
+        "to put food in the mouth and swallow it"
+      ],
+      "synonyms": [
+        "consume",
+        "dine"
+      ],
+      "antonyms": [
+        "fast"
+      ],
+      "collocations": [
+        "eat breakfast",
+        "eat out",
+        "eat lunch"
+      ],
+      "wordFamily": [
+        "eating (n)"
+      ],
+      "coreMeaning": "غذا خوردن",
+      "note": "گذشته: ate — سوم: eaten",
+      "trap": "تلفظ: /iːt/ نه /et/ — با it فرق دارد.",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "drink",
+      "translation": "نوشیدن",
+      "ipa": "/drɪŋk/",
+      "partOfSpeech": "verb",
+      "example": "I drink water every day.",
+      "definitions": [
+        "to take liquid into the mouth and swallow"
+      ],
+      "synonyms": [
+        "sip",
+        "gulp"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "drink water",
+        "drink coffee",
+        "drink tea"
+      ],
+      "wordFamily": [
+        "drink (n)",
+        "drinker (n)"
+      ],
+      "coreMeaning": "مایعات نوشیدن",
+      "note": "هم فعل و هم اسم است: a drink = یک نوشیدنی",
+      "trap": "گذشته: drank — سوم: drunk",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "sleep",
+      "translation": "خوابیدن",
+      "ipa": "/sliːp/",
+      "partOfSpeech": "verb",
+      "example": "I sleep 8 hours every night.",
+      "definitions": [
+        "to rest with eyes closed and body inactive"
+      ],
+      "synonyms": [
+        "rest",
+        "nap"
+      ],
+      "antonyms": [
+        "wake"
+      ],
+      "collocations": [
+        "sleep well",
+        "sleep early",
+        "go to sleep"
+      ],
+      "wordFamily": [
+        "sleep (n)",
+        "sleepy (adj)",
+        "asleep (adj)"
+      ],
+      "coreMeaning": "در حالت استراحت و بیهوشی موقت بودن",
+      "note": "sleepy = خواب‌آلود — asleep = خوابیده",
+      "trap": "گذشته و سوم: slept — نه sleeped",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "walk",
+      "translation": "راه رفتن، پیاده رفتن",
+      "ipa": "/wɔːk/",
+      "partOfSpeech": "verb",
+      "example": "I walk to school.",
+      "definitions": [
+        "to move on foot at a regular pace"
+      ],
+      "synonyms": [
+        "stroll",
+        "hike"
+      ],
+      "antonyms": [
+        "run"
+      ],
+      "collocations": [
+        "walk home",
+        "walk fast",
+        "go for a walk"
+      ],
+      "wordFamily": [
+        "walk (n)",
+        "walker (n)"
+      ],
+      "coreMeaning": "با پای پیاده حرکت کردن",
+      "note": "go for a walk = برای پیاده‌روی رفتن",
+      "trap": "تلفظ: /wɔːk/ — حرف l خاموش نیست ولی خیلی ملایم تلفظ می‌شود.",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "run",
+      "translation": "دویدن",
+      "ipa": "/rʌn/",
+      "partOfSpeech": "verb",
+      "example": "I run every morning.",
+      "definitions": [
+        "to move quickly on foot"
+      ],
+      "synonyms": [
+        "jog",
+        "sprint"
+      ],
+      "antonyms": [
+        "walk"
+      ],
+      "collocations": [
+        "run fast",
+        "run a business",
+        "run away"
+      ],
+      "wordFamily": [
+        "runner (n)",
+        "running (n)"
+      ],
+      "coreMeaning": "سریع با پا حرکت کردن",
+      "note": "هم برای دویدن و هم برای اداره کردن کسب‌وکار استفاده می‌شود.",
+      "trap": "گذشته و سوم: ran / run — نه runned",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "talk",
+      "translation": "صحبت کردن",
+      "ipa": "/tɔːk/",
+      "partOfSpeech": "verb",
+      "example": "Can we talk?",
+      "definitions": [
+        "to speak or communicate with someone"
+      ],
+      "synonyms": [
+        "speak",
+        "chat"
+      ],
+      "antonyms": [
+        "listen"
+      ],
+      "collocations": [
+        "talk to someone",
+        "talk about",
+        "talk on the phone"
+      ],
+      "wordFamily": [
+        "talk (n)",
+        "talker (n)"
+      ],
+      "coreMeaning": "با کسی حرف زدن",
+      "note": "talk to = با کسی حرف زدن — talk about = درباره چیزی حرف زدن",
+      "trap": "با speak فرق دارد: talk غیررسمی‌تر و مکالمه‌ای‌تر است.",
+      "tags": [
+        "A1",
+        "verbs",
+        "conversation"
+      ]
+    },
+    {
+      "word": "listen",
+      "translation": "گوش دادن",
+      "ipa": "/ˈlɪsən/",
+      "partOfSpeech": "verb",
+      "example": "Listen to this song.",
+      "definitions": [
+        "to pay attention to sound"
+      ],
+      "synonyms": [
+        "hear"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "collocations": [
+        "listen to music",
+        "listen carefully",
+        "listen up"
+      ],
+      "wordFamily": [
+        "listener (n)",
+        "listening (n)"
+      ],
+      "coreMeaning": "عمداً به صدا توجه کردن",
+      "note": "listen ارادی است، hear غیرارادی. همیشه با to: listen to",
+      "trap": "حرف t خاموش است: /ˈlɪsən/ نه /ˈlɪstən/",
+      "tags": [
+        "A1",
+        "verbs",
+        "conversation"
+      ]
+    },
+    {
+      "word": "read",
+      "translation": "خواندن (کتاب)",
+      "ipa": "/riːd/",
+      "partOfSpeech": "verb",
+      "example": "I read a book every week.",
+      "definitions": [
+        "to look at and understand written words"
+      ],
+      "synonyms": [
+        "study"
+      ],
+      "antonyms": [
+        "write"
+      ],
+      "collocations": [
+        "read a book",
+        "read a letter",
+        "read aloud"
+      ],
+      "wordFamily": [
+        "reader (n)",
+        "reading (n)"
+      ],
+      "coreMeaning": "متن نوشته شده را خواندن",
+      "note": "حال: /riːd/ — گذشته: /rɛd/ (red). تلفظ فرق دارد!",
+      "trap": "گذشته و سوم مثل رنگ قرمز نوشته می‌شود: read ولی /rɛd/ تلفظ می‌شود.",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "write",
+      "translation": "نوشتن",
+      "ipa": "/raɪt/",
+      "partOfSpeech": "verb",
+      "example": "Please write your name.",
+      "definitions": [
+        "to form letters or words on a surface"
+      ],
+      "synonyms": [
+        "compose",
+        "author"
+      ],
+      "antonyms": [
+        "read"
+      ],
+      "collocations": [
+        "write a letter",
+        "write down",
+        "write a book"
+      ],
+      "wordFamily": [
+        "writer (n)",
+        "writing (n)"
+      ],
+      "coreMeaning": "حروف و کلمات را روی سطحی ثبت کردن",
+      "note": "گذشته: wrote — سوم: written",
+      "trap": "با right (درست) هم‌آوا است ولی معنی و نوشتن متفاوت.",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "buy",
+      "translation": "خریدن",
+      "ipa": "/baɪ/",
+      "partOfSpeech": "verb",
+      "example": "I want to buy a car.",
+      "definitions": [
+        "to get something by paying money"
+      ],
+      "synonyms": [
+        "purchase"
+      ],
+      "antonyms": [
+        "sell"
+      ],
+      "collocations": [
+        "buy a gift",
+        "buy groceries",
+        "buy online"
+      ],
+      "wordFamily": [
+        "buyer (n)"
+      ],
+      "coreMeaning": "با پول چیزی به دست آوردن",
+      "note": "گذشته و سوم: bought",
+      "trap": "تلفظ: /baɪ/ — با by (توسط) هم‌آوا است.",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "sell",
+      "translation": "فروختن",
+      "ipa": "/sɛl/",
+      "partOfSpeech": "verb",
+      "example": "They sell fresh fruit.",
+      "definitions": [
+        "to give something in exchange for money"
+      ],
+      "synonyms": [
+        "trade"
+      ],
+      "antonyms": [
+        "buy"
+      ],
+      "collocations": [
+        "sell a house",
+        "sell out",
+        "sell well"
+      ],
+      "wordFamily": [
+        "seller (n)",
+        "sale (n)"
+      ],
+      "coreMeaning": "در ازای پول چیزی دادن",
+      "note": "sale = فروش — seller = فروشنده",
+      "trap": "گذشته و سوم: sold — نه selled",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "give",
+      "translation": "دادن",
+      "ipa": "/ɡɪv/",
+      "partOfSpeech": "verb",
+      "example": "Give me the book, please.",
+      "definitions": [
+        "to hand something to someone"
+      ],
+      "synonyms": [
+        "offer",
+        "provide"
+      ],
+      "antonyms": [
+        "take",
+        "receive"
+      ],
+      "collocations": [
+        "give a gift",
+        "give a chance",
+        "give up"
+      ],
+      "wordFamily": [
+        "giver (n)"
+      ],
+      "coreMeaning": "چیزی را به کسی دادن",
+      "note": "give up = تسلیم شدن، قطع کردن",
+      "trap": "گذشته: gave — سوم: given",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "take",
+      "translation": "گرفتن",
+      "ipa": "/teɪk/",
+      "partOfSpeech": "verb",
+      "example": "Take this pen.",
+      "definitions": [
+        "to get hold of something; to carry or bring"
+      ],
+      "synonyms": [
+        "grab",
+        "hold"
+      ],
+      "antonyms": [
+        "give"
+      ],
+      "collocations": [
+        "take a photo",
+        "take a break",
+        "take off"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "چیزی را در دست گرفتن یا با خود بردن",
+      "note": "take off = بلند شدن (هواپیما) / درآوردن (لباس)",
+      "trap": "گذشته: took — سوم: taken",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "make",
+      "translation": "ساختن، درست کردن",
+      "ipa": "/meɪk/",
+      "partOfSpeech": "verb",
+      "example": "I make breakfast every morning.",
+      "definitions": [
+        "to create or produce something"
+      ],
+      "synonyms": [
+        "create",
+        "build"
+      ],
+      "antonyms": [
+        "destroy"
+      ],
+      "collocations": [
+        "make a cake",
+        "make a mistake",
+        "make money"
+      ],
+      "wordFamily": [
+        "maker (n)"
+      ],
+      "coreMeaning": "چیزی را ایجاد یا تولید کردن",
+      "note": "make vs do: make برای تولید محصول، do برای انجام کار",
+      "trap": "گذشته: made — نه maked",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "open",
+      "translation": "باز کردن",
+      "ipa": "/ˈoʊpən/",
+      "partOfSpeech": "verb",
+      "example": "Open the door, please.",
+      "definitions": [
+        "to move a door, lid, etc. so it is no longer closed"
+      ],
+      "synonyms": [
+        "unlock"
+      ],
+      "antonyms": [
+        "close",
+        "shut"
+      ],
+      "collocations": [
+        "open a door",
+        "open a book",
+        "open a shop"
+      ],
+      "wordFamily": [
+        "opening (n)",
+        "open (adj)"
+      ],
+      "coreMeaning": "چیز بسته‌ای را باز کردن",
+      "note": "هم فعل و هم صفت است: The shop is open.",
+      "trap": "صفت: open — نه opened (برای حالت). The door is open.",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "close",
+      "translation": "بستن",
+      "ipa": "/kloʊz/",
+      "partOfSpeech": "verb",
+      "example": "Close the window, please.",
+      "definitions": [
+        "to move something so that it covers an opening"
+      ],
+      "synonyms": [
+        "shut"
+      ],
+      "antonyms": [
+        "open"
+      ],
+      "collocations": [
+        "close a door",
+        "close your eyes",
+        "close down"
+      ],
+      "wordFamily": [
+        "closing (n)",
+        "close (adj)"
+      ],
+      "coreMeaning": "چیز بازی را بستن",
+      "note": "فعل: /kloʊz/ — صفت: /kloʊs/ (نزدیک). تلفظ فرق دارد!",
+      "trap": "صفت close به معنی نزدیک است: /kloʊs/ — نه /kloʊz/",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "start",
+      "translation": "شروع کردن",
+      "ipa": "/stɑːrt/",
+      "partOfSpeech": "verb",
+      "example": "The class starts at 9.",
+      "definitions": [
+        "to begin doing something"
+      ],
+      "synonyms": [
+        "begin",
+        "commence"
+      ],
+      "antonyms": [
+        "stop",
+        "finish",
+        "end"
+      ],
+      "collocations": [
+        "start a job",
+        "start a car",
+        "start over"
+      ],
+      "wordFamily": [
+        "starter (n)",
+        "starting (n)"
+      ],
+      "coreMeaning": "آغاز کردن چیزی",
+      "note": "start و begin تقریباً هم‌معنی هستند.",
+      "trap": "start to do و start doing هر دو درست هستند.",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "stop",
+      "translation": "ایستادن، متوقف شدن",
+      "ipa": "/stɑːp/",
+      "partOfSpeech": "verb",
+      "example": "Stop talking, please.",
+      "definitions": [
+        "to not continue; to cease an action"
+      ],
+      "synonyms": [
+        "halt",
+        "cease"
+      ],
+      "antonyms": [
+        "start",
+        "continue"
+      ],
+      "collocations": [
+        "stop doing",
+        "stop here",
+        "bus stop"
+      ],
+      "wordFamily": [
+        "stop (n)",
+        "stopper (n)"
+      ],
+      "coreMeaning": "ادامه ندادن، توقف کردن",
+      "note": "stop doing = دست از کاری کشیدن — stop to do = بایستادن تا کاری کنی",
+      "trap": "stop doing ≠ stop to do. معنی کاملاً فرق دارد!",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "like",
+      "translation": "دوست داشتن",
+      "ipa": "/laɪk/",
+      "partOfSpeech": "verb",
+      "example": "I like chocolate.",
+      "definitions": [
+        "to find something pleasant or enjoyable"
+      ],
+      "synonyms": [
+        "enjoy",
+        "love"
+      ],
+      "antonyms": [
+        "dislike",
+        "hate"
+      ],
+      "collocations": [
+        "like to do",
+        "like doing",
+        "would like"
+      ],
+      "wordFamily": [
+        "likeable (adj)",
+        "liking (n)"
+      ],
+      "coreMeaning": "از چیزی لذت بردن",
+      "note": "would like = مودبانه‌تر از want. I would like some tea.",
+      "trap": "like هم فعل و هم حرف اضافه/صفت است: It looks like rain.",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "love",
+      "translation": "عشق ورزیدن، خیلی دوست داشتن",
+      "ipa": "/lʌv/",
+      "partOfSpeech": "verb",
+      "example": "I love my family.",
+      "definitions": [
+        "to have a strong feeling of affection"
+      ],
+      "synonyms": [
+        "adore",
+        "cherish"
+      ],
+      "antonyms": [
+        "hate"
+      ],
+      "collocations": [
+        "love someone",
+        "fall in love",
+        "love to do"
+      ],
+      "wordFamily": [
+        "love (n)",
+        "lovely (adj)",
+        "lover (n)"
+      ],
+      "coreMeaning": "احساس عمیق محبت داشتن",
+      "note": "شدیدتر از like. I love music = موسیقی را خیلی دوست دارم.",
+      "trap": "در انگلیسی casual، love برای چیزهای معمولی هم استفاده می‌شود: I love pizza!",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "want",
+      "translation": "خواستن، میل داشتن",
+      "ipa": "/wɑːnt/",
+      "partOfSpeech": "verb",
+      "example": "I want a glass of water.",
+      "definitions": [
+        "to wish for or desire something"
+      ],
+      "synonyms": [
+        "desire",
+        "wish"
+      ],
+      "antonyms": [
+        "refuse"
+      ],
+      "collocations": [
+        "want to do",
+        "want something",
+        "don't want"
+      ],
+      "wordFamily": [
+        "want (n)"
+      ],
+      "coreMeaning": "میل و آرزوی داشتن چیزی",
+      "note": "would like مودبانه‌تر از want است.",
+      "trap": "بعد از want از to + فعل استفاده می‌شود: I want to go (نه I want go).",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "need",
+      "translation": "نیاز داشتن",
+      "ipa": "/niːd/",
+      "partOfSpeech": "verb",
+      "example": "I need help.",
+      "definitions": [
+        "to require something because it is essential"
+      ],
+      "synonyms": [
+        "require"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "need to do",
+        "need help",
+        "in need"
+      ],
+      "wordFamily": [
+        "need (n)",
+        "needy (adj)"
+      ],
+      "coreMeaning": "چیزی ضروری بودن برای شخص",
+      "note": "شدیدتر از want — یعنی واقعاً لازم است.",
+      "trap": "need to do = باید انجام دهم (الزامی)",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "know",
+      "translation": "دانستن، شناختن",
+      "ipa": "/noʊ/",
+      "partOfSpeech": "verb",
+      "example": "I know the answer.",
+      "definitions": [
+        "to be aware of something through information or experience"
+      ],
+      "synonyms": [
+        "understand",
+        "recognize"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "collocations": [
+        "know about",
+        "know how to",
+        "get to know"
+      ],
+      "wordFamily": [
+        "knowledge (n)",
+        "known (adj)"
+      ],
+      "coreMeaning": "آگاه بودن از چیزی",
+      "note": "know = دانستن (fact) —认识 = meet/get to know",
+      "trap": "گذشته: knew — سوم: known. نه knowed!",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "think",
+      "translation": "فکر کردن",
+      "ipa": "/θɪŋk/",
+      "partOfSpeech": "verb",
+      "example": "I think it is a good idea.",
+      "definitions": [
+        "to use the mind to consider something"
+      ],
+      "synonyms": [
+        "consider",
+        "believe"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "think about",
+        "think of",
+        "I think so"
+      ],
+      "wordFamily": [
+        "thought (n)",
+        "thinking (n)"
+      ],
+      "coreMeaning": "با ذهن بررسی کردن",
+      "note": "I think so = فکر می‌کنم بله — I don't think so = فکر نمی‌کنم",
+      "trap": "گذشته: thought — سوم: thought. نه thinked!",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "live",
+      "translation": "زندگی کردن",
+      "ipa": "/lɪv/",
+      "partOfSpeech": "verb",
+      "example": "I live in Tehran.",
+      "definitions": [
+        "to have one's home in a place; to be alive"
+      ],
+      "synonyms": [
+        "reside",
+        "dwell"
+      ],
+      "antonyms": [
+        "die"
+      ],
+      "collocations": [
+        "live in",
+        "live with",
+        "live alone"
+      ],
+      "wordFamily": [
+        "life (n)",
+        "living (n)",
+        "lively (adj)"
+      ],
+      "coreMeaning": "در جایی ساکن بودن یا زنده بودن",
+      "note": "live in + شهر/کشور — live at + آدرس",
+      "trap": "فعل: /lɪv/ — صفت/قید: /laɪv/ (زنده). تلفظ فرق دارد!",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "work",
+      "translation": "کار کردن",
+      "ipa": "/wɜːrk/",
+      "partOfSpeech": "verb",
+      "example": "I work in a hospital.",
+      "definitions": [
+        "to do a job or activity for money"
+      ],
+      "synonyms": [
+        "labor"
+      ],
+      "antonyms": [
+        "rest"
+      ],
+      "collocations": [
+        "work hard",
+        "work from home",
+        "work with"
+      ],
+      "wordFamily": [
+        "work (n)",
+        "worker (n)"
+      ],
+      "coreMeaning": "فعالیت شغلی انجام دادن",
+      "note": "work at + محل کار — work as + شغل",
+      "trap": "work غیرقابل شمارش است: a lot of work (نه a lot of works)",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "help",
+      "translation": "کمک کردن",
+      "ipa": "/hɛlp/",
+      "partOfSpeech": "verb",
+      "example": "Can you help me?",
+      "definitions": [
+        "to make it easier for someone to do something"
+      ],
+      "synonyms": [
+        "assist",
+        "aid"
+      ],
+      "antonyms": [
+        "hinder"
+      ],
+      "collocations": [
+        "help someone",
+        "help with",
+        "help out"
+      ],
+      "wordFamily": [
+        "help (n)",
+        "helper (n)",
+        "helpful (adj)"
+      ],
+      "coreMeaning": "به کسی یاری رساندن",
+      "note": "help to do و help do هر دو درست هستند.",
+      "trap": "مودبانه: Can you help me? / Could you help me?",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "try",
+      "translation": "تلاش کردن، امتحان کردن",
+      "ipa": "/traɪ/",
+      "partOfSpeech": "verb",
+      "example": "Try this cake!",
+      "definitions": [
+        "to make an effort to do something; to test"
+      ],
+      "synonyms": [
+        "attempt"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "try to do",
+        "try on",
+        "try again"
+      ],
+      "wordFamily": [
+        "trial (n)"
+      ],
+      "coreMeaning": "سعی کردن یا امتحان کردن",
+      "note": "try to do = تلاش کردن — try doing = امتحان کردن",
+      "trap": "try on = پرو کردن لباس",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "wait",
+      "translation": "صبر کردن",
+      "ipa": "/weɪt/",
+      "partOfSpeech": "verb",
+      "example": "Please wait here.",
+      "definitions": [
+        "to stay in a place until something happens"
+      ],
+      "synonyms": [
+        "stay"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "wait for",
+        "wait a minute",
+        "wait in line"
+      ],
+      "wordFamily": [
+        "waiter (n)",
+        "waiting (n)"
+      ],
+      "coreMeaning": "در جایی ماندن تا اتفاقی بیفتد",
+      "note": "wait for + someone/something",
+      "trap": "wait for لازم است: I'm waiting for you (نه I'm waiting you).",
+      "tags": [
+        "A1",
+        "verbs",
+        "conversation"
+      ]
+    },
+    {
+      "word": "play",
+      "translation": "بازی کردن، نواختن",
+      "ipa": "/pleɪ/",
+      "partOfSpeech": "verb",
+      "example": "Children play in the park.",
+      "definitions": [
+        "to do activities for fun; to perform music"
+      ],
+      "synonyms": [
+        "game"
+      ],
+      "antonyms": [
+        "work"
+      ],
+      "collocations": [
+        "play a game",
+        "play music",
+        "play with"
+      ],
+      "wordFamily": [
+        "player (n)",
+        "play (n)",
+        "playful (adj)"
+      ],
+      "coreMeaning": "سرگرم شدن یا موسیقی اجرا کردن",
+      "note": "play + ورزش/بازی: play football — play + ساز: play the piano",
+      "trap": "با ورزش the ندارد: play football. با ساز the دارد: play the guitar.",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "move",
+      "translation": "حرکت کردن، جابجا شدن",
+      "ipa": "/muːv/",
+      "partOfSpeech": "verb",
+      "example": "Don't move!",
+      "definitions": [
+        "to change position or place"
+      ],
+      "synonyms": [
+        "shift",
+        "relocate"
+      ],
+      "antonyms": [
+        "stay",
+        "stop"
+      ],
+      "collocations": [
+        "move on",
+        "move to",
+        "move forward"
+      ],
+      "wordFamily": [
+        "movement (n)",
+        "movable (adj)"
+      ],
+      "coreMeaning": "از جایی به جای دیگر رفتن",
+      "note": "move to = به جایی نقل مکان کردن",
+      "trap": "move on = ادامه دادن، گذشتن از موضوع",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "learn",
+      "translation": "یاد گرفتن",
+      "ipa": "/lɜːrn/",
+      "partOfSpeech": "verb",
+      "example": "I want to learn English.",
+      "definitions": [
+        "to gain knowledge or skill"
+      ],
+      "synonyms": [
+        "study"
+      ],
+      "antonyms": [
+        "forget",
+        "unlearn"
+      ],
+      "collocations": [
+        "learn about",
+        "learn from",
+        "learn how to"
+      ],
+      "wordFamily": [
+        "learner (n)",
+        "learning (n)"
+      ],
+      "coreMeaning": "دانش یا مهارت کسب کردن",
+      "note": "learn = یاد گرفتن — study = مطالعه کردن (متفاوت هستند)",
+      "trap": "گذشته و سوم: learned/learnt — هر دو درست هستند.",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "teach",
+      "translation": "تدریس کردن، یاد دادن",
+      "ipa": "/tiːtʃ/",
+      "partOfSpeech": "verb",
+      "example": "She teaches math.",
+      "definitions": [
+        "to give lessons or instruction"
+      ],
+      "synonyms": [
+        "instruct",
+        "educate"
+      ],
+      "antonyms": [
+        "learn"
+      ],
+      "collocations": [
+        "teach someone",
+        "teach a class",
+        "teach a lesson"
+      ],
+      "wordFamily": [
+        "teacher (n)",
+        "teaching (n)"
+      ],
+      "coreMeaning": "به کسی دانش یا مهارت آموختن",
+      "note": "teach + person + subject: She teaches me English.",
+      "trap": "گذشته و سوم: taught — نه teached!",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "ask",
+      "translation": "پرسیدن، سوال کردن",
+      "ipa": "/æsk/",
+      "partOfSpeech": "verb",
+      "example": "Can I ask a question?",
+      "definitions": [
+        "to say something to get an answer or information"
+      ],
+      "synonyms": [
+        "inquire",
+        "question"
+      ],
+      "antonyms": [
+        "answer",
+        "reply"
+      ],
+      "collocations": [
+        "ask a question",
+        "ask for",
+        "ask about"
+      ],
+      "wordFamily": [
+        "asker (n)"
+      ],
+      "coreMeaning": "سوالی پرسیدن برای گرفتن جواب",
+      "note": "ask for = درخواست کردن — ask about = درباره چیزی پرسیدن",
+      "trap": "ask + person + to do: I asked him to help (نه I asked him help).",
+      "tags": [
+        "A1",
+        "verbs",
+        "conversation"
+      ]
+    },
+    {
+      "word": "call",
+      "translation": "زنگ زدن، صدا زدن",
+      "ipa": "/kɔːl/",
+      "partOfSpeech": "verb",
+      "example": "I will call you tomorrow.",
+      "definitions": [
+        "to phone someone; to give someone a name"
+      ],
+      "synonyms": [
+        "phone",
+        "ring"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "call someone",
+        "call back",
+        "call a meeting"
+      ],
+      "wordFamily": [
+        "call (n)",
+        "caller (n)"
+      ],
+      "coreMeaning": "تماس تلفنی گرفتن یا صدا زدن",
+      "note": "call = زنگ زدن — name = اسم گذاشتن (هر دو معنی دارد)",
+      "trap": "call on = از کسی دیدن کردن — call off = لغو کردن",
+      "tags": [
+        "A1",
+        "verbs",
+        "conversation"
+      ]
+    },
+    {
+      "word": "say",
+      "translation": "گفتن",
+      "ipa": "/seɪ/",
+      "partOfSpeech": "verb",
+      "example": "What did you say?",
+      "definitions": [
+        "to speak words"
+      ],
+      "synonyms": [
+        "tell",
+        "state"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "say hello",
+        "say goodbye",
+        "say something"
+      ],
+      "wordFamily": [
+        "saying (n)"
+      ],
+      "coreMeaning": "کلماتی را بیان کردن",
+      "note": "say + مطلب — tell + person + مطلب. He said (that)... He told me (that)...",
+      "trap": "گذشته و سوم: said /sɛd/ — نه sayed!",
+      "tags": [
+        "A1",
+        "verbs",
+        "conversation"
+      ]
+    },
+    {
+      "word": "tell",
+      "translation": "گفتن به کسی، تعریف کردن",
+      "ipa": "/tɛl/",
+      "partOfSpeech": "verb",
+      "example": "Tell me about your day.",
+      "definitions": [
+        "to give information to someone; to narrate"
+      ],
+      "synonyms": [
+        "inform",
+        "relate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "tell a story",
+        "tell the truth",
+        "tell someone"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اطلاعاتی را به کسی منتقل کردن",
+      "note": "tell + person: Tell me. (نه Tell to me.)",
+      "trap": "گذشته و سوم: told — نه telled!",
+      "tags": [
+        "A1",
+        "verbs",
+        "conversation"
+      ]
+    },
+    {
+      "word": "put",
+      "translation": "گذاشتن، قرار دادن",
+      "ipa": "/pʊt/",
+      "partOfSpeech": "verb",
+      "example": "Put the book on the table.",
+      "definitions": [
+        "to place something in a particular position"
+      ],
+      "synonyms": [
+        "place",
+        "set"
+      ],
+      "antonyms": [
+        "remove"
+      ],
+      "collocations": [
+        "put on",
+        "put down",
+        "put away"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "چیزی را در جایی قرار دادن",
+      "note": "put on = پوشیدن — put down = زمین گذاشتن — put away = سر جایش گذاشتن",
+      "trap": "گذشته و سوم: put — تغییر نمی‌کند!",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "get",
+      "translation": "گرفتن، شدن",
+      "ipa": "/ɡɛt/",
+      "partOfSpeech": "verb",
+      "example": "I get up at 7.",
+      "definitions": [
+        "to obtain; to become; to arrive"
+      ],
+      "synonyms": [
+        "obtain",
+        "receive",
+        "become"
+      ],
+      "antonyms": [
+        "lose"
+      ],
+      "collocations": [
+        "get up",
+        "get home",
+        "get better"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "به دست آوردن یا شدن",
+      "note": "پرمعنی‌ترین فعل انگلیسی! get up = بلند شدن، get better = بهتر شدن",
+      "trap": "گذشته: got — سوم: gotten (آمریکایی) / got (بریتانیایی)",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "use",
+      "translation": "استفاده کردن",
+      "ipa": "/juːz/",
+      "partOfSpeech": "verb",
+      "example": "Can I use your phone?",
+      "definitions": [
+        "to employ something for a purpose"
+      ],
+      "synonyms": [
+        "utilize",
+        "employ"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "use something",
+        "used to",
+        "make use of"
+      ],
+      "wordFamily": [
+        "use (n)",
+        "useful (adj)",
+        "useless (adj)",
+        "user (n)"
+      ],
+      "coreMeaning": "از چیزی برای هدفی بهره بردن",
+      "note": "used to = قبلاً عادت داشتن: I used to play football.",
+      "trap": "فعل: /juːz/ — اسم: /juːs/. تلفظ فرق دارد!",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "find",
+      "translation": "پیدا کردن",
+      "ipa": "/faɪnd/",
+      "partOfSpeech": "verb",
+      "example": "I can't find my keys.",
+      "definitions": [
+        "to discover something by searching or by chance"
+      ],
+      "synonyms": [
+        "discover",
+        "locate"
+      ],
+      "antonyms": [
+        "lose",
+        "miss"
+      ],
+      "collocations": [
+        "find out",
+        "find a job",
+        "find out about"
+      ],
+      "wordFamily": [
+        "finding (n)"
+      ],
+      "coreMeaning": "چیزی را کشف یا مکان‌یابی کردن",
+      "note": "find out = فهمیدن، متوجه شدن",
+      "trap": "گذشته و سوم: found — نه finded!",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "feel",
+      "translation": "احساس کردن",
+      "ipa": "/fiːl/",
+      "partOfSpeech": "verb",
+      "example": "I feel happy today.",
+      "definitions": [
+        "to experience an emotion or physical sensation"
+      ],
+      "synonyms": [
+        "sense"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "feel good",
+        "feel like",
+        "feel better"
+      ],
+      "wordFamily": [
+        "feeling (n)"
+      ],
+      "coreMeaning": "تجربه احساس یا حس جسمانی",
+      "note": "feel like = احساس کردن / میل داشتن: I feel like eating.",
+      "trap": "گذشته و سوم: felt — نه feeled!",
+      "tags": [
+        "A1",
+        "verbs",
+        "essential"
+      ]
+    },
+    {
+      "word": "hello",
+      "translation": "سلام",
+      "ipa": "/həˈloʊ/",
+      "partOfSpeech": "interjection",
+      "example": "Hello! How are you?",
+      "definitions": [
+        "a greeting used when meeting someone"
+      ],
+      "synonyms": [
+        "hi",
+        "hey"
+      ],
+      "antonyms": [
+        "goodbye"
+      ],
+      "collocations": [
+        "say hello",
+        "hello there"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "احوالپرسی هنگام ملاقات",
+      "note": "رسمی‌تر از hi. در هر موقعیتی قابل استفاده است.",
+      "trap": "در ایمیل و نامه Dear... استفاده می‌شود نه Hello.",
+      "tags": [
+        "A1",
+        "greetings",
+        "conversation"
+      ]
+    },
+    {
+      "word": "goodbye",
+      "translation": "خداحافظ",
+      "ipa": "/ɡʊdˈbaɪ/",
+      "partOfSpeech": "interjection",
+      "example": "Goodbye! See you tomorrow.",
+      "definitions": [
+        "a farewell greeting"
+      ],
+      "synonyms": [
+        "bye",
+        "farewell"
+      ],
+      "antonyms": [
+        "hello"
+      ],
+      "collocations": [
+        "say goodbye",
+        "wave goodbye"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "خداحافظی هنگام جدا شدن",
+      "note": "bye غیررسمی‌تر است. farewell خیلی رسمی است.",
+      "trap": "در انگلیسی معمولی بیشتر از bye استفاده می‌شود تا goodbye.",
+      "tags": [
+        "A1",
+        "greetings",
+        "conversation"
+      ]
+    },
+    {
+      "word": "please",
+      "translation": "لطفاً",
+      "ipa": "/pliːz/",
+      "partOfSpeech": "adverb",
+      "example": "Please sit down.",
+      "definitions": [
+        "used to make a request more polite"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "please help",
+        "yes, please",
+        "please don't"
+      ],
+      "wordFamily": [
+        "please (v)",
+        "pleased (adj)",
+        "pleasant (adj)"
+      ],
+      "coreMeaning": "برای مودبانه‌تر کردن درخواست",
+      "note": "می‌تواند اول یا آخر جمله بیاید: Please help me. / Help me, please.",
+      "trap": "please هم قید و هم فعل است: It pleases me = مرا خوشحال می‌کند.",
+      "tags": [
+        "A1",
+        "greetings",
+        "conversation"
+      ]
+    },
+    {
+      "word": "thank",
+      "translation": "تشکر کردن",
+      "ipa": "/θæŋk/",
+      "partOfSpeech": "verb",
+      "example": "Thank you very much.",
+      "definitions": [
+        "to express gratitude"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "thank you",
+        "thanks a lot",
+        "thank God"
+      ],
+      "wordFamily": [
+        "thanks (n)",
+        "thankful (adj)"
+      ],
+      "coreMeaning": "قدردانی و سپاسگزاری کردن",
+      "note": "Thank you = رسمی — Thanks = غیررسمی",
+      "trap": "thankful ≠ thankful. thankful = سپاسگزار — thankful نیست!",
+      "tags": [
+        "A1",
+        "greetings",
+        "conversation"
+      ]
+    },
+    {
+      "word": "sorry",
+      "translation": "متأسفم، ببخشید",
+      "ipa": "/ˈsɑːri/",
+      "partOfSpeech": "adjective",
+      "example": "I'm sorry I'm late.",
+      "definitions": [
+        "feeling regret or expressing apology"
+      ],
+      "synonyms": [
+        "apologetic"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "I'm sorry",
+        "sorry about",
+        "say sorry"
+      ],
+      "wordFamily": [
+        "sorrow (n)"
+      ],
+      "coreMeaning": "اظهار پشیمانی و عذرخواهی",
+      "note": "sorry = عذرخواهی — excuse me = اجازه بگیرم",
+      "trap": "sorry for + علت: I'm sorry for being late.",
+      "tags": [
+        "A1",
+        "greetings",
+        "conversation"
+      ]
+    },
+    {
+      "word": "excuse",
+      "translation": "ببخشید، عذرخواهی",
+      "ipa": "/ɪkˈskjuːz/",
+      "partOfSpeech": "verb",
+      "example": "Excuse me, where is the bank?",
+      "definitions": [
+        "to politely get someone's attention or forgive a minor offense"
+      ],
+      "synonyms": [
+        "pardon"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "excuse me",
+        "excuse yourself"
+      ],
+      "wordFamily": [
+        "excuse (n)",
+        "excusable (adj)"
+      ],
+      "coreMeaning": "مؤدبانه توجه کسی را جلب کردن",
+      "note": "excuse me = برای جلب توجه یا عبور — sorry = برای عذرخواهی",
+      "trap": "فعل: /ɪkˈskjuːz/ — اسم: /ɪkˈskjuːs/. تلفظ فرق دارد!",
+      "tags": [
+        "A1",
+        "greetings",
+        "conversation"
+      ]
+    },
+    {
+      "word": "welcome",
+      "translation": "خوش آمدید",
+      "ipa": "/ˈwɛlkəm/",
+      "partOfSpeech": "interjection",
+      "example": "Welcome to our school!",
+      "definitions": [
+        "a greeting for someone who has just arrived"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "welcome to",
+        "you're welcome",
+        "welcome back"
+      ],
+      "wordFamily": [
+        "welcome (adj)",
+        "welcome (v)"
+      ],
+      "coreMeaning": "خوشامدگویی به مهمان",
+      "note": "You're welcome = جواب thank you",
+      "trap": "You're welcome = خواهش می‌کنم (جواب تشکر)",
+      "tags": [
+        "A1",
+        "greetings",
+        "conversation"
+      ]
+    },
+    {
+      "word": "yes",
+      "translation": "بله",
+      "ipa": "/jɛs/",
+      "partOfSpeech": "adverb",
+      "example": "Yes, I agree.",
+      "definitions": [
+        "used to give a positive answer"
+      ],
+      "synonyms": [
+        "yeah",
+        "sure"
+      ],
+      "antonyms": [
+        "no"
+      ],
+      "collocations": [
+        "yes, please",
+        "yes, of course"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پاسخ مثبت",
+      "note": "yeah غیررسمی‌تر است. yes رسمی‌تر.",
+      "trap": "در انگلیسی casual بیشتر yeah استفاده می‌شود.",
+      "tags": [
+        "A1",
+        "greetings",
+        "conversation"
+      ]
+    },
+    {
+      "word": "no",
+      "translation": "نه",
+      "ipa": "/noʊ/",
+      "partOfSpeech": "adverb",
+      "example": "No, thank you.",
+      "definitions": [
+        "used to give a negative answer"
+      ],
+      "synonyms": [
+        "nah"
+      ],
+      "antonyms": [
+        "yes"
+      ],
+      "collocations": [
+        "no way",
+        "no problem",
+        "no thanks"
+      ],
+      "wordFamily": [
+        "no (adj)"
+      ],
+      "coreMeaning": "پاسخ منفی",
+      "note": "nope غیررسمی‌تر است.",
+      "trap": "no هم قید و هم صفت است: No problem. / No sugar.",
+      "tags": [
+        "A1",
+        "greetings",
+        "conversation"
+      ]
+    },
+    {
+      "word": "what",
+      "translation": "چه، چی",
+      "ipa": "/wʌt/",
+      "partOfSpeech": "pronoun",
+      "example": "What is your name?",
+      "definitions": [
+        "used to ask about things or information"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "what time",
+        "what about",
+        "what if"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پرسیدن درباره چیزها یا اطلاعات",
+      "note": "برای پرسیدن درباره چیز، اسم، تعریف و غیره.",
+      "trap": "what time = ساعت چند — what about = درباره چی",
+      "tags": [
+        "A1",
+        "question words",
+        "conversation"
+      ]
+    },
+    {
+      "word": "where",
+      "translation": "کجا",
+      "ipa": "/wɛr/",
+      "partOfSpeech": "adverb",
+      "example": "Where do you live?",
+      "definitions": [
+        "used to ask about place or location"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "where is",
+        "where are",
+        "where from"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پرسیدن درباره مکان",
+      "note": "where from = اهل کجا بودن",
+      "trap": "where are you from? = اهل کجایی؟ (نه where do you from?)",
+      "tags": [
+        "A1",
+        "question words",
+        "conversation"
+      ]
+    },
+    {
+      "word": "when",
+      "translation": "کی، چه وقت",
+      "ipa": "/wɛn/",
+      "partOfSpeech": "adverb",
+      "example": "When is your birthday?",
+      "definitions": [
+        "used to ask about time"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "when is",
+        "when do",
+        "when will"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پرسیدن درباره زمان",
+      "note": "هم برای سوال و هم برای جمله شرطی استفاده می‌شود.",
+      "trap": "when = چه وقت — where = کجا. با هم اشتباه نشوند.",
+      "tags": [
+        "A1",
+        "question words",
+        "conversation"
+      ]
+    },
+    {
+      "word": "who",
+      "translation": "کی، چه کسی",
+      "ipa": "/huː/",
+      "partOfSpeech": "pronoun",
+      "example": "Who is that man?",
+      "definitions": [
+        "used to ask about people"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "who is",
+        "who are",
+        "who knows"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پرسیدن درباره اشخاص",
+      "note": "فقط برای افراد استفاده می‌شود، نه اشیا.",
+      "trap": "who = افراد — what = اشیا/چیزها. Who is this? / What is this?",
+      "tags": [
+        "A1",
+        "question words",
+        "conversation"
+      ]
+    },
+    {
+      "word": "why",
+      "translation": "چرا",
+      "ipa": "/waɪ/",
+      "partOfSpeech": "adverb",
+      "example": "Why are you late?",
+      "definitions": [
+        "used to ask for a reason"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "why not",
+        "why do",
+        "that's why"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پرسیدن درباره دلیل",
+      "note": "Why not? = چرا که نه؟ (پیشنهاد)",
+      "trap": "جواب why با because شروع می‌شود.",
+      "tags": [
+        "A1",
+        "question words",
+        "conversation"
+      ]
+    },
+    {
+      "word": "how",
+      "translation": "چطور، چگونه",
+      "ipa": "/haʊ/",
+      "partOfSpeech": "adverb",
+      "example": "How are you?",
+      "definitions": [
+        "used to ask about manner, method, or condition"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "how are you",
+        "how much",
+        "how old"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پرسیدن درباره نحوه یا وضعیت",
+      "note": "how much = چقدر — how old = چند ساله — how far = چقدر دور",
+      "trap": "How are you? = حالت چطوره؟ (نه How do you do? که خیلی رسمی است)",
+      "tags": [
+        "A1",
+        "question words",
+        "conversation"
+      ]
+    },
+    {
+      "word": "which",
+      "translation": "کدام",
+      "ipa": "/wɪtʃ/",
+      "partOfSpeech": "determiner",
+      "example": "Which color do you like?",
+      "definitions": [
+        "used to ask about a choice from a limited group"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "which one",
+        "which way",
+        "which is better"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پرسیدن درباره انتخاب از بین گزینه‌ها",
+      "note": "which = از بین گزینه‌های مشخص — what = بدون محدودیت",
+      "trap": "which one? = کدام یکی؟ (برای انتخاب)",
+      "tags": [
+        "A1",
+        "question words",
+        "conversation"
+      ]
+    },
+    {
+      "word": "in",
+      "translation": "در، داخل",
+      "ipa": "/ɪn/",
+      "partOfSpeech": "preposition",
+      "example": "The book is in the bag.",
+      "definitions": [
+        "inside a place, container, or area"
+      ],
+      "synonyms": [
+        "inside"
+      ],
+      "antonyms": [
+        "out",
+        "outside"
+      ],
+      "collocations": [
+        "in the morning",
+        "in a room",
+        "in English"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نشان دادن موقعیت داخلی",
+      "note": "in + ماه/سال/فصل: in January, in 2024, in summer",
+      "trap": "in the morning — on Monday — at 5 PM. حروف اضافه زمان فرق دارند.",
+      "tags": [
+        "A1",
+        "prepositions",
+        "essential"
+      ]
+    },
+    {
+      "word": "on",
+      "translation": "روی، بر روی",
+      "ipa": "/ɑːn/",
+      "partOfSpeech": "preposition",
+      "example": "The cup is on the table.",
+      "definitions": [
+        "in contact with and supported by a surface"
+      ],
+      "synonyms": [
+        "upon"
+      ],
+      "antonyms": [
+        "off",
+        "under"
+      ],
+      "collocations": [
+        "on the table",
+        "on Monday",
+        "on TV"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نشان دادن موقعیت روی سطح",
+      "note": "on + روز: on Monday — on + تاریخ: on March 5th",
+      "trap": "on = روی سطح — in = داخل — at = نقطه‌ای",
+      "tags": [
+        "A1",
+        "prepositions",
+        "essential"
+      ]
+    },
+    {
+      "word": "at",
+      "translation": "در، در نقطه",
+      "ipa": "/æt/",
+      "partOfSpeech": "preposition",
+      "example": "I am at home.",
+      "definitions": [
+        "indicating a specific point or location"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "at home",
+        "at school",
+        "at night"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نشان دادن نقطه یا مکان خاص",
+      "note": "at + ساعت: at 5 PM — at + مکان خاص: at the bus stop",
+      "trap": "at home = خانه — at school = مدرسه (بدون the)",
+      "tags": [
+        "A1",
+        "prepositions",
+        "essential"
+      ]
+    },
+    {
+      "word": "under",
+      "translation": "زیر",
+      "ipa": "/ˈʌndər/",
+      "partOfSpeech": "preposition",
+      "example": "The cat is under the table.",
+      "definitions": [
+        "in a position directly below something"
+      ],
+      "synonyms": [
+        "beneath",
+        "below"
+      ],
+      "antonyms": [
+        "over",
+        "above"
+      ],
+      "collocations": [
+        "under the table",
+        "under water",
+        "under pressure"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "در موقعیت پایین‌تر از چیزی",
+      "note": "under = مستقیماً زیر — below = پایین‌تر (نه لزوماً مستقیم)",
+      "trap": "under ≠ below. under تماس نزدیک‌تری دارد.",
+      "tags": [
+        "A1",
+        "prepositions",
+        "essential"
+      ]
+    },
+    {
+      "word": "between",
+      "translation": "بین، میان",
+      "ipa": "/bɪˈtwiːn/",
+      "partOfSpeech": "preposition",
+      "example": "The park is between the school and the hospital.",
+      "definitions": [
+        "in the space separating two things"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "between A and B",
+        "in between"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "در فاصله دو چیز",
+      "note": "همیشه بین دو چیز استفاده می‌شود.",
+      "trap": "between = بین دو چیز — among = بین سه چیز یا بیشتر",
+      "tags": [
+        "A1",
+        "prepositions",
+        "essential"
+      ]
+    },
+    {
+      "word": "with",
+      "translation": "با، همراه",
+      "ipa": "/wɪð/",
+      "partOfSpeech": "preposition",
+      "example": "I go to school with my friend.",
+      "definitions": [
+        "accompanied by; having or carrying"
+      ],
+      "synonyms": [
+        "alongside"
+      ],
+      "antonyms": [
+        "without"
+      ],
+      "collocations": [
+        "with friends",
+        "with pleasure",
+        "come with"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "همراه بودن با کسی یا چیزی",
+      "note": "with = با — without = بدون",
+      "trap": "with me (نه with I). ضمیر بعد از with مفعولی است.",
+      "tags": [
+        "A1",
+        "prepositions",
+        "essential"
+      ]
+    },
+    {
+      "word": "from",
+      "translation": "از",
+      "ipa": "/frʌm/",
+      "partOfSpeech": "preposition",
+      "example": "I am from Iran.",
+      "definitions": [
+        "indicating origin, source, or starting point"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "to"
+      ],
+      "collocations": [
+        "from here",
+        "from morning to night",
+        "come from"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نشان دادن مبدأ یا منبع",
+      "note": "from...to... = از...تا...",
+      "trap": "I'm from Iran (نه I'm from the Iran)",
+      "tags": [
+        "A1",
+        "prepositions",
+        "essential"
+      ]
+    },
+    {
+      "word": "to",
+      "translation": "به، تا",
+      "ipa": "/tuː/",
+      "partOfSpeech": "preposition",
+      "example": "I go to school.",
+      "definitions": [
+        "indicating direction, destination, or purpose"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "from"
+      ],
+      "collocations": [
+        "go to",
+        "from...to",
+        "to be"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نشان دادن مقصد یا جهت",
+      "note": "هم حرف اضافه و هم نشانه مصدر: to go, to eat",
+      "trap": "to + فعل = مصدر: I want to go (نه I want go)",
+      "tags": [
+        "A1",
+        "prepositions",
+        "essential"
+      ]
+    },
+    {
+      "word": "for",
+      "translation": "برای، به مدت",
+      "ipa": "/fɔːr/",
+      "partOfSpeech": "preposition",
+      "example": "This gift is for you.",
+      "definitions": [
+        "indicating purpose, recipient, or duration"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "for you",
+        "for a long time",
+        "for example"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نشان دادن هدف، گیرنده یا مدت زمان",
+      "note": "for + مدت زمان: for two hours — since + نقطه شروع: since Monday",
+      "trap": "for و since در زمان فرق دارند: for 3 years / since 2020",
+      "tags": [
+        "A1",
+        "prepositions",
+        "essential"
+      ]
+    },
+    {
+      "word": "easy",
+      "translation": "آسان",
+      "ipa": "/ˈiːzi/",
+      "partOfSpeech": "adjective",
+      "example": "This test is easy.",
+      "definitions": [
+        "achieved without great effort; not difficult"
+      ],
+      "synonyms": [
+        "simple",
+        "effortless"
+      ],
+      "antonyms": [
+        "hard",
+        "difficult"
+      ],
+      "collocations": [
+        "easy to do",
+        "easy question",
+        "take it easy"
+      ],
+      "wordFamily": [
+        "easier (adj)",
+        "easiest (adj)",
+        "easily (adv)"
+      ],
+      "coreMeaning": "بدون تلاش زیاد قابل انجام",
+      "note": "Take it easy = آروم باش، عجله نکن",
+      "trap": "easily قید است: I can do it easily (نه I can do it easy).",
+      "tags": [
+        "A1",
+        "adjectives",
+        "essential"
+      ]
+    },
+    {
+      "word": "hard",
+      "translation": "سخت، دشوار",
+      "ipa": "/hɑːrd/",
+      "partOfSpeech": "adjective",
+      "example": "This question is hard.",
+      "definitions": [
+        "requiring great effort; difficult"
+      ],
+      "synonyms": [
+        "difficult",
+        "tough"
+      ],
+      "antonyms": [
+        "easy",
+        "simple"
+      ],
+      "collocations": [
+        "hard work",
+        "hard to do",
+        "hard life"
+      ],
+      "wordFamily": [
+        "harder (adj)",
+        "hardest (adj)",
+        "hardly (adv)"
+      ],
+      "coreMeaning": "نیاز به تلاش زیاد داشتن",
+      "note": "hardly = به سختی، تقریباً نه (معنی کاملاً متفاوت!)",
+      "trap": "hardly ≠ سخت! hardly = تقریباً نه: I hardly know him.",
+      "tags": [
+        "A1",
+        "adjectives",
+        "essential"
+      ]
+    },
+    {
+      "word": "right",
+      "translation": "درست، راست",
+      "ipa": "/raɪt/",
+      "partOfSpeech": "adjective",
+      "example": "That's the right answer.",
+      "definitions": [
+        "correct; true; on the right side"
+      ],
+      "synonyms": [
+        "correct",
+        "proper"
+      ],
+      "antonyms": [
+        "wrong",
+        "left"
+      ],
+      "collocations": [
+        "right answer",
+        "right now",
+        "turn right"
+      ],
+      "wordFamily": [
+        "right (n)",
+        "right (adv)"
+      ],
+      "coreMeaning": "صحیح یا سمت راست",
+      "note": "right = درست + راست — left = چپ",
+      "trap": "right ≠ write. هم‌آوا هستند ولی معنی متفاوت.",
+      "tags": [
+        "A1",
+        "adjectives",
+        "essential"
+      ]
+    },
+    {
+      "word": "wrong",
+      "translation": "غلط، اشتباه",
+      "ipa": "/rɔːŋ/",
+      "partOfSpeech": "adjective",
+      "example": "That's the wrong answer.",
+      "definitions": [
+        "not correct or true; mistaken"
+      ],
+      "synonyms": [
+        "incorrect",
+        "mistaken"
+      ],
+      "antonyms": [
+        "right",
+        "correct"
+      ],
+      "collocations": [
+        "wrong answer",
+        "go wrong",
+        "what's wrong"
+      ],
+      "wordFamily": [
+        "wrongly (adv)"
+      ],
+      "coreMeaning": "نادرست، اشتباه",
+      "note": "What's wrong? = چه شده؟ چه مشکلی هست؟",
+      "trap": "wrongly قید است: He was wrongly accused.",
+      "tags": [
+        "A1",
+        "adjectives",
+        "essential"
+      ]
+    },
+    {
+      "word": "long",
+      "translation": "بلند (طول)",
+      "ipa": "/lɔːŋ/",
+      "partOfSpeech": "adjective",
+      "example": "The river is very long.",
+      "definitions": [
+        "measuring a great distance from end to end"
+      ],
+      "synonyms": [
+        "lengthy",
+        "extended"
+      ],
+      "antonyms": [
+        "short"
+      ],
+      "collocations": [
+        "long hair",
+        "long time",
+        "long way"
+      ],
+      "wordFamily": [
+        "longer (adj)",
+        "longest (adj)",
+        "length (n)"
+      ],
+      "coreMeaning": "فاصله زیاد از ابتدا تا انتها",
+      "note": "long = طولانی (زمان/مسافت) — tall = بلند (قد)",
+      "trap": "long ≠ tall. a long road / a tall building",
+      "tags": [
+        "A1",
+        "adjectives",
+        "essential"
+      ]
+    },
+    {
+      "word": "many",
+      "translation": "خیلی، زیاد (قابل شمارش)",
+      "ipa": "/ˈmɛni/",
+      "partOfSpeech": "determiner",
+      "example": "There are many books.",
+      "definitions": [
+        "a large number of"
+      ],
+      "synonyms": [
+        "numerous",
+        "several"
+      ],
+      "antonyms": [
+        "few"
+      ],
+      "collocations": [
+        "many people",
+        "how many",
+        "so many"
+      ],
+      "wordFamily": [
+        "more (adj)",
+        "most (adj)"
+      ],
+      "coreMeaning": "تعداد زیاد (برای اسامی قابل شمارش)",
+      "note": "many + اسم قابل شمارش — much + اسم غیرقابل شمارش",
+      "trap": "many = قابل شمارش — much = غیرقابل شمارش. How many? / How much?",
+      "tags": [
+        "A1",
+        "adjectives",
+        "essential"
+      ]
+    },
+    {
+      "word": "some",
+      "translation": "بعضی، چند، کمی",
+      "ipa": "/sʌm/",
+      "partOfSpeech": "determiner",
+      "example": "I have some questions.",
+      "definitions": [
+        "an unspecified amount or number"
+      ],
+      "synonyms": [
+        "a few",
+        "several"
+      ],
+      "antonyms": [
+        "no"
+      ],
+      "collocations": [
+        "some people",
+        "some time",
+        "some of"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مقدار یا تعداد نامشخص",
+      "note": "some در جملات مثبت — any در جملات منفی و سوالی",
+      "trap": "Would you like some tea? (در سوال پیشنهادی some استفاده می‌شود)",
+      "tags": [
+        "A1",
+        "adjectives",
+        "essential"
+      ]
+    },
+    {
+      "word": "sit",
+      "translation": "نشستن",
+      "ipa": "/sɪt/",
+      "partOfSpeech": "verb",
+      "example": "Please sit down.",
+      "definitions": [
+        "to be in a position with your weight on your buttocks"
+      ],
+      "synonyms": [
+        "be seated"
+      ],
+      "antonyms": [
+        "stand"
+      ],
+      "collocations": [
+        "sit down",
+        "sit here",
+        "sit on"
+      ],
+      "wordFamily": [
+        "sit",
+        "sitting",
+        "sat"
+      ],
+      "coreMeaning": "روی صندلی یا زمین نشستن",
+      "note": "گذشته sat است. با down استفاده می‌شود.",
+      "trap": "sit فعل لازم است؛ نمی‌گوییم sit something.",
+      "tags": [
+        "A1",
+        "verbs",
+        "body"
+      ]
+    },
+    {
+      "word": "stand",
+      "translation": "ایستادن",
+      "ipa": "/stænd/",
+      "partOfSpeech": "verb",
+      "example": "Please stand up.",
+      "definitions": [
+        "to be in an upright position on your feet"
+      ],
+      "synonyms": [
+        "rise"
+      ],
+      "antonyms": [
+        "sit",
+        "lie"
+      ],
+      "collocations": [
+        "stand up",
+        "stand here",
+        "stand in line"
+      ],
+      "wordFamily": [
+        "stand",
+        "standing",
+        "stood"
+      ],
+      "coreMeaning": "روی پا ایستادن",
+      "note": "گذشته stood است.",
+      "trap": "stood شکل گذشته است، نه standed.",
+      "tags": [
+        "A1",
+        "verbs",
+        "body"
+      ]
+    },
+    {
+      "word": "change",
+      "translation": "تغییر دادن / عوض کردن",
+      "ipa": "/tʃeɪndʒ/",
+      "partOfSpeech": "verb",
+      "example": "I want to change my clothes.",
+      "definitions": [
+        "to make or become different",
+        "to replace one thing with another"
+      ],
+      "synonyms": [
+        "alter",
+        "modify"
+      ],
+      "antonyms": [
+        "keep",
+        "maintain"
+      ],
+      "collocations": [
+        "change clothes",
+        "change your mind",
+        "change money"
+      ],
+      "wordFamily": [
+        "change",
+        "changing",
+        "changed",
+        "changeable"
+      ],
+      "coreMeaning": "چیزی را متفاوت کردن یا عوض کردن",
+      "note": "هم فعل و هم اسم است.",
+      "trap": "change your mind یعنی نظرت عوض شود، نه ذهنت را عوض کنی.",
+      "tags": [
+        "A1",
+        "verbs",
+        "conversation"
+      ]
+    },
+    {
+      "word": "travel",
+      "translation": "سفر کردن",
+      "ipa": "/ˈtrævəl/",
+      "partOfSpeech": "verb",
+      "example": "I love to travel to new countries.",
+      "definitions": [
+        "to go from one place to another, especially over a long distance"
+      ],
+      "synonyms": [
+        "journey",
+        "tour"
+      ],
+      "antonyms": [
+        "stay"
+      ],
+      "collocations": [
+        "travel abroad",
+        "travel by plane",
+        "travel the world"
+      ],
+      "wordFamily": [
+        "travel",
+        "travelling",
+        "travelled",
+        "traveller"
+      ],
+      "coreMeaning": "از مکانی به مکان دیگر رفتن، معمولاً مسافت طولانی",
+      "note": "در انگلیسی بریتانیایی ll دوگانه: travelled. در آمریکایی: traveled.",
+      "trap": "travel به معنی مسافرت رفتن است، نه فقط رانندگی.",
+      "tags": [
+        "A1",
+        "verbs",
+        "travel"
+      ]
+    },
+    {
+      "word": "drive",
+      "translation": "رانندگی کردن",
+      "ipa": "/draɪv/",
+      "partOfSpeech": "verb",
+      "example": "She drives to work every day.",
+      "definitions": [
+        "to control a car or other vehicle"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "drive a car",
+        "drive to work",
+        "drive carefully"
+      ],
+      "wordFamily": [
+        "drive",
+        "driving",
+        "drove",
+        "driven",
+        "driver"
+      ],
+      "coreMeaning": "کنترل و هدایت ماشین",
+      "note": "گذشته drove و مفعولی driven است.",
+      "trap": "drive a car درست است، ride a car غلط (ride برای اسب و دوچرخه).",
+      "tags": [
+        "A1",
+        "verbs",
+        "transport"
+      ]
+    },
+    {
+      "word": "fly",
+      "translation": "پرواز کردن",
+      "ipa": "/flaɪ/",
+      "partOfSpeech": "verb",
+      "example": "Birds can fly.",
+      "definitions": [
+        "to move through the air",
+        "to travel by plane"
+      ],
+      "synonyms": [
+        "soar"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fly to",
+        "fly a kite",
+        "fly home"
+      ],
+      "wordFamily": [
+        "fly",
+        "flying",
+        "flew",
+        "flown",
+        "flight"
+      ],
+      "coreMeaning": "در هوا حرکت کردن یا با هواپیما سفر کردن",
+      "note": "گذشته flew و مفعولی flown است.",
+      "trap": "fly هم پرواز پرنده و هم سفر هوایی معنی می‌دهد.",
+      "tags": [
+        "A1",
+        "verbs",
+        "transport"
+      ]
+    },
+    {
+      "word": "swim",
+      "translation": "شنا کردن",
+      "ipa": "/swɪm/",
+      "partOfSpeech": "verb",
+      "example": "Can you swim?",
+      "definitions": [
+        "to move through water using your body"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "swim in the pool",
+        "swim well",
+        "go swimming"
+      ],
+      "wordFamily": [
+        "swim",
+        "swimming",
+        "swam",
+        "swum",
+        "swimmer"
+      ],
+      "coreMeaning": "در آب حرکت کردن با دست و پا",
+      "note": "گذشته swam و مفعولی swum است.",
+      "trap": "go swimming صحیح است، go to swim کمتر رایج.",
+      "tags": [
+        "A1",
+        "verbs",
+        "sport"
+      ]
+    },
+    {
+      "word": "sing",
+      "translation": "آواز خواندن",
+      "ipa": "/sɪŋ/",
+      "partOfSpeech": "verb",
+      "example": "She sings very well.",
+      "definitions": [
+        "to make music with your voice"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "sing a song",
+        "sing well",
+        "sing along"
+      ],
+      "wordFamily": [
+        "sing",
+        "singing",
+        "sang",
+        "sung",
+        "singer",
+        "song"
+      ],
+      "coreMeaning": "با صدا آهنگ خواندن",
+      "note": "گذشته sang و مفعولی sung است.",
+      "trap": "sing a song درست است، song از sing مشتق شده.",
+      "tags": [
+        "A1",
+        "verbs",
+        "hobby"
+      ]
+    },
+    {
+      "word": "dance",
+      "translation": "رقصیدن",
+      "ipa": "/dæns/",
+      "partOfSpeech": "verb",
+      "example": "They dance every Friday night.",
+      "definitions": [
+        "to move your body to music"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "dance well",
+        "dance to music",
+        "go dancing"
+      ],
+      "wordFamily": [
+        "dance",
+        "dancing",
+        "danced",
+        "dancer"
+      ],
+      "coreMeaning": "بدن را با ریتم موسیقی حرکت دادن",
+      "note": "هم فعل و هم اسم است.",
+      "trap": "dance to music (با موسیقی) نه dance with music.",
+      "tags": [
+        "A1",
+        "verbs",
+        "hobby"
+      ]
+    },
+    {
+      "word": "draw",
+      "translation": "نقاشی کشیدن",
+      "ipa": "/drɔː/",
+      "partOfSpeech": "verb",
+      "example": "The child likes to draw pictures.",
+      "definitions": [
+        "to make a picture with a pen or pencil"
+      ],
+      "synonyms": [
+        "sketch"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "draw a picture",
+        "draw well",
+        "draw attention"
+      ],
+      "wordFamily": [
+        "draw",
+        "drawing",
+        "drew",
+        "drawn"
+      ],
+      "coreMeaning": "با مداد یا خودکار تصویر کشیدن",
+      "note": "گذشته drew و مفعولی drawn است.",
+      "trap": "draw (نقاشی) با paint (با رنگ) فرق دارد.",
+      "tags": [
+        "A1",
+        "verbs",
+        "hobby"
+      ]
+    },
+    {
+      "word": "break",
+      "translation": "شکستن",
+      "ipa": "/breɪk/",
+      "partOfSpeech": "verb",
+      "example": "Be careful! Don't break the glass.",
+      "definitions": [
+        "to separate into pieces suddenly",
+        "to stop working"
+      ],
+      "synonyms": [
+        "shatter",
+        "crack"
+      ],
+      "antonyms": [
+        "fix",
+        "repair"
+      ],
+      "collocations": [
+        "break down",
+        "break a rule",
+        "break the law"
+      ],
+      "wordFamily": [
+        "break",
+        "breaking",
+        "broke",
+        "broken"
+      ],
+      "coreMeaning": "چیزی را به تکه‌های کوچک تبدیل کردن",
+      "note": "گذشته broke و مفعولی broken است.",
+      "trap": "break down خراب شدن ماشین است، break up تمام شدن رابطه.",
+      "tags": [
+        "A1",
+        "verbs",
+        "daily routine"
+      ]
+    },
+    {
+      "word": "send",
+      "translation": "فرستادن",
+      "ipa": "/send/",
+      "partOfSpeech": "verb",
+      "example": "I will send you an email.",
+      "definitions": [
+        "to cause something to go to a person or place"
+      ],
+      "synonyms": [
+        "dispatch",
+        "mail"
+      ],
+      "antonyms": [
+        "receive"
+      ],
+      "collocations": [
+        "send a message",
+        "send an email",
+        "send by post"
+      ],
+      "wordFamily": [
+        "send",
+        "sending",
+        "sent"
+      ],
+      "coreMeaning": "چیزی را به شخص یا مکانی فرستادن",
+      "note": "گذشته sent است، نه sended.",
+      "trap": "send + شخص + چیز: send me an email (نه send an email to me هم درست است).",
+      "tags": [
+        "A1",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "word": "choose",
+      "translation": "انتخاب کردن",
+      "ipa": "/tʃuːz/",
+      "partOfSpeech": "verb",
+      "example": "You can choose any color you like.",
+      "definitions": [
+        "to pick one thing from a group of things"
+      ],
+      "synonyms": [
+        "select",
+        "pick"
+      ],
+      "antonyms": [
+        "reject"
+      ],
+      "collocations": [
+        "choose from",
+        "choose between",
+        "choose carefully"
+      ],
+      "wordFamily": [
+        "choose",
+        "choosing",
+        "chose",
+        "chosen",
+        "choice"
+      ],
+      "coreMeaning": "از بین چند گزینه یکی را برگزیدن",
+      "note": "گذشته chose و مفعولی chosen است. اسم: choice.",
+      "trap": "choose /tʃuːz/ و chose /tʃoʊz/ تلفظ متفاوتی دارند.",
+      "tags": [
+        "A1",
+        "verbs",
+        "conversation"
+      ]
+    },
+    {
+      "word": "born",
+      "translation": "متولد شدن",
+      "ipa": "/bɔːrn/",
+      "partOfSpeech": "verb",
+      "example": "I was born in 1995.",
+      "definitions": [
+        "to come into existence by birth"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "die"
+      ],
+      "collocations": [
+        "be born",
+        "born in",
+        "born and raised"
+      ],
+      "wordFamily": [
+        "birth (n)"
+      ],
+      "coreMeaning": "به دنیا آمدن",
+      "note": "همیشه با was/were استفاده می‌شود: I was born",
+      "trap": "I born wrong است — باید بگویید I was born",
+      "tags": [
+        "A1",
+        "verbs",
+        "daily"
+      ]
+    },
+    {
+      "word": "win",
+      "translation": "بردن، پیروز شدن",
+      "ipa": "/wɪn/",
+      "partOfSpeech": "verb",
+      "example": "Our team won the game.",
+      "definitions": [
+        "to be successful in a competition or contest"
+      ],
+      "synonyms": [
+        "triumph"
+      ],
+      "antonyms": [
+        "lose"
+      ],
+      "collocations": [
+        "win a game",
+        "win a prize",
+        "win the lottery"
+      ],
+      "wordFamily": [
+        "winner (n)",
+        "winning (adj)"
+      ],
+      "coreMeaning": "پیروز شدن در مسابقه",
+      "note": "گذشته: won — قاعده‌ای نیست",
+      "trap": "win + competition / beat + person",
+      "tags": [
+        "A1",
+        "verbs",
+        "daily"
+      ]
+    },
+    {
+      "word": "lose",
+      "translation": "باختن، گم کردن",
+      "ipa": "/luːz/",
+      "partOfSpeech": "verb",
+      "example": "Don't lose your keys.",
+      "definitions": [
+        "to fail to win",
+        "to be unable to find something"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "win",
+        "find"
+      ],
+      "collocations": [
+        "lose weight",
+        "lose hope",
+        "lose track"
+      ],
+      "wordFamily": [
+        "loss (n)",
+        "lost (adj)"
+      ],
+      "coreMeaning": "باختن یا گم کردن",
+      "note": "گذشته: lost — با lost (گمشده) یکی است",
+      "trap": "lose ≠ loose — loose یعنی شل/گشاد",
+      "tags": [
+        "A1",
+        "verbs",
+        "daily"
+      ]
+    },
+    {
+      "word": "build",
+      "translation": "ساختن",
+      "ipa": "/bɪld/",
+      "partOfSpeech": "verb",
+      "example": "They built a new school.",
+      "definitions": [
+        "to make something by putting parts together"
+      ],
+      "synonyms": [
+        "construct"
+      ],
+      "antonyms": [
+        "destroy"
+      ],
+      "collocations": [
+        "build a house",
+        "build a team",
+        "build up"
+      ],
+      "wordFamily": [
+        "builder (n)",
+        "building (n)"
+      ],
+      "coreMeaning": "با مصالح چیزی ساختن",
+      "note": "گذشته: built — قاعده‌ای نیست",
+      "trap": "build-built-built (نه builded)",
+      "tags": [
+        "A1",
+        "verbs",
+        "daily"
+      ]
+    },
+    {
+      "word": "paint",
+      "translation": "رنگ زدن، نقاشی کردن",
+      "ipa": "/peɪnt/",
+      "partOfSpeech": "verb",
+      "example": "He painted the wall blue.",
+      "definitions": [
+        "to cover a surface with paint",
+        "to make a picture using paint"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "paint a picture",
+        "paint the wall",
+        "paint a room"
+      ],
+      "wordFamily": [
+        "paint (n)",
+        "painter (n)",
+        "painting (n)"
+      ],
+      "coreMeaning": "با رنگ نقاشی کردن یا رنگ زدن",
+      "note": "paint ≠ draw — draw با مداد/قلم است",
+      "trap": "paint هم فعل و هم اسم است",
+      "tags": [
+        "A1",
+        "verbs",
+        "daily"
+      ]
+    },
+    {
+      "word": "fix",
+      "translation": "تعمیر کردن، درست کردن",
+      "ipa": "/fɪks/",
+      "partOfSpeech": "verb",
+      "example": "Can you fix my phone?",
+      "definitions": [
+        "to repair something that is broken"
+      ],
+      "synonyms": [
+        "repair",
+        "mend"
+      ],
+      "antonyms": [
+        "break"
+      ],
+      "collocations": [
+        "fix a problem",
+        "fix a car",
+        "fix up"
+      ],
+      "wordFamily": [
+        "fix (n)",
+        "fixable (adj)"
+      ],
+      "coreMeaning": "تعمیر کردن چیز خراب",
+      "note": "fix = repair ولی غیررسمی‌تر",
+      "trap": "fix ≠ fix up — fix up یعنی تعمیرات اساسی/بازسازی",
+      "tags": [
+        "A1",
+        "verbs",
+        "daily"
+      ]
+    },
+    {
+      "word": "receive",
+      "translation": "دریافت کردن",
+      "ipa": "/rɪˈsiːv/",
+      "partOfSpeech": "verb",
+      "example": "I received your message.",
+      "definitions": [
+        "to get or be given something"
+      ],
+      "synonyms": [
+        "get",
+        "obtain"
+      ],
+      "antonyms": [
+        "send"
+      ],
+      "collocations": [
+        "receive a gift",
+        "receive a message",
+        "receive help"
+      ],
+      "wordFamily": [
+        "receiver (n)",
+        "receipt (n)"
+      ],
+      "coreMeaning": "چیزی را گرفتن یا دریافت کردن",
+      "note": "رسمی‌تر از get",
+      "trap": "receive: i قبل از e (نه recieve)",
+      "tags": [
+        "A1",
+        "verbs",
+        "daily"
+      ]
+    }
+  ]
+}

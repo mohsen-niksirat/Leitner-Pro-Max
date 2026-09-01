@@ -1,0 +1,4583 @@
+{
+  "name": "اقتصاد و مالی",
+  "description": "واژگان سطح B2 — موضوع: اقتصاد و مالی",
+  "category": "B2 — سطح",
+  "level": "B2",
+  "packId": "B2-05",
+  "words": [
+    {
+      "word": "inflation",
+      "translation": "تورم",
+      "ipa": "/ɪnˈfleɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Inflation has risen to 5%.",
+      "definitions": [
+        "general increase in prices"
+      ],
+      "synonyms": [
+        "price rise"
+      ],
+      "antonyms": [
+        "deflation"
+      ],
+      "collocations": [
+        "rate of inflation",
+        "inflation rate"
+      ],
+      "wordFamily": [
+        "inflate (v)",
+        "inflationary (adj)"
+      ],
+      "coreMeaning": "افزایش عمومی قیمت‌ها",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "deflation",
+      "translation": "کاهش تورم",
+      "ipa": "/diːˈfleɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Deflation can harm the economy.",
+      "definitions": [
+        "decrease in prices"
+      ],
+      "synonyms": [
+        "price drop"
+      ],
+      "antonyms": [
+        "inflation"
+      ],
+      "collocations": [
+        "price deflation",
+        "deflationary pressure"
+      ],
+      "wordFamily": [
+        "deflate (v)",
+        "deflationary (adj)"
+      ],
+      "coreMeaning": "کاهش عمومی قیمت‌ها",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "recession",
+      "translation": "رکود",
+      "ipa": "/rɪˈsɛʃən/",
+      "partOfSpeech": "noun",
+      "example": "The country entered a recession.",
+      "definitions": [
+        "economic decline"
+      ],
+      "synonyms": [
+        "downturn",
+        "slump"
+      ],
+      "antonyms": [
+        "boom"
+      ],
+      "collocations": [
+        "economic recession",
+        "recession period"
+      ],
+      "wordFamily": [
+        "recession (n)",
+        "recessionary (adj)"
+      ],
+      "coreMeaning": "رکود اقتصادی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "boom",
+      "translation": "رونق",
+      "ipa": "/buːm/",
+      "partOfSpeech": "noun",
+      "example": "The tech boom created many jobs.",
+      "definitions": [
+        "rapid growth"
+      ],
+      "synonyms": [
+        "expansion",
+        "surge"
+      ],
+      "antonyms": [
+        "recession"
+      ],
+      "collocations": [
+        "economic boom",
+        "boom period"
+      ],
+      "wordFamily": [
+        "boom (n/v)"
+      ],
+      "coreMeaning": "رونق اقتصادی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "gdp",
+      "translation": "تولید ناخالص داخلی",
+      "ipa": "/ˌdʒiː diː ˈpiː/",
+      "partOfSpeech": "noun",
+      "example": "GDP grew by 3% this year.",
+      "definitions": [
+        "gross domestic product"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "GDP growth",
+        "GDP per capita"
+      ],
+      "wordFamily": [
+        "GDP (n)"
+      ],
+      "coreMeaning": "تولید ناخالص داخلی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "deficit",
+      "translation": "کسری",
+      "ipa": "/ˈdɛfɪsɪt/",
+      "partOfSpeech": "noun",
+      "example": "The budget deficit is growing.",
+      "definitions": [
+        "shortfall"
+      ],
+      "synonyms": [
+        "shortage"
+      ],
+      "antonyms": [
+        "surplus"
+      ],
+      "collocations": [
+        "budget deficit",
+        "trade deficit"
+      ],
+      "wordFamily": [
+        "deficit (n)"
+      ],
+      "coreMeaning": "کسری بودجه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "surplus",
+      "translation": "مازاد",
+      "ipa": "/ˈsɜːrpləs/",
+      "partOfSpeech": "noun",
+      "example": "The country has a trade surplus.",
+      "definitions": [
+        "excess"
+      ],
+      "synonyms": [
+        "abundance"
+      ],
+      "antonyms": [
+        "deficit"
+      ],
+      "collocations": [
+        "trade surplus",
+        "budget surplus"
+      ],
+      "wordFamily": [
+        "surplus (n/adj)"
+      ],
+      "coreMeaning": "مازاد",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "taxation",
+      "translation": "مالیات‌بندی",
+      "ipa": "/tækˈseɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Taxation funds public services.",
+      "definitions": [
+        "tax system"
+      ],
+      "synonyms": [
+        "levy"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "progressive taxation",
+        "taxation policy"
+      ],
+      "wordFamily": [
+        "tax (n/v)",
+        "taxation (n)"
+      ],
+      "coreMeaning": "مالیات‌بندی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "tariff",
+      "translation": "تعرفه",
+      "ipa": "/ˈtærɪf/",
+      "partOfSpeech": "noun",
+      "example": "The government imposed tariffs on imports.",
+      "definitions": [
+        "duty",
+        "tax"
+      ],
+      "synonyms": [
+        "duty"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "import tariff",
+        "tariff barrier"
+      ],
+      "wordFamily": [
+        "tariff (n)"
+      ],
+      "coreMeaning": "تعرفه گمرکی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "subsidy",
+      "translation": "یارانه",
+      "ipa": "/ˈsʌbsɪdi/",
+      "partOfSpeech": "noun",
+      "example": "Agricultural subsidies support farmers.",
+      "definitions": [
+        "financial aid"
+      ],
+      "synonyms": [
+        "grant"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "government subsidy",
+        "subsidy program"
+      ],
+      "wordFamily": [
+        "subsidize (v)",
+        "subsidy (n)"
+      ],
+      "coreMeaning": "یارانه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "entrepreneurship",
+      "translation": "کارآفرینی",
+      "ipa": "/ˌɒntrəprəˈnɜːrʃɪp/",
+      "partOfSpeech": "noun",
+      "example": "Entrepreneurship drives innovation.",
+      "definitions": [
+        "business creation"
+      ],
+      "synonyms": [
+        "startup culture"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "entrepreneurship program",
+        "social entrepreneurship"
+      ],
+      "wordFamily": [
+        "entrepreneur (n)",
+        "entrepreneurial (adj)"
+      ],
+      "coreMeaning": "کارآفرینی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "stock market",
+      "translation": "بازار سهام",
+      "ipa": "/stɒk ˈmɑːrkɪt/",
+      "partOfSpeech": "noun",
+      "example": "The stock market crashed.",
+      "definitions": [
+        "equity market"
+      ],
+      "synonyms": [
+        "share market"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "stock market crash",
+        "stock market index"
+      ],
+      "wordFamily": [
+        "stock (n)",
+        "market (n)"
+      ],
+      "coreMeaning": "بازار سهام",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "collateral",
+      "translation": "وثیقه",
+      "ipa": "/kəˈlætərəl/",
+      "partOfSpeech": "noun",
+      "example": "The bank requires collateral for the loan.",
+      "definitions": [
+        "security",
+        "guarantee"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "put up collateral",
+        "collateral damage"
+      ],
+      "collocations": [
+        "collateral (n/adj)"
+      ],
+      "wordFamily": "وثیقه",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "debit",
+      "translation": "بدهکاری",
+      "ipa": "/ˈdɛbɪt/",
+      "partOfSpeech": "noun",
+      "example": "Use your debit card.",
+      "definitions": [
+        "withdrawal"
+      ],
+      "synonyms": [
+        "credit"
+      ],
+      "antonyms": [
+        "debit card",
+        "debit account"
+      ],
+      "collocations": [
+        "debit (n/v)"
+      ],
+      "wordFamily": "بدهکاری",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "interest rate",
+      "translation": "نرخ بهره",
+      "ipa": "/ˈɪntrəst reɪt/",
+      "partOfSpeech": "noun",
+      "example": "Interest rates are rising.",
+      "definitions": [
+        "cost of borrowing"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "low interest rate",
+        "interest rate policy"
+      ],
+      "collocations": [
+        "interest (n)",
+        "rate (n)"
+      ],
+      "wordFamily": "نرخ بهره",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "inflation rate",
+      "translation": "نرخ تورم",
+      "ipa": "/ɪnˈfleɪʃən reɪt/",
+      "partOfSpeech": "noun",
+      "example": "The inflation rate is 3%.",
+      "definitions": [
+        "rate of price increase"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "high inflation rate",
+        "inflation rate target"
+      ],
+      "collocations": [
+        "inflation (n)",
+        "rate (n)"
+      ],
+      "wordFamily": "نرخ تورم",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "exchange rate",
+      "translation": "نرخ ارز",
+      "ipa": "/ɪksˈtʃeɪndʒ reɪt/",
+      "partOfSpeech": "noun",
+      "example": "The exchange rate fluctuates daily.",
+      "definitions": [
+        "currency rate"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "exchange rate policy",
+        "floating exchange rate"
+      ],
+      "collocations": [
+        "exchange (n)",
+        "rate (n)"
+      ],
+      "wordFamily": "نرخ ارز",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "depreciation",
+      "translation": "کاهش ارزش",
+      "ipa": "/dɪˌpriːʃiˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Currency depreciation affects imports.",
+      "definitions": [
+        "decrease in value"
+      ],
+      "synonyms": [
+        "decline"
+      ],
+      "antonyms": [
+        "appreciation"
+      ],
+      "collocations": [
+        "asset depreciation",
+        "currency depreciation"
+      ],
+      "wordFamily": [
+        "depreciate (v)"
+      ],
+      "coreMeaning": "کاهش ارزش",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "appreciation",
+      "translation": "افزایش ارزش",
+      "ipa": "/əˌpriːʃiˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Currency appreciation benefits importers.",
+      "definitions": [
+        "increase in value"
+      ],
+      "synonyms": [
+        "rise"
+      ],
+      "antonyms": [
+        "depreciation"
+      ],
+      "collocations": [
+        "capital appreciation",
+        "currency appreciation"
+      ],
+      "wordFamily": [
+        "appreciate (v)"
+      ],
+      "coreMeaning": "افزایش ارزش",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "export",
+      "translation": "صادرات",
+      "ipa": "/ˈɛkspɔːrt/",
+      "partOfSpeech": "noun",
+      "example": "Oil is the main export.",
+      "definitions": [
+        "shipment abroad"
+      ],
+      "synonyms": [
+        "import"
+      ],
+      "antonyms": [
+        "export market",
+        "export goods"
+      ],
+      "collocations": [
+        "export (n/v)"
+      ],
+      "wordFamily": "صادرات",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "import",
+      "translation": "واردات",
+      "ipa": "/ˈɪmpɔːrt/",
+      "partOfSpeech": "noun",
+      "example": "The country imports most of its food.",
+      "definitions": [
+        "goods from abroad"
+      ],
+      "synonyms": [
+        "export"
+      ],
+      "antonyms": [
+        "import duty",
+        "import goods"
+      ],
+      "collocations": [
+        "import (n/v)"
+      ],
+      "wordFamily": "واردات",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "supply chain",
+      "translation": "زنجیره تأمین",
+      "ipa": "/səˈplaɪ tʃeɪn/",
+      "partOfSpeech": "noun",
+      "example": "The supply chain was disrupted.",
+      "definitions": [
+        "distribution network"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "supply chain management",
+        "global supply chain"
+      ],
+      "collocations": [
+        "supply (n)",
+        "chain (n)"
+      ],
+      "wordFamily": "زنجیره تأمین",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "commodity",
+      "translation": "کالا",
+      "ipa": "/kəˈmɒdəti/",
+      "partOfSpeech": "noun",
+      "example": "Commodity prices are volatile.",
+      "definitions": [
+        "goods",
+        "product"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "commodity market",
+        "commodity trading"
+      ],
+      "collocations": [
+        "commodity (n)"
+      ],
+      "wordFamily": "کالا",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "merchandise",
+      "translation": "کالای تجاری",
+      "ipa": "/ˈmɜːrtʃəndaɪz/",
+      "partOfSpeech": "noun",
+      "example": "The store displays its merchandise.",
+      "definitions": [
+        "goods",
+        "products"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "merchandise inventory",
+        "licensed merchandise"
+      ],
+      "collocations": [
+        "merchant (n)",
+        "merchandise (n)"
+      ],
+      "wordFamily": "کالای تجاری",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "retail",
+      "translation": "خرده‌فروشی",
+      "ipa": "/ˈriːteɪl/",
+      "partOfSpeech": "noun",
+      "example": "Retail sales increased this quarter.",
+      "definitions": [
+        "selling to consumers"
+      ],
+      "synonyms": [
+        "wholesale"
+      ],
+      "antonyms": [
+        "retail price",
+        "retail store"
+      ],
+      "collocations": [
+        "retail (n/adj/adv)"
+      ],
+      "wordFamily": "خرده‌فروشی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "producer",
+      "translation": "تولیدکننده",
+      "ipa": "/prəˈdjuːsər/",
+      "partOfSpeech": "noun",
+      "example": "The country is a major oil producer.",
+      "definitions": [
+        "manufacturer",
+        "maker"
+      ],
+      "synonyms": [
+        "consumer"
+      ],
+      "antonyms": [
+        "producer price",
+        "producer surplus"
+      ],
+      "collocations": [
+        "produce (v)",
+        "producer (n)"
+      ],
+      "wordFamily": "تولیدکننده",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "monopoly",
+      "translation": "انحصار",
+      "ipa": "/məˈnɒpəli/",
+      "partOfSpeech": "noun",
+      "example": "The company has a monopoly on the market.",
+      "definitions": [
+        "exclusive control"
+      ],
+      "synonyms": [
+        "competition"
+      ],
+      "antonyms": [
+        "monopoly power",
+        "break a monopoly"
+      ],
+      "collocations": [
+        "monopolize (v)",
+        "monopolistic (adj)"
+      ],
+      "wordFamily": "انحصار",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "bankruptcy",
+      "translation": "ورشکستگی",
+      "ipa": "/ˈbæŋkrʌptsi/",
+      "partOfSpeech": "noun",
+      "example": "The company filed for bankruptcy.",
+      "definitions": [
+        "insolvency"
+      ],
+      "synonyms": [
+        "solvency"
+      ],
+      "antonyms": [
+        "file for bankruptcy",
+        "go bankrupt"
+      ],
+      "collocations": [
+        "bankrupt (adj/v)",
+        "bankruptcy (n)"
+      ],
+      "wordFamily": "ورشکستگی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "insolvency",
+      "translation": "ناتوانی مالی",
+      "ipa": "/ɪnˈsɒlvənsi/",
+      "partOfSpeech": "noun",
+      "example": "Insolvency led to closure.",
+      "definitions": [
+        "inability to pay debts"
+      ],
+      "synonyms": [
+        "solvency"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "financial insolvency",
+        "insolvency proceedings"
+      ],
+      "wordFamily": [
+        "insolvent (adj)",
+        "insolvency (n)"
+      ],
+      "coreMeaning": "ناتوانی مالی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "expenditure",
+      "translation": "هزینه‌کرد",
+      "ipa": "/ɪkˈspɛndɪtʃər/",
+      "partOfSpeech": "noun",
+      "example": "Government expenditure on education rose.",
+      "definitions": [
+        "spending",
+        "outlay"
+      ],
+      "synonyms": [
+        "income"
+      ],
+      "antonyms": [
+        "public expenditure",
+        "capital expenditure"
+      ],
+      "collocations": [
+        "expend (v)",
+        "expenditure (n)"
+      ],
+      "wordFamily": "هزینه‌کرد",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "premium",
+      "translation": "حق بیمه",
+      "ipa": "/ˈpriːmiəm/",
+      "partOfSpeech": "noun",
+      "example": "Insurance premiums are high.",
+      "definitions": [
+        "payment",
+        "fee"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "insurance premium",
+        "premium quality"
+      ],
+      "collocations": [
+        "premium (n/adj)"
+      ],
+      "wordFamily": "حق بیمه",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "claim",
+      "translation": "ادعا",
+      "ipa": "/kleɪm/",
+      "partOfSpeech": "noun",
+      "example": "She filed an insurance claim.",
+      "definitions": [
+        "request",
+        "demand"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "file a claim",
+        "insurance claim"
+      ],
+      "collocations": [
+        "claim (n/v)"
+      ],
+      "wordFamily": "ادعا، مطالبه",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "creditor",
+      "translation": "طلبکار",
+      "ipa": "/ˈkrɛdɪtər/",
+      "partOfSpeech": "noun",
+      "example": "Creditors are demanding payment.",
+      "definitions": [
+        "lender"
+      ],
+      "synonyms": [
+        "debtor"
+      ],
+      "antonyms": [
+        "creditor nation",
+        "creditor rights"
+      ],
+      "collocations": [
+        "credit (n)",
+        "creditor (n)"
+      ],
+      "wordFamily": "طلبکار",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "debtor",
+      "translation": "بدهکار",
+      "ipa": "/ˈdɛtər/",
+      "partOfSpeech": "noun",
+      "example": "The debtor couldn't repay.",
+      "definitions": [
+        "borrower"
+      ],
+      "synonyms": [
+        "creditor"
+      ],
+      "antonyms": [
+        "debtor nation",
+        "debtor prison"
+      ],
+      "collocations": [
+        "debt (n)",
+        "debtor (n)"
+      ],
+      "wordFamily": "بدهکار",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "repay",
+      "translation": "بازپرداخت کردن",
+      "ipa": "/rɪˈpeɪ/",
+      "partOfSpeech": "verb",
+      "example": "You must repay the loan.",
+      "definitions": [
+        "pay back"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "repay a debt",
+        "repay a loan"
+      ],
+      "collocations": [
+        "repayment (n)"
+      ],
+      "wordFamily": "بازپرداخت کردن",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "withdrawal",
+      "translation": "برداشت",
+      "ipa": "/wɪðˈdrɔːəl/",
+      "partOfSpeech": "noun",
+      "example": "ATM withdrawals have a limit.",
+      "definitions": [
+        "removal"
+      ],
+      "synonyms": [
+        "deposit"
+      ],
+      "antonyms": [
+        "cash withdrawal",
+        "withdrawal slip"
+      ],
+      "collocations": [
+        "withdraw (v)",
+        "withdrawal (n)"
+      ],
+      "wordFamily": "برداشت",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "balance",
+      "translation": "مانده",
+      "ipa": "/ˈbæləns/",
+      "partOfSpeech": "noun",
+      "example": "Check your account balance.",
+      "definitions": [
+        "remainder",
+        "equilibrium"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "balance sheet",
+        "account balance"
+      ],
+      "collocations": [
+        "balance (n/v)",
+        "balanced (adj)"
+      ],
+      "wordFamily": "مانده",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "audit",
+      "translation": "حسابرسی",
+      "ipa": "/ˈɔːdɪt/",
+      "partOfSpeech": "noun",
+      "example": "The company underwent an audit.",
+      "definitions": [
+        "examination",
+        "review"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "financial audit",
+        "audit report"
+      ],
+      "collocations": [
+        "audit (n/v)",
+        "auditor (n)"
+      ],
+      "wordFamily": "حسابرسی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "accounting",
+      "translation": "حسابداری",
+      "ipa": "/əˈkaʊntɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Accounting is essential for businesses.",
+      "definitions": [
+        "bookkeeping"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "accounting software",
+        "accounting principles"
+      ],
+      "collocations": [
+        "account (n)",
+        "accountant (n)"
+      ],
+      "wordFamily": "حسابداری",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "fiscal",
+      "translation": "مالی",
+      "ipa": "/ˈfɪskəl/",
+      "partOfSpeech": "noun",
+      "example": "Fiscal policy affects the economy.",
+      "definitions": [
+        "financial",
+        "monetary"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "fiscal year",
+        "fiscal policy"
+      ],
+      "collocations": [
+        "fiscally (adv)",
+        "fiscal (adj)"
+      ],
+      "wordFamily": "مالی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "monetary",
+      "translation": "پولی",
+      "ipa": "/ˈmʌnɪtɛri/",
+      "partOfSpeech": "noun",
+      "example": "Monetary policy controls money supply.",
+      "definitions": [
+        "financial",
+        "pecuniary"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "monetary policy",
+        "monetary system"
+      ],
+      "collocations": [
+        "money (n)",
+        "monetarily (adv)"
+      ],
+      "wordFamily": "پولی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "central bank",
+      "translation": "بانک مرکزی",
+      "ipa": "/ˈsɛntrəl bæŋk/",
+      "partOfSpeech": "noun",
+      "example": "The central bank raised interest rates.",
+      "definitions": [
+        "reserve bank"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "central bank policy",
+        "central bank independence"
+      ],
+      "collocations": [
+        "central (adj)",
+        "bank (n)"
+      ],
+      "wordFamily": "بانک مرکزی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "commercial bank",
+      "translation": "بانک تجاری",
+      "ipa": "/kəˈmɜːrʃəl bæŋk/",
+      "partOfSpeech": "noun",
+      "example": "Commercial banks offer loans.",
+      "definitions": [
+        "retail bank"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "commercial bank account",
+        "commercial banking"
+      ],
+      "collocations": [
+        "commercial (adj)",
+        "bank (n)"
+      ],
+      "wordFamily": "بانک تجاری",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "investment bank",
+      "translation": "بانک سرمایه‌گذاری",
+      "ipa": "/ɪnˈvɛstmənt bæŋk/",
+      "partOfSpeech": "noun",
+      "example": "Investment banks handle mergers.",
+      "definitions": [
+        "merchant bank"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "investment banking",
+        "investment bank services"
+      ],
+      "collocations": [
+        "investment (n)",
+        "bank (n)"
+      ],
+      "wordFamily": "بانک سرمایه‌گذاری",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "hedge fund",
+      "translation": "صندوق پوشش ریسک",
+      "ipa": "/hɛdʒ fʌnd/",
+      "partOfSpeech": "noun",
+      "example": "Hedge funds are for wealthy investors.",
+      "definitions": [
+        "investment fund"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "hedge fund manager",
+        "hedge fund strategy"
+      ],
+      "collocations": [
+        "hedge (n)",
+        "fund (n)"
+      ],
+      "wordFamily": "صندوق پوشش ریسک",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "venture capital",
+      "translation": "سرمایه‌گذاری خطرپذیر",
+      "ipa": "/ˈvɛntʃər ˈkæpɪtəl/",
+      "partOfSpeech": "noun",
+      "example": "Venture capital funded the startup.",
+      "definitions": [
+        "risk capital"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "venture capital firm",
+        "venture capital funding"
+      ],
+      "collocations": [
+        "venture (n)",
+        "capital (n)"
+      ],
+      "wordFamily": "سرمایه‌گذاری خطرپذیر",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "ipo",
+      "translation": "عرضه اولیه",
+      "ipa": "/ˌaɪ piː ˈoʊ/",
+      "partOfSpeech": "noun",
+      "example": "The company's IPO was successful.",
+      "definitions": [
+        "initial public offering"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "IPO price",
+        "file for an IPO"
+      ],
+      "collocations": [
+        "IPO (n)"
+      ],
+      "wordFamily": "عرضه اولیه عمومی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "board of directors",
+      "translation": "هیئت مدیره",
+      "ipa": "/bɔːrd əv dɪˈrɛktərz/",
+      "partOfSpeech": "noun",
+      "example": "The board of directors approved the plan.",
+      "definitions": [
+        "governing body"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "board of directors meeting",
+        "join the board"
+      ],
+      "collocations": [
+        "board (n)",
+        "director (n)"
+      ],
+      "wordFamily": "هیئت مدیره",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "quarterly",
+      "translation": "سه‌ماهه",
+      "ipa": "/ˈkwɔːrtərli/",
+      "partOfSpeech": "noun",
+      "example": "Quarterly reports show growth.",
+      "definitions": [
+        "every three months"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "quarterly report",
+        "quarterly earnings"
+      ],
+      "collocations": [
+        "quarter (n)",
+        "quarterly (adj/adv)"
+      ],
+      "wordFamily": "سه‌ماهه",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "annual",
+      "translation": "سالانه",
+      "ipa": "/ˈænjuəl/",
+      "partOfSpeech": "noun",
+      "example": "The annual report was published.",
+      "definitions": [
+        "yearly"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "annual report",
+        "annual revenue"
+      ],
+      "collocations": [
+        "annually (adv)",
+        "annual (adj)"
+      ],
+      "wordFamily": "سالانه",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "fiscal year",
+      "translation": "سال مالی",
+      "ipa": "/ˈfɪskəl jɪr/",
+      "partOfSpeech": "noun",
+      "example": "The fiscal year ends in March.",
+      "definitions": [
+        "financial year"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "end of fiscal year",
+        "fiscal year budget"
+      ],
+      "collocations": [
+        "fiscal (adj)",
+        "year (n)"
+      ],
+      "wordFamily": "سال مالی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "projection",
+      "translation": "برآورد",
+      "ipa": "/prəˈdʒɛkʃən/",
+      "partOfSpeech": "noun",
+      "example": "The revenue projection is optimistic.",
+      "definitions": [
+        "estimate",
+        "forecast"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "financial projection",
+        "growth projection"
+      ],
+      "collocations": [
+        "project (v)",
+        "projection (n)"
+      ],
+      "wordFamily": "برآورد",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "estimate",
+      "translation": "تخمین",
+      "ipa": "/ˈɛstɪmɪt/",
+      "partOfSpeech": "noun",
+      "example": "The cost estimate was accurate.",
+      "definitions": [
+        "approximation",
+        "assessment"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "cost estimate",
+        "rough estimate"
+      ],
+      "collocations": [
+        "estimate (n/v)",
+        "estimation (n)"
+      ],
+      "wordFamily": "تخمین",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "indicator",
+      "translation": "شاخص",
+      "ipa": "/ˈɪndɪkeɪtər/",
+      "partOfSpeech": "noun",
+      "example": "Economic indicators suggest growth.",
+      "definitions": [
+        "sign",
+        "measure"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "economic indicator",
+        "leading indicator"
+      ],
+      "collocations": [
+        "indicate (v)",
+        "indicator (n)"
+      ],
+      "wordFamily": "شاخص",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "volatility",
+      "translation": "نوسان",
+      "ipa": "/ˌvɒləˈtɪləti/",
+      "partOfSpeech": "noun",
+      "example": "Market volatility is high.",
+      "definitions": [
+        "instability",
+        "fluctuation"
+      ],
+      "synonyms": [
+        "stability"
+      ],
+      "antonyms": [
+        "market volatility",
+        "volatility index"
+      ],
+      "collocations": [
+        "volatile (adj)",
+        "volatility (n)"
+      ],
+      "wordFamily": "نوسان",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "stability",
+      "translation": "ثبات",
+      "ipa": "/stəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "example": "Economic stability is the goal.",
+      "definitions": [
+        "steadiness",
+        "security"
+      ],
+      "synonyms": [
+        "instability"
+      ],
+      "antonyms": [
+        "price stability",
+        "financial stability"
+      ],
+      "collocations": [
+        "stable (adj)",
+        "stabilize (v)"
+      ],
+      "wordFamily": "ثبات",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "growth",
+      "translation": "رشد",
+      "ipa": "/ɡroʊθ/",
+      "partOfSpeech": "noun",
+      "example": "Economic growth is accelerating.",
+      "definitions": [
+        "expansion",
+        "development"
+      ],
+      "synonyms": [
+        "decline"
+      ],
+      "antonyms": [
+        "economic growth",
+        "GDP growth"
+      ],
+      "collocations": [
+        "grow (v)",
+        "growth (n)"
+      ],
+      "wordFamily": "رشد",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "decline",
+      "translation": "کاهش",
+      "ipa": "/dɪˈklaɪn/",
+      "partOfSpeech": "noun",
+      "example": "There's been a decline in sales.",
+      "definitions": [
+        "decrease",
+        "drop"
+      ],
+      "synonyms": [
+        "increase"
+      ],
+      "antonyms": [
+        "economic decline",
+        "decline in"
+      ],
+      "collocations": [
+        "decline (n/v)"
+      ],
+      "wordFamily": "کاهش",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "increase",
+      "translation": "افزایش",
+      "ipa": "/ɪnˈkriːs/",
+      "partOfSpeech": "noun",
+      "example": "There's been an increase in demand.",
+      "definitions": [
+        "rise",
+        "growth"
+      ],
+      "synonyms": [
+        "decrease"
+      ],
+      "antonyms": [
+        "price increase",
+        "increase in"
+      ],
+      "collocations": [
+        "increase (n/v)"
+      ],
+      "wordFamily": "افزایش",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "decrease",
+      "translation": "کاهش",
+      "ipa": "/dɪˈkriːs/",
+      "partOfSpeech": "noun",
+      "example": "A decrease in spending was noted.",
+      "definitions": [
+        "decline",
+        "reduction"
+      ],
+      "synonyms": [
+        "increase"
+      ],
+      "antonyms": [
+        "cost decrease",
+        "decrease in"
+      ],
+      "collocations": [
+        "decrease (n/v)"
+      ],
+      "wordFamily": "کاهش",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "fluctuation",
+      "translation": "نوسان",
+      "ipa": "/ˌflʌktʃuˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Currency fluctuations affect trade.",
+      "definitions": [
+        "variation",
+        "oscillation"
+      ],
+      "synonyms": [
+        "stability"
+      ],
+      "antonyms": [
+        "price fluctuation",
+        "market fluctuation"
+      ],
+      "collocations": [
+        "fluctuate (v)",
+        "fluctuation (n)"
+      ],
+      "wordFamily": "نوسان",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "stagnation",
+      "translation": "سکون",
+      "ipa": "/stæɡˈneɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Economic stagnation is concerning.",
+      "definitions": [
+        "stagnancy",
+        "standstill"
+      ],
+      "synonyms": [
+        "growth"
+      ],
+      "antonyms": [
+        "economic stagnation",
+        "wage stagnation"
+      ],
+      "collocations": [
+        "stagnate (v)",
+        "stagnant (adj)"
+      ],
+      "wordFamily": "سکون اقتصادی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "stimulus",
+      "translation": "محرک اقتصادی",
+      "ipa": "/ˈstɪmjələs/",
+      "partOfSpeech": "noun",
+      "example": "The government announced a stimulus package.",
+      "definitions": [
+        "incentive",
+        "boost"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "economic stimulus",
+        "stimulus package"
+      ],
+      "collocations": [
+        "stimulate (v)",
+        "stimulus (n)"
+      ],
+      "wordFamily": "محرک اقتصادی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "bailout",
+      "translation": "کمک مالی",
+      "ipa": "/ˈbeɪlaʊt/",
+      "partOfSpeech": "noun",
+      "example": "The bank received a bailout.",
+      "definitions": [
+        "rescue",
+        "financial aid"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "government bailout",
+        "bailout package"
+      ],
+      "collocations": [
+        "bail out (v)",
+        "bailout (n)"
+      ],
+      "wordFamily": "کمک مالی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "austerity",
+      "translation": "ریاضت اقتصادی",
+      "ipa": "/ɒˈstɛrɪti/",
+      "partOfSpeech": "noun",
+      "example": "Austerity measures were imposed.",
+      "definitions": [
+        "frugality",
+        "belt-tightening"
+      ],
+      "synonyms": [
+        "prosperity"
+      ],
+      "antonyms": [
+        "austerity measures",
+        "austerity program"
+      ],
+      "collocations": [
+        "austere (adj)",
+        "austerity (n)"
+      ],
+      "wordFamily": "ریاضت اقتصادی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "privatization",
+      "translation": "خصوصی‌سازی",
+      "ipa": "/ˌpraɪvətaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Privatization of state companies continues.",
+      "definitions": [
+        "denationalization"
+      ],
+      "synonyms": [
+        "nationalization"
+      ],
+      "antonyms": [
+        "privatization of",
+        "privatization program"
+      ],
+      "collocations": [
+        "privatize (v)",
+        "private (adj)"
+      ],
+      "wordFamily": "خصوصی‌سازی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "nationalization",
+      "translation": "ملی‌سازی",
+      "ipa": "/ˌnæʃənəlaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Nationalization of oil was controversial.",
+      "definitions": [
+        "state ownership"
+      ],
+      "synonyms": [
+        "privatization"
+      ],
+      "antonyms": [
+        "nationalization of",
+        "nationalization program"
+      ],
+      "collocations": [
+        "nationalize (v)",
+        "national (adj)"
+      ],
+      "wordFamily": "ملی‌سازی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "deregulation",
+      "translation": "مقررات‌زدایی",
+      "ipa": "/diːˌrɛɡjʊˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Deregulation increased competition.",
+      "definitions": [
+        "removal of regulations"
+      ],
+      "synonyms": [
+        "regulation"
+      ],
+      "antonyms": [
+        "financial deregulation",
+        "deregulation of"
+      ],
+      "collocations": [
+        "deregulate (v)",
+        "deregulation (n)"
+      ],
+      "wordFamily": "مقررات‌زدایی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "subcontracting",
+      "translation": "پیمان‌فرعی",
+      "ipa": "/ˌsʌbkənˈtræktɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Subcontracting reduces overhead.",
+      "definitions": [
+        "outsourcing"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "subcontracting work",
+        "subcontracting agreement"
+      ],
+      "collocations": [
+        "subcontract (v)",
+        "subcontractor (n)"
+      ],
+      "wordFamily": "پیمان‌فرعی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "agreement",
+      "translation": "توافق",
+      "ipa": "/əˈɡriːmənt/",
+      "partOfSpeech": "noun",
+      "example": "Both parties signed the agreement.",
+      "definitions": [
+        "contract",
+        "accord"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "trade agreement",
+        "agreement on"
+      ],
+      "collocations": [
+        "agree (v)",
+        "agreement (n)"
+      ],
+      "wordFamily": "توافق",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "negotiation",
+      "translation": "مذاکره",
+      "ipa": "/nɪˌɡoʊʃiˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Negotiations are ongoing.",
+      "definitions": [
+        "discussion",
+        "bargaining"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "salary negotiation",
+        "negotiation skills"
+      ],
+      "collocations": [
+        "negotiate (v)",
+        "negotiator (n)"
+      ],
+      "wordFamily": "مذاکره",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "violation",
+      "translation": "نقض",
+      "ipa": "/ˌvaɪəˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Violations result in penalties.",
+      "definitions": [
+        "breach",
+        "infringement"
+      ],
+      "synonyms": [
+        "compliance"
+      ],
+      "antonyms": [
+        "violation of",
+        "law violation"
+      ],
+      "collocations": [
+        "violate (v)",
+        "violation (n)"
+      ],
+      "wordFamily": "نقض",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "transparency",
+      "translation": "شفافیت",
+      "ipa": "/trænsˈpærənsi/",
+      "partOfSpeech": "noun",
+      "example": "Transparency builds trust.",
+      "definitions": [
+        "openness",
+        "clarity"
+      ],
+      "synonyms": [
+        "secrecy"
+      ],
+      "antonyms": [
+        "financial transparency",
+        "transparency in"
+      ],
+      "collocations": [
+        "transparent (adj)",
+        "transparency (n)"
+      ],
+      "wordFamily": "شفافیت",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "csr",
+      "translation": "مسئولیت اجتماعی شرکت",
+      "ipa": "/ˌsiː ɛs ˈɑːr/",
+      "partOfSpeech": "noun",
+      "example": "CSR improves company image.",
+      "definitions": [
+        "corporate social responsibility"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "CSR report",
+        "CSR program"
+      ],
+      "collocations": [
+        "CSR (n)"
+      ],
+      "wordFamily": "مسئولیت اجتماعی شرکت",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "commodity price",
+      "translation": "قیمت کالا",
+      "ipa": "/kəˈmɒdəti praɪs/",
+      "partOfSpeech": "noun",
+      "example": "Commodity prices are rising.",
+      "definitions": [
+        "raw material price"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "commodity price index",
+        "commodity price volatility"
+      ],
+      "collocations": [
+        "commodity (n)",
+        "price (n)"
+      ],
+      "wordFamily": "قیمت کالا",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "market share",
+      "translation": "سهم بازار",
+      "ipa": "/ˈmɑːrkɪt ʃɛr/",
+      "partOfSpeech": "noun",
+      "example": "The company increased its market share.",
+      "definitions": [
+        "portion of market"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "gain market share",
+        "market share percentage"
+      ],
+      "collocations": [
+        "market (n)",
+        "share (n)"
+      ],
+      "wordFamily": "سهم بازار",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "profit margin",
+      "translation": "حاشیه سود",
+      "ipa": "/ˈprɒfɪt ˈmɑːrdʒɪn/",
+      "partOfSpeech": "noun",
+      "example": "Profit margins are thin.",
+      "definitions": [
+        "markup",
+        "margin"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "high profit margin",
+        "profit margin analysis"
+      ],
+      "collocations": [
+        "profit (n)",
+        "margin (n)"
+      ],
+      "wordFamily": "حاشیه سود",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "cash flow",
+      "translation": "جریان نقدی",
+      "ipa": "/kæʃ floʊ/",
+      "partOfSpeech": "noun",
+      "example": "Positive cash flow is essential.",
+      "definitions": [
+        "money movement"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "cash flow statement",
+        "cash flow management"
+      ],
+      "collocations": [
+        "cash (n)",
+        "flow (n)"
+      ],
+      "wordFamily": "جریان نقدی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "balance sheet",
+      "translation": "ترازنامه",
+      "ipa": "/ˈbæləns ʃiːt/",
+      "partOfSpeech": "noun",
+      "example": "The balance sheet shows assets and liabilities.",
+      "definitions": [
+        "financial statement"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "balance sheet analysis",
+        "balance sheet items"
+      ],
+      "collocations": [
+        "balance (n)",
+        "sheet (n)"
+      ],
+      "wordFamily": "ترازنامه",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "income statement",
+      "translation": "صورت سود و زیان",
+      "ipa": "/ˈɪnkʌm ˈsteɪtmənt/",
+      "partOfSpeech": "noun",
+      "example": "The income statement shows profitability.",
+      "definitions": [
+        "profit and loss statement"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "income statement analysis",
+        "quarterly income statement"
+      ],
+      "collocations": [
+        "income (n)",
+        "statement (n)"
+      ],
+      "wordFamily": "صورت سود و زیان",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "annual report",
+      "translation": "گزارش سالانه",
+      "ipa": "/ˈænjuəl rɪˈpɔːrt/",
+      "partOfSpeech": "noun",
+      "example": "The annual report was published.",
+      "definitions": [
+        "yearly report"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "annual report review",
+        "company annual report"
+      ],
+      "collocations": [
+        "annual (adj)",
+        "report (n)"
+      ],
+      "wordFamily": "گزارش سالانه",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "due diligence",
+      "translation": "بررسی دقیق",
+      "ipa": "/duː ˈdɪlɪdʒəns/",
+      "partOfSpeech": "noun",
+      "example": "Due diligence is required before acquisition.",
+      "definitions": [
+        "thorough investigation"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "due diligence process",
+        "conduct due diligence"
+      ],
+      "collocations": [
+        "due (adj)",
+        "diligence (n)"
+      ],
+      "wordFamily": "بررسی دقیق",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "roi",
+      "translation": "بازگشت سرمایه",
+      "ipa": "/ˌɑːr oʊ ˈaɪ/",
+      "partOfSpeech": "noun",
+      "example": "The ROI was 15%.",
+      "definitions": [
+        "return on investment"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "calculate ROI",
+        "high ROI"
+      ],
+      "collocations": [
+        "ROI (n)"
+      ],
+      "wordFamily": "بازگشت سرمایه",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "kpi",
+      "translation": "شاخص کلیدی عملکرد",
+      "ipa": "/ˌkeɪ piː ˈaɪ/",
+      "partOfSpeech": "noun",
+      "example": "KPIs measure success.",
+      "definitions": [
+        "key performance indicator"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "set KPIs",
+        "track KPIs"
+      ],
+      "collocations": [
+        "KPI (n)"
+      ],
+      "wordFamily": "شاخص کلیدی عملکرد",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "b2b",
+      "translation": "تجارت به تجارت",
+      "ipa": "/ˌbiː tuː ˈbiː/",
+      "partOfSpeech": "noun",
+      "example": "B2B sales are growing.",
+      "definitions": [
+        "business to business"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "B2B marketing",
+        "B2B sales"
+      ],
+      "collocations": [
+        "B2B (n)"
+      ],
+      "wordFamily": "تجارت بین کسب‌وکارها",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "b2c",
+      "translation": "تجارت به مصرف‌کننده",
+      "ipa": "/ˌbiː tuː ˈsiː/",
+      "partOfSpeech": "noun",
+      "example": "B2C e-commerce is booming.",
+      "definitions": [
+        "business to consumer"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "B2C marketing",
+        "B2C sales"
+      ],
+      "collocations": [
+        "B2C (n)"
+      ],
+      "wordFamily": "تجارت به مصرف‌کننده",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "e-commerce",
+      "translation": "تجارت الکترونیک",
+      "ipa": "/ˈiː kɒmɜːrs/",
+      "partOfSpeech": "noun",
+      "example": "E-commerce is transforming retail.",
+      "definitions": [
+        "online business"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "e-commerce platform",
+        "e-commerce growth"
+      ],
+      "collocations": [
+        "e-commerce (n)"
+      ],
+      "wordFamily": "تجارت الکترونیک",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "inflation-adjusted",
+      "translation": "تورم‌ تعدیل‌شده",
+      "ipa": "/ɪnˈfleɪʃən əˈdʒʌstɪd/",
+      "partOfSpeech": "noun",
+      "example": "Inflation-adjusted wages have stagnated.",
+      "definitions": [
+        "real",
+        "constant"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "inflation-adjusted income",
+        "inflation-adjusted rate"
+      ],
+      "collocations": [
+        "inflation (n)",
+        "adjusted (adj)"
+      ],
+      "wordFamily": "تورم‌ تعدیل‌شده",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "purchasing power",
+      "translation": "قدرت خرید",
+      "ipa": "/ˈpɜːrtʃɪsɪŋ ˈpaʊər/",
+      "partOfSpeech": "noun",
+      "example": "Purchasing power declined.",
+      "definitions": [
+        "buying power"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "purchasing power parity",
+        "purchasing power of"
+      ],
+      "collocations": [
+        "purchasing (adj)",
+        "power (n)"
+      ],
+      "wordFamily": "قدرت خرید",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "cost of living",
+      "translation": "هزینه زندگی",
+      "ipa": "/kɒst əv ˈlɪvɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "The cost of living is high.",
+      "definitions": [
+        "living expenses"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "cost of living index",
+        "cost of living increase"
+      ],
+      "collocations": [
+        "cost (n)",
+        "living (n)"
+      ],
+      "wordFamily": "هزینه زندگی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "economic indicator",
+      "translation": "شاخص اقتصادی",
+      "ipa": "/ˌiːkəˈnɒmɪk ˈɪndɪkeɪtər/",
+      "partOfSpeech": "noun",
+      "example": "Economic indicators are positive.",
+      "definitions": [
+        "financial indicator"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "leading economic indicator",
+        "economic indicator data"
+      ],
+      "collocations": [
+        "economic (adj)",
+        "indicator (n)"
+      ],
+      "wordFamily": "شاخص اقتصادی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "consumer confidence",
+      "translation": "اعتماد مصرف‌کننده",
+      "ipa": "/kənˈsjuːmər ˈkɒnfɪdəns/",
+      "partOfSpeech": "noun",
+      "example": "Consumer confidence is rising.",
+      "definitions": [
+        "buyer confidence"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "consumer confidence index",
+        "consumer confidence survey"
+      ],
+      "collocations": [
+        "consumer (n)",
+        "confidence (n)"
+      ],
+      "wordFamily": "اعتماد مصرف‌کننده",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "business cycle",
+      "translation": "چرخه تجاری",
+      "ipa": "/ˈbɪznɪs ˈsaɪkəl/",
+      "partOfSpeech": "noun",
+      "example": "The business cycle has phases.",
+      "definitions": [
+        "economic cycle"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "business cycle theory",
+        "business cycle phases"
+      ],
+      "collocations": [
+        "business (n)",
+        "cycle (n)"
+      ],
+      "wordFamily": "چرخه تجاری",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "economic growth",
+      "translation": "رشد اقتصادی",
+      "ipa": "/ˌiːkəˈnɒmɪk ɡroʊθ/",
+      "partOfSpeech": "noun",
+      "example": "Economic growth is the target.",
+      "definitions": [
+        "GDP growth"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "sustainable economic growth",
+        "economic growth rate"
+      ],
+      "collocations": [
+        "economic (adj)",
+        "growth (n)"
+      ],
+      "wordFamily": "رشد اقتصادی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "economic crisis",
+      "translation": "بحران اقتصادی",
+      "ipa": "/ˌiːkəˈnɒmɪk ˈkraɪsɪs/",
+      "partOfSpeech": "noun",
+      "example": "The economic crisis affected everyone.",
+      "definitions": [
+        "financial crisis"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "global economic crisis",
+        "economic crisis management"
+      ],
+      "collocations": [
+        "economic (adj)",
+        "crisis (n)"
+      ],
+      "wordFamily": "بحران اقتصادی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "financial crisis",
+      "translation": "بحران مالی",
+      "ipa": "/faɪˈnænʃəl ˈkraɪsɪs/",
+      "partOfSpeech": "noun",
+      "example": "The financial crisis of2008 was devastating.",
+      "definitions": [
+        "economic crisis"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "global financial crisis",
+        "financial crisis response"
+      ],
+      "collocations": [
+        "financial (adj)",
+        "crisis (n)"
+      ],
+      "wordFamily": "بحران مالی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "debt crisis",
+      "translation": "بحران بدهی",
+      "ipa": "/dɛt ˈkraɪsɪs/",
+      "partOfSpeech": "noun",
+      "example": "The debt crisis threatened the economy.",
+      "definitions": [
+        "fiscal crisis"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "sovereign debt crisis",
+        "debt crisis management"
+      ],
+      "collocations": [
+        "debt (n)",
+        "crisis (n)"
+      ],
+      "wordFamily": "بحران بدهی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "trade war",
+      "translation": "جنگ تجاری",
+      "ipa": "/treɪd wɔːr/",
+      "partOfSpeech": "noun",
+      "example": "The trade war hurt exporters.",
+      "definitions": [
+        "economic conflict"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "trade war escalation",
+        "trade war impact"
+      ],
+      "collocations": [
+        "trade (n)",
+        "war (n)"
+      ],
+      "wordFamily": "جنگ تجاری",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "protectionism",
+      "translation": "حمایت‌گرایی",
+      "ipa": "/prəˈtɛkʃənɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Protectionism restricts trade.",
+      "definitions": [
+        "trade barriers"
+      ],
+      "synonyms": [
+        "free trade"
+      ],
+      "antonyms": [
+        "economic protectionism",
+        "protectionism policy"
+      ],
+      "collocations": [
+        "protect (v)",
+        "protectionist (adj/n)"
+      ],
+      "wordFamily": "حمایت‌گرایی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "free trade",
+      "translation": "تجارت آزاد",
+      "ipa": "/friː treɪd/",
+      "partOfSpeech": "noun",
+      "example": "Free trade benefits consumers.",
+      "definitions": [
+        "open trade"
+      ],
+      "synonyms": [
+        "protectionism"
+      ],
+      "antonyms": [
+        "free trade agreement",
+        "free trade zone"
+      ],
+      "collocations": [
+        "free (adj)",
+        "trade (n)"
+      ],
+      "wordFamily": "تجارت آزاد",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "trade agreement",
+      "translation": "توافق تجاری",
+      "ipa": "/treɪd əˈɡriːmənt/",
+      "partOfSpeech": "noun",
+      "example": "The trade agreement was signed.",
+      "definitions": [
+        "trade deal"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "bilateral trade agreement",
+        "free trade agreement"
+      ],
+      "collocations": [
+        "trade (n)",
+        "agreement (n)"
+      ],
+      "wordFamily": "توافق تجاری",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "quota",
+      "translation": "سهمیه",
+      "ipa": "/ˈkwoʊtə/",
+      "partOfSpeech": "noun",
+      "example": "There's a quota on imports.",
+      "definitions": [
+        "limit",
+        "allocation"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "import quota",
+        "quota system"
+      ],
+      "collocations": [
+        "quota (n)"
+      ],
+      "wordFamily": "سهمیه",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "subsidize",
+      "translation": "یارانه دادن",
+      "ipa": "/ˈsʌbsɪdaɪz/",
+      "partOfSpeech": "verb",
+      "example": "The government subsidizes agriculture.",
+      "definitions": [
+        "fund",
+        "finance"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "subsidize farmers",
+        "subsidize education"
+      ],
+      "collocations": [
+        "subsidy (n)",
+        "subsidized (adj)"
+      ],
+      "wordFamily": "یارانه دادن",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "nationalize",
+      "translation": "ملی کردن",
+      "ipa": "/ˈnæʃənəlaɪz/",
+      "partOfSpeech": "verb",
+      "example": "The government nationalized the banks.",
+      "definitions": [
+        "bring under state control"
+      ],
+      "synonyms": [
+        "privatize"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "nationalize industry",
+        "nationalized company"
+      ],
+      "wordFamily": [
+        "nationalization (n)",
+        "national (adj)"
+      ],
+      "coreMeaning": "ملی کردن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "privatize",
+      "translation": "خصوصی کردن",
+      "ipa": "/ˈpraɪvətaɪz/",
+      "partOfSpeech": "verb",
+      "example": "The state privatized the airline.",
+      "definitions": [
+        "sell to private sector"
+      ],
+      "synonyms": [
+        "nationalize"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "privatize company",
+        "privatized industry"
+      ],
+      "wordFamily": [
+        "privatization (n)",
+        "private (adj)"
+      ],
+      "coreMeaning": "خصوصی کردن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "deregulate",
+      "translation": "مقررات‌زدایی کردن",
+      "ipa": "/diːˈrɛɡjʊleɪt/",
+      "partOfSpeech": "verb",
+      "example": "The government deregulated the industry.",
+      "definitions": [
+        "remove regulations"
+      ],
+      "synonyms": [
+        "regulate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "deregulate market",
+        "deregulated industry"
+      ],
+      "wordFamily": [
+        "deregulation (n)"
+      ],
+      "coreMeaning": "مقررات‌زدایی کردن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "speculate",
+      "translation": "سفته‌بازی کردن",
+      "ipa": "/ˈspɛkjʊleɪt/",
+      "partOfSpeech": "verb",
+      "example": "Investors speculate on currency.",
+      "definitions": [
+        "gamble",
+        "bet"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "speculate on",
+        "speculate in"
+      ],
+      "collocations": [
+        "speculation (n)",
+        "speculator (n)"
+      ],
+      "wordFamily": "سفته‌بازی کردن",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "hedge",
+      "translation": "پوشش ریسک دادن",
+      "ipa": "/hɛdʒ/",
+      "partOfSpeech": "verb",
+      "example": "Hedge your investments.",
+      "definitions": [
+        "protect",
+        "safeguard"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "hedge against",
+        "hedging strategy"
+      ],
+      "collocations": [
+        "hedge (n/v)",
+        "hedging (n)"
+      ],
+      "wordFamily": "پوشش ریسک دادن",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "diversify",
+      "translation": "متنوع کردن",
+      "ipa": "/daɪˈvɜːrsɪfaɪ/",
+      "partOfSpeech": "verb",
+      "example": "Diversify your portfolio.",
+      "definitions": [
+        "vary",
+        "expand"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "diversify investments",
+        "diversified portfolio"
+      ],
+      "collocations": [
+        "diversification (n)",
+        "diverse (adj)"
+      ],
+      "wordFamily": "متنوع کردن",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "liquidity",
+      "translation": "نقدینگی",
+      "ipa": "/lɪˈkwɪdəti/",
+      "partOfSpeech": "noun",
+      "example": "The company has good liquidity.",
+      "definitions": [
+        "cash availability"
+      ],
+      "synonyms": [
+        "illiquidity"
+      ],
+      "antonyms": [
+        "liquidity ratio",
+        "liquidity crisis"
+      ],
+      "collocations": [
+        "liquid (adj)",
+        "liquidity (n)"
+      ],
+      "wordFamily": "نقدینگی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "solvency",
+      "translation": "توانایی مالی",
+      "ipa": "/ˈsɒlvənsi/",
+      "partOfSpeech": "noun",
+      "example": "The company's solvency is assured.",
+      "definitions": [
+        "financial health"
+      ],
+      "synonyms": [
+        "insolvency"
+      ],
+      "antonyms": [
+        "solvency ratio",
+        "solvency test"
+      ],
+      "collocations": [
+        "solvent (adj)",
+        "solvency (n)"
+      ],
+      "wordFamily": "توانایی مالی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "return on investment",
+      "translation": "بازگشت سرمایه",
+      "ipa": "/rɪˈtɜːrn ɒn ɪnˈvɛstmənt/",
+      "partOfSpeech": "noun",
+      "example": "The ROI was impressive.",
+      "definitions": [
+        "profit from investment"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "calculate return on investment",
+        "high return on investment"
+      ],
+      "collocations": [
+        "return (n)",
+        "investment (n)"
+      ],
+      "wordFamily": "بازگشت سرمایه",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "market capitalization",
+      "translation": "ارزش بازار",
+      "ipa": "/ˈmɑːrkɪt ˌkæpɪtəlaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The company's market cap is $1 billion.",
+      "definitions": [
+        "market value"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "market capitalization of",
+        "total market capitalization"
+      ],
+      "collocations": [
+        "market (n)",
+        "capitalization (n)"
+      ],
+      "wordFamily": "ارزش بازار",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "bear market",
+      "translation": "بزار نزولی",
+      "ipa": "/bɛr ˈmɑːrkɪt/",
+      "partOfSpeech": "noun",
+      "example": "A bear market is when prices fall.",
+      "definitions": [
+        "declining market"
+      ],
+      "synonyms": [
+        "bull market"
+      ],
+      "antonyms": [
+        "bear market rally",
+        "bear market investing"
+      ],
+      "collocations": [
+        "bear (n)",
+        "market (n)"
+      ],
+      "wordFamily": "بازار نزولی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "bull market",
+      "translation": "بازار صعودی",
+      "ipa": "/bʊl ˈmɑːrkɪت/",
+      "partOfSpeech": "noun",
+      "example": "A bull market encourages investing.",
+      "definitions": [
+        "rising market"
+      ],
+      "synonyms": [
+        "bear market"
+      ],
+      "antonyms": [
+        "bull market run",
+        "bull market investing"
+      ],
+      "collocations": [
+        "bull (n)",
+        "market (n)"
+      ],
+      "wordFamily": "بازار صعودی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "broker",
+      "translation": "کارگزار",
+      "ipa": "/ˈbroʊkər/",
+      "partOfSpeech": "noun",
+      "example": "Contact your stock broker.",
+      "definitions": [
+        "agent",
+        "dealer"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "stock broker",
+        "insurance broker"
+      ],
+      "collocations": [
+        "broker (n/v)",
+        "brokerage (n)"
+      ],
+      "wordFamily": "کارگزار",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "dealer",
+      "translation": "فروشنده",
+      "ipa": "/ˈdiːlər/",
+      "partOfSpeech": "noun",
+      "example": "The car dealer offered a discount.",
+      "definitions": [
+        "trader",
+        "merchant"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "auto dealer",
+        "drug dealer"
+      ],
+      "collocations": [
+        "deal (v)",
+        "dealer (n)"
+      ],
+      "wordFamily": "فروشنده",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "trader",
+      "translation": "معامله‌گر",
+      "ipa": "/ˈtreɪdər/",
+      "partOfSpeech": "noun",
+      "example": "The trader made a fortune.",
+      "definitions": [
+        "dealer",
+        "broker"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "stock trader",
+        "day trader"
+      ],
+      "collocations": [
+        "trade (v)",
+        "trader (n)"
+      ],
+      "wordFamily": "معامله‌گر",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "speculator",
+      "translation": "سفته‌باز",
+      "ipa": "/ˈspɛkjʊleɪtər/",
+      "partOfSpeech": "noun",
+      "example": "Speculators drive price volatility.",
+      "definitions": [
+        "gambler",
+        "trader"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "currency speculator",
+        "real estate speculator"
+      ],
+      "collocations": [
+        "speculate (v)",
+        "speculation (n)"
+      ],
+      "wordFamily": "سفته‌باز",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "financier",
+      "translation": "سرمایه‌دار",
+      "ipa": "/fɪˈnænsiər/",
+      "partOfSpeech": "noun",
+      "example": "The financier invested in startups.",
+      "definitions": [
+        "investor",
+        "banker"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "independent financier",
+        "financier of"
+      ],
+      "collocations": [
+        "finance (n)",
+        "financial (adj)"
+      ],
+      "wordFamily": "سرمایه‌دار",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "philanthropist",
+      "translation": "نیکوکار",
+      "ipa": "/fɪˈlænθrəpɪst/",
+      "partOfSpeech": "noun",
+      "example": "The philanthropist donated millions.",
+      "definitions": [
+        "donor",
+        "benefactor"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "known philanthropist",
+        "philanthropist and"
+      ],
+      "collocations": [
+        "philanthropy (n)",
+        "philanthropic (adj)"
+      ],
+      "wordFamily": "نیکوکار",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "donor",
+      "translation": "اهداکننده",
+      "ipa": "/ˈdoʊnər/",
+      "partOfSpeech": "noun",
+      "example": "Donors fund the organization.",
+      "definitions": [
+        "contributor",
+        "patron"
+      ],
+      "synonyms": [
+        "recipient"
+      ],
+      "antonyms": [
+        "blood donor",
+        "major donor"
+      ],
+      "collocations": [
+        "donate (v)",
+        "donation (n)"
+      ],
+      "wordFamily": "اهداکننده",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "recipient",
+      "translation": "دریافت‌کننده",
+      "ipa": "/rɪˈsɪpiənt/",
+      "partOfSpeech": "noun",
+      "example": "The recipient of the grant was grateful.",
+      "definitions": [
+        "receiver",
+        "beneficiary"
+      ],
+      "synonyms": [
+        "donor"
+      ],
+      "antonyms": [
+        "grant recipient",
+        "recipient of"
+      ],
+      "collocations": [
+        "receive (v)",
+        "recipient (n)"
+      ],
+      "wordFamily": "دریافت‌کننده",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "beneficiary",
+      "translation": "ذینفع",
+      "ipa": "/ˌbɛnɪˈfɪʃəri/",
+      "partOfSpeech": "noun",
+      "example": "She's the beneficiary of the trust.",
+      "definitions": [
+        "receiver",
+        "heir"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "trust beneficiary",
+        "beneficiary of"
+      ],
+      "collocations": [
+        "benefit (n)",
+        "beneficiary (n)"
+      ],
+      "wordFamily": "ذینفع",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "trust fund",
+      "translation": "صندوق امانی",
+      "ipa": "/trʌst fʌnd/",
+      "partOfSpeech": "noun",
+      "example": "The child has a trust fund.",
+      "definitions": [
+        "fiduciary fund"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "trust fund baby",
+        "trust fund account"
+      ],
+      "collocations": [
+        "trust (n)",
+        "fund (n)"
+      ],
+      "wordFamily": "صندوق امانی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "endowment",
+      "translation": "وقف",
+      "ipa": "/ɪnˈdaʊmənt/",
+      "partOfSpeech": "noun",
+      "example": "The university has a large endowment.",
+      "definitions": [
+        "fund",
+        "gift"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "endowment fund",
+        "endowment policy"
+      ],
+      "collocations": [
+        "endow (v)",
+        "endowment (n)"
+      ],
+      "wordFamily": "وقف",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "grant",
+      "translation": "کمک هزینه",
+      "ipa": "/ɡrænt/",
+      "partOfSpeech": "noun",
+      "example": "The research grant was approved.",
+      "definitions": [
+        "funding",
+        "subsidy"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "government grant",
+        "grant application"
+      ],
+      "collocations": [
+        "grant (n/v)"
+      ],
+      "wordFamily": "کمک هزینه",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "scholarship",
+      "translation": "بورسیه",
+      "ipa": "/ˈskɑːlərʃɪp/",
+      "partOfSpeech": "noun",
+      "example": "She received a scholarship.",
+      "definitions": [
+        "fellowship",
+        "grant"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "full scholarship",
+        "scholarship program"
+      ],
+      "collocations": [
+        "scholar (n)",
+        "scholarship (n)"
+      ],
+      "wordFamily": "بورسیه",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "aid",
+      "translation": "کمک",
+      "ipa": "/eɪd/",
+      "partOfSpeech": "noun",
+      "example": "Foreign aid supports development.",
+      "definitions": [
+        "assistance",
+        "help"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "financial aid",
+        "foreign aid"
+      ],
+      "collocations": [
+        "aid (n/v)"
+      ],
+      "wordFamily": "کمک",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "nonprofit",
+      "translation": "غیرانتفاعی",
+      "ipa": "/nɒnˈprɒfɪt/",
+      "partOfSpeech": "noun",
+      "example": "The nonprofit helps the homeless.",
+      "definitions": [
+        "NGO",
+        "charity"
+      ],
+      "synonyms": [
+        "for-profit"
+      ],
+      "antonyms": [
+        "nonprofit organization",
+        "nonprofit sector"
+      ],
+      "collocations": [
+        "nonprofit (n/adj)"
+      ],
+      "wordFamily": "غیرانتفاعی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "ngo",
+      "translation": "سازمان مردم‌نهاد",
+      "ipa": "/ˌɛn dʒiː ˈoʊ/",
+      "partOfSpeech": "noun",
+      "example": "NGOs play a key role.",
+      "definitions": [
+        "non-governmental organization"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "international NGO",
+        "NGO work"
+      ],
+      "collocations": [
+        "NGO (n)"
+      ],
+      "wordFamily": "سازمان مردم‌نهاد",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "microfinance",
+      "translation": "خرد مالی",
+      "ipa": "/ˈmaɪkroʊˌfɪnæns/",
+      "partOfSpeech": "noun",
+      "example": "Microfinance helps small businesses.",
+      "definitions": [
+        "small loans"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "microfinance institution",
+        "microfinance program"
+      ],
+      "collocations": [
+        "microfinance (n)"
+      ],
+      "wordFamily": "خرد مالی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "crowdfunding",
+      "translation": "تأمین مالی جمعی",
+      "ipa": "/ˈkraʊdfʌndɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Crowdfunding raised $1 million.",
+      "definitions": [
+        "collective funding"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "crowdfunding platform",
+        "crowdfunding campaign"
+      ],
+      "collocations": [
+        "crowdfund (v)",
+        "crowdfunding (n)"
+      ],
+      "wordFamily": "تأمین مالی جمعی",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "fintech",
+      "translation": "فینتک",
+      "ipa": "/ˈfɪntɛk/",
+      "partOfSpeech": "noun",
+      "example": "Fintech is transforming banking.",
+      "definitions": [
+        "financial technology"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "fintech company",
+        "fintech startup"
+      ],
+      "collocations": [
+        "fintech (n)"
+      ],
+      "wordFamily": "فینتک",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "digital payment",
+      "translation": "پرداخت دیجیتال",
+      "ipa": "/ˈdɪdʒɪtəl ˈpeɪmənt/",
+      "partOfSpeech": "noun",
+      "example": "Digital payments are replacing cash.",
+      "definitions": [
+        "electronic payment"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "digital payment system",
+        "digital payment method"
+      ],
+      "collocations": [
+        "digital (adj)",
+        "payment (n)"
+      ],
+      "wordFamily": "پرداخت دیجیتال",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "mobile banking",
+      "translation": "بانکداری موبایل",
+      "ipa": "/ˈmoʊbaɪl ˈbæŋkɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Mobile banking is convenient.",
+      "definitions": [
+        "phone banking"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "mobile banking app",
+        "mobile banking service"
+      ],
+      "collocations": [
+        "mobile (adj)",
+        "banking (n)"
+      ],
+      "wordFamily": "بانکداری موبایل",
+      "coreMeaning": "",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "economy"
+      ]
+    },
+    {
+      "word": "depression",
+      "translation": "بحران اقتصادی",
+      "example": "The Great Depression was severe.",
+      "synonyms": [
+        "crisis",
+        "collapse"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "embargo",
+      "translation": "تحریم تجاری",
+      "example": "The embargo restricts exports.",
+      "synonyms": [
+        "ban",
+        "restriction"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "leverage",
+      "translation": "اهرم مالی",
+      "example": "Leverage can amplify returns.",
+      "synonyms": [
+        "gearing",
+        "borrowing"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "diversification",
+      "translation": "متنوع‌سازی",
+      "example": "Diversification reduces risk.",
+      "synonyms": [
+        "spread",
+        "variety"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "portfolio",
+      "translation": "سبد سرمایه‌گذاری",
+      "example": "A diversified portfolio is recommended.",
+      "synonyms": [
+        "investments",
+        "holdings"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "equity",
+      "translation": "سرمایه",
+      "example": "Equity represents ownership.",
+      "synonyms": [
+        "ownership",
+        "stock"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "dividend",
+      "translation": "سود سهام",
+      "example": "The company pays dividends.",
+      "synonyms": [
+        "payout",
+        "distribution"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "speculation",
+      "translation": "سفته‌بازی",
+      "example": "Speculation drives market volatility.",
+      "synonyms": [
+        "betting",
+        "gambling"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "arbitrage",
+      "translation": "آربیتراژ",
+      "example": "Arbitrage exploits price differences.",
+      "synonyms": [
+        "price exploitation",
+        "market inefficiency"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "short selling",
+      "translation": "فروش استقراضی",
+      "example": "Short selling profits from declines.",
+      "synonyms": [
+        "selling short",
+        "betting against"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "margin call",
+      "translation": "فراخوان سپرده",
+      "example": "A margin call requires more funds.",
+      "synonyms": [
+        "demand for capital",
+        "call"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "yield",
+      "translation": "بازده",
+      "example": "The bond yield is 5%.",
+      "synonyms": [
+        "return",
+        "profit"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "coupon",
+      "translation": "کوپن",
+      "example": "The bond pays a coupon.",
+      "synonyms": [
+        "interest payment",
+        "rate"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "maturity",
+      "translation": "سررسید",
+      "example": "The bond matures in 10 years.",
+      "synonyms": [
+        "due date",
+        "expiration"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "amortization",
+      "translation": "استهلاک",
+      "example": "Amortization spreads payments over time.",
+      "synonyms": [
+        "repayment",
+        "depreciation"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "securitization",
+      "translation": "اوراق‌سازی",
+      "example": "Securitization bundles assets.",
+      "synonyms": [
+        "asset packaging",
+        "structuring"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "derivative",
+      "translation": "مشتق",
+      "example": "Derivatives are complex instruments.",
+      "synonyms": [
+        "options",
+        "futures"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "forex",
+      "translation": "ارز",
+      "example": "Forex trading is 24/7.",
+      "synonyms": [
+        "foreign exchange",
+        "currency trading"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "bond",
+      "translation": "اوراق قرضه",
+      "example": "Government bonds are safe.",
+      "synonyms": [
+        "debt security",
+        "fixed income"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "stock",
+      "translation": "سهام",
+      "example": "Stock prices fluctuate.",
+      "synonyms": [
+        "shares",
+        "equity"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "mutual fund",
+      "translation": "صندوق سرمایه‌گذاری",
+      "example": "Mutual funds pool investments.",
+      "synonyms": [
+        "investment fund",
+        "collective investment"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "ETF",
+      "translation": "صندوق قابل معامله",
+      "example": "ETFs trade like stocks.",
+      "synonyms": [
+        "exchange-traded fund",
+        "index fund"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "private equity",
+      "translation": "سرمایه خصوصی",
+      "example": "Private equity acquires companies.",
+      "synonyms": [
+        "buyout fund",
+        "investment firm"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "merger",
+      "translation": "ادغام",
+      "example": "The merger created a giant.",
+      "synonyms": [
+        "amalgamation",
+        "union"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "acquisition",
+      "translation": " تصاحب",
+      "example": "The acquisition expanded market share.",
+      "synonyms": [
+        "takeover",
+        "purchase"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "antitrust",
+      "translation": "ضدامتکاز",
+      "example": "Antitrust laws prevent monopolies.",
+      "synonyms": [
+        "competition law",
+        "anti-monopoly"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "oligopoly",
+      "translation": "انحصار چندجانبه",
+      "example": "An oligopoly dominates the market.",
+      "synonyms": [
+        "few sellers",
+        "limited competition"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "externalities",
+      "translation": "آثار خارجی",
+      "example": "Pollution is a negative externality.",
+      "synonyms": [
+        "side effects",
+        "spillovers"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "market failure",
+      "translation": "شکست بازار",
+      "example": "Market failure requires intervention.",
+      "synonyms": [
+        "inefficiency",
+        "failure"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "GNP",
+      "translation": "تولید ناخالص ملی",
+      "example": "GNP includes overseas income.",
+      "synonyms": [
+        "gross national product",
+        "national output"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "PPP",
+      "translation": "برابری قدرت خرید",
+      "example": "PPP adjusts for price levels.",
+      "synonyms": [
+        "purchasing power parity"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "Gini coefficient",
+      "translation": "ضریب جینی",
+      "example": "The Gini measures inequality.",
+      "synonyms": [
+        "inequality index"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "HDI",
+      "translation": "شاخص توسعه انسانی",
+      "example": "HDI measures well-being.",
+      "synonyms": [
+        "human development index"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "capitalism",
+      "translation": "سرمایه‌داری",
+      "example": "Capitalism drives innovation.",
+      "synonyms": [
+        "free market",
+        "market economy"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "socialism",
+      "translation": "سوسیالیسم",
+      "example": "Socialism emphasizes equality.",
+      "synonyms": [
+        "collectivism",
+        "state ownership"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "default",
+      "translation": "نکول",
+      "example": "The country defaulted on debt.",
+      "synonyms": [
+        "failure to pay",
+        "breach"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "credit rating",
+      "translation": "رتبه اعتباری",
+      "example": "The credit rating was downgraded.",
+      "synonyms": [
+        "rating",
+        "assessment"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "yield curve",
+      "translation": "منحنی بازده",
+      "example": "The yield curve inverted.",
+      "synonyms": [
+        "term structure",
+        "rate curve"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "basis point",
+      "translation": "نقطه پایه",
+      "example": "Rates rose 25 basis points.",
+      "synonyms": [
+        "hundredth of percent",
+        "bp"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "capital gains",
+      "translation": "منافع سرمایه‌ای",
+      "example": "Capital gains are taxed.",
+      "synonyms": [
+        "profit",
+        "appreciation income"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "capital loss",
+      "translation": "زیان سرمایه‌ای",
+      "example": "The investment resulted in a capital loss.",
+      "synonyms": [
+        "loss",
+        "depreciation"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "outsourcing",
+      "translation": "برون‌سپاری",
+      "example": "Outsourcing reduces costs.",
+      "synonyms": [
+        "contracting out",
+        "subcontracting"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "insourcing",
+      "translation": "درون‌سپاری",
+      "example": "Insourcing improves control.",
+      "synonyms": [
+        "in-house",
+        "internalization"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "benchmark",
+      "translation": "معیار",
+      "example": "The benchmark index tracks performance.",
+      "synonyms": [
+        "standard",
+        "reference point"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "commoditization",
+      "translation": "کالاسازی",
+      "example": "Commoditization reduces profit margins.",
+      "synonyms": [
+        "standardization",
+        "homogenization"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "scarcity",
+      "translation": "کمیابی",
+      "example": "Scarcity drives up prices.",
+      "synonyms": [
+        "shortage",
+        "dearth"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "bilateral",
+      "translation": "دوجانبه",
+      "example": "A bilateral trade agreement was signed.",
+      "synonyms": [
+        "two-way",
+        "mutual"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "multilateral",
+      "translation": "چندجانبه",
+      "example": "Multilateral negotiations are complex.",
+      "synonyms": [
+        "multi-party",
+        "many-sided"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "liberalization",
+      "translation": "آزادسازی",
+      "example": "Trade liberalization boosted growth.",
+      "synonyms": [
+        "deregulation",
+        "opening up"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "globalization",
+      "translation": "جهانی‌شدن",
+      "example": "Globalization connects markets.",
+      "synonyms": [
+        "internationalization",
+        "integration"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "oligarch",
+      "translation": "الیگارش",
+      "example": "Oligarchs control key industries.",
+      "synonyms": [
+        "magnate",
+        "tycoon"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "conglomerate",
+      "translation": "کانگلومرا",
+      "example": "The conglomerate spans multiple sectors.",
+      "synonyms": [
+        "corporation",
+        "group"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "monetization",
+      "translation": "پولی‌سازی",
+      "example": "Debt monetization can cause inflation.",
+      "synonyms": [
+        "currency creation",
+        "money printing"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "seigniorage",
+      "translation": "منافع ضرب سکه",
+      "example": "Seigniorage is profit from issuing currency.",
+      "synonyms": [
+        "currency profit",
+        "mint profit"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "quantitative easing",
+      "translation": "سیاست انبایی",
+      "example": "QE stimulates the economy.",
+      "synonyms": [
+        "monetary expansion",
+        "asset purchases"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "crowding out",
+      "translation": "بیرون راندن",
+      "example": "Government spending can crowd out private investment.",
+      "synonyms": [
+        "displacement",
+        "displacement effect"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "creative destruction",
+      "translation": "ویرانگری خلاق",
+      "example": "Creative destruction drives innovation.",
+      "synonyms": [
+        "innovation cycle",
+        "disruption"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "tax haven",
+      "translation": "پناهگاه مالیاتی",
+      "example": "Tax havens attract capital.",
+      "synonyms": [
+        "offshore center",
+        "financial refuge"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "financial inclusion",
+      "translation": "شمول مالی",
+      "example": "Financial inclusion reduces poverty.",
+      "synonyms": [
+        "access to finance",
+        "banking access"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "deleveraging",
+      "translation": "کاهش بدهی",
+      "example": "Deleveraging reduces financial risk.",
+      "synonyms": [
+        "paying down debt",
+        "reducing leverage"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "restructuring",
+      "translation": "بازسازی مالی",
+      "example": "The company underwent restructuring.",
+      "synonyms": [
+        "reorganization",
+        "overhaul"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "write-down",
+      "translation": "کاهش ارزش",
+      "example": "The asset write-down was substantial.",
+      "synonyms": [
+        "devaluation",
+        "impairment"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "write-off",
+      "translation": "سviewController",
+      "example": "The debt was written off.",
+      "synonyms": [
+        "cancel debt",
+        "absorb loss"
+      ],
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "word": "liquidation",
+      "translation": "تصفیه",
+      "example": "The company entered liquidation.",
+      "synonyms": [
+        "wind-up",
+        "dissolution"
+      ],
+      "tags": [
+        "economy"
+      ]
+    }
+  ]
+}

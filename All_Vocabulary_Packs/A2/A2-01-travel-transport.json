@@ -1,0 +1,3148 @@
+{
+  "name": "سفر و حمل‌ونقل",
+  "description": "۱۰۰ کلمه درباره سفر، حمل‌ونقل، هتل و فرودگاه — سطح A2",
+  "category": "A2 — پایه",
+  "level": "A2",
+  "packId": "A2-01",
+  "words": [
+    {
+      "word": "airplane",
+      "translation": "هواپیما",
+      "ipa": "/ˈɛrpleɪn/",
+      "partOfSpeech": "noun",
+      "example": "The airplane flies from Tehran to Istanbul every day.",
+      "definitions": [
+        "a flying vehicle with wings and engines"
+      ],
+      "synonyms": [
+        "plane",
+        "aircraft"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "by airplane",
+        "board an airplane",
+        "airplane ticket"
+      ],
+      "wordFamily": [
+        "airplane (n)"
+      ],
+      "coreMeaning": "وسیله پروازی با بال و موتور",
+      "note": "airplane آمریکایی و aeroplane بریتانیایی است",
+      "trap": "با helicopter (بالگرد) اشتباه نگیرید؛ airplane بال ثابت دارد",
+      "tags": [
+        "A2",
+        "travel",
+        "transport",
+        "airport"
+      ]
+    },
+    {
+      "word": "airport",
+      "translation": "فرودگاه",
+      "ipa": "/ˈɛrpɔːrt/",
+      "partOfSpeech": "noun",
+      "example": "We need to be at the airport two hours before the flight.",
+      "definitions": [
+        "a place where planes take off and land"
+      ],
+      "synonyms": [
+        "airfield"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "at the airport",
+        "airport security",
+        "go to the airport"
+      ],
+      "wordFamily": [
+        "airport (n)"
+      ],
+      "coreMeaning": "محل پرواز و فرود هواپیماها",
+      "note": "جمع: airports — تلفظ «ارپورت»",
+      "trap": "با station (ایستگاه قطار/اتوبوس) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "travel",
+        "transport",
+        "airport"
+      ]
+    },
+    {
+      "word": "announcement",
+      "translation": "اعلامیه / اطلاع‌رسانی",
+      "ipa": "/əˈnaʊnsmənt/",
+      "partOfSpeech": "noun",
+      "example": "Listen to the announcement about your flight gate.",
+      "definitions": [
+        "an official public statement or piece of information"
+      ],
+      "synonyms": [
+        "notice",
+        "declaration"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "make an announcement",
+        "listen to the announcement",
+        "public announcement"
+      ],
+      "wordFamily": [
+        "announce (v)",
+        "announcement (n)"
+      ],
+      "coreMeaning": "اطلاع‌رسانی رسمی در مکان عمومی",
+      "note": "در فرودگاه و ایستگاه قطار زیاد می‌شنوید",
+      "trap": "با advertisement (تبلیغ) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "arrive",
+      "translation": "رسیدن",
+      "ipa": "/əˈraɪv/",
+      "partOfSpeech": "verb",
+      "example": "The train arrives at platform 3 at 9:15.",
+      "definitions": [
+        "to reach a place, especially at the end of a journey"
+      ],
+      "synonyms": [
+        "reach",
+        "come"
+      ],
+      "antonyms": [
+        "depart",
+        "leave"
+      ],
+      "collocations": [
+        "arrive at",
+        "arrive in",
+        "arrive on time"
+      ],
+      "wordFamily": [
+        "arrive (v)",
+        "arrival (n)"
+      ],
+      "coreMeaning": "به مقصد رسیدن",
+      "note": "arrive in + شهر/کشور، arrive at + مکان دقیق",
+      "trap": "با reach فرق دارد: arrive at/in ولی reach بدون حرف اضافه",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "boarding",
+      "translation": "سوار شدن (به هواپیما)",
+      "ipa": "/ˈbɔːrdɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Boarding starts at 2:30 PM at gate 7.",
+      "definitions": [
+        "the process of getting on a plane, ship, or train"
+      ],
+      "synonyms": [
+        "embarkation"
+      ],
+      "antonyms": [
+        "deplaning",
+        "disembarkation"
+      ],
+      "collocations": [
+        "boarding pass",
+        "boarding time",
+        "boarding gate"
+      ],
+      "wordFamily": [
+        "board (v)",
+        "boarding (n)"
+      ],
+      "coreMeaning": "فرایند سوار شدن به وسیله نقلیه",
+      "note": "boarding gate = گیت سوار شدن",
+      "trap": "board به معنی تخته هم هست — فقط در context سفر یعنی سوار شدن",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "boarding pass",
+      "translation": "کارت پرواز",
+      "ipa": "/ˈbɔːrdɪŋ pæs/",
+      "partOfSpeech": "noun",
+      "example": "You need a boarding pass to go through security.",
+      "definitions": [
+        "a document that allows a passenger to board a plane"
+      ],
+      "synonyms": [
+        "boarding card"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "show your boarding pass",
+        "print a boarding pass",
+        "online boarding pass"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مجوز سوار شدن به هواپیما",
+      "note": "امروزه می‌توانید boarding pass را روی گوشی هم داشته باشید",
+      "trap": "با ticket (بلیط) فرق دارد — ticket را می‌خرید، boarding pass را دریافت می‌کنید",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "boat",
+      "translation": "قایق / کشتی",
+      "ipa": "/boʊt/",
+      "partOfSpeech": "noun",
+      "example": "We took a boat to the small island.",
+      "definitions": [
+        "a small vehicle for traveling on water"
+      ],
+      "synonyms": [
+        "vessel",
+        "ship"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "by boat",
+        "take a boat",
+        "fishing boat"
+      ],
+      "wordFamily": [
+        "boat (n)"
+      ],
+      "coreMeaning": "وسیله نقلیه آبی",
+      "note": "boat معمولاً کوچک‌تر از ship است",
+      "trap": "با ship (کشتی بزرگ) فرق دارد — boat قایق کوچک‌تر است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "bridge",
+      "translation": "پل",
+      "ipa": "/brɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "The bridge connects the two sides of the city.",
+      "definitions": [
+        "a structure built over a river or road for people to cross"
+      ],
+      "synonyms": [
+        "overpass"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cross the bridge",
+        "build a bridge",
+        "bridge over the river"
+      ],
+      "wordFamily": [
+        "bridge (n)"
+      ],
+      "coreMeaning": "سازه‌ای برای عبور از روی رودخانه یا جاده",
+      "note": "جمع: bridges",
+      "trap": "با tunnel (تونل) اشتباه نگیرید — bridge از روی، tunnel از زیر",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "bus",
+      "translation": "اتوبوس",
+      "ipa": "/bʌs/",
+      "partOfSpeech": "noun",
+      "example": "I take the bus to work every morning.",
+      "definitions": [
+        "a large vehicle that carries many passengers along a fixed route"
+      ],
+      "synonyms": [
+        "coach"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "by bus",
+        "take the bus",
+        "bus stop",
+        "bus driver",
+        "miss the bus"
+      ],
+      "wordFamily": [
+        "bus (n)"
+      ],
+      "coreMeaning": "وسیله نقلیه عمومی بزرگ",
+      "note": "جمع: buses — حتماً es اضافه کنید",
+      "trap": "با taxi فرق دارد — bus مسیر ثابت دارد و ارزان‌تر است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "bus stop",
+      "translation": "ایستگاه اتوبوس",
+      "ipa": "/bʌs stɒp/",
+      "partOfSpeech": "noun",
+      "example": "The bus stop is just around the corner.",
+      "definitions": [
+        "a place where buses stop to pick up and drop off passengers"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "at the bus stop",
+        "wait at the bus stop",
+        "nearest bus stop"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "محل توقف اتوبوس برای سوار و پیاده شدن",
+      "note": "معمولاً تابلو و سایبان دارد",
+      "trap": "با station (ایستگاه بزرگ) فرق دارد — bus stop کوچک‌تر است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "cancel",
+      "translation": "لغو کردن",
+      "ipa": "/ˈkænsəl/",
+      "partOfSpeech": "verb",
+      "example": "They cancelled the flight because of bad weather.",
+      "definitions": [
+        "to decide that something will not happen"
+      ],
+      "synonyms": [
+        "call off"
+      ],
+      "antonyms": [
+        "confirm"
+      ],
+      "collocations": [
+        "cancel a flight",
+        "cancel a reservation",
+        "cancel a trip"
+      ],
+      "wordFamily": [
+        "cancel (v)",
+        "cancellation (n)"
+      ],
+      "coreMeaning": "منهدم کردن یا لغو یک برنامه",
+      "note": "گذشته: cancelled (بریتانیایی) یا canceled (آمریکایی)",
+      "trap": "با postpone (به تعویق انداختن) فرق دارد — cancel یعنی کلاً لغو شود",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "camera",
+      "translation": "دوربین",
+      "ipa": "/ˈkæmərə/",
+      "partOfSpeech": "noun",
+      "example": "Don't forget to bring your camera for the trip.",
+      "definitions": [
+        "a device for taking photographs or recording video"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "take a photo with a camera",
+        "digital camera",
+        "camera lens"
+      ],
+      "wordFamily": [
+        "camera (n)",
+        "cameraman (n)"
+      ],
+      "coreMeaning": "دستگاه عکاسی یا فیلم‌برداری",
+      "note": "امروزه گوشی‌ها هم camera دارند",
+      "trap": "با camcorder (فیلم‌بردار) فرق دارد — camera بیشتر برای عکس است",
+      "tags": [
+        "A2",
+        "travel"
+      ]
+    },
+    {
+      "word": "check in",
+      "translation": "ثبت‌نام / ورود به هتل",
+      "ipa": "/tʃɛk ɪn/",
+      "partOfSpeech": "phrasal verb",
+      "example": "We need to check in at the hotel before 3 PM.",
+      "definitions": [
+        "to register at a hotel or airport"
+      ],
+      "synonyms": [
+        "register"
+      ],
+      "antonyms": [
+        "check out"
+      ],
+      "collocations": [
+        "check in at the hotel",
+        "check in for a flight",
+        "online check-in"
+      ],
+      "wordFamily": [
+        "check-in (n)"
+      ],
+      "coreMeaning": "ثبت نام ورود به هتل یا پرواز",
+      "note": "check-in هم به صورت اسم (with hyphen) و هم فعل استفاده می‌شود",
+      "trap": "با check out (خروج) اشتباه نگیرید — in = ورود، out = خروج",
+      "tags": [
+        "A2",
+        "travel",
+        "hotel",
+        "airport"
+      ]
+    },
+    {
+      "word": "check out",
+      "translation": "تسویه حساب / خروج از هتل",
+      "ipa": "/tʃɛk aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "example": "We have to check out of the hotel by noon.",
+      "definitions": [
+        "to leave a hotel after paying the bill"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "check in"
+      ],
+      "collocations": [
+        "check out of the hotel",
+        "late check-out",
+        "check-out time"
+      ],
+      "wordFamily": [
+        "check-out (n)"
+      ],
+      "coreMeaning": "پرداخت صورتحساب و ترک هتل",
+      "note": "معمولاً تا ساعت ۱۲ ظهر باید check out کنید",
+      "trap": "با check in (ورود) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "travel",
+        "hotel"
+      ]
+    },
+    {
+      "word": "commuter",
+      "translation": "مسافر روزانه / کسی که هر روز رفت‌وآمد می‌کند",
+      "ipa": "/kəˈmjuːtər/",
+      "partOfSpeech": "noun",
+      "example": "The train is full of commuters going to the city center.",
+      "definitions": [
+        "a person who travels regularly between home and work"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "daily commuter",
+        "commuter train",
+        "commuter traffic"
+      ],
+      "wordFamily": [
+        "commute (v)",
+        "commuter (n)",
+        "commute (n)"
+      ],
+      "coreMeaning": "کسی که هر روز بین خانه و محل کار رفت‌وآمد می‌کند",
+      "note": "commute = رفت‌وآمد روزانه بین خانه و کار",
+      "trap": "با traveler (مسافر) فرق دارد — commuter هر روز سفر می‌کند",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "corner",
+      "translation": "corner / پیچ / گوشه",
+      "ipa": "/ˈkɔːrnər/",
+      "partOfSpeech": "noun",
+      "example": "Turn left at the corner and you'll see the hotel.",
+      "definitions": [
+        "the point where two streets meet; an angle or bend"
+      ],
+      "synonyms": [
+        "turn",
+        "bend"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "on the corner",
+        "at the corner",
+        "around the corner",
+        "street corner"
+      ],
+      "wordFamily": [
+        "corner (n)"
+      ],
+      "coreMeaning": "نقطه تقاطع دو خیابان یا گوشه",
+      "note": "around the corner = نزدیک، همین حوالی",
+      "trap": "با crossroad (چهارراه) فرق دارد — corner گوشه یک خیابان است",
+      "tags": [
+        "A2",
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "word": "crossroad",
+      "translation": "چهارراه",
+      "ipa": "/ˈkrɒsroʊd/",
+      "partOfSpeech": "noun",
+      "example": "There's a traffic light at the next crossroad.",
+      "definitions": [
+        "a place where two or more roads cross each other"
+      ],
+      "synonyms": [
+        "intersection",
+        "junction"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "at the crossroad",
+        "turn at the crossroad",
+        "busy crossroad"
+      ],
+      "wordFamily": [
+        "crossroad (n)"
+      ],
+      "coreMeaning": "محل تقاطع دو یا چند جاده",
+      "note": "معمولاً چهارراه، ولی می‌تواند سه‌راه هم باشد",
+      "trap": "با corner (گوشه) فرق دارد — crossroad تقاطع دو جاده است",
+      "tags": [
+        "A2",
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "word": "cruise",
+      "translation": "سفر دریایی تفریحی",
+      "ipa": "/kruːz/",
+      "partOfSpeech": "noun",
+      "example": "They went on a cruise around the Mediterranean.",
+      "definitions": [
+        "a journey on a large ship for pleasure"
+      ],
+      "synonyms": [
+        "voyage",
+        "sailing"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go on a cruise",
+        "cruise ship",
+        "cruise vacation"
+      ],
+      "wordFamily": [
+        "cruise (n/v)",
+        "cruiser (n)"
+      ],
+      "coreMeaning": "سفر تفریحی با کشتی بزرگ",
+      "note": "cruise ship = کشتی تفریحی بزرگ با امکانات کامل",
+      "trap": "با boat trip (سفر با قایق) فرق دارد — cruise معمولاً لوکس‌تر و طولانی‌تر است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "customs",
+      "translation": "گمرک",
+      "ipa": "/ˈkʌstəmz/",
+      "partOfSpeech": "noun",
+      "example": "We had to go through customs after landing.",
+      "definitions": [
+        "the place at an airport or border where bags are checked"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go through customs",
+        "customs officer",
+        "customs declaration"
+      ],
+      "wordFamily": [
+        "customs (n)"
+      ],
+      "coreMeaning": "محل بازرسی بار مسافران در فرودگاه یا مرز",
+      "note": "همیشه به صورت جمع (customs) استفاده می‌شود",
+      "trap": "با security (امنیت) فرق دارد — customs برای بار، security برای مسافر",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "delay",
+      "translation": "تأخیر",
+      "ipa": "/dɪˈleɪ/",
+      "partOfSpeech": "noun/verb",
+      "example": "The flight has a two-hour delay because of the storm.",
+      "definitions": [
+        "a period of time when something is late or postponed"
+      ],
+      "synonyms": [
+        "postponement",
+        "holdup"
+      ],
+      "antonyms": [
+        "punctuality"
+      ],
+      "collocations": [
+        "flight delay",
+        "long delay",
+        "delay the flight",
+        "due to delay"
+      ],
+      "wordFamily": [
+        "delay (n/v)",
+        "delayed (adj)"
+      ],
+      "coreMeaning": "تأخیر در انجام کار یا حرکت",
+      "note": "delayed = با تأخیر — The flight is delayed.",
+      "trap": "با cancel (لغو) فرق دارد — delay تأخیر است، cancel لغو کامل",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "depart",
+      "translation": "حرکت کردن / عزیمت",
+      "ipa": "/dɪˈpɑːrt/",
+      "partOfSpeech": "verb",
+      "example": "The bus departs from the station at 8 AM sharp.",
+      "definitions": [
+        "to leave a place, especially to start a journey"
+      ],
+      "synonyms": [
+        "leave",
+        "set off"
+      ],
+      "antonyms": [
+        "arrive"
+      ],
+      "collocations": [
+        "depart from",
+        "depart at",
+        "depart on time"
+      ],
+      "wordFamily": [
+        "depart (v)",
+        "departure (n)"
+      ],
+      "coreMeaning": "شروع سفر و ترک مبدأ",
+      "note": "departure lounge = سالن انتظار پرواز",
+      "trap": "با arrive (رسیدن) متضاد است، نه با return",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "departure",
+      "translation": "عزیمت / حرکت",
+      "ipa": "/dɪˈpɑːrtʃər/",
+      "partOfSpeech": "noun",
+      "example": "The departure time is printed on your ticket.",
+      "definitions": [
+        "the act of leaving a place to start a journey"
+      ],
+      "synonyms": [
+        "leaving",
+        "exit"
+      ],
+      "antonyms": [
+        "arrival"
+      ],
+      "collocations": [
+        "departure time",
+        "departure gate",
+        "departure lounge",
+        "point of departure"
+      ],
+      "wordFamily": [
+        "depart (v)",
+        "departure (n)"
+      ],
+      "coreMeaning": "زمان یا عمل حرکت از مبدأ",
+      "note": "departure board = تابلوی اعلام حرکت پروازها/قطارها",
+      "trap": "با arrival (ورود) متضاد است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "destination",
+      "translation": "مقصد",
+      "ipa": "/ˌdɛstɪˈneɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Paris is a popular tourist destination.",
+      "definitions": [
+        "the place where someone is going or something is sent"
+      ],
+      "synonyms": [
+        "goal",
+        "target"
+      ],
+      "antonyms": [
+        "origin",
+        "departure"
+      ],
+      "collocations": [
+        "reach your destination",
+        "popular destination",
+        "final destination"
+      ],
+      "wordFamily": [
+        "destination (n)"
+      ],
+      "coreMeaning": "محلی که به آن سفر می‌کنید",
+      "note": "final destination = مقصد نهایی",
+      "trap": "با departure (مبدأ) متضاد است",
+      "tags": [
+        "A2",
+        "travel"
+      ]
+    },
+    {
+      "word": "detour",
+      "translation": "مسیر انحرافی / دور زدن",
+      "ipa": "/ˈdiːtʊr/",
+      "partOfSpeech": "noun",
+      "example": "We had to take a detour because the road was closed.",
+      "definitions": [
+        "a longer route taken because the usual route is not available"
+      ],
+      "synonyms": [
+        "diversion",
+        "alternate route"
+      ],
+      "antonyms": [
+        "direct route"
+      ],
+      "collocations": [
+        "take a detour",
+        "make a detour",
+        "road detour"
+      ],
+      "wordFamily": [
+        "detour (n/v)"
+      ],
+      "coreMeaning": "مسیر جایگزین به دلیل بسته بودن راه اصلی",
+      "note": "معمولاً به خاطر تعمیرات یا تصادف مسیر عوض می‌شود",
+      "trap": "با shortcut (مسیر میانبر) متضاد است",
+      "tags": [
+        "A2",
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "word": "direction",
+      "translation": "جهت / مسیر",
+      "ipa": "/dəˈrɛkʃən/",
+      "partOfSpeech": "noun",
+      "example": "Can you give me directions to the train station?",
+      "definitions": [
+        "the way or path along which something moves or faces"
+      ],
+      "synonyms": [
+        "way",
+        "course"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "give directions",
+        "in the direction of",
+        "change direction",
+        "ask for directions"
+      ],
+      "wordFamily": [
+        "direct (v/adj)",
+        "direction (n)",
+        "directions (n)"
+      ],
+      "coreMeaning": "سمت و سوی حرکت",
+      "note": "directions (جمع) = راهنمایی مسیر — Ask for directions.",
+      "trap": "direction (یک جهت) با directions (راهنمایی مسیر) فرق دارد",
+      "tags": [
+        "A2",
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "word": "double room",
+      "translation": "اتاق دو تخته",
+      "ipa": "/ˈdʌbəl ruːm/",
+      "partOfSpeech": "noun",
+      "example": "I'd like to book a double room for three nights.",
+      "definitions": [
+        "a hotel room with a large bed for two people"
+      ],
+      "synonyms": [
+        "twin room"
+      ],
+      "antonyms": [
+        "single room"
+      ],
+      "collocations": [
+        "book a double room",
+        "double room with a view",
+        "en-suite double room"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اتاق هتل با یک تخت بزرگ برای دو نفر",
+      "note": "twin room = دو تخت یک‌نفره — double room = یک تخت دونفره",
+      "trap": "با twin room فرق دارد — double یک تخت بزرگ، twin دو تخت کوچک",
+      "tags": [
+        "A2",
+        "travel",
+        "hotel"
+      ]
+    },
+    {
+      "word": "driver",
+      "translation": "راننده",
+      "ipa": "/ˈdraɪvər/",
+      "partOfSpeech": "noun",
+      "example": "The taxi driver took us to the airport.",
+      "definitions": [
+        "a person who drives a vehicle"
+      ],
+      "synonyms": [
+        "motorist"
+      ],
+      "antonyms": [
+        "passenger"
+      ],
+      "collocations": [
+        "taxi driver",
+        "bus driver",
+        "driver's license",
+        "backseat driver"
+      ],
+      "wordFamily": [
+        "drive (v)",
+        "driver (n)"
+      ],
+      "coreMeaning": "کسی که وسیله نقلیه را هدایت می‌کند",
+      "note": "driver's license = گواهینامه رانندگی",
+      "trap": "با passenger (مسافر) متضاد است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "duty-free",
+      "translation": "معاف از مالیات / فروشگاه بدون عوارض",
+      "ipa": "/ˌdjuːti ˈfriː/",
+      "partOfSpeech": "adjective/noun",
+      "example": "I bought some perfume at the duty-free shop.",
+      "definitions": [
+        "goods sold without tax, especially at airports"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "duty-free shop",
+        "duty-free goods",
+        "duty-free allowance"
+      ],
+      "wordFamily": [
+        "duty-free (adj/n)"
+      ],
+      "coreMeaning": "کالای بدون مالیات در فرودگاه",
+      "note": "فقط در فرودگاه و بندر قابل استفاده است",
+      "trap": "محدودیت خرید دارد — نمی‌توانید بی‌نهایت بخرید",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "elevator",
+      "translation": "آسانسور",
+      "ipa": "/ˈɛlɪveɪtər/",
+      "partOfSpeech": "noun",
+      "example": "Take the elevator to the fifth floor.",
+      "definitions": [
+        "a machine that carries people up and down in a building"
+      ],
+      "synonyms": [
+        "lift"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take the elevator",
+        "elevator door",
+        "elevator music"
+      ],
+      "wordFamily": [
+        "elevator (n)"
+      ],
+      "coreMeaning": "دستگاه بالابر برای جابجایی بین طبقات",
+      "note": "elevator آمریکایی و lift بریتانیایی است",
+      "trap": "با escalator (پله برقی) فرق دارد — elevator بسته است و عمودی حرکت می‌کند",
+      "tags": [
+        "A2",
+        "travel",
+        "hotel"
+      ]
+    },
+    {
+      "word": "engine",
+      "translation": "موتور",
+      "ipa": "/ˈɛndʒɪn/",
+      "partOfSpeech": "noun",
+      "example": "The car engine makes a strange noise.",
+      "definitions": [
+        "a machine that converts energy into motion"
+      ],
+      "synonyms": [
+        "motor"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "car engine",
+        "start the engine",
+        "engine failure",
+        "jet engine"
+      ],
+      "wordFamily": [
+        "engine (n)",
+        "engineer (n)"
+      ],
+      "coreMeaning": "ماشینی که انرژی را به حرکت تبدیل می‌کند",
+      "note": "engineer (مهندس) از همین ریشه آمده",
+      "trap": "با motor فرق اساسی ندارد ولی engine معمولاً بزرگ‌تر است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "entrance",
+      "translation": "ورودی",
+      "ipa": "/ˈɛntrəns/",
+      "partOfSpeech": "noun",
+      "example": "The entrance to the museum is on the left side.",
+      "definitions": [
+        "a door, gate, or passage for entering a place"
+      ],
+      "synonyms": [
+        "entry",
+        "gateway"
+      ],
+      "antonyms": [
+        "exit"
+      ],
+      "collocations": [
+        "main entrance",
+        "entrance fee",
+        "at the entrance",
+        "entrance door"
+      ],
+      "wordFamily": [
+        "enter (v)",
+        "entrance (n)"
+      ],
+      "coreMeaning": "محل ورود به ساختمان یا مکان",
+      "note": "entrance fee = ورودیه",
+      "trap": "با exit (خروجی) متضاد است",
+      "tags": [
+        "A2",
+        "travel"
+      ]
+    },
+    {
+      "word": "exit",
+      "translation": "خروجی",
+      "ipa": "/ˈɛksɪt/",
+      "partOfSpeech": "noun/verb",
+      "example": "Where is the emergency exit?",
+      "definitions": [
+        "a door or passage for leaving a place"
+      ],
+      "synonyms": [
+        "way out",
+        "departure"
+      ],
+      "antonyms": [
+        "entrance"
+      ],
+      "collocations": [
+        "emergency exit",
+        "exit door",
+        "exit the building",
+        "take the next exit"
+      ],
+      "wordFamily": [
+        "exit (n/v)"
+      ],
+      "coreMeaning": "محل خروج از ساختمان یا مکان",
+      "note": "exit هم اسم و هم فعل است",
+      "trap": "با entrance (ورودی) متضاد است",
+      "tags": [
+        "A2",
+        "travel"
+      ]
+    },
+    {
+      "word": "fare",
+      "translation": "کرایه / نرخ",
+      "ipa": "/fɛr/",
+      "partOfSpeech": "noun",
+      "example": "The bus fare is two dollars.",
+      "definitions": [
+        "the price paid for a journey by public transport"
+      ],
+      "synonyms": [
+        "fee",
+        "charge"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "bus fare",
+        "taxi fare",
+        "train fare",
+        "fare increase"
+      ],
+      "wordFamily": [
+        "fare (n)"
+      ],
+      "coreMeaning": "بهای سفر با وسیله نقلیه عمومی",
+      "note": "fare فقط برای حمل‌ونقل است — برای هتل از fee استفاده می‌شود",
+      "trap": "با fair (عادلانه/نمایشگاه) اشتباه نگیرید — تلفظ یکسان ولی معنی متفاوت",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "ferry",
+      "translation": "کشتی مسافربری / فرابر",
+      "ipa": "/ˈfɛri/",
+      "partOfSpeech": "noun",
+      "example": "We took the ferry to the island.",
+      "definitions": [
+        "a boat that carries people and vehicles across water"
+      ],
+      "synonyms": [
+        "ferryboat"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take the ferry",
+        "ferry terminal",
+        "ferry service",
+        "ferry crossing"
+      ],
+      "wordFamily": [
+        "ferry (n/v)"
+      ],
+      "coreMeaning": "کشتی کوچک برای حمل مسافر و خودرو بین دو ساحل",
+      "note": "ferry معمولاً مسیر کوتاه و رفت‌وبرگشتی دارد",
+      "trap": "با cruise (سفر دریایی تفریحی) فرق دارد — ferry حمل‌ونقلی است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "flight",
+      "translation": "پرواز",
+      "ipa": "/flaɪt/",
+      "partOfSpeech": "noun",
+      "example": "My flight leaves at 6:00 AM tomorrow.",
+      "definitions": [
+        "a journey by air in an aircraft"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "flight number",
+        "book a flight",
+        "direct flight",
+        "connecting flight",
+        "miss a flight"
+      ],
+      "wordFamily": [
+        "fly (v)",
+        "flight (n)"
+      ],
+      "coreMeaning": "سفر هوایی با هواپیما",
+      "note": "direct flight = پرواز مستقیم — connecting flight = پرواز با توقف",
+      "trap": "با fly (پرواز کردن) فرق دارد — flight اسم است",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "gas station",
+      "translation": "پمپ بنزین",
+      "ipa": "/ɡæs ˈsteɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "We need to stop at a gas station to fill up the tank.",
+      "definitions": [
+        "a place where fuel is sold for vehicles"
+      ],
+      "synonyms": [
+        "petrol station",
+        "filling station"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "at the gas station",
+        "gas station attendant",
+        "pull into a gas station"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "محل فروش سوخت خودرو",
+      "note": "gas station آمریکایی و petrol station بریتانیایی است",
+      "trap": "gas در آمریکایی یعنی بنزین (نه گاز) — gasoline = بنزین",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "gate",
+      "translation": "گیت / دروازه",
+      "ipa": "/ɡeɪt/",
+      "partOfSpeech": "noun",
+      "example": "Please go to gate 12 for boarding.",
+      "definitions": [
+        "a door or opening in a wall or fence; an airport boarding area"
+      ],
+      "synonyms": [
+        "door",
+        "entrance"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "boarding gate",
+        "gate number",
+        "at the gate",
+        "gate change"
+      ],
+      "wordFamily": [
+        "gate (n)"
+      ],
+      "coreMeaning": "دروازه یا محل سوار شدن به هواپیما",
+      "note": "در فرودگاه gate همان محل سوار شدن به هواپیماست",
+      "trap": "با door (درب) فرق دارد — gate معمولاً بزرگ‌تر و در فضای باز است",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "guide",
+      "translation": "راهنما",
+      "ipa": "/ɡaɪd/",
+      "partOfSpeech": "noun/verb",
+      "example": "The tour guide explained the history of the building.",
+      "definitions": [
+        "a person who shows the way; a book with information"
+      ],
+      "synonyms": [
+        "leader",
+        "director"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "tour guide",
+        "guide book",
+        "travel guide",
+        "guide someone through"
+      ],
+      "wordFamily": [
+        "guide (n/v)",
+        "guidance (n)",
+        "guideline (n)"
+      ],
+      "coreMeaning": "شخص یا چیزی که راهنمایی می‌کند",
+      "note": "guide book = کتاب راهنما — tour guide = راهنمای گردشگری",
+      "trap": "با guard (نگهبان) اشتباه نگیرید",
+      "tags": [
+        "A2",
+        "travel"
+      ]
+    },
+    {
+      "word": "helicopter",
+      "translation": "بالگرد / هلیکوپتر",
+      "ipa": "/ˈhɛlɪkɒptər/",
+      "partOfSpeech": "noun",
+      "example": "The helicopter landed on top of the hospital.",
+      "definitions": [
+        "an aircraft that flies using rotating blades on top"
+      ],
+      "synonyms": [
+        "chopper",
+        "heli"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "helicopter ride",
+        "rescue helicopter",
+        "helicopter pilot"
+      ],
+      "wordFamily": [
+        "helicopter (n)"
+      ],
+      "coreMeaning": "هواپیمای عمودپرواز با ملخ بالای سر",
+      "note": "می‌تواند در جا بماند و عمودی فرود بیاید",
+      "trap": "با airplane فرق دارد — helicopter ملخ دارد و عمودی بلند می‌شود",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "highway",
+      "translation": "بزرگراه",
+      "ipa": "/ˈhaɪweɪ/",
+      "partOfSpeech": "noun",
+      "example": "The highway between the two cities is very busy.",
+      "definitions": [
+        "a main road for fast travel between cities"
+      ],
+      "synonyms": [
+        "freeway",
+        "motorway",
+        "expressway"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "on the highway",
+        "highway traffic",
+        "highway speed",
+        "highway exit"
+      ],
+      "wordFamily": [
+        "highway (n)"
+      ],
+      "coreMeaning": "جاده اصلی پرسرعت بین شهرها",
+      "note": "highway آمریکایی — motorway بریتانیایی — freeway هم آمریکایی",
+      "trap": "با road (جاده معمولی) فرق دارد — highway بزرگ‌تر و سریع‌تر است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "hotel",
+      "translation": "هتل",
+      "ipa": "/hoʊˈtɛl/",
+      "partOfSpeech": "noun",
+      "example": "We stayed at a nice hotel near the beach.",
+      "definitions": [
+        "a building where people pay to stay and sleep when traveling"
+      ],
+      "synonyms": [
+        "inn",
+        "motel"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "book a hotel",
+        "hotel room",
+        "five-star hotel",
+        "check into a hotel"
+      ],
+      "wordFamily": [
+        "hotel (n)"
+      ],
+      "coreMeaning": "محل اقامت موقت برای مسافران",
+      "note": "هتل‌ها از ۱ تا ۵ ستاره درجه‌بندی می‌شوند",
+      "trap": "با motel (متل) فرق دارد — motel معمولاً کنار جاده و ارزان‌تر است",
+      "tags": [
+        "A2",
+        "travel",
+        "hotel"
+      ]
+    },
+    {
+      "word": "journey",
+      "translation": "سفر / مسافرت",
+      "ipa": "/ˈdʒɜːrni/",
+      "partOfSpeech": "noun",
+      "example": "The journey from London to Paris takes about two hours by train.",
+      "definitions": [
+        "the act of traveling from one place to another"
+      ],
+      "synonyms": [
+        "trip",
+        "voyage"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "long journey",
+        "journey time",
+        "start a journey",
+        "journey by train"
+      ],
+      "wordFamily": [
+        "journey (n)"
+      ],
+      "coreMeaning": "سفر از مبدأ تا مقصد",
+      "note": "journey معمولاً طولانی‌تر از trip است",
+      "trap": "با trip فرق دارد — journey تأکید بر مسیر، trip تأکید بر هدف سفر",
+      "tags": [
+        "A2",
+        "travel"
+      ]
+    },
+    {
+      "word": "key card",
+      "translation": "کارت کلید / کلید الکترونیکی",
+      "ipa": "/kiː kɑːrd/",
+      "partOfSpeech": "noun",
+      "example": "Here is your key card for room 205.",
+      "definitions": [
+        "a plastic card used to open a hotel room door electronically"
+      ],
+      "synonyms": [
+        "room card",
+        "keycard"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "hotel key card",
+        "use the key card",
+        "key card slot"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "کارت الکترونیکی برای باز کردن در اتاق هتل",
+      "note": "معمولاً هنگام check-in به شما داده می‌شود",
+      "trap": "با key (کلید معمولی) فرق دارد — key card الکترونیکی است",
+      "tags": [
+        "A2",
+        "travel",
+        "hotel"
+      ]
+    },
+    {
+      "word": "landing",
+      "translation": "فرود",
+      "ipa": "/ˈlændɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "The plane made a smooth landing.",
+      "definitions": [
+        "the act of an aircraft coming down to the ground"
+      ],
+      "synonyms": [
+        "touchdown"
+      ],
+      "antonyms": [
+        "takeoff"
+      ],
+      "collocations": [
+        "smooth landing",
+        "emergency landing",
+        "landing gear"
+      ],
+      "wordFamily": [
+        "land (v)",
+        "landing (n)"
+      ],
+      "coreMeaning": "فرود آمدن هواپیما روی زمین",
+      "note": "landing gear = چرخ‌های هواپیما",
+      "trap": "با takeoff (برخاستن) متضاد است",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "left",
+      "translation": "چپ",
+      "ipa": "/lɛft/",
+      "partOfSpeech": "noun/adjective/adverb",
+      "example": "Turn left at the traffic light.",
+      "definitions": [
+        "the side of the body opposite to the right"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "right"
+      ],
+      "collocations": [
+        "turn left",
+        "on the left",
+        "left side",
+        "left-hand side"
+      ],
+      "wordFamily": [
+        "left (n/adj/adv)"
+      ],
+      "coreMeaning": "سمت چپ بدن یا مسیر",
+      "note": "left-hand side = سمت چپ",
+      "trap": "با right (راست) متضاد است — left هم به معنی «ترک کردن» هم هست (past of leave)",
+      "tags": [
+        "A2",
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "word": "license",
+      "translation": "مجوز / گواهینامه",
+      "ipa": "/ˈlaɪsəns/",
+      "partOfSpeech": "noun",
+      "example": "You need a driver's license to rent a car.",
+      "definitions": [
+        "an official document giving permission to do something"
+      ],
+      "synonyms": [
+        "permit",
+        "certificate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "driver's license",
+        "driving license",
+        "business license"
+      ],
+      "wordFamily": [
+        "license (n)",
+        "licensed (adj)"
+      ],
+      "coreMeaning": "سند رسمی اجازه انجام کاری",
+      "note": "driver's license آمریکایی — driving license بریتانیایی",
+      "trap": "با licence (بریتانیایی) تفاوت املایی دارد ولی تلفظ یکسان است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "lobby",
+      "translation": "لابی / سالن ورودی",
+      "ipa": "/ˈlɒbi/",
+      "partOfSpeech": "noun",
+      "example": "Please wait for me in the hotel lobby.",
+      "definitions": [
+        "the entrance area of a hotel or large building"
+      ],
+      "synonyms": [
+        "foyer",
+        "hall"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "hotel lobby",
+        "in the lobby",
+        "lobby area",
+        "lobby bar"
+      ],
+      "wordFamily": [
+        "lobby (n)"
+      ],
+      "coreMeaning": "سالن ورودی هتل یا ساختمان بزرگ",
+      "note": "معمولاً صندلی، پذیرش و فضای انتظار دارد",
+      "trap": "با reception (پذیرش) فرق دارد — lobby فضای بزرگ‌تر است",
+      "tags": [
+        "A2",
+        "travel",
+        "hotel"
+      ]
+    },
+    {
+      "word": "luggage",
+      "translation": "چمدان / بار مسافر",
+      "ipa": "/ˈlʌɡɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "Please keep your luggage with you at all times.",
+      "definitions": [
+        "bags and suitcases that you carry when traveling"
+      ],
+      "synonyms": [
+        "baggage"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "carry-on luggage",
+        "check in luggage",
+        "luggage cart",
+        "luggage claim",
+        "lost luggage"
+      ],
+      "wordFamily": [
+        "luggage (n)"
+      ],
+      "coreMeaning": "تمام بار و چمدان‌های مسافر",
+      "note": "luggage و baggage هر دو صحیح هستند — luggage بریتانیایی‌تر است",
+      "trap": "غیرقابل شمارش است — نگویید luggages، بگویید pieces of luggage",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "motorcycle",
+      "translation": "موتورسیکلت",
+      "ipa": "/ˈmoʊtərsaɪkəl/",
+      "partOfSpeech": "noun",
+      "example": "He rides a motorcycle to work every day.",
+      "definitions": [
+        "a two-wheeled vehicle with an engine"
+      ],
+      "synonyms": [
+        "motorbike",
+        "bike"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "ride a motorcycle",
+        "motorcycle helmet",
+        "motorcycle license"
+      ],
+      "wordFamily": [
+        "motorcycle (n)"
+      ],
+      "coreMeaning": "وسیله نقلیه دوچرخه با موتور",
+      "note": "motorbike غیررسمی‌تر است",
+      "trap": "با bicycle (دوچرخه) فرق دارد — motorcycle موتور دارد",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "parking",
+      "translation": "پارکینگ / جای پارک",
+      "ipa": "/ˈpɑːrkɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Is there free parking at the hotel?",
+      "definitions": [
+        "a place where vehicles can be left; the act of leaving a vehicle"
+      ],
+      "synonyms": [
+        "car park",
+        "parking lot"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "parking lot",
+        "parking space",
+        "free parking",
+        "parking ticket",
+        "underground parking"
+      ],
+      "wordFamily": [
+        "park (v)",
+        "parking (n)"
+      ],
+      "coreMeaning": "محل توقف خودرو",
+      "note": "parking lot آمریکایی — car park بریتانیایی",
+      "trap": "parking ticket = جریمه پارک غیرمجاز — نه بلیط پارکینگ!",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "passenger",
+      "translation": "مسافر",
+      "ipa": "/ˈpæsəndʒər/",
+      "partOfSpeech": "noun",
+      "example": "All passengers must fasten their seatbelts.",
+      "definitions": [
+        "a person traveling in a vehicle driven by someone else"
+      ],
+      "synonyms": [
+        "rider",
+        "traveler"
+      ],
+      "antonyms": [
+        "driver"
+      ],
+      "collocations": [
+        "passenger seat",
+        "passenger train",
+        "passenger plane"
+      ],
+      "wordFamily": [
+        "passenger (n)"
+      ],
+      "coreMeaning": "کسی که در وسیله نقلیه سفر می‌کند ولی رانندگی نمی‌کند",
+      "note": "passenger seat = صندلی شاگرد (کنار راننده)",
+      "trap": "با driver (راننده) متضاد است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "passport",
+      "translation": "پاسپورت / گذرنامه",
+      "ipa": "/ˈpæspɔːrt/",
+      "partOfSpeech": "noun",
+      "example": "You need a valid passport to travel abroad.",
+      "definitions": [
+        "an official document for international travel that proves your identity"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "valid passport",
+        "passport control",
+        "passport photo",
+        "renew a passport"
+      ],
+      "wordFamily": [
+        "passport (n)"
+      ],
+      "coreMeaning": "سند رسمی هویت برای سفر بین‌المللی",
+      "note": "valid passport = گذرنامه معتبر — تاریخ انقضا مهم است",
+      "trap": "با visa (ویزا) فرق دارد — passport سند هویت، visa مجوز ورود",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "pilot",
+      "translation": "خلبان",
+      "ipa": "/ˈpaɪlət/",
+      "partOfSpeech": "noun",
+      "example": "The pilot announced that we would land in 30 minutes.",
+      "definitions": [
+        "a person who flies an aircraft"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "airline pilot",
+        "pilot a plane",
+        "co-pilot",
+        "pilot license"
+      ],
+      "wordFamily": [
+        "pilot (n/v)"
+      ],
+      "coreMeaning": "شخصی که هواپیما را هدایت می‌کند",
+      "note": "co-pilot = کمک خلبان",
+      "trap": "pilot هم اسم و هم فعل است — to pilot = هدایت کردن",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "platform",
+      "translation": "سکو / پلتفرم (ایستگاه قطار)",
+      "ipa": "/ˈplætfɔːrm/",
+      "partOfSpeech": "noun",
+      "example": "The train to Berlin leaves from platform 5.",
+      "definitions": [
+        "a raised flat surface at a station where people get on and off trains"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "platform number",
+        "on the platform",
+        "train platform",
+        "platform edge"
+      ],
+      "wordFamily": [
+        "platform (n)"
+      ],
+      "coreMeaning": "محل سوار و پیاده شدن مسافران قطار",
+      "note": "شماره platform روی بلیط نوشته شده",
+      "trap": "با gate (گیت فرودگاه) فرق دارد — platform برای قطار، gate برای هواپیما",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "postcard",
+      "translation": "کارت پستال",
+      "ipa": "/ˈpoʊstkɑːrd/",
+      "partOfSpeech": "noun",
+      "example": "I sent a postcard from Paris to my family.",
+      "definitions": [
+        "a card with a picture on one side, sent by mail without an envelope"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "send a postcard",
+        "buy a postcard",
+        "picture postcard"
+      ],
+      "wordFamily": [
+        "postcard (n)"
+      ],
+      "coreMeaning": "کارت تصویری برای ارسال پیام از سفر",
+      "note": "معمولاً تصویری از شهر یا مکان توریستی دارد",
+      "trap": "با letter (نامه) فرق دارد — postcard بدون پاکت و کوتاه است",
+      "tags": [
+        "A2",
+        "travel"
+      ]
+    },
+    {
+      "word": "reception",
+      "translation": "پذیرش",
+      "ipa": "/rɪˈsɛpʃən/",
+      "partOfSpeech": "noun",
+      "example": "Please leave your key card at reception when you check out.",
+      "definitions": [
+        "the front desk of a hotel where guests go for help"
+      ],
+      "synonyms": [
+        "front desk",
+        "concierge"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "at reception",
+        "reception desk",
+        "reception area",
+        "hotel reception"
+      ],
+      "wordFamily": [
+        "receive (v)",
+        "reception (n)",
+        "receptionist (n)"
+      ],
+      "coreMeaning": "میز پذیرش هتل برای کمک به مهمانان",
+      "note": "receptionist = مسئول پذیرش",
+      "trap": "با lobby (لابی) فرق دارد — reception میز کار، lobby فضای بزرگ",
+      "tags": [
+        "A2",
+        "travel",
+        "hotel"
+      ]
+    },
+    {
+      "word": "reserve",
+      "translation": "رزرو کردن",
+      "ipa": "/rɪˈzɜːrv/",
+      "partOfSpeech": "verb",
+      "example": "I'd like to reserve a table for two at 8 PM.",
+      "definitions": [
+        "to arrange to have something kept for your use"
+      ],
+      "synonyms": [
+        "book"
+      ],
+      "antonyms": [
+        "cancel"
+      ],
+      "collocations": [
+        "reserve a room",
+        "reserve a table",
+        "reserve in advance"
+      ],
+      "wordFamily": [
+        "reserve (v)",
+        "reservation (n)"
+      ],
+      "coreMeaning": "قبل‌تر رزرو کردن و نگه داشتن",
+      "note": "reserve و book تقریباً مترادف هستند",
+      "trap": "با cancel (لغو) متضاد است",
+      "tags": [
+        "A2",
+        "travel",
+        "hotel"
+      ]
+    },
+    {
+      "word": "reservation",
+      "translation": "رزرو / رزرواسیون",
+      "ipa": "/ˌrɛzərˈveɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Do you have a reservation under the name Smith?",
+      "definitions": [
+        "an arrangement to have something kept for you"
+      ],
+      "synonyms": [
+        "booking"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "make a reservation",
+        "cancel a reservation",
+        "confirm a reservation",
+        "hotel reservation"
+      ],
+      "wordFamily": [
+        "reserve (v)",
+        "reservation (n)"
+      ],
+      "coreMeaning": "قرارداد قبلی برای نگه داشتن اتاق یا میز",
+      "note": "under the name = به نام — My reservation is under the name Smith.",
+      "trap": "غیرقابل شمارش نیست — می‌توانید بگویید a reservation یا reservations",
+      "tags": [
+        "A2",
+        "travel",
+        "hotel"
+      ]
+    },
+    {
+      "word": "road",
+      "translation": "جاده / خیابان",
+      "ipa": "/roʊd/",
+      "partOfSpeech": "noun",
+      "example": "The road to the airport was very busy.",
+      "definitions": [
+        "a hard surface for vehicles to travel on between places"
+      ],
+      "synonyms": [
+        "street",
+        "highway"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "main road",
+        "side road",
+        "road trip",
+        "road map",
+        "cross the road"
+      ],
+      "wordFamily": [
+        "road (n)"
+      ],
+      "coreMeaning": "مسیر سخت برای حرکت خودروها",
+      "note": "road trip = سفر جاده‌ای با ماشین",
+      "trap": "با street (خیابان شهری) فرق دارد — road معمولاً بین شهرها است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "room service",
+      "translation": "سرویس اتاق / خدمات اتاق",
+      "ipa": "/ruːm ˈsɜːrvɪs/",
+      "partOfSpeech": "noun",
+      "example": "Can I order breakfast through room service?",
+      "definitions": [
+        "a hotel service that delivers food and drinks to guests' rooms"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "call room service",
+        "room service menu",
+        "room service available"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "خدمات غذا و نوشیدنی در اتاق هتل",
+      "note": "معمولاً ۲۴ ساعته در هتل‌های خوب موجود است",
+      "trap": "با reception (پذیرش) فرق دارد — room service فقط غذا می‌آورد",
+      "tags": [
+        "A2",
+        "travel",
+        "hotel"
+      ]
+    },
+    {
+      "word": "roundabout",
+      "translation": "میدان / دوربرگردان",
+      "ipa": "/ˈraʊndəbaʊt/",
+      "partOfSpeech": "noun",
+      "example": "Take the second exit at the roundabout.",
+      "definitions": [
+        "a circular area where roads meet and traffic goes around"
+      ],
+      "synonyms": [
+        "traffic circle",
+        "rotary"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "at the roundabout",
+        "go around the roundabout",
+        "enter the roundabout"
+      ],
+      "wordFamily": [
+        "roundabout (n)"
+      ],
+      "coreMeaning": "محل تقاطع دایره‌ای برای هدایت ترافیک",
+      "note": "در بریتانیا roundabout و در آمریکا traffic circle می‌گویند",
+      "trap": "با crossroad (چهارراه) فرق دارد — roundabout دایره‌ای است",
+      "tags": [
+        "A2",
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "word": "route",
+      "translation": "مسیر / راه",
+      "ipa": "/ruːt/",
+      "partOfSpeech": "noun",
+      "example": "What's the best route to the airport?",
+      "definitions": [
+        "the way or road taken to get from one place to another"
+      ],
+      "synonyms": [
+        "path",
+        "way",
+        "course"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take a route",
+        "route map",
+        "scenic route",
+        "fastest route"
+      ],
+      "wordFamily": [
+        "route (n)"
+      ],
+      "coreMeaning": "مسیر مشخص از مبدأ تا مقصد",
+      "note": "scenic route = مسیر زیبا با منظره خوب",
+      "trap": "با road (جاده) فرق دارد — route مسیر کلی، road سطح فیزیکی",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "runway",
+      "translation": "باند فرودگاه",
+      "ipa": "/ˈrʌnweɪ/",
+      "partOfSpeech": "noun",
+      "example": "The plane landed on the runway safely.",
+      "definitions": [
+        "a long flat surface at an airport where planes take off and land"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "on the runway",
+        "runway lights",
+        "main runway",
+        "runway number"
+      ],
+      "wordFamily": [
+        "runway (n)"
+      ],
+      "coreMeaning": "مسیر صاف و بلند برای پرواز و فرود هواپیما",
+      "note": "معمولاً از آسفالت یا بتن ساخته شده",
+      "trap": "با platform (سکوی قطار) فرق دارد — runway برای هواپیما",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "schedule",
+      "translation": "برنامه زمانی / جدول زمان‌بندی",
+      "ipa": "/ˈʃɛdjuːl/",
+      "partOfSpeech": "noun",
+      "example": "The train schedule shows departures every 30 minutes.",
+      "definitions": [
+        "a plan that lists the times when events will happen"
+      ],
+      "synonyms": [
+        "timetable",
+        "agenda"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "train schedule",
+        "flight schedule",
+        "on schedule",
+        "behind schedule"
+      ],
+      "wordFamily": [
+        "schedule (n/v)",
+        "scheduled (adj)"
+      ],
+      "coreMeaning": "برنامه زمانی حرکت وسایل نقلیه",
+      "note": "on schedule = طبق برنامه — behind schedule = با تأخیر",
+      "trap": "تلفظ آمریکایی /ˈskɛdʒuːl/ و بریتانیایی /ˈʃɛdjuːl/ متفاوت است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "seat",
+      "translation": "صندلی / جا",
+      "ipa": "/siːt/",
+      "partOfSpeech": "noun",
+      "example": "Is this seat taken?",
+      "definitions": [
+        "a place for sitting; a chair or bench"
+      ],
+      "synonyms": [
+        "chair"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take a seat",
+        "window seat",
+        "aisle seat",
+        "seat belt",
+        "front seat"
+      ],
+      "wordFamily": [
+        "seat (n)",
+        "seating (n)"
+      ],
+      "coreMeaning": "محل نشستن",
+      "note": "seat belt = کمربند ایمنی",
+      "trap": "غیرقابل شمارش نیست — می‌توانید بگویید a seat یا seats",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "security",
+      "translation": "امنیت / حراست",
+      "ipa": "/sɪˈkjʊrəti/",
+      "partOfSpeech": "noun",
+      "example": "You have to go through security before boarding.",
+      "definitions": [
+        "protection against danger; the department that checks for safety"
+      ],
+      "synonyms": [
+        "safety",
+        "protection"
+      ],
+      "antonyms": [
+        "danger",
+        "insecurity"
+      ],
+      "collocations": [
+        "security check",
+        "security guard",
+        "airport security",
+        "security camera"
+      ],
+      "wordFamily": [
+        "secure (adj/v)",
+        "security (n)"
+      ],
+      "coreMeaning": "بازرسی امنیتی در فرودگاه",
+      "note": "در فرودگاه باید از security عبور کنید — لپ‌تاپ و مایعات را جدا کنید",
+      "trap": "با customs (گمرک) فرق دارد — security برای امنیت مسافر، customs برای بار",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "sign",
+      "translation": "تابلو / نشانه",
+      "ipa": "/saɪn/",
+      "partOfSpeech": "noun",
+      "example": "Follow the signs to the exit.",
+      "definitions": [
+        "a board or notice giving information or directions"
+      ],
+      "synonyms": [
+        "notice",
+        "indicator"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "road sign",
+        "follow the signs",
+        "sign post",
+        "warning sign"
+      ],
+      "wordFamily": [
+        "sign (n/v)",
+        "signal (n/v)",
+        "signature (n)"
+      ],
+      "coreMeaning": "تابلو یا نشانه‌ای برای راهنمایی",
+      "note": "sign هم اسم (تابلو) و هم فعل (امضا کردن) است",
+      "trap": "sign (تابلو) با signal (علامت) فرق دارد",
+      "tags": [
+        "A2",
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "word": "single room",
+      "translation": "اتاق یک‌تخته",
+      "ipa": "/ˈsɪŋɡəl ruːm/",
+      "partOfSpeech": "noun",
+      "example": "I need a single room for one night, please.",
+      "definitions": [
+        "a hotel room with one bed for one person"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "double room"
+      ],
+      "collocations": [
+        "book a single room",
+        "single room rate",
+        "single room with bathroom"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اتاق هتل با یک تخت برای یک نفر",
+      "note": "معمولاً ارزان‌تر از double room است",
+      "trap": "با double room (اتاق دونفره) متضاد است",
+      "tags": [
+        "A2",
+        "travel",
+        "hotel"
+      ]
+    },
+    {
+      "word": "souvenir",
+      "translation": "یادگاری / سوغاتی",
+      "ipa": "/ˌsuːvəˈnɪr/",
+      "partOfSpeech": "noun",
+      "example": "She bought a souvenir from the gift shop.",
+      "definitions": [
+        "something you buy or keep to remember a place or event"
+      ],
+      "synonyms": [
+        "memento",
+        "keepsake"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "buy a souvenir",
+        "souvenir shop",
+        "souvenir from my trip"
+      ],
+      "wordFamily": [
+        "souvenir (n)"
+      ],
+      "coreMeaning": "چیزی که برای یادآوری سفر نگه می‌دارید",
+      "note": "از فرانسوی آمده — تلفظ: سوونیر",
+      "trap": "با gift (هدیه) فرق دارد — souvenir برای خودتان یادگاری است",
+      "tags": [
+        "A2",
+        "travel"
+      ]
+    },
+    {
+      "word": "speed",
+      "translation": "سرعت",
+      "ipa": "/spiːd/",
+      "partOfSpeech": "noun",
+      "example": "The speed limit on this road is 60 km/h.",
+      "definitions": [
+        "how fast something moves"
+      ],
+      "synonyms": [
+        "pace",
+        "velocity"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "speed limit",
+        "high speed",
+        "at full speed",
+        "pick up speed"
+      ],
+      "wordFamily": [
+        "speed (n/v)",
+        "speedy (adj)"
+      ],
+      "coreMeaning": "میزان تندی حرکت",
+      "note": "speed limit = حداکثر سرعت مجاز",
+      "trap": "گذشته: sped یا speeded — هر دو صحیح هستند",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "station",
+      "translation": "ایستگاه",
+      "ipa": "/ˈsteɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The train station is in the center of the city.",
+      "definitions": [
+        "a place where trains or buses regularly stop"
+      ],
+      "synonyms": [
+        "terminal",
+        "depot"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "train station",
+        "bus station",
+        "at the station",
+        "station master"
+      ],
+      "wordFamily": [
+        "station (n)"
+      ],
+      "coreMeaning": "محل توقف منظم قطار یا اتوبوس",
+      "note": "train station آمریکایی — railway station بریتانیایی",
+      "trap": "با bus stop (ایستگاه اتوبوس کوچک) فرق دارد — station بزرگ‌تر است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "straight",
+      "translation": "مستقیم",
+      "ipa": "/streɪt/",
+      "partOfSpeech": "adjective/adverb",
+      "example": "Go straight for two blocks, then turn right.",
+      "definitions": [
+        "in a direct line without turning"
+      ],
+      "synonyms": [
+        "directly",
+        "ahead"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go straight",
+        "straight ahead",
+        "straight on",
+        "straight line"
+      ],
+      "wordFamily": [
+        "straight (adj/adv)"
+      ],
+      "coreMeaning": "بدون پیچ و مستقیم",
+      "note": "go straight ahead = مستقیم بروید",
+      "trap": "با strait (تنگه) اشتباه نگیرید — تلفظ یکسان ولی معنی متفاوت",
+      "tags": [
+        "A2",
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "word": "subway",
+      "translation": "مترو / متروی زیرزمینی",
+      "ipa": "/ˈsʌbweɪ/",
+      "partOfSpeech": "noun",
+      "example": "The subway is the fastest way to get around the city.",
+      "definitions": [
+        "an underground railway system in a city"
+      ],
+      "synonyms": [
+        "metro",
+        "underground",
+        "tube"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take the subway",
+        "subway station",
+        "subway line",
+        "subway map"
+      ],
+      "wordFamily": [
+        "subway (n)"
+      ],
+      "coreMeaning": "قطار شهری زیرزمینی",
+      "note": "subway آمریکایی — underground/tube بریتانیایی — metro عمومی",
+      "trap": "subway در بریتانیا یعنی زیرگذر عابر پیاده، نه مترو!",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "suitcase",
+      "translation": "چمدان",
+      "ipa": "/ˈsuːtkeɪs/",
+      "partOfSpeech": "noun",
+      "example": "I packed my clothes in a big suitcase.",
+      "definitions": [
+        "a rectangular case with a handle for carrying clothes when traveling"
+      ],
+      "synonyms": [
+        "luggage",
+        "bag"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "pack a suitcase",
+        "suitcase handle",
+        "carry a suitcase",
+        "heavy suitcase"
+      ],
+      "wordFamily": [
+        "suitcase (n)"
+      ],
+      "coreMeaning": "جعبه مستطیلی برای حمل لباس در سفر",
+      "note": "suitcase معمولاً سفت و سخت است — bag نرم‌تر",
+      "trap": "با luggage (تمام بار مسافر) فرق دارد — suitcase یک چمدان مشخص است",
+      "tags": [
+        "A2",
+        "travel"
+      ]
+    },
+    {
+      "word": "take off",
+      "translation": "برخاستن / بلند شدن",
+      "ipa": "/teɪk ɒf/",
+      "partOfSpeech": "phrasal verb",
+      "example": "The plane takes off at 9:00 AM.",
+      "definitions": [
+        "when a plane leaves the ground and starts flying"
+      ],
+      "synonyms": [
+        "depart"
+      ],
+      "antonyms": [
+        "land"
+      ],
+      "collocations": [
+        "take off from",
+        "takeoff time",
+        "ready for takeoff"
+      ],
+      "wordFamily": [
+        "takeoff (n)"
+      ],
+      "coreMeaning": "لحظه‌ای که هواپیما از زمین جدا می‌شود",
+      "note": "takeoff (یک کلمه) = اسم — take off (دو کلمه) = فعل",
+      "trap": "با land (فرود) متضاد است — take off هم به معنی درآوردن لباس هم هست",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "taxi",
+      "translation": "تاکسی",
+      "ipa": "/ˈtæksi/",
+      "partOfSpeech": "noun",
+      "example": "Let's take a taxi to the hotel.",
+      "definitions": [
+        "a car with a driver that you pay to take you somewhere"
+      ],
+      "synonyms": [
+        "cab",
+        "taxicab"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "take a taxi",
+        "call a taxi",
+        "taxi driver",
+        "taxi stand",
+        "taxi fare"
+      ],
+      "wordFamily": [
+        "taxi (n)"
+      ],
+      "coreMeaning": "خودروی اجاره‌ای با راننده",
+      "note": "cab غیررسمی‌تر است — taxi stand = ایستگاه تاکسی",
+      "trap": "با bus فرق دارد — taxi مسیر اختصاصی دارد و گران‌تر است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "terminal",
+      "translation": "ترمینال / پایانه",
+      "ipa": "/ˈtɜːrmɪnəl/",
+      "partOfSpeech": "noun",
+      "example": "Our flight departs from Terminal 2.",
+      "definitions": [
+        "a building at an airport where passengers arrive and leave"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "airport terminal",
+        "bus terminal",
+        "terminal building",
+        "terminal 1"
+      ],
+      "wordFamily": [
+        "terminal (n/adj)"
+      ],
+      "coreMeaning": "ساختمان اصلی فرودگاه برای مسافران",
+      "note": "فرودگاه‌های بزرگ چند terminal دارند",
+      "trap": "با gate (گیت) فرق دارد — terminal ساختمان بزرگ، gate محل سوار شدن",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "ticket",
+      "translation": "بلیط",
+      "ipa": "/ˈtɪkɪt/",
+      "partOfSpeech": "noun",
+      "example": "I bought a round-trip ticket to London.",
+      "definitions": [
+        "a piece of paper or card that gives you the right to travel or enter"
+      ],
+      "synonyms": [
+        "pass"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "buy a ticket",
+        "ticket office",
+        "one-way ticket",
+        "round-trip ticket",
+        "ticket counter"
+      ],
+      "wordFamily": [
+        "ticket (n)"
+      ],
+      "coreMeaning": "سند پرداخت برای سفر یا ورود",
+      "note": "one-way ticket = بلیط یک‌طرفه — round-trip ticket = بلیط رفت‌وبرگشت",
+      "trap": "با boarding pass (کارت پرواز) فرق دارد — ticket را می‌خرید، boarding pass را می‌گیرید",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "timetable",
+      "translation": "جدول زمانی / ساعت حرکت",
+      "ipa": "/ˈtaɪmteɪbəl/",
+      "partOfSpeech": "noun",
+      "example": "Check the timetable for the next bus.",
+      "definitions": [
+        "a list showing the times when buses, trains, etc. arrive and leave"
+      ],
+      "synonyms": [
+        "schedule"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "bus timetable",
+        "train timetable",
+        "check the timetable",
+        "school timetable"
+      ],
+      "wordFamily": [
+        "timetable (n)"
+      ],
+      "coreMeaning": "لیست زمان‌بندی حرکت وسایل نقلیه",
+      "note": "timetable بریتانیایی‌تر — schedule آمریکایی‌تر",
+      "trap": "با schedule فرق بزرگی ندارد ولی timetable بیشتر برای حمل‌ونقل است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "tourist",
+      "translation": "گردشگر / توریست",
+      "ipa": "/ˈtʊrɪst/",
+      "partOfSpeech": "noun",
+      "example": "The city is full of tourists in the summer.",
+      "definitions": [
+        "a person who visits a place for pleasure"
+      ],
+      "synonyms": [
+        "visitor",
+        "sightseer"
+      ],
+      "antonyms": [
+        "local",
+        "resident"
+      ],
+      "collocations": [
+        "tourist attraction",
+        "tourist information",
+        "tourist trap",
+        "tourist visa"
+      ],
+      "wordFamily": [
+        "tour (n/v)",
+        "tourist (n)",
+        "tourism (n)"
+      ],
+      "coreMeaning": "کسی که برای تفریح به مکانی سفر می‌کند",
+      "note": "tourist trap = جای توریستی گران و بی‌ارزش",
+      "trap": "tourist و traveler فرق دارند — traveler بیشتر سفر می‌کند، tourist بیشتر بازدید",
+      "tags": [
+        "A2",
+        "travel"
+      ]
+    },
+    {
+      "word": "traffic",
+      "translation": "ترافیک / ترافیک جاده‌ای",
+      "ipa": "/ˈtræfɪk/",
+      "partOfSpeech": "noun",
+      "example": "The traffic is terrible during rush hour.",
+      "definitions": [
+        "vehicles moving on roads; the number of vehicles on a road"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "traffic jam",
+        "traffic light",
+        "heavy traffic",
+        "rush hour traffic",
+        "traffic accident"
+      ],
+      "wordFamily": [
+        "traffic (n)"
+      ],
+      "coreMeaning": "حرکت خودروها در جاده",
+      "note": "traffic jam = ترافیک سنگین — rush hour = ساعت شلوغی",
+      "trap": "غیرقابل شمارش است — نگویید traffics",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "traffic light",
+      "translation": "چراغ راهنما",
+      "ipa": "/ˈtræfɪk laɪt/",
+      "partOfSpeech": "noun",
+      "example": "Stop at the traffic light and turn left.",
+      "definitions": [
+        "a signal with red, yellow, and green lights to control traffic"
+      ],
+      "synonyms": [
+        "traffic signal",
+        "stoplight"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "at the traffic light",
+        "red traffic light",
+        "traffic light intersection"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "چراغ سه‌رنگ کنترل ترافیک",
+      "note": "قرمز = توقف، زرد = احتیاط، سبز = حرکت",
+      "trap": "با traffic jam (ترافیک) فرق دارد — traffic light چراغ است",
+      "tags": [
+        "A2",
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "word": "train",
+      "translation": "قطار",
+      "ipa": "/treɪn/",
+      "partOfSpeech": "noun",
+      "example": "The train to Manchester leaves at 10:15.",
+      "definitions": [
+        "a series of connected vehicles that travel on railways"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "by train",
+        "take the train",
+        "train station",
+        "train ticket",
+        "catch a train",
+        "miss the train"
+      ],
+      "wordFamily": [
+        "train (n/v)",
+        "training (n)"
+      ],
+      "coreMeaning": "وسیله نقلیه ریلی",
+      "note": "catch a train = به قطار برسید — miss the train = قطار را از دست بدهید",
+      "trap": "train هم اسم (قطار) و هم فعل (آموزش دادن) است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "transfer",
+      "translation": "جابجایی / انتقال",
+      "ipa": "/trænsˈfɜːr/",
+      "partOfSpeech": "noun/verb",
+      "example": "You need to transfer at the next station.",
+      "definitions": [
+        "to move from one vehicle or place to another"
+      ],
+      "synonyms": [
+        "change",
+        "switch"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "transfer to",
+        "transfer at",
+        "flight transfer",
+        "baggage transfer"
+      ],
+      "wordFamily": [
+        "transfer (n/v)"
+      ],
+      "coreMeaning": "تعویض وسیله نقلیه در مسیر",
+      "note": "transfer = عوض کردن قطار/اتوبوس/هواپیما در مسیر",
+      "trap": "با change (عوض کردن) تقریباً مترادف ولی transfer رسمی‌تر است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "traveler",
+      "translation": "مسافر / جهانگرد",
+      "ipa": "/ˈtrævələr/",
+      "partOfSpeech": "noun",
+      "example": "She is an experienced traveler who has visited 30 countries.",
+      "definitions": [
+        "a person who is traveling or who often travels"
+      ],
+      "synonyms": [
+        "voyager",
+        "wanderer"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "frequent traveler",
+        "business traveler",
+        "solo traveler",
+        "traveler's check"
+      ],
+      "wordFamily": [
+        "travel (v)",
+        "traveler (n)"
+      ],
+      "coreMeaning": "کسی که سفر می‌کند یا زیاد سفر کرده",
+      "note": "traveler آمریکایی — traveller بریتانیایی",
+      "trap": "با tourist (گردشگر) فرق دارد — traveler عمومی‌تر است",
+      "tags": [
+        "A2",
+        "travel"
+      ]
+    },
+    {
+      "word": "trip",
+      "translation": "سفر / گردش",
+      "ipa": "/trɪp/",
+      "partOfSpeech": "noun",
+      "example": "We're planning a trip to the mountains next weekend.",
+      "definitions": [
+        "a journey to a place and back, especially for a short time"
+      ],
+      "synonyms": [
+        "journey",
+        "excursion"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "go on a trip",
+        "business trip",
+        "day trip",
+        "road trip",
+        "round trip"
+      ],
+      "wordFamily": [
+        "trip (n)"
+      ],
+      "coreMeaning": "سفر کوتاه به مکانی و بازگشت",
+      "note": "road trip = سفر جاده‌ای — day trip = گردش یک‌روزه",
+      "trap": "با journey فرق دارد — trip تأکید بر هدف، journey تأکید بر مسیر",
+      "tags": [
+        "A2",
+        "travel"
+      ]
+    },
+    {
+      "word": "truck",
+      "translation": "کامیون",
+      "ipa": "/trʌk/",
+      "partOfSpeech": "noun",
+      "example": "A big truck was blocking the road.",
+      "definitions": [
+        "a large vehicle for carrying heavy goods"
+      ],
+      "synonyms": [
+        "lorry"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "delivery truck",
+        "truck driver",
+        "moving truck",
+        "food truck"
+      ],
+      "wordFamily": [
+        "truck (n)"
+      ],
+      "coreMeaning": "وسیله نقلیه بزرگ برای حمل بار سنگین",
+      "note": "truck آمریکایی — lorry بریتانیایی",
+      "trap": "با van (ون) فرق دارد — truck بزرگ‌تر و برای بار سنگین‌تر",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "tunnel",
+      "translation": "تونل",
+      "ipa": "/ˈtʌnəl/",
+      "partOfSpeech": "noun",
+      "example": "The train goes through a long tunnel under the mountain.",
+      "definitions": [
+        "an underground passage for vehicles or trains"
+      ],
+      "synonyms": [
+        "underpass"
+      ],
+      "antonyms": [
+        "bridge"
+      ],
+      "collocations": [
+        "go through a tunnel",
+        "road tunnel",
+        "railway tunnel",
+        "underwater tunnel"
+      ],
+      "wordFamily": [
+        "tunnel (n)"
+      ],
+      "coreMeaning": "گذرگاه زیرزمینی برای خودرو یا قطار",
+      "note": "Channel Tunnel = تونل مانش (زیر دریای مانش بین انگلیس و فرانسه)",
+      "trap": "با bridge (پل) متضاد است — tunnel از زیر، bridge از روی",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "turn",
+      "translation": "پیچیدن / دور زدن",
+      "ipa": "/tɜːrn/",
+      "partOfSpeech": "verb/noun",
+      "example": "Turn right at the next intersection.",
+      "definitions": [
+        "to change direction; a change in direction"
+      ],
+      "synonyms": [
+        "veer",
+        "swerve"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "turn left",
+        "turn right",
+        "turn around",
+        "take a turn",
+        "make a turn"
+      ],
+      "wordFamily": [
+        "turn (v/n)"
+      ],
+      "coreMeaning": "تغییر جهت حرکت",
+      "note": "turn around = برگشتن / دور زدن",
+      "trap": "turn left = بپیچید چپ — turn to the left = به سمت چپ بپیچید (هر دو صحیح)",
+      "tags": [
+        "A2",
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "word": "vacation",
+      "translation": "تعطیلات / مرخصی",
+      "ipa": "/veɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "We're going on vacation to Greece next month.",
+      "definitions": [
+        "a period of time spent away from work or school for rest"
+      ],
+      "synonyms": [
+        "holiday",
+        "break"
+      ],
+      "antonyms": [
+        "work"
+      ],
+      "collocations": [
+        "go on vacation",
+        "summer vacation",
+        "vacation destination",
+        "take a vacation"
+      ],
+      "wordFamily": [
+        "vacation (n)"
+      ],
+      "coreMeaning": "دوره استراحت و تفریح دور از کار",
+      "note": "vacation آمریکایی — holiday بریتانیایی",
+      "trap": "vacation غیرقابل شمارش است — نگویید vacations (مگر انواع مختلف)",
+      "tags": [
+        "A2",
+        "travel"
+      ]
+    },
+    {
+      "word": "van",
+      "translation": "ون / مینی‌بوس",
+      "ipa": "/væn/",
+      "partOfSpeech": "noun",
+      "example": "The hotel has a van that takes guests to the airport.",
+      "definitions": [
+        "a medium-sized vehicle for carrying people or goods"
+      ],
+      "synonyms": [
+        "minivan"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "delivery van",
+        "moving van",
+        "van driver",
+        "passenger van"
+      ],
+      "wordFamily": [
+        "van (n)"
+      ],
+      "coreMeaning": "خودروی بزرگ‌تر از ماشین معمولی برای حمل مسافر یا بار",
+      "note": "minivan = ون کوچک‌تر برای خانواده",
+      "trap": "با truck (کامیون) فرق دارد — van کوچک‌تر است",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "visa",
+      "translation": "ویزا / روادید",
+      "ipa": "/ˈviːzə/",
+      "partOfSpeech": "noun",
+      "example": "You need a visa to enter that country.",
+      "definitions": [
+        "an official stamp or document in your passport allowing you to enter a country"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "apply for a visa",
+        "tourist visa",
+        "work visa",
+        "visa application",
+        "visa-free"
+      ],
+      "wordFamily": [
+        "visa (n)"
+      ],
+      "coreMeaning": "مجوز رسمی ورود به کشور دیگر",
+      "note": "بعضی کشورها visa-free هستند — نیازی به ویزا ندارید",
+      "trap": "با passport (گذرنامه) فرق دارد — passport سند هویت، visa مجوز ورود",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "wheel",
+      "translation": "چرخ",
+      "ipa": "/wiːl/",
+      "partOfSpeech": "noun",
+      "example": "The car has four wheels.",
+      "definitions": [
+        "a circular object that turns around an axle to make vehicles move"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "steering wheel",
+        "spare wheel",
+        "wheel alignment",
+        "four wheels"
+      ],
+      "wordFamily": [
+        "wheel (n)"
+      ],
+      "coreMeaning": "شیء دایره‌ای برای حرکت وسیله نقلیه",
+      "note": "steering wheel = فرمان ماشین",
+      "trap": "با tire (لاستیک) فرق دارد — wheel چرخ کامل، tire فقط لاستیک روی آن",
+      "tags": [
+        "A2",
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "word": "window seat",
+      "translation": "صندلی کنار پنجره",
+      "ipa": "/ˈwɪndoʊ siːt/",
+      "partOfSpeech": "noun",
+      "example": "I always try to get a window seat on the plane.",
+      "definitions": [
+        "a seat next to a window, especially on a plane or train"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "aisle seat"
+      ],
+      "collocations": [
+        "request a window seat",
+        "window seat on the plane",
+        "prefer a window seat"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "صندلی کنار پنجره در هواپیما یا قطار",
+      "note": "برای دیدن منظره عالی است ولی برای بلند شدن سخت‌تر",
+      "trap": "با aisle seat (صندلی کنار راهرو) متضاد است",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "arrival",
+      "translation": "رسیدن، ورود",
+      "ipa": "/əˈraɪvəl/",
+      "partOfSpeech": "noun",
+      "example": "What time is your arrival?",
+      "definitions": [
+        "the act of reaching a destination"
+      ],
+      "synonyms": [
+        "coming"
+      ],
+      "antonyms": [
+        "departure"
+      ],
+      "collocations": [
+        "arrival time",
+        "arrival gate",
+        "on arrival"
+      ],
+      "wordFamily": [
+        "arrive (v)"
+      ],
+      "coreMeaning": "رسیدن به مقصد",
+      "note": " مقابل departure",
+      "trap": "arrival: دو r دارد",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "scenery",
+      "translation": "منظره، چشم‌انداز",
+      "ipa": "/ˈsiːnəri/",
+      "partOfSpeech": "noun",
+      "example": "The scenery in the mountains is beautiful.",
+      "definitions": [
+        "the natural features of an area that you can see"
+      ],
+      "synonyms": [
+        "landscape",
+        "view"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "beautiful scenery",
+        "scenic route",
+        "mountain scenery"
+      ],
+      "wordFamily": [
+        "scenic (adj)"
+      ],
+      "coreMeaning": "منظره طبیعی محیط",
+      "note": "scenery غیرقابل شمارش است",
+      "trap": "scenery ≠ scene — scene صحنه است",
+      "tags": [
+        "A2",
+        "travel",
+        "nature"
+      ]
+    },
+    {
+      "word": "layover",
+      "translation": "توقف بین پرواز",
+      "ipa": "/ˈleɪoʊvər/",
+      "partOfSpeech": "noun",
+      "example": "We have a 3-hour layover in Dubai.",
+      "definitions": [
+        "a stop between flights on a journey"
+      ],
+      "synonyms": [
+        "stopover"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "long layover",
+        "layover in",
+        "during layover"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "توقف در فرودگاه بین دو پرواز",
+      "note": "layover فقط برای سفر هوایی است",
+      "trap": "layover: lay-over",
+      "tags": [
+        "A2",
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "word": "itinerary",
+      "translation": "برنامه سفر",
+      "ipa": "/aɪˈtɪnərəri/",
+      "partOfSpeech": "noun",
+      "example": "Here is our itinerary for the trip.",
+      "definitions": [
+        "a plan for a journey including places and times"
+      ],
+      "synonyms": [
+        "schedule",
+        "plan"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "travel itinerary",
+        "follow itinerary",
+        "detailed itinerary"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "برنامه زمانی سفر",
+      "note": "itinerary: eye-TIN-er-ar-y",
+      "trap": "itinerary ۵ هجا دارد",
+      "tags": [
+        "A2",
+        "travel",
+        "general"
+      ]
+    },
+    {
+      "word": "sightseeing",
+      "translation": "بازدید از جاهای دیدنی",
+      "ipa": "/ˈsaɪtsiːɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "We went sightseeing in Rome.",
+      "definitions": [
+        "visiting famous places as a tourist"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go sightseeing",
+        "sightseeing tour",
+        "sightseeing bus"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "گردش در جاهای دیدنی",
+      "note": "go sightseeing = گردشگری کردن",
+      "trap": "sightseeing: sight-seeing",
+      "tags": [
+        "A2",
+        "travel",
+        "vacation"
+      ]
+    },
+    {
+      "word": "accommodation",
+      "translation": "محل اقامت",
+      "ipa": "/əˌkɑːməˈdeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "We need to find accommodation for the night.",
+      "definitions": [
+        "a place to stay during a trip"
+      ],
+      "synonyms": [
+        "lodging"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "book accommodation",
+        "find accommodation",
+        "accommodation cost"
+      ],
+      "wordFamily": [
+        "accommodate (v)"
+      ],
+      "coreMeaning": "محل اقامت در سفر",
+      "note": "accommodation غیرقابل شمارش است",
+      "trap": "accommodation: ac-com-mo-DA-tion",
+      "tags": [
+        "A2",
+        "travel",
+        "hotel"
+      ]
+    }
+  ]
+}

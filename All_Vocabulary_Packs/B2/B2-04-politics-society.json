@@ -1,0 +1,6528 @@
+{
+  "name": "سیاست و اجتماع",
+  "description": "واژگان سطح B2 — موضوع: سیاست و اجتماع",
+  "category": "B2 — سطح",
+  "level": "B2",
+  "packId": "B2-04",
+  "words": [
+    {
+      "word": "legislature",
+      "translation": "مقننه، مجلس قانون‌گذاری",
+      "ipa": "/ˈledʒɪsleɪtʃər/",
+      "partOfSpeech": "noun",
+      "example": "The legislature passed a new bill on healthcare reform.",
+      "definitions": [
+        "the legislative body of a country or state"
+      ],
+      "synonyms": [
+        "parliament",
+        "congress",
+        "assembly"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "state legislature",
+        "bicameral legislature",
+        "legislative session"
+      ],
+      "wordFamily": [
+        "legislative (adj)",
+        "legislate (v)",
+        "legislation (n)"
+      ],
+      "coreMeaning": "مجلس قانون‌گذاری",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "legislative",
+      "translation": "قانون‌گذاری",
+      "ipa": "/ˈledʒɪsleɪtɪv/",
+      "partOfSpeech": "adjective",
+      "example": "The legislative branch is responsible for making laws.",
+      "definitions": [
+        "relating to the making of laws"
+      ],
+      "synonyms": [
+        "lawmaking",
+        "parliamentary"
+      ],
+      "antonyms": [
+        "executive",
+        "judicial"
+      ],
+      "collocations": [
+        "legislative body",
+        "legislative process",
+        "legislative power"
+      ],
+      "wordFamily": [
+        "legislate (v)",
+        "legislation (n)",
+        "legislator (n)"
+      ],
+      "coreMeaning": "مربوط به قانون‌گذاری",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "diplomat",
+      "translation": "دیپلمات، سفیر",
+      "ipa": "/ˈdɪpləmæt/",
+      "partOfSpeech": "noun",
+      "example": "The diplomat negotiated a peace agreement between the two nations.",
+      "definitions": [
+        "a person who represents a country abroad"
+      ],
+      "synonyms": [
+        "ambassador",
+        "envoy",
+        "emissary"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "career diplomat",
+        "senior diplomat",
+        "foreign diplomat"
+      ],
+      "wordFamily": [
+        "diplomacy (n)",
+        "diplomatic (adj)",
+        "diplomatically (adv)"
+      ],
+      "coreMeaning": "نماینده سیاسی کشور در خارج",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "diplomatic",
+      "translation": "دیپلماتیک، سیاسی",
+      "ipa": "/ˌdɪpləˈmætɪk/",
+      "partOfSpeech": "adjective",
+      "example": "They established diplomatic relations with the neighboring country.",
+      "definitions": [
+        "relating to diplomacy or diplomats",
+        "tactful and sensitive in dealing with others"
+      ],
+      "synonyms": [
+        "tactful",
+        "politic",
+        "negotiated"
+      ],
+      "antonyms": [
+        "undiplomatic",
+        "blunt"
+      ],
+      "collocations": [
+        "diplomatic relations",
+        "diplomatic immunity",
+        "diplomatic solution"
+      ],
+      "wordFamily": [
+        "diplomacy (n)",
+        "diplomat (n)",
+        "diplomatically (adv)"
+      ],
+      "coreMeaning": "مربوط به روابط بین‌المللی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "constituency",
+      "translation": "حوزه انتخابیه",
+      "ipa": "/kənˈstɪtʃuənsi/",
+      "partOfSpeech": "noun",
+      "example": "She represents a constituency in the northern part of the country.",
+      "definitions": [
+        "a district whose voters elect a representative",
+        "the voters in a district"
+      ],
+      "synonyms": [
+        "district",
+        "electorate",
+        "riding"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "home constituency",
+        "constituency office",
+        "represent a constituency"
+      ],
+      "wordFamily": [
+        "constituent (n/adj)"
+      ],
+      "coreMeaning": "منطقه انتخاباتی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "constituent",
+      "translation": "رأی‌دهنده، تشکیل‌دهنده",
+      "ipa": "/kənˈstɪtʃuənt/",
+      "partOfSpeech": "noun",
+      "example": "Constituents are demanding better healthcare services.",
+      "definitions": [
+        "a voter in a district",
+        "a component part of something"
+      ],
+      "synonyms": [
+        "voter",
+        "elector",
+        "component"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "constituent assembly",
+        "constituent part",
+        "concerned constituents"
+      ],
+      "wordFamily": [
+        "constituency (n)",
+        "constitute (v)"
+      ],
+      "coreMeaning": "عضو تشکیل‌دهنده یا رأی‌دهنده",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "senator",
+      "translation": "سناتور، عضو مجلس سنا",
+      "ipa": "/ˈsenətər/",
+      "partOfSpeech": "noun",
+      "example": "The senator proposed a new bill on immigration reform.",
+      "definitions": [
+        "a member of a senate"
+      ],
+      "synonyms": [
+        "legislator",
+        "lawmaker"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "state senator",
+        "senior senator",
+        "junior senator"
+      ],
+      "wordFamily": [
+        "senate (n)",
+        "senatorial (adj)"
+      ],
+      "coreMeaning": "عضو مجلس سنا",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "congressional",
+      "translation": "مربوط به کنگره",
+      "ipa": "/kənˈɡreʃənl/",
+      "partOfSpeech": "adjective",
+      "example": "Congressional hearings revealed new evidence in the investigation.",
+      "definitions": [
+        "relating to a congress or parliament"
+      ],
+      "synonyms": [
+        "parliamentary",
+        "legislative"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "congressional hearing",
+        "congressional committee",
+        "congressional approval"
+      ],
+      "wordFamily": [
+        "congress (n)"
+      ],
+      "coreMeaning": "مربوط به مجلس قانون‌گذاری",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "impeachment",
+      "translation": "استیضاح",
+      "ipa": "/ɪmˈpiːtʃmənt/",
+      "partOfSpeech": "noun",
+      "example": "The president faced impeachment for abuse of power.",
+      "definitions": [
+        "the process of charging a public official with a crime"
+      ],
+      "synonyms": [
+        "indictment",
+        "accusation"
+      ],
+      "antonyms": [
+        "acquittal",
+        "exoneration"
+      ],
+      "collocations": [
+        "impeachment trial",
+        "impeachment proceedings",
+        "face impeachment"
+      ],
+      "wordFamily": [
+        "impeach (v)"
+      ],
+      "coreMeaning": "فرآیند قانونی برکناری مقامات",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "judiciary",
+      "translation": "قوه قضاییه",
+      "ipa": "/dʒuˈdɪʃieri/",
+      "partOfSpeech": "noun",
+      "example": "An independent judiciary is essential for a functioning democracy.",
+      "definitions": [
+        "the judicial authorities of a country",
+        "the branch of government that interprets laws"
+      ],
+      "synonyms": [
+        "judicial system",
+        "courts",
+        "bench"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "independent judiciary",
+        "federal judiciary",
+        "judiciary committee"
+      ],
+      "wordFamily": [
+        "judicial (adj)",
+        "judicious (adj)"
+      ],
+      "coreMeaning": "مجموعه دادگاه‌ها و قضات",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "judicial",
+      "translation": "قضایی",
+      "ipa": "/dʒuˈdɪʃəl/",
+      "partOfSpeech": "adjective",
+      "example": "The judicial system must remain free from political interference.",
+      "definitions": [
+        "relating to courts of law or judges"
+      ],
+      "synonyms": [
+        "legal",
+        "court-related"
+      ],
+      "antonyms": [
+        "extrajudicial"
+      ],
+      "collocations": [
+        "judicial review",
+        "judicial system",
+        "judicial process"
+      ],
+      "wordFamily": [
+        "judiciary (n)",
+        "judicially (adv)"
+      ],
+      "coreMeaning": "مربوط به دادگاه و قضاوت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "verdict",
+      "translation": "حکم، رأی دادگاه",
+      "ipa": "/ˈvɜːrdɪkt/",
+      "partOfSpeech": "noun",
+      "example": "The jury reached a unanimous verdict of not guilty.",
+      "definitions": [
+        "a decision made by a jury or judge"
+      ],
+      "synonyms": [
+        "judgment",
+        "ruling",
+        "decision"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "guilty verdict",
+        "reach a verdict",
+        "deliver a verdict"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "تصمیم نهایی دادگاه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "plaintiff",
+      "translation": "شاکی، خواهان",
+      "ipa": "/ˈpleɪntɪf/",
+      "partOfSpeech": "noun",
+      "example": "The plaintiff filed a lawsuit against the company for discrimination.",
+      "definitions": [
+        "a person who brings a case against another in court"
+      ],
+      "synonyms": [
+        "complainant",
+        "accuser",
+        "claimant"
+      ],
+      "antonyms": [
+        "defendant"
+      ],
+      "collocations": [
+        "file a plaintiff",
+        "plaintiff's attorney",
+        "lead plaintiff"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "کسی که شکایت می‌کند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "defendant",
+      "translation": "متهم، خوانده",
+      "ipa": "/dɪˈfendənt/",
+      "partOfSpeech": "noun",
+      "example": "The defendant pleaded not guilty to all charges.",
+      "definitions": [
+        "a person accused or sued in court"
+      ],
+      "synonyms": [
+        "accused",
+        "suspect"
+      ],
+      "antonyms": [
+        "plaintiff",
+        "prosecutor"
+      ],
+      "collocations": [
+        "co-defendant",
+        "defendant's rights",
+        "defendant's attorney"
+      ],
+      "wordFamily": [
+        "defend (v)",
+        "defense (n)"
+      ],
+      "coreMeaning": "شخصی که علیه او شکایت شده",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "testimony",
+      "translation": "شهادت، اظهارات",
+      "ipa": "/ˈtestɪmoʊni/",
+      "partOfSpeech": "noun",
+      "example": "The witness gave testimony under oath before the committee.",
+      "definitions": [
+        "a formal statement given in court",
+        "evidence given by a witness"
+      ],
+      "synonyms": [
+        "evidence",
+        "statement",
+        "declaration"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "give testimony",
+        "sworn testimony",
+        "expert testimony"
+      ],
+      "wordFamily": [
+        "testify (v)",
+        "testimonial (n/adj)"
+      ],
+      "coreMeaning": "اظهارات رسمی در دادگاه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "prosecutor",
+      "translation": "دادستان، مدعی‌العموم",
+      "ipa": "/ˈprɒsɪkjuːtər/",
+      "partOfSpeech": "noun",
+      "example": "The prosecutor presented strong evidence against the suspect.",
+      "definitions": [
+        "a person who brings charges against someone in court"
+      ],
+      "synonyms": [
+        "district attorney",
+        "state attorney"
+      ],
+      "antonyms": [
+        "defender",
+        "defense attorney"
+      ],
+      "collocations": [
+        "chief prosecutor",
+        "public prosecutor",
+        "lead prosecutor"
+      ],
+      "wordFamily": [
+        "prosecute (v)",
+        "prosecution (n)"
+      ],
+      "coreMeaning": "مقام قضایی که پیگرد قانونی می‌کند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "attorney",
+      "translation": "وکیل",
+      "ipa": "/əˈtɜːrni/",
+      "partOfSpeech": "noun",
+      "example": "She hired an attorney to represent her in the legal dispute.",
+      "definitions": [
+        "a person appointed to act for another in business or legal matters"
+      ],
+      "synonyms": [
+        "lawyer",
+        "counsel",
+        "solicitor"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "defense attorney",
+        "attorney general",
+        "hire an attorney"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "وکیل مدافع",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "tribunal",
+      "translation": "دادگاه، هیئت قضایی",
+      "ipa": "/traɪˈbjuːnl/",
+      "partOfSpeech": "noun",
+      "example": "The war crimes tribunal sentenced the general to life in prison.",
+      "definitions": [
+        "a court of justice",
+        "a body established to settle disputes"
+      ],
+      "synonyms": [
+        "court",
+        "panel",
+        "commission"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "war crimes tribunal",
+        "international tribunal",
+        "tribunal hearing"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "محل رسیدگی قضایی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "statute",
+      "translation": "قانون مصوب، اساسنامه",
+      "ipa": "/ˈstætʃuːt/",
+      "partOfSpeech": "noun",
+      "example": "The statute was enacted to protect consumer rights.",
+      "definitions": [
+        "a written law passed by a legislative body"
+      ],
+      "synonyms": [
+        "law",
+        "act",
+        "regulation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "federal statute",
+        "statute of limitations",
+        "violate a statute"
+      ],
+      "wordFamily": [
+        "statutory (adj)",
+        "statutorily (adv)"
+      ],
+      "coreMeaning": "قانون رسمی مصوب",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "ordinance",
+      "translation": "فرمان، آیین‌نامه",
+      "ipa": "/ˈɔːrdɪnəns/",
+      "partOfSpeech": "noun",
+      "example": "The city passed an ordinance banning smoking in public parks.",
+      "definitions": [
+        "a local law or regulation"
+      ],
+      "synonyms": [
+        "decree",
+        "bylaw",
+        "regulation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "city ordinance",
+        "local ordinance",
+        "pass an ordinance"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "قانون محلی یا شهری",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "decree",
+      "translation": "فرمان، حکم",
+      "ipa": "/dɪˈkriː/",
+      "partOfSpeech": "noun",
+      "example": "The president issued a decree to dissolve parliament.",
+      "definitions": [
+        "an official order issued by a government"
+      ],
+      "synonyms": [
+        "order",
+        "edict",
+        "mandate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "issue a decree",
+        "royal decree",
+        "presidential decree"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "دستور رسمی حکومتی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "ratification",
+      "translation": "تصویب، تنفیذ",
+      "ipa": "/ˌrætɪfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The treaty requires ratification by the senate before it takes effect.",
+      "definitions": [
+        "the official approval or confirmation of an agreement"
+      ],
+      "synonyms": [
+        "approval",
+        "confirmation",
+        "endorsement"
+      ],
+      "antonyms": [
+        "rejection",
+        "repudiation"
+      ],
+      "collocations": [
+        "treaty ratification",
+        "ratification process",
+        "require ratification"
+      ],
+      "wordFamily": [
+        "ratify (v)"
+      ],
+      "coreMeaning": "تأیید رسمی یک توافق یا معاهده",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "autonomy",
+      "translation": "خودمختاری، استقلال",
+      "ipa": "/ɔːˈtɒnəmi/",
+      "partOfSpeech": "noun",
+      "example": "The region was granted greater autonomy from the central government.",
+      "definitions": [
+        "the right of self-governance",
+        "independence or freedom of action"
+      ],
+      "synonyms": [
+        "independence",
+        "self-governance",
+        "sovereignty"
+      ],
+      "antonyms": [
+        "dependence",
+        "subordination"
+      ],
+      "collocations": [
+        "regional autonomy",
+        "grant autonomy",
+        "political autonomy"
+      ],
+      "wordFamily": [
+        "autonomous (adj)",
+        "autonomously (adv)"
+      ],
+      "coreMeaning": "حق حکومت مستقل",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "secession",
+      "translation": "جدایی‌طلبی، تجزیه",
+      "ipa": "/sɪˈseʃən/",
+      "partOfSpeech": "noun",
+      "example": "The province threatened secession if its demands were not met.",
+      "definitions": [
+        "the act of withdrawing from a federation or organization"
+      ],
+      "synonyms": [
+        "withdrawal",
+        "separation",
+        "breakaway"
+      ],
+      "antonyms": [
+        "union",
+        "unification"
+      ],
+      "collocations": [
+        "threaten secession",
+        "secession movement",
+        "secession crisis"
+      ],
+      "wordFamily": [
+        "secede (v)",
+        "secessionist (n)"
+      ],
+      "coreMeaning": "عمل جدا شدن از یک اتحاد",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "annexation",
+      "translation": "الحاق، تصرف",
+      "ipa": "/ænekˈseɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The annexation of the territory was condemned by the international community.",
+      "definitions": [
+        "the act of taking control of a territory by force"
+      ],
+      "synonyms": [
+        "seizure",
+        "appropriation",
+        "takeover"
+      ],
+      "antonyms": [
+        "cession",
+        "withdrawal"
+      ],
+      "collocations": [
+        "military annexation",
+        "annexation of territory",
+        "condemn annexation"
+      ],
+      "wordFamily": [
+        "annex (v)"
+      ],
+      "coreMeaning": "تصرف و الحاق سرزمین",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "colonization",
+      "translation": "استعمار، کلونی‌سازی",
+      "ipa": "/ˌkɒlənaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The colonization of Africa by European powers lasted several centuries.",
+      "definitions": [
+        "the act of establishing control over indigenous peoples and their lands"
+      ],
+      "synonyms": [
+        "imperialism",
+        "settlement",
+        "occupation"
+      ],
+      "antonyms": [
+        "decolonization",
+        "liberation"
+      ],
+      "collocations": [
+        "European colonization",
+        "colonization of Africa",
+        "era of colonization"
+      ],
+      "wordFamily": [
+        "colonize (v)",
+        "colony (n)",
+        "colonial (adj)",
+        "colonialism (n)"
+      ],
+      "coreMeaning": "استقرار کنترل بر سرزمین‌های بومی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "imperialism",
+      "translation": "امپریالیسم، سلطه‌گری",
+      "ipa": "/ɪmˈpɪriəlɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Imperialism led to the exploitation of many developing nations.",
+      "definitions": [
+        "a policy of extending a country's power through diplomacy or military force"
+      ],
+      "synonyms": [
+        "colonialism",
+        "expansionism",
+        "hegemony"
+      ],
+      "antonyms": [
+        "isolationism",
+        "self-determination"
+      ],
+      "collocations": [
+        "cultural imperialism",
+        "economic imperialism",
+        "oppose imperialism"
+      ],
+      "wordFamily": [
+        "imperial (adj)",
+        "imperialist (n/adj)"
+      ],
+      "coreMeaning": "سیاست گسترش قدرت و سلطه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "totalitarianism",
+      "translation": "تمامیت‌خواهی",
+      "ipa": "/toʊˌtælɪˈteriənɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Totalitarianism suppresses all forms of political opposition.",
+      "definitions": [
+        "a system of government that controls every aspect of public and private life"
+      ],
+      "synonyms": [
+        "authoritarianism",
+        "despotism",
+        "tyranny"
+      ],
+      "antonyms": [
+        "democracy",
+        "liberalism"
+      ],
+      "collocations": [
+        "rise of totalitarianism",
+        "oppose totalitarianism",
+        "totalitarianism regime"
+      ],
+      "wordFamily": [
+        "totalitarian (adj/n)"
+      ],
+      "coreMeaning": "نظام حکومتی مبتنی بر کنترل مطلق",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "authoritarian",
+      "translation": "اقتدارگرا، مستبد",
+      "ipa": "/əˌθɔːrɪˈteriən/",
+      "partOfSpeech": "adjective",
+      "example": "The country has shifted toward an authoritarian style of governance.",
+      "definitions": [
+        "favoring strict obedience to authority at the expense of personal freedom"
+      ],
+      "synonyms": [
+        "autocratic",
+        "dictatorial",
+        "despotic"
+      ],
+      "antonyms": [
+        "democratic",
+        "libertarian"
+      ],
+      "collocations": [
+        "authoritarian regime",
+        "authoritarian government",
+        "authoritarian rule"
+      ],
+      "wordFamily": [
+        "authoritarianism (n)"
+      ],
+      "coreMeaning": "مبتنی بر اطاعت مطلق از قدرت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "populist",
+      "translation": "عوام‌گرا",
+      "ipa": "/ˈpɒpjəlɪst/",
+      "partOfSpeech": "noun",
+      "example": "The populist candidate promised to fight for ordinary citizens.",
+      "definitions": [
+        "a person who supports the rights and power of ordinary people against a ruling elite"
+      ],
+      "synonyms": [
+        "demagogue",
+        "people's champion"
+      ],
+      "antonyms": [
+        "elitist"
+      ],
+      "collocations": [
+        "populist movement",
+        "populist leader",
+        "populist rhetoric"
+      ],
+      "wordFamily": [
+        "populism (n)"
+      ],
+      "coreMeaning": "طرفدار مردم عادی در برابر نخبگان",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "populism",
+      "translation": "عوام‌گرایی",
+      "ipa": "/ˈpɒpjəlɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Populism has been on the rise in many Western democracies.",
+      "definitions": [
+        "a political approach that appeals to ordinary people who feel their concerns are disregarded"
+      ],
+      "synonyms": [
+        "people's movement",
+        "anti-elitism"
+      ],
+      "antonyms": [
+        "elitism"
+      ],
+      "collocations": [
+        "rise of populism",
+        "economic populism",
+        "populism movement"
+      ],
+      "wordFamily": [
+        "populist (n/adj)",
+        "popular (adj)"
+      ],
+      "coreMeaning": "جنبش سیاسی حامی مردم عادی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "bipartisanship",
+      "translation": "دوحزبی، همکاری بین احزاب",
+      "ipa": "/baɪˈpɑːrtɪzənʃɪp/",
+      "partOfSpeech": "noun",
+      "example": "Bipartisanship is needed to pass meaningful immigration reform.",
+      "definitions": [
+        "agreement or cooperation between two political parties"
+      ],
+      "synonyms": [
+        "cooperation",
+        "compromise",
+        "cross-party collaboration"
+      ],
+      "antonyms": [
+        "partisanship",
+        "polarization"
+      ],
+      "collocations": [
+        "bipartisanship effort",
+        "spirit of bipartisanship",
+        "bipartisanship agreement"
+      ],
+      "wordFamily": [
+        "bipartisan (adj)"
+      ],
+      "coreMeaning": "همکاری دو حزب مخالف",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "partisan",
+      "translation": "حزبی، جانبدار",
+      "ipa": "/ˈpɑːrtɪzən/",
+      "partOfSpeech": "adjective",
+      "example": "The debate became highly partisan with no room for compromise.",
+      "definitions": [
+        "strongly supporting a particular party or cause",
+        "prejudiced in favor of a particular cause"
+      ],
+      "synonyms": [
+        "biased",
+        "one-sided",
+        "factional"
+      ],
+      "antonyms": [
+        "bipartisan",
+        "impartial",
+        "neutral"
+      ],
+      "collocations": [
+        "partisan politics",
+        "partisan divide",
+        "partisan conflict"
+      ],
+      "wordFamily": [
+        "partisanship (n)"
+      ],
+      "coreMeaning": "طرفدار یک حزب یا جناح خاص",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "gerrymandering",
+      "translation": "تقسیم‌بندی غیرمنصفانه حوزه‌های انتخابیه",
+      "ipa": "/ˈdʒerimændərɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Gerrymandering allows politicians to choose their voters instead of the other way around.",
+      "definitions": [
+        "manipulating the boundaries of electoral districts to favor one party"
+      ],
+      "synonyms": [
+        "redistricting manipulation",
+        "electoral manipulation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "partisan gerrymandering",
+        "practice gerrymandering",
+        "gerrymandering reform"
+      ],
+      "wordFamily": [
+        "gerrymander (v)"
+      ],
+      "coreMeaning": "تغییر مرزهای انتخاباتی به نفع یک حزب",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "filibuster",
+      "translation": "سخنرانی طولانی برای جلوگیری از رأی‌گیری",
+      "ipa": "/ˈfɪlɪbʌstər/",
+      "partOfSpeech": "noun",
+      "example": "The senator used a filibuster to delay the vote on the bill.",
+      "definitions": [
+        "a prolonged speech to delay legislative action"
+      ],
+      "synonyms": [
+        "obstruction",
+        "delay tactic"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "launch a filibuster",
+        "end a filibuster",
+        "filibuster rule"
+      ],
+      "wordFamily": [
+        "filibuster (v)"
+      ],
+      "coreMeaning": "تaktیک تأخیر در مجلس با سخنرانی طولانی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "caucus",
+      "translation": "گروه پارلمانی، انجمن حزبی",
+      "ipa": "/ˈkɔːkəs/",
+      "partOfSpeech": "noun",
+      "example": "The party caucus met to select their candidate for the election.",
+      "definitions": [
+        "a meeting of party members to select candidates or decide policy"
+      ],
+      "synonyms": [
+        "meeting",
+        "assembly",
+        "faction"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "party caucus",
+        "congressional caucus",
+        "caucus meeting"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نشست اعضای حزب برای تصمیم‌گیری",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "plurality",
+      "translation": "اکثریت نسبی",
+      "ipa": "/plʊˈrælɪti/",
+      "partOfSpeech": "noun",
+      "example": "The candidate won with a plurality but not an outright majority.",
+      "definitions": [
+        "the number of votes cast for the leading candidate when no one has a majority"
+      ],
+      "synonyms": [
+        "relative majority",
+        "largest share"
+      ],
+      "antonyms": [
+        "majority"
+      ],
+      "collocations": [
+        "win a plurality",
+        "plurality vote",
+        "plurality system"
+      ],
+      "wordFamily": [
+        "plural (adj)",
+        "pluralism (n)"
+      ],
+      "coreMeaning": "بیشترین آرا بدون رسیدن به اکثریت مطلق",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "consensus",
+      "translation": "اجماع، توافق عمومی",
+      "ipa": "/kənˈsensəs/",
+      "partOfSpeech": "noun",
+      "example": "The committee reached a consensus on the new environmental policy.",
+      "definitions": [
+        "a general agreement among a group of people"
+      ],
+      "synonyms": [
+        "agreement",
+        "accord",
+        "unanimity"
+      ],
+      "antonyms": [
+        "disagreement",
+        "dissent",
+        "discord"
+      ],
+      "collocations": [
+        "reach a consensus",
+        "build consensus",
+        "general consensus"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "توافق کلی بین اعضا",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "dissent",
+      "translation": "مخالفت، نارضایتی",
+      "ipa": "/dɪˈsent/",
+      "partOfSpeech": "noun",
+      "example": "Political dissent was suppressed under the authoritarian regime.",
+      "definitions": [
+        "the expression of opinions that differ from those officially held"
+      ],
+      "synonyms": [
+        "opposition",
+        "disagreement",
+        "protest"
+      ],
+      "antonyms": [
+        "agreement",
+        "consent",
+        "conformity"
+      ],
+      "collocations": [
+        "political dissent",
+        "suppress dissent",
+        "voice of dissent"
+      ],
+      "wordFamily": [
+        "dissent (v)",
+        "dissenter (n)"
+      ],
+      "coreMeaning": "ابزار مخالفت با نظر رسمی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "rhetoric",
+      "translation": "بلاغت، فن سخنوری",
+      "ipa": "/ˈretərɪk/",
+      "partOfSpeech": "noun",
+      "example": "The politician's rhetoric appealed to voters but lacked substance.",
+      "definitions": [
+        "the art of effective speaking or writing",
+        "language designed to persuade or impress"
+      ],
+      "synonyms": [
+        "eloquence",
+        "oratory",
+        "persuasion"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "political rhetoric",
+        "empty rhetoric",
+        "inflammatory rhetoric"
+      ],
+      "wordFamily": [
+        "rhetorical (adj)",
+        "rhetorically (adv)"
+      ],
+      "coreMeaning": "فن متقاعدسازی از طریق کلام",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "demagogue",
+      "translation": "عوام‌فریب",
+      "ipa": "/ˈdeməɡɒɡ/",
+      "partOfSpeech": "noun",
+      "example": "The demagogue exploited people's fears to gain political power.",
+      "definitions": [
+        "a political leader who appeals to emotions and prejudices rather than reason"
+      ],
+      "synonyms": [
+        "agitator",
+        "rabble-rouser",
+        "provocateur"
+      ],
+      "antonyms": [
+        "statesman"
+      ],
+      "collocations": [
+        "political demagogue",
+        "demagogue leader",
+        "demagogue rhetoric"
+      ],
+      "wordFamily": [
+        "demagoguery (n)",
+        "demagogic (adj)"
+      ],
+      "coreMeaning": "رهبر سیاسی عوام‌فریب",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "plutocracy",
+      "translation": "حکومت ثروتمندان",
+      "ipa": "/pluːˈtɒkrəsi/",
+      "partOfSpeech": "noun",
+      "example": "Critics argue that the country is becoming a plutocracy where wealth determines political power.",
+      "definitions": [
+        "a government controlled by the wealthy"
+      ],
+      "synonyms": [
+        "oligarchy",
+        "aristocracy of wealth"
+      ],
+      "antonyms": [
+        "democracy"
+      ],
+      "collocations": [
+        "corporate plutocracy",
+        "rise of plutocracy",
+        "plutocracy system"
+      ],
+      "wordFamily": [
+        "plutocrat (n)",
+        "plutocratic (adj)"
+      ],
+      "coreMeaning": "حکومت اقلیت ثروتمند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "theocracy",
+      "translation": "حکومت دینی، تئوکراسی",
+      "ipa": "/θiˈɒkrəsi/",
+      "partOfSpeech": "noun",
+      "example": "Iran is often described as a theocracy where religious leaders hold ultimate authority.",
+      "definitions": [
+        "a system of government in which priests rule in the name of God"
+      ],
+      "synonyms": [
+        "religious government",
+        "clerical rule"
+      ],
+      "antonyms": [
+        "secularism",
+        "democracy"
+      ],
+      "collocations": [
+        "Islamic theocracy",
+        "theocratic state",
+        "theocracy government"
+      ],
+      "wordFamily": [
+        "theocratic (adj)"
+      ],
+      "coreMeaning": "نظام حکومتی مبتنی بر دین",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "anarchy",
+      "translation": "هرج‌ومرج، آنارشی",
+      "ipa": "/ˈænərki/",
+      "partOfSpeech": "noun",
+      "example": "The collapse of the government led to a state of anarchy.",
+      "definitions": [
+        "a state of disorder without government or authority"
+      ],
+      "synonyms": [
+        "chaos",
+        "lawlessness",
+        "disorder"
+      ],
+      "antonyms": [
+        "order",
+        "governance",
+        "stability"
+      ],
+      "collocations": [
+        "descend into anarchy",
+        "state of anarchy",
+        "complete anarchy"
+      ],
+      "wordFamily": [
+        "anarchist (n)",
+        "anarchism (n)",
+        "anarchic (adj)"
+      ],
+      "coreMeaning": "نبود حکومت و نظم",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "coup",
+      "translation": "کودتا",
+      "ipa": "/kuː/",
+      "partOfSpeech": "noun",
+      "example": "The military staged a coup and overthrew the elected government.",
+      "definitions": [
+        "a sudden, illegal seizure of power from a government"
+      ],
+      "synonyms": [
+        "overthrow",
+        "takeover",
+        "putsch"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "military coup",
+        "stage a coup",
+        "coup attempt"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سرنگونی غیرقانونی دولت",
+      "note": "",
+      "trap": "جمع: coups — تلفظ /kuːz/",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "curfew",
+      "translation": "منع رفت‌وآمد",
+      "ipa": "/ˈkɜːrfjuː/",
+      "partOfSpeech": "noun",
+      "example": "The government imposed a nighttime curfew during the unrest.",
+      "definitions": [
+        "a regulation requiring people to stay indoors during certain hours"
+      ],
+      "synonyms": [
+        "restriction",
+        "ban",
+        "lockdown"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "impose a curfew",
+        "lift a curfew",
+        "nighttime curfew"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "محدودیت ساعت رفت‌وآمد",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "deportation",
+      "translation": "اخراج، تبعید",
+      "ipa": "/ˌdiːpɔːrˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The court ordered the deportation of the undocumented immigrants.",
+      "definitions": [
+        "the removal of a foreigner from a country"
+      ],
+      "synonyms": [
+        "expulsion",
+        "exile",
+        "removal"
+      ],
+      "antonyms": [
+        "admission",
+        "asylum"
+      ],
+      "collocations": [
+        "face deportation",
+        "deportation order",
+        "mass deportation"
+      ],
+      "wordFamily": [
+        "deport (v)"
+      ],
+      "coreMeaning": "اخراج اجباری از کشور",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "extradition",
+      "translation": "استرداد مجرمین",
+      "ipa": "/ˌekstrəˈdɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The suspect fought extradition to face trial in another country.",
+      "definitions": [
+        "the surrender of a person by one state to another for trial or punishment"
+      ],
+      "synonyms": [
+        "surrender",
+        "transfer",
+        "deportation"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "extradition treaty",
+        "extradition request",
+        "fight extradition"
+      ],
+      "wordFamily": [
+        "extradite (v)"
+      ],
+      "coreMeaning": "تحویل مجرم به کشور دیگر",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "amnesty",
+      "translation": "عفو عمومی",
+      "ipa": "/ˈæmnəsti/",
+      "partOfSpeech": "noun",
+      "example": "The government granted amnesty to political prisoners.",
+      "definitions": [
+        "an official pardon for people convicted of political offenses"
+      ],
+      "synonyms": [
+        "pardon",
+        "clemency",
+        "forgiveness"
+      ],
+      "antonyms": [
+        "punishment",
+        "prosecution"
+      ],
+      "collocations": [
+        "grant amnesty",
+        "political amnesty",
+        "amnesty program"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "بخشش رسمی جرایم سیاسی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "pardon",
+      "translation": "عفو، بخشش",
+      "ipa": "/ˈpɑːrdn/",
+      "partOfSpeech": "noun",
+      "example": "The governor issued a pardon for the wrongly convicted man.",
+      "definitions": [
+        "the release from punishment for a crime"
+      ],
+      "synonyms": [
+        "amnesty",
+        "clemency",
+        "forgiveness"
+      ],
+      "antonyms": [
+        "punishment",
+        "conviction"
+      ],
+      "collocations": [
+        "presidential pardon",
+        "grant a pardon",
+        "full pardon"
+      ],
+      "wordFamily": [
+        "pardon (v)"
+      ],
+      "coreMeaning": "بخشش رسمی مجازات",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "clemency",
+      "translation": "رأفت، تخفیف مجازات",
+      "ipa": "/ˈklemənsi/",
+      "partOfSpeech": "noun",
+      "example": "The prisoner appealed to the president for clemency.",
+      "definitions": [
+        "mercy or leniency shown toward an offender"
+      ],
+      "synonyms": [
+        "mercy",
+        "leniency",
+        "compassion"
+      ],
+      "antonyms": [
+        "severity",
+        "harshness"
+      ],
+      "collocations": [
+        "show clemency",
+        "grant clemency",
+        "clemency petition"
+      ],
+      "wordFamily": [
+        "clement (adj)"
+      ],
+      "coreMeaning": "مهربانی و تخفیف در مجازات",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "indictment",
+      "translation": "کیفرخواست، اعلام جرم",
+      "ipa": "/ɪnˈdaɪtmənt/",
+      "partOfSpeech": "noun",
+      "example": "The grand jury returned an indictment against the former official.",
+      "definitions": [
+        "a formal charge or accusation of a serious crime"
+      ],
+      "synonyms": [
+        "charge",
+        "accusation",
+        "prosecution"
+      ],
+      "antonyms": [
+        "acquittal",
+        "exoneration"
+      ],
+      "collocations": [
+        "federal indictment",
+        "issue an indictment",
+        "sealed indictment"
+      ],
+      "wordFamily": [
+        "indict (v)"
+      ],
+      "coreMeaning": "اتهام رسمی جرم",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "acquittal",
+      "translation": "تبرئه، رأی برائت",
+      "ipa": "/əˈkwɪtl/",
+      "partOfSpeech": "noun",
+      "example": "The acquittal of the defendant sparked public outrage.",
+      "definitions": [
+        "a judgment that a person is not guilty of the crime charged"
+      ],
+      "synonyms": [
+        "exoneration",
+        "vindication",
+        "clearance"
+      ],
+      "antonyms": [
+        "conviction",
+        "guilty verdict"
+      ],
+      "collocations": [
+        "secure an acquittal",
+        "full acquittal",
+        "acquittal verdict"
+      ],
+      "wordFamily": [
+        "acquit (v)"
+      ],
+      "coreMeaning": "حکم برائت از اتهام",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "conviction",
+      "translation": "محکومیت، اعتقاد راسخ",
+      "ipa": "/kənˈvɪkʃən/",
+      "partOfSpeech": "noun",
+      "example": "He has a prior conviction for fraud.",
+      "definitions": [
+        "a formal declaration of guilt",
+        "a firmly held belief"
+      ],
+      "synonyms": [
+        "sentence",
+        "judgment",
+        "belief"
+      ],
+      "antonyms": [
+        "acquittal",
+        "doubt"
+      ],
+      "collocations": [
+        "criminal conviction",
+        "prior conviction",
+        "moral conviction"
+      ],
+      "wordFamily": [
+        "convict (v/n)",
+        "convicting (adj)"
+      ],
+      "coreMeaning": "محکومیت قانونی یا اعتقاد قلبی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "sentencing",
+      "translation": "صدور حکم، صدور مجازات",
+      "ipa": "/ˈsentənsɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "The sentencing hearing is scheduled for next month.",
+      "definitions": [
+        "the act of pronouncing punishment on a convicted person"
+      ],
+      "synonyms": [
+        "punishment phase",
+        "judgment"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "sentencing hearing",
+        "sentencing guidelines",
+        "mandatory sentencing"
+      ],
+      "wordFamily": [
+        "sentence (v/n)"
+      ],
+      "coreMeaning": "تعیین مجازات برای محکوم",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "incarceration",
+      "translation": "حبس، زندانی کردن",
+      "ipa": "/ɪnˌkɑːrsəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Mass incarceration has become a major social issue in many countries.",
+      "definitions": [
+        "the state of being confined in prison"
+      ],
+      "synonyms": [
+        "imprisonment",
+        "confinement",
+        "detention"
+      ],
+      "antonyms": [
+        "freedom",
+        "release"
+      ],
+      "collocations": [
+        "mass incarceration",
+        "rate of incarceration",
+        "incarceration rate"
+      ],
+      "wordFamily": [
+        "incarcerate (v)"
+      ],
+      "coreMeaning": "زندانی شدن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "probation",
+      "translation": "آزادی مشروط",
+      "ipa": "/proʊˈbeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The judge sentenced the offender to three years of probation.",
+      "definitions": [
+        "a period of supervision over an offender instead of imprisonment"
+      ],
+      "synonyms": [
+        "parole",
+        "supervised release"
+      ],
+      "antonyms": [
+        "incarceration",
+        "imprisonment"
+      ],
+      "collocations": [
+        "on probation",
+        "probation period",
+        "probation officer"
+      ],
+      "wordFamily": [
+        "probationary (adj)"
+      ],
+      "coreMeaning": "دوره نظارت به جای زندان",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "parole",
+      "translation": "آزادی زودهنگام مشروط",
+      "ipa": "/pəˈroʊl/",
+      "partOfSpeech": "noun",
+      "example": "The prisoner was released on parole after serving half of the sentence.",
+      "definitions": [
+        "the release of a prisoner before the end of a sentence on conditions"
+      ],
+      "synonyms": [
+        "early release",
+        "conditional release"
+      ],
+      "antonyms": [
+        "imprisonment",
+        "detention"
+      ],
+      "collocations": [
+        "on parole",
+        "parole board",
+        "parole conditions"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "رها شدن مشروط از زندان",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "litigation",
+      "translation": "دعوا، پیگرد قانونی",
+      "ipa": "/ˌlɪtɪˈɡeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The company faces litigation over environmental violations.",
+      "definitions": [
+        "the process of taking legal action"
+      ],
+      "synonyms": [
+        "lawsuit",
+        "legal action",
+        "legal proceedings"
+      ],
+      "antonyms": [
+        "settlement",
+        "mediation"
+      ],
+      "collocations": [
+        "civil litigation",
+        "threaten litigation",
+        "litigation process"
+      ],
+      "wordFamily": [
+        "litigate (v)",
+        "litigant (n)"
+      ],
+      "coreMeaning": "فرآیند شکایت قانونی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "arbitration",
+      "translation": "داوری، حکمیت",
+      "ipa": "/ˌɑːrbɪˈtreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The dispute was resolved through arbitration rather than going to court.",
+      "definitions": [
+        "the use of an arbitrator to settle a dispute"
+      ],
+      "synonyms": [
+        "mediation",
+        "settlement",
+        "adjudication"
+      ],
+      "antonyms": [
+        "litigation"
+      ],
+      "collocations": [
+        "binding arbitration",
+        "arbitration process",
+        "go to arbitration"
+      ],
+      "wordFamily": [
+        "arbitrate (v)",
+        "arbitrator (n)"
+      ],
+      "coreMeaning": "حل اختلاف توسط داور",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "mediation",
+      "translation": "میانجی‌گری",
+      "ipa": "/ˌmiːdiˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The UN offered mediation to help resolve the conflict between the two countries.",
+      "definitions": [
+        "intervention in a dispute to resolve it"
+      ],
+      "synonyms": [
+        "negotiation",
+        "arbitration",
+        "intervention"
+      ],
+      "antonyms": [
+        "confrontation"
+      ],
+      "collocations": [
+        "international mediation",
+        "mediation process",
+        "offer mediation"
+      ],
+      "wordFamily": [
+        "mediate (v)",
+        "mediator (n)"
+      ],
+      "coreMeaning": "تلاش برای حل اختلاف بین طرفین",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "transparency",
+      "translation": "شفافیت",
+      "ipa": "/trænsˈpærənsi/",
+      "partOfSpeech": "noun",
+      "example": "Government transparency is essential for maintaining public trust.",
+      "definitions": [
+        "the quality of being open and honest",
+        "the condition of being easily seen through"
+      ],
+      "synonyms": [
+        "openness",
+        "accountability",
+        "clarity"
+      ],
+      "antonyms": [
+        "secrecy",
+        "opacity",
+        "concealment"
+      ],
+      "collocations": [
+        "government transparency",
+        "financial transparency",
+        "lack of transparency"
+      ],
+      "wordFamily": [
+        "transparent (adj)",
+        "transparently (adv)"
+      ],
+      "coreMeaning": "وضوح و آشکار بودن عملکرد",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "whistleblower",
+      "translation": "افشاگر",
+      "ipa": "/ˈwɪslbloʊər/",
+      "partOfSpeech": "noun",
+      "example": "The whistleblower exposed corruption within the government agency.",
+      "definitions": [
+        "a person who exposes illegal or unethical activities within an organization"
+      ],
+      "synonyms": [
+        "informant",
+        "exposer",
+        "leaker"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "whistleblower protection",
+        "whistleblower program",
+        "anonymous whistleblower"
+      ],
+      "wordFamily": [
+        "whistleblow (v)",
+        "whistleblowing (n)"
+      ],
+      "coreMeaning": "کسی که فساد را افشا می‌کند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "lobbying",
+      "translation": "لابی‌گری، فشار سیاسی",
+      "ipa": "/ˈlɒbiɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Corporate lobbying has a significant influence on legislation.",
+      "definitions": [
+        "the act of attempting to influence decisions made by officials"
+      ],
+      "synonyms": [
+        "advocacy",
+        "influencing",
+        "campaigning"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "corporate lobbying",
+        "lobbying group",
+        "lobbying efforts"
+      ],
+      "wordFamily": [
+        "lobby (v)",
+        "lobbyist (n)"
+      ],
+      "coreMeaning": "تلاش برای تأثیرگذاری بر تصمیمات سیاسی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "lobbyist",
+      "translation": "لابی‌گر، فشارگر سیاسی",
+      "ipa": "/ˈlɒbiɪst/",
+      "partOfSpeech": "noun",
+      "example": "Lobbyists represent various interest groups before congress.",
+      "definitions": [
+        "a person who tries to influence legislation on behalf of a special interest"
+      ],
+      "synonyms": [
+        "advocate",
+        "influencer",
+        "campaigner"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "corporate lobbyist",
+        "hire a lobbyist",
+        "registered lobbyist"
+      ],
+      "wordFamily": [
+        "lobby (v)",
+        "lobbying (n)"
+      ],
+      "coreMeaning": "نماینده گروه‌های ذی‌نفع در برابر دولت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "grassroots",
+      "translation": "مردمی، از پایین به بالا",
+      "ipa": "/ˈɡræsruːts/",
+      "partOfSpeech": "adjective",
+      "example": "The grassroots movement grew from local community organizing.",
+      "definitions": [
+        "of or relating to the common people, especially as contrasted with a ruling elite"
+      ],
+      "synonyms": [
+        "bottom-up",
+        "community-based",
+        "popular"
+      ],
+      "antonyms": [
+        "top-down",
+        "elite"
+      ],
+      "collocations": [
+        "grassroots movement",
+        "grassroots campaign",
+        "grassroots organizing"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "جنبش مردمی و محلی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "civic",
+      "translation": "مدنی، شهروندی",
+      "ipa": "/ˈsɪvɪk/",
+      "partOfSpeech": "adjective",
+      "example": "Civic engagement is vital for a healthy democracy.",
+      "definitions": [
+        "relating to a city or town and its citizens"
+      ],
+      "synonyms": [
+        "municipal",
+        "public",
+        "communal"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "civic duty",
+        "civic engagement",
+        "civic responsibility"
+      ],
+      "wordFamily": [
+        "civics (n)"
+      ],
+      "coreMeaning": "مربوط به شهروندان و وظایف آن‌ها",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "municipal",
+      "translation": "شهرداری، شهری",
+      "ipa": "/mjuːˈnɪsɪpl/",
+      "partOfSpeech": "adjective",
+      "example": "The municipal government is responsible for local services.",
+      "definitions": [
+        "relating to a city or town and its local government"
+      ],
+      "synonyms": [
+        "city",
+        "local",
+        "urban"
+      ],
+      "antonyms": [
+        "federal",
+        "national"
+      ],
+      "collocations": [
+        "municipal government",
+        "municipal election",
+        "municipal services"
+      ],
+      "wordFamily": [
+        "municipality (n)"
+      ],
+      "coreMeaning": "مربوط به شهرداری و امور شهری",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "federal",
+      "translation": "فدرال، مرکزی",
+      "ipa": "/ˈfedərəl/",
+      "partOfSpeech": "adjective",
+      "example": "The federal government has authority over national defense.",
+      "definitions": [
+        "relating to a central government as distinguished from individual states"
+      ],
+      "synonyms": [
+        "national",
+        "central",
+        "federated"
+      ],
+      "antonyms": [
+        "state",
+        "local",
+        "provincial"
+      ],
+      "collocations": [
+        "federal government",
+        "federal law",
+        "federal court"
+      ],
+      "wordFamily": [
+        "federation (n)",
+        "federalism (n)"
+      ],
+      "coreMeaning": "مربوط به حکومت مرکزی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "provincial",
+      "translation": "ایالتی، استانی",
+      "ipa": "/prəˈvɪnʃəl/",
+      "partOfSpeech": "adjective",
+      "example": "Provincial elections will be held next spring.",
+      "definitions": [
+        "relating to a province or region within a country"
+      ],
+      "synonyms": [
+        "regional",
+        "territorial",
+        "state"
+      ],
+      "antonyms": [
+        "federal",
+        "national",
+        "central"
+      ],
+      "collocations": [
+        "provincial government",
+        "provincial election",
+        "provincial authority"
+      ],
+      "wordFamily": [
+        "province (n)"
+      ],
+      "coreMeaning": "مربوط به استان یا منطقه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "ambassador",
+      "translation": "سفیر",
+      "ipa": "/æmˈbæsədər/",
+      "partOfSpeech": "noun",
+      "example": "The ambassador presented her credentials to the head of state.",
+      "definitions": [
+        "a diplomatic official representing a country abroad"
+      ],
+      "synonyms": [
+        "envoy",
+        "diplomat",
+        "emissary"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "appointed ambassador",
+        "ambassador to the UN",
+        "serve as ambassador"
+      ],
+      "wordFamily": [
+        "ambassadorial (adj)"
+      ],
+      "coreMeaning": "بالاترین نماینده دیپلماتیک کشور",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "consulate",
+      "translation": "کنسولگری",
+      "ipa": "/ˈkɒnsjələt/",
+      "partOfSpeech": "noun",
+      "example": "She went to the consulate to renew her passport.",
+      "definitions": [
+        "the office of a consul in a foreign city"
+      ],
+      "synonyms": [
+        "embassy office",
+        "consular office"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "consulate general",
+        "visit the consulate",
+        "consulate office"
+      ],
+      "wordFamily": [
+        "consul (n)"
+      ],
+      "coreMeaning": "دفتر نمایندگی سیاسی در کشور خارجی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "envoy",
+      "translation": "فرستاده، نماینده ویژه",
+      "ipa": "/ˈenvɔɪ/",
+      "partOfSpeech": "noun",
+      "example": "The UN envoy was sent to mediate the peace talks.",
+      "definitions": [
+        "a messenger or representative, especially on a diplomatic mission"
+      ],
+      "synonyms": [
+        "emissary",
+        "delegate",
+        "representative"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "special envoy",
+        "peace envoy",
+        "UN envoy"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نماینده رسمی در مأموریت دیپلماتیک",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "summit",
+      "translation": "اجلاس سران، نشست",
+      "ipa": "/ˈsʌmɪt/",
+      "partOfSpeech": "noun",
+      "example": "World leaders gathered at the climate summit to discuss emissions targets.",
+      "definitions": [
+        "a meeting between heads of government"
+      ],
+      "synonyms": [
+        "conference",
+        "meeting",
+        "convention"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "peace summit",
+        "summit meeting",
+        "attend the summit"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نشست سران کشورها",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "bilateral",
+      "translation": "دوطرفه، دوجانبه",
+      "ipa": "/baɪˈlætərəl/",
+      "partOfSpeech": "adjective",
+      "example": "The two countries signed a bilateral trade agreement.",
+      "definitions": [
+        "involving two parties or countries"
+      ],
+      "synonyms": [
+        "mutual",
+        "reciprocal",
+        "two-sided"
+      ],
+      "antonyms": [
+        "unilateral",
+        "multilateral"
+      ],
+      "collocations": [
+        "bilateral agreement",
+        "bilateral relations",
+        "bilateral talks"
+      ],
+      "wordFamily": [
+        "bilaterally (adv)"
+      ],
+      "coreMeaning": "بین دو طرف یا دو کشور",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "multilateral",
+      "translation": "چندجانبه",
+      "ipa": "/ˌmʌltiˈlætərəl/",
+      "partOfSpeech": "adjective",
+      "example": "Multilateral negotiations involve several countries working together.",
+      "definitions": [
+        "involving multiple parties or countries"
+      ],
+      "synonyms": [
+        "multi-party",
+        "collective",
+        "cooperative"
+      ],
+      "antonyms": [
+        "bilateral",
+        "unilateral"
+      ],
+      "collocations": [
+        "multilateral agreement",
+        "multilateral negotiations",
+        "multilateral organization"
+      ],
+      "wordFamily": [
+        "multilateralism (n)"
+      ],
+      "coreMeaning": "شامل چندین کشور یا طرف",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "armistice",
+      "translation": "آتش‌بس، ترک مخاصمه",
+      "ipa": "/ˈɑːrmɪstɪs/",
+      "partOfSpeech": "noun",
+      "example": "An armistice was signed after months of intense fighting.",
+      "definitions": [
+        "a formal agreement to stop fighting"
+      ],
+      "synonyms": [
+        "ceasefire",
+        "truce",
+        "peace agreement"
+      ],
+      "antonyms": [
+        "war",
+        "hostilities"
+      ],
+      "collocations": [
+        "sign an armistice",
+        "armistice agreement",
+        "armistice day"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "توافق رسمی برای توقف جنگ",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "ceasefire",
+      "translation": "آتش‌بس",
+      "ipa": "/ˈsiːsfaɪər/",
+      "partOfSpeech": "noun",
+      "example": "Both sides agreed to a ceasefire to allow humanitarian aid to reach civilians.",
+      "definitions": [
+        "a temporary suspension of fighting"
+      ],
+      "synonyms": [
+        "truce",
+        "armistice",
+        "peace"
+      ],
+      "antonyms": [
+        "war",
+        "attack",
+        "offensive"
+      ],
+      "collocations": [
+        "declare a ceasefire",
+        "ceasefire agreement",
+        "temporary ceasefire"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "توقف موقت درگیری‌ها",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "peacekeeping",
+      "translation": "صلح‌بانی",
+      "ipa": "/ˈpiːskiːpɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "UN peacekeeping forces were deployed to the conflict zone.",
+      "definitions": [
+        "the maintenance of peace, especially by international military forces"
+      ],
+      "synonyms": [
+        "peace enforcement",
+        "conflict prevention"
+      ],
+      "antonyms": [
+        "warmongering"
+      ],
+      "collocations": [
+        "peacekeeping mission",
+        "peacekeeping forces",
+        "UN peacekeeping"
+      ],
+      "wordFamily": [
+        "peacekeeper (n)"
+      ],
+      "coreMeaning": "حفظ صلح توسط نیروهای بین‌المللی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "humanitarian",
+      "translation": "بشردوستانه",
+      "ipa": "/hjuːˌmænɪˈteriən/",
+      "partOfSpeech": "adjective",
+      "example": "Humanitarian organizations are providing aid to refugees in the region.",
+      "definitions": [
+        "concerned with or seeking to promote human welfare"
+      ],
+      "synonyms": [
+        "charitable",
+        "philanthropic",
+        "compassionate"
+      ],
+      "antonyms": [
+        "inhumane",
+        "cruel"
+      ],
+      "collocations": [
+        "humanitarian aid",
+        "humanitarian crisis",
+        "humanitarian organization"
+      ],
+      "wordFamily": [
+        "humanitarianism (n)"
+      ],
+      "coreMeaning": "مربوط به کمک و حمایت از انسان‌ها",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "displaced",
+      "translation": "آواره، جابه‌جا شده",
+      "ipa": "/dɪsˈpleɪst/",
+      "partOfSpeech": "adjective",
+      "example": "Millions of displaced people are living in refugee camps.",
+      "definitions": [
+        "forced to leave one's home or country"
+      ],
+      "synonyms": [
+        "uprooted",
+        "homeless",
+        "refugee"
+      ],
+      "antonyms": [
+        "settled",
+        "established"
+      ],
+      "collocations": [
+        "displaced persons",
+        "displaced populations",
+        "internally displaced"
+      ],
+      "wordFamily": [
+        "displace (v)",
+        "displacement (n)"
+      ],
+      "coreMeaning": "مجبور به ترک خانه و وطن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "self-determination",
+      "translation": "حق تعیین سرنوشت",
+      "ipa": "/ˌselfdɪtɜːrmɪˈneɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The principle of self-determination is enshrined in the UN charter.",
+      "definitions": [
+        "the right of a people to determine their own form of government"
+      ],
+      "synonyms": [
+        "autonomy",
+        "independence",
+        "sovereignty"
+      ],
+      "antonyms": [
+        "subjugation",
+        "dependence"
+      ],
+      "collocations": [
+        "right to self-determination",
+        "national self-determination",
+        "self-determination movement"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "حق ملت‌ها در تصمیم‌گیری برای سرنوشت خود",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "decolonization",
+      "translation": "استعمارزدایی",
+      "ipa": "/diːˌkɒlənaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The decolonization of Africa accelerated in the 1960s.",
+      "definitions": [
+        "the process of a colony gaining independence from a colonial power"
+      ],
+      "synonyms": [
+        "independence",
+        "liberation",
+        "emancipation"
+      ],
+      "antonyms": [
+        "colonization",
+        "imperialism"
+      ],
+      "collocations": [
+        "decolonization movement",
+        "process of decolonization",
+        "decolonization era"
+      ],
+      "wordFamily": [
+        "decolonize (v)"
+      ],
+      "coreMeaning": "رهایی از استعمار",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "reparations",
+      "translation": "غرامت، جبران خسارت",
+      "ipa": "/ˌrepəˈreɪʃənz/",
+      "partOfSpeech": "noun",
+      "example": "Activists are calling for reparations for historical injustices.",
+      "definitions": [
+        "compensation for war damage or historical wrongs"
+      ],
+      "synonyms": [
+        "compensation",
+        "restitution",
+        "indemnity"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "pay reparations",
+        "demand reparations",
+        "war reparations"
+      ],
+      "wordFamily": [
+        "reparation (n)"
+      ],
+      "coreMeaning": "جبران خسارت برای ظلم تاریخی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "apartheid",
+      "translation": "آپارتاید، تبعیض نژادی",
+      "ipa": "/əˈpɑːrtaɪt/",
+      "partOfSpeech": "noun",
+      "example": "Apartheid was a system of racial segregation in South Africa.",
+      "definitions": [
+        "a policy of segregation and discrimination based on race"
+      ],
+      "synonyms": [
+        "racial segregation",
+        "discrimination",
+        "separatism"
+      ],
+      "antonyms": [
+        "equality",
+        "integration"
+      ],
+      "collocations": [
+        "apartheid system",
+        "apartheid era",
+        "end apartheid"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نظام تبعیض نژادی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "emancipation",
+      "translation": "رهایی، آزادسازی",
+      "ipa": "/ɪˌmænsɪˈpeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The emancipation of slaves was a turning point in American history.",
+      "definitions": [
+        "the fact of being set free from legal, social, or political restrictions"
+      ],
+      "synonyms": [
+        "liberation",
+        "freedom",
+        "release"
+      ],
+      "antonyms": [
+        "enslavement",
+        "oppression"
+      ],
+      "collocations": [
+        "emancipation proclamation",
+        "emancipation of women",
+        "political emancipation"
+      ],
+      "wordFamily": [
+        "emancipate (v)"
+      ],
+      "coreMeaning": "آزادی از بردگی یا سرکوب",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "suffrage",
+      "translation": "حق رأی",
+      "ipa": "/ˈsʌfrɪdʒ/",
+      "partOfSpeech": "noun",
+      "example": "Women's suffrage was achieved in many countries during the 20th century.",
+      "definitions": [
+        "the right to vote in political elections"
+      ],
+      "synonyms": [
+        "voting rights",
+        "franchise",
+        "ballot"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "universal suffrage",
+        "women's suffrage",
+        "suffrage movement"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "حق شرکت در انتخابات",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "disenfranchisement",
+      "translation": "سلب حق رأی",
+      "ipa": "/ˌdɪsɪnˈfræntʃɪzmənt/",
+      "partOfSpeech": "noun",
+      "example": "Voter disenfranchisement disproportionately affects minority communities.",
+      "definitions": [
+        "the deprivation of the right to vote"
+      ],
+      "synonyms": [
+        "disqualification",
+        "exclusion",
+        "deprivation"
+      ],
+      "antonyms": [
+        "enfranchisement",
+        "empowerment"
+      ],
+      "collocations": [
+        "voter disenfranchisement",
+        "political disenfranchisement",
+        "mass disenfranchisement"
+      ],
+      "wordFamily": [
+        "disenfranchise (v)"
+      ],
+      "coreMeaning": "محروم کردن از حق رأی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "redistricting",
+      "translation": "تجدید تقسیم حوزه‌های انتخابیه",
+      "ipa": "/riːˈdɪstrɪktɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Redistricting occurs every ten years after the census.",
+      "definitions": [
+        "the process of drawing new electoral district boundaries"
+      ],
+      "synonyms": [
+        "reapportionment",
+        "rezoning"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "redistricting process",
+        "redistricting plan",
+        "congressional redistricting"
+      ],
+      "wordFamily": [
+        "redistrict (v)"
+      ],
+      "coreMeaning": "بازتقسیم مناطق انتخاباتی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "polling",
+      "translation": "نظرسنجی، رأی‌گیری",
+      "ipa": "/ˈpoʊlɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Polling shows that the incumbent is leading by a narrow margin.",
+      "definitions": [
+        "the act of voting in an election",
+        "the process of surveying public opinion"
+      ],
+      "synonyms": [
+        "survey",
+        "voting",
+        "balloting"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "polling station",
+        "polling data",
+        "polling day"
+      ],
+      "wordFamily": [
+        "poll (n/v)"
+      ],
+      "coreMeaning": "فرآیند رأی‌گیری یا نظرسنجی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "runoff",
+      "translation": "دور دوم انتخابات",
+      "ipa": "/ˈrʌnɔːf/",
+      "partOfSpeech": "noun",
+      "example": "Since no candidate won a majority, a runoff election was held.",
+      "definitions": [
+        "a second election held to decide a winner when no candidate receives enough votes"
+      ],
+      "synonyms": [
+        "second round",
+        "tiebreaker election"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "runoff election",
+        "runoff vote",
+        "primary runoff"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "انتخابات دور دوم",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "landslide",
+      "translation": "پیروزی قاطع",
+      "ipa": "/ˈlændslaɪd/",
+      "partOfSpeech": "noun",
+      "example": "The incumbent won the election by a landslide.",
+      "definitions": [
+        "an overwhelming victory in an election"
+      ],
+      "synonyms": [
+        "landslide victory",
+        "sweeping victory",
+        "crushing win"
+      ],
+      "antonyms": [
+        "narrow victory",
+        "close race"
+      ],
+      "collocations": [
+        "landslide victory",
+        "win by a landslide",
+        "landslide election"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "پیروزی بسیار بزرگ در انتخابات",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "concession",
+      "translation": "اعلام شکست، امتیاز",
+      "ipa": "/kənˈseʃən/",
+      "partOfSpeech": "noun",
+      "example": "The losing candidate delivered a concession speech on election night.",
+      "definitions": [
+        "the act of admitting defeat in an election",
+        "something granted in response to demands"
+      ],
+      "synonyms": [
+        "admission of defeat",
+        "surrender",
+        "yielding"
+      ],
+      "antonyms": [
+        "victory",
+        "insistence"
+      ],
+      "collocations": [
+        "concession speech",
+        "make a concession",
+        "major concession"
+      ],
+      "wordFamily": [
+        "concede (v)"
+      ],
+      "coreMeaning": "پذیرش شکست یا دادن امتیاز",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "inauguration",
+      "translation": "مراسم تحلیف، آغاز به کار",
+      "ipa": "/ɪˌnɔːɡjəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The inauguration of the new president took place on the steps of the capitol.",
+      "definitions": [
+        "the ceremony of formally introducing a new leader into office"
+      ],
+      "synonyms": [
+        "induction",
+        "installation",
+        "commencement"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "presidential inauguration",
+        "inauguration ceremony",
+        "inauguration day"
+      ],
+      "wordFamily": [
+        "inaugurate (v)"
+      ],
+      "coreMeaning": "مراسم رسمی آغاز ریاست",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "veto",
+      "translation": "وتو، حق رد",
+      "ipa": "/ˈviːtoʊ/",
+      "partOfSpeech": "noun",
+      "example": "The president exercised his veto to block the controversial legislation.",
+      "definitions": [
+        "the constitutional right to reject a decision or proposal"
+      ],
+      "synonyms": [
+        "rejection",
+        "ban",
+        "prohibition"
+      ],
+      "antonyms": [
+        "approval",
+        "endorsement"
+      ],
+      "collocations": [
+        "veto power",
+        "exercise a veto",
+        "override a veto"
+      ],
+      "wordFamily": [
+        "veto (v)"
+      ],
+      "coreMeaning": "حق رد قانون یا تصمیم",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "repeal",
+      "translation": "لغو، فسخ قانون",
+      "ipa": "/rɪˈpiːl/",
+      "partOfSpeech": "noun",
+      "example": "The repeal of the old law was welcomed by civil rights groups.",
+      "definitions": [
+        "the revocation or annulment of a law"
+      ],
+      "synonyms": [
+        "revocation",
+        "annulment",
+        "cancellation"
+      ],
+      "antonyms": [
+        "enactment",
+        "ratification"
+      ],
+      "collocations": [
+        "repeal a law",
+        "call for repeal",
+        "repeal of legislation"
+      ],
+      "wordFamily": [
+        "repeal (v)"
+      ],
+      "coreMeaning": "ابطال و لغو قانون",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "quorum",
+      "translation": "حد نصاب",
+      "ipa": "/ˈkwɔːrəm/",
+      "partOfSpeech": "noun",
+      "example": "The meeting could not proceed because a quorum was not present.",
+      "definitions": [
+        "the minimum number of members needed to conduct business"
+      ],
+      "synonyms": [
+        "minimum attendance",
+        "required number"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "reach a quorum",
+        "lack a quorum",
+        "quorum call"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "تعداد لازم اعضا برای رسمیت جلسه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "committee",
+      "translation": "کمیته، هیئت",
+      "ipa": "/kəˈmɪti/",
+      "partOfSpeech": "noun",
+      "example": "The committee reviewed the proposed changes to the bill.",
+      "definitions": [
+        "a group of people appointed for a specific function"
+      ],
+      "synonyms": [
+        "panel",
+        "commission",
+        "board"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "standing committee",
+        "committee hearing",
+        "committee chair"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "گروه مسئول بررسی یک موضوع",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "hearing",
+      "translation": "جلسه استماع، دادرسی",
+      "ipa": "/ˈhɪrɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "The congressional hearing examined the allegations of misconduct.",
+      "definitions": [
+        "a formal meeting at which evidence is presented"
+      ],
+      "synonyms": [
+        "proceeding",
+        "session",
+        "trial"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "congressional hearing",
+        "court hearing",
+        "public hearing"
+      ],
+      "wordFamily": [
+        "hear (v)"
+      ],
+      "coreMeaning": "جلسه رسمی بررسی شواهد",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "subpoena",
+      "translation": "احضاریه قضایی",
+      "ipa": "/səˈpiːnə/",
+      "partOfSpeech": "noun",
+      "example": "The witness received a subpoena to testify before the grand jury.",
+      "definitions": [
+        "a legal document ordering someone to attend court"
+      ],
+      "synonyms": [
+        "summons",
+        "court order",
+        "writ"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "issue a subpoena",
+        "serve a subpoena",
+        "subpoena power"
+      ],
+      "wordFamily": [
+        "subpoena (v)"
+      ],
+      "coreMeaning": "دستور قانونی حضور در دادگاه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "perjury",
+      "translation": "شهادت دروغ، سوگندشکنی",
+      "ipa": "/ˈpɜːrdʒəri/",
+      "partOfSpeech": "noun",
+      "example": "The witness was charged with perjury for lying under oath.",
+      "definitions": [
+        "the offense of willfully telling an untruth in court after having taken an oath"
+      ],
+      "synonyms": [
+        "lying under oath",
+        "false testimony",
+        "false statement"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "commit perjury",
+        "charge with perjury",
+        "perjury trial"
+      ],
+      "wordFamily": [
+        "perjure (v)"
+      ],
+      "coreMeaning": "دروغ گفتن زیر سوگند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "contempt",
+      "translation": "توهین به دادگاه، بی‌احترامی",
+      "ipa": "/kənˈtempt/",
+      "partOfSpeech": "noun",
+      "example": "The lawyer was held in contempt of court for disrupting the proceedings.",
+      "definitions": [
+        "the offense of being disobedient to or disrespectful of a court"
+      ],
+      "synonyms": [
+        "disrespect",
+        "defiance",
+        "disobedience"
+      ],
+      "antonyms": [
+        "respect",
+        "deference"
+      ],
+      "collocations": [
+        "contempt of court",
+        "hold in contempt",
+        "criminal contempt"
+      ],
+      "wordFamily": [
+        "contemptuous (adj)"
+      ],
+      "coreMeaning": "بی‌احترامی به دادگاه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "appellate",
+      "translation": "تجدیدنظر",
+      "ipa": "/əˈpelət/",
+      "partOfSpeech": "adjective",
+      "example": "The case was sent to the appellate court for review.",
+      "definitions": [
+        "relating to or dealing with appeals in court"
+      ],
+      "synonyms": [
+        "appeals",
+        "review"
+      ],
+      "antonyms": [
+        "trial"
+      ],
+      "collocations": [
+        "appellate court",
+        "appellate judge",
+        "appellate review"
+      ],
+      "wordFamily": [
+        "appeal (v/n)"
+      ],
+      "coreMeaning": "مربوط به دادگاه تجدیدنظر",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "precedent",
+      "translation": "سابقه قضایی، رویه",
+      "ipa": "/ˈpresɪdənt/",
+      "partOfSpeech": "noun",
+      "example": "The ruling set a precedent for future cases involving free speech.",
+      "definitions": [
+        "an earlier event or action that serves as an example or guide"
+      ],
+      "synonyms": [
+        "example",
+        "model",
+        "standard"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "set a precedent",
+        "legal precedent",
+        "without precedent"
+      ],
+      "wordFamily": [
+        "precede (v)",
+        "preceding (adj)"
+      ],
+      "coreMeaning": "نمونه قبلی که مبنای تصمیمات بعدی می‌شود",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "privacy",
+      "translation": "حریم خصوصی",
+      "ipa": "/ˈprɪvəsi/",
+      "partOfSpeech": "noun",
+      "example": "Citizens have a right to privacy that the government must respect.",
+      "definitions": [
+        "the state of being free from public attention or intrusion"
+      ],
+      "synonyms": [
+        "confidentiality",
+        "secrecy",
+        "seclusion"
+      ],
+      "antonyms": [
+        "publicity",
+        "exposure"
+      ],
+      "collocations": [
+        "right to privacy",
+        "privacy laws",
+        "invasion of privacy"
+      ],
+      "wordFamily": [
+        "private (adj)",
+        "privately (adv)"
+      ],
+      "coreMeaning": "حق دور بودن از نظارت عمومی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "cybersecurity",
+      "translation": "امنیت سایبری",
+      "ipa": "/ˌsaɪbərsɪˈkjʊrəti/",
+      "partOfSpeech": "noun",
+      "example": "The government invested billions in cybersecurity to protect critical infrastructure.",
+      "definitions": [
+        "the protection of computer systems and networks from digital attacks"
+      ],
+      "synonyms": [
+        "information security",
+        "digital security",
+        "network security"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cybersecurity threat",
+        "cybersecurity measures",
+        "cybersecurity breach"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "حفاظت از سیستم‌های دیجیتال",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "misinformation",
+      "translation": "اطلاعات نادرست",
+      "ipa": "/ˌmɪsɪnfərˈmeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Misinformation spread rapidly on social media during the election.",
+      "definitions": [
+        "false or inaccurate information, especially when spread unintentionally"
+      ],
+      "synonyms": [
+        "false information",
+        "inaccuracy",
+        "wrong information"
+      ],
+      "antonyms": [
+        "facts",
+        "truth",
+        "accurate information"
+      ],
+      "collocations": [
+        "spread misinformation",
+        "combat misinformation",
+        "online misinformation"
+      ],
+      "wordFamily": [
+        "misinform (v)"
+      ],
+      "coreMeaning": "انتشار اطلاعات نادرست بدون عمد",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "disinformation",
+      "translation": "اطلاعات گمراه‌کننده عمدی",
+      "ipa": "/dɪsˌɪnfərˈmeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "State-sponsored disinformation campaigns aim to destabilize democratic processes.",
+      "definitions": [
+        "deliberately misleading or biased information"
+      ],
+      "synonyms": [
+        "propaganda",
+        "fake news",
+        "deception"
+      ],
+      "antonyms": [
+        "truth",
+        "facts",
+        "transparency"
+      ],
+      "collocations": [
+        "disinformation campaign",
+        "state disinformation",
+        "spread disinformation"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اطلاعات جعلی با هدف فریب",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "defamation",
+      "translation": "افترا، هتک حیثیت",
+      "ipa": "/ˌdefəˈmeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The celebrity sued the newspaper for defamation of character.",
+      "definitions": [
+        "the act of damaging someone's reputation through false statements"
+      ],
+      "synonyms": [
+        "slander",
+        "libel",
+        "character assassination"
+      ],
+      "antonyms": [
+        "praise",
+        "commendation"
+      ],
+      "collocations": [
+        "defamation lawsuit",
+        "defamation of character",
+        "sue for defamation"
+      ],
+      "wordFamily": [
+        "defame (v)",
+        "defamatory (adj)"
+      ],
+      "coreMeaning": "آسیب به آبرو با اطلاعات دروغ",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "libel",
+      "translation": "افترا کتبی",
+      "ipa": "/ˈlaɪbl/",
+      "partOfSpeech": "noun",
+      "example": "The journalist was sued for libel after publishing false allegations.",
+      "definitions": [
+        "a published false statement that damages a person's reputation"
+      ],
+      "synonyms": [
+        "defamation",
+        "slander",
+        "calumny"
+      ],
+      "antonyms": [
+        "praise"
+      ],
+      "collocations": [
+        "libel lawsuit",
+        "libel law",
+        "sue for libel"
+      ],
+      "wordFamily": [
+        "libelous (adj)"
+      ],
+      "coreMeaning": "نشر مطالب دروغ و توهین‌آمیز",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "slander",
+      "translation": "افترا شفاهی، تهمت",
+      "ipa": "/ˈslændər/",
+      "partOfSpeech": "noun",
+      "example": "He accused his rival of slander during the televised debate.",
+      "definitions": [
+        "the making of false spoken statements damaging to a person's reputation"
+      ],
+      "synonyms": [
+        "defamation",
+        "libel",
+        "calumny"
+      ],
+      "antonyms": [
+        "praise",
+        "commendation"
+      ],
+      "collocations": [
+        "slanderous remarks",
+        "slander campaign",
+        "accuse of slander"
+      ],
+      "wordFamily": [
+        "slanderous (adj)"
+      ],
+      "coreMeaning": "تهمت زدن با کلام",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "xenophobia",
+      "translation": "بیگانه‌هراسی",
+      "ipa": "/ˌzenəˈfoʊbiə/",
+      "partOfSpeech": "noun",
+      "example": "Xenophobia has increased in many countries due to rising immigration.",
+      "definitions": [
+        "dislike or prejudice against people from other countries"
+      ],
+      "synonyms": [
+        "racism",
+        "nativism",
+        "bigotry"
+      ],
+      "antonyms": [
+        "tolerance",
+        "acceptance",
+        "hospitality"
+      ],
+      "collocations": [
+        "rise in xenophobia",
+        "xenophobic attacks",
+        "combat xenophobia"
+      ],
+      "wordFamily": [
+        "xenophobic (adj)"
+      ],
+      "coreMeaning": "ترس و تنفر از خارجی‌ها",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "chauvinism",
+      "translation": "شوونیسم، برتری‌طلبی",
+      "ipa": "/ˈʃoʊvɪnɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Male chauvinism remains a barrier to gender equality in the workplace.",
+      "definitions": [
+        "exaggerated or aggressive patriotism",
+        "belief in the superiority of one's own group"
+      ],
+      "synonyms": [
+        "jingoism",
+        "bigotry",
+        "supremacy"
+      ],
+      "antonyms": [
+        "egalitarianism",
+        "equality"
+      ],
+      "collocations": [
+        "male chauvinism",
+        "national chauvinism",
+        "chauvinistic attitude"
+      ],
+      "wordFamily": [
+        "chauvinist (n/adj)",
+        "chauvinistic (adj)"
+      ],
+      "coreMeaning": "باور به برتری یک گروه بر دیگران",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "ethnocentrism",
+      "translation": "قوم‌محوری، نژادمحوری",
+      "ipa": "/ˌeθnoʊˈsentrɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Ethnocentrism can lead to misunderstanding and conflict between cultures.",
+      "definitions": [
+        "the belief in the inherent superiority of one's own ethnic group or culture"
+      ],
+      "synonyms": [
+        "cultural bias",
+        "nationalism",
+        "narcissism"
+      ],
+      "antonyms": [
+        "cultural relativism",
+        "open-mindedness"
+      ],
+      "collocations": [
+        "cultural ethnocentrism",
+        "overcome ethnocentrism",
+        "ethnocentric view"
+      ],
+      "wordFamily": [
+        "ethnocentric (adj)"
+      ],
+      "coreMeaning": "باور به برتری فرهنگ خودی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "assimilation",
+      "translation": "همگون‌سازی، جذب فرهنگی",
+      "ipa": "/əˌsɪmɪˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Cultural assimilation can be a slow and challenging process for immigrants.",
+      "definitions": [
+        "the process of integrating into a dominant culture"
+      ],
+      "synonyms": [
+        "integration",
+        "absorption",
+        "adaptation"
+      ],
+      "antonyms": [
+        "segregation",
+        "isolation"
+      ],
+      "collocations": [
+        "cultural assimilation",
+        "assimilation policy",
+        "force assimilation"
+      ],
+      "wordFamily": [
+        "assimilate (v)"
+      ],
+      "coreMeaning": "جذب شدن در فرهنگ غالب",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "pluralism",
+      "translation": "تکثرگرایی",
+      "ipa": "/ˈplʊrəlɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Political pluralism allows for a diversity of opinions and parties.",
+      "definitions": [
+        "a condition in which multiple groups, beliefs, or values coexist"
+      ],
+      "synonyms": [
+        "diversity",
+        "multiculturalism",
+        "tolerance"
+      ],
+      "antonyms": [
+        "monism",
+        "uniformity",
+        "homogeneity"
+      ],
+      "collocations": [
+        "political pluralism",
+        "cultural pluralism",
+        "religious pluralism"
+      ],
+      "wordFamily": [
+        "plural (adj)",
+        "pluralist (n/adj)",
+        "pluralistic (adj)"
+      ],
+      "coreMeaning": "پذیرش تنوع عقاید و فرهنگ‌ها",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "secularism",
+      "translation": "سکولاریسم، جدایی دین از دولت",
+      "ipa": "/ˈsekjələrɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Secularism advocates for the separation of religion and state.",
+      "definitions": [
+        "the principle of separating religion from government and public affairs"
+      ],
+      "synonyms": [
+        "separation of church and state",
+        "non-religious governance"
+      ],
+      "antonyms": [
+        "theocracy",
+        "clericalism"
+      ],
+      "collocations": [
+        "principle of secularism",
+        "defend secularism",
+        "secularism debate"
+      ],
+      "wordFamily": [
+        "secular (adj)",
+        "secularist (n)"
+      ],
+      "coreMeaning": "جدایی نهاد دین از حکومت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "clergy",
+      "translation": "روحانیون، روحانیت",
+      "ipa": "/ˈklɜːrdʒi/",
+      "partOfSpeech": "noun",
+      "example": "The clergy played an important role in mediating the political crisis.",
+      "definitions": [
+        "the body of people ordained for religious duties"
+      ],
+      "synonyms": [
+        "priesthood",
+        "ministry",
+        "religious leaders"
+      ],
+      "antonyms": [
+        "laity",
+        "laypeople"
+      ],
+      "collocations": [
+        "senior clergy",
+        "clergy members",
+        "role of the clergy"
+      ],
+      "wordFamily": [
+        "clergyman (n)"
+      ],
+      "coreMeaning": "گروه روحانیون و کشیشان",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "federation",
+      "translation": "فدراسیون، اتحادیه",
+      "ipa": "/ˌfedəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Germany is a federation of sixteen federal states.",
+      "definitions": [
+        "a group of states or organizations with a central government"
+      ],
+      "synonyms": [
+        "union",
+        "alliance",
+        "confederation"
+      ],
+      "antonyms": [
+        "unitary state"
+      ],
+      "collocations": [
+        "federal federation",
+        "international federation",
+        "federation of states"
+      ],
+      "wordFamily": [
+        "federal (adj)",
+        "federalism (n)"
+      ],
+      "coreMeaning": "اتحادیه ایالت‌ها با حکومت مرکزی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "confederation",
+      "translation": "کنفدراسیون، اتحادیه",
+      "ipa": "/kənˌfedəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The Swiss confederation is made up of semi-independent cantons.",
+      "definitions": [
+        "an organization of independent states united for a common purpose"
+      ],
+      "synonyms": [
+        "alliance",
+        "league",
+        "union"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "confederation of states",
+        "form a confederation",
+        "confederation system"
+      ],
+      "wordFamily": [
+        "confederate (n/adj)"
+      ],
+      "coreMeaning": "اتحاد دولت‌های مستقل",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "devolution",
+      "translation": "واگذاری قدرت به مناطق",
+      "ipa": "/ˌdevəˈluːʃən/",
+      "partOfSpeech": "noun",
+      "example": "Devolution has given Scotland greater control over its own affairs.",
+      "definitions": [
+        "the transfer of power from a central government to regional authorities"
+      ],
+      "synonyms": [
+        "decentralization",
+        "delegation",
+        "transfer of power"
+      ],
+      "antonyms": [
+        "centralization"
+      ],
+      "collocations": [
+        "devolution of power",
+        "political devolution",
+        "devolution process"
+      ],
+      "wordFamily": [
+        "devolve (v)"
+      ],
+      "coreMeaning": "انتقال اختیارات از مرکز به مناطق",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "decentralization",
+      "translation": "غیرمتمرکزسازی",
+      "ipa": "/diːˌsentrəlaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Decentralization of government can improve local decision-making.",
+      "definitions": [
+        "the distribution of power away from a central authority"
+      ],
+      "synonyms": [
+        "devolution",
+        "dispersal",
+        "distribution"
+      ],
+      "antonyms": [
+        "centralization",
+        "consolidation"
+      ],
+      "collocations": [
+        "political decentralization",
+        "decentralization of power",
+        "decentralization reform"
+      ],
+      "wordFamily": [
+        "decentralize (v)"
+      ],
+      "coreMeaning": "توزیع قدرت از مرکز به سطوح محلی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "privatization",
+      "translation": "خصوصی‌سازی",
+      "ipa": "/ˌpraɪvətaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The privatization of state-owned enterprises was a key part of the reform program.",
+      "definitions": [
+        "the transfer of a business or industry from public to private ownership"
+      ],
+      "synonyms": [
+        "denationalization",
+        "commercialization"
+      ],
+      "antonyms": [
+        "nationalization",
+        "public ownership"
+      ],
+      "collocations": [
+        "privatization of services",
+        "privatization program",
+        "privatization reform"
+      ],
+      "wordFamily": [
+        "privatize (v)"
+      ],
+      "coreMeaning": "واگذاری مالکیت دولتی به بخش خصوصی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "nationalization",
+      "translation": "ملی‌سازی",
+      "ipa": "/ˌnæʃnəlaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The nationalization of the oil industry increased government revenue.",
+      "definitions": [
+        "the transfer of a private business or industry to public ownership"
+      ],
+      "synonyms": [
+        "state ownership",
+        "public ownership",
+        "socialization"
+      ],
+      "antonyms": [
+        "privatization"
+      ],
+      "collocations": [
+        "nationalization of industry",
+        "nationalization program",
+        "nationalization policy"
+      ],
+      "wordFamily": [
+        "nationalize (v)"
+      ],
+      "coreMeaning": "تبدیل مالکیت خصوصی به دولتی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "deregulation",
+      "translation": "مقررات‌زدایی",
+      "ipa": "/diːˌreɡjəˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "Deregulation of the banking sector led to increased competition.",
+      "definitions": [
+        "the removal of regulations or restrictions from an industry"
+      ],
+      "synonyms": [
+        "liberalization",
+        "dismantling of rules"
+      ],
+      "antonyms": [
+        "regulation",
+        "reregulation"
+      ],
+      "collocations": [
+        "financial deregulation",
+        "deregulation policy",
+        "deregulation of markets"
+      ],
+      "wordFamily": [
+        "deregulate (v)"
+      ],
+      "coreMeaning": "حذف محدودیت‌های قانونی از صنعت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "austerity",
+      "translation": "ریاضت اقتصادی، سخت‌گیری مالی",
+      "ipa": "/ɔːˈsterəti/",
+      "partOfSpeech": "noun",
+      "example": "The government implemented austerity measures to reduce the national debt.",
+      "definitions": [
+        "difficult economic conditions created by government measures to reduce spending"
+      ],
+      "synonyms": [
+        "budget cuts",
+        "fiscal restraint",
+        "belt-tightening"
+      ],
+      "antonyms": [
+        "prosperity",
+        "spending",
+        "stimulus"
+      ],
+      "collocations": [
+        "austerity measures",
+        "austerity program",
+        "era of austerity"
+      ],
+      "wordFamily": [
+        "austere (adj)"
+      ],
+      "coreMeaning": "کاهش هزینه‌های دولت برای کسری بودجه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "subsidy",
+      "translation": "یارانه، کمک مالی",
+      "ipa": "/ˈsʌbsɪdi/",
+      "partOfSpeech": "noun",
+      "example": "The government provides subsidies to farmers to keep food prices low.",
+      "definitions": [
+        "money granted by the government to help an industry or business"
+      ],
+      "synonyms": [
+        "grant",
+        "aid",
+        "financial assistance"
+      ],
+      "antonyms": [
+        "tax",
+        "levy"
+      ],
+      "collocations": [
+        "government subsidy",
+        "agricultural subsidy",
+        "cut subsidies"
+      ],
+      "wordFamily": [
+        "subsidize (v)"
+      ],
+      "coreMeaning": "کمک مالی دولت به بخش خاص",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "tariff",
+      "translation": "تعرفه، عوارض گمرکی",
+      "ipa": "/ˈtærɪf/",
+      "partOfSpeech": "noun",
+      "example": "The government imposed tariffs on imported steel to protect domestic producers.",
+      "definitions": [
+        "a tax on imports or exports"
+      ],
+      "synonyms": [
+        "duty",
+        "tax",
+        "levy"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "impose tariffs",
+        "trade tariff",
+        "tariff barrier"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مالیات بر کالاهای وارداتی یا صادراتی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "protectionism",
+      "translation": "حمایت‌گرایی اقتصادی",
+      "ipa": "/prəˈtekʃənɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Protectionism can lead to trade wars between nations.",
+      "definitions": [
+        "the policy of restricting imports to protect domestic industries"
+      ],
+      "synonyms": [
+        "trade barriers",
+        "economic nationalism"
+      ],
+      "antonyms": [
+        "free trade",
+        "liberalization"
+      ],
+      "collocations": [
+        "economic protectionism",
+        "protectionist policy",
+        "rise of protectionism"
+      ],
+      "wordFamily": [
+        "protectionist (n/adj)",
+        "protect (v)"
+      ],
+      "coreMeaning": "سیاست حمایت از تولید داخلی با محدودیت واردات",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "neoliberalism",
+      "translation": "نئولیبرالیسم",
+      "ipa": "/ˌniːoʊˈlɪbərəlɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Neoliberalism emphasizes free markets and minimal government intervention.",
+      "definitions": [
+        "a political approach that favors free-market capitalism and deregulation"
+      ],
+      "synonyms": [
+        "free-market economics",
+        "market liberalism"
+      ],
+      "antonyms": [
+        "socialism",
+        "interventionism"
+      ],
+      "collocations": [
+        "neoliberal policies",
+        "era of neoliberalism",
+        "critique of neoliberalism"
+      ],
+      "wordFamily": [
+        "neoliberal (adj/n)"
+      ],
+      "coreMeaning": "اقتصاد آزاد با حداقل دخالت دولت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "socialism",
+      "translation": "سوسیالیسم، سوسیال‌دموکراسی",
+      "ipa": "/ˈsoʊʃəlɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Socialism advocates for collective ownership of the means of production.",
+      "definitions": [
+        "a political and economic theory advocating collective ownership"
+      ],
+      "synonyms": [
+        "collectivism",
+        "social democracy",
+        "leftism"
+      ],
+      "antonyms": [
+        "capitalism",
+        "free enterprise"
+      ],
+      "collocations": [
+        "democratic socialism",
+        "socialist ideology",
+        "socialist party"
+      ],
+      "wordFamily": [
+        "socialist (n/adj)",
+        "socialistic (adj)"
+      ],
+      "coreMeaning": "نظام اقتصادی مبتنی بر مالکیت جمعی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "capitalism",
+      "translation": "سرمایه‌داری",
+      "ipa": "/ˈkæpɪtəlɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Capitalism is based on private ownership and free-market competition.",
+      "definitions": [
+        "an economic system in which private individuals own and control property and trade"
+      ],
+      "synonyms": [
+        "free enterprise",
+        "free market",
+        "market economy"
+      ],
+      "antonyms": [
+        "socialism",
+        "communism"
+      ],
+      "collocations": [
+        "global capitalism",
+        "capitalist system",
+        "capitalist economy"
+      ],
+      "wordFamily": [
+        "capitalist (n/adj)",
+        "capitalize (v)"
+      ],
+      "coreMeaning": "نظام اقتصادی مبتنی بر مالکیت خصوصی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "communism",
+      "translation": "کمونیسم",
+      "ipa": "/ˈkɒmjənɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Communism aims to create a classless society through collective ownership.",
+      "definitions": [
+        "a political theory advocating class war and a society in which all property is publicly owned"
+      ],
+      "synonyms": [
+        "Marxism",
+        "collectivism",
+        "socialism"
+      ],
+      "antonyms": [
+        "capitalism",
+        "free market"
+      ],
+      "collocations": [
+        "communist party",
+        "communist regime",
+        "rise of communism"
+      ],
+      "wordFamily": [
+        "communist (n/adj)",
+        "commune (n)"
+      ],
+      "coreMeaning": "نظام مبتنی بر مالکیت عمومی و بی‌طبقگی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "fascism",
+      "translation": "فاشیسم",
+      "ipa": "/ˈfæʃɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Fascism emerged in Europe in the early twentieth century.",
+      "definitions": [
+        "a political system characterized by dictatorial power and forcible suppression of opposition"
+      ],
+      "synonyms": [
+        "authoritarianism",
+        "totalitarianism",
+        "extremism"
+      ],
+      "antonyms": [
+        "democracy",
+        "liberalism"
+      ],
+      "collocations": [
+        "rise of fascism",
+        "anti-fascism",
+        "fascist movement"
+      ],
+      "wordFamily": [
+        "fascist (n/adj)"
+      ],
+      "coreMeaning": "نظام تمامیت‌خواه ملی‌گرایانه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "libertarianism",
+      "translation": "لیبرترینیسم، آزادی‌خواهی",
+      "ipa": "/ˌlɪbərˈteriənɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Libertarianism emphasizes individual freedom and minimal government.",
+      "definitions": [
+        "a political philosophy that upholds liberty as a core principle"
+      ],
+      "synonyms": [
+        "classical liberalism",
+        "free-market ideology"
+      ],
+      "antonyms": [
+        "authoritarianism",
+        "statism"
+      ],
+      "collocations": [
+        "libertarian philosophy",
+        "libertarian movement",
+        "libertarian party"
+      ],
+      "wordFamily": [
+        "libertarian (n/adj)"
+      ],
+      "coreMeaning": "فلسفه سیاسی مبتنی بر آزادی فردی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "exit poll",
+      "translation": "نظرسنجی خروج از صندوق",
+      "ipa": "/ˈeksɪt poʊl/",
+      "partOfSpeech": "noun",
+      "example": "Exit polls predicted a close race between the two candidates.",
+      "definitions": [
+        "a survey of voters taken immediately after they leave the polling station"
+      ],
+      "synonyms": [
+        "post-vote survey",
+        "election survey"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "conduct exit polls",
+        "exit poll results",
+        "exit poll data"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نظرسنجی از رأی‌دهندگان پس از رأی دادن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "approval rating",
+      "translation": "نرخ محبوبیت، میزان رضایت",
+      "ipa": "/əˈpruːvl reɪtɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "The president's approval rating dropped after the scandal.",
+      "definitions": [
+        "a measure of the percentage of people who approve of a leader's performance"
+      ],
+      "synonyms": [
+        "popularity rating",
+        "favorability rating"
+      ],
+      "antonyms": [
+        "disapproval rating"
+      ],
+      "collocations": [
+        "high approval rating",
+        "drop in approval rating",
+        "approval rating poll"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "درصد مردمی که از عملکرد رهبر راضی‌اند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "term limit",
+      "translation": "محدودیت دوره",
+      "ipa": "/ˈtɜːrm lɪmɪt/",
+      "partOfSpeech": "noun",
+      "example": "The constitution imposes a two-term limit on the presidency.",
+      "definitions": [
+        "a legal restriction on the number of terms an officeholder may serve"
+      ],
+      "synonyms": [
+        "term restriction",
+        "service limit"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "impose term limits",
+        "serve term limits",
+        "term limit debate"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "محدودیت قانونی تعداد دوره‌های خدمت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "cabinet",
+      "translation": "هیئت دولت، کابینه",
+      "ipa": "/ˈkæbɪnət/",
+      "partOfSpeech": "noun",
+      "example": "The prime minister reshuffled the cabinet after the election.",
+      "definitions": [
+        "a body of high-ranking government officials, typically representing the executive branch"
+      ],
+      "synonyms": [
+        "ministry",
+        "government ministers",
+        "council"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cabinet meeting",
+        "cabinet reshuffle",
+        "cabinet minister"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "گروه وزیران دولت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "ministry",
+      "translation": "وزارت",
+      "ipa": "/ˈmɪnɪstri/",
+      "partOfSpeech": "noun",
+      "example": "The Ministry of Health issued new guidelines for hospitals.",
+      "definitions": [
+        "a government department headed by a minister"
+      ],
+      "synonyms": [
+        "department",
+        "bureau",
+        "agency"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "ministry of defense",
+        "ministry of education",
+        "foreign ministry"
+      ],
+      "wordFamily": [
+        "minister (n)"
+      ],
+      "coreMeaning": "سازمان دولتی مسئول یک حوزه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "chancellor",
+      "translation": "صدراعظم، رئیس دولت",
+      "ipa": "/ˈtʃænsələr/",
+      "partOfSpeech": "noun",
+      "example": "The German chancellor addressed the European parliament.",
+      "definitions": [
+        "the head of government in some countries, especially Germany"
+      ],
+      "synonyms": [
+        "prime minister",
+        "premier",
+        "head of government"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "chancellor of Germany",
+        "chancellor of the exchequer",
+        "vice chancellor"
+      ],
+      "wordFamily": [
+        "chancellorship (n)"
+      ],
+      "coreMeaning": "رئیس دولت در برخی کشورها",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "prime minister",
+      "translation": "نخست‌وزیر",
+      "ipa": "/ˌpraɪm ˈmɪnɪstər/",
+      "partOfSpeech": "noun",
+      "example": "The prime minister announced new economic policies in a televised address.",
+      "definitions": [
+        "the head of government in parliamentary systems"
+      ],
+      "synonyms": [
+        "premier",
+        "head of government",
+        "chancellor"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "deputy prime minister",
+        "prime minister's office",
+        "acting prime minister"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "رئیس دولت در نظام پارلمانی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "speaker",
+      "translation": "رئیس مجلس",
+      "ipa": "/ˈspiːkər/",
+      "partOfSpeech": "noun",
+      "example": "The speaker of the house presides over legislative sessions.",
+      "definitions": [
+        "the presiding officer of a legislative assembly"
+      ],
+      "synonyms": [
+        "president of the house",
+        "chair"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "speaker of the house",
+        "elect a speaker",
+        "speaker's ruling"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "رئیس جلسه مجلس",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "transition",
+      "translation": "انتقال قدرت، گذار",
+      "ipa": "/trænˈzɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The peaceful transition of power is a hallmark of democracy.",
+      "definitions": [
+        "the process of changing from one state or condition to another"
+      ],
+      "synonyms": [
+        "changeover",
+        "shift",
+        "handover"
+      ],
+      "antonyms": [
+        "continuity",
+        "stability"
+      ],
+      "collocations": [
+        "transition of power",
+        "peaceful transition",
+        "political transition"
+      ],
+      "wordFamily": [
+        "transitional (adj)",
+        "transition (v)"
+      ],
+      "coreMeaning": "فرآیند تغییر از وضعیتی به وضعیت دیگر",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "autocracy",
+      "translation": "استبداد، خودکامگی",
+      "ipa": "/ɔːˈtɒkrəsi/",
+      "partOfSpeech": "noun",
+      "example": "The country descended into autocracy after the military takeover.",
+      "definitions": [
+        "a system of government by one person with absolute power"
+      ],
+      "synonyms": [
+        "dictatorship",
+        "tyranny",
+        "despotism"
+      ],
+      "antonyms": [
+        "democracy",
+        "republic"
+      ],
+      "collocations": [
+        "political autocracy",
+        "rise of autocracy",
+        "autocratic rule"
+      ],
+      "wordFamily": [
+        "autocrat (n)",
+        "autocratic (adj)"
+      ],
+      "coreMeaning": "حکومت یک نفر با قدرت مطلق",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "oligarch",
+      "translation": "الیگارش، قدرتمند اقتصادی",
+      "ipa": "/ˈɒlɪɡɑːrk/",
+      "partOfSpeech": "noun",
+      "example": "Russian oligarchs accumulated vast wealth after the fall of the Soviet Union.",
+      "definitions": [
+        "a member of a small group exercising control in a government"
+      ],
+      "synonyms": [
+        "tycoon",
+        "magnate",
+        "plutocrat"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "Russian oligarch",
+        "business oligarch",
+        "oligarch class"
+      ],
+      "wordFamily": [
+        "oligarchy (n)",
+        "oligarchic (adj)"
+      ],
+      "coreMeaning": "عضو اقلیت صاحب قدرت و ثروت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "hegemony",
+      "translation": "هژمونی، سلطه",
+      "ipa": "/hɪˈdʒeməni/",
+      "partOfSpeech": "noun",
+      "example": "The country's economic hegemony in the region was challenged by emerging powers.",
+      "definitions": [
+        "leadership or dominance, especially by one state or social group"
+      ],
+      "synonyms": [
+        "dominance",
+        "supremacy",
+        "authority"
+      ],
+      "antonyms": [
+        "subordination",
+        "equality"
+      ],
+      "collocations": [
+        "global hegemony",
+        "cultural hegemony",
+        "challenge hegemony"
+      ],
+      "wordFamily": [
+        "hegemonic (adj)"
+      ],
+      "coreMeaning": "سلطه و برتری بر دیگران",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "martial law",
+      "translation": "حکومت نظامی",
+      "ipa": "/ˈmɑːrʃəl lɔː/",
+      "partOfSpeech": "noun",
+      "example": "The government declared martial law to restore order during the riots.",
+      "definitions": [
+        "military rule imposed during an emergency when civil law is suspended"
+      ],
+      "synonyms": [
+        "military rule",
+        "state of emergency"
+      ],
+      "antonyms": [
+        "civil law",
+        "democratic rule"
+      ],
+      "collocations": [
+        "declare martial law",
+        "impose martial law",
+        "lift martial law"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "حکومت نظامی در شرایط اضطراری",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "red tape",
+      "translation": "بوروکراسی اداری، کاغذبازی",
+      "ipa": "/ˌred ˈteɪp/",
+      "partOfSpeech": "noun",
+      "example": "Excessive red tape makes it difficult to start a business in some countries.",
+      "definitions": [
+        "excessive bureaucracy or adherence to rules and formalities"
+      ],
+      "synonyms": [
+        "bureaucracy",
+        "paperwork",
+        "administrative burden"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "cut red tape",
+        "excessive red tape",
+        "red tape barrier"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "کاغذبازی و بوروکراسی زائد",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "ethnic cleansing",
+      "translation": "پاکسازی قومی",
+      "ipa": "/ˌeθnɪk ˈklenzɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Ethnic cleansing was carried out during the Balkan wars of the 1990s.",
+      "definitions": [
+        "the systematic forced removal of an ethnic group from a territory"
+      ],
+      "synonyms": [
+        "genocide",
+        "mass deportation",
+        "forced displacement"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "ethnic cleansing campaign",
+        "accusations of ethnic cleansing",
+        "commit ethnic cleansing"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "اخراج اجباری یک گروه قومی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "war crime",
+      "translation": "جنایت جنگی",
+      "ipa": "/ˈwɔːr kraɪm/",
+      "partOfSpeech": "noun",
+      "example": "The general was convicted of war crimes by the international tribunal.",
+      "definitions": [
+        "an act carried out during a war that violates accepted international rules of war"
+      ],
+      "synonyms": [
+        "atrocity",
+        "crime against humanity"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "commit war crimes",
+        "war crimes tribunal",
+        "accused of war crimes"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نقض قوانین بین‌المللی در جنگ",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "habeas corpus",
+      "translation": "حق آزادی فردی، حکم آزادی",
+      "ipa": "/ˌheɪbiəs ˈkɔːrpəs/",
+      "partOfSpeech": "noun",
+      "example": "Habeas corpus protects individuals from unlawful detention.",
+      "definitions": [
+        "a legal action requiring a person to be brought before a judge to determine if their detention is lawful"
+      ],
+      "synonyms": [
+        "writ of liberty",
+        "right to freedom"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "suspend habeas corpus",
+        "writ of habeas corpus",
+        "habeas corpus rights"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "حق قانونی مصونیت از بازداشت غیرقانونی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "due process",
+      "translation": "رویه قانونی عادلانه",
+      "ipa": "/ˌdjuː ˈprɒses/",
+      "partOfSpeech": "noun",
+      "example": "Every citizen is entitled to due process under the law.",
+      "definitions": [
+        "fair treatment through the normal judicial system"
+      ],
+      "synonyms": [
+        "legal procedure",
+        "fair trial",
+        "judicial process"
+      ],
+      "antonyms": [
+        "arbitrary justice"
+      ],
+      "collocations": [
+        "due process of law",
+        "due process rights",
+        "violation of due process"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "رعایت حقوق قانونی متهم",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "civil liberty",
+      "translation": "آزادی‌های مدنی",
+      "ipa": "/ˌsɪvl ˈlɪbərti/",
+      "partOfSpeech": "noun",
+      "example": "Civil liberties include freedom of speech, religion, and assembly.",
+      "definitions": [
+        "individual rights protected by law from government interference"
+      ],
+      "synonyms": [
+        "individual rights",
+        "personal freedom",
+        "constitutional rights"
+      ],
+      "antonyms": [
+        "government control",
+        "oppression"
+      ],
+      "collocations": [
+        "protect civil liberties",
+        "civil liberties union",
+        "violation of civil liberties"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "حقوق فردی محافظت‌شده توسط قانون",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "bill of rights",
+      "translation": "منشور حقوق",
+      "ipa": "/ˌbɪl əv ˈraɪts/",
+      "partOfSpeech": "noun",
+      "example": "The Bill of Rights guarantees fundamental freedoms to all citizens.",
+      "definitions": [
+        "a formal declaration of the legal and civil rights of citizens"
+      ],
+      "synonyms": [
+        "charter of rights",
+        "constitutional rights"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "constitutional bill of rights",
+        "bill of rights protections",
+        "enact a bill of rights"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سند رسمی تضمین حقوق شهروندان",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "wiretap",
+      "translation": "شنود تلفنی",
+      "ipa": "/ˈwaɪərtæp/",
+      "partOfSpeech": "noun",
+      "example": "The court authorized a wiretap on the suspect's phone.",
+      "definitions": [
+        "a device used to secretly listen to telephone conversations"
+      ],
+      "synonyms": [
+        "bug",
+        "surveillance device",
+        "interception"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "wiretap warrant",
+        "illegal wiretap",
+        "wiretap surveillance"
+      ],
+      "wordFamily": [
+        "wiretap (v)"
+      ],
+      "coreMeaning": "گوش دادن مخفیانه به مکالمات تلفنی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "fact-checking",
+      "translation": "بررسی صحت اطلاعات",
+      "ipa": "/ˈfækt tʃekɪŋ/",
+      "partOfSpeech": "noun",
+      "example": "Fact-checking organizations play a crucial role in combating misinformation.",
+      "definitions": [
+        "the process of verifying the accuracy of statements and claims"
+      ],
+      "synonyms": [
+        "verification",
+        "validation",
+        "accuracy check"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "fact-checking organization",
+        "fact-checking process",
+        "independent fact-checking"
+      ],
+      "wordFamily": [
+        "fact-check (v)"
+      ],
+      "coreMeaning": "تأیید صحت ادعاها و اطلاعات",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "left-wing",
+      "translation": "چپ‌گرا، جناح چپ",
+      "ipa": "/ˌleft ˈwɪŋ/",
+      "partOfSpeech": "adjective",
+      "example": "Left-wing parties tend to support social equality and welfare programs.",
+      "definitions": [
+        "favoring liberal, socialist, or radical political views"
+      ],
+      "synonyms": [
+        "progressive",
+        "liberal",
+        "socialist"
+      ],
+      "antonyms": [
+        "right-wing",
+        "conservative"
+      ],
+      "collocations": [
+        "left-wing politics",
+        "left-wing party",
+        "left-wing ideology"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "طرفدار برابری اجتماعی و عدالت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "right-wing",
+      "translation": "راست‌گرا، جناح راست",
+      "ipa": "/ˌraɪt ˈwɪŋ/",
+      "partOfSpeech": "adjective",
+      "example": "Right-wing politicians generally advocate for lower taxes and free markets.",
+      "definitions": [
+        "favoring conservative or traditional political views"
+      ],
+      "synonyms": [
+        "conservative",
+        "traditionalist",
+        "reactionary"
+      ],
+      "antonyms": [
+        "left-wing",
+        "progressive"
+      ],
+      "collocations": [
+        "right-wing politics",
+        "right-wing party",
+        "right-wing extremism"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "طرفدار ارزش‌های سنتی و اقتصاد آزاد",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "supreme court",
+      "translation": "دیوان عالی",
+      "ipa": "/suːˌpriːm ˈkɔːrt/",
+      "partOfSpeech": "noun",
+      "example": "The supreme court ruled that the law was unconstitutional.",
+      "definitions": [
+        "the highest court in a country or state"
+      ],
+      "synonyms": [
+        "high court",
+        "highest tribunal"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "supreme court ruling",
+        "supreme court justice",
+        "supreme court decision"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "بالاترین مرجع قضایی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "constitutional",
+      "translation": "قانون اساسی، اساسی",
+      "ipa": "/ˌkɒnstɪˈtjuːʃənl/",
+      "partOfSpeech": "adjective",
+      "example": "The court declared the law unconstitutional.",
+      "definitions": [
+        "relating to or in accordance with a constitution"
+      ],
+      "synonyms": [
+        "legal",
+        "charter-based",
+        "fundamental"
+      ],
+      "antonyms": [
+        "unconstitutional"
+      ],
+      "collocations": [
+        "constitutional rights",
+        "constitutional law",
+        "constitutional amendment"
+      ],
+      "wordFamily": [
+        "constitution (n)",
+        "constitutionally (adv)"
+      ],
+      "coreMeaning": "مربوط به قانون اساسی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "insurrection",
+      "translation": "شورش، قیام",
+      "ipa": "/ˌɪnsəˈrekʃən/",
+      "partOfSpeech": "noun",
+      "example": "The insurrection was quickly suppressed by government forces.",
+      "definitions": [
+        "a violent uprising against an authority or government"
+      ],
+      "synonyms": [
+        "rebellion",
+        "revolt",
+        "uprising"
+      ],
+      "antonyms": [
+        "submission",
+        "obedience"
+      ],
+      "collocations": [
+        "armed insurrection",
+        "incite insurrection",
+        "insurrection against the government"
+      ],
+      "wordFamily": [
+        "insurrectionist (n)"
+      ],
+      "coreMeaning": "قیام مسلحانه علیه حکومت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "sedition",
+      "translation": "فتنه‌انگیزی، اغوا",
+      "ipa": "/sɪˈdɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The activist was charged with sedition for inciting rebellion.",
+      "definitions": [
+        "conduct or speech inciting people to rebel against the authority of a state"
+      ],
+      "synonyms": [
+        "rebellion",
+        "treason",
+        "insurrection"
+      ],
+      "antonyms": [
+        "loyalty",
+        "obedience"
+      ],
+      "collocations": [
+        "charge with sedition",
+        "sedition law",
+        "seditious speech"
+      ],
+      "wordFamily": [
+        "seditious (adj)"
+      ],
+      "coreMeaning": "تحریک مردم علیه حکومت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "treason",
+      "translation": "خیانت به وطن",
+      "ipa": "/ˈtriːzn/",
+      "partOfSpeech": "noun",
+      "example": "The spy was convicted of treason for selling state secrets.",
+      "definitions": [
+        "the crime of betraying one's country"
+      ],
+      "synonyms": [
+        "betrayal",
+        "disloyalty",
+        "treachery"
+      ],
+      "antonyms": [
+        "loyalty",
+        "patriotism"
+      ],
+      "collocations": [
+        "commit treason",
+        "high treason",
+        "charge with treason"
+      ],
+      "wordFamily": [
+        "treasonous (adj)"
+      ],
+      "coreMeaning": "خیانت به کشور",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "espionage",
+      "translation": "جاسوسی",
+      "ipa": "/ˈespiənɑːʒ/",
+      "partOfSpeech": "noun",
+      "example": "He was arrested on charges of espionage for a foreign government.",
+      "definitions": [
+        "the practice of spying or using spies to obtain secret information"
+      ],
+      "synonyms": [
+        "spying",
+        "surveillance",
+        "intelligence gathering"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "industrial espionage",
+        "espionage charges",
+        "espionage act"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "جمع‌آوری اطلاعات محرمانه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "conscription",
+      "translation": "سربازی اجباری، خدمت وظیفه",
+      "ipa": "/kənˈskrɪpʃən/",
+      "partOfSpeech": "noun",
+      "example": "Conscription was introduced during the war to increase military manpower.",
+      "definitions": [
+        "compulsory enlistment for state service, typically military service"
+      ],
+      "synonyms": [
+        "draft",
+        "military service",
+        "compulsory service"
+      ],
+      "antonyms": [
+        "voluntary service",
+        "enlistment"
+      ],
+      "collocations": [
+        "military conscription",
+        "oppose conscription",
+        "conscription law"
+      ],
+      "wordFamily": [
+        "conscript (v/n)"
+      ],
+      "coreMeaning": "فراخوان اجباری برای خدمت نظامی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "pacifism",
+      "translation": "صلح‌طلبی، صلح‌جویی",
+      "ipa": "/ˈpæsɪfɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "His pacifism led him to refuse military service.",
+      "definitions": [
+        "the belief that war and violence are unjustifiable"
+      ],
+      "synonyms": [
+        "peacefulness",
+        "nonviolence",
+        "anti-war sentiment"
+      ],
+      "antonyms": [
+        "militarism",
+        "warmongering"
+      ],
+      "collocations": [
+        "advocate pacifism",
+        "pacifist movement",
+        "principle of pacifism"
+      ],
+      "wordFamily": [
+        "pacifist (n/adj)",
+        "pacifistic (adj)"
+      ],
+      "coreMeaning": "عقیده به رد جنگ و خشونت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "militarism",
+      "translation": "نظامی‌گری",
+      "ipa": "/ˈmɪlɪtərɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Militarism in the region has led to an arms race.",
+      "definitions": [
+        "the belief that a country should maintain a strong military and be prepared to use it"
+      ],
+      "synonyms": [
+        "warmongering",
+        "hawkishness",
+        "jingoism"
+      ],
+      "antonyms": [
+        "pacifism",
+        "disarmament"
+      ],
+      "collocations": [
+        "rise of militarism",
+        "militaristic culture",
+        "oppose militarism"
+      ],
+      "wordFamily": [
+        "militarist (n)",
+        "militaristic (adj)"
+      ],
+      "coreMeaning": "تأکید بر قدرت نظامی و آمادگی جنگی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "disarmament",
+      "translation": "خلع سلاح",
+      "ipa": "/dɪsˈɑːrməmənt/",
+      "partOfSpeech": "noun",
+      "example": "Nuclear disarmament remains a key goal of international diplomacy.",
+      "definitions": [
+        "the reduction or withdrawal of military forces and weapons"
+      ],
+      "synonyms": [
+        "demilitarization",
+        "arms reduction",
+        "de-escalation"
+      ],
+      "antonyms": [
+        "armament",
+        "rearmament"
+      ],
+      "collocations": [
+        "nuclear disarmament",
+        "disarmament treaty",
+        "disarmament talks"
+      ],
+      "wordFamily": [
+        "disarm (v)"
+      ],
+      "coreMeaning": "کاهش یا حذف تسلیحات",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "deterrence",
+      "translation": "بازدارندگی",
+      "ipa": "/dɪˈterəns/",
+      "partOfSpeech": "noun",
+      "example": "Nuclear deterrence has prevented large-scale wars between major powers.",
+      "definitions": [
+        "the action of discouraging an action through fear of consequences"
+      ],
+      "synonyms": [
+        "prevention",
+        "discouragement",
+        "dissuasion"
+      ],
+      "antonyms": [
+        "provocation",
+        "encouragement"
+      ],
+      "collocations": [
+        "nuclear deterrence",
+        "deterrence strategy",
+        "deterrence policy"
+      ],
+      "wordFamily": [
+        "deter (v)",
+        "deterrent (n/adj)"
+      ],
+      "coreMeaning": "جلوگیری از اقدام از طریق ترس از پیامد",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "appeasement",
+      "translation": "سیاست مماشات",
+      "ipa": "/əˈpiːzmənt/",
+      "partOfSpeech": "noun",
+      "example": "The policy of appeasement toward Nazi Germany is widely regarded as a failure.",
+      "definitions": [
+        "the policy of making concessions to an aggressive power to avoid conflict"
+      ],
+      "synonyms": [
+        "conciliation",
+        "pacification",
+        "capitulation"
+      ],
+      "antonyms": [
+        "resistance",
+        "confrontation"
+      ],
+      "collocations": [
+        "policy of appeasement",
+        "appeasement strategy",
+        "appeasement toward"
+      ],
+      "wordFamily": [
+        "appease (v)"
+      ],
+      "coreMeaning": "دادن امتیاز برای جلوگیری از جنگ",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "isolationism",
+      "translation": "انزواطلبی",
+      "ipa": "/ˌaɪsəˈleɪʃənɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "The country's isolationism kept it out of international alliances.",
+      "definitions": [
+        "a policy of remaining apart from the affairs of other nations"
+      ],
+      "synonyms": [
+        "non-intervention",
+        "neutrality",
+        "separatism"
+      ],
+      "antonyms": [
+        "interventionism",
+        "internationalism"
+      ],
+      "collocations": [
+        "policy of isolationism",
+        "isolationist stance",
+        "isolationist movement"
+      ],
+      "wordFamily": [
+        "isolationist (n/adj)"
+      ],
+      "coreMeaning": "سیاست عدم مداخله در امور بین‌المللی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "interventionism",
+      "translation": "مداخله‌گرایی",
+      "ipa": "/ˌɪntərˈvenʃənɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Military interventionism has been a controversial aspect of foreign policy.",
+      "definitions": [
+        "the policy of intervening in the affairs of other nations"
+      ],
+      "synonyms": [
+        "interference",
+        "involvement",
+        "meddling"
+      ],
+      "antonyms": [
+        "isolationism",
+        "non-intervention"
+      ],
+      "collocations": [
+        "military interventionism",
+        "foreign interventionism",
+        "interventionist policy"
+      ],
+      "wordFamily": [
+        "interventionist (n/adj)",
+        "intervene (v)"
+      ],
+      "coreMeaning": "سیاست مداخله در امور کشورهای دیگر",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "stateless",
+      "translation": "بدون تابعیت، بی‌وطن",
+      "ipa": "/ˈsteɪtləs/",
+      "partOfSpeech": "adjective",
+      "example": "Millions of stateless people around the world lack basic legal protections.",
+      "definitions": [
+        "not recognized as a citizen of any country"
+      ],
+      "synonyms": [
+        "displaced",
+        "unaffiliated",
+        "citizenless"
+      ],
+      "antonyms": [
+        "citizen",
+        "national"
+      ],
+      "collocations": [
+        "stateless person",
+        "stateless population",
+        "stateless refugees"
+      ],
+      "wordFamily": [
+        "statelessness (n)"
+      ],
+      "coreMeaning": "فردی که تابعیت هیچ کشوری را ندارد",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "naturalization",
+      "translation": "اتباعیت، تابعیت‌گیری",
+      "ipa": "/ˌnætʃrəlaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The naturalization process requires several years of residency.",
+      "definitions": [
+        "the legal process of becoming a citizen of a country"
+      ],
+      "synonyms": [
+        "citizenship acquisition",
+        "nationalization"
+      ],
+      "antonyms": [
+        "denaturalization",
+        "expatriation"
+      ],
+      "collocations": [
+        "naturalization process",
+        "naturalization ceremony",
+        "naturalization test"
+      ],
+      "wordFamily": [
+        "naturalize (v)"
+      ],
+      "coreMeaning": "فرآیند قانونی کسب تابعیت",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "quota",
+      "translation": "سهمیه، کوتا",
+      "ipa": "/ˈkwoʊtə/",
+      "partOfSpeech": "noun",
+      "example": "The country set a quota on the number of refugees it would accept each year.",
+      "definitions": [
+        "a limited quantity of something that is officially allowed"
+      ],
+      "synonyms": [
+        "limit",
+        "allocation",
+        "ration"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "immigration quota",
+        "trade quota",
+        "fill a quota"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "محدودیت رسمی مقدار مجاز",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "meritocracy",
+      "translation": "شایسته‌سالاری",
+      "ipa": "/ˌmerɪˈtɒkrəsi/",
+      "partOfSpeech": "noun",
+      "example": "A true meritocracy rewards talent and hard work rather than connections.",
+      "definitions": [
+        "a system in which advancement is based on individual ability and achievement"
+      ],
+      "synonyms": [
+        "ability-based system",
+        "talent-based governance"
+      ],
+      "antonyms": [
+        "nepotism",
+        "cronyism"
+      ],
+      "collocations": [
+        "political meritocracy",
+        "meritocratic system",
+        "principle of meritocracy"
+      ],
+      "wordFamily": [
+        "meritocratic (adj)"
+      ],
+      "coreMeaning": "نظام مبتنی بر شایستگی و توانایی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "nepotism",
+      "translation": "خویشاوندسالاری",
+      "ipa": "/ˈnepətɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Nepotism in government appointments undermines public trust.",
+      "definitions": [
+        "the practice of favoring relatives or friends in employment or other advantages"
+      ],
+      "synonyms": [
+        "favoritism",
+        "cronyism",
+        "patronage"
+      ],
+      "antonyms": [
+        "meritocracy",
+        "fairness"
+      ],
+      "collocations": [
+        "accusations of nepotism",
+        "political nepotism",
+        "nepotism and corruption"
+      ],
+      "wordFamily": [
+        "nepotistic (adj)"
+      ],
+      "coreMeaning": "ترجیح خویشاوندان در مشاغل و موقعیت‌ها",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "cronyism",
+      "translation": "رفیق‌بازی، حمایت از دوستان",
+      "ipa": "/ˈkroʊniɪzəm/",
+      "partOfSpeech": "noun",
+      "example": "Cronyism in the administration led to unqualified individuals being appointed to key positions.",
+      "definitions": [
+        "the appointment of friends and associates to positions of authority regardless of their qualifications"
+      ],
+      "synonyms": [
+        "favoritism",
+        "nepotism",
+        "patronage"
+      ],
+      "antonyms": [
+        "meritocracy",
+        "fairness"
+      ],
+      "collocations": [
+        "political cronyism",
+        "accusations of cronyism",
+        "cronyism and corruption"
+      ],
+      "wordFamily": [
+        "crony (n)"
+      ],
+      "coreMeaning": "حمایت از دوستان و هم‌حزبی‌ها بدون شایستگی",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "kleptocracy",
+      "translation": "دزدسالاری، حکومت غارتگران",
+      "ipa": "/klepˈtɒkrəsi/",
+      "partOfSpeech": "noun",
+      "example": "The country's kleptocracy siphoned billions from public funds.",
+      "definitions": [
+        "a government whose corrupt leaders use political power to appropriate wealth"
+      ],
+      "synonyms": [
+        "corrupt government",
+        "thieving regime"
+      ],
+      "antonyms": [
+        "democracy",
+        "accountable government"
+      ],
+      "collocations": [
+        "kleptocratic regime",
+        "kleptocracy and corruption",
+        "kleptocratic elite"
+      ],
+      "wordFamily": [
+        "kleptocrat (n)",
+        "kleptocratic (adj)"
+      ],
+      "coreMeaning": "حکومتی که رهبرانش ثروت عمومی را غارت می‌کنند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "technocracy",
+      "translation": "تکنوکراسی، حکومت متخصصان",
+      "ipa": "/tekˈnɒkrəsi/",
+      "partOfSpeech": "noun",
+      "example": "Some argue that a technocracy would make more efficient policy decisions.",
+      "definitions": [
+        "a system of governance where decision-makers are selected based on expertise"
+      ],
+      "synonyms": [
+        "expert rule",
+        "merit-based governance"
+      ],
+      "antonyms": [
+        "democracy",
+        "populism"
+      ],
+      "collocations": [
+        "technocratic government",
+        "technocratic approach",
+        "technocratic elite"
+      ],
+      "wordFamily": [
+        "technocrat (n)",
+        "technocratic (adj)"
+      ],
+      "coreMeaning": "حکومت متخصصان و کارشناسان",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "dictatorship",
+      "translation": "دیکتاتوری، حکومت مستبدانه",
+      "ipa": "/dɪkˈteɪtərʃɪp/",
+      "partOfSpeech": "noun",
+      "example": "The country endured decades of dictatorship before transitioning to democracy.",
+      "definitions": [
+        "a country governed by a dictator",
+        "absolute power held by one person"
+      ],
+      "synonyms": [
+        "tyranny",
+        "autocracy",
+        "despotism"
+      ],
+      "antonyms": [
+        "democracy",
+        "republic"
+      ],
+      "collocations": [
+        "military dictatorship",
+        "under dictatorship",
+        "overthrow a dictatorship"
+      ],
+      "wordFamily": [
+        "dictator (n)",
+        "dictatorial (adj)"
+      ],
+      "coreMeaning": "حکومت فردی مستبدانه",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "plutocrat",
+      "translation": "ثروتمند صاحب قدرت",
+      "ipa": "/ˈpluːtəkræt/",
+      "partOfSpeech": "noun",
+      "example": "Plutocrats have disproportionate influence over political decisions.",
+      "definitions": [
+        "a person whose power derives from their wealth"
+      ],
+      "synonyms": [
+        "oligarch",
+        "tycoon",
+        "magnate"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "corporate plutocrat",
+        "political plutocrat",
+        "plutocrat class"
+      ],
+      "wordFamily": [
+        "plutocracy (n)",
+        "plutocratic (adj)"
+      ],
+      "coreMeaning": "فرد ثروتمندی که از پولش برای قدرت استفاده می‌کند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "autocrat",
+      "translation": "خودکامه، مستبد",
+      "ipa": "/ˈɔːtəkræt/",
+      "partOfSpeech": "noun",
+      "example": "The autocrat ruled the country with an iron fist for over thirty years.",
+      "definitions": [
+        "a ruler who has absolute power"
+      ],
+      "synonyms": [
+        "dictator",
+        "tyrant",
+        "despot"
+      ],
+      "antonyms": [
+        "democrat"
+      ],
+      "collocations": [
+        "political autocrat",
+        "autocratic ruler",
+        "autocrat regime"
+      ],
+      "wordFamily": [
+        "autocracy (n)",
+        "autocratic (adj)"
+      ],
+      "coreMeaning": "حاکمی با قدرت مطلق",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "tyrant",
+      "translation": "ستمگر، ظالم",
+      "ipa": "/ˈtaɪrənt/",
+      "partOfSpeech": "noun",
+      "example": "The tyrant was eventually overthrown by a popular uprising.",
+      "definitions": [
+        "a cruel and oppressive ruler"
+      ],
+      "synonyms": [
+        "dictator",
+        "despot",
+        "oppressor"
+      ],
+      "antonyms": [
+        "liberator",
+        "democrat"
+      ],
+      "collocations": [
+        "cruel tyrant",
+        "overthrow a tyrant",
+        "tyrannical rule"
+      ],
+      "wordFamily": [
+        "tyranny (n)",
+        "tyrannical (adj)",
+        "tyrannize (v)"
+      ],
+      "coreMeaning": "حاکم ظالم و ستمگر",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "despot",
+      "translation": "خودکامه، ستمگر",
+      "ipa": "/ˈdespɒt/",
+      "partOfSpeech": "noun",
+      "example": "The despot silenced all opposition through fear and intimidation.",
+      "definitions": [
+        "a ruler with total power, typically one who exercises it cruelly"
+      ],
+      "synonyms": [
+        "tyrant",
+        "dictator",
+        "autocrat"
+      ],
+      "antonyms": [
+        "democrat",
+        "liberator"
+      ],
+      "collocations": [
+        "benevolent despot",
+        "enlightened despot",
+        "despotic rule"
+      ],
+      "wordFamily": [
+        "despotism (n)",
+        "despotic (adj)"
+      ],
+      "coreMeaning": "حاکم مطلق‌العمر و ظالم",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "mutiny",
+      "translation": "شورش نظامی، طغیان",
+      "ipa": "/ˈmjuːtəni/",
+      "partOfSpeech": "noun",
+      "example": "The soldiers staged a mutiny against their commanding officer.",
+      "definitions": [
+        "an open rebellion against authority, especially by soldiers or sailors"
+      ],
+      "synonyms": [
+        "rebellion",
+        "revolt",
+        "insurrection"
+      ],
+      "antonyms": [
+        "obedience",
+        "loyalty"
+      ],
+      "collocations": [
+        "stage a mutiny",
+        "naval mutiny",
+        "mutiny on the ship"
+      ],
+      "wordFamily": [
+        "mutineer (n)",
+        "mutinous (adj)"
+      ],
+      "coreMeaning": "شورش سربازان علیه فرمانده",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "regime change",
+      "translation": "تغییر رژیم",
+      "ipa": "/reɪˈʒiːm tʃeɪndʒ/",
+      "partOfSpeech": "noun",
+      "example": "Foreign intervention led to regime change but not lasting stability.",
+      "definitions": [
+        "the replacement of one government or political system with another"
+      ],
+      "synonyms": [
+        "government overthrow",
+        "political transformation"
+      ],
+      "antonyms": [
+        "regime preservation"
+      ],
+      "collocations": [
+        "foreign regime change",
+        "regime change policy",
+        "regime change war"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "جایگزینی یک نظام سیاسی با نظام دیگر",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "demilitarization",
+      "translation": "غیرنظامی‌سازی",
+      "ipa": "/diːˌmɪlɪtəraɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The demilitarization of the border zone was a key part of the peace agreement.",
+      "definitions": [
+        "the reduction of a nation's military forces and armaments"
+      ],
+      "synonyms": [
+        "disarmament",
+        "de-escalation",
+        "arms reduction"
+      ],
+      "antonyms": [
+        "militarization",
+        "rearmament"
+      ],
+      "collocations": [
+        "demilitarization zone",
+        "demilitarization process",
+        "demilitarization agreement"
+      ],
+      "wordFamily": [
+        "demilitarize (v)"
+      ],
+      "coreMeaning": "کاهش حضور نظامی در منطقه‌ای",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "nonproliferation",
+      "translation": "عدم اشاعه",
+      "ipa": "/ˌnɒnprəˌlɪfəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "example": "The nonproliferation treaty aims to prevent the spread of nuclear weapons.",
+      "definitions": [
+        "the prevention of the spread of nuclear weapons and technology"
+      ],
+      "synonyms": [
+        "arms control",
+        "disarmament"
+      ],
+      "antonyms": [
+        "proliferation"
+      ],
+      "collocations": [
+        "nonproliferation treaty",
+        "nonproliferation agreement",
+        "nonproliferation regime"
+      ],
+      "wordFamily": [
+        "nonproliferate (v)"
+      ],
+      "coreMeaning": "جلوگیری از گسترش سلاح‌های هسته‌ای",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "brinkmanship",
+      "translation": "سیاست لبه پرتگاه",
+      "ipa": "/ˈbrɪŋkmənʃɪp/",
+      "partOfSpeech": "noun",
+      "example": "Nuclear brinkmanship during the Cold War brought the world to the edge of destruction.",
+      "definitions": [
+        "the practice of pushing a dangerous situation to the limit to achieve the most advantageous outcome"
+      ],
+      "synonyms": [
+        "risk-taking",
+        "escalation",
+        "gambling"
+      ],
+      "antonyms": [
+        "caution",
+        "de-escalation"
+      ],
+      "collocations": [
+        "nuclear brinkmanship",
+        "political brinkmanship",
+        "dangerous brinkmanship"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "سیاست تا مرز خطر پیش رفتن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "expatriate",
+      "translation": "مهاجر، تبعیدی",
+      "ipa": "/ˌeksˈpætriət/",
+      "partOfSpeech": "noun",
+      "example": "Many expatriates live and work in the Gulf states.",
+      "definitions": [
+        "a person who lives outside their native country"
+      ],
+      "synonyms": [
+        "emigrant",
+        "exile",
+        "immigrant"
+      ],
+      "antonyms": [
+        "citizen",
+        "native"
+      ],
+      "collocations": [
+        "expatriate community",
+        "expatriate worker",
+        "American expatriate"
+      ],
+      "wordFamily": [
+        "expatriate (v)",
+        "expatriation (n)"
+      ],
+      "coreMeaning": "فردی که در خارج از وطن زندگی می‌کند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "brain drain",
+      "translation": "فرار مغزها",
+      "ipa": "/ˈbreɪn dreɪn/",
+      "partOfSpeech": "noun",
+      "example": "The brain drain is a major challenge for developing countries.",
+      "definitions": [
+        "the emigration of highly trained or intelligent people from a country"
+      ],
+      "synonyms": [
+        "talent flight",
+        "human capital flight",
+        "intellectual emigration"
+      ],
+      "antonyms": [
+        "brain gain"
+      ],
+      "collocations": [
+        "suffer brain drain",
+        "brain drain problem",
+        "reverse brain drain"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مهاجرت نخبگان و متخصصان از کشور",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "remittance",
+      "translation": "حواله، ارسال پول",
+      "ipa": "/rɪˈmɪtəns/",
+      "partOfSpeech": "noun",
+      "example": "Remittances from workers abroad are a vital source of income for many families.",
+      "definitions": [
+        "money sent to someone in another country, especially by a worker"
+      ],
+      "synonyms": [
+        "transfer",
+        "payment",
+        "wire transfer"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "send remittances",
+        "remittance payments",
+        "remittance flows"
+      ],
+      "wordFamily": [
+        "remit (v)"
+      ],
+      "coreMeaning": "ارسال پول به خانواده در کشور دیگر",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "open border",
+      "translation": "مرز باز",
+      "ipa": "/ˌoʊpən ˈbɔːrdər/",
+      "partOfSpeech": "noun",
+      "example": "Advocates of open borders argue that freedom of movement is a fundamental right.",
+      "definitions": [
+        "a border that allows free movement of people between countries"
+      ],
+      "synonyms": [
+        "free movement",
+        "unrestricted border"
+      ],
+      "antonyms": [
+        "closed border",
+        "border control"
+      ],
+      "collocations": [
+        "open border policy",
+        "advocate open borders",
+        "open border agreement"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "مرزی که عبور و مرور آزاد باشد",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "border control",
+      "translation": "کنترل مرزی",
+      "ipa": "/ˈbɔːrdər kənˈtroʊl/",
+      "partOfSpeech": "noun",
+      "example": "Border control measures have been tightened in response to security concerns.",
+      "definitions": [
+        "measures taken by a government to regulate and monitor its borders"
+      ],
+      "synonyms": [
+        "border security",
+        "immigration control",
+        "border patrol"
+      ],
+      "antonyms": [
+        "open borders"
+      ],
+      "collocations": [
+        "tighten border control",
+        "border control measures",
+        "border control agency"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "نظارت و کنترل رفت‌وآمد در مرزها",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "conscientious objector",
+      "translation": "معترض وجدانی",
+      "ipa": "/ˌkɒnʃiˈenʃəs əbˈdʒektər/",
+      "partOfSpeech": "noun",
+      "example": "He applied for status as a conscientious objector to avoid military service.",
+      "definitions": [
+        "a person who refuses to serve in the armed forces for moral or religious reasons"
+      ],
+      "synonyms": [
+        "draft resister",
+        "pacifist"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "conscientious objector status",
+        "claim conscientious objection",
+        "conscientious objector rights"
+      ],
+      "wordFamily": [
+        "conscientious objection (n)"
+      ],
+      "coreMeaning": "کسی که به دلایل اخیری خدمت سربازی را رد می‌کند",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "gerontocracy",
+      "translation": "حکومت سالمندان، پیرسالاری",
+      "ipa": "/ˌdʒerənˈtɒkrəsi/",
+      "partOfSpeech": "noun",
+      "example": "Critics describe the ruling party as a gerontocracy out of touch with younger generations.",
+      "definitions": [
+        "a government ruled by elderly people"
+      ],
+      "synonyms": [
+        "elder rule",
+        "rule by the old"
+      ],
+      "antonyms": [
+        "youth-led government"
+      ],
+      "collocations": [
+        "political gerontocracy",
+        "gerontocratic system",
+        "gerontocratic elite"
+      ],
+      "wordFamily": [
+        "gerontocratic (adj)"
+      ],
+      "coreMeaning": "حکومت توسط افراد مسن",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "bicameral",
+      "translation": "دو مجلسی",
+      "ipa": "/baɪˈkæmərəl/",
+      "partOfSpeech": "adjective",
+      "example": "The United States has a bicameral legislature consisting of the Senate and the House.",
+      "definitions": [
+        "having two legislative chambers"
+      ],
+      "synonyms": [
+        "two-chambered",
+        "dual-house"
+      ],
+      "antonyms": [
+        "unicameral"
+      ],
+      "collocations": [
+        "bicameral legislature",
+        "bicameral system",
+        "bicameral parliament"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "دارای دو مجلس قانون‌گذاری",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    },
+    {
+      "word": "unicameral",
+      "translation": "تک مجلسی",
+      "ipa": "/ˌjuːnɪˈkæmərəl/",
+      "partOfSpeech": "adjective",
+      "example": "New Zealand has a unicameral parliament with a single legislative chamber.",
+      "definitions": [
+        "having a single legislative chamber"
+      ],
+      "synonyms": [
+        "single-chambered",
+        "one-house"
+      ],
+      "antonyms": [
+        "bicameral"
+      ],
+      "collocations": [
+        "unicameral legislature",
+        "unicameral system",
+        "unicameral parliament"
+      ],
+      "wordFamily": [],
+      "coreMeaning": "دارای یک مجلس قانون‌گذاری",
+      "note": "",
+      "trap": "",
+      "tags": [
+        "B2",
+        "politics"
+      ]
+    }
+  ]
+}
