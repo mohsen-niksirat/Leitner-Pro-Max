@@ -187,6 +187,27 @@ return`<div class="card" style="margin-bottom:16px"><h3 style="margin-bottom:12p
     <div id="custom-pack-status" style="margin-top:8px;font-size:.82rem"></div>
   </div>
 </div>
+
+<!-- ═══ CEFR VOCABULARY PACKS SECTION ═══ -->
+<div class="card" style="margin-bottom:16px;border:2px solid var(--accent);background:linear-gradient(135deg,rgba(108,92,231,.08),rgba(162,155,254,.04))">
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+    <div style="font-size:2rem">🎯</div>
+    <div>
+      <h3 style="margin:0;color:var(--accent)">📚 بسته‌های واژگان CEFR</h3>
+      <p style="color:var(--text2);font-size:.82rem;margin:0">مجموعه کامل واژگان از سطح مبتدی (A1) تا ماهر (C2)</p>
+    </div>
+  </div>
+  <div style="display:flex;gap:8px;margin:12px 0;flex-wrap:wrap">
+    <div style="display:flex;align-items:center;gap:4px;font-size:.72rem;background:rgba(46,204,113,.15);padding:4px 8px;border-radius:6px;color:#2ecc71"><span>🌱</span>A1</div>
+    <div style="display:flex;align-items:center;gap:4px;font-size:.72rem;background:rgba(52,152,219,.15);padding:4px 8px;border-radius:6px;color:#3498db"><span>🌿</span>A2</div>
+    <div style="display:flex;align-items:center;gap:4px;font-size:.72rem;background:rgba(230,126,34,.15);padding:4px 8px;border-radius:6px;color:#e67e22"><span>🌳</span>B1</div>
+    <div style="display:flex;align-items:center;gap:4px;font-size:.72rem;background:rgba(155,89,182,.15);padding:4px 8px;border-radius:6px;color:#9b59b6"><span>🌲</span>B2</div>
+    <div style="display:flex;align-items:center;gap:4px;font-size:.72rem;background:rgba(231,76,60,.15);padding:4px 8px;border-radius:6px;color:#e74c3c"><span>🏔️</span>C1</div>
+    <div style="display:flex;align-items:center;gap:4px;font-size:.72rem;background:rgba(241,196,15,.15);padding:4px 8px;border-radius:6px;color:#f1c40f"><span>👑</span>C2</div>
+  </div>
+  <div style="font-size:.75rem;color:var(--text3);margin-bottom:16px">총 ۴,۵۰۰ واژه در ۲۸ بسته — روی هر سطح کلیک کنید تا بسته‌ها نمایش داده شوند</div>
+  <div id="cefr-packs-grid"></div>
+</div>
 <div class="card" style="margin-bottom:16px"><h3 style="margin-bottom:12px;color:var(--accent)">⚡ افزودن سریع کلمات</h3><p style="color:var(--text2);font-size:.85rem;margin-bottom:12px">کلمات را هر خط یکی وارد کنید (فرمت: word یا word=ترجمه)</p><textarea id="quickImportText" class="input" rows="4" placeholder="hello=سلام&#10;world=دنیا&#10;book&#10;water=آب" style="width:100%;resize:vertical;font-family:monospace"></textarea><div style="display:flex;gap:8px;margin-top:10px"><button type="button" class="btn btn-primary btn-sm" id="quickImportBtn">افزودن کلمات</button><button type="button" class="btn btn-ghost btn-sm" id="quickImportClearBtn">پاک کردن</button></div><div id="quickImportResult" style="margin-top:10px"></div></div></div>`}
 
 function renderSelectableTextSection(){
