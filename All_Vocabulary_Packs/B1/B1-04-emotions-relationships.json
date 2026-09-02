@@ -1135,79 +1135,6 @@
       ]
     },
     {
-      "word": "conflict",
-      "translation": "تعارض، اختلاف",
-      "ipa": "/ˈkɒnflɪkt/",
-      "partOfSpeech": "noun",
-      "example": "There was a conflict between the two coworkers.",
-      "definitions": [
-        "a serious disagreement or argument; a clash between opposing forces"
-      ],
-      "synonyms": [
-        "dispute",
-        "clash",
-        "disagreement"
-      ],
-      "antonyms": [
-        "agreement",
-        "harmony",
-        "peace"
-      ],
-      "collocations": [
-        "resolve a conflict",
-        "conflict with",
-        "inner conflict"
-      ],
-      "wordFamily": [
-        "conflict (n/v)",
-        "conflicting (adj)"
-      ],
-      "coreMeaning": "اختلاف نظر یا تقابل بین دو طرف",
-      "note": "conflict هم اسم و هم فعل است؛ تلفظ متفاوت: noun=/ˈkɒnflɪkt/ verb=/kənˈflɪkt/",
-      "trap": "تفاوت تلفظ اسم و فعل را یاد بگیرید: stress روی هجای اول (اسم) vs دوم (فعل)",
-      "tags": [
-        "B1",
-        "relationships",
-        "psychology"
-      ]
-    },
-    {
-      "word": "compromise",
-      "translation": "مصالحه، سازش",
-      "ipa": "/ˈkɒmprəmaɪz/",
-      "partOfSpeech": "noun/verb",
-      "example": "They reached a compromise after hours of negotiation.",
-      "definitions": [
-        "an agreement by which each side gives up something; to settle by mutual concession"
-      ],
-      "synonyms": [
-        "settlement",
-        "concession",
-        "agreement"
-      ],
-      "antonyms": [
-        "disagreement",
-        "stubbornness",
-        "inflexibility"
-      ],
-      "collocations": [
-        "reach a compromise",
-        "make a compromise",
-        "willing to compromise"
-      ],
-      "wordFamily": [
-        "compromise (n/v)"
-      ],
-      "coreMeaning": "توافق از طریق کوتاه آمدن هر دو طرف",
-      "note": "compromise در روابط ضروری است اما نباید همیشه یک طرف کوتاه بیاید",
-      "trap": "با comprise (شامل بودن) اشتباه نگیرید",
-      "tags": [
-        "B1",
-        "relationships",
-        "psychology"
-      ]
-    },
-    {
       "word": "intimacy",
       "translation": "صمیمیت، نزدیکی",
       "ipa": "/ˈɪntɪməsi/",
@@ -1242,71 +1169,6 @@
         "B1",
         "relationships",
         "emotions"
-      ]
-    },
-    {
-      "word": "behavior",
-      "translation": "رفتار",
-      "ipa": "/bɪˈheɪvjər/",
-      "partOfSpeech": "noun",
-      "example": "His behavior at the meeting was unacceptable.",
-      "definitions": [
-        "the way in which one acts or conducts oneself"
-      ],
-      "synonyms": [
-        "conduct",
-        "manner",
-        "actions"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "good behavior",
-        "behavior pattern",
-        "change behavior"
-      ],
-      "wordFamily": [
-        "behave (v)",
-        "behavioral (adj)"
-      ],
-      "coreMeaning": "نحوه عملکرد و رفتار یک فرد",
-      "note": "در انگلیسی بریتانیسی behaviour نوشته می‌شود",
-      "trap": "املای آمریکایی behavior بدون u است؛ بریتانیسی behaviour با u",
-      "tags": [
-        "B1",
-        "psychology",
-        "personality"
-      ]
-    },
-    {
-      "word": "attitude",
-      "translation": "نگرش، طرز فکر",
-      "ipa": "/ˈætɪtuːd/",
-      "partOfSpeech": "noun",
-      "example": "She has a positive attitude toward life.",
-      "definitions": [
-        "a settled way of thinking or feeling about something"
-      ],
-      "synonyms": [
-        "outlook",
-        "mindset",
-        "disposition"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "positive attitude",
-        "change attitude",
-        "attitude toward"
-      ],
-      "wordFamily": [
-        "attitudinal (adj)"
-      ],
-      "coreMeaning": "نگرش و طرز فکر فرد نسبت به موضوعات",
-      "note": "attitude toward (آمریکایی) / attitude towards (بریتانیایی)",
-      "trap": "با altitude (ارتفاع) اشتباه نگیرید؛ تلفظ مشابه ولی معنا متفاوت",
-      "tags": [
-        "B1",
-        "psychology",
-        "personality"
       ]
     },
     {
@@ -2716,43 +2578,6 @@
       ]
     },
     {
-      "word": "integrity",
-      "translation": "صداقت، درستکاری",
-      "ipa": "/ɪnˈtɛɡrəti/",
-      "partOfSpeech": "noun",
-      "example": "He is a man of integrity who always keeps his promises.",
-      "definitions": [
-        "the quality of being honest and having strong moral principles"
-      ],
-      "synonyms": [
-        "honesty",
-        "uprightness",
-        "honor"
-      ],
-      "antonyms": [
-        "dishonesty",
-        "corruption",
-        "deceit"
-      ],
-      "collocations": [
-        "personal integrity",
-        "lack integrity",
-        "man of integrity"
-      ],
-      "wordFamily": [
-        "integral (adj)",
-        "integrate (v)"
-      ],
-      "coreMeaning": "پایبندی به اصول اخلاقی و صداقت در همه شرایط",
-      "note": "integrity یعنی وقتی کسی نگاه نمی‌کند هم درست عمل کنید",
-      "trap": "با integration (ادغام) اشتباه نگیرید؛ integrity صداقت است",
-      "tags": [
-        "B1",
-        "personality",
-        "psychology"
-      ]
-    },
-    {
       "word": "dignity",
       "translation": "وقار، شرافت",
       "ipa": "/ˈdɪɡnəti/",
@@ -2864,44 +2689,6 @@
         "B1",
         "personality",
         "emotions"
-      ]
-    },
-    {
-      "word": "tolerance",
-      "translation": "مدارا، تحمل",
-      "ipa": "/ˈtɒlərəns/",
-      "partOfSpeech": "noun",
-      "example": "We should show tolerance toward people with different beliefs.",
-      "definitions": [
-        "the ability or willingness to tolerate something"
-      ],
-      "synonyms": [
-        "acceptance",
-        "open-mindedness",
-        "forbearance"
-      ],
-      "antonyms": [
-        "intolerance",
-        "prejudice",
-        "bigotry"
-      ],
-      "collocations": [
-        "show tolerance",
-        "zero tolerance",
-        "tolerance for"
-      ],
-      "wordFamily": [
-        "tolerate (v)",
-        "tolerant (adj)",
-        "intolerant (adj)"
-      ],
-      "coreMeaning": "پذیرش و تحمل نظرات و رفتارهای متفاوت",
-      "note": "zero tolerance = سیاست عدم تحمل — اصطلاح سیاسی و اجتماعی",
-      "trap": "با tolerance (مدارا) و tolerance (تحمل دارو) دو معنای متفاوت دارد",
-      "tags": [
-        "B1",
-        "personality",
-        "psychology"
       ]
     },
     {
@@ -3356,12 +3143,6 @@
       "partOfSpeech": "noun"
     },
     {
-      "word": "love",
-      "translation": "عشق",
-      "example": "Love conquers all.",
-      "partOfSpeech": "noun"
-    },
-    {
       "word": "misery",
       "translation": "بیچارگی",
       "example": "He lived in misery.",
@@ -3758,12 +3539,6 @@
       "partOfSpeech": "noun"
     },
     {
-      "word": "solidarity",
-      "translation": "همبستگی",
-      "example": "They showed solidarity with the cause.",
-      "partOfSpeech": "noun"
-    },
-    {
       "word": "stoicism",
       "translation": ".maskari",
       "example": "His stoicism was admirable.",
@@ -3906,6 +3681,79 @@
       "translation": "آشوب",
       "example": "The tumult of emotions was overwhelming.",
       "partOfSpeech": "noun"
+    },
+    {
+      "word": "furious",
+      "translation": "خشمگین",
+      "example": "She was furious about the delay.",
+      "synonyms": [],
+      "tags": [
+        "B1-04"
+      ]
+    },
+    {
+      "word": "bittersweet",
+      "translation": "تلخ و شیرین",
+      "example": "The farewell was bittersweet.",
+      "synonyms": [],
+      "tags": [
+        "B1-04"
+      ]
+    },
+    {
+      "word": "tranquility",
+      "translation": "آرامش",
+      "example": "Tranquility is rare in cities.",
+      "synonyms": [],
+      "tags": [
+        "B1-04"
+      ]
+    },
+    {
+      "word": "hope",
+      "translation": "امید",
+      "example": "Hope keeps us moving forward.",
+      "synonyms": [],
+      "tags": [
+        "B1-04"
+      ]
+    },
+    {
+      "word": "dread",
+      "translation": "ترس و انتظار",
+      "example": "Dread filled his heart.",
+      "synonyms": [],
+      "tags": [
+        "B1-04"
+      ]
+    },
+    {
+      "word": "restlessness",
+      "translation": "بی‌قراری",
+      "example": "Restlessness kept him awake.",
+      "synonyms": [],
+      "tags": [
+        "B1-04"
+      ]
+    },
+    {
+      "word": "concern",
+      "translation": "نگرانی",
+      "example": "Concern for others is natural.",
+      "synonyms": [],
+      "tags": [
+        "B1-04"
+      ]
+    },
+    {
+      "word": "serenity",
+      "translation": "آرامش",
+      "example": "She found serenity in nature.",
+      "synonyms": [],
+      "tags": [
+        "B1-04"
+      ]
     }
-  ]
+  ],
+  "id": "B1-04"
 }

@@ -726,18 +726,6 @@
       ]
     },
     {
-      "word": "go the extra mile",
-      "translation": "بیشتر تلاش کردن",
-      "example": "She went the extra mile.",
-      "synonyms": [
-        "exceed expectations",
-        "do more"
-      ],
-      "tags": [
-        "idiom"
-      ]
-    },
-    {
       "word": "kill time",
       "translation": "وقت تلف کردن",
       "example": "I killed time waiting.",
@@ -2404,6 +2392,16 @@
       "tags": [
         "colloquial"
       ]
+    },
+    {
+      "word": "costs an arm and a leg",
+      "translation": "خیلی گران بودن",
+      "example": "That jacket cost an arm and a leg.",
+      "synonyms": [],
+      "tags": [
+        "C2-02"
+      ]
     }
-  ]
+  ],
+  "packId": "C2-02"
 }

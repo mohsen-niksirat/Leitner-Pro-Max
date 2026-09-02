@@ -6,75 +6,6 @@
   "packId": "B2-01",
   "words": [
     {
-      "word": "hypothesis",
-      "translation": "فرضیه",
-      "ipa": "/haɪˈpɑːθəsɪs/",
-      "partOfSpeech": "noun",
-      "example": "The hypothesis was tested through a series of controlled experiments.",
-      "definitions": [
-        "a proposed explanation made on the basis of limited evidence, used as a starting point for investigation"
-      ],
-      "synonyms": [
-        "theory",
-        "assumption",
-        "proposition"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "test a hypothesis",
-        "formulate a hypothesis",
-        "support a hypothesis"
-      ],
-      "wordFamily": [
-        "hypothetical (adj)",
-        "hypothesize (v)",
-        "hypothetically (adv)"
-      ],
-      "coreMeaning": "پیشنهاد توضیح برای پدیده‌ای که هنوز اثبات نشده",
-      "note": "جمع: hypotheses — در مقالات علمی نقطه شروع تحقیق است",
-      "trap": "با hypothesis (noun) و hypothetical (adj) اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
-      "word": "thesis",
-      "translation": "پایان‌نامه / تز",
-      "ipa": "/ˈθiːsɪs/",
-      "partOfSpeech": "noun",
-      "example": "She submitted her doctoral thesis on renewable energy systems.",
-      "definitions": [
-        "a long essay or dissertation involving personal research",
-        "a statement or theory put forward to be maintained or proved"
-      ],
-      "synonyms": [
-        "dissertation",
-        "argument",
-        "proposition"
-      ],
-      "antonyms": [
-        "antithesis"
-      ],
-      "collocations": [
-        "submit a thesis",
-        "defend a thesis",
-        "write a thesis"
-      ],
-      "wordFamily": [
-        "thesis (n)",
-        "antithesis (n)",
-        "synthesize (v)"
-      ],
-      "coreMeaning": "پایان‌نامه یا ادعای اصلی مقاله",
-      "note": "جمع: theses — هم به معنای پایان‌نامه و هم ادعای اصلی مقاله است",
-      "trap": "thesis (تز) با theme (موضوع) فرق دارد",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
       "word": "argumentation",
       "translation": "استدلال‌آوری",
       "ipa": "/ˌɑːrɡjumenˈteɪʃn/",
@@ -102,39 +33,6 @@
       "coreMeaning": "فرآیند ارائه استدلال منظم و منطقی",
       "note": "در نوشتن آکادمیک مهارتی ضروری است",
       "trap": "با argument (بحث/جدل) که بار منفی دارد اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
-      "word": "methodology",
-      "translation": "روش‌شناسی",
-      "ipa": "/ˌmeθəˈdɑːlədʒi/",
-      "partOfSpeech": "noun",
-      "example": "The research methodology included both qualitative and quantitative approaches.",
-      "definitions": [
-        "a system of methods used in a particular area of study or activity"
-      ],
-      "synonyms": [
-        "approach",
-        "procedure",
-        "framework"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "research methodology",
-        "adopt a methodology",
-        "describe the methodology"
-      ],
-      "wordFamily": [
-        "method (n)",
-        "methodological (adj)",
-        "methodologically (adv)"
-      ],
-      "coreMeaning": "مجموعه روش‌های سیستماتیک برای انجام تحقیق",
-      "note": "بخش مهمی از هر مقاله تحقیقی است",
-      "trap": "methodology (روش‌شناسی) با method (روش) فرق دارد — methodology کلی‌تر است",
       "tags": [
         "B2",
         "academic"
@@ -262,41 +160,6 @@
       "coreMeaning": "بررسی و ارزیابی مقاله توسط متخصصان همان حوزه",
       "note": "مقالات peer-reviewed اعتبار بیشتری دارند",
       "trap": "peer review فقط مختص علم نیست — در ادبیات و هنر هم کاربرد دارد",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
-      "word": "empirical",
-      "translation": "تجربی",
-      "ipa": "/ɪmˈpɪrɪkl/",
-      "partOfSpeech": "adj",
-      "example": "The study provides empirical evidence for the effectiveness of the treatment.",
-      "definitions": [
-        "based on observation or experience rather than theory or pure logic"
-      ],
-      "synonyms": [
-        "experimental",
-        "observational",
-        "practical"
-      ],
-      "antonyms": [
-        "theoretical",
-        "hypothetical"
-      ],
-      "collocations": [
-        "empirical evidence",
-        "empirical research",
-        "empirical data"
-      ],
-      "wordFamily": [
-        "empirically (adv)",
-        "empiricism (n)"
-      ],
-      "coreMeaning": "مبتنی بر مشاهده و تجربه واقعی",
-      "note": "در مقابل theoretical قرار دارد",
-      "trap": "empirical (تجربی) با imperial (امپراتوری) اشتباه نگیرید",
       "tags": [
         "B2",
         "academic"
@@ -538,41 +401,6 @@
       ]
     },
     {
-      "word": "variable",
-      "translation": "متغیر",
-      "ipa": "/ˈveriəbl/",
-      "partOfSpeech": "noun",
-      "example": "The independent variable was manipulated to observe its effect.",
-      "definitions": [
-        "a factor or element that can change or be changed in an experiment or analysis"
-      ],
-      "synonyms": [
-        "factor",
-        "element",
-        "parameter"
-      ],
-      "antonyms": [
-        "constant"
-      ],
-      "collocations": [
-        "independent variable",
-        "dependent variable",
-        "control variable"
-      ],
-      "wordFamily": [
-        "vary (v)",
-        "variable (n/adj)",
-        "variation (n)"
-      ],
-      "coreMeaning": "عاملی که می‌تواند تغییر کند یا تغییر داده شود",
-      "note": "در تحقیق: متغیر مستقل، وابسته و کنترل",
-      "trap": "variable به عنوان اسم و صفت کاربرد متفاوت دارد",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
       "word": "longitudinal",
       "translation": "طولی (در طول زمان)",
       "ipa": "/ˌlɑːndʒɪˈtuːdɪnl/",
@@ -667,101 +495,6 @@
       "coreMeaning": "بیان مجدد مطلب با کلمات متفاوت",
       "note": "در نوشتن آکادمیک برای جلوگیری از سرقت ادبی ضروری است",
       "trap": "paraphrase (بازنویسی) با summarize (خلاصه‌نویسی) فرق دارد",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
-      "word": "plagiarism",
-      "translation": "سرقت ادبی",
-      "ipa": "/ˈpleɪdʒərɪzəm/",
-      "partOfSpeech": "noun",
-      "example": "Plagiarism can result in expulsion from the university.",
-      "definitions": [
-        "the practice of taking someone else's work and presenting it as your own"
-      ],
-      "synonyms": [
-        "copying",
-        "theft",
-        "piracy"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "commit plagiarism",
-        "accusation of plagiarism",
-        "avoid plagiarism"
-      ],
-      "wordFamily": [
-        "plagiarize (v)",
-        "plagiarist (n)"
-      ],
-      "coreMeaning": "استفاده از اثر دیگران بدون ذکر منبع",
-      "note": "در محیط آکادمیک جرم محسوب می‌شود",
-      "trap": "plagiarism حتی شامل ایده‌ها هم می‌شود، نه فقط متن",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
-      "word": "discourse",
-      "translation": "گفتمان",
-      "ipa": "/ˈdɪskɔːrs/",
-      "partOfSpeech": "noun",
-      "example": "Academic discourse requires formal language and structured arguments.",
-      "definitions": [
-        "written or spoken communication; formal discussion of a topic"
-      ],
-      "synonyms": [
-        "discussion",
-        "dialogue",
-        "debate"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "academic discourse",
-        "public discourse",
-        "discourse analysis"
-      ],
-      "wordFamily": [
-        "discourse (n)",
-        "discursive (adj)"
-      ],
-      "coreMeaning": "تبادل نظر رسمی یا نوشتاری درباره یک موضوع",
-      "note": "تحلیل گفتمان یک روش تحقیق مهم است",
-      "trap": "discourse (گفتمان) با discussion (بحث) تفاوت رسمیت دارد",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "translation": "الگوی فکری / پارادایم",
-      "ipa": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "example": "The discovery led to a paradigm shift in modern physics.",
-      "definitions": [
-        "a typical example or pattern of something; a model or framework"
-      ],
-      "synonyms": [
-        "model",
-        "framework",
-        "pattern"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "paradigm shift",
-        "new paradigm",
-        "dominant paradigm"
-      ],
-      "wordFamily": [
-        "paradigmatic (adj)"
-      ],
-      "coreMeaning": "مدل یا چارچوب فکری غالب در یک حوزه",
-      "note": "paradigm shift = تغییر اساسی در نحوه تفکر",
-      "trap": "paradigm با حرف g تلفظ می‌شود: /ˈpærədaɪm/",
       "tags": [
         "B2",
         "academic"
@@ -1081,41 +814,6 @@
       ]
     },
     {
-      "word": "elaborate",
-      "translation": "توضیح دادن / مفصل",
-      "ipa": "/ɪˈlæbəreɪt/",
-      "partOfSpeech": "verb",
-      "example": "Could you elaborate on your second point?",
-      "definitions": [
-        "to develop or present in detail"
-      ],
-      "synonyms": [
-        "expand",
-        "detail",
-        "develop"
-      ],
-      "antonyms": [
-        "simplify",
-        "abbreviate"
-      ],
-      "collocations": [
-        "elaborate on a point",
-        "elaborate further",
-        "elaborate explanation"
-      ],
-      "wordFamily": [
-        "elaborate (v/adj)",
-        "elaboration (n)"
-      ],
-      "coreMeaning": "ارائه جزئیات بیشتر درباره یک موضوع",
-      "note": "به عنوان فعل: توضیح دادن — به عنوان صفت: پیچیده و مفصل",
-      "trap": "elaborate فعل /ɪˈlæbəreɪt/ و صفت /ɪˈlæbərət/ تلفظ متفاوت دارند",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
       "word": "substantiate",
       "translation": "مستند کردن / اثبات کردن",
       "ipa": "/səbˈstænʃieɪt/",
@@ -1251,41 +949,6 @@
       "coreMeaning": "پیامد یا نتیجه ضمنی یک موضوع",
       "note": "در بخش نتیجه‌گیری مقالات آکادمیک بسیار مهم است",
       "trap": "implication (پیامد) با application (درخواست/کاربرد) اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
-      "word": "connotation",
-      "translation": "بار معنایی / دلالت ضمنی",
-      "ipa": "/ˌkɑːnəˈteɪʃn/",
-      "partOfSpeech": "noun",
-      "example": "The word 'cheap' has negative connotations compared to 'affordable'.",
-      "definitions": [
-        "an idea or feeling that a word invokes in addition to its literal meaning"
-      ],
-      "synonyms": [
-        "association",
-        "implication",
-        "undertone"
-      ],
-      "antonyms": [
-        "denotation"
-      ],
-      "collocations": [
-        "negative connotation",
-        "positive connotation",
-        "cultural connotation"
-      ],
-      "wordFamily": [
-        "connote (v)",
-        "connotation (n)",
-        "connotative (adj)"
-      ],
-      "coreMeaning": "معنای ضمنی و احساسی یک کلمه فراتر از معنای اصلی",
-      "note": "در مقابل denotation (معنای تحت‌اللفظی) قرار دارد",
-      "trap": "connotation (بار معنایی) با denotation (معنای لفظی) فرق دارد",
       "tags": [
         "B2",
         "academic"
@@ -1689,105 +1352,6 @@
       ]
     },
     {
-      "word": "heuristic",
-      "translation": "کاوشگرانه / ابتکاری",
-      "ipa": "/hjʊˈrɪstɪk/",
-      "partOfSpeech": "adj",
-      "example": "The teacher used a heuristic approach to encourage independent thinking.",
-      "definitions": [
-        "enabling a person to discover or learn something for themselves through trial and error"
-      ],
-      "synonyms": [
-        "exploratory",
-        "investigative",
-        "trial-and-error"
-      ],
-      "antonyms": [
-        "algorithmic"
-      ],
-      "collocations": [
-        "heuristic method",
-        "heuristic approach",
-        "heuristic learning"
-      ],
-      "wordFamily": [
-        "heuristic (adj/n)",
-        "heuristically (adv)"
-      ],
-      "coreMeaning": "روش یادگیری از طریق آزمون و خطا و کاوش",
-      "note": "در مقابل algorithmic (الگوریتمی) قرار دارد",
-      "trap": "heuristic (کاوشگرانه) با hermetic (محکم بسته) اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
-      "word": "pedagogy",
-      "translation": "روش‌شناسی تدریس / پداگوژی",
-      "ipa": "/ˈpedəɡɑːdʒi/",
-      "partOfSpeech": "noun",
-      "example": "Modern pedagogy emphasizes student-centered learning.",
-      "definitions": [
-        "the method and practice of teaching, especially as an academic subject"
-      ],
-      "synonyms": [
-        "teaching",
-        "instruction",
-        "education"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "pedagogy of teaching",
-        "critical pedagogy",
-        "effective pedagogy"
-      ],
-      "wordFamily": [
-        "pedagogy (n)",
-        "pedagogical (adj)",
-        "pedagogically (adv)"
-      ],
-      "coreMeaning": "علم و روش تدریس",
-      "note": "از ریشه یونانی paidagogos به معنای معلم",
-      "trap": "pedagogy (روش تدریس) با pediatrics (طب کودکان) اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
-      "word": "curriculum",
-      "translation": "برنامه درسی",
-      "ipa": "/kəˈrɪkjələm/",
-      "partOfSpeech": "noun",
-      "example": "The school revised its curriculum to include more critical thinking skills.",
-      "definitions": [
-        "the subjects comprising a course of study in a school or college"
-      ],
-      "synonyms": [
-        "syllabus",
-        "program",
-        "coursework"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "school curriculum",
-        "design a curriculum",
-        "national curriculum"
-      ],
-      "wordFamily": [
-        "curriculum (n)",
-        "curricular (adj)"
-      ],
-      "coreMeaning": "مجموعه دروس و محتوای آموزشی یک دوره",
-      "note": "جمع: curricula یا curriculums",
-      "trap": "curriculum (برنامه درسی) با extracurricular (فرا برنامه‌ای) مرتبط‌اند",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
       "word": "pedagogical",
       "translation": "آموزشی / تدریسی",
       "ipa": "/ˌpedəˈɡɑːdʒɪkl/",
@@ -1956,42 +1520,6 @@
       ]
     },
     {
-      "word": "rigorous",
-      "translation": "سخت‌گیرانه / دقیق",
-      "ipa": "/ˈrɪɡərəs/",
-      "partOfSpeech": "adj",
-      "example": "The study followed a rigorous methodology to ensure accuracy.",
-      "definitions": [
-        "extremely thorough, exhaustive, or accurate"
-      ],
-      "synonyms": [
-        "strict",
-        "thorough",
-        "meticulous"
-      ],
-      "antonyms": [
-        "lax",
-        "lenient"
-      ],
-      "collocations": [
-        "rigorous analysis",
-        "rigorous methodology",
-        "rigorous testing"
-      ],
-      "wordFamily": [
-        "rigor (n)",
-        "rigorous (adj)",
-        "rigorously (adv)"
-      ],
-      "coreMeaning": "بسیار دقیق و سخت‌گیرانه",
-      "note": "در تحقیقات علمی کیفیت بالا ضروری است",
-      "trap": "rigorous (دقیق) با vigorous (پرانرژی) اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
       "word": "robust",
       "translation": "مستحکم / قوی",
       "ipa": "/roʊˈbʌst/",
@@ -2022,38 +1550,6 @@
       "coreMeaning": "محکم و مقاوم در برابر انتقاد",
       "note": "در تحقیقات به معنای نتایج قابل اعتماد است",
       "trap": "robust (مستحکم) با rustic (روستایی) اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
-      "word": "nuance",
-      "translation": "ظرافت / تفاوت ظریف",
-      "ipa": "/ˈnuːɑːns/",
-      "partOfSpeech": "noun",
-      "example": "The essay demonstrates a nuanced understanding of the topic.",
-      "definitions": [
-        "a subtle difference in or shade of meaning, expression, or sound"
-      ],
-      "synonyms": [
-        "subtlety",
-        "shade",
-        "distinction"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "subtle nuance",
-        "nuanced argument",
-        "understand the nuances"
-      ],
-      "wordFamily": [
-        "nuance (n)",
-        "nuanced (adj)"
-      ],
-      "coreMeaning": "تفاوت ظریف و دقیق در معنا یا بیان",
-      "note": "نوشتن آکادمیک خوب نیازمند درک ظرافت‌هاست",
-      "trap": "nuance (ظرافت) با annoyance (آزار) تلفظ متفاوت دارد",
       "tags": [
         "B2",
         "academic"
@@ -2125,41 +1621,6 @@
       "coreMeaning": "بیان واضح و بدون ابهام",
       "note": "در مقابل implicit (ضمنی) قرار دارد",
       "trap": "explicit (صریح) با implicit (ضمنی) متضاد هستند",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
-      "word": "implicit",
-      "translation": "ضمنی / ناگفته",
-      "ipa": "/ɪmˈplɪsɪt/",
-      "partOfSpeech": "adj",
-      "example": "There was an implicit assumption that all participants agreed.",
-      "definitions": [
-        "implied though not plainly expressed; absolute and unquestioning"
-      ],
-      "synonyms": [
-        "implied",
-        "unspoken",
-        "tacit"
-      ],
-      "antonyms": [
-        "explicit"
-      ],
-      "collocations": [
-        "implicit meaning",
-        "implicit assumption",
-        "implicit bias"
-      ],
-      "wordFamily": [
-        "implicit (adj)",
-        "implicitly (adv)",
-        "implicate (v)"
-      ],
-      "coreMeaning": "بیان‌نشده ولی قابل درک از متن",
-      "note": "implicit bias = تعصب ناخودآگاه",
-      "trap": "implicit (ضمنی) با explicit (صریح) متضاد هستند",
       "tags": [
         "B2",
         "academic"
@@ -2594,35 +2055,6 @@
       "coreMeaning": "ارسال مقاله به مجله",
       "note": "در فرآیند انتشار مهم است",
       "trap": "submission با submission اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "academic"
-      ]
-    },
-    {
-      "word": "revision",
-      "translation": "بازنگری",
-      "ipa": "/rɪˈvɪʒən/",
-      "partOfSpeech": "noun",
-      "example": "The paper underwent several revisions.",
-      "definitions": [
-        "the act of revising"
-      ],
-      "synonyms": [
-        "amendment",
-        "alteration"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "major revision",
-        "revision process"
-      ],
-      "wordFamily": [
-        "revise (v)"
-      ],
-      "coreMeaning": "فرآیند بازبینی و اصلاح",
-      "note": "معمولاً چندین مرحله دارد",
-      "trap": "revision با vision فرق دارد",
       "tags": [
         "B2",
         "academic"
@@ -3663,47 +3095,11 @@
       ]
     },
     {
-      "word": "population",
-      "translation": "جامعه آماری",
-      "example": "The target population was defined.",
-      "synonyms": [
-        "group",
-        "cohort"
-      ],
-      "tags": [
-        "academic"
-      ]
-    },
-    {
       "word": "andragogy",
       "translation": "آموزش بزرگسالان",
       "example": "Andragogy focuses on adult learning.",
       "synonyms": [
         "adult education"
-      ],
-      "tags": [
-        "academic"
-      ]
-    },
-    {
-      "word": "cognitive",
-      "translation": "شناختی",
-      "example": "Cognitive development is crucial.",
-      "synonyms": [
-        "mental",
-        "intellectual"
-      ],
-      "tags": [
-        "academic"
-      ]
-    },
-    {
-      "word": "metacognition",
-      "translation": "فراتشخیص",
-      "example": "Metacognition enhances learning.",
-      "synonyms": [
-        "self-awareness",
-        "reflection"
       ],
       "tags": [
         "academic"
@@ -3734,42 +3130,6 @@
       ]
     },
     {
-      "word": "assessment",
-      "translation": "ارزیابی",
-      "example": "Formative assessment is ongoing.",
-      "synonyms": [
-        "evaluation",
-        "testing"
-      ],
-      "tags": [
-        "academic"
-      ]
-    },
-    {
-      "word": "portfolio",
-      "translation": "نمونه کار",
-      "example": "Students compile a portfolio.",
-      "synonyms": [
-        "collection",
-        "work samples"
-      ],
-      "tags": [
-        "academic"
-      ]
-    },
-    {
-      "word": "collaboration",
-      "translation": "همکاری",
-      "example": "Collaboration fosters learning.",
-      "synonyms": [
-        "cooperation",
-        "teamwork"
-      ],
-      "tags": [
-        "academic"
-      ]
-    },
-    {
       "word": "praxis",
       "translation": "عمل نظری",
       "example": "Theory must inform praxis.",
@@ -3788,17 +3148,6 @@
       "synonyms": [
         "being",
         "existence"
-      ],
-      "tags": [
-        "academic"
-      ]
-    },
-    {
-      "word": "epistemology",
-      "translation": "معرفت‌شناسی",
-      "example": "Epistemology examines knowledge.",
-      "synonyms": [
-        "theory of knowledge"
       ],
       "tags": [
         "academic"
@@ -4314,18 +3663,6 @@
       ]
     },
     {
-      "word": "dissertation",
-      "translation": "پایان‌نامه",
-      "example": "The dissertation was approved.",
-      "synonyms": [
-        "thesis",
-        "monograph"
-      ],
-      "tags": [
-        "academic"
-      ]
-    },
-    {
       "word": "monograph",
       "translation": "تک‌نگاشت",
       "example": "A monograph on the subject.",
@@ -4514,42 +3851,6 @@
       ]
     },
     {
-      "word": "competence",
-      "translation": "شایستگی",
-      "example": "Linguistic competence is innate.",
-      "synonyms": [
-        "ability",
-        "proficiency"
-      ],
-      "tags": [
-        "academic"
-      ]
-    },
-    {
-      "word": "performance",
-      "translation": "عملکرد",
-      "example": "Performance reflects competence.",
-      "synonyms": [
-        "execution",
-        "action"
-      ],
-      "tags": [
-        "academic"
-      ]
-    },
-    {
-      "word": "acquisition",
-      "translation": "کسب",
-      "example": "Language acquisition is natural.",
-      "synonyms": [
-        "learning",
-        "gaining"
-      ],
-      "tags": [
-        "academic"
-      ]
-    },
-    {
       "word": "interlanguage",
       "translation": "زبان میانی",
       "example": "Interlanguage develops during learning.",
@@ -4568,18 +3869,6 @@
       "synonyms": [
         "stabilization",
         "fixation"
-      ],
-      "tags": [
-        "academic"
-      ]
-    },
-    {
-      "word": "transfer",
-      "translation": "انتقال",
-      "example": "Positive transfer helps learning.",
-      "synonyms": [
-        "carryover",
-        "influence"
       ],
       "tags": [
         "academic"
@@ -4668,6 +3957,268 @@
       "tags": [
         "academic"
       ]
+    },
+    {
+      "word": "underscore",
+      "translation": "تأکید کردن",
+      "example": "The study underscores the need for reform.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "elucidate",
+      "translation": "روشن کردن",
+      "example": "The report elucidates the issues.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "caveat",
+      "translation": "هشدار",
+      "example": "A caveat is necessary here.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "plagiarize",
+      "translation": "سرقت ادبی کردن",
+      "example": "Never plagiarize someone's work.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "refutation",
+      "translation": "ردّ",
+      "example": "The refutation was convincing.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "scope",
+      "translation": "دامنه",
+      "example": "The scope of the study is broad.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "contextualize",
+      "translation": "زمینه‌مند کردن",
+      "example": "We must contextualize the findings.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "delineate",
+      "translation": "ترسیم کردن",
+      "example": "The paper delineates the boundaries.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "analogy",
+      "translation": "قیاس",
+      "example": "The analogy helped clarify the concept.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "exemplify",
+      "translation": "نمونه بودن",
+      "example": "This case exemplifies the problem.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "anecdote",
+      "translation": "حکایت",
+      "example": "He shared a personal anecdote.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "extrapolate",
+      "translation": "برون‌یابی کردن",
+      "example": "Scientists extrapolate from data.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "corroborate",
+      "translation": "تأیید کردن",
+      "example": "Evidence corroborates the claim.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "thematic",
+      "translation": "tematik",
+      "example": "The thematic analysis identified patterns.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "systematic",
+      "translation": "سیستماتیک",
+      "example": "Systematic review is the gold standard.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "epistemological",
+      "translation": "معرفت‌شناختی",
+      "example": "Epistemological questions underlie theory.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "paradigmatic",
+      "translation": "پارادایمی",
+      "example": "A paradigmatic shift occurred.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "interpretive",
+      "translation": "تفسیری",
+      "example": "An interpretive approach is needed.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "confounding",
+      "translation": "متغیر مزاحم",
+      "example": "Control for confounding variables.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "foundationalism",
+      "translation": "پایه‌گرایی",
+      "example": "Foundationalism supports empirical knowledge.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "extrapolation",
+      "translation": "برون‌یابی",
+      "example": "Extrapolation from data is risky.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "iterative",
+      "translation": "تکراری",
+      "example": "The iterative process refines results.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "ontological",
+      "translation": "هستی‌شناختی",
+      "example": "Ontological assumptions shape research.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "interpretation",
+      "translation": "تفسیر",
+      "example": "Interpretation varies by context.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "inductively",
+      "translation": "به صورت استقرایی",
+      "example": "Inductively derive the pattern.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "deductively",
+      "translation": "به صورت قیاسی",
+      "example": "Deductively test the hypothesis.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "methodological",
+      "translation": "روش‌شناختی",
+      "example": "Methodological flaws weaken studies.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "rigidity",
+      "translation": "انعطاف‌ناپذیری",
+      "example": "Rigidity blocks creative thinking.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
+    },
+    {
+      "word": "comparative",
+      "translation": "مقایسه‌ای",
+      "example": "A comparative study was conducted.",
+      "synonyms": [],
+      "tags": [
+        "B2-01"
+      ]
     }
-  ]
+  ],
+  "id": "B2-01"
 }

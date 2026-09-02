@@ -246,64 +246,6 @@
       ]
     },
     {
-      "word": "tariff",
-      "translation": "تعرفه",
-      "ipa": "/ˈtærɪf/",
-      "partOfSpeech": "noun",
-      "example": "The government imposed tariffs on imports.",
-      "definitions": [
-        "duty",
-        "tax"
-      ],
-      "synonyms": [
-        "duty"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "import tariff",
-        "tariff barrier"
-      ],
-      "wordFamily": [
-        "tariff (n)"
-      ],
-      "coreMeaning": "تعرفه گمرکی",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "economy"
-      ]
-    },
-    {
-      "word": "subsidy",
-      "translation": "یارانه",
-      "ipa": "/ˈsʌbsɪdi/",
-      "partOfSpeech": "noun",
-      "example": "Agricultural subsidies support farmers.",
-      "definitions": [
-        "financial aid"
-      ],
-      "synonyms": [
-        "grant"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "government subsidy",
-        "subsidy program"
-      ],
-      "wordFamily": [
-        "subsidize (v)",
-        "subsidy (n)"
-      ],
-      "coreMeaning": "یارانه",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "economy"
-      ]
-    },
-    {
       "word": "entrepreneurship",
       "translation": "کارآفرینی",
       "ipa": "/ˌɒntrəprəˈnɜːrʃɪp/",
@@ -1066,34 +1008,6 @@
       ]
     },
     {
-      "word": "audit",
-      "translation": "حسابرسی",
-      "ipa": "/ˈɔːdɪt/",
-      "partOfSpeech": "noun",
-      "example": "The company underwent an audit.",
-      "definitions": [
-        "examination",
-        "review"
-      ],
-      "synonyms": [],
-      "antonyms": [
-        "financial audit",
-        "audit report"
-      ],
-      "collocations": [
-        "audit (n/v)",
-        "auditor (n)"
-      ],
-      "wordFamily": "حسابرسی",
-      "coreMeaning": "",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "economy"
-      ]
-    },
-    {
       "word": "accounting",
       "translation": "حسابداری",
       "ipa": "/əˈkaʊntɪŋ/",
@@ -1823,123 +1737,6 @@
       ]
     },
     {
-      "word": "austerity",
-      "translation": "ریاضت اقتصادی",
-      "ipa": "/ɒˈstɛrɪti/",
-      "partOfSpeech": "noun",
-      "example": "Austerity measures were imposed.",
-      "definitions": [
-        "frugality",
-        "belt-tightening"
-      ],
-      "synonyms": [
-        "prosperity"
-      ],
-      "antonyms": [
-        "austerity measures",
-        "austerity program"
-      ],
-      "collocations": [
-        "austere (adj)",
-        "austerity (n)"
-      ],
-      "wordFamily": "ریاضت اقتصادی",
-      "coreMeaning": "",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "economy"
-      ]
-    },
-    {
-      "word": "privatization",
-      "translation": "خصوصی‌سازی",
-      "ipa": "/ˌpraɪvətaɪˈzeɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "Privatization of state companies continues.",
-      "definitions": [
-        "denationalization"
-      ],
-      "synonyms": [
-        "nationalization"
-      ],
-      "antonyms": [
-        "privatization of",
-        "privatization program"
-      ],
-      "collocations": [
-        "privatize (v)",
-        "private (adj)"
-      ],
-      "wordFamily": "خصوصی‌سازی",
-      "coreMeaning": "",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "economy"
-      ]
-    },
-    {
-      "word": "nationalization",
-      "translation": "ملی‌سازی",
-      "ipa": "/ˌnæʃənəlaɪˈzeɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "Nationalization of oil was controversial.",
-      "definitions": [
-        "state ownership"
-      ],
-      "synonyms": [
-        "privatization"
-      ],
-      "antonyms": [
-        "nationalization of",
-        "nationalization program"
-      ],
-      "collocations": [
-        "nationalize (v)",
-        "national (adj)"
-      ],
-      "wordFamily": "ملی‌سازی",
-      "coreMeaning": "",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "economy"
-      ]
-    },
-    {
-      "word": "deregulation",
-      "translation": "مقررات‌زدایی",
-      "ipa": "/diːˌrɛɡjʊˈleɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "Deregulation increased competition.",
-      "definitions": [
-        "removal of regulations"
-      ],
-      "synonyms": [
-        "regulation"
-      ],
-      "antonyms": [
-        "financial deregulation",
-        "deregulation of"
-      ],
-      "collocations": [
-        "deregulate (v)",
-        "deregulation (n)"
-      ],
-      "wordFamily": "مقررات‌زدایی",
-      "coreMeaning": "",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "economy"
-      ]
-    },
-    {
       "word": "subcontracting",
       "translation": "پیمان‌فرعی",
       "ipa": "/ˌsʌbkənˈtræktɪŋ/",
@@ -2044,36 +1841,6 @@
         "violation (n)"
       ],
       "wordFamily": "نقض",
-      "coreMeaning": "",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "economy"
-      ]
-    },
-    {
-      "word": "transparency",
-      "translation": "شفافیت",
-      "ipa": "/trænsˈpærənsi/",
-      "partOfSpeech": "noun",
-      "example": "Transparency builds trust.",
-      "definitions": [
-        "openness",
-        "clarity"
-      ],
-      "synonyms": [
-        "secrecy"
-      ],
-      "antonyms": [
-        "financial transparency",
-        "transparency in"
-      ],
-      "collocations": [
-        "transparent (adj)",
-        "transparency (n)"
-      ],
-      "wordFamily": "شفافیت",
       "coreMeaning": "",
       "note": "",
       "trap": "",
@@ -2754,35 +2521,6 @@
       ]
     },
     {
-      "word": "protectionism",
-      "translation": "حمایت‌گرایی",
-      "ipa": "/prəˈtɛkʃənɪzəm/",
-      "partOfSpeech": "noun",
-      "example": "Protectionism restricts trade.",
-      "definitions": [
-        "trade barriers"
-      ],
-      "synonyms": [
-        "free trade"
-      ],
-      "antonyms": [
-        "economic protectionism",
-        "protectionism policy"
-      ],
-      "collocations": [
-        "protect (v)",
-        "protectionist (adj/n)"
-      ],
-      "wordFamily": "حمایت‌گرایی",
-      "coreMeaning": "",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "economy"
-      ]
-    },
-    {
       "word": "free trade",
       "translation": "تجارت آزاد",
       "ipa": "/friː treɪd/",
@@ -2830,33 +2568,6 @@
         "agreement (n)"
       ],
       "wordFamily": "توافق تجاری",
-      "coreMeaning": "",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "economy"
-      ]
-    },
-    {
-      "word": "quota",
-      "translation": "سهمیه",
-      "ipa": "/ˈkwoʊtə/",
-      "partOfSpeech": "noun",
-      "example": "There's a quota on imports.",
-      "definitions": [
-        "limit",
-        "allocation"
-      ],
-      "synonyms": [],
-      "antonyms": [
-        "import quota",
-        "quota system"
-      ],
-      "collocations": [
-        "quota (n)"
-      ],
-      "wordFamily": "سهمیه",
       "coreMeaning": "",
       "note": "",
       "trap": "",
@@ -2972,34 +2683,6 @@
         "deregulation (n)"
       ],
       "coreMeaning": "مقررات‌زدایی کردن",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "economy"
-      ]
-    },
-    {
-      "word": "speculate",
-      "translation": "سفته‌بازی کردن",
-      "ipa": "/ˈspɛkjʊleɪt/",
-      "partOfSpeech": "verb",
-      "example": "Investors speculate on currency.",
-      "definitions": [
-        "gamble",
-        "bet"
-      ],
-      "synonyms": [],
-      "antonyms": [
-        "speculate on",
-        "speculate in"
-      ],
-      "collocations": [
-        "speculation (n)",
-        "speculator (n)"
-      ],
-      "wordFamily": "سفته‌بازی کردن",
-      "coreMeaning": "",
       "note": "",
       "trap": "",
       "tags": [
@@ -3572,34 +3255,6 @@
       ]
     },
     {
-      "word": "scholarship",
-      "translation": "بورسیه",
-      "ipa": "/ˈskɑːlərʃɪp/",
-      "partOfSpeech": "noun",
-      "example": "She received a scholarship.",
-      "definitions": [
-        "fellowship",
-        "grant"
-      ],
-      "synonyms": [],
-      "antonyms": [
-        "full scholarship",
-        "scholarship program"
-      ],
-      "collocations": [
-        "scholar (n)",
-        "scholarship (n)"
-      ],
-      "wordFamily": "بورسیه",
-      "coreMeaning": "",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "economy"
-      ]
-    },
-    {
       "word": "aid",
       "translation": "کمک",
       "ipa": "/eɪd/",
@@ -3815,84 +3470,12 @@
       ]
     },
     {
-      "word": "depression",
-      "translation": "بحران اقتصادی",
-      "example": "The Great Depression was severe.",
-      "synonyms": [
-        "crisis",
-        "collapse"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "embargo",
-      "translation": "تحریم تجاری",
-      "example": "The embargo restricts exports.",
-      "synonyms": [
-        "ban",
-        "restriction"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "leverage",
-      "translation": "اهرم مالی",
-      "example": "Leverage can amplify returns.",
-      "synonyms": [
-        "gearing",
-        "borrowing"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
       "word": "diversification",
       "translation": "متنوع‌سازی",
       "example": "Diversification reduces risk.",
       "synonyms": [
         "spread",
         "variety"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "portfolio",
-      "translation": "سبد سرمایه‌گذاری",
-      "example": "A diversified portfolio is recommended.",
-      "synonyms": [
-        "investments",
-        "holdings"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "equity",
-      "translation": "سرمایه",
-      "example": "Equity represents ownership.",
-      "synonyms": [
-        "ownership",
-        "stock"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "dividend",
-      "translation": "سود سهام",
-      "example": "The company pays dividends.",
-      "synonyms": [
-        "payout",
-        "distribution"
       ],
       "tags": [
         "economy"
@@ -3941,30 +3524,6 @@
       "synonyms": [
         "demand for capital",
         "call"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "yield",
-      "translation": "بازده",
-      "example": "The bond yield is 5%.",
-      "synonyms": [
-        "return",
-        "profit"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "coupon",
-      "translation": "کوپن",
-      "example": "The bond pays a coupon.",
-      "synonyms": [
-        "interest payment",
-        "rate"
       ],
       "tags": [
         "economy"
@@ -4043,18 +3602,6 @@
       ]
     },
     {
-      "word": "stock",
-      "translation": "سهام",
-      "example": "Stock prices fluctuate.",
-      "synonyms": [
-        "shares",
-        "equity"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
       "word": "mutual fund",
       "translation": "صندوق سرمایه‌گذاری",
       "example": "Mutual funds pool investments.",
@@ -4085,30 +3632,6 @@
       "synonyms": [
         "buyout fund",
         "investment firm"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "merger",
-      "translation": "ادغام",
-      "example": "The merger created a giant.",
-      "synonyms": [
-        "amalgamation",
-        "union"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "acquisition",
-      "translation": " تصاحب",
-      "example": "The acquisition expanded market share.",
-      "synonyms": [
-        "takeover",
-        "purchase"
       ],
       "tags": [
         "economy"
@@ -4208,30 +3731,6 @@
       ]
     },
     {
-      "word": "capitalism",
-      "translation": "سرمایه‌داری",
-      "example": "Capitalism drives innovation.",
-      "synonyms": [
-        "free market",
-        "market economy"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "socialism",
-      "translation": "سوسیالیسم",
-      "example": "Socialism emphasizes equality.",
-      "synonyms": [
-        "collectivism",
-        "state ownership"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
       "word": "default",
       "translation": "نکول",
       "example": "The country defaulted on debt.",
@@ -4304,42 +3803,6 @@
       ]
     },
     {
-      "word": "outsourcing",
-      "translation": "برون‌سپاری",
-      "example": "Outsourcing reduces costs.",
-      "synonyms": [
-        "contracting out",
-        "subcontracting"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "insourcing",
-      "translation": "درون‌سپاری",
-      "example": "Insourcing improves control.",
-      "synonyms": [
-        "in-house",
-        "internalization"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "benchmark",
-      "translation": "معیار",
-      "example": "The benchmark index tracks performance.",
-      "synonyms": [
-        "standard",
-        "reference point"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
       "word": "commoditization",
       "translation": "کالاسازی",
       "example": "Commoditization reduces profit margins.",
@@ -4364,60 +3827,12 @@
       ]
     },
     {
-      "word": "bilateral",
-      "translation": "دوجانبه",
-      "example": "A bilateral trade agreement was signed.",
-      "synonyms": [
-        "two-way",
-        "mutual"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "multilateral",
-      "translation": "چندجانبه",
-      "example": "Multilateral negotiations are complex.",
-      "synonyms": [
-        "multi-party",
-        "many-sided"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
       "word": "liberalization",
       "translation": "آزادسازی",
       "example": "Trade liberalization boosted growth.",
       "synonyms": [
         "deregulation",
         "opening up"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "globalization",
-      "translation": "جهانی‌شدن",
-      "example": "Globalization connects markets.",
-      "synonyms": [
-        "internationalization",
-        "integration"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
-      "word": "oligarch",
-      "translation": "الیگارش",
-      "example": "Oligarchs control key industries.",
-      "synonyms": [
-        "magnate",
-        "tycoon"
       ],
       "tags": [
         "economy"
@@ -4532,18 +3947,6 @@
       ]
     },
     {
-      "word": "restructuring",
-      "translation": "بازسازی مالی",
-      "example": "The company underwent restructuring.",
-      "synonyms": [
-        "reorganization",
-        "overhaul"
-      ],
-      "tags": [
-        "economy"
-      ]
-    },
-    {
       "word": "write-down",
       "translation": "کاهش ارزش",
       "example": "The asset write-down was substantial.",
@@ -4578,6 +3981,304 @@
       "tags": [
         "economy"
       ]
+    },
+    {
+      "word": "fluctuate",
+      "translation": "نوسان کردن",
+      "example": "Prices fluctuate with demand.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "shortage",
+      "translation": "کمبود",
+      "example": "There is a shortage of workers.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "devaluation",
+      "translation": "کاهش ارزش پول",
+      "example": "Devaluation made exports cheaper.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "treasury",
+      "translation": "خزانه",
+      "example": "The treasury manages public funds.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "amortize",
+      "translation": "تسویه تدریجی",
+      "example": "Amortize the loan over ten years.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "capitalization",
+      "translation": "سرمایه‌گذاری",
+      "example": "Market capitalization reached a peak.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "futures",
+      "translation": "قرارداد آتی",
+      "example": "Futures markets predict trends.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "supply-side",
+      "translation": "عرضه‌محور",
+      "example": "Supply-side policies cut taxes.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "stagflation",
+      "translation": "رکود تورمی",
+      "example": "Stagflation puzzled economists.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "payable",
+      "translation": "بدهی",
+      "example": "The payable was due last week.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "monetarism",
+      "translation": "پولی‌گرایی",
+      "example": "Monetarism influenced policy in the 1980s.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "capital flight",
+      "translation": "فرار سرمایه",
+      "example": "Capital flight weakened the currency.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "keynesian",
+      "translation": "کینزی",
+      "example": "Keynesian economics favors stimulus.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "liquidity trap",
+      "translation": "دام نقدینگی",
+      "example": "The economy fell into a liquidity trap.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "receivable",
+      "translation": "طلب",
+      "example": "Accounts receivable grew this quarter.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "leveraged",
+      "translation": "اهرمی",
+      "example": "Leveraged buyouts carry risk.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "options",
+      "translation": "قرارداد اختیار",
+      "example": "Options give the right to buy or sell.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "letter of credit",
+      "translation": " اعتبار اسنادی",
+      "example": "Letters of credit secure trade.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "operating expense",
+      "translation": "هزینه عملیاتی",
+      "example": "Operating expense covers daily operations.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "debt to equity",
+      "translation": "نسبت بدهی به سرمایه",
+      "example": "Debt to equity ratio measures leverage.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "cost of capital",
+      "translation": "هزینه سرمایه",
+      "example": "Cost of capital is the required return.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "amortization schedule",
+      "translation": "جدول تسویه تدریجی",
+      "example": "Amortization schedule shows payment breakdown.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "fair market value",
+      "translation": "ارزش منصفانه بازار",
+      "example": "Fair market value is the agreed price.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "book value",
+      "translation": "ارزش دفتری",
+      "example": "Book value reflects historical cost.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "gross margin",
+      "translation": "حاشیه سود ناخالص",
+      "example": "Gross margin measures production profitability.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "divestiture",
+      "translation": "واگذاری بخشی",
+      "example": "Divestiture sells off a business unit.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "capital structure",
+      "translation": "ساختار سرمایه",
+      "example": "Capital structure balances debt and equity.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "working capital",
+      "translation": "سرمایه در گردش",
+      "example": "Working capital funds daily operations.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "capital expenditure",
+      "translation": "هزینه سرمایه‌ای",
+      "example": "Capital expenditure invests in long-term assets.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "net income",
+      "translation": "درآمد خالص",
+      "example": "Net income remains after all expenses.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "cash flow statement",
+      "translation": "صورت جریان نقدی",
+      "example": "Cash flow statement tracks cash movements.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "accounts receivable",
+      "translation": "حساب‌های دریافتنی",
+      "example": "Accounts receivable include customer debts.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
+    },
+    {
+      "word": "retained earnings",
+      "translation": "سود انباشته",
+      "example": "Retained earnings accumulate over years.",
+      "synonyms": [],
+      "tags": [
+        "B2-05"
+      ]
     }
-  ]
+  ],
+  "id": "B2-05"
 }

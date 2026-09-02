@@ -6,30 +6,6 @@
   "theme": "abstract-philosophical",
   "words": [
     {
-      "word": "ontology",
-      "translation": "هستی‌شناسی",
-      "example": "Ontology examines the nature of being.",
-      "synonyms": [
-        "study of existence",
-        "reality theory"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "epistemology",
-      "translation": "معرفت‌شناسی",
-      "example": "Epistemology questions the limits of knowledge.",
-      "synonyms": [
-        "theory of knowledge",
-        "knowledge study"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "metaphysics",
       "translation": "ماوراءالطبیعه",
       "example": "Metaphysics explores reality beyond physics.",
@@ -102,54 +78,6 @@
       ]
     },
     {
-      "word": "existentialism",
-      "translation": "هستی‌گرایی",
-      "example": "Existentialism focuses on individual freedom.",
-      "synonyms": [
-        "individualism",
-        "freedom philosophy"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "phenomenology",
-      "translation": "پدیدارشناسی",
-      "example": "Phenomenology studies lived experience.",
-      "synonyms": [
-        "experiential study",
-        "consciousness study"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "hermeneutics",
-      "translation": "هرمنوتیک",
-      "example": "Hermeneutics interprets texts and meanings.",
-      "synonyms": [
-        "interpretation theory",
-        "exegesis"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "pragmatism",
-      "translation": "عمل‌گرایی",
-      "example": "Pragmatism values practical consequences.",
-      "synonyms": [
-        "practicality",
-        "实用主义"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "determinism",
       "translation": "جبرگرایی",
       "example": "Determinism claims all events are caused.",
@@ -168,30 +96,6 @@
       "synonyms": [
         "soft determinism",
         "reconciliation theory"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "libertarianism",
-      "translation": "آزادی‌خواهی",
-      "example": "Libertarianism advocates minimal government.",
-      "synonyms": [
-        "free market",
-        "individual liberty"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "utilitarianism",
-      "translation": "سودگرایی",
-      "example": "Utilitarianism seeks the greatest good.",
-      "synonyms": [
-        "consequentialism",
-        "practical ethics"
       ],
       "tags": [
         "philosophy"
@@ -222,60 +126,12 @@
       ]
     },
     {
-      "word": "dialectic",
-      "translation": "جدلی",
-      "example": "Dialectic reveals truth through debate.",
-      "synonyms": [
-        "argumentation",
-        "reasoning process"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "synthesis",
-      "translation": "ترکیب",
-      "example": "Synthesis merges opposing ideas.",
-      "synonyms": [
-        "integration",
-        "combination"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "antithesis",
       "translation": "نقیض",
       "example": "Antithesis contradicts the thesis.",
       "synonyms": [
         "opposition",
         "contrast"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "thesis",
-      "translation": "گزاره اصلی",
-      "example": "The thesis presents the main argument.",
-      "synonyms": [
-        "proposition",
-        "hypothesis"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "translation": "الگوی فکری",
-      "example": "A paradigm shift transformed the field.",
-      "synonyms": [
-        "model",
-        "framework"
       ],
       "tags": [
         "philosophy"
@@ -294,48 +150,12 @@
       ]
     },
     {
-      "word": "discourse",
-      "translation": "گفتمان",
-      "example": "Discourse shapes social reality.",
-      "synonyms": [
-        "dialogue",
-        "communication"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "power",
       "translation": "قدرت",
       "example": "Power relations permeate society.",
       "synonyms": [
         "authority",
         "influence"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "hegemony",
-      "translation": "هژمونی",
-      "example": "Cultural hegemony maintains dominance.",
-      "synonyms": [
-        "dominance",
-        "supremacy"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "ideology",
-      "translation": "ایدئولوژی",
-      "example": "Ideology influences political thought.",
-      "synonyms": [
-        "doctrine",
-        "belief system"
       ],
       "tags": [
         "philosophy"
@@ -498,18 +318,6 @@
       ]
     },
     {
-      "word": "teleology",
-      "translation": "غایت‌شناسی",
-      "example": "Teleology examines purpose in nature.",
-      "synonyms": [
-        "finalism",
-        "purpose theory"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "aesthetics",
       "translation": "زیبایی‌شناسی",
       "example": "Aesthetics studies beauty and art.",
@@ -546,42 +354,6 @@
       ]
     },
     {
-      "word": "syllogism",
-      "translation": "قیاس",
-      "example": "The syllogism is a logical argument.",
-      "synonyms": [
-        "deduction",
-        "argument"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "fallacy",
-      "translation": "Sophistry",
-      "example": "A fallacy undermines the argument.",
-      "synonyms": [
-        "error",
-        "flaw"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "paradox",
-      "translation": "پارادوکس",
-      "example": "The paradox challenges our understanding.",
-      "synonyms": [
-        "contradiction",
-        "puzzle"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "absolute",
       "translation": "مطلق",
       "example": "The absolute transcends human experience.",
@@ -600,30 +372,6 @@
       "synonyms": [
         "conditional",
         "contextual"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "objective",
-      "translation": "عینی",
-      "example": "Objective facts are verifiable.",
-      "synonyms": [
-        "impartial",
-        "unbiased"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "subjective",
-      "translation": "ذاتی",
-      "example": "Subjective experiences are personal.",
-      "synonyms": [
-        "personal",
-        "individual"
       ],
       "tags": [
         "philosophy"
@@ -666,18 +414,6 @@
       ]
     },
     {
-      "word": "abstract",
-      "translation": "انتزاعی",
-      "example": "Abstract concepts are hard to grasp.",
-      "synonyms": [
-        "theoretical",
-        "conceptual"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "transcendence",
       "translation": " تعالی",
       "example": "Transcendence goes beyond ordinary limits.",
@@ -696,30 +432,6 @@
       "synonyms": [
         "inherence",
         "indwelling"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "rationalism",
-      "translation": "عقل‌گرایی",
-      "example": "Rationalism trusts reason over experience.",
-      "synonyms": [
-        "reason-based",
-        "intellectualism"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "empiricism",
-      "translation": "تجربه‌گرایی",
-      "example": "Empiricism relies on sensory data.",
-      "synonyms": [
-        "experientialism",
-        "observationalism"
       ],
       "tags": [
         "philosophy"
@@ -750,48 +462,12 @@
       ]
     },
     {
-      "word": "realism",
-      "translation": "واقع‌گرایی",
-      "example": "Realism assumes an independent reality.",
-      "synonyms": [
-        "objectivity",
-        "practicality"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "nominalism",
-      "translation": "اسمان‌گرایی",
-      "example": "Nominalism denies universals.",
-      "synonyms": [
-        "particularism",
-        "individualism"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "conceptualism",
       "translation": "مفهوم‌گرایی",
       "example": "Conceptualism mediates between realism and nominalism.",
       "synonyms": [
         "moderate realism",
         "moderate nominalism"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "positivism",
-      "translation": "اثبات‌گرایی",
-      "example": "Positivism trusts science alone.",
-      "synonyms": [
-        "scientism",
-        "empiricism"
       ],
       "tags": [
         "philosophy"
@@ -816,54 +492,6 @@
       "synonyms": [
         "empiricism",
         "positivism"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "constructivism",
-      "translation": "سازنده‌گرایی",
-      "example": "Constructivism sees knowledge as built.",
-      "synonyms": [
-        "building theory",
-        "active learning"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "structuralism",
-      "translation": "ساختارگرایی",
-      "example": "Structuralism analyzes underlying patterns.",
-      "synonyms": [
-        "formalism",
-        "pattern analysis"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "poststructuralism",
-      "translation": "پساساختارگرایی",
-      "example": "Poststructuralism questions fixed meanings.",
-      "synonyms": [
-        "deconstruction",
-        "anti-structuralism"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "deconstruction",
-      "translation": "ساختارشکنی",
-      "example": "Deconstruction reveals hidden assumptions.",
-      "synonyms": [
-        "analysis",
-        "critique"
       ],
       "tags": [
         "philosophy"
@@ -930,54 +558,6 @@
       ]
     },
     {
-      "word": "praxis",
-      "translation": "عمل نظری",
-      "example": "Theory must inform praxis.",
-      "synonyms": [
-        "practice",
-        "application"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "emancipation",
-      "translation": "رهایی",
-      "example": "Emancipation frees the oppressed.",
-      "synonyms": [
-        "liberation",
-        "freedom"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "critique",
-      "translation": "نقد",
-      "example": "A thorough critique was provided.",
-      "synonyms": [
-        "evaluation",
-        "review"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "dialectic",
-      "translation": "جدلی",
-      "example": "The dialectic reveals contradictions.",
-      "synonyms": [
-        "reasoning",
-        "argumentation"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "Aufhebung",
       "translation": "آفهوونگ",
       "example": "Aufhebung negates while preserving.",
@@ -1014,47 +594,11 @@
       ]
     },
     {
-      "word": "deduction",
-      "translation": "استنتاج",
-      "example": "Deduction moves from general to specific.",
-      "synonyms": [
-        "reasoning",
-        "inference"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "induction",
-      "translation": "استقراء",
-      "example": "Induction moves from specific to general.",
-      "synonyms": [
-        "generalization",
-        "inference"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "abduction",
       "translation": "استنتاج ناقص",
       "example": "Abduction infers the best explanation.",
       "synonyms": [
         "inference to best explanation"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "validity",
-      "translation": "اعتبار",
-      "example": "The argument's validity is questioned.",
-      "synonyms": [
-        "soundness",
-        "legitimacy"
       ],
       "tags": [
         "philosophy"
@@ -1079,18 +623,6 @@
       "synonyms": [
         "coherence",
         "compatibility"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "coherence",
-      "translation": "انسجام",
-      "example": "Coherence unifies the theory.",
-      "synonyms": [
-        "consistency",
-        "unity"
       ],
       "tags": [
         "philosophy"
@@ -1145,78 +677,6 @@
       ]
     },
     {
-      "word": "premise",
-      "translation": "مقدمه",
-      "example": "The premise is contested.",
-      "synonyms": [
-        "assumption",
-        "basis"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "conclusion",
-      "translation": "نتیجه",
-      "example": "The conclusion follows logically.",
-      "synonyms": [
-        "inference",
-        "deduction"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "inference",
-      "translation": "استنتاج",
-      "example": "The inference is valid.",
-      "synonyms": [
-        "deduction",
-        "reasoning"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "corollary",
-      "translation": "نتیجه مستقیم",
-      "example": "A corollary follows from the theorem.",
-      "synonyms": [
-        "consequence",
-        "result"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "implication",
-      "translation": "دلالت",
-      "example": "The implication is significant.",
-      "synonyms": [
-        "consequence",
-        "suggestion"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "abstraction",
-      "translation": "انتزاع",
-      "example": "Abstraction simplifies complex ideas.",
-      "synonyms": [
-        "generalization",
-        "concept"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "conceptualization",
       "translation": "مفهوم‌سازی",
       "example": "Conceptualization shapes our understanding.",
@@ -1235,30 +695,6 @@
       "synonyms": [
         "classification",
         "grouping"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "taxonomy",
-      "translation": "طبقه‌بندی",
-      "example": "Taxonomy creates ordered systems.",
-      "synonyms": [
-        "classification",
-        "systematization"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "dialectic",
-      "translation": "جدل",
-      "example": "Dialectic is a method of inquiry.",
-      "synonyms": [
-        "reasoning",
-        "argumentation"
       ],
       "tags": [
         "philosophy"
@@ -1385,48 +821,12 @@
       ]
     },
     {
-      "word": "alienation",
-      "translation": "بیگانگی",
-      "example": "Alienation separates workers from their labor.",
-      "synonyms": [
-        "estrangement",
-        "disconnection"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "reification",
-      "translation": "تجسم",
-      "example": "Reification treats abstractions as things.",
-      "synonyms": [
-        "objectification",
-        "concretization"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "fetishism",
       "translation": "بت‌پرستی",
       "example": "Commodity fetishism obscures labor.",
       "synonyms": [
         "idolatry",
         "obsession"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "commodity",
-      "translation": "کالا",
-      "example": "Commodities are traded in markets.",
-      "synonyms": [
-        "goods",
-        "products"
       ],
       "tags": [
         "philosophy"
@@ -1600,18 +1000,6 @@
       ]
     },
     {
-      "word": "abyss",
-      "translation": "پرتگاه",
-      "example": "When you gaze into the abyss, it gazes back.",
-      "synonyms": [
-        "void",
-        "chasm"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "aporia",
       "translation": "ابهام",
       "example": "Aporia reveals conceptual difficulties.",
@@ -1654,18 +1042,6 @@
       "synonyms": [
         "reason",
         "word"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "pathos",
-      "translation": "پاتوس",
-      "example": "Pathos evokes emotional response.",
-      "synonyms": [
-        "suffering",
-        "emotion"
       ],
       "tags": [
         "philosophy"
@@ -1738,18 +1114,6 @@
       "synonyms": [
         "opinion",
         "belief"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "episteme",
-      "translation": "اپیستمه",
-      "example": "Episteme is scientific knowledge.",
-      "synonyms": [
-        "knowledge",
-        "understanding"
       ],
       "tags": [
         "philosophy"
@@ -1876,36 +1240,12 @@
       ]
     },
     {
-      "word": "autonomous",
-      "translation": "خودمختار",
-      "example": "Autonomous agents make free choices.",
-      "synonyms": [
-        "self-governing",
-        "independent"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "noumenon",
       "translation": "نومینال",
       "example": "The noumenon is the thing-in-itself.",
       "synonyms": [
         "thing-in-itself",
         "unknowable"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "phenomenon",
-      "translation": "پدیدار",
-      "example": "Phenomena are appearances to consciousness.",
-      "synonyms": [
-        "appearance",
-        "manifestation"
       ],
       "tags": [
         "philosophy"
@@ -2200,18 +1540,6 @@
       ]
     },
     {
-      "word": "affect",
-      "translation": "اثر",
-      "example": "Affects mobilize bodies.",
-      "synonyms": [
-        "feeling",
-        "intensity"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "desire",
       "translation": "میل",
       "example": "Desire is productive in Deleuze.",
@@ -2242,18 +1570,6 @@
       "synonyms": [
         "immanent field",
         "conceptual plane"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "event",
-      "translation": "رویداد",
-      "example": "The event transforms the situation.",
-      "synonyms": [
-        "happening",
-        "occurrence"
       ],
       "tags": [
         "philosophy"
@@ -2308,30 +1624,6 @@
       ]
     },
     {
-      "word": "desire",
-      "translation": "میل",
-      "example": "Desire is lack in Lacan.",
-      "synonyms": [
-        "longing",
-        "want"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
-      "word": "jouissance",
-      "translation": "لذت",
-      "example": "Jouissance exceeds pleasure.",
-      "synonyms": [
-        "ecstasy",
-        "bliss"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "phallus",
       "translation": "فالوس",
       "example": "The phallus is a signifier.",
@@ -2368,18 +1660,6 @@
       ]
     },
     {
-      "word": "discourse",
-      "translation": "گفتمان",
-      "example": "Discourse constructs reality.",
-      "synonyms": [
-        "dialogue",
-        "talk"
-      ],
-      "tags": [
-        "philosophy"
-      ]
-    },
-    {
       "word": "biopower",
       "translation": "زیست‌قدرت",
       "example": "Biopower manages populations.",
@@ -2402,6 +1682,532 @@
       "tags": [
         "philosophy"
       ]
+    },
+    {
+      "word": "cogent",
+      "translation": "قانع‌کننده",
+      "example": "She made a cogent argument.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "dichotomy",
+      "translation": "تقسیم دوگانه",
+      "example": "There is a dichotomy between theory and practice.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "emanate",
+      "translation": "سرچشمه گرفتن",
+      "example": "Light emanated from the window.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "equivocal",
+      "translation": "ابهام‌آمیز",
+      "example": "His equivocal response confused us.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "esoteric",
+      "translation": "رازآلود",
+      "example": "The esoteric text was hard to understand.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "word": "fatalism",
+      "translation": "سرنوشت‌گرایی",
+      "example": "Fatalism denies free will.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "universality",
+      "translation": "فراگیری",
+      "example": "Universality is debated in ethics.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "temporality",
+      "translation": "زمان‌مندی",
+      "example": "Temporality shapes human experience.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "cognition",
+      "translation": "شناخت ذهنی",
+      "example": "Cognition involves memory and reasoning.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "morality",
+      "translation": "اخلاقیات",
+      "example": "Morality guides human behavior.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "virtue",
+      "translation": "فضیلت",
+      "example": "Courage is considered a virtue.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "vice",
+      "translation": "رذیلت",
+      "example": "Greed is regarded as a vice.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "introspection",
+      "translation": "درون‌نگری",
+      "example": "Introspection reveals inner thoughts.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "conundrum",
+      "translation": "معمای پیچیده",
+      "example": "The ethical conundrum has no easy answer.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "nothingness",
+      "translation": "پوچی",
+      "example": "Nothingness is a central existential theme.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "doctrine",
+      "translation": "دکترین",
+      "example": "The doctrine was widely adopted.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "enlightenment",
+      "translation": "روشنگری",
+      "example": "The Enlightenment transformed philosophy.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "notion",
+      "translation": "انگاره",
+      "example": "The notion of justice varies.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "epiphany",
+      "translation": "شهود ناگهانی",
+      "example": "She had a sudden epiphany.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "reduction",
+      "translation": "تقلیل",
+      "example": "Reduction simplifies complexity.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "eschatology",
+      "translation": "آخرت‌شناسی",
+      "example": "Eschatology concerns the end times.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "normativity",
+      "translation": "هنجارمندی",
+      "example": "Normativity guides ethical action.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "holism",
+      "translation": "کل‌نگری",
+      "example": "Holism views systems as a whole.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "reductionism",
+      "translation": "تقلیل‌گرایی",
+      "example": "Reductionism breaks complex systems into parts.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "totality",
+      "translation": "کلیت",
+      "example": "Marx emphasized historical totality.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "contradiction",
+      "translation": "تناقض",
+      "example": "Contradiction drives dialectical change.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "critical realism",
+      "translation": "واقع‌گرایی انتقادی",
+      "example": "Critical realism bridges paradigms.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "superstructure",
+      "translation": "فرا ساختار",
+      "example": "Marx distinguished base from superstructure.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "negation",
+      "translation": "انکار",
+      "example": "Negation is the engine of thought.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "commodity fetishism",
+      "translation": "شی‌پرستی",
+      "example": "Commodity fetishism mystifies social relations.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "inter-subjectivity",
+      "translation": "میان‌ذاتی",
+      "example": "Intersubjectivity creates shared meaning.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "metaxis",
+      "translation": "میان‌بود",
+      "example": "Metaxis holds two positions at once.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "functionalism",
+      "translation": "کارکردگرایی",
+      "example": "Functionalism studies mental processes.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "connectionism",
+      "translation": "اتصال‌گرایی",
+      "example": "Connectionism models neural networks.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "emergence",
+      "translation": "پدیداری",
+      "example": "Emergence creates novel properties.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "behaviorism",
+      "translation": "رفتارگرایی",
+      "example": "Behaviorism focuses on observable behavior.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "compossibility",
+      "translation": "سازگاری ممکن‌ها",
+      "example": "Compossibility checks shared feasibility.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "praxeology",
+      "translation": "عمل‌شناسی",
+      "example": "Praxeology studies human action.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "alterity",
+      "translation": "دیگربودگی",
+      "example": "Alterity recognizes the other.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "sufficiency",
+      "translation": "کفایت",
+      "example": "Sufficiency ensures enough conditions.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "postpositivism",
+      "translation": "پسامثبت‌گرایی",
+      "example": "Postpositivism refines positivism.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "cognitivism",
+      "translation": "شناخت‌گرایی",
+      "example": "Cognitivism models mental processes.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "physis",
+      "translation": "طبیعت اصیل",
+      "example": "Physis refers to the natural order.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "psyche",
+      "translation": "روان و جان",
+      "example": "Psyche denotes the human soul.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "reflexivity",
+      "translation": "بازتابندگی",
+      "example": "Reflexivity turns analysis inward.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "nomos",
+      "translation": "قرارداد انسانی",
+      "example": "Nomos represents human convention.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "rationalist",
+      "translation": "عقل‌گرا",
+      "example": "The rationalist trusts logical reasoning.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "pragmatist",
+      "translation": "عمل‌گرا",
+      "example": "The pragmatist values practical outcomes.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "relativist",
+      "translation": "نسبی‌گرا",
+      "example": "The relativist denies absolute standards.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "contractualism",
+      "translation": "قراردادگرایی",
+      "example": "Contractualism grounds morality in agreement.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "communitarianism",
+      "translation": "جامعه‌گرایی",
+      "example": "Communitarianism values shared practices.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "empiricist",
+      "translation": "تجربه‌گرا",
+      "example": "The empiricist relies on sensory data.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "idealist",
+      "translation": "مثال‌گرا",
+      "example": "The idealist prioritizes ideas over matter.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "analytic philosophy",
+      "translation": "فلسفه تحلیلی",
+      "example": "Analytic philosophy clarifies through logic.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "absolutist",
+      "translation": "مطلق‌گرا",
+      "example": "The absolutist defends universal principles.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "continental philosophy",
+      "translation": "فلسفه قاره‌ای",
+      "example": "Continental philosophy interprets culture.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "realist",
+      "translation": "واقع‌گرا",
+      "example": "The realist trusts observable facts.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "skeptic",
+      "translation": "شک‌گرا",
+      "example": "The skeptic questions all assumptions.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "philosophy of mind",
+      "translation": "فلسفه ذهن",
+      "example": "Philosophy of mind explores consciousness.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
+    },
+    {
+      "word": "philosophy of language",
+      "translation": "فلسفه زبان",
+      "example": "Philosophy of language examines meaning.",
+      "synonyms": [],
+      "tags": [
+        "C1-01"
+      ]
     }
-  ]
+  ],
+  "packId": "C1-01"
 }

@@ -200,42 +200,6 @@
       ]
     },
     {
-      "word": "mentor",
-      "translation": "راهنما، مرشد حرفه‌ای",
-      "ipa": "/ˈmentɔːr/",
-      "partOfSpeech": "noun",
-      "example": "A good mentor can accelerate your professional growth significantly.",
-      "definitions": [
-        "an experienced person who advises and helps a less experienced person"
-      ],
-      "synonyms": [
-        "advisor",
-        "guide",
-        "coach"
-      ],
-      "antonyms": [
-        "mentee",
-        "protégé"
-      ],
-      "collocations": [
-        "serve as a mentor",
-        "find a mentor",
-        "mentor and mentee"
-      ],
-      "wordFamily": [
-        "mentorship (n)",
-        "mentee (n)",
-        "mentoring (n/adj)"
-      ],
-      "coreMeaning": "فرد باتجربه‌ای که دیگران را در مسیر شغلی راهنمایی می‌کند",
-      "note": "هم به عنوان اسم و هم فعل استفاده می‌شود: She mentors young professionals.",
-      "trap": "با manager (مدیر) فرق دارد؛ mentor لزوماً مدیر شما نیست",
-      "tags": [
-        "B1",
-        "career"
-      ]
-    },
-    {
       "word": "vacancy",
       "translation": "موقعیت شغلی خالی، جای خالی",
       "ipa": "/ˈveɪkənsi/",
@@ -294,37 +258,6 @@
       "coreMeaning": "فردی که برای موقعیت شغلی درخواست می‌دهد",
       "note": "applicant کسی است که درخواست داده؛ candidate کسی است که انتخاب شده و در مراحل بعدی است",
       "trap": "با employee (کارمند) فرق دارد؛ applicant هنوز استخدام نشده",
-      "tags": [
-        "B1",
-        "career"
-      ]
-    },
-    {
-      "word": "credential",
-      "translation": "مدرک، گواهی‌نامه حرفه‌ای",
-      "ipa": "/krɪˈdenʃəl/",
-      "partOfSpeech": "noun",
-      "example": "The position requires specific credentials in project management.",
-      "definitions": [
-        "a qualification or achievement that proves one's ability or identity"
-      ],
-      "synonyms": [
-        "qualification",
-        "certificate",
-        "accreditation"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "professional credentials",
-        "verify credentials",
-        "present credentials"
-      ],
-      "wordFamily": [
-        "credentialing (n)"
-      ],
-      "coreMeaning": "مدرک یا گواهی که صلاحیت حرفه‌ای فرد را اثبات می‌کند",
-      "note": "اغلب به صورت جمع credentials استفاده می‌شود",
-      "trap": "با certificate (گواهی‌نامه) تفاوت ظریفی دارد؛ credentials مجموعه‌ای از مدارک و تجربیات است",
       "tags": [
         "B1",
         "career"
@@ -425,41 +358,6 @@
       "coreMeaning": "توانایی انجام مؤثر و موفق یک کار",
       "note": "competence و competency هر دو صحیح هستند؛ competency بیشتر در آمریکا رایج است",
       "trap": "با competition (مسابقه) اشتباه نگیرید؛ ریشه یکی ولی معنا متفاوت است",
-      "tags": [
-        "B1",
-        "career"
-      ]
-    },
-    {
-      "word": "proficiency",
-      "translation": "مهارت، تسلط",
-      "ipa": "/prəˈfɪʃənsi/",
-      "partOfSpeech": "noun",
-      "example": "Proficiency in English is required for international positions.",
-      "definitions": [
-        "a high degree of competence or skill in something"
-      ],
-      "synonyms": [
-        "fluency",
-        "mastery",
-        "expertise"
-      ],
-      "antonyms": [
-        "incompetence",
-        "ineptitude"
-      ],
-      "collocations": [
-        "language proficiency",
-        "proficiency level",
-        "proficiency test"
-      ],
-      "wordFamily": [
-        "proficient (adj)",
-        "proficiently (adv)"
-      ],
-      "coreMeaning": "سطح بالای مهارت و تسلط در یک زمینه",
-      "note": "اغلب درباره زبان استفاده می‌شود: proficiency in English",
-      "trap": "با efficiency (بازدهی) اشتباه نگیرید؛ proficiency درباره مهارت فرد است",
       "tags": [
         "B1",
         "career"
@@ -594,37 +492,6 @@
       ]
     },
     {
-      "word": "benchmark",
-      "translation": "معیار، استاندارد مرجع",
-      "ipa": "/ˈbentʃmɑːrk/",
-      "partOfSpeech": "noun",
-      "example": "The company set new benchmarks for customer satisfaction.",
-      "definitions": [
-        "a standard or point of reference against which things are compared"
-      ],
-      "synonyms": [
-        "standard",
-        "criterion",
-        "reference point"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "set a benchmark",
-        "industry benchmark",
-        "benchmark for success"
-      ],
-      "wordFamily": [
-        "benchmarking (n)"
-      ],
-      "coreMeaning": "استاندارد یا معیاری برای سنجش و مقایسه عملکرد",
-      "note": "هم به عنوان اسم و هم فعل استفاده می‌شود",
-      "trap": "با landmark (نقطه عطف) فرق دارد؛ benchmark معیار اندازه‌گیری است نه رویداد",
-      "tags": [
-        "B1",
-        "career"
-      ]
-    },
-    {
       "word": "feedback",
       "translation": "بازخورد، نظرات",
       "ipa": "/ˈfiːdbæk/",
@@ -687,38 +554,6 @@
       ]
     },
     {
-      "word": "assessment",
-      "translation": "سنجش، ارزیابی",
-      "ipa": "/əˈsesmənt/",
-      "partOfSpeech": "noun",
-      "example": "The skills assessment helped identify areas for improvement.",
-      "definitions": [
-        "an evaluation or estimation of the nature, quality, or ability of someone"
-      ],
-      "synonyms": [
-        "evaluation",
-        "appraisal",
-        "analysis"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "risk assessment",
-        "needs assessment",
-        "skills assessment"
-      ],
-      "wordFamily": [
-        "assess (v)",
-        "assessor (n)"
-      ],
-      "coreMeaning": "بررسی و سنجش توانایی‌ها، نیازها یا ریسک‌ها",
-      "note": "assessment کلی‌تر از appraisal است و در زمینه‌های مختلف استفاده می‌شود",
-      "trap": "با asset (دارایی) اشتباه نگیرید؛ شباهت ظاهری ولی معنا متفاوت",
-      "tags": [
-        "B1",
-        "career"
-      ]
-    },
-    {
       "word": "onboarding",
       "translation": "فرآیند جذب و آشناسازی کارمند جدید",
       "ipa": "/ˈɑːnbɔːrdɪŋ/",
@@ -746,38 +581,6 @@
       "coreMeaning": "فرآیند آشناسازی و یکپارچه‌سازی کارمند جدید با سازمان",
       "note": "شامل آموزش، معرفی تیم، و آشنایی با فرهنگ شرکت است",
       "trap": "فقط آموزش نیست؛ onboarding کل فرآیند ورود به شرکت را شامل می‌شود",
-      "tags": [
-        "B1",
-        "career"
-      ]
-    },
-    {
-      "word": "orientation",
-      "translation": "آشناسازی اولیه، جهت‌گیری",
-      "ipa": "/ˌɔːriənˈteɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "New hires attend a two-day orientation at the headquarters.",
-      "definitions": [
-        "a program introducing new employees to a company and its policies"
-      ],
-      "synonyms": [
-        "induction",
-        "introduction",
-        "onboarding"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "new employee orientation",
-        "orientation session",
-        "orientation program"
-      ],
-      "wordFamily": [
-        "orient (v)",
-        "oriented (adj)"
-      ],
-      "coreMeaning": "جلسه یا برنامه‌ای برای آشنایی کارمندان جدید با محیط کار",
-      "note": "orientation معمولاً اولین روزهای کاری انجام می‌شود",
-      "trap": "با organization (سازمان) اشتباه نگیرید؛ معنا و کاربرد کاملاً متفاوت",
       "tags": [
         "B1",
         "career"
@@ -1376,35 +1179,6 @@
       ]
     },
     {
-      "word": "seminar",
-      "translation": "سمینار، کارگاه آموزشی",
-      "ipa": "/ˈsemɪnɑːr/",
-      "partOfSpeech": "noun",
-      "example": "He attended a seminar on leadership development last weekend.",
-      "definitions": [
-        "a conference or meeting for discussion or training on a specific topic"
-      ],
-      "synonyms": [
-        "workshop",
-        "lecture",
-        "symposium"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "attend a seminar",
-        "conduct a seminar",
-        "seminar room"
-      ],
-      "wordFamily": [],
-      "coreMeaning": "جلسه آموزشی یا بحث تخصصی با تعداد محدود شرکت‌کننده",
-      "note": "معمولاً تعاملی‌تر از lecture (سخنرانی) است",
-      "trap": "با semester (ترم تحصیلی) اشتباه نگیرید",
-      "tags": [
-        "B1",
-        "career"
-      ]
-    },
-    {
       "word": "webinar",
       "translation": "وبینار، سمینار آنلاین",
       "ipa": "/ˈwebɪnɑːr/",
@@ -1844,34 +1618,6 @@
       "coreMeaning": "خرید و تصاحب یک شرکت توسط شرکت دیگر",
       "note": "در M&A، acquisition معمولاً یک شرکت شرکت دیگر را می‌خرد",
       "trap": "با requisition (درخواست) اشتباه نگیرید",
-      "tags": [
-        "B1",
-        "career"
-      ]
-    },
-    {
-      "word": "stakeholder",
-      "translation": "ذینفع",
-      "ipa": "/ˈsteɪkhoʊldər/",
-      "partOfSpeech": "noun",
-      "example": "All stakeholders were invited to review the project proposal.",
-      "definitions": [
-        "a person with an interest or concern in a business or project"
-      ],
-      "synonyms": [
-        "interested party",
-        "participant"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "key stakeholder",
-        "stakeholder engagement",
-        "stakeholder management"
-      ],
-      "wordFamily": [],
-      "coreMeaning": "هر فرد یا گروهی که در نتیجه یک پروژه یا کسب‌وکار ذینفع است",
-      "note": "stakeholder گسترده‌تر از shareholder است؛ شامل کارمندان، مشتریان و جامعه هم می‌شود",
-      "trap": "با shareholder (سهامدار) فرق دارد؛ stakeholder هر ذینفعی است نه فقط سهامدار",
       "tags": [
         "B1",
         "career"
@@ -2745,40 +2491,6 @@
       ]
     },
     {
-      "word": "endorse",
-      "translation": "تأیید کردن، حمایت کردن",
-      "ipa": "/ɪnˈdɔːrs/",
-      "partOfSpeech": "verb",
-      "example": "The CEO endorsed the new strategic plan at the board meeting.",
-      "definitions": [
-        "to declare one's public approval or support of something"
-      ],
-      "synonyms": [
-        "support",
-        "approve",
-        "recommend"
-      ],
-      "antonyms": [
-        "oppose",
-        "reject"
-      ],
-      "collocations": [
-        "endorse a product",
-        "endorse a candidate",
-        "publicly endorse"
-      ],
-      "wordFamily": [
-        "endorsement (n)"
-      ],
-      "coreMeaning": "اعلام رسمی تأیید یا حمایت از چیزی",
-      "note": "endorsement می‌تواند تأیید محصول توسط افراد مشهور هم باشد",
-      "trap": "با endow (وقف کردن) اشتباه نگیرید",
-      "tags": [
-        "B1",
-        "career"
-      ]
-    },
-    {
       "word": "advocate",
       "translation": "حمایت کردن، طرفداری کردن",
       "ipa": "/ˈædvəkeɪt/",
@@ -2936,37 +2648,6 @@
       "coreMeaning": "جذب فعال متخصصان و مدیران ارشد از شرکت‌های دیگر",
       "note": "headhunter شخص یا شرکتی است که متخصص استخدام مدیران ارشد است",
       "trap": "با headband (هدبند) اشتباه نگیرید",
-      "tags": [
-        "B1",
-        "career"
-      ]
-    },
-    {
-      "word": "intern",
-      "translation": "کارآموز",
-      "ipa": "/ˈɪntɜːrn/",
-      "partOfSpeech": "noun",
-      "example": "The summer intern program helps students gain practical experience.",
-      "definitions": [
-        "a student or trainee who works in an organization to gain experience"
-      ],
-      "synonyms": [
-        "trainee",
-        "apprentice",
-        "fellow"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "summer intern",
-        "intern program",
-        "paid intern"
-      ],
-      "wordFamily": [
-        "internship (n)"
-      ],
-      "coreMeaning": "دانشجو یا فرد تازه‌کار که برای کسب تجربه کار می‌کند",
-      "note": "internship دوره کارآموزی و intern شخص کارآموز است",
-      "trap": "با internal (داخلی) اشتباه نگیرید",
       "tags": [
         "B1",
         "career"
@@ -4211,69 +3892,6 @@
       "coreMeaning": "ساختار اصلی و پایه‌ای که سیستم یا فرآیند بر آن بنا شده",
       "note": "framework ابزاری برای سازمان‌دهی افکار و فرآیندها است",
       "trap": "با frame (قاب) اشتباه نگیرید؛ framework ساختار مفهومی است",
-      "tags": [
-        "B1",
-        "career"
-      ]
-    },
-    {
-      "word": "methodology",
-      "translation": "روش‌شناسی، متدولوژی",
-      "ipa": "/ˌmeθəˈdɑːlədʒi/",
-      "partOfSpeech": "noun",
-      "example": "The team uses an agile methodology for software development.",
-      "definitions": [
-        "a system of methods used in a particular area of study or activity"
-      ],
-      "synonyms": [
-        "approach",
-        "system",
-        "technique"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "research methodology",
-        "agile methodology",
-        "adopt a methodology"
-      ],
-      "wordFamily": [
-        "method (n)",
-        "methodical (adj)"
-      ],
-      "coreMeaning": "مجموعه منظمی از روش‌ها و اصول برای انجام کار",
-      "note": "methodology علم روش‌هاست؛ method یک روش خاص است",
-      "trap": "با method (روش) فرق دارد؛ methodology مجموعه‌ای از روش‌هاست",
-      "tags": [
-        "B1",
-        "career"
-      ]
-    },
-    {
-      "word": "paradigm",
-      "translation": "الگو، پارادایم",
-      "ipa": "/ˈpærədaɪm/",
-      "partOfSpeech": "noun",
-      "example": "Remote work represents a paradigm shift in how companies operate.",
-      "definitions": [
-        "a typical example or pattern of something; a model"
-      ],
-      "synonyms": [
-        "model",
-        "framework",
-        "standard"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "paradigm shift",
-        "new paradigm",
-        "dominant paradigm"
-      ],
-      "wordFamily": [
-        "paradigmatic (adj)"
-      ],
-      "coreMeaning": "الگوی غالب و پذیرفته‌شده در یک حوزه یا صنعت",
-      "note": "paradigm shift تغییر اساسی در نحوه تفکر یا عمل است",
-      "trap": "با paradise (بهشت) اشتباه نگیرید؛ تلفظ و معنا متفاوت است",
       "tags": [
         "B1",
         "career"
@@ -6376,6 +5994,115 @@
         "B1",
         "career"
       ]
+    },
+    {
+      "word": "retirement",
+      "translation": "بازنشستگی",
+      "example": "He is approaching retirement.",
+      "synonyms": [],
+      "tags": [
+        "B1-02"
+      ]
+    },
+    {
+      "word": "freelance",
+      "translation": "آزادکار",
+      "example": "He works as a freelance designer.",
+      "synonyms": [],
+      "tags": [
+        "B1-02"
+      ]
+    },
+    {
+      "word": "restructure",
+      "translation": "بازسازی ساختاری",
+      "example": "The company plans to restructure.",
+      "synonyms": [],
+      "tags": [
+        "B1-02"
+      ]
+    },
+    {
+      "word": "affiliation",
+      "translation": "وابستگی",
+      "example": "Affiliation with a university helps.",
+      "synonyms": [],
+      "tags": [
+        "B1-02"
+      ]
+    },
+    {
+      "word": "outreach",
+      "translation": "گسترش خدمات",
+      "example": "Community outreach is a priority.",
+      "synonyms": [],
+      "tags": [
+        "B1-02"
+      ]
+    },
+    {
+      "word": "redundancies",
+      "translation": " تعدیل نیروها",
+      "example": "Redundancies affected many workers.",
+      "synonyms": [],
+      "tags": [
+        "B1-02"
+      ]
+    },
+    {
+      "word": "occupational",
+      "translation": "مرتبط با شغل",
+      "example": "Occupational safety is vital.",
+      "synonyms": [],
+      "tags": [
+        "B1-02"
+      ]
+    },
+    {
+      "word": "retainer",
+      "translation": "حق‌الزحمه",
+      "example": "The lawyer charges a retainer.",
+      "synonyms": [],
+      "tags": [
+        "B1-02"
+      ]
+    },
+    {
+      "word": "outsource",
+      "translation": "برون‌سپاری کردن",
+      "example": "Companies outsource to cut costs.",
+      "synonyms": [],
+      "tags": [
+        "B1-02"
+      ]
+    },
+    {
+      "word": "underwrite",
+      "translation": "تضمین مالی",
+      "example": "Banks underwrite business loans.",
+      "synonyms": [],
+      "tags": [
+        "B1-02"
+      ]
+    },
+    {
+      "word": "overhead",
+      "translation": "هزینه‌های جاری",
+      "example": "Overhead costs must be controlled.",
+      "synonyms": [],
+      "tags": [
+        "B1-02"
+      ]
+    },
+    {
+      "word": "secondment",
+      "translation": "ماموریت",
+      "example": "He is on secondment to another branch.",
+      "synonyms": [],
+      "tags": [
+        "B1-02"
+      ]
     }
-  ]
+  ],
+  "id": "B1-02"
 }

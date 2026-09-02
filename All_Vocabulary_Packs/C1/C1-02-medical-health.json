@@ -6,18 +6,6 @@
   "theme": "medical-health",
   "words": [
     {
-      "word": "etiology",
-      "translation": "علت‌شناسی",
-      "example": "The etiology of the disease is unknown.",
-      "synonyms": [
-        "causation",
-        "pathogenesis"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
       "word": "pathogenesis",
       "translation": "پاتوژنز",
       "example": "Understanding pathogenesis is crucial for treatment.",
@@ -42,35 +30,11 @@
       ]
     },
     {
-      "word": "diagnosis",
-      "translation": "تشخیص",
-      "example": "Early diagnosis improves outcomes.",
-      "synonyms": [
-        "identification",
-        "detection"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
       "word": "differential diagnosis",
       "translation": "تشخیص افتراقی",
       "example": "The differential diagnosis is extensive.",
       "synonyms": [
         "distinguishing conditions"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "symptom",
-      "translation": "علامت",
-      "example": "Fever is a common symptom.",
-      "synonyms": [
-        "sign",
-        "indication"
       ],
       "tags": [
         "medical"
@@ -389,18 +353,6 @@
       ]
     },
     {
-      "word": "pharmacology",
-      "translation": "دارو‌شناسی",
-      "example": "Pharmacology studies drug effects.",
-      "synonyms": [
-        "drug study",
-        "medication science"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
       "word": "toxicology",
       "translation": "سم‌شناسی",
       "example": "Toxicology assesses chemical dangers.",
@@ -425,72 +377,12 @@
       ]
     },
     {
-      "word": "genetics",
-      "translation": "ژنتیک",
-      "example": "Genetics explains heredity.",
-      "synonyms": [
-        "heredity study",
-        "gene science"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "genomics",
-      "translation": "ژنومیک",
-      "example": "Genomics maps the entire genome.",
-      "synonyms": [
-        "genome study",
-        "genetic mapping"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "epidemiology",
-      "translation": "همه‌گیری‌شناسی",
-      "example": "Epidemiology tracks disease patterns.",
-      "synonyms": [
-        "disease spread study",
-        "public health science"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
       "word": "biostatistics",
       "translation": "آمار زیستی",
       "example": "Biostatistics analyzes health data.",
       "synonyms": [
         "health statistics",
         "medical data analysis"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "clinical trial",
-      "translation": "کارآزمایی بالینی",
-      "example": "The clinical trial tested a new drug.",
-      "synonyms": [
-        "medical experiment",
-        "patient study"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "placebo",
-      "translation": "پلاسیبو",
-      "example": "The placebo group showed improvement.",
-      "synonyms": [
-        "dummy treatment",
-        "sham"
       ],
       "tags": [
         "medical"
@@ -527,54 +419,6 @@
       "synonyms": [
         "group",
         "sample population"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "cross-sectional",
-      "translation": "مقطعی",
-      "example": "Cross-sectional studies capture snapshots.",
-      "synonyms": [
-        "snapshot study",
-        "point-in-time"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "longitudinal",
-      "translation": "طولی",
-      "example": "Longitudinal studies track changes over time.",
-      "synonyms": [
-        "long-term",
-        "extended"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "etiology",
-      "translation": "علت‌شناسی",
-      "example": "The etiology remains unclear.",
-      "synonyms": [
-        "causation",
-        "origin"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "pathology",
-      "translation": "پاتولوژی",
-      "example": "Pathology examines diseased tissues.",
-      "synonyms": [
-        "disease study",
-        "tissue analysis"
       ],
       "tags": [
         "medical"
@@ -623,18 +467,6 @@
       "synonyms": [
         "function study",
         "bodily processes"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "surgery",
-      "translation": "جراحی",
-      "example": "Surgery removed the tumor.",
-      "synonyms": [
-        "operation",
-        "procedure"
       ],
       "tags": [
         "medical"
@@ -731,18 +563,6 @@
       "synonyms": [
         "reductive division",
         "gamete formation"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "differentiation",
-      "translation": "تمایز",
-      "example": "Cells differentiate into specialized types.",
-      "synonyms": [
-        "specialization",
-        "development"
       ],
       "tags": [
         "medical"
@@ -929,30 +749,6 @@
       ]
     },
     {
-      "word": "donor",
-      "translation": "اهداءکننده",
-      "example": "The organ donor saved three lives.",
-      "synonyms": [
-        "contributor",
-        "supplier"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "recipient",
-      "translation": "گیرنده",
-      "example": "The recipient recovered quickly.",
-      "synonyms": [
-        "receiver",
-        "patient"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
       "word": "graft-versus-host",
       "translation": "پیوند علیه میزبان",
       "example": "Graft-versus-host disease is a complication.",
@@ -995,18 +791,6 @@
       "synonyms": [
         "immunogen",
         "foreign substance"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "vaccine",
-      "translation": "واکسن",
-      "example": "Vaccines prevent diseases.",
-      "synonyms": [
-        "immunization",
-        "inoculation"
       ],
       "tags": [
         "medical"
@@ -1211,18 +995,6 @@
       "synonyms": [
         "vessel imaging",
         "arteriography"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "hematology",
-      "translation": "هماتولوژی",
-      "example": "Hematology analyzes blood samples.",
-      "synonyms": [
-        "blood study",
-        "blood analysis"
       ],
       "tags": [
         "medical"
@@ -1487,18 +1259,6 @@
       "synonyms": [
         "low blood sugar",
         "sugar drop"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "metabolism",
-      "translation": "متابولیسم",
-      "example": "Metabolism converts food to energy.",
-      "synonyms": [
-        "energy conversion",
-        "chemical processes"
       ],
       "tags": [
         "medical"
@@ -1853,18 +1613,6 @@
       ]
     },
     {
-      "word": "antibiotic",
-      "translation": "آنتی‌بیوتیک",
-      "example": "Antibiotics kill bacteria.",
-      "synonyms": [
-        "antimicrobial",
-        "bacterial killer"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
       "word": "antiviral",
       "translation": "ضدویروس",
       "example": "Antivirals inhibit viruses.",
@@ -2039,30 +1787,6 @@
       "synonyms": [
         "comfort care",
         "symptom management"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "rehabilitation",
-      "translation": "توانبخشی",
-      "example": "Rehabilitation restores function.",
-      "synonyms": [
-        "recovery",
-        "physical therapy"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
-      "word": "physiotherapy",
-      "translation": "فیزیوتراپی",
-      "example": "Physiotherapy improves mobility.",
-      "synonyms": [
-        "physical therapy",
-        "movement therapy"
       ],
       "tags": [
         "medical"
@@ -2297,18 +2021,6 @@
       ]
     },
     {
-      "word": "ambulance",
-      "translation": "آمبولانس",
-      "example": "The ambulance transported the patient.",
-      "synonyms": [
-        "emergency vehicle",
-        "medic transport"
-      ],
-      "tags": [
-        "medical"
-      ]
-    },
-    {
       "word": "epidemic",
       "translation": "همه‌گیری",
       "example": "The epidemic spread rapidly.",
@@ -2403,6 +2115,217 @@
       "tags": [
         "medical"
       ]
+    },
+    {
+      "word": "nosology",
+      "translation": "رده‌بندی بیماری‌ها",
+      "example": "Nosology classifies diseases.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "sequela",
+      "translation": "عوارض",
+      "example": "The infection can have serious sequelae.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "contraindication",
+      "translation": "منع مصرف",
+      "example": "Pregnancy is a contraindication.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "radiotherapy",
+      "translation": "پرتودارویی",
+      "example": "Radiotherapy targets cancer cells.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "dosage",
+      "translation": "مقدار مصرف",
+      "example": "Follow the prescribed dosage.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "immunity",
+      "translation": "ایمنی",
+      "example": "Vaccines boost immunity.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "percuss",
+      "translation": "کوبیدن",
+      "example": "Percuss the chest to assess resonance.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "dysphagia",
+      "translation": "بلعیدن مشکل",
+      "example": "Dysphagia makes eating difficult.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "syncope",
+      "translation": "غش",
+      "example": "Syncope indicates low blood pressure.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "respiratory",
+      "translation": "تنفسی",
+      "example": "Respiratory infections spread quickly.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "prognostic",
+      "translation": "پیش‌آگهی",
+      "example": "Prognostic factors indicate outcomes.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "antipyretic",
+      "translation": "ضدتب",
+      "example": "An antipyretic reduces fever.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "hematological",
+      "translation": "خون",
+      "example": "Hematological disorders affect blood.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "therapeutic",
+      "translation": "درمانی",
+      "example": "Therapeutic interventions aid recovery.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "catheter",
+      "translation": "کاتتر",
+      "example": "The catheter drains fluid.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "hypnotic",
+      "translation": "خواب‌آور",
+      "example": "A hypnotic was prescribed.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "paresthesia",
+      "translation": "سوزن سوزن شدن",
+      "example": "Paresthesia is a tingling sensation.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "auscultation",
+      "translation": "auscultation",
+      "example": "Auscultation detects heart murmurs.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "ligate",
+      "translation": "بستن رگ",
+      "example": "Ligate the bleeding vessel.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "jaundice",
+      "translation": "یرقان",
+      "example": "Jaundice indicates liver problems.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "catheterize",
+      "translation": "کاتترگذاری",
+      "example": "Catheterize for fluid drainage.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "myocardial",
+      "translation": "قلبی",
+      "example": "Myocardial infarction is a heart attack.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "resuscitate",
+      "translation": "احیا کردن",
+      "example": "Resuscitate the patient immediately.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
+    },
+    {
+      "word": "carcinogen",
+      "translation": "سرطان‌زا",
+      "example": "Carcinogens must be regulated.",
+      "synonyms": [],
+      "tags": [
+        "C1-02"
+      ]
     }
-  ]
+  ],
+  "packId": "C1-02"
 }

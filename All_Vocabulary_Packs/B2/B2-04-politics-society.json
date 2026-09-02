@@ -1057,42 +1057,6 @@
       ]
     },
     {
-      "word": "partisan",
-      "translation": "حزبی، جانبدار",
-      "ipa": "/ˈpɑːrtɪzən/",
-      "partOfSpeech": "adjective",
-      "example": "The debate became highly partisan with no room for compromise.",
-      "definitions": [
-        "strongly supporting a particular party or cause",
-        "prejudiced in favor of a particular cause"
-      ],
-      "synonyms": [
-        "biased",
-        "one-sided",
-        "factional"
-      ],
-      "antonyms": [
-        "bipartisan",
-        "impartial",
-        "neutral"
-      ],
-      "collocations": [
-        "partisan politics",
-        "partisan divide",
-        "partisan conflict"
-      ],
-      "wordFamily": [
-        "partisanship (n)"
-      ],
-      "coreMeaning": "طرفدار یک حزب یا جناح خاص",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "politics"
-      ]
-    },
-    {
       "word": "gerrymandering",
       "translation": "تقسیم‌بندی غیرمنصفانه حوزه‌های انتخابیه",
       "ipa": "/ˈdʒerimændərɪŋ/",
@@ -1276,39 +1240,6 @@
         "dissenter (n)"
       ],
       "coreMeaning": "ابزار مخالفت با نظر رسمی",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "politics"
-      ]
-    },
-    {
-      "word": "rhetoric",
-      "translation": "بلاغت، فن سخنوری",
-      "ipa": "/ˈretərɪk/",
-      "partOfSpeech": "noun",
-      "example": "The politician's rhetoric appealed to voters but lacked substance.",
-      "definitions": [
-        "the art of effective speaking or writing",
-        "language designed to persuade or impress"
-      ],
-      "synonyms": [
-        "eloquence",
-        "oratory",
-        "persuasion"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "political rhetoric",
-        "empty rhetoric",
-        "inflammatory rhetoric"
-      ],
-      "wordFamily": [
-        "rhetorical (adj)",
-        "rhetorically (adv)"
-      ],
-      "coreMeaning": "فن متقاعدسازی از طریق کلام",
       "note": "",
       "trap": "",
       "tags": [
@@ -1609,40 +1540,6 @@
       ]
     },
     {
-      "word": "pardon",
-      "translation": "عفو، بخشش",
-      "ipa": "/ˈpɑːrdn/",
-      "partOfSpeech": "noun",
-      "example": "The governor issued a pardon for the wrongly convicted man.",
-      "definitions": [
-        "the release from punishment for a crime"
-      ],
-      "synonyms": [
-        "amnesty",
-        "clemency",
-        "forgiveness"
-      ],
-      "antonyms": [
-        "punishment",
-        "conviction"
-      ],
-      "collocations": [
-        "presidential pardon",
-        "grant a pardon",
-        "full pardon"
-      ],
-      "wordFamily": [
-        "pardon (v)"
-      ],
-      "coreMeaning": "بخشش رسمی مجازات",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "politics"
-      ]
-    },
-    {
       "word": "clemency",
       "translation": "رأفت، تخفیف مجازات",
       "ipa": "/ˈklemənsi/",
@@ -1845,39 +1742,6 @@
       ]
     },
     {
-      "word": "probation",
-      "translation": "آزادی مشروط",
-      "ipa": "/proʊˈbeɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "The judge sentenced the offender to three years of probation.",
-      "definitions": [
-        "a period of supervision over an offender instead of imprisonment"
-      ],
-      "synonyms": [
-        "parole",
-        "supervised release"
-      ],
-      "antonyms": [
-        "incarceration",
-        "imprisonment"
-      ],
-      "collocations": [
-        "on probation",
-        "probation period",
-        "probation officer"
-      ],
-      "wordFamily": [
-        "probationary (adj)"
-      ],
-      "coreMeaning": "دوره نظارت به جای زندان",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "politics"
-      ]
-    },
-    {
       "word": "parole",
       "translation": "آزادی زودهنگام مشروط",
       "ipa": "/pəˈroʊl/",
@@ -1901,109 +1765,6 @@
       ],
       "wordFamily": [],
       "coreMeaning": "رها شدن مشروط از زندان",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "politics"
-      ]
-    },
-    {
-      "word": "litigation",
-      "translation": "دعوا، پیگرد قانونی",
-      "ipa": "/ˌlɪtɪˈɡeɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "The company faces litigation over environmental violations.",
-      "definitions": [
-        "the process of taking legal action"
-      ],
-      "synonyms": [
-        "lawsuit",
-        "legal action",
-        "legal proceedings"
-      ],
-      "antonyms": [
-        "settlement",
-        "mediation"
-      ],
-      "collocations": [
-        "civil litigation",
-        "threaten litigation",
-        "litigation process"
-      ],
-      "wordFamily": [
-        "litigate (v)",
-        "litigant (n)"
-      ],
-      "coreMeaning": "فرآیند شکایت قانونی",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "politics"
-      ]
-    },
-    {
-      "word": "arbitration",
-      "translation": "داوری، حکمیت",
-      "ipa": "/ˌɑːrbɪˈtreɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "The dispute was resolved through arbitration rather than going to court.",
-      "definitions": [
-        "the use of an arbitrator to settle a dispute"
-      ],
-      "synonyms": [
-        "mediation",
-        "settlement",
-        "adjudication"
-      ],
-      "antonyms": [
-        "litigation"
-      ],
-      "collocations": [
-        "binding arbitration",
-        "arbitration process",
-        "go to arbitration"
-      ],
-      "wordFamily": [
-        "arbitrate (v)",
-        "arbitrator (n)"
-      ],
-      "coreMeaning": "حل اختلاف توسط داور",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "politics"
-      ]
-    },
-    {
-      "word": "mediation",
-      "translation": "میانجی‌گری",
-      "ipa": "/ˌmiːdiˈeɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "The UN offered mediation to help resolve the conflict between the two countries.",
-      "definitions": [
-        "intervention in a dispute to resolve it"
-      ],
-      "synonyms": [
-        "negotiation",
-        "arbitration",
-        "intervention"
-      ],
-      "antonyms": [
-        "confrontation"
-      ],
-      "collocations": [
-        "international mediation",
-        "mediation process",
-        "offer mediation"
-      ],
-      "wordFamily": [
-        "mediate (v)",
-        "mediator (n)"
-      ],
-      "coreMeaning": "تلاش برای حل اختلاف بین طرفین",
       "note": "",
       "trap": "",
       "tags": [
@@ -2795,40 +2556,6 @@
       ]
     },
     {
-      "word": "emancipation",
-      "translation": "رهایی، آزادسازی",
-      "ipa": "/ɪˌmænsɪˈpeɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "The emancipation of slaves was a turning point in American history.",
-      "definitions": [
-        "the fact of being set free from legal, social, or political restrictions"
-      ],
-      "synonyms": [
-        "liberation",
-        "freedom",
-        "release"
-      ],
-      "antonyms": [
-        "enslavement",
-        "oppression"
-      ],
-      "collocations": [
-        "emancipation proclamation",
-        "emancipation of women",
-        "political emancipation"
-      ],
-      "wordFamily": [
-        "emancipate (v)"
-      ],
-      "coreMeaning": "آزادی از بردگی یا سرکوب",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "politics"
-      ]
-    },
-    {
       "word": "suffrage",
       "translation": "حق رأی",
       "ipa": "/ˈsʌfrɪdʒ/",
@@ -3298,40 +3025,6 @@
       ]
     },
     {
-      "word": "contempt",
-      "translation": "توهین به دادگاه، بی‌احترامی",
-      "ipa": "/kənˈtempt/",
-      "partOfSpeech": "noun",
-      "example": "The lawyer was held in contempt of court for disrupting the proceedings.",
-      "definitions": [
-        "the offense of being disobedient to or disrespectful of a court"
-      ],
-      "synonyms": [
-        "disrespect",
-        "defiance",
-        "disobedience"
-      ],
-      "antonyms": [
-        "respect",
-        "deference"
-      ],
-      "collocations": [
-        "contempt of court",
-        "hold in contempt",
-        "criminal contempt"
-      ],
-      "wordFamily": [
-        "contemptuous (adj)"
-      ],
-      "coreMeaning": "بی‌احترامی به دادگاه",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "politics"
-      ]
-    },
-    {
       "word": "appellate",
       "translation": "تجدیدنظر",
       "ipa": "/əˈpelət/",
@@ -3423,35 +3116,6 @@
         "privately (adv)"
       ],
       "coreMeaning": "حق دور بودن از نظارت عمومی",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "politics"
-      ]
-    },
-    {
-      "word": "cybersecurity",
-      "translation": "امنیت سایبری",
-      "ipa": "/ˌsaɪbərsɪˈkjʊrəti/",
-      "partOfSpeech": "noun",
-      "example": "The government invested billions in cybersecurity to protect critical infrastructure.",
-      "definitions": [
-        "the protection of computer systems and networks from digital attacks"
-      ],
-      "synonyms": [
-        "information security",
-        "digital security",
-        "network security"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "cybersecurity threat",
-        "cybersecurity measures",
-        "cybersecurity breach"
-      ],
-      "wordFamily": [],
-      "coreMeaning": "حفاظت از سیستم‌های دیجیتال",
       "note": "",
       "trap": "",
       "tags": [
@@ -4668,41 +4332,6 @@
       ],
       "wordFamily": [],
       "coreMeaning": "رئیس جلسه مجلس",
-      "note": "",
-      "trap": "",
-      "tags": [
-        "B2",
-        "politics"
-      ]
-    },
-    {
-      "word": "transition",
-      "translation": "انتقال قدرت، گذار",
-      "ipa": "/trænˈzɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "The peaceful transition of power is a hallmark of democracy.",
-      "definitions": [
-        "the process of changing from one state or condition to another"
-      ],
-      "synonyms": [
-        "changeover",
-        "shift",
-        "handover"
-      ],
-      "antonyms": [
-        "continuity",
-        "stability"
-      ],
-      "collocations": [
-        "transition of power",
-        "peaceful transition",
-        "political transition"
-      ],
-      "wordFamily": [
-        "transitional (adj)",
-        "transition (v)"
-      ],
-      "coreMeaning": "فرآیند تغییر از وضعیتی به وضعیت دیگر",
       "note": "",
       "trap": "",
       "tags": [
@@ -6523,6 +6152,106 @@
         "B2",
         "politics"
       ]
+    },
+    {
+      "word": "opposition",
+      "translation": "اپوزیسیون",
+      "example": "The opposition criticized the policy.",
+      "synonyms": [],
+      "tags": [
+        "B2-04"
+      ]
+    },
+    {
+      "word": "cession",
+      "translation": "واگذاری",
+      "example": "Cession of land was negotiated.",
+      "synonyms": [],
+      "tags": [
+        "B2-04"
+      ]
+    },
+    {
+      "word": "abolition",
+      "translation": "لغو",
+      "example": "Abolition of slavery was monumental.",
+      "synonyms": [],
+      "tags": [
+        "B2-04"
+      ]
+    },
+    {
+      "word": "bipartisan",
+      "translation": "دو حزبی",
+      "example": "A bipartisan agreement was reached.",
+      "synonyms": [],
+      "tags": [
+        "B2-04"
+      ]
+    },
+    {
+      "word": "electorate",
+      "translation": "هیئت رأی‌دهندگان",
+      "example": "The electorate voted for change.",
+      "synonyms": [],
+      "tags": [
+        "B2-04"
+      ]
+    },
+    {
+      "word": "polarization",
+      "translation": "دوقطبی",
+      "example": "Political polarization is growing.",
+      "synonyms": [],
+      "tags": [
+        "B2-04"
+      ]
+    },
+    {
+      "word": "reparation",
+      "translation": "جبران خسارت",
+      "example": "War reparations were demanded.",
+      "synonyms": [],
+      "tags": [
+        "B2-04"
+      ]
+    },
+    {
+      "word": "cloture",
+      "translation": "پایان بحث",
+      "example": "Cloture ended the debate.",
+      "synonyms": [],
+      "tags": [
+        "B2-04"
+      ]
+    },
+    {
+      "word": "abrogation",
+      "translation": "منسوخ کردن",
+      "example": "Abrogation of the treaty shocked all.",
+      "synonyms": [],
+      "tags": [
+        "B2-04"
+      ]
+    },
+    {
+      "word": "autarky",
+      "translation": "خودکفایی",
+      "example": "Autarky was the policy goal.",
+      "synonyms": [],
+      "tags": [
+        "B2-04"
+      ]
+    },
+    {
+      "word": "adjournment",
+      "translation": "تعطیلی",
+      "example": "Adjournment was declared early.",
+      "synonyms": [],
+      "tags": [
+        "B2-04"
+      ]
     }
-  ]
+  ],
+  "id": "B2-04"
 }

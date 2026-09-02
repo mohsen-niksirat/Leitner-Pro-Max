@@ -6,78 +6,6 @@
   "theme": "legal-formal",
   "words": [
     {
-      "word": "jurisdiction",
-      "translation": "صلاحیت",
-      "example": "The court has jurisdiction over the case.",
-      "synonyms": [
-        "authority",
-        "competence"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "legislation",
-      "translation": "قانون‌گذاری",
-      "example": "New legislation was enacted.",
-      "synonyms": [
-        "lawmaking",
-        "statute creation"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "statute",
-      "translation": "قانون موضوعه",
-      "example": "The statute was amended.",
-      "synonyms": [
-        "law",
-        "regulation"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "regulation",
-      "translation": "آیین‌نامه",
-      "example": "The regulation was enforced.",
-      "synonyms": [
-        "rule",
-        "directive"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "ordinance",
-      "translation": "مقررات",
-      "example": "The city passed an ordinance.",
-      "synonyms": [
-        "bylaw",
-        "local law"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "decree",
-      "translation": "فرمان",
-      "example": "The president issued a decree.",
-      "synonyms": [
-        "edict",
-        "order"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
       "word": "mandate",
       "translation": "حکم",
       "example": "The court issued a mandate.",
@@ -102,60 +30,12 @@
       ]
     },
     {
-      "word": "verdict",
-      "translation": "حکم دادگاه",
-      "example": "The jury delivered a verdict.",
-      "synonyms": [
-        "judgment",
-        "ruling"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "testimony",
-      "translation": "شهادت",
-      "example": "The witness gave testimony.",
-      "synonyms": [
-        "evidence",
-        "statement"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
       "word": "affidavit",
       "translation": "سند سوگندی",
       "example": "The affidavit was notarized.",
       "synonyms": [
         "sworn statement",
         "declaration"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "plaintiff",
-      "translation": "خواهان",
-      "example": "The plaintiff filed a lawsuit.",
-      "synonyms": [
-        "complainant",
-        "petitioner"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "defendant",
-      "translation": "خوانده",
-      "example": "The defendant pleaded not guilty.",
-      "synonyms": [
-        "accused",
-        "respondent"
       ],
       "tags": [
         "legal"
@@ -186,48 +66,12 @@
       ]
     },
     {
-      "word": "evidence",
-      "translation": "دلیل",
-      "example": "Evidence was presented to the court.",
-      "synonyms": [
-        "proof",
-        "documentation"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "precedent",
-      "translation": "رویه قضایی",
-      "example": "The ruling set a precedent.",
-      "synonyms": [
-        "example",
-        "standard"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
       "word": "tort",
       "translation": " defaulted",
       "example": "Tort law covers civil wrongs.",
       "synonyms": [
         "civil wrong",
         "delict"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "liability",
-      "translation": "مسئولیت",
-      "example": "Liability was established.",
-      "synonyms": [
-        "responsibility",
-        "accountability"
       ],
       "tags": [
         "legal"
@@ -270,96 +114,12 @@
       ]
     },
     {
-      "word": "remedy",
-      "translation": "جبران خسارت",
-      "example": "The court provided a remedy.",
-      "synonyms": [
-        "redress",
-        "compensation"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "compensation",
-      "translation": "غرامت",
-      "example": "Compensation was paid to the victim.",
-      "synonyms": [
-        "reimbursement",
-        "payment"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "indemnity",
-      "translation": "بیمه",
-      "example": "Indemnity protects against loss.",
-      "synonyms": [
-        "insurance",
-        "protection"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "warranty",
-      "translation": "گارانتی",
-      "example": "The product comes with a warranty.",
-      "synonyms": [
-        "guarantee",
-        "assurance"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "arbitration",
-      "translation": "داوری",
-      "example": "Arbitration resolved the dispute.",
-      "synonyms": [
-        "mediation",
-        "settlement"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "mediation",
-      "translation": "میانجیگری",
-      "example": "Mediation helped both parties.",
-      "synonyms": [
-        "arbitration",
-        "negotiation"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
       "word": "settlement",
       "translation": "tosf",
       "example": "A settlement was reached out of court.",
       "synonyms": [
         "agreement",
         "compromise"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "litigation",
-      "translation": "دادخواهی",
-      "example": "Litigation can be expensive.",
-      "synonyms": [
-        "lawsuit",
-        "legal action"
       ],
       "tags": [
         "legal"
@@ -378,144 +138,12 @@
       ]
     },
     {
-      "word": "habeas corpus",
-      "translation": "هابیاس کورپس",
-      "example": "Habeas corpus protects against unlawful detention.",
-      "synonyms": [
-        "writ of habeas",
-        "right to challenge detention"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "amnesty",
-      "translation": "عفو",
-      "example": "Amnesty was granted to political prisoners.",
-      "synonyms": [
-        "pardon",
-        "clemency"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "extradition",
-      "translation": "استرداد",
-      "example": "Extradition was requested.",
-      "synonyms": [
-        "deportation",
-        "surrender"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "asylum",
-      "translation": "پناهندگی",
-      "example": "The refugee sought asylum.",
-      "synonyms": [
-        "refuge",
-        "shelter"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "deportation",
-      "translation": "اخراج",
-      "example": "Deportation was ordered.",
-      "synonyms": [
-        "expulsion",
-        "removal"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "citizenship",
-      "translation": "تابعیت",
-      "example": "Citizenship was granted.",
-      "synonyms": [
-        "nationality",
-        "membership"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "naturalization",
-      "translation": "تعداد",
-      "example": "Naturalization requires residency.",
-      "synonyms": [
-        "citizenship process",
-        "integration"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "constitution",
-      "translation": "قانون اساسی",
-      "example": "The constitution guarantees rights.",
-      "synonyms": [
-        "charter",
-        "fundamental law"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "amendment",
-      "translation": "اصلاحیه",
-      "example": "The constitution was amended.",
-      "synonyms": [
-        "modification",
-        "revision"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "bill",
-      "translation": "لایحه",
-      "example": "The bill was passed.",
-      "synonyms": [
-        "proposal",
-        "legislation"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
       "word": "resolution",
       "translation": "قطعنامه",
       "example": "The resolution was adopted.",
       "synonyms": [
         "decision",
         "motion"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "ratification",
-      "translation": "تصویب",
-      "example": "The treaty was ratified.",
-      "synonyms": [
-        "approval",
-        "confirmation"
       ],
       "tags": [
         "legal"
@@ -534,108 +162,12 @@
       ]
     },
     {
-      "word": "repeal",
-      "translation": "لغو",
-      "example": "The law was repealed.",
-      "synonyms": [
-        "revocation",
-        "annulment"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "amnesty",
-      "translation": "عفو عمومی",
-      "example": "Amnesty was declared.",
-      "synonyms": [
-        "pardon",
-        "clemency"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "indictment",
-      "translation": "کیفرخواست",
-      "example": "The grand jury issued an indictment.",
-      "synonyms": [
-        "charge",
-        "accusation"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "acquittal",
-      "translation": "تبرئه",
-      "example": "The defendant was acquitted.",
-      "synonyms": [
-        "exoneration",
-        "clearing"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "conviction",
-      "translation": "محکومیت",
-      "example": "The conviction was appealed.",
-      "synonyms": [
-        "finding of guilt",
-        "sentence"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
       "word": "sentence",
       "translation": "حکم",
       "example": "The judge handed down a sentence.",
       "synonyms": [
         "penalty",
         "punishment"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "probation",
-      "translation": "آزادی مشروط",
-      "example": "Probation was granted instead of prison.",
-      "synonyms": [
-        "supervised release",
-        "conditional freedom"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "parole",
-      "translation": "آزادی مشروط",
-      "example": "Parole was granted after 5 years.",
-      "synonyms": [
-        "early release",
-        "conditional release"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "incarceration",
-      "translation": "حبس",
-      "example": "Incarceration lasted 10 years.",
-      "synonyms": [
-        "imprisonment",
-        "confinement"
       ],
       "tags": [
         "legal"
@@ -690,36 +222,12 @@
       ]
     },
     {
-      "word": "subpoena",
-      "translation": "احضاریه",
-      "example": "A subpoena was issued.",
-      "synonyms": [
-        "court order",
-        "summons"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
       "word": "continuance",
       "translation": "تاخیر",
       "example": "The continuance was granted.",
       "synonyms": [
         "postponement",
         "adjournment"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "dismissal",
-      "translation": " slapped",
-      "example": "The case was dismissed.",
-      "synonyms": [
-        "dropping",
-        "termination"
       ],
       "tags": [
         "legal"
@@ -840,30 +348,6 @@
       "synonyms": [
         "failed trial",
         "invalid trial"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "perjury",
-      "translation": "شهادت دروغ",
-      "example": "Perjury is a criminal offense.",
-      "synonyms": [
-        "lying under oath",
-        "false testimony"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "contempt",
-      "translation": " bunk",
-      "example": "Contempt of court was charged.",
-      "synonyms": [
-        "defiance",
-        "disobedience"
       ],
       "tags": [
         "legal"
@@ -1002,84 +486,12 @@
       ]
     },
     {
-      "word": "perjury",
-      "translation": "شهادت دروغ",
-      "example": "Perjury was alleged.",
-      "synonyms": [
-        "lying under oath",
-        "false statement"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "defamation",
-      "translation": "افترا",
-      "example": "Defamation suit was filed.",
-      "synonyms": [
-        "slander",
-        "libel"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "libel",
-      "translation": "افترا نوشتاری",
-      "example": "Libel was published.",
-      "synonyms": [
-        "written defamation",
-        "false statement"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "slander",
-      "translation": "افترا شفاهی",
-      "example": "Slander was spoken.",
-      "synonyms": [
-        "spoken defamation",
-        "oral defamation"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
       "word": "invasion of privacy",
       "translation": "نقض حریم خصوصی",
       "example": "Invasion of privacy was alleged.",
       "synonyms": [
         "privacy violation",
         "intrusion"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "discrimination",
-      "translation": "تبعیض",
-      "example": "Discrimination was alleged.",
-      "synonyms": [
-        "bias",
-        "prejudice"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "harassment",
-      "translation": "آزار",
-      "example": "Harassment was reported.",
-      "synonyms": [
-        "intimidation",
-        "bullying"
       ],
       "tags": [
         "legal"
@@ -1110,48 +522,12 @@
       ]
     },
     {
-      "word": "whistleblower",
-      "translation": "افشاگر",
-      "example": "The whistleblower exposed corruption.",
-      "synonyms": [
-        "informant",
-        "reporter"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "due process",
-      "translation": "رویه قانونی",
-      "example": "Due process was denied.",
-      "synonyms": [
-        "fair procedure",
-        "legal rights"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
       "word": "equal protection",
       "translation": "حفاظت برابر",
       "example": "Equal protection was guaranteed.",
       "synonyms": [
         "nondiscrimination",
         "equal treatment"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "freedom of speech",
-      "translation": "آزادی بیان",
-      "example": "Freedom of speech is protected.",
-      "synonyms": [
-        "expression rights",
-        "free expression"
       ],
       "tags": [
         "legal"
@@ -1236,18 +612,6 @@
       "synonyms": [
         "reasonable grounds",
         "justification"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "warrant",
-      "translation": "حکم جستجو",
-      "example": "A search warrant was issued.",
-      "synonyms": [
-        "court order",
-        "authorization"
       ],
       "tags": [
         "legal"
@@ -1494,36 +858,12 @@
       ]
     },
     {
-      "word": "equity",
-      "translation": "عدالت",
-      "example": "Equity provides fairness.",
-      "synonyms": [
-        "fairness",
-        "justice"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
       "word": "chancery",
       "translation": "دادگاه عدالت",
       "example": "The chancery court sat in equity.",
       "synonyms": [
         "equity court",
         "court of chancery"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "injunction",
-      "translation": "دستور دادگاه",
-      "example": "An injunction was granted.",
-      "synonyms": [
-        "restraining order",
-        "prohibition"
       ],
       "tags": [
         "legal"
@@ -1758,18 +1098,6 @@
       ]
     },
     {
-      "word": "eminent domain",
-      "translation": "زمین‌های برجسته",
-      "example": "Eminent domain was exercised.",
-      "synonyms": [
-        "condemnation",
-        "government taking"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
       "word": "adverse possession",
       "translation": "تصاحب خصمانه",
       "example": "Adverse possession was claimed.",
@@ -1932,30 +1260,6 @@
       "synonyms": [
         "substitution",
         "new agreement"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "assignment",
-      "translation": "واگذاری",
-      "example": "Assignment transferred the rights.",
-      "synonyms": [
-        "transfer",
-        "delegation"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "delegation",
-      "translation": "تفویض",
-      "example": "Delegation transferred duties.",
-      "synonyms": [
-        "transfer",
-        "assignment"
       ],
       "tags": [
         "legal"
@@ -2142,42 +1446,6 @@
       ]
     },
     {
-      "word": "patent",
-      "translation": "اختراع",
-      "example": "A patent was granted.",
-      "synonyms": [
-        "intellectual property",
-        "invention protection"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "trademark",
-      "translation": "علامت تجاری",
-      "example": "The trademark was registered.",
-      "synonyms": [
-        "brand mark",
-        "logo protection"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "copyright",
-      "translation": "حق تکثیر",
-      "example": "Copyright protects creative works.",
-      "synonyms": [
-        "author's rights",
-        "reproduction rights"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
       "word": "trade secret",
       "translation": "راز تجاری",
       "example": "Trade secrets must be protected.",
@@ -2226,84 +1494,12 @@
       ]
     },
     {
-      "word": "royalty",
-      "translation": "حق امتیاز",
-      "example": "Royalties are paid to the inventor.",
-      "synonyms": [
-        "fee",
-        "payment"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "assignment",
-      "translation": "واگذاری",
-      "example": "Assignment transferred the patent.",
-      "synonyms": [
-        "transfer",
-        "conveyance"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "prosecution",
-      "translation": "تعقیب کیفری",
-      "example": "Prosecution was initiated.",
-      "synonyms": [
-        "legal action",
-        "charging"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "statute of limitations",
-      "translation": "مرور زمان",
-      "example": "The statute of limitations barred the claim.",
-      "synonyms": [
-        "time limit",
-        "deadline"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "tolling",
-      "translation": "تمدید",
-      "example": "Tolling extended the limitations period.",
-      "synonyms": [
-        "suspension",
-        "extension"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
       "word": "discovery",
       "translation": "کشف",
       "example": "Discovery revealed new evidence.",
       "synonyms": [
         "disclosure",
         "pretrial investigation"
-      ],
-      "tags": [
-        "legal"
-      ]
-    },
-    {
-      "word": "deposition",
-      "translation": "سؤال و جواب",
-      "example": "The deposition was taken.",
-      "synonyms": [
-        "oral testimony",
-        "sworn statement"
       ],
       "tags": [
         "legal"
@@ -2404,6 +1600,595 @@
       "tags": [
         "legal"
       ]
+    },
+    {
+      "word": "adjudicate",
+      "translation": "داوری کردن",
+      "example": "The judge adjudicated the case.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "codify",
+      "translation": "قانونی کردن",
+      "example": "They codified the new regulations.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "exculpate",
+      "translation": "تبرئه کردن",
+      "example": "The evidence exculpated the defendant.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "jurisprudence",
+      "translation": "حقوق‌شناسی",
+      "example": "His jurisprudence was influential.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "litigant",
+      "translation": "خواهان",
+      "example": "The litigant filed a lawsuit.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "word": "bylaw",
+      "translation": "آیین‌نامه داخلی",
+      "example": "The bylaw governs meetings.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "lawsuit",
+      "translation": "دعوای حقوقی",
+      "example": "The lawsuit was settled out of court.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "covenant",
+      "translation": "عهدنامه",
+      "example": "The covenant binds both parties.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "enforce",
+      "translation": "اجرا کردن",
+      "example": "Enforce the terms of the agreement.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "revoke",
+      "translation": "لغو کردن",
+      "example": "The court revoked the license.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "witness",
+      "translation": "شاهد",
+      "example": "The witness was cross-examined.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "abrogate",
+      "translation": "منسوخ کردن",
+      "example": "The law was abrogated.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "felony",
+      "translation": "جرم سنگین",
+      "example": "The felony charge was serious.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "clause",
+      "translation": "بند قرارداد",
+      "example": "The clause protects both sides.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "nullify",
+      "translation": "باطل کردن",
+      "example": "The judge nullified the contract.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "testament",
+      "translation": "وصیت‌نامه",
+      "example": "The testament was notarized.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "plead",
+      "translation": "دفاع کردن",
+      "example": "The lawyer will plead the case.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "annex",
+      "translation": "پیوست",
+      "example": "See the annex for details.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "acquit",
+      "translation": "تبرئه کردن",
+      "example": "The jury acquitted the accused.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "custody",
+      "translation": "حضانت",
+      "example": "Custody was granted to the mother.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "misdemeanor",
+      "translation": "خلاف کوچک",
+      "example": "The misdemeanor resulted in a fine.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "redress",
+      "translation": "جبران خسارت",
+      "example": "She sought redress in court.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "arbitrate",
+      "translation": "داوری کردن",
+      "example": "A neutral party will arbitrate.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "statutory",
+      "translation": "قانونی",
+      "example": "Statutory rights cannot be waived.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "notarize",
+      "translation": "تصدیق محضری",
+      "example": "Notarize the document first.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "remand",
+      "translation": "بازگرداندن",
+      "example": "The case was remanded for retrial.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "adjourn",
+      "translation": "تعطیل کردن",
+      "example": "The court adjourned until Monday.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "life estate",
+      "translation": "عین معیشتی",
+      "example": "Life estate grants use for a lifetime.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "de jure",
+      "translation": "de jure",
+      "example": "De jure authority was established.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "takings",
+      "translation": "/frame takings",
+      "example": "Takings require just compensation.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "escheat",
+      "translation": "انفال",
+      "example": "Escheat transfers property to the state.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "assignee",
+      "translation": "منتفع",
+      "example": "The assignee receives the rights.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "enjoin",
+      "translation": "حکم منع",
+      "example": "The court enjoined the defendant.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "fiduciary",
+      "translation": "امین",
+      "example": "A fiduciary duty is owed to clients.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "nolle prosequi",
+      "translation": "انصراف از تعقیب",
+      "example": "Nolle prosequi was entered.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "sequestration",
+      "translation": "جدا کردن",
+      "example": "Sequestration of assets was ordered.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "receivership",
+      "translation": "تصدی اموال",
+      "example": "The firm went into receivership.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "usufruct",
+      "translation": "حق منافع",
+      "example": "Usufruct allows use without ownership.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "indemnify",
+      "translation": "غرامت دادن",
+      "example": "The policy will indemnify the victim.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "nolo contendere",
+      "translation": "عدم اقرار",
+      "example": "The plea was nolo contendere.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "obligee",
+      "translation": "طالب حق",
+      "example": "The obligee can enforce payment.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "exculpatory",
+      "translation": "تبرئه‌کننده",
+      "example": "Exculpatory evidence was presented.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "obligor",
+      "translation": "ملزم",
+      "example": "The obligor must fulfill the contract.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "adjudication",
+      "translation": "رسیدگی قضایی",
+      "example": "Adjudication resolved the dispute.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "replevy",
+      "translation": "استرداد",
+      "example": "Replevy the seized property.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "de facto",
+      "translation": "de facto",
+      "example": "The de facto leader held power.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "challenges for cause",
+      "translation": "به دلیل",
+      "example": "Challenges for cause remove biased jurors.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "proscriptive",
+      "translation": "ممنوع‌کننده",
+      "example": "Proscriptive laws ban certain acts.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "inculpatory",
+      "translation": "محکوم‌کننده",
+      "example": "Inculpatory evidence sealed the case.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "demurrer",
+      "translation": "اعتراض اولیه",
+      "example": "A demurrer was filed.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "reimburse",
+      "translation": "بازپرداخت کردن",
+      "example": "Reimburse the expenses promptly.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "subrogate",
+      "translation": "جایگزین شدن",
+      "example": "Subrogation allows insurer recovery.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "quo warranto",
+      "translation": "به چه حقی",
+      "example": "Quo warranto challenged the appointment.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "peremptory",
+      "translation": "قطعی",
+      "example": "Peremptory challenges are limited.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "estreat",
+      "translation": "ضبط وجه التزام",
+      "example": "Estreat of the bond was ordered.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "fee simple",
+      "translation": "مالکیت مطلق",
+      "example": "Fee simple conveys full ownership.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "unilateral",
+      "translation": "یک جانبه",
+      "example": "Unilateral action violated the treaty.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "traverse",
+      "translation": "انکار",
+      "example": "The defendant traversed the charges.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "caveat emptor",
+      "translation": " buyer beware",
+      "example": "Caveat emptor applies to sales.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "remit",
+      "translation": "ارسال",
+      "example": "Remit the payment by Friday.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "pardoning",
+      "translation": "عفو فردی توسط حاکم",
+      "example": "Pardoning rested with the governor.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "prerogative",
+      "translation": "حق ویژه حکومتی",
+      "example": "The prerogative belongs to the crown.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "enactment of law",
+      "translation": "تصویب و اجرای قانون",
+      "example": "Enactment of law took effect immediately.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "lawsuit filing",
+      "translation": "ثبت دعوای حقوقی",
+      "example": "Lawsuit filing triggered the process.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "defendant response",
+      "translation": "پاسخ خوانده",
+      "example": "Defendant response denied liability.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "deposition transcript",
+      "translation": "متن شهادت کتبی",
+      "example": "Deposition transcript was filed.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
+    },
+    {
+      "word": "amicable settlement",
+      "translation": "حل و فصل دوستانه",
+      "example": "Amicable settlement avoided trial.",
+      "synonyms": [],
+      "tags": [
+        "C1-03"
+      ]
     }
-  ]
+  ],
+  "packId": "C1-03"
 }

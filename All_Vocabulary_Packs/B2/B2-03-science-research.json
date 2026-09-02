@@ -6,42 +6,6 @@
   "packId": "B2-03",
   "words": [
     {
-      "word": "hypothesis",
-      "translation": "فرضیه",
-      "ipa": "/haɪˈpɑːθəsɪs/",
-      "partOfSpeech": "noun",
-      "example": "The scientist proposed a hypothesis before starting the experiment.",
-      "definitions": [
-        "A proposed explanation made on the basis of limited evidence, used as a starting point for investigation"
-      ],
-      "synonyms": [
-        "theory",
-        "assumption",
-        "proposition"
-      ],
-      "antonyms": [
-        "fact",
-        "certainty"
-      ],
-      "collocations": [
-        "test a hypothesis",
-        "formulate a hypothesis",
-        "support a hypothesis"
-      ],
-      "wordFamily": [
-        "hypothesis (n)",
-        "hypothetical (adj)",
-        "hypothetically (adv)"
-      ],
-      "coreMeaning": "پیشنهاد یا حدس علمی که باید آزمایش شود",
-      "note": "جمع آن hypotheses است",
-      "trap": "با theory اشتباه نگیرید؛ hypothesis حدس اولیه، theory نظریه اثبات‌شده",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
       "word": "experiment",
       "translation": "آزمایش",
       "ipa": "/ɪkˈsperɪmənt/",
@@ -69,109 +33,6 @@
       "coreMeaning": "انجام یک فرآیند علمی برای کشف یا اثبات چیزی",
       "note": "هم اسم و هم فعل است",
       "trap": "experiment با experience اشتباه نشود",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "variable",
-      "translation": "متغیر",
-      "ipa": "/ˈveriəbəl/",
-      "partOfSpeech": "noun",
-      "example": "The researcher changed one variable at a time.",
-      "definitions": [
-        "A factor or element that can change or be changed in a scientific experiment"
-      ],
-      "synonyms": [
-        "factor",
-        "element",
-        "parameter"
-      ],
-      "antonyms": [
-        "constant"
-      ],
-      "collocations": [
-        "independent variable",
-        "dependent variable",
-        "control variable"
-      ],
-      "wordFamily": [
-        "variable (n/adj)",
-        "variability (n)",
-        "vary (v)"
-      ],
-      "coreMeaning": "عاملی که در آزمایش تغییر می‌کند",
-      "note": "در علوم: independent variable و dependent variable کلیدی هستند",
-      "trap": "variable به معنی قابل تغییر هم هست",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "methodology",
-      "translation": "روش‌شناسی",
-      "ipa": "/ˌmeθəˈdɑːlədʒi/",
-      "partOfSpeech": "noun",
-      "example": "The methodology of the study was clearly described in the paper.",
-      "definitions": [
-        "A system of methods used in a particular area of study or activity"
-      ],
-      "synonyms": [
-        "approach",
-        "procedure",
-        "technique"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "research methodology",
-        "scientific methodology",
-        "adopt a methodology"
-      ],
-      "wordFamily": [
-        "methodology (n)",
-        "methodological (adj)",
-        "methodologically (adv)"
-      ],
-      "coreMeaning": "مجموعه روش‌های سیستماتیک برای انجام تحقیق",
-      "note": "methodology فقط به معنی یک روش نیست",
-      "trap": "با method اشتباه نشود؛ methodology کلی‌تر است",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "analysis",
-      "translation": "تحلیل",
-      "ipa": "/əˈnæləsɪs/",
-      "partOfSpeech": "noun",
-      "example": "The data analysis revealed surprising results.",
-      "definitions": [
-        "Detailed examination of the elements or structure of something"
-      ],
-      "synonyms": [
-        "examination",
-        "evaluation",
-        "assessment"
-      ],
-      "antonyms": [
-        "synthesis"
-      ],
-      "collocations": [
-        "data analysis",
-        "statistical analysis",
-        "carry out an analysis"
-      ],
-      "wordFamily": [
-        "analysis (n)",
-        "analyze (v)",
-        "analytical (adj)"
-      ],
-      "coreMeaning": "بررسی دقیق و جزئی اجزای یک چیز",
-      "note": "جمع آن analyses است",
-      "trap": "با diagnose اشتباه نشود",
       "tags": [
         "B2",
         "science"
@@ -208,72 +69,6 @@
       "coreMeaning": "مجموعه‌ای از ایده‌ها برای توضیح یک پدیده علمی",
       "note": "در علم، theory نظریه‌ای است که با شواهد زیاد تأیید شده",
       "trap": "در محاوره theory گاهی به معنی حدس است",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "observation",
-      "translation": "مشاهده",
-      "ipa": "/ˌɑːbzərˈveɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "Careful observation is the first step of the scientific method.",
-      "definitions": [
-        "The action or process of observing something carefully in order to gain information"
-      ],
-      "synonyms": [
-        "watching",
-        "monitoring",
-        "inspection"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "make an observation",
-        "careful observation",
-        "direct observation"
-      ],
-      "wordFamily": [
-        "observation (n)",
-        "observe (v)",
-        "observational (adj)"
-      ],
-      "coreMeaning": "دقت و نگاه دقیق به چیزی برای کسب اطلاعات",
-      "note": "observation می‌تواند هم عمل و هم نتیجه باشد",
-      "trap": "observation بدون دخالت، experiment با دخالت",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "evidence",
-      "translation": "شواهد",
-      "ipa": "/ˈevɪdəns/",
-      "partOfSpeech": "noun",
-      "example": "There is strong evidence to support the theory.",
-      "definitions": [
-        "The available body of facts or information indicating whether a belief or proposition is true or valid"
-      ],
-      "synonyms": [
-        "proof",
-        "documentation",
-        "testimony"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "scientific evidence",
-        "gather evidence",
-        "strong evidence"
-      ],
-      "wordFamily": [
-        "evidence (n)",
-        "evident (adj)",
-        "evidently (adv)"
-      ],
-      "coreMeaning": "اطلاعات و واقعیت‌هایی که یک ادعا را تأیید می‌کنند",
-      "note": "evidence غیرقابل شمارش است",
-      "trap": "evidence ≠ proof؛ evidence شواهد، proof قطعیت",
       "tags": [
         "B2",
         "science"
@@ -352,38 +147,6 @@
       ]
     },
     {
-      "word": "sample",
-      "translation": "نمونه",
-      "ipa": "/ˈsæmpəl/",
-      "partOfSpeech": "noun",
-      "example": "We took a random sample of 200 people for the survey.",
-      "definitions": [
-        "A small part or quantity intended to show what the whole is like"
-      ],
-      "synonyms": [
-        "specimen",
-        "example",
-        "subset"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "random sample",
-        "sample size",
-        "take a sample"
-      ],
-      "wordFamily": [
-        "sample (n/v)",
-        "sampling (n)"
-      ],
-      "coreMeaning": "بخش کوچکی از یک کل برای نمایش کل",
-      "note": "sample size بسیار مهم است",
-      "trap": "sample ≠ example؛ sample نمونه آماری، example مثال",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
       "word": "poll",
       "translation": "نظرسنجی",
       "ipa": "/poʊl/",
@@ -441,70 +204,6 @@
       "coreMeaning": "نتایج و اطلاعات حاصل از تحقیق",
       "note": "معمولاً به صورت جمع استفاده می‌شود",
       "trap": "findings ≠ results؛ findings کشفیات، results نتایج عددی",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "peer review",
-      "translation": "داوری همتایان",
-      "ipa": "/ˌpɪr rɪˈvjuː/",
-      "partOfSpeech": "noun",
-      "example": "The paper went through a rigorous peer review process.",
-      "definitions": [
-        "Evaluation of scientific work by others in the same field"
-      ],
-      "synonyms": [
-        "expert review",
-        "academic review"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "peer review process",
-        "undergo peer review",
-        "peer-reviewed journal"
-      ],
-      "wordFamily": [
-        "peer review (n)",
-        "peer-reviewed (adj)"
-      ],
-      "coreMeaning": "بررسی کار علمی توسط متخصصان همان حوزه",
-      "note": "peer-reviewed بودن مجله نشانه اعتبار است",
-      "trap": "peer review تضمین کیفیت نیست",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "correlation",
-      "translation": "همبستگی",
-      "ipa": "/ˌkɔːrəˈleɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "There is a strong correlation between smoking and lung cancer.",
-      "definitions": [
-        "A mutual relationship or connection between two or more things"
-      ],
-      "synonyms": [
-        "connection",
-        "relationship",
-        "association"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "strong correlation",
-        "positive correlation",
-        "correlation does not imply causation"
-      ],
-      "wordFamily": [
-        "correlation (n)",
-        "correlate (v)",
-        "correlated (adj)"
-      ],
-      "coreMeaning": "رابطه متقابل بین دو یا چند چیز",
-      "note": "همبستگی لزوماً به معنی علیت نیست",
-      "trap": "correlation ≠ causation",
       "tags": [
         "B2",
         "science"
@@ -575,39 +274,6 @@
       ]
     },
     {
-      "word": "scholar",
-      "translation": "محقق",
-      "ipa": "/ˈskɑːlər/",
-      "partOfSpeech": "noun",
-      "example": "She is a respected scholar in the field of linguistics.",
-      "definitions": [
-        "A specialist in a particular branch of study"
-      ],
-      "synonyms": [
-        "academic",
-        "intellectual",
-        "expert"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "visiting scholar",
-        "scholarly work",
-        "distinguished scholar"
-      ],
-      "wordFamily": [
-        "scholar (n)",
-        "scholarly (adj)",
-        "scholarship (n)"
-      ],
-      "coreMeaning": "متخصص در یک حوزه مطالعاتی",
-      "note": "scholar می‌تواند به معنی دانشجوی بورسیه هم باشد",
-      "trap": "scholar ≠ scientist؛ scholar علوم انسانی، scientist علوم تجربی",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
       "word": "journal",
       "translation": "مجله علمی",
       "ipa": "/ˈdʒɜːrnəl/",
@@ -635,37 +301,6 @@
       "coreMeaning": "نشریه دوره‌ای حاوی مقالات علمی",
       "note": "مجلات معتبر peer-reviewed هستند",
       "trap": "journal ≠ magazine؛ journal علمی، magazine عمومی",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "abstract",
-      "translation": "چکیده",
-      "ipa": "/ˈæbstrækt/",
-      "partOfSpeech": "noun",
-      "example": "Read the abstract to get an overview of the research paper.",
-      "definitions": [
-        "A brief summary of the contents of an article or research paper"
-      ],
-      "synonyms": [
-        "summary",
-        "overview",
-        "synopsis"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "write an abstract",
-        "research abstract",
-        "abstract of a paper"
-      ],
-      "wordFamily": [
-        "abstract (n/adj/v)"
-      ],
-      "coreMeaning": "خلاصه کوتاه یک مقاله علمی",
-      "note": "abstract معمولاً 150-300 کلمه است",
-      "trap": "abstract ≠ summary؛ abstract خاص مقالات علمی",
       "tags": [
         "B2",
         "science"
@@ -1346,38 +981,6 @@
       ]
     },
     {
-      "word": "spectrum",
-      "translation": "طیف",
-      "ipa": "/ˈspektrəm/",
-      "partOfSpeech": "noun",
-      "example": "The visible spectrum includes all the colors of the rainbow.",
-      "definitions": [
-        "A band of colors produced by separation of light components"
-      ],
-      "synonyms": [
-        "range",
-        "scale",
-        "band"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "electromagnetic spectrum",
-        "visible spectrum",
-        "broad spectrum"
-      ],
-      "wordFamily": [
-        "spectrum (n)",
-        "spectral (adj)"
-      ],
-      "coreMeaning": "نواری از رنگ‌ها بر اساس طول موج",
-      "note": "طیف مرئی فقط بخش کوچکی از طیف الکترومغناطیسی",
-      "trap": "spectrum ≠ range؛ spectrum علمی‌تر",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
       "word": "nucleus",
       "translation": "هسته",
       "ipa": "/ˈnjuːkliəs/",
@@ -1555,35 +1158,6 @@
       "coreMeaning": "مربوط به هسته اتم",
       "note": "nuclear تلفظ صحیح: NEW-klee-er",
       "trap": "nuclear ≠ atomic",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "quantum",
-      "translation": "کوانتومی",
-      "ipa": "/ˈkwɑːntəm/",
-      "partOfSpeech": "adjective",
-      "example": "Quantum mechanics describes the behavior of subatomic particles.",
-      "definitions": [
-        "Relating to quantum mechanics or quantum physics"
-      ],
-      "synonyms": [],
-      "antonyms": [
-        "classical"
-      ],
-      "collocations": [
-        "quantum mechanics",
-        "quantum physics",
-        "quantum computing"
-      ],
-      "wordFamily": [
-        "quantum (n/adj)"
-      ],
-      "coreMeaning": "مربوط به فیزیک ذرات زیراتمی",
-      "note": "quantum از کلمه لاتین quantus گرفته شده",
-      "trap": "quantum ≠ classical",
       "tags": [
         "B2",
         "science"
@@ -3105,40 +2679,6 @@
       ]
     },
     {
-      "word": "concentration",
-      "translation": "غلظت",
-      "ipa": "/ˌkɑːnsənˈtreɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "The concentration of sugar in the solution was too high.",
-      "definitions": [
-        "The relative amount of a substance in a mixture"
-      ],
-      "synonyms": [
-        "density",
-        "strength",
-        "potency"
-      ],
-      "antonyms": [
-        "dilution"
-      ],
-      "collocations": [
-        "high concentration",
-        "concentration level",
-        "increase concentration"
-      ],
-      "wordFamily": [
-        "concentration (n)",
-        "concentrate (v)"
-      ],
-      "coreMeaning": "مقدار نسبی یک ماده در مخلوط",
-      "note": "concentration معانی دیگری هم دارد: تمرکز",
-      "trap": "concentration ≠ density",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
       "word": "dilute",
       "translation": "رقیق کردن",
       "ipa": "/daɪˈluːt/",
@@ -4539,41 +4079,6 @@
       ]
     },
     {
-      "word": "vulnerable",
-      "translation": "آسیب‌پذیر",
-      "ipa": "/ˈvʌlnərəbəl/",
-      "partOfSpeech": "adjective",
-      "example": "Coastal areas are vulnerable to sea level rise.",
-      "definitions": [
-        "Susceptible to physical or emotional attack or harm"
-      ],
-      "synonyms": [
-        "susceptible",
-        "exposed",
-        "at risk"
-      ],
-      "antonyms": [
-        "resilient",
-        "protected"
-      ],
-      "collocations": [
-        "vulnerable to",
-        "vulnerable species",
-        "vulnerable population"
-      ],
-      "wordFamily": [
-        "vulnerability (n)",
-        "vulnerable (adj)"
-      ],
-      "coreMeaning": "در معرض آسیب",
-      "note": "گونه‌های آسیب‌پذیر بیشتر در خطر انقراض",
-      "trap": "vulnerable ≠ weak",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
       "word": "sustainable development",
       "translation": "توسعه پایدار",
       "ipa": "/səˈsteɪnəbəl dɪˈveləpmənt/",
@@ -4810,40 +4315,6 @@
       "coreMeaning": "گاز بی‌رنگ با بوی تند",
       "note": "در جو بالا مفید، در سطح زمین مضر",
       "trap": "ozone ≠ oxygen",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "viability",
-      "translation": "قابلیت اجرا، زیست‌پذیری",
-      "ipa": "/ˌvaɪəˈbɪləti/",
-      "partOfSpeech": "noun",
-      "example": "The viability of the project depends on funding.",
-      "definitions": [
-        "The ability to work successfully; the ability to survive or live"
-      ],
-      "synonyms": [
-        "feasibility",
-        "sustainability",
-        "practicality"
-      ],
-      "antonyms": [
-        "impracticability"
-      ],
-      "collocations": [
-        "economic viability",
-        "long-term viability",
-        "question the viability"
-      ],
-      "wordFamily": [
-        "viable (adj)",
-        "viability (n)"
-      ],
-      "coreMeaning": "توانایی موفقیت یا بقا",
-      "note": "viability در علم: توانایی زنده ماندن",
-      "trap": "viability ≠ sustainability؛ viability توانایی بقا، sustainability پایداری",
       "tags": [
         "B2",
         "science"
@@ -5092,38 +4563,6 @@
       "coreMeaning": "مطالعه روابط تکاملی",
       "note": "درخت تبارزایی نمودار روابط تکاملی",
       "trap": "phylogenetics ≠ taxonomy",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "taxonomy",
-      "translation": "طبقه‌بندی",
-      "ipa": "/tækˈsɑːnəmi/",
-      "partOfSpeech": "noun",
-      "example": "Linnaeus developed the modern system of taxonomy.",
-      "definitions": [
-        "The branch of science concerned with classification of organisms"
-      ],
-      "synonyms": [
-        "classification",
-        "systematics",
-        "categorization"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "biological taxonomy",
-        "taxonomy classification",
-        "taxonomy system"
-      ],
-      "wordFamily": [
-        "taxonomy (n)",
-        "taxonomic (adj)"
-      ],
-      "coreMeaning": "طبقه‌بندی موجودات زنده",
-      "note": "Kingdom, Phylum, Class, Order, Family, Genus, Species",
-      "trap": "taxonomy ≠ phylogenetics",
       "tags": [
         "B2",
         "science"
@@ -5407,38 +4846,6 @@
       "coreMeaning": "مطالعه علمی سیستم عصبی",
       "note": "شامل مغز، نخاع و اعصاب",
       "trap": "neuroscience ≠ neurology",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "cognitive",
-      "translation": "شناختی",
-      "ipa": "/ˈkɑːɡnətɪv/",
-      "partOfSpeech": "adjective",
-      "example": "Cognitive abilities include memory, attention, and problem-solving.",
-      "definitions": [
-        "Relating to mental processes of perception, memory, and reasoning"
-      ],
-      "synonyms": [
-        "mental",
-        "intellectual",
-        "psychological"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "cognitive function",
-        "cognitive development",
-        "cognitive science"
-      ],
-      "wordFamily": [
-        "cognition (n)",
-        "cognitive (adj)"
-      ],
-      "coreMeaning": "مربوط به فرآیندهای ذهنی",
-      "note": "شامل یادگیری، حافظه، ادراک و زبان",
-      "trap": "cognitive ≠ physical",
       "tags": [
         "B2",
         "science"
@@ -6021,72 +5428,6 @@
       ]
     },
     {
-      "word": "citation",
-      "translation": "استناد",
-      "ipa": "/saɪˈteɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "Proper citation of sources is essential in academic writing.",
-      "definitions": [
-        "A reference to a source of information used in research"
-      ],
-      "synonyms": [
-        "reference",
-        "quotation",
-        "attribution"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "academic citation",
-        "citation format",
-        "citation count"
-      ],
-      "wordFamily": [
-        "citation (n)",
-        "cite (v)"
-      ],
-      "coreMeaning": "ارجاع به منبع",
-      "note": "APA، MLA و Chicago فرمت‌های رایج",
-      "trap": "citation ≠ quote",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "plagiarism",
-      "translation": "سرقت ادبی",
-      "ipa": "/ˈpleɪdʒərɪzəm/",
-      "partOfSpeech": "noun",
-      "example": "Plagiarism is a serious offense in academic institutions.",
-      "definitions": [
-        "Taking someone else's work and passing it off as one's own"
-      ],
-      "synonyms": [
-        "copying",
-        "theft",
-        "piracy"
-      ],
-      "antonyms": [
-        "originality"
-      ],
-      "collocations": [
-        "commit plagiarism",
-        "accusation of plagiarism",
-        "avoid plagiarism"
-      ],
-      "wordFamily": [
-        "plagiarism (n)",
-        "plagiarize (v)"
-      ],
-      "coreMeaning": "استفاده بدون ذکر منبع",
-      "note": "می‌تواند منجر به اخراج شود",
-      "trap": "plagiarism ≠ citation",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
       "word": "hypothesis testing",
       "translation": "آزمون فرضیه",
       "ipa": "/haɪˈpɑːθəsɪs ˈtestɪŋ/",
@@ -6270,43 +5611,6 @@
       ]
     },
     {
-      "word": "rigorous",
-      "translation": "سخت‌گیرانه، دقیق",
-      "ipa": "/ˈrɪɡərəs/",
-      "partOfSpeech": "adjective",
-      "example": "The research followed a rigorous methodology.",
-      "definitions": [
-        "Extremely thorough, exhaustive, or accurate"
-      ],
-      "synonyms": [
-        "strict",
-        "thorough",
-        "meticulous"
-      ],
-      "antonyms": [
-        "lax",
-        "lenient",
-        "careless"
-      ],
-      "collocations": [
-        "rigorous methodology",
-        "rigorous testing",
-        "rigorous standards"
-      ],
-      "wordFamily": [
-        "rigor (n)",
-        "rigorous (adj)",
-        "rigorously (adv)"
-      ],
-      "coreMeaning": "بسیار دقیق و سخت‌گیرانه",
-      "note": "در تحقیقات علمی: rigorous methodology روش تحقیق دقیق و سخت‌گیرانه",
-      "trap": "rigorous ≠ difficult؛ rigorous دقیق، difficult سخت",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
       "word": "accurate",
       "translation": "دقیق",
       "ipa": "/ˈækjərət/",
@@ -6338,42 +5642,6 @@
       "coreMeaning": "صحیح و بدون خطا",
       "note": "accurate ≠ precise؛ accurate نزدیک به واقعیت، precise جزئیات زیاد",
       "trap": "accurate ≠ precise",
-      "tags": [
-        "B2",
-        "science"
-      ]
-    },
-    {
-      "word": "reliable",
-      "translation": "قابل اعتماد",
-      "ipa": "/rɪˈlaɪəbəl/",
-      "partOfSpeech": "adjective",
-      "example": "The data must be reliable for the conclusions to be valid.",
-      "definitions": [
-        "Consistently good in quality; able to be trusted"
-      ],
-      "synonyms": [
-        "dependable",
-        "trustworthy",
-        "consistent"
-      ],
-      "antonyms": [
-        "unreliable",
-        "untrustworthy"
-      ],
-      "collocations": [
-        "reliable source",
-        "reliable data",
-        "highly reliable"
-      ],
-      "wordFamily": [
-        "reliability (n)",
-        "reliable (adj)",
-        "rely (v)"
-      ],
-      "coreMeaning": "همیشه با کیفیت",
-      "note": "reliable data برای نتیجه‌گیری ضروری",
-      "trap": "reliable ≠ valid",
       "tags": [
         "B2",
         "science"
@@ -6414,6 +5682,205 @@
         "B2",
         "science"
       ]
+    },
+    {
+      "word": "equation",
+      "translation": "معادله",
+      "example": "Solve the equation step by step.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "acceleration",
+      "translation": "شتاب",
+      "example": "Gravity causes acceleration.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "fieldwork",
+      "translation": "کار میدانی",
+      "example": "Fieldwork revealed new findings.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "genome",
+      "translation": "ژنوم",
+      "example": "The human genome was mapped.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "formula",
+      "translation": "فرمول",
+      "example": "Apply the correct formula.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "particle",
+      "translation": "ذره",
+      "example": "Subatomic particles behave oddly.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "scalar",
+      "translation": "اسکالر",
+      "example": "Temperature is a scalar quantity.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "validation",
+      "translation": "اعتبارسنجی",
+      "example": "Validation confirmed the results.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "predictive",
+      "translation": "پیش‌بینی‌کننده",
+      "example": "Predictive models guide decisions.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "discrete",
+      "translation": "گسسته",
+      "example": "Discrete data uses whole numbers.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "conjecture",
+      "translation": "حدس",
+      "example": "The conjecture was later proven.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "empirically",
+      "translation": "تجربی",
+      "example": "The theory was empirically tested.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "falsification",
+      "translation": "جعل علمی",
+      "example": "Falsifiability is key to science.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "stratification",
+      "translation": "لایه‌بندی",
+      "example": "Stratification occurs in lakes.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "combustion",
+      "translation": "احتراق",
+      "example": "Combustion releases energy.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "theoretically",
+      "translation": "نظری",
+      "example": "Theoretically, it should work.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "continuous",
+      "translation": "پیوسته",
+      "example": "Continuous data includes decimals.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "constructive",
+      "translation": "ساختاری",
+      "example": "Constructive validity tests theory.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "replicability",
+      "translation": "قابلیت تکرار",
+      "example": "Replicability validates findings.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "concurrent",
+      "translation": "همزمان",
+      "example": "Concurrent validity checks alignment.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "triangulation",
+      "translation": "مثلث‌بندی روش‌ها",
+      "example": "Triangulation verifies results.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
+    },
+    {
+      "word": "correlational",
+      "translation": "همبستی‌ای",
+      "example": "Correlational studies show associations.",
+      "synonyms": [],
+      "tags": [
+        "B2-03"
+      ]
     }
-  ]
+  ],
+  "id": "B2-03"
 }

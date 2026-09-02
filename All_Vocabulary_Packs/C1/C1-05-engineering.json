@@ -6,42 +6,6 @@
   "theme": "engineering",
   "words": [
     {
-      "word": "algorithm",
-      "translation": "الگوریتم",
-      "example": "The algorithm processes data efficiently.",
-      "synonyms": [
-        "procedure",
-        "method"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "bandwidth",
-      "translation": "پهنای باند",
-      "example": "Bandwidth determines data transfer rate.",
-      "synonyms": [
-        "capacity",
-        "throughput"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "latency",
-      "translation": "تاخیر",
-      "example": "Low latency is crucial for gaming.",
-      "synonyms": [
-        "delay",
-        "response time"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
       "word": "throughput",
       "translation": "نرخ انتقال",
       "example": "Throughput measures data volume.",
@@ -54,48 +18,12 @@
       ]
     },
     {
-      "word": "scalability",
-      "translation": "مقیاس‌پذیری",
-      "example": "Scalability ensures growth support.",
-      "synonyms": [
-        "expandability",
-        "flexibility"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "redundancy",
-      "translation": "تکرار",
-      "example": "Redundancy provides backup systems.",
-      "synonyms": [
-        "backup",
-        "duplication"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
       "word": "fault tolerance",
       "translation": "تحمل خطا",
       "example": "Fault tolerance prevents crashes.",
       "synonyms": [
         "resilience",
         "reliability"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "throughput",
-      "translation": "خروجی",
-      "example": "Throughput increases with optimization.",
-      "synonyms": [
-        "output",
-        "performance"
       ],
       "tags": [
         "engineering"
@@ -210,18 +138,6 @@
       ]
     },
     {
-      "word": "abstraction",
-      "translation": "انتزاع",
-      "example": "Abstraction simplifies complex systems.",
-      "synonyms": [
-        "generalization",
-        "simplification"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
       "word": "modular",
       "translation": "ماژولار",
       "example": "Modular design allows easy updates.",
@@ -234,48 +150,12 @@
       ]
     },
     {
-      "word": "refactoring",
-      "translation": "بازآرایی",
-      "example": "Refactoring improves code quality.",
-      "synonyms": [
-        "restructuring",
-        "reorganizing"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "debugging",
-      "translation": "اشکال‌زدایی",
-      "example": "Debugging finds and fixes errors.",
-      "synonyms": [
-        "troubleshooting",
-        "error correction"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
       "word": "testing",
       "translation": "تست",
       "example": "Testing validates functionality.",
       "synonyms": [
         "verification",
         "validation"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "deployment",
-      "translation": "استقرار",
-      "example": "Deployment makes the app available.",
-      "synonyms": [
-        "release",
-        "launch"
       ],
       "tags": [
         "engineering"
@@ -300,18 +180,6 @@
       "synonyms": [
         "continuous integration",
         "continuous delivery"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "containerization",
-      "translation": "کانتینرسازی",
-      "example": "Containerization standardizes environments.",
-      "synonyms": [
-        "Docker",
-        "virtualization"
       ],
       "tags": [
         "engineering"
@@ -354,30 +222,6 @@
       ]
     },
     {
-      "word": "endpoint",
-      "translation": "نقطه اتصال",
-      "example": "The endpoint handles requests.",
-      "synonyms": [
-        "route",
-        "URL"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "middleware",
-      "translation": "میان‌افزار",
-      "example": "Middleware connects front and back end.",
-      "synonyms": [
-        "intermediary",
-        "bridge"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
       "word": "load balancer",
       "translation": "متعادل‌کننده بار",
       "example": "The load balancer distributes traffic.",
@@ -396,54 +240,6 @@
       "synonyms": [
         "buffering",
         "temporary storage"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "database",
-      "translation": "پایگاه داده",
-      "example": "The database stores information.",
-      "synonyms": [
-        "data store",
-        "repository"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "schema",
-      "translation": "اسکیما",
-      "example": "The database schema is normalized.",
-      "synonyms": [
-        "structure",
-        "blueprint"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "query",
-      "translation": "کوئری",
-      "example": "The query retrieves data.",
-      "synonyms": [
-        "request",
-        "search"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "index",
-      "translation": "ایندکس",
-      "example": "The index speeds up queries.",
-      "synonyms": [
-        "catalog",
-        "reference"
       ],
       "tags": [
         "engineering"
@@ -480,18 +276,6 @@
       "synonyms": [
         "horizontal partitioning",
         "data splitting"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "consistency",
-      "translation": "سازگاری",
-      "example": "Consistency ensures data integrity.",
-      "synonyms": [
-        "uniformity",
-        "reliability"
       ],
       "tags": [
         "engineering"
@@ -546,17 +330,6 @@
       ]
     },
     {
-      "word": "ACID",
-      "translation": "ACID",
-      "example": "ACID properties ensure transaction safety.",
-      "synonyms": [
-        "atomicity-consistency-isolation-durability"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
       "word": "BASE",
       "translation": "BASE",
       "example": "BASE properties support scalability.",
@@ -586,18 +359,6 @@
       "synonyms": [
         "scaling up",
         "server upgrade"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "DevOps",
-      "translation": "DevOps",
-      "example": "DevOps bridges development and operations.",
-      "synonyms": [
-        "development-operations",
-        "continuous improvement"
       ],
       "tags": [
         "engineering"
@@ -987,36 +748,12 @@
       ]
     },
     {
-      "word": "factory",
-      "translation": "کارخانه",
-      "example": "Factory creates objects.",
-      "synonyms": [
-        "object creator",
-        "builder"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
       "word": "observer",
       "translation": "ناظر",
       "example": "Observer watches for changes.",
       "synonyms": [
         "listener",
         "watcher"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "strategy",
-      "translation": "استراتژی",
-      "example": "Strategy selects algorithm at runtime.",
-      "synonyms": [
-        "algorithm selection",
-        "behavioral pattern"
       ],
       "tags": [
         "engineering"
@@ -1053,18 +790,6 @@
       "synonyms": [
         "simplified interface",
         "front-end"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "proxy",
-      "translation": "پراکسی",
-      "example": "Proxy controls access.",
-      "synonyms": [
-        "surrogate",
-        "intermediary"
       ],
       "tags": [
         "engineering"
@@ -1251,30 +976,6 @@
       ]
     },
     {
-      "word": "hardware",
-      "translation": "سخت‌افزار",
-      "example": "Hardware requires physical components.",
-      "synonyms": [
-        "equipment",
-        "machinery"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "firmware",
-      "translation": "فریمور",
-      "example": "Firmware runs on embedded devices.",
-      "synonyms": [
-        "embedded software",
-        "device software"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
       "word": "embedded system",
       "translation": "سیستم نهفته",
       "example": "Embedded systems control appliances.",
@@ -1335,36 +1036,12 @@
       ]
     },
     {
-      "word": "virtualization",
-      "translation": "مجازی‌سازی",
-      "example": "Virtualization creates virtual machines.",
-      "synonyms": [
-        "emulation",
-        "abstraction"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
       "word": "hypervisor",
       "translation": "هایپروایزر",
       "example": "The hypervisor manages virtual machines.",
       "synonyms": [
         "virtual machine manager",
         "VMM"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "container",
-      "translation": "کانتینر",
-      "example": "Containers package applications.",
-      "synonyms": [
-        "lightweight VM",
-        "application package"
       ],
       "tags": [
         "engineering"
@@ -1587,60 +1264,12 @@
       ]
     },
     {
-      "word": "security",
-      "translation": "امنیت",
-      "example": "Security protects against threats.",
-      "synonyms": [
-        "protection",
-        "defense"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "authentication",
-      "translation": "احراز هویت",
-      "example": "Authentication verifies identity.",
-      "synonyms": [
-        "verification",
-        "login"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
       "word": "authorization",
       "translation": "مجوزدهی",
       "example": "Authorization grants access.",
       "synonyms": [
         "permission",
         "access control"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "encryption",
-      "translation": "رمزگذاری",
-      "example": "Encryption secures data.",
-      "synonyms": [
-        "coding",
-        "protection"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "decryption",
-      "translation": "رمزگشایی",
-      "example": "Decryption unlocks data.",
-      "synonyms": [
-        "decoding",
-        "unprotection"
       ],
       "tags": [
         "engineering"
@@ -1665,18 +1294,6 @@
       "synonyms": [
         "Secure Sockets Layer",
         "TLS"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "firewall",
-      "translation": "فایروال",
-      "example": "The firewall blocks malicious traffic.",
-      "synonyms": [
-        "network security",
-        "filter"
       ],
       "tags": [
         "engineering"
@@ -1760,18 +1377,6 @@
       "synonyms": [
         "code debt",
         "maintenance burden"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "agile",
-      "translation": "چابک",
-      "example": "Agile development is iterative.",
-      "synonyms": [
-        "flexible",
-        "adaptive"
       ],
       "tags": [
         "engineering"
@@ -1874,18 +1479,6 @@
       ]
     },
     {
-      "word": "infrastructure",
-      "translation": "زیرساخت",
-      "example": "Infrastructure supports applications.",
-      "synonyms": [
-        "foundation",
-        "platform"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
       "word": "deployment environment",
       "translation": "محیط استقرار",
       "example": "The deployment environment must match production.",
@@ -1916,18 +1509,6 @@
       "synonyms": [
         "live",
         "real environment"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "rollback",
-      "translation": "بازگشت",
-      "example": "The rollback reverts changes.",
-      "synonyms": [
-        "revert",
-        "undo"
       ],
       "tags": [
         "engineering"
@@ -2198,18 +1779,6 @@
       ]
     },
     {
-      "word": "refactoring",
-      "translation": "بازآرایی کد",
-      "example": "Refactoring reduces technical debt.",
-      "synonyms": [
-        "restructuring",
-        "reorganizing"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
       "word": "code debt",
       "translation": "بدهی کد",
       "example": "Code debt accumulates with shortcuts.",
@@ -2258,72 +1827,12 @@
       ]
     },
     {
-      "word": "cybersecurity",
-      "translation": "امنیت سایبری",
-      "example": "Cybersecurity protects against attacks.",
-      "synonyms": [
-        "information security",
-        "network security"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "phishing",
-      "translation": "فیشینگ",
-      "example": "Phishing scams steal credentials.",
-      "synonyms": [
-        "social engineering",
-        "scam"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "ransomware",
-      "translation": "باج‌افزار",
-      "example": "Ransomware encrypts files.",
-      "synonyms": [
-        "crypto-locker",
-        "extortion software"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "malware",
-      "translation": "بدافزار",
-      "example": "Malware infects systems.",
-      "synonyms": [
-        "virus",
-        "trojan"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
       "word": "DDoS",
       "translation": "DDoS",
       "example": "DDoS attacks overwhelm servers.",
       "synonyms": [
         "distributed denial of service",
         "flooding attack"
-      ],
-      "tags": [
-        "engineering"
-      ]
-    },
-    {
-      "word": "botnet",
-      "translation": "شبکه ربات",
-      "example": "Botnets execute coordinated attacks.",
-      "synonyms": [
-        "zombie network",
-        "automated network"
       ],
       "tags": [
         "engineering"
@@ -2400,6 +1909,373 @@
       "tags": [
         "engineering"
       ]
+    },
+    {
+      "word": "calibrate",
+      "translation": "کالیبره کردن",
+      "example": "The instrument needs to be calibrated.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "word": "reinforcement",
+      "translation": "مسلح‌سازی",
+      "example": "Steel reinforcement strengthens concrete.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "diagnostics",
+      "translation": "عیب‌یابی",
+      "example": "Diagnostics revealed the fault.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "corrosion",
+      "translation": "خوردگی",
+      "example": "Salt accelerates corrosion.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "actuator",
+      "translation": "محرک",
+      "example": "The actuator moves the arm.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "kinematics",
+      "translation": "کینماتیک",
+      "example": "Kinematics studies motion.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "capacitance",
+      "translation": "ظرفیت خازنی",
+      "example": "The capacitance is measured in farads.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "foundation",
+      "translation": "پی ساختمان",
+      "example": "The foundation was reinforced.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "rivet",
+      "translation": "پرچ",
+      "example": "Rivet the plates together.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "cantilever",
+      "translation": "طره",
+      "example": "The cantilever extends without support.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "truss",
+      "translation": "خرپا",
+      "example": "The truss spans the bridge.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "semiconductor",
+      "translation": "نیمه‌رسانا",
+      "example": "Silicon is a semiconductor.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "tensile",
+      "translation": "کششی",
+      "example": "The tensile strength was tested.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "alloy",
+      "translation": "آلیاژ",
+      "example": "Steel is an alloy of iron.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "excavation",
+      "translation": "حفاری",
+      "example": "The excavation uncovered artifacts.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "girder",
+      "translation": "تیر اصلی",
+      "example": "The girder holds the roof.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "voltage",
+      "translation": "ولتاژ",
+      "example": "Check the voltage before connecting.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "hydraulics",
+      "translation": "هیدرولیک",
+      "example": "Hydraulics powers the system.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "impedance",
+      "translation": "امپدانس",
+      "example": "The impedance must be matched.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "surveying",
+      "translation": "نقشه‌برداری",
+      "example": "Surveying mapped the terrain.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "galvanize",
+      "translation": "گالوانیزه کردن",
+      "example": "Galvanize the steel to prevent rust.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "torque",
+      "translation": "گشتاور",
+      "example": "The engine produces high torque.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "chassis",
+      "translation": "شاسی",
+      "example": "The chassis supports the body.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "schematic",
+      "translation": "شماتیک",
+      "example": "Follow the schematic for wiring.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "gauge",
+      "translation": "گیج",
+      "example": "Read the pressure gauge.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "assembly",
+      "translation": "مونتاژ",
+      "example": "The assembly line is efficient.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "fabrication",
+      "translation": "ساخت قطعات",
+      "example": "The fabrication took three months.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "elasticity",
+      "translation": "کشسانی",
+      "example": "Rubber has high elasticity.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "aerodynamics",
+      "translation": "آیرودینامیک",
+      "example": "Aerodynamics affects fuel efficiency.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "turbine",
+      "translation": "توربین",
+      "example": "The turbine generates electricity.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "compressive",
+      "translation": "فشاری",
+      "example": "The compressive load was measured.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "insulation",
+      "translation": "عایق‌کاری",
+      "example": "Insulation reduces heat loss.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "plasticity",
+      "translation": "شکل‌پذیری",
+      "example": "The plasticity of clay is useful.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "overhaul",
+      "translation": "بازسازی کلی",
+      "example": "The engine needs an overhaul.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "solder",
+      "translation": "لحیم‌کاری",
+      "example": "Solder the connection carefully.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "capacitor",
+      "translation": "خازن",
+      "example": "Replace the faulty capacitor.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "generator",
+      "translation": "مولد برق",
+      "example": "The generator provides backup power.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "bearing",
+      "translation": "یاتاقان",
+      "example": "The bearing needs lubrication.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "maintenance",
+      "translation": "نگهداری",
+      "example": "Regular maintenance prevents breakdowns.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "prototype",
+      "translation": "نمونه اولیه",
+      "example": "The prototype works well.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
+    },
+    {
+      "word": "pneumatics",
+      "translation": "پنوماتیک",
+      "example": "Pneumatics uses compressed air.",
+      "synonyms": [],
+      "tags": [
+        "C1-05"
+      ]
     }
-  ]
+  ],
+  "packId": "C1-05"
 }

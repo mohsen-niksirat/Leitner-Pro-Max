@@ -78,18 +78,6 @@
       ]
     },
     {
-      "word": "aesthetic",
-      "translation": "زیبایی‌شناختی",
-      "example": "The aesthetic choices enhance beauty.",
-      "synonyms": [
-        "artistic",
-        "tasteful"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "affable",
       "translation": "خوش‌برخورد",
       "example": "He was an affable host.",
@@ -162,18 +150,6 @@
       ]
     },
     {
-      "word": "anomaly",
-      "translation": "ناهنجاری",
-      "example": "The test revealed an anomaly.",
-      "synonyms": [
-        "irregularity",
-        "deviation"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "antithetical",
       "translation": "متضاد",
       "example": "The ideas are antithetical.",
@@ -222,18 +198,6 @@
       ]
     },
     {
-      "word": "arcane",
-      "translation": "رازآلود",
-      "example": "The arcane ritual fascinated them.",
-      "synonyms": [
-        "mysterious",
-        "obscure"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "arduous",
       "translation": "سخت",
       "example": "The journey was arduous.",
@@ -252,18 +216,6 @@
       "synonyms": [
         "eloquent",
         "fluent"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "ascetic",
-      "translation": "زاهد",
-      "example": "The monk lived an ascetic life.",
-      "synonyms": [
-        "austere",
-        "self-denying"
       ],
       "tags": [
         "rare"
@@ -354,18 +306,6 @@
       ]
     },
     {
-      "word": "benign",
-      "translation": "خوش‌خیم",
-      "example": "The tumor was benign.",
-      "synonyms": [
-        "harmless",
-        "gentle"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "brevity",
       "translation": "اختصار",
       "example": "Brevity is the soul of wit.",
@@ -384,30 +324,6 @@
       "synonyms": [
         "pastoral",
         "rural"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "cacophony",
-      "translation": "هیاهو",
-      "example": "The cacophony was unbearable.",
-      "synonyms": [
-        "din",
-        "dissonance"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "calumny",
-      "translation": "افترا",
-      "example": "He was a victim of calumny.",
-      "synonyms": [
-        "slander",
-        "defamation"
       ],
       "tags": [
         "rare"
@@ -474,18 +390,6 @@
       ]
     },
     {
-      "word": "cogent",
-      "translation": "موجه",
-      "example": "She made a cogent argument.",
-      "synonyms": [
-        "convincing",
-        "compelling"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "commensurate",
       "translation": "متناسب",
       "example": "The salary was commensurate.",
@@ -504,18 +408,6 @@
       "synonyms": [
         "collection",
         "compilation"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "conundrum",
-      "translation": "معمای",
-      "example": "The puzzle presented a conundrum.",
-      "synonyms": [
-        "puzzle",
-        "riddle"
       ],
       "tags": [
         "rare"
@@ -564,18 +456,6 @@
       "synonyms": [
         "gullible",
         "naive"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "cryptic",
-      "translation": "رموز",
-      "example": "The message was cryptic.",
-      "synonyms": [
-        "mysterious",
-        "enigmatic"
       ],
       "tags": [
         "rare"
@@ -666,36 +546,12 @@
       ]
     },
     {
-      "word": "didactic",
-      "translation": "آموزشی",
-      "example": "The didactic story teaches.",
-      "synonyms": [
-        "instructive",
-        "educational"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "diffident",
       "translation": "کم‌رو",
       "example": "He was diffident at parties.",
       "synonyms": [
         "shy",
         "timid"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "diligent",
-      "translation": "پرتلاش",
-      "example": "The diligent student excelled.",
-      "synonyms": [
-        "industrious",
-        "hardworking"
       ],
       "tags": [
         "rare"
@@ -726,18 +582,6 @@
       ]
     },
     {
-      "word": "ebullient",
-      "translation": "پرانرژی",
-      "example": "Her ebullient personality charmed everyone.",
-      "synonyms": [
-        "exuberant",
-        "enthusiastic"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "eclectic",
       "translation": "متنوع",
       "example": "Her taste is eclectic.",
@@ -750,48 +594,12 @@
       ]
     },
     {
-      "word": "effervescent",
-      "translation": "درخشان",
-      "example": "She was effervescent.",
-      "synonyms": [
-        "bubbly",
-        "lively"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "egregious",
       "translation": "آشکار",
       "example": "The error was egregious.",
       "synonyms": [
         "flagrant",
         "glaring"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "eloquent",
-      "translation": "فصیح",
-      "example": "Her eloquent speech moved everyone.",
-      "synonyms": [
-        "articulate",
-        "expressive"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "elucidate",
-      "translation": "توضیح دادن",
-      "example": "Can you elucidate that point?",
-      "synonyms": [
-        "clarify",
-        "explain"
       ],
       "tags": [
         "rare"
@@ -822,30 +630,6 @@
       ]
     },
     {
-      "word": "emulate",
-      "translation": "تقلید کردن",
-      "example": "He emulated his father.",
-      "synonyms": [
-        "imitate",
-        "copy"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "endemic",
-      "translation": "بومی",
-      "example": "The plant is endemic.",
-      "synonyms": [
-        "native",
-        "indigenous"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "enigma",
       "translation": "راز",
       "example": "She remains an enigma.",
@@ -858,72 +642,12 @@
       ]
     },
     {
-      "word": "ephemeral",
-      "translation": "زودگذر",
-      "example": "Fame is ephemeral.",
-      "synonyms": [
-        "fleeting",
-        "temporary"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "equivocal",
-      "translation": "ابهام‌آمیز",
-      "example": "His response was equivocal.",
-      "synonyms": [
-        "ambiguous",
-        "vague"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "erudite",
-      "translation": "دانشمند",
-      "example": "The erudite scholar impressed.",
-      "synonyms": [
-        "learned",
-        "scholarly"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "esoteric",
-      "translation": "رازآلود",
-      "example": "The esoteric knowledge fascinated.",
-      "synonyms": [
-        "obscure",
-        "arcane"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "exacerbate",
       "translation": "تشدید کردن",
       "example": "The delay exacerbated the problem.",
       "synonyms": [
         "worsen",
         "aggravate"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "exemplary",
-      "translation": "نمونه",
-      "example": "Her conduct was exemplary.",
-      "synonyms": [
-        "model",
-        "outstanding"
       ],
       "tags": [
         "rare"
@@ -1050,18 +774,6 @@
       ]
     },
     {
-      "word": "garrulous",
-      "translation": "پرحرف",
-      "example": "The garrulous neighbor talked endlessly.",
-      "synonyms": [
-        "talkative",
-        "chatty"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "grandiloquent",
       "translation": "مبالغه‌آمیز",
       "example": "His grandiloquent speech amused.",
@@ -1140,18 +852,6 @@
       "synonyms": [
         "unyielding",
         "relentless"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "implicit",
-      "translation": "ضمنی",
-      "example": "There was an implicit threat.",
-      "synonyms": [
-        "implied",
-        "unspoken"
       ],
       "tags": [
         "rare"
@@ -1326,36 +1026,12 @@
       ]
     },
     {
-      "word": "lucid",
-      "translation": "شفاف",
-      "example": "Her lucid explanation helped.",
-      "synonyms": [
-        "clear",
-        "coherent"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "magnanimous",
       "translation": "بزرگوار",
       "example": "The magnanimous gesture was appreciated.",
       "synonyms": [
         "generous",
         "noble"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "mellifluous",
-      "translation": "شیرین",
-      "example": "Her mellifluous voice soothed.",
-      "synonyms": [
-        "sweet",
-        "melodious"
       ],
       "tags": [
         "rare"
@@ -1734,18 +1410,6 @@
       ]
     },
     {
-      "word": "quixotic",
-      "translation": "آرمان‌گرا",
-      "example": "His quixotic quest failed.",
-      "synonyms": [
-        "idealistic",
-        "impractical"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "recondite",
       "translation": "عمیق",
       "example": "The recondite text puzzled.",
@@ -1926,18 +1590,6 @@
       ]
     },
     {
-      "word": "substantiate",
-      "translation": "اثبات کردن",
-      "example": "She substantiated her claim.",
-      "synonyms": [
-        "verify",
-        "confirm"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "succinct",
       "translation": "مختصر",
       "example": "Her succinct summary helped.",
@@ -1998,72 +1650,12 @@
       ]
     },
     {
-      "word": "taciturn",
-      "translation": "کم‌حرف",
-      "example": "The taciturn man rarely spoke.",
-      "synonyms": [
-        "quiet",
-        "reserved"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "tenacious",
-      "translation": "محکم",
-      "example": "Her tenacious effort paid off.",
-      "synonyms": [
-        "persistent",
-        "determined"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "trepidation",
-      "translation": "ترس",
-      "example": "She entered with trepidation.",
-      "synonyms": [
-        "fear",
-        "anxiety"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "truculent",
       "translation": "ستیزه‌جو",
       "example": "The truculent fighter attacked.",
       "synonyms": [
         "aggressive",
         "combative"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "turpitude",
-      "translation": "رذالت",
-      "example": "Moral turpitude was alleged.",
-      "synonyms": [
-        "wickedness",
-        "depravity"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "ubiquitous",
-      "translation": "همه‌جا",
-      "example": "Smartphones are ubiquitous.",
-      "synonyms": [
-        "omnipresent",
-        "pervasive"
       ],
       "tags": [
         "rare"
@@ -2106,36 +1698,12 @@
       ]
     },
     {
-      "word": "vociferous",
-      "translation": "پرسروصدا",
-      "example": "The vociferous crowd protested.",
-      "synonyms": [
-        "loud",
-        "clamorous"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "winsome",
       "translation": "جذاب",
       "example": "Her winsome smile charmed.",
       "synonyms": [
         "charming",
         "delightful"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "xenophobia",
-      "translation": "بیگانه‌هراسی",
-      "example": "Xenophobia is harmful.",
-      "synonyms": [
-        "foreigner hatred",
-        "intolerance"
       ],
       "tags": [
         "rare"
@@ -2166,60 +1734,12 @@
       ]
     },
     {
-      "word": "zeal",
-      "translation": "شوق",
-      "example": "Her zeal was admirable.",
-      "synonyms": [
-        "passion",
-        "fervor"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "abrogate",
-      "translation": "لغو کردن",
-      "example": "The law was abrogated.",
-      "synonyms": [
-        "repeal",
-        "annul"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "acrimony",
       "translation": "تلخی",
       "example": "The debate was full of acrimony.",
       "synonyms": [
         "bitterness",
         "hostility"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "anathema",
-      "translation": "نفرین",
-      "example": "The idea was anathema to her.",
-      "synonyms": [
-        "abomination",
-        "curse"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
-      "word": "antediluvian",
-      "translation": "قدیمی",
-      "example": "His antediluvian views were outdated.",
-      "synonyms": [
-        "ancient",
-        "archaic"
       ],
       "tags": [
         "rare"
@@ -2358,18 +1878,6 @@
       ]
     },
     {
-      "word": "clemency",
-      "translation": "رحم",
-      "example": "He begged for clemency.",
-      "synonyms": [
-        "mercy",
-        "leniency"
-      ],
-      "tags": [
-        "rare"
-      ]
-    },
-    {
       "word": "cognizant",
       "translation": "آگاه",
       "example": "She was cognizant of the risks.",
@@ -2404,6 +1912,376 @@
       "tags": [
         "rare"
       ]
+    },
+    {
+      "word": "etymology",
+      "translation": "ریشه‌شناسی",
+      "example": "Etymology reveals word origins.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "topology",
+      "translation": "توپولوژی",
+      "example": "Topology studies spatial properties.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "phoneme",
+      "translation": "واج",
+      "example": "English has about 44 phonemes.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "threnody",
+      "translation": "مرثیه‌سرایی",
+      "example": "The threnody honored the dead.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "integral",
+      "translation": "انتگرال",
+      "example": "The integral calculates the area.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "grapheme",
+      "translation": "نوشتک",
+      "example": "Each grapheme represents a sound.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "obfuscate",
+      "translation": "تاریک کردن",
+      "example": "The jargon obfuscates the meaning.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "philology",
+      "translation": "فیلولوژی",
+      "example": "Philology studies historical language.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "morpheme",
+      "translation": "تکواژ",
+      "example": "A morpheme is the smallest unit of meaning.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "semantics",
+      "translation": "معناشناسی",
+      "example": "Semantics studies word meaning.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "defenestration",
+      "translation": "انداختن از پنجره",
+      "example": "The defenestration sparked a revolt.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "logorrhea",
+      "translation": "پرگویی بیمارگونه",
+      "example": "His logorrhea made meetings endless.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "malapropism",
+      "translation": "لغزش واژگانی",
+      "example": "The malapropism confused everyone.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "codicil",
+      "translation": "الحاقیه وصیت‌نامه",
+      "example": "A codicil was added to the will.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "eigenvalue",
+      "translation": "مقدار ویژه",
+      "example": "The eigenvalue determines the behavior.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "apothegm",
+      "translation": "گفته کوتاه حکیمانه",
+      "example": "The apothegm captures a deep truth.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "stochastic",
+      "translation": "تصادفی",
+      "example": "The stochastic model predicts trends.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "aleatory",
+      "translation": "شانسی",
+      "example": "The outcome was largely aleatory.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "finitude",
+      "translation": "محدودیت ذاتی",
+      "example": "Finitude defines the human condition.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "obscurantism",
+      "translation": "تاریک‌اندیشی",
+      "example": "Obscurantism blocks understanding.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "sesquipedalian",
+      "translation": "دوستدار واژه‌های بلند",
+      "example": "The sesquipedalian professor bewildered students.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "asymptote",
+      "translation": "خم‌جانب",
+      "example": "The curve approaches its asymptote.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "mercurial",
+      "translation": "hmm",
+      "example": "Mercurial moods vary rapidly.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "polysyllabic",
+      "translation": "hmm",
+      "example": "Polysyllabic terms can confuse.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "unrelenting",
+      "translation": "hmm",
+      "example": "Unrelenting pressure forced change.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "contemptuous",
+      "translation": "hmm",
+      "example": "Contemptuous remarks show disdain.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "conscientious",
+      "translation": "hmm",
+      "example": "Conscientious effort produces excellence.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "concise",
+      "translation": "hmm",
+      "example": "Concise writing is valued.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "inexhaustible",
+      "translation": "hmm",
+      "example": "Inexhaustible energy drove the project.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "elocutionary",
+      "translation": "hmm",
+      "example": "Elocutionary training improves delivery.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "lapidary",
+      "translation": "hmm",
+      "example": "Lapidary style is elegant and brief.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "innocent",
+      "translation": "hmm",
+      "example": "Innocent mistakes teach lessons.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "pure",
+      "translation": "hmm",
+      "example": "Pure intentions guide actions.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "pusillanimous",
+      "translation": "hmm",
+      "example": "Pusillanimous leaders fail their people.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "diffuse",
+      "translation": "hmm",
+      "example": "Diffuse writing lacks focus.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "unflinching",
+      "translation": "hmm",
+      "example": "Unflinching resolve faced the storm.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "tireless",
+      "translation": "hmm",
+      "example": "Tireless dedication inspired the team.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "rhetorical",
+      "translation": "hmm",
+      "example": "Rhetorical skill persuades audiences.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "irascibility",
+      "translation": "hmm",
+      "example": "Irascibility flared under stress.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "premeditated",
+      "translation": "hmm",
+      "example": "Premeditated plans ensure success.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
+    },
+    {
+      "word": "impetuous",
+      "translation": "hmm",
+      "example": "Impetuous decisions carry consequences.",
+      "synonyms": [],
+      "tags": [
+        "C2-03"
+      ]
     }
-  ]
+  ],
+  "packId": "C2-03"
 }

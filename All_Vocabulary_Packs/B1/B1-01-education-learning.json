@@ -725,18 +725,6 @@
       "partOfSpeech": "noun"
     },
     {
-      "word": "internship",
-      "translation": "دوره کارآموزی",
-      "example": "The internship provides valuable experience.",
-      "partOfSpeech": "noun"
-    },
-    {
-      "word": "learn",
-      "translation": "یادگیری",
-      "example": "Children learn quickly.",
-      "partOfSpeech": "verb"
-    },
-    {
       "word": "learner",
       "translation": "یادگیرنده",
       "example": "She is a fast learner.",
@@ -839,22 +827,10 @@
       "partOfSpeech": "noun"
     },
     {
-      "word": "program",
-      "translation": "برنامه",
-      "example": "The graduate program is excellent.",
-      "partOfSpeech": "noun"
-    },
-    {
       "word": "qualify",
       "translation": "صلاحیت",
       "example": "She qualified for the scholarship.",
       "partOfSpeech": "verb"
-    },
-    {
-      "word": "research",
-      "translation": "تحقیق",
-      "example": "He is conducting research on cancer.",
-      "partOfSpeech": "noun"
     },
     {
       "word": "revision",
@@ -866,12 +842,6 @@
       "word": "scholar",
       "translation": "پژوهشگر",
       "example": "She is a renowned scholar.",
-      "partOfSpeech": "noun"
-    },
-    {
-      "word": "score",
-      "translation": "امتیاز",
-      "example": "He achieved a high score.",
       "partOfSpeech": "noun"
     },
     {
@@ -899,18 +869,6 @@
       "partOfSpeech": "noun"
     },
     {
-      "word": "teach",
-      "translation": "تدریس",
-      "example": "She teaches English.",
-      "partOfSpeech": "verb"
-    },
-    {
-      "word": "teacher",
-      "translation": "معلم",
-      "example": "The teacher is very patient.",
-      "partOfSpeech": "noun"
-    },
-    {
       "word": "teaching",
       "translation": "تدریس",
       "example": "Teaching is a noble profession.",
@@ -920,12 +878,6 @@
       "word": "textbook",
       "translation": "کتاب درسی",
       "example": "The textbook is comprehensive.",
-      "partOfSpeech": "noun"
-    },
-    {
-      "word": "training",
-      "translation": "آموزش",
-      "example": "The training program is intensive.",
       "partOfSpeech": "noun"
     },
     {
@@ -951,12 +903,6 @@
       "translation": "حرفه‌ای",
       "example": "Vocational training is practical.",
       "partOfSpeech": "adjective"
-    },
-    {
-      "word": "workshop",
-      "translation": "کارگاه",
-      "example": "The workshop was hands-on.",
-      "partOfSpeech": "noun"
     },
     {
       "word": "academician",
@@ -1209,12 +1155,6 @@
       "translation": "عمومی",
       "example": "This is a generic approach.",
       "partOfSpeech": "adjective"
-    },
-    {
-      "word": "globe",
-      "translation": "جهان",
-      "example": "Students from around the globe participate.",
-      "partOfSpeech": "noun"
     },
     {
       "word": "gravitas",
@@ -1629,6 +1569,97 @@
       "translation": "سودآور",
       "example": "Teaching can be a lucrative career.",
       "partOfSpeech": "adjective"
+    },
+    {
+      "word": "mentor",
+      "translation": "مربی و راهنما",
+      "example": "She found a great mentor.",
+      "synonyms": [],
+      "tags": [
+        "B1-01"
+      ]
+    },
+    {
+      "word": "tutor",
+      "translation": "معلم خصوصی",
+      "example": "He hired a math tutor.",
+      "synonyms": [],
+      "tags": [
+        "B1-01"
+      ]
+    },
+    {
+      "word": "dropout",
+      "translation": "ترک تحصیل",
+      "example": "The dropout rate has decreased.",
+      "synonyms": [],
+      "tags": [
+        "B1-01"
+      ]
+    },
+    {
+      "word": "implementation",
+      "translation": "اجرا",
+      "example": "Implementation requires planning.",
+      "synonyms": [],
+      "tags": [
+        "B1-01"
+      ]
+    },
+    {
+      "word": "methodical",
+      "translation": "منظم",
+      "example": "Methodical study yields results.",
+      "synonyms": [],
+      "tags": [
+        "B1-01"
+      ]
+    },
+    {
+      "word": "theoretical",
+      "translation": "نظری",
+      "example": "Theoretical knowledge is important.",
+      "synonyms": [],
+      "tags": [
+        "B1-01"
+      ]
+    },
+    {
+      "word": "practical",
+      "translation": "عملی",
+      "example": "Practical skills are valued.",
+      "synonyms": [],
+      "tags": [
+        "B1-01"
+      ]
+    },
+    {
+      "word": "attainment",
+      "translation": "دستیابی",
+      "example": "Academic attainment matters.",
+      "synonyms": [],
+      "tags": [
+        "B1-01"
+      ]
+    },
+    {
+      "word": "collaborative",
+      "translation": "همکاری",
+      "example": "Collaborative projects teach teamwork.",
+      "synonyms": [],
+      "tags": [
+        "B1-01"
+      ]
+    },
+    {
+      "word": "emerging",
+      "translation": "در حال ظهور",
+      "example": "Emerging fields attract students.",
+      "synonyms": [],
+      "tags": [
+        "B1-01"
+      ]
     }
-  ]
+  ],
+  "id": "B1-01"
 }

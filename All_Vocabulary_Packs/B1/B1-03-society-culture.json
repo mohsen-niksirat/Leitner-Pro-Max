@@ -301,44 +301,6 @@
       ]
     },
     {
-      "word": "discrimination",
-      "translation": "تبعیض",
-      "ipa": "/dɪˌskrɪmɪˈneɪʃən/",
-      "partOfSpeech": "noun",
-      "example": "Racial discrimination is illegal in most countries.",
-      "definitions": [
-        "unfair treatment of people based on race, gender, age, religion, etc."
-      ],
-      "synonyms": [
-        "prejudice",
-        "bias",
-        "bigotry"
-      ],
-      "antonyms": [
-        "fairness",
-        "equality",
-        "impartiality"
-      ],
-      "collocations": [
-        "racial discrimination",
-        "gender discrimination",
-        "age discrimination",
-        "face discrimination"
-      ],
-      "wordFamily": [
-        "discriminate (v)",
-        "discriminatory (adj)"
-      ],
-      "coreMeaning": "رفتار ناعادلانه با افراد بر اساس نژاد، جنسیت، سن و غیره",
-      "note": "discriminate between (تشخیص بین) معنای منفی ندارد ولی discriminate against (تبعیض قائل شدن) منفی است",
-      "trap": "discriminate between دو چیز = تشخیص دادن (مثبت) ≠ discriminate against = تبعیض (منفی)",
-      "tags": [
-        "B1",
-        "society",
-        "social issues"
-      ]
-    },
-    {
       "word": "immigration",
       "translation": "مهاجرت (به داخل)",
       "ipa": "/ˌɪmɪˈɡreɪʃən/",
@@ -640,43 +602,6 @@
       "coreMeaning": "ابراز مخالفت شدید یا شرکت در تظاهرات عمومی",
       "note": "تأکید فعل روی هجای دوم: proTEST — تأکید اسم روی هجای اول: PROtest",
       "trap": "protest (فعل) تأکید روی دوم ≠ protest (اسم) تأکید روی اول",
-      "tags": [
-        "B1",
-        "society",
-        "politics"
-      ]
-    },
-    {
-      "word": "advocate",
-      "translation": "حمایت کردن، مدافع",
-      "ipa": "/ˈædvəkeɪt/",
-      "partOfSpeech": "verb/noun",
-      "example": "She advocates for equal rights for all citizens.",
-      "definitions": [
-        "to publicly support or recommend; a person who publicly supports a cause"
-      ],
-      "synonyms": [
-        "support",
-        "champion",
-        "promote"
-      ],
-      "antonyms": [
-        "oppose",
-        "denounce"
-      ],
-      "collocations": [
-        "advocate for",
-        "strong advocate",
-        "advocate change",
-        "advocate rights"
-      ],
-      "wordFamily": [
-        "advocacy (n)",
-        "advocate (n)"
-      ],
-      "coreMeaning": "حمایت عمومی از یک عقیده یا اقدام",
-      "note": "فعل: ADvocate /ˈædvəkeɪt/ — اسم: ADvocate /ˈædvəkət/",
-      "trap": "تأکید فعل و اسم متفاوت است: advocate (v) /ˈædvəkeɪt/ vs advocate (n) /ˈædvəkət/",
       "tags": [
         "B1",
         "society",
@@ -1511,44 +1436,6 @@
         "B1",
         "media",
         "journalism"
-      ]
-    },
-    {
-      "word": "bias",
-      "translation": "سوگیری، جانبداری",
-      "ipa": "/ˈbaɪəs/",
-      "partOfSpeech": "noun",
-      "example": "The report was criticized for its political bias.",
-      "definitions": [
-        "unfair prejudice for or against something; a tendency to favor one over another"
-      ],
-      "synonyms": [
-        "prejudice",
-        "partiality",
-        "favoritism"
-      ],
-      "antonyms": [
-        "impartiality",
-        "objectivity",
-        "neutrality"
-      ],
-      "collocations": [
-        "media bias",
-        "political bias",
-        "gender bias",
-        "unconscious bias",
-        "bias against"
-      ],
-      "wordFamily": [
-        "biased (adj)"
-      ],
-      "coreMeaning": "تمایل ناعادلانه به نفع یا علیه چیزی",
-      "note": "unconscious bias یعنی سوگیری ناخودآگاه",
-      "trap": "bias (名词) ≠ biased (صفت): The report has bias / The report is biased.",
-      "tags": [
-        "B1",
-        "media",
-        "society"
       ]
     },
     {
@@ -2820,41 +2707,6 @@
       ]
     },
     {
-      "word": "mainstream",
-      "translation": "جریان اصلی",
-      "ipa": "/ˈmeɪnstriːm/",
-      "partOfSpeech": "adjective/noun",
-      "example": "Hip-hop has become part of mainstream culture.",
-      "definitions": [
-        "the ideas, attitudes, or activities that are shared by most people and regarded as normal"
-      ],
-      "synonyms": [
-        "conventional",
-        "popular",
-        "traditional"
-      ],
-      "antonyms": [
-        "alternative",
-        "underground",
-        "marginal"
-      ],
-      "collocations": [
-        "mainstream media",
-        "mainstream culture",
-        "mainstream society",
-        "go mainstream"
-      ],
-      "wordFamily": [],
-      "coreMeaning": "ایده‌ها و فعالیت‌هایی که اکثر مردم آن را عادی می‌دانند",
-      "note": "go mainstream یعنی وارد جریان اصلی شدن (محبوب شدن)",
-      "trap": "mainstream (جریان اصلی) ≠ mainstream (رودخانه اصلی): دو معنی متفاوت",
-      "tags": [
-        "B1",
-        "culture",
-        "society"
-      ]
-    },
-    {
       "word": "alternative",
       "translation": "جایگزین، بدیل",
       "ipa": "/ɔːlˈtɜːrnətɪv/",
@@ -2960,44 +2812,6 @@
       "coreMeaning": "پایبند به ارزش‌ها و نگرش‌های سنتی و محتاط در تغییر",
       "note": "conservative (محافظه‌کار) ≠ conservation (حفاظت): هم‌ریشه ولی معنی متفاوت",
       "trap": "Conservative (حزب محافظه‌کار) ≠ conservative (صفت): حرف بزرگ تفاوت ایجاد می‌کند",
-      "tags": [
-        "B1",
-        "politics",
-        "society"
-      ]
-    },
-    {
-      "word": "liberal",
-      "translation": "لیبرال، آزادی‌خواه",
-      "ipa": "/ˈlɪbərəl/",
-      "partOfSpeech": "adjective/noun",
-      "example": "She holds liberal views on social issues.",
-      "definitions": [
-        "open to new ideas; favoring individual liberty, free trade, and moderate reform"
-      ],
-      "synonyms": [
-        "progressive",
-        "open-minded",
-        "tolerant"
-      ],
-      "antonyms": [
-        "conservative",
-        "authoritarian"
-      ],
-      "collocations": [
-        "liberal democracy",
-        "liberal views",
-        "liberal party",
-        "classical liberal"
-      ],
-      "wordFamily": [
-        "liberalism (n)",
-        "liberate (v)",
-        "liberty (n)"
-      ],
-      "coreMeaning": "باز به ایده‌های جدید؛ طرفدار آزادی فردی و اصلاحات",
-      "note": "liberal در آمریکا (چپ‌گرا) و اروپا (راست‌میانه) معنی متفاوت دارد",
-      "trap": "liberal (لیبرال) ≠ libertarian (لیبرترین): libertarian افراطی‌تر در آزادی",
       "tags": [
         "B1",
         "politics",
@@ -4072,44 +3886,6 @@
       ]
     },
     {
-      "word": "integrate",
-      "translation": "ادغام کردن، یکپارچه کردن",
-      "ipa": "/ˈɪntɪɡreɪt/",
-      "partOfSpeech": "verb",
-      "example": "The school works to integrate students from different backgrounds.",
-      "definitions": [
-        "to combine or be combined to form a whole; to become part of a group or society"
-      ],
-      "synonyms": [
-        "combine",
-        "merge",
-        "assimilate"
-      ],
-      "antonyms": [
-        "segregate",
-        "separate",
-        "isolate"
-      ],
-      "collocations": [
-        "integrate into",
-        "integrate with",
-        "fully integrate",
-        "socially integrate"
-      ],
-      "wordFamily": [
-        "integration (n)",
-        "integrated (adj)"
-      ],
-      "coreMeaning": "ترکیب کردن یا بخشی از یک گروه یا جامعه شدن",
-      "note": "integration (ادغام) ≠ segregation (تفکیک): متضاد هستند",
-      "trap": "integrate (ادغام) ≠ immigrate (مهاجرت): تلفظ و معنی متفاوت",
-      "tags": [
-        "B1",
-        "society",
-        "social issues"
-      ]
-    },
-    {
       "word": "assimilate",
       "translation": "جذب شدن، همسان‌سازی",
       "ipa": "/əˈsɪmɪleɪt/",
@@ -4435,77 +4211,6 @@
       ]
     },
     {
-      "word": "controversy",
-      "translation": "جنجال، بحث و جدل",
-      "ipa": "/ˈkɒntrəvɜːrsi/",
-      "partOfSpeech": "noun",
-      "example": "The decision caused a lot of controversy among the public.",
-      "definitions": [
-        "disagreement, typically prolonged, public, and heated"
-      ],
-      "synonyms": [
-        "debate",
-        "dispute",
-        "argument"
-      ],
-      "antonyms": [
-        "agreement",
-        "consensus"
-      ],
-      "collocations": [
-        "cause controversy",
-        "surround controversy",
-        "amid controversy",
-        "controversy over"
-      ],
-      "wordFamily": [
-        "controversial (adj)"
-      ],
-      "coreMeaning": "اختلاف نظر طولانی، عمومی و شدید",
-      "note": "controversy تأکید روی هجای اول: CON-tro-ver-sy",
-      "trap": "controversy (جنجال) ≠ controversy (بحث علمی): controversy بار منفی دارد",
-      "tags": [
-        "B1",
-        "society",
-        "media"
-      ]
-    },
-    {
-      "word": "debate",
-      "translation": "مناظره، بحث",
-      "ipa": "/dɪˈbeɪt/",
-      "partOfSpeech": "noun/verb",
-      "example": "There is a heated debate about immigration policy.",
-      "definitions": [
-        "a formal discussion on a particular topic; to argue about something formally"
-      ],
-      "synonyms": [
-        "discussion",
-        "argument",
-        "deliberation"
-      ],
-      "antonyms": [
-        "agreement"
-      ],
-      "collocations": [
-        "public debate",
-        "heated debate",
-        "debate about",
-        "open to debate"
-      ],
-      "wordFamily": [
-        "debatable (adj)"
-      ],
-      "coreMeaning": "بحث رسمی درباره یک موضوع خاص",
-      "note": "debate (بحث رسمی) ≠ argument (دعوا): debate منظم‌تر و محترمانه‌تر",
-      "trap": "debate (مناظره) ≠ debt (بدهی): تلفظ متفاوت /dɪˈbeɪt/ vs /det/",
-      "tags": [
-        "B1",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "word": "petition",
       "translation": "دادخواست، طومار",
       "ipa": "/pəˈtɪʃən/",
@@ -4605,40 +4310,6 @@
       ]
     },
     {
-      "word": "ideology",
-      "translation": "ایدئولوژی، جهان‌بینی",
-      "ipa": "/ˌaɪdiˈɒlədʒi/",
-      "partOfSpeech": "noun",
-      "example": "Different political ideologies offer different solutions to social problems.",
-      "definitions": [
-        "a system of ideas and ideals forming the basis of economic or political theory"
-      ],
-      "synonyms": [
-        "philosophy",
-        "doctrine",
-        "belief system"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "political ideology",
-        "dominant ideology",
-        "ideology of",
-        "competing ideologies"
-      ],
-      "wordFamily": [
-        "ideological (adj)",
-        "ideologically (adv)"
-      ],
-      "coreMeaning": "نظامی از ایده‌ها و آرمان‌ها که مبنای نظریه اقتصادی یا سیاسی است",
-      "note": "ideology می‌تواند مثبت یا منفی باشد بسته به زمینه",
-      "trap": "ideology (ایدئولوژی) ≠ idea (ایده): ideology نظام فکری، idea فکر تکی",
-      "tags": [
-        "B1",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "word": "corrupt",
       "translation": "فاسد، فاسد کردن",
       "ipa": "/kəˈrʌpt/",
@@ -4714,42 +4385,6 @@
       ]
     },
     {
-      "word": "accountability",
-      "translation": "پاسخگویی",
-      "ipa": "/əˌkaʊntəˈbɪləti/",
-      "partOfSpeech": "noun",
-      "example": "There must be accountability for those who abuse their power.",
-      "definitions": [
-        "the fact of being responsible for your actions and expected to explain them"
-      ],
-      "synonyms": [
-        "responsibility",
-        "answerability",
-        "liability"
-      ],
-      "antonyms": [
-        "irresponsibility"
-      ],
-      "collocations": [
-        "hold accountable",
-        "government accountability",
-        "lack of accountability",
-        "accountability system"
-      ],
-      "wordFamily": [
-        "accountable (adj)",
-        "account (v/n)"
-      ],
-      "coreMeaning": "مسئول بودن برای اعمال خود و انتظار توضیح دادن",
-      "note": "hold someone accountable یعنی کسی را مسئول دانستن",
-      "trap": "accountability (پاسخگویی) ≠ accounting (حسابداری): متفاوت هستند",
-      "tags": [
-        "B1",
-        "politics",
-        "society"
-      ]
-    },
-    {
       "word": "sovereignty",
       "translation": "حاکمیت، استقلال",
       "ipa": "/ˈsɒvrənti/",
@@ -4816,43 +4451,6 @@
       "coreMeaning": "حرفه مدیریت روابط بین‌المللی؛ مهارت در برخورد با افراد",
       "note": "diplomat (دیپلمات) نماینده رسمی کشور در خارج است",
       "trap": "diplomacy (دیپلماسی) ≠ diploma (مدرک): تلفظ و معنی متفاوت",
-      "tags": [
-        "B1",
-        "politics",
-        "international"
-      ]
-    },
-    {
-      "word": "negotiate",
-      "translation": "مذاکره کردن",
-      "ipa": "/nɪˈɡoʊʃieɪt/",
-      "partOfSpeech": "verb",
-      "example": "The two countries are negotiating a peace agreement.",
-      "definitions": [
-        "to try to reach an agreement through discussion"
-      ],
-      "synonyms": [
-        "discuss",
-        "bargain",
-        "mediate"
-      ],
-      "antonyms": [
-        "demand",
-        "refuse"
-      ],
-      "collocations": [
-        "negotiate a deal",
-        "negotiate peace",
-        "negotiate with",
-        "negotiate terms"
-      ],
-      "wordFamily": [
-        "negotiation (n)",
-        "negotiator (n)"
-      ],
-      "coreMeaning": "تلاش برای رسیدن به توافق از طریق بحث",
-      "note": "negotiate with someone (مذاکره با کسی) — حرف اضافه with",
-      "trap": "negotiate (مذاکره) ≠ negotiate (عبور کردن): negotiate هم به معنای مذاکره و هم عبور",
       "tags": [
         "B1",
         "politics",
@@ -5090,42 +4688,6 @@
       ]
     },
     {
-      "word": "sustainability",
-      "translation": "پایداری",
-      "ipa": "/səˌsteɪnəˈbɪləti/",
-      "partOfSpeech": "noun",
-      "example": "Sustainability should be at the heart of all government policies.",
-      "definitions": [
-        "the ability to maintain at a certain rate or level; avoiding depletion of natural resources"
-      ],
-      "synonyms": [
-        "viability",
-        "durability",
-        "endurance"
-      ],
-      "antonyms": [
-        "unsustainability"
-      ],
-      "collocations": [
-        "environmental sustainability",
-        "economic sustainability",
-        "sustainability goals",
-        "sustainable development"
-      ],
-      "wordFamily": [
-        "sustainable (adj)",
-        "sustain (v)"
-      ],
-      "coreMeaning": "توانایی حفظ سطح مشخص؛ جلوگیری از تخلیه منابع طبیعی",
-      "note": "sustainable development (توسعه پایدار) نیازهای حال را بدون آسیب به آینده برآورده می‌کند",
-      "trap": "sustainability (پایداری) ≠ stability (ثبات): sustainability زیست‌محیطی‌تر",
-      "tags": [
-        "B1",
-        "environment",
-        "society"
-      ]
-    },
-    {
       "word": "demographic",
       "translation": "جمعیت‌شناختی",
       "ipa": "/ˌdeməˈɡræfɪk/",
@@ -5156,39 +4718,6 @@
         "B1",
         "society",
         "research"
-      ]
-    },
-    {
-      "word": "phenomenon",
-      "translation": "پدیده",
-      "ipa": "/fəˈnɒmɪnən/",
-      "partOfSpeech": "noun",
-      "example": "Climate change is a global phenomenon that affects everyone.",
-      "definitions": [
-        "a fact or situation that is observed to exist or happen; a remarkable occurrence"
-      ],
-      "synonyms": [
-        "occurrence",
-        "event",
-        "happening"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "natural phenomenon",
-        "social phenomenon",
-        "global phenomenon",
-        "common phenomenon"
-      ],
-      "wordFamily": [
-        "phenomenal (adj)"
-      ],
-      "coreMeaning": "حقیقت یا وضعیتی که مشاهده می‌شود؛ رویداد قابل‌توجه",
-      "note": "جمع: phenomena (نه phenomenons)",
-      "trap": "phenomenon (مفرد) ≠ phenomena (جمع): The phenomenon is interesting / The phenomena are diverse.",
-      "tags": [
-        "B1",
-        "society",
-        "general"
       ]
     },
     {
@@ -5292,40 +4821,6 @@
         "B1",
         "society",
         "general"
-      ]
-    },
-    {
-      "word": "initiative",
-      "translation": "ابتکار، طرح",
-      "ipa": "/ɪˈnɪʃətɪv/",
-      "partOfSpeech": "noun",
-      "example": "The government launched a new initiative to reduce poverty.",
-      "definitions": [
-        "a new plan or process to achieve a goal; the ability to assess and initiate things independently"
-      ],
-      "synonyms": [
-        "plan",
-        "program",
-        "enterprise"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "take the initiative",
-        "government initiative",
-        "new initiative",
-        "launch an initiative"
-      ],
-      "wordFamily": [
-        "initiate (v)",
-        "initial (adj)"
-      ],
-      "coreMeaning": "طرح یا فرآیند جدید برای دستیابی به هدف؛ توانایی شروع مستقل",
-      "note": "take the initiative یعنی پیشقدم شدن",
-      "trap": "initiative (ابتکار) ≠ initiation (آغاز): initiative طرح، initiation شروع",
-      "tags": [
-        "B1",
-        "society",
-        "politics"
       ]
     },
     {
@@ -5853,43 +5348,6 @@
         "B1",
         "social issues",
         "society"
-      ]
-    },
-    {
-      "word": "empowerment",
-      "translation": "توانمندسازی",
-      "ipa": "/ɪmˈpaʊərmənt/",
-      "partOfSpeech": "noun",
-      "example": "Women's empowerment is essential for a fair society.",
-      "definitions": [
-        "the process of becoming stronger and more confident, especially in controlling one's life"
-      ],
-      "synonyms": [
-        "enablement",
-        "strengthening",
-        "liberation"
-      ],
-      "antonyms": [
-        "disempowerment",
-        "oppression"
-      ],
-      "collocations": [
-        "women's empowerment",
-        "economic empowerment",
-        "empowerment of",
-        "youth empowerment"
-      ],
-      "wordFamily": [
-        "empower (v)",
-        "empowered (adj)"
-      ],
-      "coreMeaning": "فرآیند قوی‌تر و مطمئن‌تر شدن، مخصوصاً در کنترل زندگی خود",
-      "note": "empowerment (توانمندسازی) ≠ power (قدرت): empowerment فرآیند کسب قدرت است",
-      "trap": "empowerment (توانمندسازی) ≠ employment (اشتغال): تلفظ و معنی متفاوت",
-      "tags": [
-        "B1",
-        "society",
-        "social issues"
       ]
     },
     {
@@ -6899,6 +6357,142 @@
         "politics",
         "society"
       ]
+    },
+    {
+      "word": "immigrant",
+      "translation": "مهاجر",
+      "example": "The immigrant found a new home.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "migration",
+      "translation": "مهاجرت",
+      "example": "Migration patterns have changed.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "acculturation",
+      "translation": "acculturation",
+      "example": "Acculturation happens through contact.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "altruism",
+      "translation": "فداکاری",
+      "example": "Altruism benefits the community.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "ethnocentric",
+      "translation": "مرکزگرای قومی",
+      "example": "Ethnocentric views limit understanding.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "altruistic",
+      "translation": "نیکوکارانه",
+      "example": "Altruistic actions inspire others.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "communal",
+      "translation": "اجتماعی",
+      "example": "Communal spaces foster connection.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "regional",
+      "translation": "منطقه‌ای",
+      "example": "Regional cooperation is growing.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "philanthropic",
+      "translation": "خیریه‌ای",
+      "example": "Philanthropic efforts saved lives.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "pluralistic",
+      "translation": "کثرت‌گرا",
+      "example": "A pluralistic society embraces diversity.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "benevolent",
+      "translation": "نیکوکار",
+      "example": "Benevolent donors funded the school.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "fraternal",
+      "translation": "برادرانه",
+      "example": "Fraternal bonds unite members.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "inclusive",
+      "translation": "شامل",
+      "example": "Inclusive policies welcome everyone.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "reciprocal",
+      "translation": "متبادل",
+      "example": "Reciprocal relationships are healthy.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
+    },
+    {
+      "word": "collective",
+      "translation": "جمعی",
+      "example": "Collective action creates change.",
+      "synonyms": [],
+      "tags": [
+        "B1-03"
+      ]
     }
-  ]
+  ],
+  "id": "B1-03"
 }

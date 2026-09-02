@@ -38,36 +38,6 @@
       ]
     },
     {
-      "word": "bandwidth",
-      "translation": "پهنای باند، ظرفیت انتقال داده",
-      "ipa": "/ˈbændˌwɪdθ/",
-      "partOfSpeech": "noun",
-      "example": "Streaming high-definition video requires a lot of bandwidth.",
-      "definitions": [
-        "The maximum rate of data transfer across a network or internet connection."
-      ],
-      "synonyms": [
-        "capacity",
-        "throughput"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "high bandwidth",
-        "bandwidth limit",
-        "bandwidth usage"
-      ],
-      "wordFamily": [
-        "bandwidth (n)"
-      ],
-      "coreMeaning": "حداکثر سرعت انتقال داده در شبکه",
-      "note": "واژه‌ای ترکیبی از band (نوار) و width (عرض)",
-      "trap": "با 'broadband' (پهن‌باند) اشتباه نگیرید؛ bandwidth اندازه ظرفیت است",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
       "word": "biometric",
       "translation": "بیومتریک، مبتنی بر ویژگی‌های بدنی",
       "ipa": "/ˌbaɪoʊˈmetrɪk/",
@@ -513,37 +483,6 @@
       ]
     },
     {
-      "word": "framework",
-      "translation": "چارچوب، فریم‌ورک",
-      "ipa": "/ˈfreɪmwɜːrk/",
-      "partOfSpeech": "noun",
-      "example": "React is a popular JavaScript framework for building user interfaces.",
-      "definitions": [
-        "A basic structure underlying a system or concept; a pre-built set of tools for software development."
-      ],
-      "synonyms": [
-        "structure",
-        "scaffold",
-        "platform"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "software framework",
-        "development framework",
-        "framework design"
-      ],
-      "wordFamily": [
-        "framework (n)"
-      ],
-      "coreMeaning": "ساختار پایه‌ای یا مجموعه ابزارهای آماده برای توسعه نرم‌افزار",
-      "note": "در برنامه‌نویسی بسیار رایج است",
-      "trap": "با 'frame' (قاب) ساده اشتباه نگیرید؛ framework مفهوم فنی دارد",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
       "word": "gigabyte",
       "translation": "گیگابایت",
       "ipa": "/ˈɡɪɡəbaɪt/",
@@ -795,73 +734,6 @@
       ]
     },
     {
-      "word": "module",
-      "translation": "ماژول، واحد مستقل نرم‌افزاری",
-      "ipa": "/ˈmɑːdʒuːl/",
-      "partOfSpeech": "noun",
-      "example": "Each module of the application handles a specific function.",
-      "definitions": [
-        "A self-contained component of a larger system that can be independently created and used."
-      ],
-      "synonyms": [
-        "component",
-        "unit",
-        "plugin"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "software module",
-        "module system",
-        "plug-in module"
-      ],
-      "wordFamily": [
-        "module (n)",
-        "modular (adj)"
-      ],
-      "coreMeaning": "جزء مستقل و قابل جدا شدن از یک سیستم بزرگ‌تر",
-      "note": "در معماری نرم‌افزار، تقسیم به ماژول‌ها باعث نگهداری آسان‌تر می‌شود",
-      "trap": "با 'model' (مدل) اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "optimize",
-      "translation": "بهینه‌سازی کردن",
-      "ipa": "/ˈɑːptɪmaɪz/",
-      "partOfSpeech": "verb",
-      "example": "We need to optimize the website for mobile devices.",
-      "definitions": [
-        "To make something as effective, efficient, or functional as possible."
-      ],
-      "synonyms": [
-        "improve",
-        "enhance",
-        "refine"
-      ],
-      "antonyms": [
-        "degrade"
-      ],
-      "collocations": [
-        "optimize performance",
-        "optimize for search",
-        "optimize code"
-      ],
-      "wordFamily": [
-        "optimize (v)",
-        "optimization (n)",
-        "optimal (adj)"
-      ],
-      "coreMeaning": "بهترین حالت ممکن را ایجاد کردن",
-      "note": "در SEO و توسعه نرم‌افزار بسیار پرکاربرد است",
-      "trap": "با 'option' (گزینه) اشتباه نگیرید؛ هر دو از opt- شروع می‌شوند",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
       "word": "pixel",
       "translation": "پیکسل، واحد تصویر",
       "ipa": "/ˈpɪksəl/",
@@ -886,68 +758,6 @@
       "coreMeaning": "کوچک‌ترین واحد تشکیل‌دهنده تصویر دیجیتال",
       "note": "از picture (تصویر) + element (عنصر) ساخته شده",
       "trap": "با 'pixie' (پری کوچک) اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "platform",
-      "translation": "پلتفرم، بستر فناوری",
-      "ipa": "/ˈplætfɔːrm/",
-      "partOfSpeech": "noun",
-      "example": "Social media platforms have changed how we communicate.",
-      "definitions": [
-        "A base or foundation for developing software or running applications."
-      ],
-      "synonyms": [
-        "system",
-        "framework",
-        "base"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "digital platform",
-        "platform economy",
-        "platform compatibility"
-      ],
-      "wordFamily": [
-        "platform (n)"
-      ],
-      "coreMeaning": "بستر یا پایه‌ای برای اجرای برنامه‌ها و خدمات دیجیتال",
-      "note": "در دنیای فناوری به هر سیستم‌عامل یا سرویس آنلاین platform گفته می‌شود",
-      "trap": "معنی اصلی آن سکو/بلندی است ولی در فناوری معنی بستر دارد",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "protocol",
-      "translation": "پروتکل، قرارداد ارتباطی",
-      "ipa": "/ˈproʊtəkɑːl/",
-      "partOfSpeech": "noun",
-      "example": "HTTP is the protocol used for transferring web pages.",
-      "definitions": [
-        "A set of rules governing the exchange or transmission of data between devices."
-      ],
-      "synonyms": [
-        "standard",
-        "convention",
-        "procedure"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "communication protocol",
-        "internet protocol",
-        "security protocol"
-      ],
-      "wordFamily": [
-        "protocol (n)"
-      ],
-      "coreMeaning": "مجموعه قوانین برای تبادل داده بین دستگاه‌ها",
-      "note": "HTTP, TCP/IP و FTP نمونه‌های معروف پروتکل هستند",
-      "trap": "در فناوری معنی خاص‌تری نسبتی با معنی عمومی (آداب و رسوم) دارد",
       "tags": [
         "B2",
         "technology"
@@ -1551,40 +1361,6 @@
       ]
     },
     {
-      "word": "compile",
-      "translation": "کامپایل کردن، ترجمه کد",
-      "ipa": "/kəmˈpaɪl/",
-      "partOfSpeech": "verb",
-      "example": "The program needs to be compiled before it can be run.",
-      "definitions": [
-        "To convert source code written in a programming language into machine code."
-      ],
-      "synonyms": [
-        "build",
-        "assemble"
-      ],
-      "antonyms": [
-        "decompile"
-      ],
-      "collocations": [
-        "compile code",
-        "compile time",
-        "compile error"
-      ],
-      "wordFamily": [
-        "compile (v)",
-        "compiler (n)",
-        "compilation (n)"
-      ],
-      "coreMeaning": "تبدیل کد منبع به زبان ماشین قابل اجرا",
-      "note": "کامپایلر برنامه‌ای است که این کار را انجام می‌دهد",
-      "trap": "با 'compose' (ترکیب کردن) اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
       "word": "component",
       "translation": "مؤلفه، جزء، قطعه",
       "ipa": "/kəmˈpoʊnənt/",
@@ -2182,40 +1958,6 @@
       ]
     },
     {
-      "word": "hybrid",
-      "translation": "هیبریدی، ترکیبی",
-      "ipa": "/ˈhaɪbrɪd/",
-      "partOfSpeech": "adjective",
-      "example": "Many companies now offer hybrid cloud solutions combining public and private servers.",
-      "definitions": [
-        "Combining two different elements or systems; a mixture of different technologies."
-      ],
-      "synonyms": [
-        "combined",
-        "mixed",
-        "blended"
-      ],
-      "antonyms": [
-        "pure",
-        "single"
-      ],
-      "collocations": [
-        "hybrid cloud",
-        "hybrid system",
-        "hybrid approach"
-      ],
-      "wordFamily": [
-        "hybrid (adj/n)"
-      ],
-      "coreMeaning": "ترکیبی از دو فناوری یا سیستم مختلف",
-      "note": "ابر هیبریدی ترکیبی از ابر عمومی و خصوصی است",
-      "trap": "هم صفت و هم اسم استفاده می‌شود",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
       "word": "initialize",
       "translation": "مقداردهی اولیه کردن",
       "ipa": "/ɪˈnɪʃəlaɪz/",
@@ -2502,38 +2244,6 @@
       ]
     },
     {
-      "word": "parameter",
-      "translation": "پارامتر، متغیر ورودی",
-      "ipa": "/pəˈræmɪtər/",
-      "partOfSpeech": "noun",
-      "example": "You can change the parameters to customize the search results.",
-      "definitions": [
-        "A variable or value that is passed to a function or used to define behavior."
-      ],
-      "synonyms": [
-        "argument",
-        "variable",
-        "setting"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "function parameter",
-        "search parameter",
-        "parameter value"
-      ],
-      "wordFamily": [
-        "parameter (n)",
-        "parametric (adj)"
-      ],
-      "coreMeaning": "مقدار یا متغیری که به تابع یا سیستم ارسال می‌شود",
-      "note": "در ریاضیات و برنامه‌نویسی بسیار پرکاربرد است",
-      "trap": "با 'perimeter' (محیط) اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
       "word": "payload",
       "translation": "بار مفید، داده اصلی",
       "ipa": "/ˈpeɪloʊd/",
@@ -2622,37 +2332,6 @@
       "coreMeaning": "روش کلاهبرداری اینترنتی با فریب دادن کاربر برای لو رفتن اطلاعات شخصی",
       "note": "از fishing (ماهیگیری) گرفته شده چون قربانی را 'صید' می‌کنند",
       "trap": "با 'fishing' (ماهیگیری) هم‌آوا است ولی با ph نوشته می‌شود",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "pipeline",
-      "translation": "خط لوله، خط پردازش",
-      "ipa": "/ˈpaɪplaɪn/",
-      "partOfSpeech": "noun",
-      "example": "The CI/CD pipeline automates the testing and deployment process.",
-      "definitions": [
-        "A series of data processing elements connected in sequence; an automated workflow."
-      ],
-      "synonyms": [
-        "workflow",
-        "process chain",
-        "stream"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "data pipeline",
-        "CI/CD pipeline",
-        "pipeline automation"
-      ],
-      "wordFamily": [
-        "pipeline (n)"
-      ],
-      "coreMeaning": "زنجیره‌ای از مراحل پردازش خودکار پشت سر هم",
-      "note": "در DevOps و پردازش داده بسیار رایج است",
-      "trap": "معنی اصلی آن لوله نفت است ولی در فناوری معنی خط پردازش دارد",
       "tags": [
         "B2",
         "technology"
@@ -2762,41 +2441,6 @@
       ]
     },
     {
-      "word": "proprietary",
-      "translation": "انحصاری، مالکیتی",
-      "ipa": "/prəˈpraɪəteri/",
-      "partOfSpeech": "adjective",
-      "example": "Proprietary software requires a license to use.",
-      "definitions": [
-        "Owned and controlled by a specific company; not open-source."
-      ],
-      "synonyms": [
-        "private",
-        "exclusive",
-        "patented"
-      ],
-      "antonyms": [
-        "open-source",
-        "public"
-      ],
-      "collocations": [
-        "proprietary software",
-        "proprietary technology",
-        "proprietary format"
-      ],
-      "wordFamily": [
-        "property (n)",
-        "proprietary (adj)"
-      ],
-      "coreMeaning": "نرم‌افزار یا فناوری که متعلق به یک شرکت خاص است و کد منبع آن عمومی نیست",
-      "note": "متضاد open-source (متن‌باز) است",
-      "trap": "با 'property' (دارایی) اشتباه نگیرید؛ proprietary صفت است",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
       "word": "provision",
       "translation": "تأمین کردن، تخصیص دادن",
       "ipa": "/prəˈvɪʒən/",
@@ -2856,37 +2500,6 @@
       "coreMeaning": "درخواست اطلاعات از پایگاه داده یا موتور جستجو",
       "note": "SQL زبان استاندارد برای نوشتن query است",
       "trap": "با 'quarry' (معدن) اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "queue",
-      "translation": "صف، صف انتظار",
-      "ipa": "/kjuː/",
-      "partOfSpeech": "noun",
-      "example": "The print job was added to the queue and will be processed soon.",
-      "definitions": [
-        "An ordered list of tasks or data waiting to be processed."
-      ],
-      "synonyms": [
-        "line",
-        "sequence",
-        "backlog"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "job queue",
-        "message queue",
-        "queue management"
-      ],
-      "wordFamily": [
-        "queue (n/v)"
-      ],
-      "coreMeaning": "لیست مرتب از کارها یا داده‌های منتظر پردازش",
-      "note": "در سیستم‌های پیام‌رسانی مثل RabbitMQ استفاده می‌شود",
-      "trap": "با 'cue' (نشانه) هم‌آوا است ولی معنی متفاوتی دارد",
       "tags": [
         "B2",
         "technology"
@@ -3141,38 +2754,6 @@
       "coreMeaning": "ساختار داده LIFO یا مجموعه فناوری‌های استفاده شده در یک پروژه",
       "note": "توسعه‌دهنده full-stack هم front-end و هم back-end کار می‌کند",
       "trap": "با 'stock' (موجودی) اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "syntax",
-      "translation": "نحو، سینتکس",
-      "ipa": "/ˈsɪntæks/",
-      "partOfSpeech": "noun",
-      "example": "A syntax error occurs when the code doesn't follow the rules of the programming language.",
-      "definitions": [
-        "The set of rules that defines the structure and format of statements in a programming language."
-      ],
-      "synonyms": [
-        "grammar",
-        "structure",
-        "rules"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "syntax error",
-        "syntax highlighting",
-        "syntax rules"
-      ],
-      "wordFamily": [
-        "syntax (n)",
-        "syntactic (adj)"
-      ],
-      "coreMeaning": "مجموعه قوانین ساختاری یک زبان برنامه‌نویسی",
-      "note": "هر زبان برنامه‌نویسی syntax خاص خود را دارد",
-      "trap": "با 'sin tax' (مالیات بر گناه) هم‌آوا است ولی معنی کاملاً متفاوتی دارد",
       "tags": [
         "B2",
         "technology"
@@ -3756,37 +3337,6 @@
       ]
     },
     {
-      "word": "benchmark",
-      "translation": "معیار سنجش، بنچمارک",
-      "ipa": "/ˈbentʃmɑːrk/",
-      "partOfSpeech": "noun",
-      "example": "The benchmark test showed that the new processor is 30% faster.",
-      "definitions": [
-        "A standard or point of reference against which things may be compared or assessed."
-      ],
-      "synonyms": [
-        "standard",
-        "reference",
-        "yardstick"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "benchmark test",
-        "performance benchmark",
-        "benchmark results"
-      ],
-      "wordFamily": [
-        "benchmark (n/v)"
-      ],
-      "coreMeaning": "استاندارد یا نقطه مرجع برای مقایسه و ارزیابی عملکرد",
-      "note": "ابزارهای بنچمارک عملکرد سخت‌افزار را اندازه‌گیری می‌کنند",
-      "trap": "هم اسم و هم فعل استفاده می‌شود",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
       "word": "bit",
       "translation": "بیت، کوچک‌ترین واحد اطلاعات",
       "ipa": "/bɪt/",
@@ -3839,36 +3389,6 @@
       "coreMeaning": "شبکه‌ای از کامپیوترهای آلوده که توسط مهاجم کنترل می‌شوند",
       "note": "از bot (ربات) + net (شبکه) ساخته شده",
       "trap": "با 'bot' ساده اشتباه نگیرید؛ botnet شبکه‌ای از بات‌هاست",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "browser",
-      "translation": "مرورگر",
-      "ipa": "/ˈbraʊzər/",
-      "partOfSpeech": "noun",
-      "example": "Chrome is the most widely used web browser in the world.",
-      "definitions": [
-        "A software application for accessing and viewing websites on the internet."
-      ],
-      "synonyms": [
-        "web browser"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "web browser",
-        "browser extension",
-        "browser history"
-      ],
-      "wordFamily": [
-        "browse (v)",
-        "browser (n)"
-      ],
-      "coreMeaning": "نرم‌افزاری برای دسترسی و مشاهده وب‌سایت‌ها در اینترنت",
-      "note": "Chrome، Firefox و Safari معروف‌ترین مرورگرها هستند",
-      "trap": "با 'browse' (مرور کردن) فرق دارد: browser اسم است",
       "tags": [
         "B2",
         "technology"
@@ -3960,39 +3480,6 @@
       "coreMeaning": "الگوریتمی برای رمزگذاری یا رمزگشایی داده‌ها",
       "note": "AES و RSA دو رمز معروف هستند",
       "trap": "با 'zero' (صفر) اشتباه نگیرید؛ cipher در قدیم به معنی صفر هم بود",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "client",
-      "translation": "کلاینت، سمت کاربر",
-      "ipa": "/ˈklaɪənt/",
-      "partOfSpeech": "noun",
-      "example": "The client application sends requests to the server.",
-      "definitions": [
-        "A computer or software that accesses a service provided by a server."
-      ],
-      "synonyms": [
-        "user",
-        "end-user",
-        "terminal"
-      ],
-      "antonyms": [
-        "server"
-      ],
-      "collocations": [
-        "client application",
-        "client-server",
-        "client side"
-      ],
-      "wordFamily": [
-        "client (n)"
-      ],
-      "coreMeaning": "کامپیوتر یا نرم‌افزاری که از خدمات سرور استفاده می‌کند",
-      "note": "متضاد server (سرور) است",
-      "trap": "معنی اصلی آن مشتری است ولی در فناوری به سمت کاربر اشاره دارد",
       "tags": [
         "B2",
         "technology"
@@ -4726,40 +4213,6 @@
       ]
     },
     {
-      "word": "inference",
-      "translation": "استنتاج، استنباط",
-      "ipa": "/ˈɪnfərəns/",
-      "partOfSpeech": "noun",
-      "example": "The AI model performs inference in real-time to classify incoming images.",
-      "definitions": [
-        "The process of using a trained machine learning model to make predictions on new data."
-      ],
-      "synonyms": [
-        "deduction",
-        "conclusion",
-        "prediction"
-      ],
-      "antonyms": [
-        "training"
-      ],
-      "collocations": [
-        "AI inference",
-        "inference engine",
-        "inference time"
-      ],
-      "wordFamily": [
-        "infer (v)",
-        "inference (n)"
-      ],
-      "coreMeaning": "فرآیند استفاده از مدل آموزش‌دیده برای پیش‌بینی داده‌های جدید",
-      "note": "بعد از آموزش (training)، مدل برای inference استفاده می‌شود",
-      "trap": "با 'reference' (مرجع) اشتباه نگیرید",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
       "word": "inject",
       "translation": "تزریق کردن",
       "ipa": "/ɪnˈdʒekt/",
@@ -4789,71 +4242,6 @@
       "coreMeaning": "وارد کردن کد یا داده مخرب به برنامه یا سیستم",
       "note": "SQL injection یکی از رایج‌ترین حملات سایبری است",
       "trap": "معنی اصلی آن تزریق (دارو) است ولی در فناوری به تزریق کد اشاره دارد",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "input",
-      "translation": "ورودی، داده ورودی",
-      "ipa": "/ˈɪnpʊt/",
-      "partOfSpeech": "noun",
-      "example": "The program reads input from the keyboard and displays it on the screen.",
-      "definitions": [
-        "Data entered into a computer or system for processing."
-      ],
-      "synonyms": [
-        "data",
-        "entry",
-        "feed"
-      ],
-      "antonyms": [
-        "output"
-      ],
-      "collocations": [
-        "input data",
-        "input field",
-        "user input"
-      ],
-      "wordFamily": [
-        "input (n/v)"
-      ],
-      "coreMeaning": "داده‌ای که به کامپیوتر یا سیستم وارد می‌شود برای پردازش",
-      "note": "متضاد output (خروجی) است",
-      "trap": "هم اسم و هم فعل استفاده می‌شود (input/inputted)",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "invoke",
-      "translation": "فراخوانی کردن",
-      "ipa": "/ɪnˈvoʊk/",
-      "partOfSpeech": "verb",
-      "example": "The program invokes the function when the user clicks the button.",
-      "definitions": [
-        "To call or execute a function, method, or procedure in a program."
-      ],
-      "synonyms": [
-        "call",
-        "execute",
-        "trigger"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "invoke function",
-        "invoke method",
-        "invoke API"
-      ],
-      "wordFamily": [
-        "invoke (v)",
-        "invocation (n)"
-      ],
-      "coreMeaning": "فراخوانی و اجرای یک تابع یا متد در برنامه",
-      "note": "در برنامه‌نویسی، invoke کردن تابع یعنی اجرای آن",
-      "trap": "با 'invoice' (صورتحساب) اشتباه نگیرید",
       "tags": [
         "B2",
         "technology"
@@ -5243,37 +4631,6 @@
       ]
     },
     {
-      "word": "peer",
-      "translation": "همتا، همتا به همتا",
-      "ipa": "/pɪr/",
-      "partOfSpeech": "noun",
-      "example": "Peer-to-peer networks allow users to share files directly without a central server.",
-      "definitions": [
-        "A computer or user that has equal status and capabilities in a network."
-      ],
-      "synonyms": [
-        "equal",
-        "counterpart",
-        "node"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "peer-to-peer",
-        "peer review",
-        "peer network"
-      ],
-      "wordFamily": [
-        "peer (n)"
-      ],
-      "coreMeaning": "کامپیوتر یا کاربری که وضعیت و قابلیت‌های برابر در شبکه دارد",
-      "note": "شبکه‌های P2P بدون سرور مرکزی کار می‌کنند",
-      "trap": "معنی اصلی آن همکار/همتا است ولی در شبکه به مفهوم خاصی اشاره دارد",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
       "word": "proxy",
       "translation": "پراکسی، جانشین",
       "ipa": "/ˈprɑːksi/",
@@ -5468,37 +4825,6 @@
       ]
     },
     {
-      "word": "scope",
-      "translation": "دامنه، حوزه دید",
-      "ipa": "/skoʊp/",
-      "partOfSpeech": "noun",
-      "example": "Variables declared inside a function have local scope.",
-      "definitions": [
-        "The region of a program where a variable or function can be accessed."
-      ],
-      "synonyms": [
-        "range",
-        "extent",
-        "context"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "global scope",
-        "local scope",
-        "scope chain"
-      ],
-      "wordFamily": [
-        "scope (n)"
-      ],
-      "coreMeaning": "ناحیه‌ای از برنامه که متغیر یا تابع قابل دسترسی است",
-      "note": "دامنه متغیر تعیین می‌کند کجا می‌توان از آن استفاده کرد",
-      "trap": "معنی اصلی آن دامنه/حوزه است ولی در برنامه‌نویسی معنی خاصی دارد",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
       "word": "scrape",
       "translation": "استخراج داده از وب",
       "ipa": "/skreɪp/",
@@ -5596,37 +4922,6 @@
       ]
     },
     {
-      "word": "spider",
-      "translation": "عنکبوت وب، خزنده وب",
-      "ipa": "/ˈspaɪdər/",
-      "partOfSpeech": "noun",
-      "example": "Google's spider crawls billions of web pages to build its search index.",
-      "definitions": [
-        "An automated program that browses the web systematically to index content."
-      ],
-      "synonyms": [
-        "crawler",
-        "bot",
-        "web crawler"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "web spider",
-        "spider bot",
-        "search spider"
-      ],
-      "wordFamily": [
-        "spider (n)"
-      ],
-      "coreMeaning": "برنامه خودکاری که وب را به صورت سیستماتیک مرور و فهرست‌بندی می‌کند",
-      "note": "Googlebot معروف‌ترین spider وب است",
-      "trap": "معنی اصلی آن عنکبوت است ولی در فناوری به خزنده وب اشاره دارد",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
       "word": "sprite",
       "translation": "اسپرایت، تصویر کوچک",
       "ipa": "/spraɪt/",
@@ -5652,38 +4947,6 @@
       "coreMeaning": "تصویر کوچک بیت‌مپی که در صحنه بزرگ‌تر استفاده می‌شود",
       "note": "در بازی‌سازی دوبعدی بسیار رایج است",
       "trap": "معنی اصلی آن پری/جن است ولی در فناوری به تصویر کوچک اشاره دارد",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "stream",
-      "translation": "جریان، استریم",
-      "ipa": "/striːm/",
-      "partOfSpeech": "noun",
-      "example": "The data stream is processed in real-time by the analytics engine.",
-      "definitions": [
-        "A continuous flow of data or content delivered over a network."
-      ],
-      "synonyms": [
-        "flow",
-        "feed",
-        "channel"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "data stream",
-        "live stream",
-        "stream processing"
-      ],
-      "wordFamily": [
-        "stream (n/v)",
-        "streaming (n/adj)"
-      ],
-      "coreMeaning": "جریان مداوم داده یا محتوا که از طریق شبکه ارائه می‌شود",
-      "note": "پردازش جریان (stream processing) داده‌ها را به صورت بلادرنگ تحلیل می‌کند",
-      "trap": "معنی اصلی آن جویبار است ولی در فناوری به جریان داده اشاره دارد",
       "tags": [
         "B2",
         "technology"
@@ -5746,76 +5009,6 @@
       "coreMeaning": "واحد کاری در پایگاه داده که باید کاملاً موفق یا کاملاً ناموفق باشد",
       "note": "اصل ACID خصوصیات تراکنش پایگاه داده را تعریف می‌کند",
       "trap": "معنی اصلی آن معامله است ولی در فناوری به واحد کاری پایگاه داده اشاره دارد",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "variable",
-      "translation": "متغیر",
-      "ipa": "/ˈveriəbəl/",
-      "partOfSpeech": "noun",
-      "example": "Declare a variable before using it in the program.",
-      "definitions": [
-        "A named storage location in memory that holds a value which can change during execution."
-      ],
-      "synonyms": [
-        "field",
-        "parameter",
-        "identifier"
-      ],
-      "antonyms": [
-        "constant"
-      ],
-      "collocations": [
-        "global variable",
-        "local variable",
-        "variable name"
-      ],
-      "wordFamily": [
-        "vary (v)",
-        "variable (n/adj)",
-        "variability (n)"
-      ],
-      "coreMeaning": "محل ذخیره‌سازی نام‌گذاری شده در حافظه که مقدارش می‌تواند تغییر کند",
-      "note": "متضاد constant (ثابت) است",
-      "trap": "معنی اصلی آن متغیر/تغییرپذیر است ولی در برنامه‌نویسی معنی خاصی دارد",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "vendor",
-      "translation": "فروشنده، ارائه‌دهنده",
-      "ipa": "/ˈvendər/",
-      "partOfSpeech": "noun",
-      "example": "The company chose a cloud vendor to host its applications.",
-      "definitions": [
-        "A company or person that sells or provides technology products or services."
-      ],
-      "synonyms": [
-        "supplier",
-        "provider",
-        "seller"
-      ],
-      "antonyms": [
-        "buyer",
-        "customer"
-      ],
-      "collocations": [
-        "software vendor",
-        "cloud vendor",
-        "third-party vendor"
-      ],
-      "wordFamily": [
-        "vend (v)",
-        "vendor (n)"
-      ],
-      "coreMeaning": "شرکت یا شخصی که محصولات یا خدمات فناوری ارائه می‌دهد",
-      "note": "وابستگی به فروشنده (vendor lock-in) یک ریسک است",
-      "trap": "معنی اصلی آن فروشنده دوره‌گرد است ولی در فناوری به ارائه‌دهنده اشاره دارد",
       "tags": [
         "B2",
         "technology"
@@ -5914,37 +5107,6 @@
       "coreMeaning": "مؤلفه‌ای که مؤلفه دیگری را بسته‌بندی کرده و رابط ساده‌تری ارائه می‌دهد",
       "note": "wrapper‌ها استفاده از API‌های پیچیده را آسان‌تر می‌کنند",
       "trap": "معنی اصلی آن بسته‌بند/کاغذ کادو است ولی در فناوری به بسته‌بند کد اشاره دارد",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "yield",
-      "translation": "بازگرداندن، yield کردن",
-      "ipa": "/jiːld/",
-      "partOfSpeech": "verb",
-      "example": "The generator function yields one value at a time instead of returning all at once.",
-      "definitions": [
-        "To produce or provide a result, value, or output; in programming, to pause and resume execution."
-      ],
-      "synonyms": [
-        "produce",
-        "generate",
-        "output"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "yield value",
-        "yield statement",
-        "generator yield"
-      ],
-      "wordFamily": [
-        "yield (v/n)"
-      ],
-      "coreMeaning": "تولید یا بازگرداندن مقدار؛ در برنامه‌نویسی، توقف و ازسرگیری اجرا",
-      "note": "در پایتون، yield تابع مولد (generator) ایجاد می‌کند",
-      "trap": "معنی اصلی آن تسلیم شدن/محصول دادن است ولی در فناوری معنی خاصی دارد",
       "tags": [
         "B2",
         "technology"
@@ -6108,36 +5270,6 @@
       "coreMeaning": "رمزگشایی، تبدیل کد به داده خوانا",
       "note": "برای خواندن پیام‌های رمزگذاری شده",
       "trap": "با encryption (رمزگذاری) متضاد است",
-      "tags": [
-        "B2",
-        "technology"
-      ]
-    },
-    {
-      "word": "scalability",
-      "translation": "مقیاس‌پذیری",
-      "ipa": "/ˌskeɪləˈbɪləti/",
-      "partOfSpeech": "noun",
-      "example": "Scalability is crucial for growing businesses.",
-      "definitions": [
-        "the ability to handle increased workload"
-      ],
-      "synonyms": [
-        "expandability",
-        "flexibility"
-      ],
-      "antonyms": [],
-      "collocations": [
-        "system scalability",
-        "scalability testing"
-      ],
-      "wordFamily": [
-        "scalable (adj)",
-        "scale (v)"
-      ],
-      "coreMeaning": "مقیاس‌پذیری، قابلیت رشد سیستم",
-      "note": "در معماری نرم‌افزار بسیار مهم است",
-      "trap": "با scale (مقیاس) فرق دارد — scalability قابلیت است",
       "tags": [
         "B2",
         "technology"
@@ -6349,6 +5481,250 @@
         "B2",
         "technology"
       ]
+    },
+    {
+      "word": "redundant",
+      "translation": "افزونه",
+      "example": "Remove redundant code lines.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "virtualize",
+      "translation": "مجازی‌سازی",
+      "example": "Virtualize servers for efficiency.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "mainframe",
+      "translation": "رایانه مرکزی",
+      "example": "Mainframes handle large workloads.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "broadband",
+      "translation": "پهن‌باند",
+      "example": "Broadband access is essential.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "robotics",
+      "translation": "رباتیک",
+      "example": "Robotics is advancing rapidly.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "cdn",
+      "translation": "شبکه تحویل محتوا",
+      "example": "CDN accelerates content delivery.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "serialization",
+      "translation": "تبدیل به رشته",
+      "example": "Serialization converts objects to text.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "load balancing",
+      "translation": "تعادل بار",
+      "example": "Load balancing distributes traffic.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "versioning",
+      "translation": "شماره‌گذاری نسخه",
+      "example": "Versioning tracks changes.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "telemetry",
+      "translation": "اندازه‌گیری از راه دور",
+      "example": "Telemetry data monitors performance.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "downtime",
+      "translation": "زمان از کار افتادگی",
+      "example": "Downtime must be minimized.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "cron job",
+      "translation": "کار زمان‌بندی",
+      "example": "Schedule the cron job daily.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "architecture",
+      "translation": "معماری",
+      "example": "Software architecture guides development.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "abstraction layer",
+      "translation": "لایه انتزاعی",
+      "example": "An abstraction layer simplifies design.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "messaging",
+      "translation": "پیام‌رسانی",
+      "example": "Asynchronous messaging decouples services.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "clustering",
+      "translation": "خوشه‌بندی سرورها",
+      "example": "Clustering distributes processing.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "scaling",
+      "translation": "مقیاس‌پذیری سیستم",
+      "example": "Scaling handles increased load.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "composition",
+      "translation": "ترکیب اجزا",
+      "example": "Composition builds complex objects from simple ones.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "buffering",
+      "translation": "بافرینگ داده",
+      "example": "Buffering smooths data flow.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "batching",
+      "translation": "پردازش دسته‌ای",
+      "example": "Batching groups operations for efficiency.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "loadbalancer",
+      "translation": "متعادل‌کننده بار",
+      "example": "The loadbalancer distributes requests.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "deserialization",
+      "translation": "تبدیل رشته به شیء",
+      "example": "Deserialization reconstructs objects.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "function as a service",
+      "translation": "سرویس تابعی",
+      "example": "FaaS executes functions on demand.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "garbage collection",
+      "translation": "جمع‌آوری زباله مجازی",
+      "example": "Garbage collection frees unused memory.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "message bus",
+      "translation": "اتوبوس پیام",
+      "example": "Message bus routes inter-service messages.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "stream processing",
+      "translation": "پردازش جریانی",
+      "example": "Stream processing handles real-time data.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
+    },
+    {
+      "word": "batch processing",
+      "translation": "پردازش دسته‌ای",
+      "example": "Batch processing runs scheduled jobs.",
+      "synonyms": [],
+      "tags": [
+        "B2-02"
+      ]
     }
-  ]
+  ],
+  "id": "B2-02"
 }
