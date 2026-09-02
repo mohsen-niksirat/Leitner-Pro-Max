@@ -3,7 +3,7 @@
 function checkNotifications(){
   if(!S.settings.notifications)return;
   if(!('Notification' in window)||Notification.permission!=='granted')return;
-  const due=getDue();
+  const due=getDueAll();
   if(due.length===0)return;
   const now=new Date();
   const timeParts=(S.settings.notificationTime||'09:00').split(':');

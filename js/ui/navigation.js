@@ -67,7 +67,7 @@ document.getElementById('pageTitle').textContent=titles[currentTab]||'';
 var _th=document.getElementById('topActions');
 if(_th){var _existingHelp=_th.querySelector('[onclick*="showHelp"]');if(HELP_DICT[currentTab]){_existingHelp?_existingHelp.setAttribute('onclick',"showHelp('"+currentTab+"')"):_th.insertAdjacentHTML('beforeend','<button type="button" class="btn btn-ghost btn-sm" onclick="showHelp(\''+currentTab+'\')" title="راهنمای این بخش">🙋 راهنما</button>')}else if(_existingHelp){_existingHelp.remove()}}
 // Update page title with due count badge
-const dueBadge=getDue().length;
+const dueBadge=getDueAll().length;
 document.title=dueBadge>0?'('+dueBadge+') لایتنر — '+titles[currentTab]:'لایتنر — مرور هوشمند';
 const c=document.getElementById('content');
 const renders={review:renderReview,library:renderLibrary,longterm:renderLongterm,import:(_stagedImportCards.length?renderStagedImport:renderImport),reading:renderReading,pdfreader:renderPDFReader,pdfmobile:renderPDFMobile,wordweb:renderWordWeb,export:renderExport,stats:renderStats,quiz:renderQuiz,engquiz:renderEngQuiz,aichat:renderAiChat,vocabforge:renderVocabforge,settings:renderSettings,about:renderAbout};

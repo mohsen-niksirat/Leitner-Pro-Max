@@ -13,7 +13,8 @@ function autoPlayTick(){if(!autoPlayState.active||autoPlayState.paused)return;va
 function autoPlayScheduleNext(delay){if(!autoPlayState.active)return;if(autoPlayState.timer)clearTimeout(autoPlayState.timer);autoPlayState.countdown=Math.ceil(delay/1000);updateAutoPlayCountdown();if(autoPlayState.countdownTimer)clearInterval(autoPlayState.countdownTimer);autoPlayState.countdownTimer=setInterval(function(){autoPlayState.countdown--;updateAutoPlayCountdown();if(autoPlayState.countdown<=0){clearInterval(autoPlayState.countdownTimer);autoPlayState.countdownTimer=null}},1000);autoPlayState.timer=setTimeout(function(){autoPlayTick()},delay)}
 function updateAutoPlayCountdown(){var el=document.getElementById('apCountdown');if(el)el.textContent=autoPlayState.countdown>0?autoPlayState.countdown+'s':''}
 function renderAutoPlayBar(){return'<div class="auto-play-bar" id="autoPlayBar"><div class="auto-play-label"><div class="auto-play-dot"></div>پخش خودکار</div><button type="button" class="btn btn-ghost btn-sm" id="apPauseBtn" title="مکث/ادامه">'+(autoPlayState.paused?'▶️':'⏸️')+'</button><button type="button" class="btn btn-danger btn-sm" id="apStopBtn" title="توقف">⏹️</button><div class="auto-play-speed"><span>سرعت:</span><select id="apSpeedSelect"><option value="slow"'+(autoPlayState.speed==='slow'?' selected':'')+'>آهسته</option><option value="normal"'+(autoPlayState.speed==='normal'?' selected':'')+'>عادی</option><option value="fast"'+(autoPlayState.speed==='fast'?' selected':'')+'>سریع</option><option value="turbo"'+(autoPlayState.speed==='turbo'?' selected':'')+'>خیلی سریع</option></select></div><div class="auto-play-timer" id="apCountdown"></div></div>'}
-function getDue(){return[...S.words,...S.longTerm].filter(w=>!w.nextReviewDate||new Date(w.nextReviewDate)<=new Date())}
+function getDue(){return S.words.filter(w=>!w.nextReviewDate||new Date(w.nextReviewDate)<=new Date())}
+function getDueAll(){return[...S.words,...S.longTerm].filter(w=>!w.nextReviewDate||new Date(w.nextReviewDate)<=new Date())}
 function startReview(){
 const due=getDue();
 if(!due.length){toast('هیچ کارتی برای مرور نیست','info');return}
@@ -207,10 +208,9 @@ function rateReview(q){
 if(reviewRatingPending)return;
 if(!reviewSession.queue||!reviewSession.queue.length||reviewSession.idx>=reviewSession.queue.length){reviewRatingPending=true;setTimeout(function(){reviewRatingPending=false},50);return}
 reviewRatingPending=true;
+try{
 const w=reviewSession.queue[reviewSession.idx];
-const idx=S.words.findIndex(x=>x.id===w.id);
-const ltIdx=idx>=0?-1:S.longTerm.findIndex(x=>x.id===w.id);
-const reviewCard=idx>=0?S.words[idx]:ltIdx>=0?S.longTerm[ltIdx]:null;
+const reviewCard=findCardById(w.id);
 if(reviewCard)fsrsNext(reviewCard,mapRating(q));
 S.stats.reviewed++;S.stats.xp+={1:0,2:3,3:5,4:8,5:10}[q]||0;
 if(q>=4)S.stats.correct++;else S.stats.wrong++;
@@ -220,6 +220,7 @@ S.stats.history[dk].reviewed++;if(q>=4)S.stats.history[dk].correct++;else S.stat
 save();
 reviewSession.idx++;reviewSession.flipped=false;
 if(reviewSession.idx>=reviewSession.queue.length)reviewSession.done=true;
+}catch(e){console.error('[rateReview error]',e);toast('خطا در ذخیره نتیجه','error')}
 reviewRatingPending=false;
 renderReview(document.getElementById('content'))}
 function reviewKeyHandler(e){

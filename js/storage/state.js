@@ -54,7 +54,7 @@ function loadLegacyState(){
 
 function loadState(){return loadLegacyState()||defaultState()} 
 // Debounced save — batches writes into one IndexedDB transaction
-let _saveTimer=null,_saveDirty=false;
+var _saveTimer=null,_saveDirty=false;
 function save(){
   _saveDirty=true;
   if(_saveTimer)clearTimeout(_saveTimer);

@@ -88,7 +88,7 @@ const filtered=getLibFiltered();
 const total=filtered.length;
 const p=paginate(total,libPage,LIB_PAGE_SIZE);libPage=Math.min(libPage,Math.max(0,p.totalPages-1));
 const pageItems=filtered.slice(p.start,p.end);
-const dueToday=new Set(getDue().map(w=>w.id));
+const dueToday=new Set(getDueAll().map(w=>w.id));
 var _lp=libPage,_tp=p.totalPages;
 var _ph='';
 if(_tp>1){

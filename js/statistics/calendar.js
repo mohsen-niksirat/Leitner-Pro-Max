@@ -18,7 +18,7 @@ function renderCalendar(c){
   const maxCount=Math.max(1,...predictions.map(p=>p.count));
   c.innerHTML=`<div style="max-width:700px;margin:0 auto">
     <div class="stat-grid" style="grid-template-columns:repeat(3,1fr);margin-bottom:20px">
-      <div class="stat-card"><div class="val" style="color:var(--accent)">${getDue().length}</div><div class="lbl">قابل مرور امروز</div></div>
+      <div class="stat-card"><div class="val" style="color:var(--accent)">${getDueAll().length}</div><div class="lbl">قابل مرور امروز</div></div>
       <div class="stat-card"><div class="val" style="color:var(--success)">${totalDue}</div><div class="lbl">کل مرور ۳۰ روز</div></div>
       <div class="stat-card"><div class="val" style="color:var(--warning)">${S.words.length}</div><div class="lbl">کل کلمات</div></div>
     </div>

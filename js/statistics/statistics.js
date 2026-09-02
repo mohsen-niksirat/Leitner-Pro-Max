@@ -4,7 +4,7 @@ let boxChart=null,weekChart=null,forecastChart=null;
 function renderStats(c){
 const dk=todayKey();
 const todayH=S.stats.history[dk]||{reviewed:0,correct:0,wrong:0};
-const dueCount=getDue().length;
+const dueCount=getDueAll().length;
 const boxDist={};for(let i=0;i<=10;i++)boxDist[i]=0;
 S.words.forEach(w=>{boxDist[Math.min(10,w.box)]=boxDist[Math.min(10,w.box)]+1});
 const totalReviewed=S.stats.reviewed;
