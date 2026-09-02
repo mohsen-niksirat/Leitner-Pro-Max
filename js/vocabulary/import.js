@@ -36,7 +36,6 @@ async function commitStagedImport(dest){
   const BATCH=50;
   let totalAdded=0,totalSkipped=0;
   const statusEl=document.getElementById('stgProgress');
-  // Process synchronously in batches
   for(let i=0;i<selected.length;i+=BATCH){
     const batch=selected.slice(i,i+BATCH);
     let batchAdded=0;
@@ -50,13 +49,9 @@ async function commitStagedImport(dest){
       batchAdded++;
       totalAdded++;
     });
-    // Update progress
     if(statusEl)statusEl.textContent='در حال افزودن... '+totalAdded+'/'+selected.length;
-    // Try to save
-    try{
-      await saveForce();
-    }catch(e){
-      // Revert this batch
+    try{await saveForce();}
+    catch(e){
       if(dest==='longTerm')S.longTerm.splice(S.longTerm.length-batchAdded,batchAdded);
       else S.words.splice(S.words.length-batchAdded,batchAdded);
       totalAdded-=batchAdded;
@@ -64,7 +59,6 @@ async function commitStagedImport(dest){
       break;
     }
   }
-  // Remove processed cards from staged list
   const addedWords=new Set([...S.words,...S.longTerm].map(w=>w.word.toLowerCase()));
   _stagedImportCards=_stagedImportCards.filter(c=>!addedWords.has(c.word.toLowerCase()));
   let msg=totalAdded+' کلمه به '+destLabel+' اضافه شد';
@@ -82,26 +76,28 @@ function renderStagedImport(c){
   const existingWords=new Set([...S.words,...S.longTerm].map(w=>w.word.toLowerCase()));
   c.innerHTML=`
   <div class="card" style="margin-bottom:16px;border:1px solid var(--accent)">
-    <h3 style="margin-bottom:10px">📋 انتخاب کلمات برای ورود</h3>
-    <p style="font-size:.85rem;color:var(--text2);margin-bottom:12px">${cards.length} کلمه یافت شد. کلمات مورد نظر را انتخاب کنید و مقصد را مشخص کنید.</p>
-    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+      <span style="font-size:1.3rem">📋</span>
+      <h3 style="margin:0">انتخاب کلمات برای ورود</h3>
+    </div>
+    <p style="font-size:.82rem;color:var(--text2);margin-bottom:10px">${cards.length} کلمه یافت شد. کلمات مورد نظر را انتخاب کنید و مقصد را مشخص کنید.</p>
+    <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:10px">
       <button type="button" class="btn btn-ghost btn-sm" id="stgSelAll">انتخاب همه</button>
       <button type="button" class="btn btn-ghost btn-sm" id="stgDeselAll">لغو همه</button>
-      <button type="button" class="btn btn-ghost btn-sm" id="stgSelNew">فقط جدید</button>
-      <input class="input" id="stgFilter" placeholder="🔍 فیلتر..." style="max-width:180px;font-size:.82rem">
-      <span style="color:var(--text2);font-size:.82rem;margin-right:auto">${selCount} انتخاب شده</span>
+      <input class="input" id="stgFilter" placeholder="🔍 فیلتر..." style="max-width:160px;font-size:.8rem;padding:6px 10px">
+      <span style="color:var(--text2);font-size:.8rem;margin-right:auto">${selCount} انتخاب شده</span>
     </div>
-    <div id="stgList" style="max-height:45vh;overflow-y:auto;background:var(--bg);border-radius:12px;padding:8px"></div>
-    <div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap">
-      <select class="input" id="stgCategory" style="max-width:180px">
+    <div id="stgList" style="max-height:50vh;overflow-y:auto;background:var(--bg);border-radius:10px;padding:6px"></div>
+    <div style="display:flex;gap:6px;margin-top:12px;flex-wrap:wrap">
+      <select class="input" id="stgCategory" style="max-width:160px;padding:6px 10px;font-size:.82rem">
         <option value="">بدون تغییر دسته</option>
         ${S.categories.map(c=>'<option>'+esc(c)+'</option>').join('')}
       </select>
-      <button type="button" class="btn btn-primary" id="stgAddLib" ${selCount===0?'disabled':''}>📚 افزودن به کتابخانه (${selCount})</button>
-      <button type="button" class="btn btn-success" id="stgAddLT" ${selCount===0?'disabled':''}>🧠 افزودن به حافظه بلندمدت (${selCount})</button>
+      <button type="button" class="btn btn-primary" id="stgAddLib" ${selCount===0?'disabled':''}>📚 کتابخانه (${selCount})</button>
+      <button type="button" class="btn btn-success" id="stgAddLT" ${selCount===0?'disabled':''}>🧠 حافظه بلندمدت (${selCount})</button>
       <button type="button" class="btn btn-ghost" id="stgCancel">لغو</button>
     </div>
-    <div id="stgProgress" style="margin-top:8px;font-size:.82rem;color:var(--accent);min-height:20px"></div>
+    <div id="stgProgress" style="margin-top:8px;font-size:.8rem;color:var(--accent);min-height:18px"></div>
   </div>`;
 
   function refreshList(){
@@ -111,13 +107,12 @@ function renderStagedImport(c){
     list.innerHTML=filtered.map((c)=>{
       const idx=cards.indexOf(c);
       const dup=existingWords.has(c.word.toLowerCase());
-      return`<label style="display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:8px;cursor:pointer;transition:background .2s;${dup?'opacity:.4':''}" onmouseover="this.style.background='var(--card-hover)'" onmouseout="this.style.background='transparent'">
-        <input type="checkbox" data-idx="${idx}" ${c._selected?'checked':''} ${dup?'disabled':''} style="accent-color:var(--accent);width:16px;height:16px">
-        <span style="font-weight:600;min-width:100px;font-size:.88rem">${esc(c.word)}</span>
-        ${c.partOfSpeech?`<span style="font-size:.72rem;color:var(--text2)">${esc(c.partOfSpeech)}</span>`:''}
-        <span style="flex:1;font-size:.82rem;color:var(--text2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc((c.translation||c.coreMeaning||'').slice(0,60))}</span>
-        ${dup?'<span class="badge badge-warning" style="font-size:.6rem">تکراری</span>':''}
-        ${c.definitions?.length?'<span class="badge badge-success" style="font-size:.6rem">تعریف</span>':''}
+      return`<label style="display:flex;align-items:center;gap:8px;padding:5px 10px;border-radius:6px;cursor:pointer;transition:background .15s;${dup?'opacity:.4':''}" onmouseover="this.style.background='var(--card-hover)'" onmouseout="this.style.background='transparent'">
+        <input type="checkbox" data-idx="${idx}" ${c._selected?'checked':''} ${dup?'disabled':''} style="accent-color:var(--accent);width:15px;height:15px">
+        <span style="font-weight:600;min-width:90px;font-size:.85rem">${esc(c.word)}</span>
+        ${c.partOfSpeech?`<span style="font-size:.7rem;color:var(--text3)">${esc(c.partOfSpeech)}</span>`:''}
+        <span style="flex:1;font-size:.8rem;color:var(--text2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc((c.translation||c.coreMeaning||'').slice(0,50))}</span>
+        ${dup?'<span style="font-size:.6rem;color:var(--warning);background:rgba(243,156,18,.1);padding:1px 5px;border-radius:4px">تکراری</span>':''}
       </label>`;
     }).join('');
     list.querySelectorAll('input[type="checkbox"]').forEach(cb=>{
@@ -130,16 +125,13 @@ function renderStagedImport(c){
     if(cntEl)cntEl.textContent=cnt+' انتخاب شده';
     const libBtn=document.getElementById('stgAddLib');
     const ltBtn=document.getElementById('stgAddLT');
-    if(libBtn)libBtn.disabled=cnt===0;
-    if(ltBtn)ltBtn.disabled=cnt===0;
-    if(libBtn)libBtn.innerHTML='📚 افزودن به کتابخانه ('+cnt+')';
-    if(ltBtn)ltBtn.innerHTML='🧠 افزودن به حافظه بلندمدت ('+cnt+')';
+    if(libBtn){libBtn.disabled=cnt===0;libBtn.innerHTML='📚 کتابخانه ('+cnt+')'}
+    if(ltBtn){ltBtn.disabled=cnt===0;ltBtn.innerHTML='🧠 حافظه بلندمدت ('+cnt+')'}
   }
   refreshList();
   document.getElementById('stgFilter').oninput=refreshList;
   document.getElementById('stgSelAll').onclick=()=>{cards.forEach(c=>{if(!existingWords.has(c.word.toLowerCase()))c._selected=true});refreshList();updateSelCount()};
   document.getElementById('stgDeselAll').onclick=()=>{cards.forEach(c=>c._selected=false);refreshList();updateSelCount()};
-  document.getElementById('stgSelNew').onclick=()=>{cards.forEach(c=>c._selected=!existingWords.has(c.word.toLowerCase()));refreshList();updateSelCount()};
   document.getElementById('stgCancel').onclick=()=>{_stagedImportCards=[];render()};
   document.getElementById('stgAddLib').onclick=()=>commitStagedImport('words');
   document.getElementById('stgAddLT').onclick=()=>commitStagedImport('longTerm');
@@ -153,7 +145,7 @@ const newW=unique.filter(w=>!importExisting.has(w));
 return{total:importWords.length,unique:unique.length,existing:unique.length-newW.length,newCount:newW.length}}
 
 function renderImportSteps(){
-const labels=['ورود متن','انتخاب کلمات','ترجمه','عملیات'];
+const labels=['فایل و URL','انتخاب کلمات','ترجمه','عملیات'];
 let h='<div class="import-steps">';
 for(let i=0;i<4;i++){
 const cls=i<importStep?'done':i===importStep?'active':'';
@@ -171,44 +163,49 @@ else if(importStep===4)h+=renderImportStep4();
 c.innerHTML=h;bindImportEvents()}
 
 function renderImportStep0(){
-const bookmarkletCode=`javascript:void(window.open('${location.href.split('?')[0]}?quickimport=1','_blank'))`;
-return`<div class="card" style="margin-bottom:16px"><h3 style="margin-bottom:12px">ورود متن</h3><textarea class="input" id="importText" rows="6" placeholder="متن انگلیسی را اینجا بچسبانید...">${esc(importRawText)}</textarea><div class="flex" style="margin-top:12px"><select class="input" style="max-width:200px" id="importCat">${S.categories.map(c=>`<option${c===importCategory?' selected':''}>${esc(c)}</option>`).join('')}</select><button type="button" class="btn btn-primary" id="importParse">نمایش متن</button></div></div><div class="card" style="margin-bottom:16px"><h3 style="margin-bottom:12px">ورود فایل</h3><div class="flex"><input type="file" id="fileInput" accept=".txt,.pdf,.docx,.json,.apkg" style="display:none"><button type="button" class="btn btn-ghost" onclick="document.getElementById('fileInput').click()">انتخاب فایل</button><span style="color:var(--text2);font-size:.85rem">TXT, PDF, DOCX, JSON, Anki (.apkg)</span></div></div><div class="card" style="margin-bottom:16px;border:1px solid var(--accent)"><h3 style="margin-bottom:12px;color:var(--accent)">📥 ورود هوشمند DOCX واژگان</h3><p style="color:var(--text2);font-size:.85rem;margin-bottom:12px">فایل DOCX حاوی واژگان با ساختار غنی را وارد کنید. تعاریف، مثال‌ها، مترادف‌ها و متضادها به‌صورت خودکار استخراج می‌شوند.</p><div class="flex"><input type="file" id="richDocxInput" accept=".docx" style="display:none"><button type="button" class="btn btn-primary" onclick="document.getElementById('richDocxInput').click()">📂 انتخاب فایل DOCX</button><span style="color:var(--text2);font-size:.8rem">مانند Manhattan 500</span></div></div><div class="card" style="margin-bottom:16px"><h3 style="margin-bottom:12px">ورود از URL</h3><div class="flex"><input class="input" id="importUrl" placeholder="https://example.com/words.txt" style="max-width:400px"><button type="button" class="btn btn-ghost" id="importUrlBtn">دریافت</button></div></div>
-<div class="card" style="margin-bottom:16px;border:1px solid var(--accent);background:linear-gradient(135deg,rgba(108,92,231,.06),rgba(162,155,254,.03))">
-  <h3 style="margin-bottom:4px;color:var(--accent)">📦 بسته‌های لغت آماده</h3>
-  <p style="color:var(--text2);font-size:.82rem;margin-bottom:16px">بسته مورد نظر را انتخاب کنید تا مستقیماً به کتابخانه اضافه شود</p>
-  <div style="display:grid;gap:10px" id="ready-packs-grid"></div>
-  <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)">
-    <h4 style="font-size:.9rem;margin-bottom:8px;display:flex;align-items:center;gap:8px"><span>🔗</span>دانلود پک از لینک</h4>
-    <p style="font-size:.78rem;color:var(--text3);margin-bottom:10px">فایل JSON پک لغت را از اینترنت دانلود کنید</p>
-    <div style="display:flex;gap:8px">
-      <input class="input" id="customPackUrl" placeholder="https://example.com/pack.json" style="flex:1">
-      <button type="button" class="btn btn-primary btn-sm" onclick="downloadCustomPack()">📥 دانلود</button>
-    </div>
-    <div id="custom-pack-status" style="margin-top:8px;font-size:.82rem"></div>
+return`<div class="card" style="margin-bottom:16px">
+  <h3 style="margin-bottom:10px">📂 ورود فایل</h3>
+  <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+    <input type="file" id="fileInput" accept=".txt,.pdf,.docx,.json,.apkg" style="display:none">
+    <button type="button" class="btn btn-ghost btn-sm" onclick="document.getElementById('fileInput').click()">انتخاب فایل</button>
+    <span style="color:var(--text2);font-size:.82rem">TXT, PDF, DOCX, JSON, Anki (.apkg)</span>
   </div>
 </div>
 
-<!-- ═══ CEFR VOCABULARY PACKS SECTION ═══ -->
-<div class="card" style="margin-bottom:16px;border:2px solid var(--accent);background:linear-gradient(135deg,rgba(108,92,231,.08),rgba(162,155,254,.04))">
-  <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
-    <div style="font-size:2rem">🎯</div>
-    <div>
-      <h3 style="margin:0;color:var(--accent)">📚 بسته‌های واژگان CEFR</h3>
-      <p style="color:var(--text2);font-size:.82rem;margin:0">مجموعه کامل واژگان از سطح مبتدی (A1) تا ماهر (C2)</p>
-    </div>
+<div class="card" style="margin-bottom:16px;border:1px solid var(--accent)">
+  <h3 style="margin-bottom:8px;color:var(--accent);font-size:.95rem">📥 ورود هوشمند DOCX واژگان</h3>
+  <p style="color:var(--text2);font-size:.82rem;margin-bottom:10px">فایل DOCX حاوی واژگان با ساختار غنی را وارد کنید. تعاریف، مثال‌ها، مترادف‌ها و متضادها خودکار استخراج می‌شوند.</p>
+  <div style="display:flex;align-items:center;gap:8px">
+    <input type="file" id="richDocxInput" accept=".docx" style="display:none">
+    <button type="button" class="btn btn-primary btn-sm" onclick="document.getElementById('richDocxInput').click()">📂 انتخاب فایل DOCX</button>
+    <span style="color:var(--text2);font-size:.78rem">مانند Manhattan 500</span>
   </div>
-  <div style="display:flex;gap:8px;margin:12px 0;flex-wrap:wrap">
-    <div style="display:flex;align-items:center;gap:4px;font-size:.72rem;background:rgba(46,204,113,.15);padding:4px 8px;border-radius:6px;color:#2ecc71"><span>🌱</span>A1</div>
-    <div style="display:flex;align-items:center;gap:4px;font-size:.72rem;background:rgba(52,152,219,.15);padding:4px 8px;border-radius:6px;color:#3498db"><span>🌿</span>A2</div>
-    <div style="display:flex;align-items:center;gap:4px;font-size:.72rem;background:rgba(230,126,34,.15);padding:4px 8px;border-radius:6px;color:#e67e22"><span>🌳</span>B1</div>
-    <div style="display:flex;align-items:center;gap:4px;font-size:.72rem;background:rgba(155,89,182,.15);padding:4px 8px;border-radius:6px;color:#9b59b6"><span>🌲</span>B2</div>
-    <div style="display:flex;align-items:center;gap:4px;font-size:.72rem;background:rgba(231,76,60,.15);padding:4px 8px;border-radius:6px;color:#e74c3c"><span>🏔️</span>C1</div>
-    <div style="display:flex;align-items:center;gap:4px;font-size:.72rem;background:rgba(241,196,15,.15);padding:4px 8px;border-radius:6px;color:#f1c40f"><span>👑</span>C2</div>
-  </div>
-  <div style="font-size:.75rem;color:var(--text3);margin-bottom:16px">총 ۴,۵۰۰ واژه در ۲۸ بسته — روی هر سطح کلیک کنید تا بسته‌ها نمایش داده شوند</div>
-  <div id="cefr-packs-grid"></div>
 </div>
-<div class="card" style="margin-bottom:16px"><h3 style="margin-bottom:12px;color:var(--accent)">⚡ افزودن سریع کلمات</h3><p style="color:var(--text2);font-size:.85rem;margin-bottom:12px">کلمات را هر خط یکی وارد کنید (فرمت: word یا word=ترجمه)</p><textarea id="quickImportText" class="input" rows="4" placeholder="hello=سلام&#10;world=دنیا&#10;book&#10;water=آب" style="width:100%;resize:vertical;font-family:monospace"></textarea><div style="display:flex;gap:8px;margin-top:10px"><button type="button" class="btn btn-primary btn-sm" id="quickImportBtn">افزودن کلمات</button><button type="button" class="btn btn-ghost btn-sm" id="quickImportClearBtn">پاک کردن</button></div><div id="quickImportResult" style="margin-top:10px"></div></div></div>`}
+
+<div class="card" style="margin-bottom:16px">
+  <h3 style="margin-bottom:8px">🔗 ورود از URL</h3>
+  <div style="display:flex;gap:6px">
+    <input class="input" id="importUrl" placeholder="https://example.com/words.txt" style="flex:1;padding:7px 10px;font-size:.82rem">
+    <button type="button" class="btn btn-ghost btn-sm" id="importUrlBtn">دریافت</button>
+  </div>
+</div>
+
+<div class="card" style="margin-bottom:16px;border:1px solid var(--accent);background:linear-gradient(135deg,rgba(108,92,231,.06),rgba(162,155,254,.03))">
+  <h3 style="margin-bottom:4px;color:var(--accent);font-size:.95rem">📦 بسته‌های لغت آماده</h3>
+  <p style="color:var(--text2);font-size:.8rem;margin-bottom:12px">بسته را انتخاب کنید — کلمات قبل از ورود قابل انتخاب هستند</p>
+  <div style="display:grid;gap:8px" id="ready-packs-grid"></div>
+</div>
+
+<div class="card" style="margin-bottom:16px">
+  <h3 style="margin-bottom:8px;color:var(--accent);font-size:.95rem">⚡ افزودن سریع کلمات</h3>
+  <p style="color:var(--text2);font-size:.82rem;margin-bottom:10px">هر خط یک کلمه (فرمت: word یا word=ترجمه)</p>
+  <textarea id="quickImportText" class="input" rows="3" placeholder="hello=سلام&#10;world=دنیا&#10;book&#10;water=آب" style="width:100%;resize:vertical;font-family:monospace;font-size:.85rem"></textarea>
+  <div style="display:flex;gap:6px;margin-top:8px">
+    <button type="button" class="btn btn-primary btn-sm" id="quickImportBtn">افزودن</button>
+    <button type="button" class="btn btn-ghost btn-sm" id="quickImportClearBtn">پاک کردن</button>
+  </div>
+  <div id="quickImportResult" style="margin-top:8px"></div>
+</div>`}
 
 function renderSelectableTextSection(){
 if(!textRenderedWords.length){
@@ -216,8 +213,8 @@ if(!textRenderedWords.length){
   textRenderedWords=parseWords(importRawText).map((w,i)=>({id:i,word:w,selected:false}));
 }
 const selCount=textRenderedWords.filter(w=>w.selected).length;
-let h=`<div class="card" style="margin-bottom:16px"><h3 style="margin-bottom:12px">انتخاب کلمات</h3>`;
-h+=`<p style="color:var(--text2);font-size:.85rem;margin-bottom:12px">بر روی کلمات کلیک کنید تا انتخاب شوند</p>`;
+let h=`<div class="card" style="margin-bottom:16px"><h3 style="margin-bottom:10px">انتخاب کلمات</h3>`;
+h+=`<p style="color:var(--text2);font-size:.85rem;margin-bottom:10px">بر روی کلمات کلیک کنید تا انتخاب شوند</p>`;
 h+=`<div class="text-selectable">`;
 textRenderedWords.forEach(w=>{
   h+=`<span class="text-word${w.selected?' selected':''}" data-wid="${w.id}">${esc(w.word)}</span> `;
@@ -237,14 +234,14 @@ return`<div class="card import-progress-card"><div class="trans-spinner" style="
 
 function renderTranslatedResults(){
 let h=`<div class="card" style="margin-bottom:16px">`;
-h+=`<h3 style="margin-bottom:12px">نتایج ترجمه</h3>`;
+h+=`<h3 style="margin-bottom:10px">نتایج ترجمه</h3>`;
 if(!translatedItems.length){
   h+=`<p style="color:var(--text2)">هیچ انتخاب ترجمه شده‌ای وجود ندارد</p>`;
   h+=`</div>`;return h;
 }
 const activeItems=translatedItems.filter(t=>!t.moved);
 const selCount=activeItems.filter(t=>t.selected).length;
-h+=`<div class="flex" style="justify-content:space-between;margin-bottom:10px"><div class="flex" style="gap:6px">`;
+h+=`<div style="display:flex;justify-content:space-between;margin-bottom:10px"><div style="display:flex;gap:6px">`;
 h+=`<button type="button" class="btn btn-ghost btn-sm" id="trSelAll">انتخاب همه</button>`;
 h+=`<button type="button" class="btn btn-ghost btn-sm" id="trDeselAll">لغو انتخاب</button>`;
 h+=`</div><span style="color:var(--text2);font-size:.85rem">${selCount} انتخاب شده</span></div>`;
@@ -333,17 +330,11 @@ const selCount=activeItems.filter(t=>t.selected).length;
 
 function bindImportEvents(){
 if(importStep===0){
-const ta=document.getElementById('importText');
-if(ta)ta.oninput=()=>{importRawText=ta.value};
-const btn=document.getElementById('importParse');
-if(btn)btn.onclick=()=>{const txt=document.getElementById('importText').value;if(!txt.trim()){toast('متنی وارد نشده','error');return}importRawText=txt;importCategory=document.getElementById('importCat').value;textRenderedWords=parseWords(txt).map((w,i)=>({id:i,word:w,selected:false}));importStep=1;renderImport(document.getElementById('content'))};
 const fi=document.getElementById('fileInput');
 if(fi)fi.onchange=handleFileImport;
 // Rich DOCX import handler
 const richDocx=document.getElementById('richDocxInput');
-if(richDocx)richDocx.onchange=async e=>{const file=e.target.files[0];if(!file)return;try{toast('در حال پردازش فایل DOCX...','info');await ensureJsZip();const buf=await file.arrayBuffer();const zip=await JSZip.loadAsync(buf);let cards=[];try{cards=await parseDocxTableStructured(zip)}catch(e){}if(!cards.length){const xml=await zip.file('word/document.xml').async('text');const parser=new DOMParser();const doc=parser.parseFromString(xml,'text/xml');const texts=doc.getElementsByTagName('w:t');let txt='';for(let i=0;i<texts.length;i++)txt+=texts[i].textContent+' ';cards=parseDocxToVocabJSON(txt)}if(!cards.length){toast('هیچ واژه‌ای از فایل استخراج نشد','error');return}toast(cards.length+' واژه استخراج شد','success');stageImportCards(cards,'docx')}catch(e){toast('خطا در پردازش فایل DOCX: '+e.message,'error')};e.target.value=''};
-const urlBtn=document.getElementById('importUrlBtn');
-if(urlBtn)urlBtn.onclick=async()=>{const url=document.getElementById('importUrl')?.value?.trim();if(!url){toast('URL وارد نشده','error');return}try{toast('در حال دریافت...','info');const r=await fetch(url);if(!r.ok)throw new Error(r.status);const txt=await r.text();importRawText=txt;document.getElementById('importText').value=txt;textRenderedWords=parseWords(txt).map((w,i)=>({id:i,word:w,selected:false}));importStep=1;renderImport(document.getElementById('content'));toast('متن دریافت شد','success')}catch(e){toast('خطا در دریافت URL','error')}}
+if(richDocx)richDocx.onchange=async e=>{const file=e.target.files[0];if(!file)return;try{toast('در حال پردازش فایل DOCX...','info');await ensureJsZip();const buf=await file.arrayBuffer();const zip=await JSZip.loadAsync(buf);let cards=[];try{cards=await parseDocxTableStructured(zip)}catch(e){}if(!cards.length){const xml=await zip.file('word/document.xml').async('text');const parser=new DOMParser();const doc=parser.parseFromString(xml,'text/xml');const texts=doc.getElementsByTagName('w:t');let txt='';for(let i=0;i<texts.length;i++)txt+=texts[i].textContent+' ';cards=parseDocxToVocabJSON(txt)}if(!cards.length){toast('هیچ واژه‌ای از فایل استخراج نشد','error');return}toast(cards.length+' واژه استخراج شد','success');stageImportCards(cards,'docx')}catch(e){toast('خطا در پردازش فایل DOCX: '+e.message,'error')};e.target.value=''};const urlBtn=document.getElementById('importUrlBtn');if(urlBtn)urlBtn.onclick=async()=>{const url=document.getElementById('importUrl')?.value?.trim();if(!url){toast('URL وارد نشده','error');return}try{toast('در حال دریافت...','info');const r=await fetch(url);if(!r.ok)throw new Error(r.status);const txt=await r.text();importRawText=txt;textRenderedWords=parseWords(txt).map((w,i)=>({id:i,word:w,selected:false}));importStep=1;renderImport(document.getElementById('content'));toast('متن دریافت شد','success')}catch(e){toast('خطا در دریافت URL','error')}}
 // Quick import handler
 const qiBtn=document.getElementById('quickImportBtn');
 if(qiBtn)qiBtn.onclick=async function(){
@@ -386,7 +377,6 @@ else if(importStep===3){
 document.querySelectorAll('[data-tid]').forEach(cb=>{
 cb.onchange=()=>{const tid=cb.dataset.tid;const item=translatedItems.find(t=>t.id===tid);if(item){item.selected=cb.checked;refreshSelectionActions()}};
 });
-// Translation edit inputs
 document.querySelectorAll('[data-tid-trans]').forEach(inp=>{
 inp.oninput=()=>{const tid=inp.dataset.tidTrans;const item=translatedItems.find(t=>t.id===tid);if(item){item.translation=inp.value}};
 });
@@ -428,210 +418,48 @@ function parseDocxTableStructured(zip){
       const xml=await zip.file('word/document.xml').async('text');
       const parser=new DOMParser();
       const doc=parser.parseFromString(xml,'text/xml');
-      const tables=doc.querySelectorAll('tbl');
+      const tables=doc.getElementsByTagName('w:tbl');
       if(!tables.length){resolve([]);return}
-      const table=tables[0];
-      const rows=table.querySelectorAll('tr');
       const cards=[];
-      for(let i=1;i<rows.length;i++){
-        const cells=rows[i].querySelectorAll('tc');
-        if(cells.length<6) continue;
-        const col0=getDocxCellText(cells[0]);
-        const col1=getDocxCellText(cells[1]);
-        const col2=getDocxCellText(cells[2]);
-        const col3=getDocxCellText(cells[3]);
-        const col4=getDocxCellText(cells[4]);
-        const col5=getDocxCellText(cells[5]);
-        let word='',pos='',pronunciation='';
-        const wordMatchWithPos=col0.match(/^([a-zA-Z']+)\s*\((verb|noun|adj|adv|adjective|adverb|preposition|interjection|conjunction|pronoun|determiner|noun,\s*verb|verb,\s*noun)\)\s*\n?\s*(.*)/i);
-        const wordMatchPlain=col0.match(/^([a-zA-Z']+)$/);
-        if(wordMatchWithPos){word=wordMatchWithPos[1].toLowerCase();pos=wordMatchWithPos[2].toLowerCase().replace(/,\s*\w+/g,'');pronunciation=wordMatchWithPos[3]?wordMatchWithPos[3].trim():''}
-        else if(wordMatchPlain){word=wordMatchPlain[1].toLowerCase()}
-        else continue;
-        const translation=col1.trim();
-        const coreMeaning=col2.trim();
-        const synonyms=col4.split(/[;,]/).map(s=>s.trim()).filter(s=>s.length>1&&s.length<40);
-        const antonyms=col5.split(/[;,]/).map(s=>s.trim()).filter(s=>s.length>1&&s.length<40);
-        // Collect following metadata rows
-        let examples='',context='',note='',trap='';
-        for(let j=i+1;j<rows.length;j++){
-          const mc=rows[j].querySelectorAll('tc');
-          if(mc.length<2) break;
-          const label=getDocxCellText(mc[0]);
-          const content=getDocxCellText(mc[1]);
-          if(label.match(/Example/i)){examples=content}
-          else if(label.match(/Context/i)){context=content}
-          else if(label.match(/Note|Trap/i)){
-            const trapMatch=content.match(/Trap\s*:?\s*(.+)/i);
-            if(trapMatch){trap=trapMatch[1].trim();note=content.replace(/Trap\s*:?\s*.*/i,'').replace(/Note\s*:?\s*/i,'').trim()}
-            else{note=content.replace(/Note\s*:?\s*/i,'').trim()}
-          }
-          else if(label.match(/\(verb|noun|adj|adv|adverb|preposition|interjection|conjunction|pronoun|determiner/i)||/^[a-zA-Z']+$/.test(label)) break;
-          else break;
+      for(let ti=0;ti<tables.length;ti++){
+        const rows=tables[ti].getElementsByTagName('w:tr');
+        for(let ri=0;ri<rows.length;ri++){
+          const cells=rows[ri].getElementsByTagName('w:tc');
+          if(cells.length<2)continue;
+          const word=getDocxCellText(cells[0]).trim();
+          const translation=getDocxCellText(cells[1]).trim();
+          if(!word||!translation||word.length<2)continue;
+          let ipa='',pos='',def='',ex='',syn='',ant='';
+          if(cells.length>2)ipa=getDocxCellText(cells[2]).trim();
+          if(cells.length>3)pos=getDocxCellText(cells[3]).trim();
+          if(cells.length>4)def=getDocxCellText(cells[4]).trim();
+          if(cells.length>5)ex=getDocxCellText(cells[5]).trim();
+          if(cells.length>6)syn=getDocxCellText(cells[6]).trim();
+          if(cells.length>7)ant=getDocxCellText(cells[7]).trim();
+          cards.push({word,translation,ipa:ipa.replace(/[\/\[\]]/g,''),partOfSpeech:pos,definitions:def?def.split('\n').filter(d=>d):[],examples:ex?ex.split('\n').filter(e=>e):[],synonyms:syn?syn.split(/[,،]/).map(s=>s.trim()).filter(s=>s):[],antonyms:ant?ant.split(/[,،]/).map(a=>a.trim()).filter(a=>a):[]});
         }
-        cards.push({
-          id:uid()+'_'+word.replace(/[^a-z0-9]/g,''),
-          word,translation,ipa:pronunciation,partOfSpeech:pos,
-          coreMeaning,definitions:coreMeaning?[coreMeaning]:[],
-          examples:examples?examples.split(/[.!?]\s+(?=[A-Z])/).map(s=>s.trim()).filter(s=>s.length>5).slice(0,3):[],
-          context:context.slice(0,300),
-          collocations:context.split(/[;,]/).map(s=>s.trim()).filter(s=>s.length>2&&s.length<80).slice(0,5),
-          synonyms:synonyms.slice(0,6),antonyms:antonyms.slice(0,6),
-          wordFamily:[],note:note.slice(0,500),trap:trap.slice(0,500),
-          category:'پیش‌فرض',favorite:false,
-          box:0,repetitions:0,interval:1,easeFactor:2.5,
-          addedDate:new Date().toISOString(),nextReviewDate:null,lastReviewedAt:null,
-          stability:0,difficulty:0,elapsedDays:0,scheduledDays:0,
-          reps:0,lapses:0,fsrsState:'new',
-          audioUs:'',audioBr:'',tags:[],source:''
-        });
       }
       resolve(cards);
     }catch(e){reject(e)}
   });
 }
-
-// ═══════════════════════════════════════════
-// DOCX-TO-JSON VOCABULARY PARSER (text-based fallback)
-// ═══════════════════════════════════════════
-function parseDocxToVocabJSON(rawText){
-  // Step 1: Clean raw text
-  let text=rawText.replace(/\s+/g,' ').trim();
-  text=text.replace(/[-=]{3,}/g,' ').replace(/\|+/g,' ');
-  // Step 2: Split into entries by word + POS pattern
-  const entryRegex=/\b([a-z]+)\s*\((verb|noun|adj|adv|adjective|noun,\s*verb|verb,\s*noun)\)\s*/gi;
-  const entries=[];
-  const matches=[...text.matchAll(entryRegex)];
-  for(let i=0;i<matches.length;i++){
-    const start=matches[i].index;
-    const end=i<matches.length-1?matches[i+1].index:text.length;
-    entries.push(text.slice(start,end));
-  }
-  // Step 3: Parse each entry
-  const results=[];
-  for(const body of entries){
-    const card=parseVocabEntry(body);
-    if(card&&card.word)results.push(card);
-  }
-  return results;
-}
-function parseVocabEntry(body){
-  // Extract word and POS
-  const wordMatch=body.match(/^([a-z]+)\s*\((verb|noun|adj|adv|adjective|noun,\s*verb|verb,\s*noun)\)/i);
-  if(!wordMatch)return null;
-  const word=wordMatch[1].toLowerCase();
-  const pos=wordMatch[2].toLowerCase().replace(/,\s*\w+/g,'');
-  // Split body into sections using labeled markers
-  const secParts=body.split(/(Example\s*\/\s*Usage|Context\s*\/\s*Collocation|Note\s*\/\s*Trap)/);
-  const before=secParts[0]||'';
-  const sections={};
-  for(let i=1;i<secParts.length;i+=2){
-    const label=secParts[i];
-    const content=(secParts[i+1]||'').trim();
-    if(label==='Example / Usage')sections.example=content;
-    else if(label==='Context / Collocation')sections.context=content;
-    else if(label==='Note / Trap')sections.note=content;
-  }
-  // Extract pronunciation (phonetic text after POS, before Also:)
-  const pronMatch=before.match(/\)\s*([A-Z][A-Za-z\- ]+?)(?:\s*Also:)/);
-  const pronunciation=pronMatch?pronMatch[1].trim():'';
-  // Extract "Also:" derived forms
-  const alsoMatch=before.match(/Also:\s*(.+?)(?=\s*Example|\s*Context|\s*Note|$)/i);
-  const wordFamilyRaw=alsoMatch?alsoMatch[1]:'';
-  const wordFamily=wordFamilyRaw.split(/,\s*|also/i).map(s=>s.trim()).filter(s=>s.length>1&&s.length<60&&/^[a-z]/i.test(s));
-  // Extract Persian translation (Persian/Arabic characters)
-  const persianMatch=before.match(/([\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF][\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF\u0020\u060C\u061B\u061F\u0640\u064B-\u065F\u0670\u06D6-\u06DC\u06DF-\u06E4\u06E7\u06E8\u06EA-\u06ED\u200C\u200D\u200E\u200F\uFEFF\u0610-\u061A\u064D\u0671-\u0677\u0679-\u0685\u0687-\u0691\u0693-\u0695\u0697-\u06A8\u06AA-\u06BF\u06C1-\u06CF\u06D1-\u06D5\u06D7-\u06ED\u06F0-\u06F9\u06FA-\u06FF]+[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF]*)/);
-  const translation=persianMatch?persianMatch[1].trim():'';
-  // Extract core definition (English text between Also: section end and Persian, or after Persian before Example)
-  let coreMeaning='';
-  const persIdx=persianMatch?before.indexOf(persianMatch[0]):-1;
-  const alsoIdx=alsoMatch?before.indexOf(alsoMatch[0])+alsoMatch[0].length:-1;
-  if(persIdx>alsoIdx&&alsoIdx>0){
-    coreMeaning=before.slice(alsoIdx,persIdx).replace(/[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF]+/g,'').trim();
-  }
-  // Extract Example/Usage
-  let examples=[];
-  if(sections.example){
-    examples=sections.example.split(/(?:\.?\s*\/\s*(?=[A-Z])|(?<=[.!?])\s+(?=[A-Z]))/).map(s=>s.trim()).filter(s=>s.length>10&&s.length<300);
-    if(!examples.length&&sections.example.length>10)examples=[sections.example.trim()];
-  }
-  // Extract Context/Collocation
-  let context='';
-  let collocations=[];
-  if(sections.context){
-    context=sections.context.trim();
-    collocations=context.split(/[;,]/).map(s=>s.trim()).filter(s=>s.length>2&&s.length<80);
-  }
-  // Extract Note/Trap
-  let note='';let trap='';
-  if(sections.note){
-    const noteText=sections.note.trim();
-    const trapMatch=noteText.match(/Trap\s*:?\s*(.+)/i);
-    if(trapMatch){trap=trapMatch[1].trim();note=noteText.replace(/Trap\s*:?\s*.*/i,'').replace(/Note\s*:?\s*/i,'').trim()}
-    else{note=noteText.replace(/Note\s*:?\s*/i,'').trim()}
-  }
-  // Extract synonyms and antonyms from the tone/synonym section
-  let synonyms=[];
-  let antonyms=[];
-  // Look for pattern: English words after tone description, before Example
-  const toneAndSyn=before.split(/Example\s*\/\s*Usage/i)[0]||'';
-  // Find the last Persian sentence end (period after tone description)
-  const lastPersianEnd=toneAndSyn.lastIndexOf('.');
-  if(lastPersianEnd>0){
-    const afterTone=toneAndSyn.slice(lastPersianEnd+1).trim();
-    const engList=afterTone.match(/^[a-z][\w\s,.-]+$/i);
-    if(engList){
-      // Split by comma or semicolon
-      const words=engList[0].split(/,\s*/).map(s=>s.trim()).filter(s=>s.length>1&&s.length<30&&/^[a-z]/i.test(s));
-      // The list typically has: synonyms, antonyms, IELTS-eq
-      // Try to split into 3 groups
-      if(words.length>=6){
-        synonyms=words.slice(0,Math.ceil(words.length/3));
-        antonyms=words.slice(Math.ceil(words.length/3),Math.ceil(words.length*2/3));
-      }else if(words.length>=3){
-        synonyms=words.slice(0,Math.ceil(words.length/2));
-        antonyms=words.slice(Math.ceil(words.length/2));
-      }else{
-        synonyms=words;
+function parseDocxToVocabJSON(text){
+  const lines=text.split('\n').map(l=>l.trim()).filter(l=>l);
+  const cards=[];
+  for(const line of lines){
+    const parts=line.split(/[\t|,;،]/);
+    if(parts.length>=2){
+      const word=parts[0].trim();
+      const translation=parts[1].trim();
+      if(word.length>=2&&translation.length>=1){
+        cards.push({word,translation,ipa:parts[2]||'',partOfSpeech:parts[3]||'',definitions:[],examples:[],synonyms:[],antonyms:[]});
       }
     }
   }
-  // Build card
-  return{
-    id:uid()+'_'+word.replace(/[^a-z0-9]/g,''),
-    word:word,
-    translation:translation,
-    ipa:pronunciation,
-    partOfSpeech:pos,
-    coreMeaning:coreMeaning,
-    definitions:coreMeaning?[coreMeaning]:[],
-    examples:examples.slice(0,3),
-    context:context.slice(0,300),
-    collocations:collocations.slice(0,5),
-    synonyms:synonyms.slice(0,6),
-    antonyms:antonyms.slice(0,6),
-    wordFamily:wordFamily.slice(0,5),
-    note:note.slice(0,500),
-    trap:trap.slice(0,500),
-    category:'پیش‌فرض',
-    tags:['gre','manhattan-500'],
-    source:'manhattan-500',
-    box:0,repetitions:0,interval:1,easeFactor:2.5,
-    addedDate:new Date().toISOString(),nextReviewDate:null,lastReviewedAt:null,
-    stability:0,difficulty:0,elapsedDays:0,scheduledDays:0,
-    reps:0,lapses:0,fsrsState:'new',favorite:false
-  };
+  return cards;
 }
-
-// Anki .apkg import
-async function handleFileImport(e){
-const file=e.target.files[0];if(!file)return;
-const ext=file.name.split('.').pop().toLowerCase();
-if(ext==='json'){const txt=await file.text();try{const d=JSON.parse(txt);const result=importStateSnapshot(d);if(!result.ok)toast(result.msg,'error')}catch(e){toast('خطا در خواندن JSON','error')}}
-else if(ext==='txt'){const txt=await file.text();importRawText=txt;document.getElementById('importText').value=txt;importWords=parseWords(txt);importExisting=new Set([...S.words,...S.longTerm].map(w=>w.word.toLowerCase()));importSelected=new Set(importWords.map((_,i)=>i).filter(i=>!importExisting.has(importWords[i])));importStep=1;renderImport(document.getElementById('content'))}
-else if(ext==='pdf'){try{await ensurePdfJs();if(!pdfjsLib.GlobalWorkerOptions.workerSrc||pdfjsLib.GlobalWorkerOptions.workerSrc.includes('cdnjs')){try{const wr=await fetch('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js');const wb=await wr.blob();pdfjsLib.GlobalWorkerOptions.workerSrc=URL.createObjectURL(wb)}catch(x){pdfjsLib.GlobalWorkerOptions.workerSrc=''}}const buf=await file.arrayBuffer();const pdf=await pdfjsLib.getDocument({data:buf,disableFontFace:false,useSystemFonts:true,cMapUrl:'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/cmaps/',cMapPacked:true}).promise;let txt='';for(let i=1;i<=pdf.numPages;i++){const p=await pdf.getPage(i);const c=await p.getTextContent();txt+=c.items.map(x=>x.str).join(' ')+' '}importRawText=txt;importWords=parseWords(txt);importExisting=new Set([...S.words,...S.longTerm].map(w=>w.word.toLowerCase()));importSelected=new Set(importWords.map((_,i)=>i).filter(i=>!importExisting.has(importWords[i])));importStep=1;renderImport(document.getElementById('content'))}catch(e){toast('خطا در خواندن فایل PDF','error')}}
-else if(ext==='docx'){try{await ensureJsZip();const buf=await file.arrayBuffer();const zip=await JSZip.loadAsync(buf);const xml=await zip.file('word/document.xml').async('text');const parser=new DOMParser();const doc=parser.parseFromString(xml,'text/xml');const texts=doc.getElementsByTagName('w:t');let txt='';for(let i=0;i<texts.length;i++)txt+=texts[i].textContent+' ';importRawText=txt;importWords=parseWords(txt);importExisting=new Set([...S.words,...S.longTerm].map(w=>w.word.toLowerCase()));importSelected=new Set(importWords.map((_,i)=>i).filter(i=>!importExisting.has(importWords[i])));importStep=1;renderImport(document.getElementById('content'))}catch(e){toast('خطا در خواندن فایل DOCX','error')}}
-else if(ext==='apkg'){try{toast('در حال پردازش فایل Anki...','info');await ensureJsZip();const buf=await file.arrayBuffer();const zip=await JSZip.loadAsync(buf);const dbFile=zip.file('collection.anki21')||zip.file('collection.anki2');if(!dbFile){toast('فایل Anki معتبر نیست','error');return}const sqlBuf=await dbFile.async('arraybuffer');if(!window.initSqlJs){toast('در حال بارگذاری مفسر SQLite...','info');await new Promise((resolve,reject)=>{const s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js';s.onload=resolve;s.onerror=reject;document.head.appendChild(s)});window._sqlModule=await initSqlJs({locateFile:f=>'https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/'+f})}const db=new window._sqlModule.Database(new Uint8Array(sqlBuf));const rows=db.exec('SELECT flds FROM notes');if(!rows.length||!rows[0].values.length){toast('هیچ کارتی یافت نشد','error');return}let txt='';rows[0].values.forEach(r=>{const fields=String(r[0]).split('\x1f');txt+=fields[0]+' '+fields[1]+' '});db.close();importRawText=txt;importWords=parseWords(txt);importExisting=new Set([...S.words,...S.longTerm].map(w=>w.word.toLowerCase()));importSelected=new Set(importWords.map((_,i)=>i).filter(i=>!importExisting.has(importWords[i])));importStep=1;renderImport(document.getElementById('content'));toast(`${importWords.length} کلمه استخراج شد`,'success')}catch(e){toast('خطا در خواندن فایل Anki','error')}}
-e.target.value=''}
-
-// ═══════════════════════════════════════════
+function ensureJsZip(){return new Promise((resolve,reject)=>{if(window.JSZip){resolve();return}const s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js';s.onload=resolve;s.onerror=reject;document.head.appendChild(s)})}
+function decorateImportHelp(){
+  const el=document.querySelector('#import-help');
+  if(el)el.innerHTML='<div style="font-size:.82rem;color:var(--text2);margin-top:10px"><b>💡 نکته:</b> فایل متنی باید هر خط شامل یک کلمه انگلیسی باشد. فرمت‌های پشتیبانی شده: TXT, CSV, JSON</div>';
+}
