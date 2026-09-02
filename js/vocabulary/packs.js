@@ -86,7 +86,7 @@ function renderPacksGrid(){
   const el=document.getElementById('ready-packs-grid');
   if(!el)return;
   const existing={};
-  (S.words||[]).forEach(w=>{const s=w.source||'';existing[s]=(existing[s]||0)+1});
+  [...(S.words||[]),...(S.longTerm||[])].forEach(w=>{const s=w.source||'';existing[s]=(existing[s]||0)+1});
 
   let html='';
   // 504 pack

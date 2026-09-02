@@ -65,7 +65,7 @@ const titles={review:'مرور',quiz:'آزمون',engquiz:'تعیین سطح',li
 document.getElementById('pageTitle').textContent=titles[currentTab]||'';
 // Help button in topbar (if this tab has help text)
 var _th=document.getElementById('topActions');
-if(_th){_th.innerHTML=HELP_DICT[currentTab]?'<button type="button" class="btn btn-ghost btn-sm" onclick="showHelp(\''+currentTab+'\')" title="راهنمای این بخش">🙋 راهنما</button>':''}
+if(_th){var _existingHelp=_th.querySelector('[onclick*="showHelp"]');if(HELP_DICT[currentTab]){_existingHelp?_existingHelp.setAttribute('onclick',"showHelp('"+currentTab+"')"):_th.insertAdjacentHTML('beforeend','<button type="button" class="btn btn-ghost btn-sm" onclick="showHelp(\''+currentTab+'\')" title="راهنمای این بخش">🙋 راهنما</button>')}else if(_existingHelp){_existingHelp.remove()}}
 // Update page title with due count badge
 const dueBadge=getDue().length;
 document.title=dueBadge>0?'('+dueBadge+') لایتنر — '+titles[currentTab]:'لایتنر — مرور هوشمند';

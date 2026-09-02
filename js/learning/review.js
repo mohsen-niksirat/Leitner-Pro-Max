@@ -3,6 +3,7 @@
 // ═══════════════════════════════════════════
 let reviewSession={queue:[],idx:0,flipped:false,correct:0,wrong:0,done:false,startTime:0};
 let reviewRatingPending=false;
+function findCardById(id){let c=S.words.find(x=>x.id===id);return c||S.longTerm.find(x=>x.id===id)||null}
 // ═══ AUTO-PLAY STATE ═══
 let autoPlayState={active:false,paused:false,timer:null,countdownTimer:null,countdown:0,flipDelay:3000,showDelay:5000,speed:'normal'};
 const AUTO_PLAY_SPEEDS={slow:{flip:4000,show:7000,label:'آهسته'},normal:{flip:3000,show:5000,label:'عادی'},fast:{flip:2000,show:3500,label:'سریع'},turbo:{flip:1200,show:2500,label:'خیلی سریع'}};
@@ -12,7 +13,7 @@ function autoPlayTick(){if(!autoPlayState.active||autoPlayState.paused)return;va
 function autoPlayScheduleNext(delay){if(!autoPlayState.active)return;if(autoPlayState.timer)clearTimeout(autoPlayState.timer);autoPlayState.countdown=Math.ceil(delay/1000);updateAutoPlayCountdown();if(autoPlayState.countdownTimer)clearInterval(autoPlayState.countdownTimer);autoPlayState.countdownTimer=setInterval(function(){autoPlayState.countdown--;updateAutoPlayCountdown();if(autoPlayState.countdown<=0){clearInterval(autoPlayState.countdownTimer);autoPlayState.countdownTimer=null}},1000);autoPlayState.timer=setTimeout(function(){autoPlayTick()},delay)}
 function updateAutoPlayCountdown(){var el=document.getElementById('apCountdown');if(el)el.textContent=autoPlayState.countdown>0?autoPlayState.countdown+'s':''}
 function renderAutoPlayBar(){return'<div class="auto-play-bar" id="autoPlayBar"><div class="auto-play-label"><div class="auto-play-dot"></div>پخش خودکار</div><button type="button" class="btn btn-ghost btn-sm" id="apPauseBtn" title="مکث/ادامه">'+(autoPlayState.paused?'▶️':'⏸️')+'</button><button type="button" class="btn btn-danger btn-sm" id="apStopBtn" title="توقف">⏹️</button><div class="auto-play-speed"><span>سرعت:</span><select id="apSpeedSelect"><option value="slow"'+(autoPlayState.speed==='slow'?' selected':'')+'>آهسته</option><option value="normal"'+(autoPlayState.speed==='normal'?' selected':'')+'>عادی</option><option value="fast"'+(autoPlayState.speed==='fast'?' selected':'')+'>سریع</option><option value="turbo"'+(autoPlayState.speed==='turbo'?' selected':'')+'>خیلی سریع</option></select></div><div class="auto-play-timer" id="apCountdown"></div></div>'}
-function getDue(){return S.words.filter(w=>!w.nextReviewDate||new Date(w.nextReviewDate)<=new Date())}
+function getDue(){return[...S.words,...S.longTerm].filter(w=>!w.nextReviewDate||new Date(w.nextReviewDate)<=new Date())}
 function startReview(){
 const due=getDue();
 if(!due.length){toast('هیچ کارتی برای مرور نیست','info');return}
@@ -183,7 +184,7 @@ c.querySelectorAll('[data-genex]').forEach(btn=>{
           const newExs=data[0].meanings.flatMap(m=>m.definitions.filter(d=>d.example).map(d=>d.example)).slice(0,5);
           if(newExs.length>0){
             w.examples=[...(w.examples||[]),...newExs].slice(0,10);
-            const idx=S.words.findIndex(x=>x.id===w.id);if(idx>=0)S.words[idx].examples=w.examples;
+            const _exCard=findCardById(w.id);if(_exCard)_exCard.examples=w.examples;
             save();
             // Update examples section in-place without full re-render
             const backSection=btn.closest('.rb-section');
@@ -208,7 +209,9 @@ if(!reviewSession.queue||!reviewSession.queue.length||reviewSession.idx>=reviewS
 reviewRatingPending=true;
 const w=reviewSession.queue[reviewSession.idx];
 const idx=S.words.findIndex(x=>x.id===w.id);
-if(idx>=0)fsrsNext(S.words[idx],mapRating(q));
+const ltIdx=idx>=0?-1:S.longTerm.findIndex(x=>x.id===w.id);
+const reviewCard=idx>=0?S.words[idx]:ltIdx>=0?S.longTerm[ltIdx]:null;
+if(reviewCard)fsrsNext(reviewCard,mapRating(q));
 S.stats.reviewed++;S.stats.xp+={1:0,2:3,3:5,4:8,5:10}[q]||0;
 if(q>=4)S.stats.correct++;else S.stats.wrong++;
 const dk=todayKey();if(S.stats.lastReviewDate!==dk){if(S.stats.lastReviewDate===new Date(Date.now()-MS_PER_DAY).toISOString().slice(0,10))S.stats.streak++;else S.stats.streak=1;S.stats.lastReviewDate=dk}
@@ -547,7 +550,7 @@ function generateWordQuiz(w) {
   const trans = w.translation || '';
   const synonyms = w.synonyms || [];
   const antonyms = w.antonyms || [];
-  const allWords = (S.words || []).filter(x => x.word !== word && x.translation);
+  const allWords = [...(S.words || []),...(S.longTerm || [])].filter(x => x.word !== word && x.translation);
 
   // Helper: pick random items from array
   function pick(arr, n) {
@@ -669,7 +672,7 @@ function renderSpeedReview(c){
   const w=speedState.queue[speedState.idx];
   const prog=Math.round((speedState.idx/speedState.queue.length)*100);
   // Build 4 options
-  const allWords=S.words.filter(x=>x.id!==w.id&&x.translation);
+  const allWords=[...S.words,...S.longTerm].filter(x=>x.id!==w.id&&x.translation);
   const wrongOpts=allWords.sort(()=>Math.random()-0.5).slice(0,3).map(x=>x.translation);
   const options=[w.translation,...wrongOpts].sort(()=>Math.random()-0.5);
   const correctIdx=options.indexOf(w.translation);
@@ -702,8 +705,7 @@ function renderSpeedReview(c){
       clearInterval(speedState.timer);speedState.timer=null;
       // Auto-fail
       speedState.wrong++;
-      const idx=S.words.findIndex(x=>x.id===w.id);
-      if(idx>=0)fsrsNext(S.words[idx],1);
+      const _sf=findCardById(w.id);if(_sf)fsrsNext(_sf,1);
       S.stats.reviewed++;S.stats.wrong++;
       const dk=todayKey();if(!S.stats.history[dk])S.stats.history[dk]={reviewed:0,correct:0,wrong:0};S.stats.history[dk].reviewed++;S.stats.history[dk].wrong++;
       save();
@@ -724,16 +726,14 @@ function renderSpeedReview(c){
       if(isCorrect){
         btn.style.background='var(--success)';btn.style.color='#fff';btn.style.borderColor='var(--success)';
         speedState.correct++;
-        const idx=S.words.findIndex(x=>x.id===w.id);
-        if(idx>=0)fsrsNext(S.words[idx],4);
+        const _sc=findCardById(w.id);if(_sc)fsrsNext(_sc,4);
         S.stats.reviewed++;S.stats.correct++;S.stats.xp+=5;
       }else{
         btn.style.background='var(--danger)';btn.style.color='#fff';btn.style.borderColor='var(--danger)';
         const correctBtn=document.querySelector(`.speed-opt[data-idx="${correctIdx}"]`);
         if(correctBtn){correctBtn.style.background='var(--success)';correctBtn.style.color='#fff';correctBtn.style.borderColor='var(--success)'}
         speedState.wrong++;
-        const idx=S.words.findIndex(x=>x.id===w.id);
-        if(idx>=0)fsrsNext(S.words[idx],1);
+        const _sw=findCardById(w.id);if(_sw)fsrsNext(_sw,1);
         S.stats.reviewed++;S.stats.wrong++;
       }
       const dk=todayKey();if(!S.stats.history[dk])S.stats.history[dk]={reviewed:0,correct:0,wrong:0};S.stats.history[dk].reviewed++;if(isCorrect)S.stats.history[dk].correct++;else S.stats.history[dk].wrong++;
@@ -756,7 +756,7 @@ function renderListening(c){
     return;
   }
   if(!listenState.queue.length){
-    const pool=S.words.length?S.words:due;
+    const pool=[...S.words,...S.longTerm];
     if(!pool.length){c.innerHTML=`<div class="card" style="text-align:center;padding:60px"><div class="empty"><div class="icon">🎧</div><p>کلمه‌ای برای تمرین شنیداری نیست</p></div></div>`;return}
     listenState.queue=pool.sort(()=>Math.random()-0.5).slice(0,Math.min(15,pool.length));
     listenState.idx=0;listenState.correct=0;listenState.wrong=0;listenState.done=false;
@@ -804,15 +804,13 @@ function renderListening(c){
       listenState.correct++;
       feedback.style.display='block';
       feedback.innerHTML='<div style="color:var(--success);font-size:1.1rem;font-weight:700">✅ درست! «'+esc(w.word)+'» = '+esc(w.translation)+'</div>';
-      const idx=S.words.findIndex(x=>x.id===w.id);
-      if(idx>=0)fsrsNext(S.words[idx],5);
+      const _lc=findCardById(w.id);if(_lc)fsrsNext(_lc,5);
       S.stats.reviewed++;S.stats.correct++;S.stats.xp+=8;
     }else{
       listenState.wrong++;
       feedback.style.display='block';
       feedback.innerHTML='<div style="color:var(--danger);font-size:1rem;font-weight:600">❌ نادرست! جواب صحیح: <strong>'+esc(w.word)+'</strong> = '+esc(w.translation)+'</div>';
-      const idx=S.words.findIndex(x=>x.id===w.id);
-      if(idx>=0)fsrsNext(S.words[idx],1);
+      const _lw=findCardById(w.id);if(_lw)fsrsNext(_lw,1);
       S.stats.reviewed++;S.stats.wrong++;
     }
     const dk=todayKey();if(!S.stats.history[dk])S.stats.history[dk]={reviewed:0,correct:0,wrong:0};S.stats.history[dk].reviewed++;if(isCorrect)S.stats.history[dk].correct++;else S.stats.history[dk].wrong++;
@@ -831,8 +829,7 @@ function renderListening(c){
     listenState.revealed=true;listenState.wrong++;
     feedback.style.display='block';
     feedback.innerHTML='<div style="color:var(--warning);font-size:1rem">👁 جواب: <strong>'+esc(w.word)+'</strong> = '+esc(w.translation)+'</div>';
-    const idx=S.words.findIndex(x=>x.id===w.id);
-    if(idx>=0)fsrsNext(S.words[idx],2);
+    const _ls=findCardById(w.id);if(_ls)fsrsNext(_ls,2);
     S.stats.reviewed++;S.stats.wrong++;
     const dk=todayKey();if(!S.stats.history[dk])S.stats.history[dk]={reviewed:0,correct:0,wrong:0};S.stats.history[dk].reviewed++;S.stats.history[dk].wrong++;
     save();

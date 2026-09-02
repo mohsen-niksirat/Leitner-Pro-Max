@@ -93,7 +93,7 @@ function getWordStrength(w){
 // ═══════════════════════════════════════════
 function renderQuiz(c){
 initQuizSession();
-const valid=S.words.filter(w=>w.translation&&w.translation.trim());
+const valid=[...S.words,...S.longTerm].filter(w=>w.translation&&w.translation.trim());
 if(valid.length<4){if(quizState.timer){clearTimeout(quizState.timer);quizState.timer=null}c.innerHTML=`<div class="card" style="text-align:center;padding:60px"><div class="empty"><div class="icon">❓</div><p>برای آزمون حداقل ۴ کلمه با ترجمه لازم است</p><p style="color:var(--text2);font-size:.85rem;margin-top:8px">منبع فعلی: ${valid.length} کلمه معتبر</p></div></div>`;return}
 if(!quizState.card)genQuiz();
 const q=quizState.card;
@@ -176,8 +176,7 @@ if(quizMode==='speed'&&!quizState.answered){
       quizState.answered=true;quizState.selected=-1;
       quizWrong++;
       const w=quizState.card;
-      const idx=S.words.findIndex(x=>x.id===w.id);
-      if(idx>=0)fsrsNext(S.words[idx],1);
+      const _qfc=[...S.words,...S.longTerm].find(x=>x.id===w.id);if(_qfc)fsrsNext(_qfc,1);
       S.stats.reviewed++;S.stats.wrong++;
       const dk=todayKey();if(!S.stats.history[dk])S.stats.history[dk]={reviewed:0,correct:0,wrong:0};S.stats.history[dk].reviewed++;S.stats.history[dk].wrong++;
       if(S.quizStats.currentSession){S.quizStats.currentSession.wrong++}
@@ -265,7 +264,7 @@ function handleQuizAnswer(isCorrect){
   if(S.stats.lastReviewDate!==dk){if(S.stats.lastReviewDate===new Date(Date.now()-MS_PER_DAY).toISOString().slice(0,10))S.stats.streak++;else S.stats.streak=1;S.stats.lastReviewDate=dk}
   // FSRS update
   if(quizState.card){
-    const w=S.words.find(x=>x.id===quizState.card.id);
+    const w=[...S.words,...S.longTerm].find(x=>x.id===quizState.card.id);
     if(w){fsrsNext(w,isCorrect?3:1);save()}else save();
   }else save();
   // Persistence
@@ -275,7 +274,7 @@ function handleQuizAnswer(isCorrect){
     const selectedOption=quizState.options[quizState.selected];
     const correctWord=quizState.card;
     // Find which word was selected
-    const confusedWord=S.words.find(x=>x.translation===selectedOption||x.word===selectedOption);
+    const confusedWord=[...S.words,...S.longTerm].find(x=>x.translation===selectedOption||x.word===selectedOption);
     if(confusedWord)recordConfusion(correctWord.id,confusedWord.id);
   }
   // Session-aware scheduling
@@ -307,7 +306,7 @@ function undoQuizAnswer(){
   if(u.dkHistory)S.stats.history[u.dk]=u.dkHistory;
   else delete S.stats.history[u.dk];
   // Restore FSRS state
-  const w=S.words.find(x=>x.id===u.cardId);
+  const w=[...S.words,...S.longTerm].find(x=>x.id===u.cardId);
   if(w&&u.fsrsSnapshot){
     Object.assign(w,u.fsrsSnapshot);
   }
@@ -372,7 +371,7 @@ function checkFillAnswer(){
 // ═══════════════════════════════════════════
 function genQuiz(){
 if(quizState.timer){clearTimeout(quizState.timer);quizState.timer=null}
-const valid=S.words.filter(w=>w.translation&&w.translation.trim());
+const valid=[...S.words,...S.longTerm].filter(w=>w.translation&&w.translation.trim());
 if(valid.length<4)return;
 
 // Weighted selection: weaker words appear more often, skip session-skipped
@@ -396,7 +395,7 @@ if(quizMode==='mcq'||quizMode==='reverse'){
   const opts=new Set();
   const target=quizMode==='reverse'?w.word:w.translation;
   opts.add(target);
-  const distractors=S.words.filter(x=>x.id!==w.id&&x.translation&&x.translation.trim());
+  const distractors=[...S.words,...S.longTerm].filter(x=>x.id!==w.id&&x.translation&&x.translation.trim());
   const distractorField=quizMode==='reverse'?'word':'translation';
   // Sort: confusion partners first, then by frequency tier proximity
   const targetTier=getFrequencyTier(w.word);
@@ -419,7 +418,7 @@ if(quizMode==='mcq'||quizMode==='reverse'){
   let correctAntonym=w.antonyms&&w.antonyms.length>0?w.antonyms[0]:null;
   if(!correctAntonym){correctAntonym=w.translation;}// fallback
   opts.add(correctAntonym);
-  const others=S.words.filter(x=>x.id!==w.id&&x.translation);
+  const others=[...S.words,...S.longTerm].filter(x=>x.id!==w.id&&x.translation);
   const seen=new Set([correctAntonym]);
   for(let i=0;i<3&&others.length;i++){const rIdx=Math.floor(Math.random()*others.length);const r=others.splice(rIdx,1)[0];const val=r.translation;if(!seen.has(val)){opts.add(val);seen.add(val)}}
   quizState={card:w,options:[...opts].sort(()=>Math.random()-.5),answered:false,selected:-1,timer:null,quizText:correctAntonym};
@@ -433,7 +432,7 @@ if(quizMode==='mcq'||quizMode==='reverse'){
   const opts=new Set();
   opts.add(w.word);
   let definition=w.coreMeaning||'';if(!definition&&w.definitions&&w.definitions.length>0)definition=w.definitions[0];
-  const others=S.words.filter(x=>x.id!==w.id);
+  const others=[...S.words,...S.longTerm].filter(x=>x.id!==w.id);
   const seen=new Set([w.word]);
   for(let i=0;i<3&&others.length;i++){const rIdx=Math.floor(Math.random()*others.length);const r=others.splice(rIdx,1)[0];if(!seen.has(r.word)){opts.add(r.word);seen.add(r.word)}}
   quizState={card:w,options:[...opts].sort(()=>Math.random()-.5),answered:false,selected:-1,timer:null,quizText:definition||w.translation};
@@ -441,7 +440,7 @@ if(quizMode==='mcq'||quizMode==='reverse'){
   // Speed mode: same as MCQ but with timer
   const opts=new Set();
   opts.add(w.translation);
-  const distractors=S.words.filter(x=>x.id!==w.id&&x.translation&&x.translation.trim());
+  const distractors=[...S.words,...S.longTerm].filter(x=>x.id!==w.id&&x.translation&&x.translation.trim());
   const seen=new Set([w.translation]);
   for(let i=0;i<3&&distractors.length;i++){const rIdx=Math.floor(Math.random()*distractors.length);const r=distractors.splice(rIdx,1)[0];if(!seen.has(r.translation)){opts.add(r.translation);seen.add(r.translation)}}
   quizState={card:w,options:[...opts].sort(()=>Math.random()-0.5),answered:false,selected:-1,timer:null,quizText:''};
@@ -502,7 +501,7 @@ window.addEventListener('message',(event)=>{
   const data=event.data;
   if(!data||!data.type)return;
   if(data.type==='quiz-answer'&&data.wordId){
-    const w=S.words.find(x=>x.id===data.wordId||x.word.toLowerCase()===(data.word||'').toLowerCase());
+    const w=[...S.words,...S.longTerm].find(x=>x.id===data.wordId||x.word.toLowerCase()===(data.word||'').toLowerCase());
     if(w){fsrsNext(w,data.rating||(data.isCorrect?3:1));save()}
     if(S.quizStats){
       const wordKey=data.wordId||data.word||'unknown';
