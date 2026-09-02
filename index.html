@@ -27,7 +27,6 @@
         <div style="display:flex;align-items:center;justify-content:space-between">
           <div><h1>لایتنر پرو</h1><p>یادگیری هوشمند واژگان</p></div>
           <div style="display:flex;gap:6px">
-            <button type="button" class="theme-toggle sidebar-lock-btn" id="sidebarLockBtn" title="قفل سایدبار" aria-label="قفل سایدبار" aria-pressed="false"><span class="sidebar-lock-icon" aria-hidden="true">🔓</span><span class="sidebar-lock-state">باز</span></button>
             <button type="button" class="theme-toggle" id="themeBtn" aria-label="تغییر پوسته" style="width:30px;height:30px;font-size:.8rem;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);border-radius:8px;color:rgba(255,255,255,0.4)">🌙</button>
           </div>
         </div>
@@ -37,7 +36,7 @@
       <div style="margin-top:auto;padding:16px 24px;border-top:1px solid rgba(255,255,255,0.04)"><div style="font-size:.6rem;color:rgba(255,255,255,0.15);text-align:center">نسخه ۵.۰ — لایتنر پرو مکس</div></div>
     </aside>
     <main class="main sidebar-closed" id="main">
-      <div class="topbar"><button class="hamburger" id="hamBtn" type="button" aria-label="منو">☰</button><h2 id="pageTitle"></h2><div class="topbar-actions" id="topActions"></div></div>
+      <div class="topbar"><button class="hamburger" id="hamBtn" type="button" aria-label="منو">☰</button><h2 id="pageTitle"></h2><div class="topbar-actions" id="topActions"><button type="button" class="sidebar-lock-btn" id="sidebarLockBtn" title="قفل سایدبار" aria-label="قفل سایدبار" aria-pressed="false" style="width:auto;height:32px;padding:0 8px;display:inline-flex;align-items:center;justify-content:center;gap:5px;background:var(--card);border:1px solid var(--border);border-radius:9px;color:var(--text2);font:inherit;font-size:.75rem;cursor:pointer;transition:all .2s"><span class="sidebar-lock-icon">🔓</span><span class="sidebar-lock-state">باز</span></button></div></div>
       <div id="content"></div>
     </main>
   </div>

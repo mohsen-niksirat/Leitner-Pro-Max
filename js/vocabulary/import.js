@@ -67,14 +67,10 @@ async function commitStagedImport(dest){
   if(statusEl)statusEl.textContent='';
   toast(msg,'success');
   if(!_stagedImportCards.length){
-    // Import complete — refresh packs grid and go back to import tab
+    // Import complete — go back to import tab (re-renders packs grid)
     currentTab='import';
-    renderNav();
-    document.getElementById('pageTitle').textContent='ورود';
-    const c=document.getElementById('content');
-    c.innerHTML=renderImportSteps()+`<div class="card" style="text-align:center;padding:40px"><div style="font-size:3rem;margin-bottom:16px">✅</div><h3>ورود کامل شد</h3><p style="color:var(--text2);margin:12px 0">${totalAdded} کلمه به ${destLabel} اضافه شد</p><button type="button" class="btn btn-primary" onclick="_stagedImportCards=[];render()">بازگشت</button></div>`;
-    // Refresh packs grid after DOM is ready
-    setTimeout(()=>{if(typeof renderPacksGrid==='function')renderPacksGrid()},100);
+    _stagedImportCards=[];
+    render();
     return;
   }
   renderStagedImport(document.getElementById('content'));
