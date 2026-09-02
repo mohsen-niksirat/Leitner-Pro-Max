@@ -1,5 +1,5 @@
 function defaultState(){return{words:[],longTerm:[],stats:{reviewed:0,correct:0,wrong:0,streak:0,xp:0,lastReviewDate:null,history:{}},quizStats:{sessions:[],totalCorrect:0,totalWrong:0,wordPerformance:{},currentSession:null},categories:['پیش‌فرض'],settings:{theme:'dark',sourceLang:'en',targetLang:'fa',notifications:false,notificationTime:'09:00',sidebarLocked:false,vocabForge:{cards:[]},aiChat:{provider:'gemini',model:'gemini-2.0-flash',apiKey:'',apiKeys:{gemini:'',openrouter:'',groq:''},systemPrompt:'',temperature:0.7,maxTokens:2048,dailyLimit:250,dailyUsage:0,dailyUsageDate:'',connectionStatus:'disconnected',lastError:'',messages:[],chats:[],activeChat:null,providerUsage:null}},_version:SCHEMA_VERSION}}
-let S=defaultState();
+var S=defaultState();
 Object.defineProperty(window,'S',{configurable:true,get:()=>S});
 
 function sanitizeCard(c){
