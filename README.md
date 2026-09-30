@@ -2,16 +2,20 @@
 
 <div align="center">
 
-**نسخه ۵.۰ — یادگیری فاصله‌دار FSRS، مرور، آزمون، PDF Reader، AI Chat و VocabForge**
+**نسخه ۵.۰ — یادگیری فاصله‌دار FSRS، مربی مکالمه صوتی (SpeakAI Coach)، مرور، آزمون، PDF Reader، AI Chat و VocabForge**
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript_ES6_Modules-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![PWA](https://img.shields.io/badge/PWA-Ready-5A0EF8)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 [🇮🇷 فارسی](#فارسی) · [🇬🇧 English](#english) · [🇩🇪 Deutsch](#deutsch) · [🇹🇷 Türkçe](#türkçe) · [🇷🇺 Русский](#русский)
 
 **Live:** https://mohsen-niksirat.github.io/Leitner-Pro-Max/
+
+<br/>
+
+<img src="./docs/architecture-graph.svg" alt="Leitner Pro Max — Architecture & Dependency Graph" width="100%" />
 
 </div>
 
@@ -25,12 +29,25 @@
 - **آزمون** — چهارگزینه‌ای، املایی، جای‌خالی و Quiz اختصاصی زبان
 - **PDF Reader** — خواننده‌ی دسکتاپ (canvas + text layer) و **PDF-Mobile** مخصوص گوشی
 - **VocabForge** — استخراج کلمات از متن/PDF/TXT/DOCX، غنی‌سازی خودکار (تعریف/مترادف/مثال/تلفظ)، انتقال به کتابخانه یا حافظه بلندمدت، کش IndexedDB
-- **چت با هوش مصنوعی** — Gemini، OpenRouter، Groq، Pollinations (چند کلید + چرخش) با لینک به نسخه کامل
+- **چت با هوش مصنوعی (۲۰۲۶)** — Gemini 3.1 / 2.5، OpenRouter Free، Groq (Llama 3.3 / Qwen 3)، Pollinations (چند کلید + چرخش خودکار)
+- **مربی مکالمه صوتی هوشمند (SpeakAI Coach)** — مکالمه زنده دوطرفه، تمرین شدویینگ (Shadowing Studio)، ۹ نقش آموزشی (ممتحن آیلتس، مصاحبه شغلی، مناظره و...) و انتقال یک‌کلیکی واژگان مکالمه به جعبه لایتنر
 - **آمار و Heatmap** — XP، سطح، چرخه سنجش، نمودارها و پیش‌بینی
 - **نقشه واژگان** — روابط معنایی بین کلمات
 - **ورود/خروج CSV/JSON/Anki/PDF/TXT/DOCX** و پشتیبان‌گیری Google Drive
 - **PWA/آفلاین** — Service Worker با پرکش کامل و ورود آفلاین
 - **چندزبانه** — رابط کاربری فارسی با پشتیبانی از تم تاریک/روشن
+
+### 🏗️ معماری ماژولار و گراف وابستگی‌ها (Architecture & Dependency Graph)
+پروژه بر پایه **معماری ماژولار ES6** در ۱۰ دامنه مستقل زیر پوشه `js/` سازمان‌دهی شده است:
+- **`js/core/`** — راه‌اندازی برنامه (`boot.js`)، مدیریت وابستگی‌ها (`dependencies.js`)، ابزارها (`utils.js`) و مدیریت خطا
+- **`js/storage/`** — موتور ذخیره‌سازی `IndexedDB` (`indexeddb.js`)، مدیریت وضعیت (`state.js`) و پشتیبان‌گیری خودکار (`backup.js`)
+- **`js/learning/`** — الگوریتم علمی تکرار فاصله‌دار **FSRS** (`fsrs.js`)، جلسه مرور (`review.js`)، آزمون‌ها (`quiz.js`) و تمرین کلمات (`word-drill.js`)
+- **`js/vocabulary/`** — مخزن کارت‌ها (`card-repository.js`)، غنی‌سازی واژگان (`enrichment.js`)، کتابخانه (`library.js`) و بسته‌های سطح‌بندی‌شده CEFR (`A1` تا `C2`)
+- **`js/ai/`** — مدیر چت هوش مصنوعی (`ai-manager.js`)، ارائه‌دهنده‌ها (`providers.js`) و پل ارتباطی مربی مکالمه (`speakai-coach.js`)
+- **`js/pdf/` و `js/reading/`** — موتور خوانش PDF دسکتاپ/موبایل و بخش درک مطلب
+- **`js/statistics/` و `js/word-web/`** — تحلیل آماری، تقویم حرارتی، لیدربورد و گراف معنایی واژگان
+- **`js/ui/`** — ناوبری، داشبورد، تنظیمات، همگام‌سازی Google Drive و VocabForge
+- **`tests/` و `tests/unit/`** — پوشش کامل تست‌های واحد و تست‌های سرتاسری (Playwright E2E)
 
 ### 🗂️ ذخیره‌سازی و Audit آفلاین
 - IndexedDB (بدون محدودیت حجم) به‌عنوان منبع حقیقت؛ مهاجرت یک‌بار از localStorage قدیمی
@@ -49,8 +66,9 @@ npm test
 ```
 تست‌های Playwright مسیر کامل وکب فورج، PDF ابزار mobile، مهاجرت و PWA آفلاین را پوشش می‌دهند.
 
-### 🔗 چت هوش مصنوعی کامل (Free AI Chat)
-→ https://github.com/mohsen-niksirat/Free-AI-Chat
+### 🔗 مخازن مرتبط
+- **مربی مکالمه صوتی (SpeakAI Coach):** https://github.com/mohsen-niksirat/SpeakAI-Coach
+- **چت هوش مصنوعی کامل (Free AI Chat):** https://github.com/mohsen-niksirat/Free-AI-Chat
 
 ---
 
@@ -62,15 +80,15 @@ npm test
 - **Quiz** — multiple-choice, spelling, fill-in-the-blank, language quiz
 - **PDF** — desktop canvas reader + **PDF-Mobile** for phones
 - **VocabForge** — extract words from text/PDF/TXT/DOCX, auto-enrich (dictionary/translation/examples), transfer to Library or Long-Term
-- **AI Chat** — Gemini, OpenRouter, Groq, Pollinations (multi-key rotation) with a link to the full app
+- **AI Chat & SpeakAI Coach** — Gemini, OpenRouter, Groq, Pollinations (multi-key rotation) + integrated Real-Time AI Speaking & Shadowing Coach
 - **Statistics** — accuracy, XP, level, heatmap, forecast, charts
 - **Word Web** — semantic relationships
 - **Import/Export** — CSV/JSON/Anki/PDF/TXT/DOCX, Google Drive backup
 - **PWA/Offline** — Service Worker with full precache
 - **Themes** — dark/light
 
-### 🧩 Storage
-IndexedDB is the source of truth; legacy `leitner_v2` migrates once. Lookup caches (`app_cache_*`) live in the same DB with a flush button.
+### 🧩 Modular Architecture & Storage
+Built on a clean 10-domain native ES6 module architecture (`core`, `storage`, `learning`, `vocabulary`, `ai`, `pdf`, `reading`, `statistics`, `word-web`, `ui`) orchestrated by `js/app.js`. IndexedDB is the source of truth; legacy `leitner_v2` migrates once. Lookup caches (`app_cache_*`) live in the same DB with a flush button.
 
 ### 🚀 Run
 ```
@@ -85,8 +103,9 @@ npm test
 ```
 Playwright suites cover VocabForge full flow, PDF, mobile, migration & PWA offline.
 
-### 🔗 Full AI Chat
-https://github.com/mohsen-niksirat/Free-AI-Chat
+### 🔗 Related Repositories
+- **SpeakAI Coach (Real-Time Voice & Shadowing):** https://github.com/mohsen-niksirat/SpeakAI-Coach
+- **Full AI Chat:** https://github.com/mohsen-niksirat/Free-AI-Chat
 
 ---
 
