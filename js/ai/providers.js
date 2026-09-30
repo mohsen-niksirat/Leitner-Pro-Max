@@ -356,11 +356,21 @@ async function callGemini({ state, chat, wantsImage, getCurrentKey, getKeyCount,
     body.systemInstruction = { parts: [{ text: state.systemPrompt }] };
   }
 
-  const r = await aiFetch(state, url, {
+  const reqBody = JSON.stringify(body);
+  let r = await aiFetch(state, url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body)
+    body: reqBody
   });
+  if (!r.ok && (r.status === 401 || r.status === 403) && /^AQ\./i.test(apiKey)) {
+    const vUrl = `https://aiplatform.googleapis.com/v1beta1/publishers/google/models/${state.model}:generateContent?key=${encodeURIComponent(apiKey)}`;
+    const vr = await aiFetch(state, vUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: reqBody
+    }).catch(() => null);
+    if (vr && vr.ok) r = vr;
+  }
   const data = await r.json();
 
   if (!data.candidates || data.candidates.length === 0) {

@@ -83,13 +83,17 @@ function cleanToken(raw) {
     .trim();
 }
 
+function isGoogleKey(k) {
+  return /^AIza/i.test(k) || /^AQ\./i.test(k);
+}
+
 async function syncAiKeysToSpeakAi(notifyUser = false) {
   try {
     const aiChat = await idbGet('ai_chat');
     const apiKeys = aiChat?.apiKeys || {};
     const geminiKeys = (Array.isArray(apiKeys.gemini) ? apiKeys.gemini : [])
       .map(cleanToken)
-      .filter(k => k.startsWith('AIza'));
+      .filter(isGoogleKey);
     const openrouterKeys = (Array.isArray(apiKeys.openrouter) ? apiKeys.openrouter : [])
       .map(cleanToken)
       .filter(Boolean);
@@ -106,15 +110,15 @@ async function syncAiKeysToSpeakAi(notifyUser = false) {
       }
     } catch {}
 
-    // Always clean up any stale prov-leitner-gemini that contains non-AIza keys
-    const allSavedAiza = current.providers
+    // Always clean up any stale prov-leitner-gemini that contains non-Google keys
+    const allSavedGoogle = current.providers
       .flatMap(p => (Array.isArray(p.keys) ? p.keys : []))
       .map(cleanToken)
-      .filter(k => k.startsWith('AIza'));
+      .filter(isGoogleKey);
     current.providers = current.providers.filter(p => {
       if (p.id === 'prov-leitner-gemini') {
-        const validAiza = (Array.isArray(p.keys) ? p.keys : []).map(cleanToken).filter(k => k.startsWith('AIza'));
-        p.keys = validAiza.length ? validAiza : allSavedAiza;
+        const validGoogle = (Array.isArray(p.keys) ? p.keys : []).map(cleanToken).filter(isGoogleKey);
+        p.keys = validGoogle.length ? validGoogle : allSavedGoogle;
         return p.keys.length > 0;
       }
       return true;
@@ -143,7 +147,7 @@ async function syncAiKeysToSpeakAi(notifyUser = false) {
       );
       if (existing) {
         const merged = Array.from(new Set([...(existing.keys || []).map(cleanToken).filter(Boolean), ...keys]));
-        existing.keys = kind === 'gemini-live' ? merged.filter(k => k.startsWith('AIza')) : merged;
+        existing.keys = kind === 'gemini-live' ? merged.filter(isGoogleKey) : merged;
         if (
           baseUrl.includes('openrouter.ai') &&
           (existing.model === 'meta-llama/llama-3.3-70b-instruct:free' ||

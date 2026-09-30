@@ -336,7 +336,7 @@ export function renderAiChat(c) {
           const input = document.createElement('input');
           input.type = 'password';
           input.value = key;
-          input.placeholder = provider === 'gemini' ? 'AIza...' : provider === 'openrouter' ? 'sk-or-...' : provider === 'groq' ? 'gsk_...' : 'pk_...';
+          input.placeholder = provider === 'gemini' ? 'AQ.Ab8... / AIza...' : provider === 'openrouter' ? 'sk-or-...' : provider === 'groq' ? 'gsk_...' : 'pk_...';
           input.style.cssText = 'flex:1;padding:8px 12px;background:var(--input-bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:0.82rem;font-family:monospace;outline:none;';
           input.dataset.provider = provider;
           input.dataset.index = i;
@@ -534,12 +534,22 @@ export function renderAiChat(c) {
           }
 
           if (state.provider === 'gemini') {
-            const url = `https://generativelanguage.googleapis.com/v1beta/models/${state.model}:generateContent?key=${apiKey}`;
-            const r = await aiFetch(state, url, {
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/${state.model}:generateContent?key=${encodeURIComponent(apiKey)}`;
+            const reqBody = JSON.stringify({ contents: [{ role: 'user', parts: [{ text: 'سلام' }] }] });
+            let r = await aiFetch(state, url, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ contents: [{ parts: [{ text: 'سلام' }] }] })
+              body: reqBody
             });
+            if (!r.ok && (r.status === 401 || r.status === 403) && /^AQ\./i.test(apiKey)) {
+              const vUrl = `https://aiplatform.googleapis.com/v1beta1/publishers/google/models/${state.model}:generateContent?key=${encodeURIComponent(apiKey)}`;
+              const vr = await aiFetch(state, vUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: reqBody
+              }).catch(() => null);
+              if (vr && vr.ok) r = vr;
+            }
             const data = await r.json();
             if (data.candidates) {
               status.textContent = '✅ اتصال موفق!';
