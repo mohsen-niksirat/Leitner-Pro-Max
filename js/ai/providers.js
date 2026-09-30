@@ -12,7 +12,7 @@ export const PROVIDERS = Object.freeze([
 
 export const DEFAULT_CHAT_STATE = {
   provider: 'gemini',
-  model: 'gemini-3.6-flash',
+  model: 'gemini-3.8-flash',
   apiKeys: { gemini: [''], openrouter: [''], groq: [''], pollinations: [''] },
   keyIndex: { gemini: 0, openrouter: 0, groq: 0, pollinations: 0 },
   systemPrompt: 'شما یک دستیار هوش مصنوعی مفید و دقیق هستید. به فارسی پاسخ دهید مگر اینکه کاربر زبان دیگری بخواهد.',
@@ -29,12 +29,169 @@ export const DEFAULT_CHAT_STATE = {
 };
 
 export const MODELS = {
-  gemini: ['gemini-3.6-flash', 'gemini-2.5-flash', 'gemini-2.5-pro', 'gemini-3.1-flash-image', 'gemini-3.5-flash'],
-  openrouter: ['google/gemini-2.5-flash', 'deepseek/deepseek-chat-v3.1', 'anthropic/claude-sonnet-4', 'openai/gpt-oss-20b:free'],
-  groq: ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'mixtral-8x7b-32768'],
-  pollinations: ['flux', 'flux-realism', 'flux-anime', 'flux-3d', 'turbo', 'kontext', 'nanobanana', 'seedream'],
-  puter_img: ['gpt-image-2', 'flux-2-pro', 'stable-diffusion-3', 'grok-imagine-image']
+  gemini: [
+    'gemini-3.8-flash',
+    'gemini-3.7-flash',
+    'gemini-3.6-flash',
+    'gemini-3.5-flash',
+    'gemini-3.5-flash-lite',
+    'gemini-3.1-pro-preview',
+    'gemini-3.1-flash-lite-preview',
+    'gemini-3-flash-preview',
+    'gemini-2.5-pro',
+    'gemini-2.5-flash',
+    'gemini-2.5-flash-lite',
+    'gemini-2.0-flash',
+    'gemini-3.1-flash-image',
+    'gemini-3.1-flash-lite-image',
+    'gemini-3-pro-image',
+    'gemini-2.5-flash-image',
+    'gemini-2.0-flash-exp-image-generation'
+  ],
+  openrouter: [
+    'openrouter/free',
+    'nvidia/nemotron-3-ultra-550b-a55b:free',
+    'nvidia/nemotron-3-super-120b-a12b:free',
+    'inclusionai/ling-3.0-flash:free',
+    'google/gemma-4-31b-it:free',
+    'google/gemma-4-26b-a4b-it:free',
+    'deepseek/deepseek-chat-v3-0324:free',
+    'deepseek/deepseek-r1:free',
+    'meta-llama/llama-3.3-70b-instruct:free',
+    'qwen/qwen-2.5-72b-instruct:free',
+    'openai/gpt-oss-20b:free',
+    'nvidia/nemotron-nano-12b-v2-vl:free',
+    'google/gemini-3.8-flash',
+    'google/gemini-3.6-flash',
+    'google/gemini-2.5-pro',
+    'google/gemini-2.5-flash',
+    'anthropic/claude-sonnet-5',
+    'anthropic/claude-sonnet-4',
+    'openai/gpt-5',
+    'openai/gpt-5-mini',
+    'deepseek/deepseek-chat-v3.1',
+    'qwen/qwen3.6-plus',
+    'google/gemini-3.1-flash-image',
+    'google/gemini-3-pro-image',
+    'openai/gpt-5-image'
+  ],
+  groq: [
+    'llama-3.3-70b-versatile',
+    'llama-3.1-8b-instant',
+    'openai/gpt-oss-120b',
+    'openai/gpt-oss-20b',
+    'qwen/qwen3.6-27b',
+    'meta-llama/llama-4-maverick-17b-128e-instruct',
+    'meta-llama/llama-4-scout-17b-16e-instruct',
+    'deepseek-r1-distill-llama-70b',
+    'qwen-qwq-32b',
+    'groq/compound',
+    'groq/compound-mini',
+    'allam-2-7b'
+  ],
+  pollinations: [
+    'flux',
+    'flux-realism',
+    'flux-anime',
+    'flux-3d',
+    'flux-pro',
+    'turbo',
+    'gptimage',
+    'kontext',
+    'nanobanana',
+    'nanobanana-2',
+    'seedream'
+  ],
+  puter_img: [
+    'gpt-image-2',
+    'gpt-image-1',
+    'flux-2-pro',
+    'flux-1.1-pro',
+    'stable-diffusion-3',
+    'grok-imagine-image',
+    'dall-e-3'
+  ]
 };
+
+export const MODEL_LABELS = Object.freeze({
+  // Gemini
+  'gemini-3.8-flash': '✦ Gemini 3.8 Flash (جدیدترین · پیشنهادی)',
+  'gemini-3.7-flash': '✦ Gemini 3.7 Flash (سریع و هوشمند)',
+  'gemini-3.6-flash': '✦ Gemini 3.6 Flash (متعادل)',
+  'gemini-3.5-flash': '✦ Gemini 3.5 Flash',
+  'gemini-3.5-flash-lite': '⚡ Gemini 3.5 Flash-Lite (۵۰۰ درخواست/روز)',
+  'gemini-3.1-pro-preview': '💎 Gemini 3.1 Pro Preview (پیشرفته‌ترین)',
+  'gemini-3.1-flash-lite-preview': '⚡ Gemini 3.1 Flash-Lite Preview',
+  'gemini-3-flash-preview': '✦ Gemini 3 Flash Preview',
+  'gemini-2.5-pro': '💎 Gemini 2.5 Pro (استدلال عمیق)',
+  'gemini-2.5-flash': '✦ Gemini 2.5 Flash',
+  'gemini-2.5-flash-lite': '⚡ Gemini 2.5 Flash-Lite (سریع)',
+  'gemini-2.0-flash': '✦ Gemini 2.0 Flash',
+  'gemini-3.1-flash-image': '🖼️ Nano Banana 2 — Gemini 3.1 Image (تصویرساز)',
+  'gemini-3.1-flash-lite-image': '🖼️ Nano Banana 2 Lite — Gemini 3.1 Lite Image',
+  'gemini-3-pro-image': '🖼️ Nano Banana Pro — Gemini 3 Pro Image (4K)',
+  'gemini-2.5-flash-image': '🖼️ Nano Banana — Gemini 2.5 Flash Image',
+  'gemini-2.0-flash-exp-image-generation': '🖼️ Gemini 2.0 Flash Image (تصویرساز)',
+  // OpenRouter
+  'openrouter/free': '🔄 Free Router (انتخاب خودکار بهترین مدل رایگان)',
+  'nvidia/nemotron-3-ultra-550b-a55b:free': '🆓 Nemotron 3 Ultra 550B (رایگان · 1M ctx)',
+  'nvidia/nemotron-3-super-120b-a12b:free': '🆓 Nemotron 3 Super 120B (رایگان)',
+  'inclusionai/ling-3.0-flash:free': '🆓 Ling 3.0 Flash 124B MoE (رایگان)',
+  'google/gemma-4-31b-it:free': '🆓 Gemma 4 31B Vision (رایگان)',
+  'google/gemma-4-26b-a4b-it:free': '🆓 Gemma 4 26B MoE Vision (رایگان)',
+  'deepseek/deepseek-chat-v3-0324:free': '🆓 DeepSeek V3 (رایگان)',
+  'deepseek/deepseek-r1:free': '🆓 DeepSeek R1 استدلالی (رایگان)',
+  'meta-llama/llama-3.3-70b-instruct:free': '🆓 Llama 3.3 70B Instruct (رایگان)',
+  'qwen/qwen-2.5-72b-instruct:free': '🆓 Qwen 2.5 72B Instruct (رایگان)',
+  'openai/gpt-oss-20b:free': '🆓 GPT-OSS 20B (رایگان)',
+  'nvidia/nemotron-nano-12b-v2-vl:free': '🆓 Nemotron Nano 12B VL ویژن (رایگان)',
+  'google/gemini-3.8-flash': '💎 Gemini 3.8 Flash',
+  'google/gemini-3.6-flash': '💎 Gemini 3.6 Flash',
+  'google/gemini-2.5-pro': '💎 Gemini 2.5 Pro',
+  'google/gemini-2.5-flash': '💎 Gemini 2.5 Flash',
+  'anthropic/claude-sonnet-5': '💎 Claude Sonnet 5',
+  'anthropic/claude-sonnet-4': '💎 Claude Sonnet 4',
+  'openai/gpt-5': '💎 OpenAI GPT-5',
+  'openai/gpt-5-mini': '💎 OpenAI GPT-5 Mini',
+  'deepseek/deepseek-chat-v3.1': '💎 DeepSeek V3.1',
+  'qwen/qwen3.6-plus': '💎 Qwen 3.6 Plus',
+  'google/gemini-3.1-flash-image': '🖼️ Nano Banana 2 (تصویرساز)',
+  'google/gemini-3-pro-image': '🖼️ Nano Banana Pro (تصویرساز)',
+  'openai/gpt-5-image': '🖼️ GPT-5 Image (تصویرساز)',
+  // Groq
+  'llama-3.3-70b-versatile': '⚡ Llama 3.3 70B Versatile (1K req/day)',
+  'llama-3.1-8b-instant': '⚡ Llama 3.1 8B Instant (14.4K req/day)',
+  'openai/gpt-oss-120b': '🧠 GPT-OSS 120B (پرهوش)',
+  'openai/gpt-oss-20b': '⚡ GPT-OSS 20B (سریع)',
+  'qwen/qwen3.6-27b': '🌐 Qwen 3.6 27B (عالی برای فارسی)',
+  'meta-llama/llama-4-maverick-17b-128e-instruct': '🦙 Llama 4 Maverick 17B 128E',
+  'meta-llama/llama-4-scout-17b-16e-instruct': '🦙 Llama 4 Scout 17B 16E',
+  'deepseek-r1-distill-llama-70b': '🐋 DeepSeek R1 Distill 70B (استدلالی)',
+  'qwen-qwq-32b': '🧠 Qwen QwQ 32B (استدلالی)',
+  'groq/compound': '🤖 Groq Compound (ایجنت هوشمند)',
+  'groq/compound-mini': '🤖 Groq Compound Mini',
+  'allam-2-7b': '🌙 Allam 2 7B (عربی/فارسی)',
+  // Pollinations
+  'flux': '🎨 Flux (پیش‌فرض · کیفیت بالا)',
+  'flux-realism': '📸 Flux Realism (واقع‌گرایانه)',
+  'flux-anime': '🌸 Flux Anime (انیمه)',
+  'flux-3d': '🧊 Flux 3D (سه‌بعدی)',
+  'flux-pro': '💎 Flux Pro (حرفه‌ای)',
+  'turbo': '⚡ Turbo (فوق سریع)',
+  'gptimage': '🖼️ GPT Image (تصویرساز و ویرایش)',
+  'kontext': '✏️ Flux Kontext (ویرایش تصویر)',
+  'nanobanana': '🍌 Nano Banana (تصویرساز و ویرایش)',
+  'nanobanana-2': '🍌 Nano Banana 2 (جدیدترین)',
+  'seedream': '🌱 Seedream 3.0 (تصویرساز و ویرایش)',
+  // Puter
+  'gpt-image-2': '🖼️ OpenAI GPT-Image 2',
+  'gpt-image-1': '🖼️ OpenAI GPT-Image 1',
+  'flux-2-pro': '🎨 Flux 2 Pro',
+  'flux-1.1-pro': '🎨 Flux 1.1 Pro',
+  'stable-diffusion-3': '🖼️ Stable Diffusion 3 Medium',
+  'grok-imagine-image': '⚡ xAI Grok Imagine',
+  'dall-e-3': '🎨 DALL·E 3'
+});
 
 export const IMAGE_KEYWORDS = [
   'تصویر', 'عکس', 'نقاشی', 'generate image', 'create image', 'draw', 'paint',
@@ -190,7 +347,7 @@ async function callGemini({ state, chat, wantsImage, getCurrentKey, getKeyCount,
     }
   };
 
-  const supportsImage = state.model.includes('gemini-2.5') || state.model.includes('gemini-3') || state.model.includes('image') || state.model.includes('gemini-3.5') || state.model.includes('gemini-3.6');
+  const supportsImage = state.model.includes('gemini-2.5') || state.model.includes('gemini-3') || state.model.includes('image');
   if ((wantsImage || hasImageAttachment(chat)) && supportsImage) {
     body.generationConfig.responseModalities = ['TEXT', 'IMAGE'];
   }
@@ -390,7 +547,7 @@ async function callPollinations({ state, chat }) {
       '✅ راه‌حل رایگان: از Gemini استفاده کن!\n' +
       '۱. API key از aistudio.google.com بگیر\n' +
       '۲. Provider رو به Gemini تغییر بده\n' +
-      '۳. مدل gemini-3.6-flash یا gemini-3.1-flash-image انتخاب کن\n' +
+      '۳. مدل gemini-3.1-flash-image یا gemini-3.8-flash انتخاب کن\n' +
       '۴. عکس + پرامپت بفرست\n\n' +
       '💰 یا Pollinations رو شارژ کن: enter.pollinations.ai'
     );
@@ -430,9 +587,12 @@ async function callPuterImg({ state, chat }) {
 
   const modelMap = {
     'gpt-image-2': { provider: 'openai-image-generation', model: 'gpt-image-2' },
+    'gpt-image-1': { provider: 'openai-image-generation', model: 'gpt-image-1' },
     'flux-2-pro': { provider: 'replicate-image-generation', model: 'black-forest-labs/flux-2-pro' },
+    'flux-1.1-pro': { provider: 'replicate-image-generation', model: 'black-forest-labs/flux-1.1-pro' },
     'stable-diffusion-3': { provider: 'replicate-image-generation', model: 'stabilityai/stable-diffusion-3-medium' },
-    'grok-imagine-image': { provider: 'xai', model: 'grok-imagine-image' }
+    'grok-imagine-image': { provider: 'xai', model: 'grok-imagine-image' },
+    'dall-e-3': { provider: 'openai-image-generation', model: 'dall-e-3' }
   };
   const opts = modelMap[state.model] || modelMap['gpt-image-2'];
 

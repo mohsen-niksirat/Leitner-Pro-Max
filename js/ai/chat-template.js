@@ -406,6 +406,8 @@ export const AICHAT_HTML = `<div id="aiChatRoot" data-theme="dark">
     <button class="quick-switch-btn" data-provider="openrouter">OpenRouter</button>
     <button class="quick-switch-btn" data-provider="groq">Groq</button>
     <button class="quick-switch-btn" data-provider="pollinations">🎨 Pollinations</button>
+    <button class="quick-switch-btn" data-provider="puter_img">🖼️ Puter</button>
+    <select id="quickModelSelect" title="انتخاب سریع مدل" style="margin-right:auto;padding:4px 8px;border-radius:10px;font-size:0.72rem;background:var(--card);color:var(--text);border:1px solid var(--border);outline:none;max-width:250px;cursor:pointer;direction:ltr"></select>
   </div>
 
   <!-- Input Area -->
@@ -615,7 +617,7 @@ export const AICHAT_HTML = `<div id="aiChatRoot" data-theme="dark">
       <h3><span class="emoji">🖼️</span> ویرایش تصویر با Gemini (✅ رایگان!)</h3>
       <ul>
         <li>🔑 API key رایگان از <a href="https://aistudio.google.com/app/apikey" target="_blank" style="color:var(--accent)">aistudio.google.com</a></li>
-        <li>مدل <code>gemini-3.6-flash</code> یا <code>gemini-3.1-flash-image</code> انتخاب کن</li>
+        <li>مدل <code>gemini-3.1-flash-image</code> (Nano Banana 2) یا <code>gemini-3.8-flash</code> انتخاب کن</li>
         <li>عکس ضمیمه + پرامپت بنویس</li>
         <li>خودکار تصویر ویرایش‌شده برمیگرده ✅</li>
         <li>🎯 <b>بهترین گزینه رایگان برای ویرایش تصویر</b></li>

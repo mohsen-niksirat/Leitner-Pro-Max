@@ -5,6 +5,7 @@ import { AICHAT_CSS, AICHAT_HTML, renderFullProvidersHtml } from './chat-templat
 import {
   DEFAULT_CHAT_STATE,
   MODELS,
+  MODEL_LABELS,
   IMAGE_KEYWORDS,
   loadPuterScript,
   aiFetch,
@@ -288,8 +289,14 @@ export function renderAiChat(c) {
 
       function updateModelOptions() {
         const select = $('modelSelect');
+        const quickSelect = $('quickModelSelect');
         const models = MODELS[state.provider] || [];
-        select.innerHTML = models.map(m => `<option value="${m}" ${m === state.model ? 'selected' : ''}>${m}</option>`).join('');
+        if (models.length > 0 && !models.includes(state.model)) {
+          state.model = models[0];
+        }
+        const optionsHtml = models.map(m => `<option value="${m}" ${m === state.model ? 'selected' : ''}>${MODEL_LABELS[m] || m}</option>`).join('');
+        if (select) select.innerHTML = optionsHtml;
+        if (quickSelect) quickSelect.innerHTML = optionsHtml;
       }
 
       function updateProviderBadge() {
@@ -767,7 +774,20 @@ export function renderAiChat(c) {
         $('attachBtn').addEventListener('click', () => $('fileInput').click());
         $('fileInput').addEventListener('change', (e) => { handleFiles(e.target.files); e.target.value = ''; });
         $('tempSlider').addEventListener('input', (e) => { $('tempValue').textContent = e.target.value; });
-        $('modelSelect').addEventListener('change', (e) => { state.model = e.target.value; saveState(); });
+        $('modelSelect').addEventListener('change', (e) => {
+          state.model = e.target.value;
+          const qs = $('quickModelSelect');
+          if (qs) qs.value = state.model;
+          saveState();
+        });
+        if ($('quickModelSelect')) {
+          $('quickModelSelect').addEventListener('change', (e) => {
+            state.model = e.target.value;
+            const ms = $('modelSelect');
+            if (ms) ms.value = state.model;
+            saveState();
+          });
+        }
 
         function handlePaste(e) {
           const items = e.clipboardData?.items;
@@ -818,7 +838,7 @@ export function renderAiChat(c) {
 
         $('switchToGeminiEditBtn').addEventListener('click', () => {
           state.provider = 'gemini';
-          state.model = 'gemini-3.6-flash';
+          state.model = 'gemini-3.1-flash-image';
           updateModelOptions();
           updateProviderBadge();
           initProviderChips();
