@@ -1,0 +1,64 @@
+{
+  "name": "SpeakAI Coach — دستیار هوشمند مکالمه و آیلتس",
+  "short_name": "SpeakAI Coach",
+  "description": "Real-time AI English Speaking & Text Coach with IELTS Examiner, Shadowing Studio, Live Grammar Corrections, Vocabulary Flashcards, and Multi-Dimensional Radar Analytics.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#090d16",
+  "theme_color": "#4f46e5",
+  "dir": "auto",
+  "lang": "fa",
+  "categories": ["education", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ممتحن آیلتس (IELTS Examiner)",
+      "short_name": "IELTS",
+      "description": "شروع مصاحبه شبیه‌سازی‌شده آیلتس",
+      "url": "./?role=ielts_examiner",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "چت آزاد و دوستانه (Friendly Chat)",
+      "short_name": "Free Chat",
+      "description": "مکالمه روزمره صوتی و متنی",
+      "url": "./?role=friendly_chat",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "استودیو سایه‌خوانی (Shadowing)",
+      "short_name": "Shadowing",
+      "description": "تمرین لهجه، استرس و آهنگ جملات",
+      "url": "./?role=shadowing_coach",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
