@@ -24,8 +24,20 @@ import { libSelected, toggleLibSelect, updateBulkBar, getAllTags, tagCount, open
 import { trackWordAdded, toast } from './ui/toast.js';
 import { renderAiChat } from './ai/ai-manager.js';
 
-// ── Expose core API on window so legacy non-module scripts can still access them ──
-// (These assignments will be removed one-by-one as each module is migrated)
+import * as navigationMod from './ui/navigation.js';
+import * as libraryMod from './vocabulary/library.js';
+import * as importMod from './vocabulary/import.js';
+import * as readerMod from './pdf/reader.js';
+import * as pdfMobileMod from './pdf/pdf-mobile.js';
+import * as readingMod from './reading/reading.js';
+import * as settingsMod from './ui/settings.js';
+import * as quizMod from './learning/quiz.js';
+import * as wordWebMod from './word-web/word-web.js';
+import * as helpVocabForgeMod from './ui/help-vocabforge.js';
+import * as packsMod from './vocabulary/packs.js';
+import * as bootMod from './core/boot.js';
+
+// ── Expose API on window for cross-module and inline HTML handler compatibility ──
 Object.assign(window, {
   APP_CONFIG,
   // Constants
@@ -77,36 +89,24 @@ Object.assign(window, {
   trackWordAdded, toast, renderAiChat
 });
 
-// ── Legacy script loader (for modules not yet converted to ES Modules) ──
-const LEGACY_MODULES = [
-  './js/ui/navigation.js',
-  './js/vocabulary/library.js',
-  './js/vocabulary/import.js',
-  './js/pdf/reader.js',
-  './js/pdf/pdf-mobile.js',
-  './js/reading/reading.js',
-  './js/ui/settings.js',
-  './js/learning/quiz.js',
-  './js/word-web/word-web.js',
-  './js/ui/help-vocabforge.js',
-  './js/vocabulary/packs.js',
-  './js/core/boot.js'
-];
-
-function loadClassicScript(src) {
-  return new Promise((resolve, reject) => {
-    const script = document.createElement('script');
-    script.src = src;
-    script.async = false;
-    script.onload = resolve;
-    script.onerror = () => reject(new Error(`Failed to load ${src}`));
-    document.head.appendChild(script);
-  });
-}
-
-async function loadApplication() {
-  for (const moduleUrl of LEGACY_MODULES) {
-    await loadClassicScript(moduleUrl);
+for (const mod of [
+  navigationMod,
+  libraryMod,
+  importMod,
+  readerMod,
+  pdfMobileMod,
+  readingMod,
+  settingsMod,
+  quizMod,
+  wordWebMod,
+  helpVocabForgeMod,
+  packsMod,
+  bootMod
+]) {
+  for (const [key, val] of Object.entries(mod)) {
+    const desc = Object.getOwnPropertyDescriptor(window, key);
+    if (desc && (desc.get || desc.set)) continue;
+    window[key] = val;
   }
 }
 
@@ -132,7 +132,7 @@ async function registerServiceWorker() {
 }
 
 try {
-  await loadApplication();
+  bootMod.bootApp();
   await registerServiceWorker();
 } catch (error) {
   console.error('[Leitner] Application failed to start:', error);

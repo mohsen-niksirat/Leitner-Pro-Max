@@ -4,9 +4,9 @@
 // PDF-MOBILE — خواننده PDF مخصوص موبایل/تبلت (زیربخش جدا)
 // از موتور خواندن موجود استفاده میکند ولی حالت canvas دسکتاپ را لمس نمیکند.
 // ═══════════════════════════════════════════
-let pdfmLoaded=false;
-let pdfmFileName='';
-function renderPDFMobile(c){
+export let pdfmLoaded=false;
+export let pdfmFileName='';
+export function renderPDFMobile(c){
   if(currentTab!=='pdfmobile')return;
   if(!pdfmLoaded){
     c.innerHTML='<div style="max-width:600px;margin:0 auto">'
@@ -36,7 +36,7 @@ function renderPDFMobile(c){
   }
   renderPDFMobileLoaded(c);
 }
-function renderPDFMobileLoaded(c){
+export function renderPDFMobileLoaded(c){
   const doc=readingDoc;
   if(!doc||!doc.pages||!doc.pages.length){
     c.innerHTML='<div class="card" style="text-align:center;padding:30px"><p style="color:var(--text2)">متن استخراج نشد.</p><button class="btn btn-ghost" id="pdfmBack" type="button">بازگشت</button></div>';
@@ -83,12 +83,12 @@ function renderPDFMobileLoaded(c){
   };
   document.addEventListener('click',window._readingClickOutside);
 }
-function attemptPdfmClose(){
+export function attemptPdfmClose(){
   pdfmLoaded=false;
   if(readingDoc&&readingDoc.sourceType==='pdf'){readingDoc=null}
   renderPDFMobile(document.getElementById('content'));
 }
-async function loadPDFMobile(file){
+export async function loadPDFMobile(file){
   const status=document.getElementById('pdfmStatus');
   if(status)status.textContent='در حال استخراج متن...';
   try{
@@ -137,7 +137,7 @@ async function loadPDFMobile(file){
     toast('خطا در خواندن فایل: '+errMsg(err),'error');
   }
 }
-function savePdfmBookmark(){
+export function savePdfmBookmark(){
   if(!readingDoc||!pdfmFileName)return;
   try{
     const bm=JSON.parse(localStorage.getItem('leitner_pdfm_bm')||'{}');
@@ -147,7 +147,7 @@ function savePdfmBookmark(){
     localStorage.setItem('leitner_pdfm_bm',JSON.stringify(bm));
   }catch(e){}
 }
-function loadPdfmBookmark(){
+export function loadPdfmBookmark(){
   if(!pdfmFileName||!readingDoc)return;
   try{
     const bm=JSON.parse(localStorage.getItem('leitner_pdfm_bm')||'{}');
@@ -155,7 +155,7 @@ function loadPdfmBookmark(){
     if(saved&&typeof saved.page==='number'&&saved.page>0&&saved.page<readingDoc.totalPages)readingCurrentPage=saved.page;
   }catch(e){}
 }
-function pdfmAddPageToVocabForge(page){
+export function pdfmAddPageToVocabForge(page){
   if(!page)return;
   const words=[...new Set((page.words||[]).map(function(w){return w.toLowerCase()}).filter(function(w){return w&&w.length>=3}))];
   const unknown=words.filter(function(w){return !wordExists(w)});
@@ -168,7 +168,7 @@ function pdfmAddPageToVocabForge(page){
   }
 }
 
-function renderQuickImport(c){
+export function renderQuickImport(c){
   const bookmarkletCode=`javascript:void(window.open('${location.href.split('?')[0]}?quickimport=1','_blank'))`;
   c.innerHTML=`<div style="max-width:600px;margin:0 auto">
   <div class="card" style="margin-bottom:16px">

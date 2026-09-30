@@ -1,7 +1,7 @@
 // WORD WEB v2 — نقشه ذهنی واژگان پیشرفته
 // ═══════════════════════════════════════════
-let webState={mode:'mindmap',colorBy:'category',showSynonyms:true,showAntonyms:true,showFamily:true,showDefinitions:false,zoom:1,panX:0,panY:0,fullscreen:false,selectedWord:null,physics:true};
-function renderWordWeb(c){
+export let webState={mode:'mindmap',colorBy:'category',showSynonyms:true,showAntonyms:true,showFamily:true,showDefinitions:false,zoom:1,panX:0,panY:0,fullscreen:false,selectedWord:null,physics:true};
+export function renderWordWeb(c){
   if(!S.words.length){c.innerHTML='<div class="card" style="text-align:center;padding:60px"><div class="empty"><div class="icon">🗺️</div><p>کلمه‌ای برای نمایش نقشه نیست</p></div></div>';return}
   var h='';
   h+='<div style="margin-bottom:12px">';
@@ -48,7 +48,7 @@ function renderWordWeb(c){
   c.innerHTML=h;
   webInitCanvas(c);
 }
-function webInitCanvas(c){
+export function webInitCanvas(c){
   var canvas=document.getElementById('webCanvas');
   if(!canvas)return;
   var ctx=canvas.getContext('2d');
@@ -475,7 +475,7 @@ function webInitCanvas(c){
     else if(e.key==='Escape'&&webState.fullscreen){webState.fullscreen=false;renderWordWeb(c)}
   };
 }
-function showWebWordLookup(word){
+export function showWebWordLookup(word){
   var ov=document.createElement('div');ov.className='modal-overlay';
   ov.innerHTML='<div class="modal" style="max-width:420px">'
     +'<h3 style="margin-bottom:12px">🔍 '+esc(word)+'</h3>'

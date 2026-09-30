@@ -1,6 +1,6 @@
 // NOTIFICATION REMINDERS
 // ═══════════════════════════════════════════
-function checkNotifications(){
+export function checkNotifications(){
   if(!S.settings.notifications)return;
   if(!('Notification' in window)||Notification.permission!=='granted')return;
   const due=getDueAll();
@@ -20,19 +20,16 @@ function checkNotifications(){
 }
 
 // Check every 5 minutes
-setInterval(checkNotifications,5*60*1000);
-
-// ═══════════════════════════════════════════
-// PWA & OFFLINE
-// ═══════════════════════════════════════════
-// Offline indicator
-window.addEventListener('online',()=>{document.getElementById('offlineBanner').classList.remove('visible')});
-window.addEventListener('offline',()=>{document.getElementById('offlineBanner').classList.add('visible')});
-if(!navigator.onLine)document.getElementById('offlineBanner').classList.add('visible');
+if(typeof window!=='undefined'){
+  setInterval(checkNotifications,5*60*1000);
+  window.addEventListener('online',()=>{const b=document.getElementById('offlineBanner');if(b)b.classList.remove('visible')});
+  window.addEventListener('offline',()=>{const b=document.getElementById('offlineBanner');if(b)b.classList.add('visible')});
+  if(typeof navigator!=='undefined'&&!navigator.onLine){const b=document.getElementById('offlineBanner');if(b)b.classList.add('visible')}
+}
 
 // ═══════════════════════════════════════════
 
-function renderSettings(c){
+export function renderSettings(c){
 var s=S.settings;
 var langOpts=Object.entries(LANGUAGES).map(function(e){return '<option value="'+e[0]+'"'+(e[0]===s.sourceLang?' selected':'')+'>'+e[1]+'</option>'}).join('');
 var langOptsTarget=Object.entries(LANGUAGES).map(function(e){return '<option value="'+e[0]+'"'+(e[0]===s.targetLang?' selected':'')+'>'+e[1]+'</option>'}).join('');

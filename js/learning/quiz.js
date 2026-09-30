@@ -1,22 +1,22 @@
 // 8. QUIZ (with card types)
 // ═══════════════════════════════════════════
-let quizState={card:null,options:[],answered:false,selected:-1,timer:null,quizText:''};
-let quizCorrect=0,quizWrong=0;
-let quizHistory=[];
-let quizMode='mcq';// mcq,fill,reverse,listen,antonym,sentfill,spell,defmatch
-let quizSessionStreak=0;
+export let quizState={card:null,options:[],answered:false,selected:-1,timer:null,quizText:''};
+export let quizCorrect=0,quizWrong=0;
+export let quizHistory=[];
+export let quizMode='mcq';// mcq,fill,reverse,listen,antonym,sentfill,spell,defmatch
+export let quizSessionStreak=0;
 
 // ═══════════════════════════════════════════
 // QUIZ PERSISTENCE HELPERS
 // ═══════════════════════════════════════════
-function initQuizSession(){
+export function initQuizSession(){
   if(!S.quizStats)S.quizStats={sessions:[],totalCorrect:0,totalWrong:0,wordPerformance:{},currentSession:null};
   if(!S.quizStats.currentSession){
     S.quizStats.currentSession={correct:0,wrong:0,mode:quizMode,startTime:new Date().toISOString(),words:[]};
     save();
   }
 }
-function finalizeQuizSession(){
+export function finalizeQuizSession(){
   if(!S.quizStats||!S.quizStats.currentSession)return;
   const cs=S.quizStats.currentSession;
   if(cs.correct>0||cs.wrong>0){
@@ -28,7 +28,7 @@ function finalizeQuizSession(){
   S.quizStats.currentSession=null;
   save();
 }
-function updateQuizWordPerformance(wordId,isCorrect){
+export function updateQuizWordPerformance(wordId,isCorrect){
   if(!S.quizStats)return;
   if(!S.quizStats.wordPerformance[wordId])S.quizStats.wordPerformance[wordId]={correct:0,wrong:0,lastSeen:null,streak:0,confusedWith:{}};
   const wp=S.quizStats.wordPerformance[wordId];
@@ -40,13 +40,13 @@ function updateQuizWordPerformance(wordId,isCorrect){
 // ═══════════════════════════════════════════
 // CONFUSION PAIRS TRACKING
 // ═══════════════════════════════════════════
-function recordConfusion(correctId,wrongId){
+export function recordConfusion(correctId,wrongId){
   if(!S.quizStats||!S.quizStats.wordPerformance)return;
   if(!S.quizStats.wordPerformance[correctId])S.quizStats.wordPerformance[correctId]={correct:0,wrong:0,lastSeen:null,streak:0,confusedWith:{}};
   const cw=S.quizStats.wordPerformance[correctId].confusedWith;
   cw[wrongId]=(cw[wrongId]||0)+1;
 }
-function getConfusionPartners(wordId){
+export function getConfusionPartners(wordId){
   if(!S.quizStats||!S.quizStats.wordPerformance||!S.quizStats.wordPerformance[wordId])return[];
   const cw=S.quizStats.wordPerformance[wordId].confusedWith;
   if(!cw)return[];
@@ -60,7 +60,7 @@ let _quizSessionWrongCount={}; // wordId -> wrong count in current session
 let _quizSessionSkipUntil={};  // wordId -> skip until question N
 let _quizQuestionNum=0;
 
-function shouldSkipInSession(wordId){
+export function shouldSkipInSession(wordId){
   const skipUntil=_quizSessionSkipUntil[wordId];
   if(skipUntil&&_quizQuestionNum<skipUntil)return true;
   const wrongCount=_quizSessionWrongCount[wordId]||0;
@@ -70,7 +70,7 @@ function shouldSkipInSession(wordId){
   }
   return false;
 }
-function recordSessionAnswer(wordId,isCorrect){
+export function recordSessionAnswer(wordId,isCorrect){
   if(!isCorrect){
     _quizSessionWrongCount[wordId]=(_quizSessionWrongCount[wordId]||0)+1;
   }
@@ -79,7 +79,7 @@ function recordSessionAnswer(wordId,isCorrect){
 // ═══════════════════════════════════════════
 // WORD STRENGTH & ADAPTIVE DIFFICULTY
 // ═══════════════════════════════════════════
-function getWordStrength(w){
+export function getWordStrength(w){
   const stabilityScore=Math.min((w.stability||0)/60,1);
   const quizPerf=S.quizStats&&S.quizStats.wordPerformance?S.quizStats.wordPerformance[w.id]:null;
   let quizScore=0.5;
@@ -91,7 +91,7 @@ function getWordStrength(w){
 // ═══════════════════════════════════════════
 // QUIZ RENDERER
 // ═══════════════════════════════════════════
-function renderQuiz(c){
+export function renderQuiz(c){
 initQuizSession();
 const valid=[...S.words,...S.longTerm].filter(w=>w.translation&&w.translation.trim());
 if(valid.length<4){if(quizState.timer){clearTimeout(quizState.timer);quizState.timer=null}c.innerHTML=`<div class="card" style="text-align:center;padding:60px"><div class="empty"><div class="icon">❓</div><p>برای آزمون حداقل ۴ کلمه با ترجمه لازم است</p><p style="color:var(--text2);font-size:.85rem;margin-top:8px">منبع فعلی: ${valid.length} کلمه معتبر</p></div></div>`;return}
@@ -233,7 +233,7 @@ document.onkeydown=function(e){
 let _quizUndoState=null;
 let _quizUndoTimer=null;
 
-function handleQuizAnswer(isCorrect){
+export function handleQuizAnswer(isCorrect){
   // Save undo state before applying
   _quizUndoState={
     cardId:quizState.card.id,
@@ -290,7 +290,7 @@ function handleQuizAnswer(isCorrect){
   _quizUndoTimer=setTimeout(()=>{_quizUndoState=null;_quizUndoTimer=null},3500);
 }
 
-function undoQuizAnswer(){
+export function undoQuizAnswer(){
   if(!_quizUndoState)return;
   const u=_quizUndoState;
   _quizUndoState=null;if(_quizUndoTimer){clearTimeout(_quizUndoTimer);_quizUndoTimer=null}
@@ -331,7 +331,7 @@ function undoQuizAnswer(){
 // ═══════════════════════════════════════════
 // LEVELS & GAMIFICATION
 // ═══════════════════════════════════════════
-function getLevel(xp){
+export function getLevel(xp){
   const levels=[
     {name:'مبتدی',icon:'🌱',min:0},
     {name:'تازه‌کار',icon:'📗',min:50},
@@ -350,7 +350,7 @@ function getLevel(xp){
   return{...current,next,progress:Math.min(100,progress),xp};
 }
 
-function checkFillAnswer(){
+export function checkFillAnswer(){
   if(quizState.answered)return;
   const input=document.getElementById('quizFillInput');
   if(!input)return;
@@ -369,7 +369,7 @@ function checkFillAnswer(){
 // ═══════════════════════════════════════════
 // QUIZ GENERATOR (Smart Selection + Adaptive)
 // ═══════════════════════════════════════════
-function genQuiz(){
+export function genQuiz(){
 if(quizState.timer){clearTimeout(quizState.timer);quizState.timer=null}
 const valid=[...S.words,...S.longTerm].filter(w=>w.translation&&w.translation.trim());
 if(valid.length<4)return;
@@ -452,7 +452,7 @@ if(quizMode==='mcq'||quizMode==='reverse'){
 quizHistory.push(w.id);if(quizHistory.length>20)quizHistory.shift();
 }
 
-function initQuiz(){
+export function initQuiz(){
 if(['fill','listen','sentfill','spell'].includes(quizMode))return;
 const c=document.getElementById('quizContainer');
 if(!c)return;
@@ -481,8 +481,8 @@ quizState.timer=setTimeout(()=>{genQuiz();renderQuiz(document.getElementById('co
 // ═══════════════════════════════════════════
 // 10. ENGLISH QUIZ (embedded + Leitner bridge)
 // ═══════════════════════════════════════════
-let engQuizLoaded=false;
-function renderEngQuiz(c){
+export let engQuizLoaded=false;
+export function renderEngQuiz(c){
   c.innerHTML=`<div style="text-align:center;margin-bottom:16px"><p style="color:var(--text2);font-size:.9rem">آزمون تعیین سطح انگلیسی — واژگان، گرامر، لیسنینگ و رایتینگ</p><a href="https://mohsen-niksirat.github.io/EnglishQuiz/" target="_blank" style="display:inline-flex;align-items:center;gap:6px;margin-top:8px;padding:8px 16px;background:linear-gradient(135deg,var(--accent),#7c6cf0);color:#fff;border-radius:10px;font-size:.85rem;font-weight:600;text-decoration:none">🎯 باز کردن در صفحه جدید</a></div><iframe class="eng-quiz-frame" src="https://mohsen-niksirat.github.io/EnglishQuiz/" allow="microphone" title="English Level Test" id="engQuizFrame"></iframe>`;
   const frame=document.getElementById('engQuizFrame');
   if(frame){
@@ -497,31 +497,34 @@ function renderEngQuiz(c){
 }
 
 // Listen for quiz results from external English Quiz iframe
-window.addEventListener('message',(event)=>{
-  const data=event.data;
-  if(!data||!data.type)return;
-  if(data.type==='quiz-answer'&&data.wordId){
-    const w=[...S.words,...S.longTerm].find(x=>x.id===data.wordId||x.word.toLowerCase()===(data.word||'').toLowerCase());
-    if(w){fsrsNext(w,data.rating||(data.isCorrect?3:1));save()}
-    if(S.quizStats){
-      const wordKey=data.wordId||data.word||'unknown';
-      updateQuizWordPerformance(wordKey,!!data.isCorrect);
+if(typeof window!=='undefined'){
+  Object.defineProperty(window,'quizState',{configurable:true,get:()=>quizState,set:(v)=>{quizState=v}});
+  window.addEventListener('message',(event)=>{
+    const data=event.data;
+    if(!data||!data.type)return;
+    if(data.type==='quiz-answer'&&data.wordId){
+      const w=[...S.words,...S.longTerm].find(x=>x.id===data.wordId||x.word.toLowerCase()===(data.word||'').toLowerCase());
+      if(w){fsrsNext(w,data.rating||(data.isCorrect?3:1));save()}
+      if(S.quizStats){
+        const wordKey=data.wordId||data.word||'unknown';
+        updateQuizWordPerformance(wordKey,!!data.isCorrect);
+      }
     }
-  }
-  if(data.type==='quiz-complete'&&data.results){
-    if(!S.quizStats)S.quizStats={sessions:[],totalCorrect:0,totalWrong:0,wordPerformance:{},currentSession:null};
-    S.quizStats.sessions.push({date:new Date().toISOString(),correct:data.results.correct,wrong:data.results.wrong,mode:'external',duration:0});
-    if(S.quizStats.sessions.length>50)S.quizStats.sessions=S.quizStats.sessions.slice(-50);
-    S.quizStats.totalCorrect+=data.results.correct;
-    S.quizStats.totalWrong+=data.results.wrong;
-    if(data.results.wordResults){
-      data.results.wordResults.forEach(r=>{
-        updateQuizWordPerformance(r.wordId||r.questionId,!!r.correct);
-      });
+    if(data.type==='quiz-complete'&&data.results){
+      if(!S.quizStats)S.quizStats={sessions:[],totalCorrect:0,totalWrong:0,wordPerformance:{},currentSession:null};
+      S.quizStats.sessions.push({date:new Date().toISOString(),correct:data.results.correct,wrong:data.results.wrong,mode:'external',duration:0});
+      if(S.quizStats.sessions.length>50)S.quizStats.sessions=S.quizStats.sessions.slice(-50);
+      S.quizStats.totalCorrect+=data.results.correct;
+      S.quizStats.totalWrong+=data.results.wrong;
+      if(data.results.wordResults){
+        data.results.wordResults.forEach(r=>{
+          updateQuizWordPerformance(r.wordId||r.questionId,!!r.correct);
+        });
+      }
+      save();
+      toast(`تعیین سطح تمام شد: ${data.results.correct}/${data.results.total}`,'success');
     }
-    save();
-    toast(`تعیین سطح تمام شد: ${data.results.correct}/${data.results.total}`,'success');
-  }
-});
+  });
+}
 
 // ═══════════════════════════════════════════

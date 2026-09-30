@@ -1,9 +1,9 @@
 // 2. LIBRARY (with frequency tier + pagination)
 // ═══════════════════════════════════════════
-let libFilter='',libCat='',libSort='',libPage=0,libTag='',_libSearchTimer=null;
-const LIB_PAGE_SIZE=50;
+export let libFilter='',libCat='',libSort='',libPage=0,libTag='',_libSearchTimer=null;
+export const LIB_PAGE_SIZE=50;
 let _libCache=null,_libCacheKey='';
-function getLibFiltered(){
+export function getLibFiltered(){
 const key=libFilter+'|'+libCat+'|'+libSort+'|'+libTag;
 if(_libCache&&_libCacheKey===key)return _libCache;
 const words=S.words;
@@ -13,11 +13,11 @@ else if(libSort==='due')filtered.sort((a,b)=>{const da=a.nextReviewDate?new Date
 else if(libSort==='alpha')filtered.sort((a,b)=>a.word.localeCompare(b.word,'fa'));
 else if(libSort==='freq')filtered.sort((a,b)=>getFrequencyTier(a.word)-getFrequencyTier(b.word));
 _libCache=filtered;_libCacheKey=key;return filtered}
-function invalidateLibCache(){_libCache=null;_libCacheKey=''}
+export function invalidateLibCache(){_libCache=null;_libCacheKey=''}
 // ═══════════════════════════════════════════
 // SHARED LIST ENGINE
 // ═══════════════════════════════════════════
-function makePagerHtml(total,page,pageSize,pgClass,pgAttr){
+export function makePagerHtml(total,page,pageSize,pgClass,pgAttr){
 const pages=Math.ceil(total/pageSize);if(pages<=1)return'';
 let h='<div class="lib-pager '+pgClass+'">';
 h+='<button type="button" class="btn btn-ghost btn-sm '+pgClass+'" data-'+pgAttr+'="prev" '+(page===0?'disabled':'')+'>◀</button>';
@@ -29,21 +29,21 @@ if(e<pages-1)h+='<span class="lib-pg-ellipsis">…</span>';
 if(e<pages)h+='<button type="button" class="btn btn-ghost btn-sm '+pgClass+'" data-'+pgAttr+'="'+(pages-1)+'">'+pages+'</button>';
 h+='<button type="button" class="btn btn-ghost btn-sm '+pgClass+'" data-'+pgAttr+'="next" '+(page>=pages-1?'disabled':'')+'>▶</button>';
 h+='</div>';return h}
-function paginate(total,page,pageSize){const pages=Math.ceil(total/pageSize);if(page>=pages)page=Math.max(0,pages-1);const start=page*pageSize;return{start,end:start+pageSize,totalPages:pages}}
-function bindPager(c,libPageFn,ltPageFn){c.onclick=function(e){var pgBtn=e.target.closest('[data-pg]');if(pgBtn&&!pgBtn.disabled){libPageFn(pgBtn.dataset.pg);return}var ltBtn=e.target.closest('[data-ltpg]');if(ltBtn&&!ltBtn.disabled){ltPageFn(ltBtn.dataset.ltpg);return}}}
+export function paginate(total,page,pageSize){const pages=Math.ceil(total/pageSize);if(page>=pages)page=Math.max(0,pages-1);const start=page*pageSize;return{start,end:start+pageSize,totalPages:pages}}
+export function bindPager(c,libPageFn,ltPageFn){c.onclick=function(e){var pgBtn=e.target.closest('[data-pg]');if(pgBtn&&!pgBtn.disabled){libPageFn(pgBtn.dataset.pg);return}var ltBtn=e.target.closest('[data-ltpg]');if(ltBtn&&!ltBtn.disabled){ltPageFn(ltBtn.dataset.ltpg);return}}}
 
-function fsrsBadgeHtml(w){
+export function fsrsBadgeHtml(w){
   var st=(w&&w.fsrsState)||'new';
   var map={new:['جدید','#8b9bb4'],learning:['یادگیری','#f59e0b'],review:['تثبیت','#22c55e'],relearning:['بازآموزی','#ef4444']};
   var c=map[st]||map.new;
   return '<span class="badge" title="وضعیت FSRS" style="background:'+c[1]+'22;color:'+c[1]+';border:1px solid '+c[1]+'44;font-size:.62rem;margin-right:4px">'+c[0]+'</span>';
 }
-function libRowHtml(w,dueToday){
+export function libRowHtml(w,dueToday){
 const tier=getFrequencyTier(w.word);
 const tags=(w.tags||[]).map(t=>'<span class="tag" style="font-size:.6rem;cursor:pointer" onclick="libTag=\''+esc(t)+'\';invalidateLibCache();renderLibrary(document.getElementById(\'content\'))" title="فیلتر بر اساس این برچسب">'+esc(t)+'</span>').join(' ');
 return '<tr><td><input type="checkbox" class="lib-sel" data-sel="'+w.id+'" '+(libSelected.has(w.id)?'checked':'')+' aria-label="انتخاب"></td><td><strong>'+esc(w.word)+'</strong> <button type="button" class="btn btn-ghost btn-sm" data-speak="'+esc(w.word)+'" style="padding:2px 6px;font-size:.75rem" title="شنیدن تلفظ">🔊</button>'+(w.ipa?'<br><small style="color:var(--text2)">'+esc(w.ipa)+'</small>':'')+(tier?'<br><span class="badge tier-'+tier+'" style="font-size:.6rem">'+tierLabel(tier)+'</span>':'')+'</td><td>'+esc(w.translation)+'</td><td><span class="tag">'+esc(w.category)+'</span>'+(w.favorite?' <span style="font-size:.9rem">⭐</span>':'')+'</td><td>'+(tags?tags:'<span style="color:var(--text2);font-size:.7rem">—</span>')+'</td><td>'+(dueToday.has(w.id)?'<span class="badge badge-warning">زودترین</span>':w.box)+'</td><td>'+fmtDate(w.nextReviewDate)+fsrsBadgeHtml(w)+'</td><td><button type="button" class="btn btn-ghost btn-sm" data-enrich="\'+w.id+\'" title="غنی‌سازی (تعریف/مثال/مترادف)" aria-label="غنی‌سازی">🔍</button><button type="button" class="btn btn-ghost btn-sm" data-translate="\'+w.id+\'" title="دریافت ترجمه" aria-label="ترجمه">🌐</button><button type="button" class="btn btn-ghost btn-sm" data-edit="'+w.id+'" aria-label="ویرایش">✏️</button><button type="button" class="btn btn-ghost btn-sm" data-fav="'+w.id+'" aria-label="'+(w.favorite?'حذف از علاقه‌مندی':'افزودن به علاقه‌مندی')+'">'+(w.favorite?'💔':'⭐')+'</button><button type="button" class="btn btn-ghost btn-sm" data-lt="'+w.id+'" aria-label="انتقال به حافظه بلندمدت">🧠</button><button type="button" class="btn btn-ghost btn-sm" data-del="'+w.id+'" aria-label="حذف" style="color:var(--danger)">🗑️</button></td></tr>'}
-function libPagerHtml(total,page,pageSize){return makePagerHtml(total,page,pageSize,'lib-pg','pg')}
-async function enrichLibraryWord(id,store,c){
+export function libPagerHtml(total,page,pageSize){return makePagerHtml(total,page,pageSize,'lib-pg','pg')}
+export async function enrichLibraryWord(id,store,c){
   const arr=store==='long-term'?S.longTerm:S.words;
   const w=arr.find(function(x){return x.id===id});if(!w)return;
   const btn=c&&c.querySelector('[data-enrich="'+id+'"]');if(btn)btn.disabled=true;
@@ -70,7 +70,7 @@ async function enrichLibraryWord(id,store,c){
   }catch(e){toast('خطا در غنی‌سازی: '+e.message,'error')}
   if(btn)btn.disabled=false;
 }
-async function translateLibraryWord(id,store,c){
+export async function translateLibraryWord(id,store,c){
   const arr=store==='long-term'?S.longTerm:S.words;
   const w=arr.find(function(x){return x.id===id});if(!w)return;
   const btn=c&&c.querySelector('[data-translate="'+id+'"]');if(btn)btn.disabled=true;
@@ -83,7 +83,7 @@ async function translateLibraryWord(id,store,c){
   if(btn)btn.disabled=false;
   render();
 }
-function renderLibrary(c){
+export function renderLibrary(c){
 const filtered=getLibFiltered();
 const total=filtered.length;
 const p=paginate(total,libPage,LIB_PAGE_SIZE);libPage=Math.min(libPage,Math.max(0,p.totalPages-1));
@@ -141,7 +141,7 @@ if(flushBtn)flushBtn.onclick=function(){
 }
 // DECK MANAGEMENT
 // ═══════════════════════════════════════════
-function showDeckManager(){
+export function showDeckManager(){
   const ov=document.createElement('div');ov.className='modal-overlay';
   function renderDeckModal(){
     const deckStats=S.categories.map(cat=>{
@@ -207,7 +207,7 @@ function showDeckManager(){
   ov.onclick=e=>{if(e.target===ov){ov.remove();renderLibrary(document.getElementById('content'))}};
 }
 
-function editWord(id,onClose,store){
+export function editWord(id,onClose,store){
 const storeArr=store==='longTerm'?S.longTerm:S.words;
 const w=storeArr.find(x=>x.id===id);if(!w)return;
 const ov=document.createElement('div');ov.className='modal-overlay';
@@ -330,10 +330,10 @@ ov.querySelector('#eCancel').onclick=()=>{document.removeEventListener('keydown'
 // ═══════════════════════════════════════════
 // 3. LONG-TERM MEMORY (with pagination)
 // ═══════════════════════════════════════════
-let ltFilter='',ltTagFilter='',ltSourceFilter='',ltPage=0;
-const LT_PAGE_SIZE=50;
+export let ltFilter='',ltTagFilter='',ltSourceFilter='',ltPage=0;
+export const LT_PAGE_SIZE=50;
 let _ltCache=null,_ltCacheKey='';
-function getLtFiltered(){
+export function getLtFiltered(){
 const key=ltFilter+'|'+ltTagFilter+'|'+ltSourceFilter;
 if(_ltCache&&_ltCacheKey===key)return _ltCache;
 const items=S.longTerm.filter(w=>{
@@ -343,12 +343,12 @@ const items=S.longTerm.filter(w=>{
   return true;
 });
 _ltCache=items;_ltCacheKey=key;return items}
-function invalidateLtCache(){_ltCache=null;_ltCacheKey=''}
-function ltRowHtml(w){
+export function invalidateLtCache(){_ltCache=null;_ltCacheKey=''}
+export function ltRowHtml(w){
 var tier=getFrequencyTier(w.word);
 return '<tr><td><strong>'+esc(w.word)+'</strong> <button type="button" class="btn btn-ghost btn-sm" data-speak="'+esc(w.word)+'" style="padding:2px 6px;font-size:.75rem" title="شنیدن تلفظ">🔊</button>'+(w.ipa?'<br><small style="color:var(--text2)">'+esc(w.ipa)+'</small>':'')+(tier?'<br><span class="badge tier-'+tier+'" style="font-size:.6rem">'+tierLabel(tier)+'</span>':'')+'</td><td>'+esc(w.translation)+'</td><td>'+(w.tags||[]).map(function(t){return '<span class="tag" style="font-size:.6rem">'+esc(t)+'</span>'}).join(' ')+(w.source?'<br><small style="color:var(--text2);font-size:.65rem">'+esc(w.source)+'</small>':'')+'</td><td><button type="button" class="btn btn-ghost btn-sm" data-enrich="\'+w.id+\'" title="غنی‌سازی (تعریف/مثال/مترادف)" aria-label="غنی‌سازی">🔍</button><button type="button" class="btn btn-ghost btn-sm" data-translate="\'+w.id+\'" title="دریافت ترجمه" aria-label="ترجمه">🌐</button><button type="button" class="btn btn-ghost btn-sm" data-ltedit="'+w.id+'" aria-label="ویرایش">✏️</button><button type="button" class="btn btn-ghost btn-sm" data-back="'+w.id+'" aria-label="بازگشت به کتابخانه">↩️</button><button type="button" class="btn btn-ghost btn-sm" data-ltdel="'+w.id+'" aria-label="حذف" style="color:var(--danger)">🗑️</button></td></tr>'}
-function ltPagerHtml(total,page,pageSize){return makePagerHtml(total,page,pageSize,'lt-pg','ltpg')}
-function renderLongterm(c){
+export function ltPagerHtml(total,page,pageSize){return makePagerHtml(total,page,pageSize,'lt-pg','ltpg')}
+export function renderLongterm(c){
 const allTags=new Set();const allSources=new Set();
 S.longTerm.forEach(function(w){(w.tags||[]).forEach(function(t){allTags.add(t)});if(w.source)allSources.add(w.source)});
 const items=getLtFiltered();
@@ -379,5 +379,14 @@ if(btn.dataset.translate){translateLibraryWord(btn.dataset.translate,"long-term"
 if(btn.dataset.back){var w=S.longTerm.find(function(x){return x.id===btn.dataset.back});if(w){var repo=window.cardRepository.get();var removed=repo.remove(w.id,'longTerm');if(removed.removed){w.box=1;w.nextReviewDate=null;var moved=repo.add(w,'words');if(!moved.added){S.longTerm.push(w);repo.rebuildIndex();toast('انتقال انجام نشد','error');return}save();invalidateLtCache();invalidateLibCache();renderLongterm(c);toast('بازگشت به کتابخانه','success')}}return}
 if(btn.dataset.ltdel){var w=S.longTerm.find(function(x){return x.id===btn.dataset.ltdel});var name=w?w.word:'';if(!confirm('\u062d\u0630\u0641 \u00ab'+name+'\u00bb\u061f'))return;var removed=window.cardRepository.get().remove(btn.dataset.ltdel,'longTerm');if(removed.removed){save();invalidateLtCache();renderLongterm(c);toast('\u062d\u0630\u0641 \u0634\u062f','success')}}};
 bindPager(c,null,function(v){ltPage=v==='prev'?Math.max(0,ltPage-1):v==='next'?ltPage+1:parseInt(v);renderLongterm(c)});
+}
+
+if(typeof window!=='undefined'){
+  Object.defineProperty(window,'libPage',{configurable:true,get:()=>libPage,set:(v)=>{libPage=v}});
+  Object.defineProperty(window,'libTag',{configurable:true,get:()=>libTag,set:(v)=>{libTag=v}});
+  Object.defineProperty(window,'libFilter',{configurable:true,get:()=>libFilter,set:(v)=>{libFilter=v}});
+  Object.defineProperty(window,'libCat',{configurable:true,get:()=>libCat,set:(v)=>{libCat=v}});
+  Object.defineProperty(window,'libSort',{configurable:true,get:()=>libSort,set:(v)=>{libSort=v}});
+  Object.defineProperty(window,'ltPage',{configurable:true,get:()=>ltPage,set:(v)=>{ltPage=v}});
 }
 

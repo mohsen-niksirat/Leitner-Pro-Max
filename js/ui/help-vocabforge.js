@@ -1,5 +1,5 @@
 // Help and integrated VocabForge workflow.
-const HELP_DICT={
+export const HELP_DICT={
  review:{title:'📖 مرور هوشمند',body:'<p>کلماتی که زمان مرورشان رسیده اینجا نمایش داده می‌شوند. پاسخ را حدس بزنید، کارت را برگردانید و امتیاز مناسب بدهید.</p>'},
  quiz:{title:'❓ آزمون',body:'<p>آزمون‌ها از کلمات کتابخانه ساخته می‌شوند و عملکرد شما را در آمار ثبت می‌کنند.</p>'},
  engquiz:{title:'🎯 تعیین سطح انگلیسی',body:'<p>سطح CEFR خود را با آزمون کوتاه تعیین کنید.</p>'},
@@ -16,7 +16,7 @@ const HELP_DICT={
  settings:{title:'⚙️ تنظیمات',body:'<p>پوسته، اعلان‌ها، صدا و تنظیمات AI را مدیریت کنید.</p>'},
  about:{title:'ℹ️ درباره',body:'<p>اطلاعات نسخه و امکانات برنامه.</p>'}
 };
-const IMPORT_HELPS={
+export const IMPORT_HELPS={
  text:{title:'ورود از متن',body:'<p>متن را وارد کنید و نمایش متن را بزنید تا کلمات برای انتخاب آماده شوند.</p>'},
  file:{title:'ورود از فایل',body:'<p>TXT، PDF، DOCX، JSON و Anki پشتیبانی می‌شوند.</p>'},
  docx:{title:'ورود هوشمند DOCX',body:'<p>فایل‌های جدول‌دار واژگان مانند Manhattan با تعریف، مثال، مترادف و متضاد خوانده می‌شوند.</p>'},
@@ -24,16 +24,16 @@ const IMPORT_HELPS={
  quick:{title:'افزودن سریع کلمات',body:'<p>هر خط یک کلمه یا word=ترجمه وارد کنید.</p>'},
  packs:{title:'بسته‌های لغت آماده',body:'<p>بسته‌های آماده را مستقیماً به کتابخانه اضافه کنید.'}
 };
-function helpModal(title,bodyHtml){
+export function helpModal(title,bodyHtml){
   const ov=document.createElement('div');ov.className='modal-overlay';
   ov.innerHTML='<div class="modal" style="max-width:560px"><div class="help-section-title"><h3 style="margin:0;flex:1">'+title+'</h3><button type="button" class="btn btn-ghost btn-sm" id="helpCloseBtn">✕ بستن</button></div><div class="help-modal-body">'+bodyHtml+'</div></div>';
   ov.addEventListener('click',e=>{if(e.target===ov)ov.remove()});
   document.body.appendChild(ov);
   ov.querySelector('#helpCloseBtn').addEventListener('click',()=>ov.remove());
 }
-function showHelp(key){const h=HELP_DICT[key]||HELP_DICT.about;helpModal(h.title,h.body)}
-function showImportHelp(key){const h=IMPORT_HELPS[key];if(h)helpModal(h.title,h.body)}
-function decorateImportHelp(){
+export function showHelp(key){const h=HELP_DICT[key]||HELP_DICT.about;helpModal(h.title,h.body)}
+export function showImportHelp(key){const h=IMPORT_HELPS[key];if(h)helpModal(h.title,h.body)}
+export function decorateImportHelp(){
   const headings=document.querySelectorAll('#content h3, #content h4');
   headings.forEach(heading=>{
     const text=heading.textContent.trim();
@@ -46,17 +46,17 @@ function decorateImportHelp(){
 // ═══════════════════════════════════════════════════════════
 // VOCABFORGE — سازنده فلش‌کارت (Wizard اسلایدی داخلی)
 // ═══════════════════════════════════════════════════════════
-let vfSelectedIds=new Set();
-function vfToNumber(value,fallback){
+export let vfSelectedIds=new Set();
+export function vfToNumber(value,fallback){
   const normalized=String(value??'').replace(/[۰-۹]/g,d=>String('۰۱۲۳۴۵۶۷۸۹'.indexOf(d))).replace(/[٠-٩]/g,d=>String('٠١٢٣٤٥٦٧٨٩'.indexOf(d))).replace(/[^0-9]/g,'');
   const number=Number(normalized);
   return Number.isFinite(number)&&number>0?number:fallback;
 }
-function vfClampMaxWords(value){return Math.min(5000,Math.max(10,vfToNumber(value,300)))}
-function vfMaxWordsControl(){
+export function vfClampMaxWords(value){return Math.min(5000,Math.max(10,vfToNumber(value,300)))}
+export function vfMaxWordsControl(){
   return '<div class="vf-number-control"><label for="vfMaxWords">حداکثر کلمه</label><div class="vf-number-row"><button type="button" class="btn btn-ghost btn-sm" id="vfMaxWordsMinus" aria-label="کاهش ۵۰ کلمه">−۵۰</button><input class="input" type="text" inputmode="numeric" pattern="[0-9۰-۹٠-٩]*" id="vfMaxWords" value="300" aria-describedby="vfMaxWordsHint"><button type="button" class="btn btn-ghost btn-sm" id="vfMaxWordsPlus" aria-label="افزایش ۵۰ کلمه">+۵۰</button></div><small id="vfMaxWordsHint">حدود ۱۰ تا ۵۰۰۰ کلمه؛ مقدار دستی یا دکمه‌ای قابل تغییر است</small></div>';
 }
-function bindVfMaxWords(){
+export function bindVfMaxWords(){
   const input=document.getElementById('vfMaxWords');if(!input)return;
   const update=value=>{input.value=String(vfClampMaxWords(value))};
   input.addEventListener('blur',()=>update(input.value));
@@ -64,22 +64,22 @@ function bindVfMaxWords(){
   document.getElementById('vfMaxWordsMinus')?.addEventListener('click',()=>update(vfClampMaxWords(input.value)-50));
   document.getElementById('vfMaxWordsPlus')?.addEventListener('click',()=>update(vfClampMaxWords(input.value)+50));
 }
-let vfSlide=1; // 1=ورود 2=انتخاب کلمات 3=غنی‌سازی/ترجمه 4=خروجی و انتقال
-let vfSlideInit=false;
-let vfInputType='text';
-const VF_STEP_LABELS={1:'ورود',2:'انتخاب کلمات',3:'غنی‌سازی و ترجمه',4:'خروجی و انتقال'};
-const VF_FA_DIGITS={1:'۱',2:'۲',3:'۳',4:'۴'};
-function vfSetSlide(n){vfSlideInit=true;vfSlide=Math.max(1,Math.min(4,n))}
-function vfEnsureSlide(){
+export let vfSlide=1; // 1=ورود 2=انتخاب کلمات 3=غنی‌سازی/ترجمه 4=خروجی و انتقال
+export let vfSlideInit=false;
+export let vfInputType='text';
+export const VF_STEP_LABELS={1:'ورود',2:'انتخاب کلمات',3:'غنی‌سازی و ترجمه',4:'خروجی و انتقال'};
+export const VF_FA_DIGITS={1:'۱',2:'۲',3:'۳',4:'۴'};
+export function vfSetSlide(n){vfSlideInit=true;vfSlide=Math.max(1,Math.min(4,n))}
+export function vfEnsureSlide(){
   if(vfSlideInit)return;
   vfSlideInit=true;
   if(vfCards().some(card=>card.translation&&card.definitions.length))vfSlide=4;
   else if(vfCards().length)vfSlide=2;
 }
 // ═══ CEFR LEVEL FILTER (data/cefr.json) ═══
-let vfCefrLevel='';
-let vfCefrData=null;
-async function vfLoadCefr(){
+export let vfCefrLevel='';
+export let vfCefrData=null;
+export async function vfLoadCefr(){
   if(vfCefrData)return vfCefrData;
   try{
     const cached=sessionStorage.getItem('vf_cefr');
@@ -91,7 +91,7 @@ async function vfLoadCefr(){
   }catch(e){}
   return vfCefrData;
 }
-function vfWordLevel(word){
+export function vfWordLevel(word){
   if(!vfCefrData||!vfCefrData.words)return null;
   const w=String(word||'').toLowerCase().trim();
   if(!w)return null;
@@ -102,7 +102,7 @@ function vfWordLevel(word){
   for(const s of stems){const lv=check(s);if(lv)return lv}
   return null;
 }
-async function vfFilterByCefr(words){
+export async function vfFilterByCefr(words){
   const level=vfCefrLevel;
   if(!level||!words||!words.length)return{kept:words,removed:[]};
   await vfLoadCefr();
@@ -114,18 +114,18 @@ async function vfFilterByCefr(words){
   });
   return{kept,removed};
 }
-function vfNextHint(){
+export function vfNextHint(){
   if(vfSlide>=4)return 'مرحله‌ی بعدی: انتقال به کتابخانه یا حافظه بلندمدت، یا اتمام کار';
   if(vfSlide===3)return 'مرحله‌ی بعدی: رفتن به خروجی و انتقال کلمات';
   if(vfSlide===2)return 'مرحله‌ی بعدی: غنی‌سازی و ترجمه کلمات انتخاب‌شده';
   return 'مرحله‌ی بعدی: ورود متن یا فایل TXT/PDF/DOCX';
 }
-function vfStepDot(n){return 'import-step-dot'+(n===vfSlide?' active':n<vfSlide?' done':'')}
+export function vfStepDot(n){return 'import-step-dot'+(n===vfSlide?' active':n<vfSlide?' done':'')}
 // کش نتایج غنی‌سازی و ترجمه در IndexedDB — کلیدهای جداگانه در همان leitnerDB
-function vfCacheGet(key){return typeof idbGet==='function'?idbGet('vf_cache_'+key):Promise.resolve(null)}
-function vfCacheSet(key,value){if(typeof idbPut==='function')return idbPut('vf_cache_'+key,value).catch(()=>{});return Promise.resolve(null)}
-const _vfMemCache={}; // in-memory cache — skip IDB for hot path
-async function vfCached(key,compute){
+export function vfCacheGet(key){return typeof idbGet==='function'?idbGet('vf_cache_'+key):Promise.resolve(null)}
+export function vfCacheSet(key,value){if(typeof idbPut==='function')return idbPut('vf_cache_'+key,value).catch(()=>{});return Promise.resolve(null)}
+export const _vfMemCache={}; // in-memory cache — skip IDB for hot path
+export async function vfCached(key,compute){
   if(key in _vfMemCache)return _vfMemCache[key];
   const cached=await vfCacheGet(key);
   if(cached!=null){_vfMemCache[key]=cached;return cached}
@@ -133,7 +133,7 @@ async function vfCached(key,compute){
   if(value!=null&&!(Array.isArray(value)&&!value.length)){_vfMemCache[key]=value;await vfCacheSet(key,value)}
   return value;
 }
-function vfClearCache(){
+export function vfClearCache(){
   if(typeof openDB!=='function')return Promise.resolve(0);
   return openDB().then(db=>new Promise(resolve=>{
     const tx=db.transaction('data','readwrite');
@@ -143,13 +143,13 @@ function vfClearCache(){
     cursor.onerror=()=>resolve(0);
   }));
 }
-function vfStore(){
+export function vfStore(){
   if(!S.settings.vocabForge)S.settings.vocabForge={cards:[]};
   if(!Array.isArray(S.settings.vocabForge.cards))S.settings.vocabForge.cards=[];
   return S.settings.vocabForge;
 }
-function vfCards(){return vfStore().cards}
-function migrateLegacyVocabForge(){
+export function vfCards(){return vfStore().cards}
+export function migrateLegacyVocabForge(){
   if(vfCards().length||!window.indexedDB)return Promise.resolve(false);
   return new Promise(resolve=>{
     const request=indexedDB.open('vocabforgeDB');
@@ -164,12 +164,12 @@ function migrateLegacyVocabForge(){
     };
   });
 }
-function vfNormalize(raw){
+export function vfNormalize(raw){
   const card=createCard({...raw,id:raw.id||uid(),word:String(raw.word||raw.text||'').trim().toLowerCase(),category:raw.category||'VocabForge',source:raw.source||'VocabForge',tags:[...new Set([...(raw.tags||[]),'VocabForge'])]});
   card.box=0;card.nextReviewDate=null;card.fsrsState='new';return card;
 }
-function vfSaveCards(cards){vfStore().cards=cards.map(vfNormalize).filter(card=>card.word);save()}
-function vfAddCards(cards){
+export function vfSaveCards(cards){vfStore().cards=cards.map(vfNormalize).filter(card=>card.word);save()}
+export function vfAddCards(cards){
   const existing=new Set(vfCards().map(card=>card.word.toLowerCase()));
   const fresh=[];
   for(const raw of cards){const card=vfNormalize(raw);const key=card.word.toLowerCase();if(key&&!existing.has(key)){existing.add(key);fresh.push(card)}}
@@ -177,8 +177,8 @@ function vfAddCards(cards){
   return fresh.length;
 }
 // استخراج کلمات: حذف stopwords + شمارش فراوانی + مرتب‌سازی بر اساس تکرار (مثل نسخه‌ی اصلی)
-const VF_STOP=new Set('a about above after again against all am an and any are as at be because been before being below between both but by can cannot could did do does doing down during each few for from further had has have having he her here hers herself him himself his how i if in into is it its itself just me more most my myself no nor not now of off on once only or other our ours ourselves out over own same she should so some such than that the their theirs them themselves then there these they this those through to too under until up very was we were what when where which while who whom why will with would you your yours yourself yourselves'.split(' '));
-function vfExtractWords(text,minLen,maxWords){
+export const VF_STOP=new Set('a about above after again against all am an and any are as at be because been before being below between both but by can cannot could did do does doing down during each few for from further had has have having he her here hers herself him himself his how i if in into is it its itself just me more most my myself no nor not now of off on once only or other our ours ourselves out over own same she should so some such than that the their theirs them themselves then there these they this those through to too under until up very was we were what when where which while who whom why will with would you your yours yourself yourselves'.split(' '));
+export function vfExtractWords(text,minLen,maxWords){
   minLen=minLen||3;maxWords=maxWords||300;
   const counts=new Map();
   (String(text||'').match(/[a-zA-Z][a-zA-Z'-]*/g)||[]).forEach(w=>{
@@ -187,13 +187,13 @@ function vfExtractWords(text,minLen,maxWords){
   });
   return [...counts.entries()].sort((a,b)=>b[1].count-a[1].count).slice(0,maxWords).map(e=>e[1].word);
 }
-function parsePageRange(str,total){
+export function parsePageRange(str,total){
   if(!str)return null;
   const pages=new Set();
   String(str).split(',').forEach(p=>{p=p.trim();if(p.includes('-')){const[a,b]=p.split('-').map(Number);for(let i=a;i<=b;i++)if(i>=1&&i<=total)pages.add(i)}else{const n=Number(p);if(n>=1&&n<=total)pages.add(n)}});
   return pages.size?[...pages]:null;
 }
-async function vfExtractPdf(file,pageRangeStr,minLen,maxWords,onProgress){
+export async function vfExtractPdf(file,pageRangeStr,minLen,maxWords,onProgress){
   await ensurePdfJs();
   const pdf=await pdfjsLib.getDocument({data:await file.arrayBuffer()}).promise;
   const pageRange=parsePageRange(pageRangeStr,pdf.numPages);
@@ -211,7 +211,7 @@ async function vfExtractPdf(file,pageRangeStr,minLen,maxWords,onProgress){
   const added=vfAddCards(words.map(word=>({word,source:file.name.replace(/\.pdf$/i,'')})));
   return{added,total:words.length};
 }
-async function vfExtractFile(file,opts){
+export async function vfExtractFile(file,opts){
   const ext=file.name.split('.').pop().toLowerCase();
   const o=opts||{};
   if(ext==='txt'){let words=vfExtractWords(await file.text(),o.minLen,o.maxWords);const filt=await vfFilterByCefr(words);words=filt.kept;const added=vfAddCards(words.map(word=>({word,source:file.name})));return{added,total:words.length}}
@@ -226,13 +226,13 @@ async function vfExtractFile(file,opts){
   }
   throw new Error('فرمت پشتیبانی نمی‌شود؛ TXT، PDF یا DOCX انتخاب کنید');
 }
-function vfSelectionCount(){return vfCards().filter(card=>vfSelectedIds.has(card.id)).length}
-function vfChips(arr,limit){
+export function vfSelectionCount(){return vfCards().filter(card=>vfSelectedIds.has(card.id)).length}
+export function vfChips(arr,limit){
   if(!arr||!arr.length)return'';
   return '<div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:4px">'+arr.slice(0,limit||6).map(v=>'<span style="background:var(--bg);border:1px solid var(--border);border-radius:20px;padding:2px 9px;font-size:.7rem;color:var(--accent)">'+esc(v)+'</span>').join('')+'</div>';
 }
 // نمایش غنی‌سازی هم‌فرمت بخش مرور: ترجمه، IPA، POS، تعاریف، مثال، مترادف، متضاد، خانواده، هم‌نشینی
-function vfRichHtml(card){
+export function vfRichHtml(card){
   const s=[];
   const hdr=[];
   if(card.partOfSpeech)hdr.push('<span class="badge badge-accent" style="font-size:.6rem">'+esc(card.partOfSpeech)+'</span>');
@@ -248,7 +248,7 @@ function vfRichHtml(card){
   if(card.collocations&&card.collocations.length){s.push('<div style="margin-bottom:4px"><div style="font-size:.7rem;color:var(--accent);font-weight:600;margin-bottom:2px">🔗 هم‌نشینی</div>'+vfChips(card.collocations,6)+'</div>')}
   return s.join('');
 }
-function vfCardRow(card,opts){
+export function vfCardRow(card,opts){
   const hasTrans=!!card.translation;const hasDef=!!(card.definitions&&card.definitions.length);
   const complete=hasTrans&&hasDef;
   const warnBorder=!complete&&hasTrans&&!hasDef?'border:1px solid var(--warning);box-shadow:0 0 0 1px var(--warning)':'';
@@ -258,12 +258,12 @@ function vfCardRow(card,opts){
   const perRow=(opts&&opts.actions)?'<div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px"><button type="button" class="btn btn-primary btn-sm" data-vf-dest="words" data-vf-id="'+esc(card.id)+'" '+(complete?'':'disabled')+'>📚 انتقال به کتابخانه</button><button type="button" class="btn btn-success btn-sm" data-vf-dest="longTerm" data-vf-id="'+esc(card.id)+'" '+(complete?'':'disabled')+'>🧠 به حافظه بلندمدت</button><button type="button" class="btn btn-danger btn-sm" data-vf-del="'+esc(card.id)+'">🗑 حذف</button></div>':'';
   return '<div style="border:1px solid var(--border);border-radius:12px;padding:10px;margin-bottom:8px;background:var(--bg);'+warnBorder+'"><label style="display:flex;align-items:flex-start;gap:8px;cursor:pointer"><input type="checkbox" data-vf-select="'+esc(card.id)+'" '+(checked?'checked':'')+'><strong style="min-width:90px">'+esc(card.word)+'</strong><span style="flex:1;color:var(--text2);font-size:.78rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+esc(card.translation||card.coreMeaning||'بدون ترجمه')+'</span>'+badge+'</label>'+rich+perRow+'</div>';
 }
-function vfListHtml(opts){
+export function vfListHtml(opts){
   if(!vfCards().length)return '<div class="empty" style="padding:24px"><div class="icon">📭</div><p>هنوز کلمه‌ای وارد نشده است.</p></div>';
   return '<div style="display:grid;gap:0;max-height:46vh;overflow-y:auto">'+vfCards().map(card=>vfCardRow(card,opts)).join('')+'</div>';
 }
 // ── Fallback تعریف فارسی برای کلمات نادر ─────────────────────
-function faWikitextToDefs(wt){
+export function faWikitextToDefs(wt){
   try{
     const out=[];
     String(wt||'').split('\n').forEach(function(raw){
@@ -279,7 +279,7 @@ function faWikitextToDefs(wt){
     return out.filter(Boolean).slice(0,4);
   }catch(e){return[]}
 }
-async function fetchPersianWiktionaryDefs(word){
+export async function fetchPersianWiktionaryDefs(word){
   try{
     const r=await timedFetch('https://fa.wiktionary.org/w/api.php?action=parse&page='+encodeURIComponent(word)+'&prop=wikitext&format=json&origin=*');
     if(!r.ok)return[];
@@ -288,7 +288,7 @@ async function fetchPersianWiktionaryDefs(word){
     return faWikitextToDefs(wt);
   }catch(e){return[]}
 }
-function vfStem(w){
+export function vfStem(w){
   // Smart word resolver (same logic as standalone VocabForge):
   // multi-word → first word, plus morphological suffix stripping with
   // e-forms (tion→te, ity→e/y, ive→e/d, able→e, ...) for better hits.
@@ -315,7 +315,7 @@ function vfStem(w){
   if(lower.endsWith('ible'))variants.push(lower.slice(0,-4));
   return[...new Set(variants)].filter(v=>v.length>=2);
 }
-async function vfRun(operation){
+export async function vfRun(operation){
   const selected=vfCards().filter(card=>vfSelectedIds.has(card.id));
   if(!selected.length){toast('ابتدا کلمات را انتخاب کنید','error');return}
   const wasSlide=vfSlide;
@@ -389,7 +389,7 @@ async function vfRun(operation){
   if(doneResult&&notFound.length)doneResult.innerHTML='<div style="padding:8px 10px;background:var(--bg);border-radius:10px;font-size:.78rem;max-height:160px;overflow-y:auto"><strong style="color:var(--danger)">یافت نشد ('+notFound.length+'):</strong><div style="margin-top:4px;color:var(--text2)">'+[...new Set(notFound)].slice(0,40).map(w=>'<span style="margin-left:6px">'+esc(w)+'</span>').join('')+(notFound.length>40?'...':'')+'</div></div>';
   selected.forEach(card=>{if(card._vfError)delete card._vfError});
 }
-function vfRemoveSelected(){
+export function vfRemoveSelected(){
   const selected=new Set(vfCards().filter(card=>vfSelectedIds.has(card.id)).map(card=>card.id));
   if(!selected.size){toast('کلمه‌ای انتخاب نشده','error');return}
   vfSaveCards(vfCards().filter(card=>!selected.has(card.id)));
@@ -398,8 +398,8 @@ function vfRemoveSelected(){
   toast(selected.size+' کلمه حذف شد','success');
   renderVocabforge(document.getElementById('content'));
 }
-function vfCompleteCard(card){return !!(card&&card.translation&&card.definitions&&card.definitions.length)}
-function doVfMove(cards,destination,destLabel){
+export function vfCompleteCard(card){return !!(card&&card.translation&&card.definitions&&card.definitions.length)}
+export function doVfMove(cards,destination,destLabel){
   const result=commitVocabForgeCards(cards,destination);
   const moved=new Set(cards.map(card=>card.id));
   vfSaveCards(vfCards().filter(card=>!moved.has(card.id)));
@@ -409,7 +409,7 @@ function doVfMove(cards,destination,destLabel){
   if(result.dups)toast(result.dups+' کلمه تکراری رد شد','info');
   renderVocabforge(document.getElementById('content'));
 }
-function vfCommitSelected(destination){
+export function vfCommitSelected(destination){
   const selected=vfCards().filter(card=>vfSelectedIds.has(card.id));
   if(!selected.length){toast('کلمه‌ای انتخاب نشده','error');return}
   const destLabel=destination==='longTerm'?'حافظه بلندمدت':'کتابخانه';
@@ -426,13 +426,13 @@ function vfCommitSelected(destination){
   if(confirm(msg)){doVfMove(selected,destination,destLabel)}
   else if(complete.length)doVfMove(complete,destination,destLabel);
 }
-function vfExportJson(){
+export function vfExportJson(){
   const cards=vfCards();if(!cards.length){toast('کارتی برای خروجی نیست','info');return}
   const blob=new Blob([JSON.stringify(cards,null,2)],{type:'application/json'});
   const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='vocabforge-backup.json';link.click();URL.revokeObjectURL(url);
   toast(cards.length+' کارت به JSON صادر شد (بکاپ وکب فورج)','success');
 }
-async function vfImportJson(file){
+export async function vfImportJson(file){
   try{
     const data=JSON.parse(await file.text());
     const cards=Array.isArray(data)?data:(data.cards||[]);
@@ -443,11 +443,11 @@ async function vfImportJson(file){
     renderVocabforge(document.getElementById('content'));
   }catch(e){toast('خطا در خواندن فایل: '+e.message,'error')}
 }
-function vfFinish(){
+export function vfFinish(){
   toast('اتمام کار؛ کلمات غنی‌شده در حافظه ماندند','success');
   setTimeout(()=>{try{location.reload()}catch(e){}},900);
 }
-function slideInputHTML(){
+export function slideInputHTML(){
   const tabs=['text','pdf','docx','list','json'].map(t=>'<button type="button" class="btn '+(vfInputType===t?'btn-primary':'btn-ghost')+'" data-vf-input="'+t+'">'+(t==='text'?'✏️ متن':t==='pdf'?'📄 PDF':t==='docx'?'🗂 DOCX':t==='list'?'📋 لیست':'🧩 JSON')+'</button>').join('');
   const cefrOpts=['','A1','A2','B1','B2','C1','C2'].map(l=>'<option value="'+l+'"'+(vfCefrLevel===l?' selected':'')+'>'+(l||'همه سطوح')+'</option>').join('');
   let body='';
@@ -464,17 +464,17 @@ function slideInputHTML(){
   }
   return '<div class="card" style="margin-bottom:14px"><h3 style="margin-bottom:10px">۱. ورود کلمات</h3><div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px">'+tabs+'</div><div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px"><label style="font-size:.7rem;color:var(--text2)">سطح CEFR (فقط کلماتِ این سطح استخراج شوند):</label><select class="input" id="vfCefr" style="max-width:150px;font-size:.8rem;padding:6px 8px">'+cefrOpts+'</select><span style="font-size:.68rem;color:var(--text2)">کلماتِ بدون سطح‌بندی (نام‌ها/فنی) هم می‌مانند</span></div>'+body+'<div style="margin-top:12px"><span id="vfImportStatus" style="font-size:.78rem;color:var(--text2)"></span></div></div>';
 }
-function slideSelectHTML(){
+export function slideSelectHTML(){
   const selected=vfSelectionCount();const complete=vfCards().filter(card=>card.translation&&card.definitions.length).length;
   return '<div class="card" style="margin-bottom:14px"><div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap"><h3 style="margin:0">۲. انتخاب کلمات</h3><span data-vf-selcount style="color:var(--text2);font-size:.8rem">'+selected+' انتخاب شده</span><span style="margin-right:auto;color:var(--text2);font-size:.8rem">'+complete+' غنی‌شده</span></div><div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0"><button type="button" class="btn btn-ghost btn-sm" id="vfSelectAll">انتخاب همه</button><button type="button" class="btn btn-ghost btn-sm" id="vfDeselect">لغو انتخاب</button><button type="button" class="btn btn-danger btn-sm" id="vfRemove">حذف انتخاب‌شده‌ها</button></div><div id="vfList">'+vfListHtml({rich:false,actions:false})+'</div><div style="margin-top:12px"><button type="button" class="btn btn-primary" id="vfNextBtn2">مرحله بعد ←</button></div></div>';
 }
-function vfIncompleteCards(){return vfCards().filter(c=>!(c.definitions&&c.definitions.length)||!c.translation)}
-function vfFailedListHtml(){
+export function vfIncompleteCards(){return vfCards().filter(c=>!(c.definitions&&c.definitions.length)||!c.translation)}
+export function vfFailedListHtml(){
   const incomplete=vfIncompleteCards();
   if(!incomplete.length)return '<div id="vfFailedSection" style="margin-top:10px;padding:8px;border-radius:8px;background:rgba(var(--success-rgb,0,180,80),0.1);border:1px solid var(--success)"><span style="font-size:.8rem;color:var(--success)">✅ همه کلمات غنی‌شده و ترجمه شده‌اند</span></div>';
   return '<div id="vfFailedSection" style="margin-top:12px;border-top:1px dashed var(--border);padding-top:10px"><div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px"><span style="font-size:.8rem;font-weight:600;color:var(--warning)">⚠️ '+incomplete.length+' کلمه ناقص</span><button type="button" class="btn btn-primary btn-sm" id="vfRetryFailedBtn" style="font-size:.72rem">🔄 تلاش مجدد فقط همین‌ها</button></div><div style="display:grid;gap:4px;max-height:22vh;overflow-y:auto" id="vfFailedList">'+incomplete.map(function(c){const noDef=!(c.definitions&&c.definitions.length);const noTr=!c.translation;return '<div style="display:flex;align-items:center;gap:6px;padding:4px 8px;border-radius:6px;background:var(--bg2)"><strong style="min-width:80px;font-size:.8rem">'+esc(c.word)+'</strong>'+(noDef?'<span class="badge" style="font-size:.6rem;background:rgba(var(--warning-rgb,255,160,0),0.15);color:var(--warning)">بدون تعریف</span>':'')+(noTr?'<span class="badge" style="font-size:.6rem;background:rgba(var(--warning-rgb,255,160,0),0.15);color:var(--warning)">بدون ترجمه</span>':'')+'</div>'}).join('')+'</div></div>';
 }
-async function vfRetryIncomplete(){
+export async function vfRetryIncomplete(){
   const incomplete=vfIncompleteCards();
   if(!incomplete.length){toast('همه کلمات کامل هستند','info');return}
   vfSelectedIds=new Set(incomplete.map(function(c){return c.id}));
@@ -486,7 +486,7 @@ async function vfRetryIncomplete(){
   if(stillNoTrans.length){vfSelectedIds=new Set(stillNoTrans.map(function(c){return c.id}));await vfRun('translate')}
   vfSelectedIds.clear();
 }
-function slideEnrichHTML(){
+export function slideEnrichHTML(){
   const enriched=vfCards().filter(card=>card.definitions.length).length;
   const translated=vfCards().filter(card=>card.translation).length;
   const total=vfCards().length;
@@ -497,12 +497,12 @@ function slideEnrichHTML(){
   vfFailedListHtml()+
   '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button type="button" class="btn btn-ghost" id="vfClearCache">🗑 پاک کردن کش</button><button type="button" class="btn btn-primary" id="vfNextBtn3">مرحله بعد ←</button></div></div>';
 }
-function slideOutputHTML(){
+export function slideOutputHTML(){
   const all=vfCards();const total=all.length;const ready=all.filter(card=>card.translation&&card.definitions.length).length;
   const remaining=total-ready;
   return '<div class="card" style="margin-bottom:14px"><div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap"><h3 style="margin:0">۴. خروجی و انتقال</h3><span style="color:var(--success);font-size:.8rem">'+ready+' آماده انتقال</span>'+(remaining>0?'<span style="color:var(--warning);font-size:.8rem">'+remaining+' باقی‌مانده</span>':'')+'</div>'+(remaining>0?'<div style="margin:8px 0;padding:8px 12px;background:var(--accent-glow);border:1px solid var(--accent);border-radius:10px;font-size:.78rem;color:var(--text)">💡 '+remaining+' کلمه هنوز آماده نیستند (بدون ترجمه/غنی‌سازی). می‌توانید همین حالا برگردید و غنی‌سازی‌شان کنید، یا با اتمام کار، برای برد بعدی در حافظه می‌مانند.</div>':'')+'<p style="font-size:.78rem;color:var(--text2);margin:8px 0">انتخاب کنید و به باکس موردنظر بفرستید؛ هر کلمه بعد از انتقال از لیست حذف می‌شود.</p><div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px"><button type="button" class="btn btn-ghost btn-sm" id="vfSelectAll">انتخاب همه</button><button type="button" class="btn btn-ghost btn-sm" id="vfDeselect">لغو انتخاب</button><button type="button" class="btn btn-primary btn-sm" id="vfToLibrary">📚 انتقال به کتابخانه</button><button type="button" class="btn btn-success btn-sm" id="vfToLongTerm">🧠 انتقال به حافظه بلندمدت</button><button type="button" class="btn btn-danger btn-sm" id="vfRemove">حذف انتخاب‌شده‌ها</button></div><div id="vfList">'+vfListHtml({rich:true,actions:true})+'</div><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">'+(remaining>0?'<button type="button" class="btn btn-ghost" id="vfBackToEnrich">🔙 غنی‌سازیِ باقی‌مانده ('+remaining+')</button>':'')+'<button type="button" class="btn btn-primary" id="vfFinish">🏁 اتمام کار</button><button type="button" class="btn btn-ghost" id="vfExportJson">💾 خروجی JSON (بکاپ)</button></div></div>';
 }
-function renderVocabforge(c){
+export function renderVocabforge(c){
   vfEnsureSlide();
   const stepper=[1,2,3,4].map(n=>{
     const connected=n<4?'<div class="import-step-line'+(n<vfSlide?' done':'')+'"></div>':'';
@@ -518,11 +518,11 @@ function renderVocabforge(c){
   '</div>';
   bindVf(1);bindVf(2);bindVf(3);bindVf(4);
 }
-function updateVfSelectionUI(){
+export function updateVfSelectionUI(){
   const cnt=vfSelectionCount();
   document.querySelectorAll('[data-vf-selcount]').forEach(el=>el.textContent=cnt+' انتخاب شده');
 }
-function bindVf(n){
+export function bindVf(n){
   const slide=document.getElementById('vfSlide'+n);
   if(!slide)return;
   if(n===1){
@@ -613,7 +613,7 @@ function bindVf(n){
     const ex=document.getElementById('vfExportJson');if(ex)ex.onclick=()=>vfExportJson();
   }
 }
-function commitVocabForgeCards(cards,dest){
+export function commitVocabForgeCards(cards,dest){
   const target=dest==='longTerm'?S.longTerm:S.words;
   const existing=new Set([...S.words,...S.longTerm].map(card=>card.word.toLowerCase()));
   let added=0,dups=0;
@@ -622,7 +622,7 @@ function commitVocabForgeCards(cards,dest){
   return{added,dups};
 }
 // Migrate cards created by the previous standalone VocabForge once.
-function receivePendingVocabForge(){
+export function receivePendingVocabForge(){
   migrateLegacyVocabForge().then(changed=>{if(changed&&typeof render==='function')render()});
   return false;
 }

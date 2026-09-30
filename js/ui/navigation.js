@@ -1,6 +1,6 @@
 // NAVIGATION
 // ═══════════════════════════════════════════
-const NAV_GROUPS=[
+export const NAV_GROUPS=[
 {label:'یادگیری',items:[
 {id:'review',label:'مرور',icon:'📖'},
 {id:'quiz',label:'آزمون',icon:'❓'},
@@ -30,10 +30,12 @@ const NAV_GROUPS=[
 {id:'about',label:'درباره',icon:'ℹ️'}
 ]}
 ];
-const TABS=NAV_GROUPS.flatMap(g=>g.items);
-let currentTab='review';
-Object.defineProperty(window,'currentTab',{configurable:true,get:()=>currentTab});
-function renderNav(){
+export const TABS=NAV_GROUPS.flatMap(g=>g.items);
+export let currentTab='review';
+if(typeof window!=='undefined'){
+  Object.defineProperty(window,'currentTab',{configurable:true,get:()=>currentTab,set:(v)=>{currentTab=v;}});
+}
+export function renderNav(){
 const nav=document.getElementById('nav');
 let html='';
 NAV_GROUPS.forEach((g,i)=>{
@@ -47,7 +49,7 @@ html+='</div>';
 });
 nav.innerHTML=html;
 nav.querySelectorAll('.nav-btn').forEach(b=>b.onclick=()=>{if(currentTab==='quiz'&&b.dataset.tab!=='quiz')finalizeQuizSession();currentTab=b.dataset.tab;render();if(!S.settings.sidebarLocked){document.getElementById('sidebar').classList.remove('open');syncSidebarUI()}})}
-function render(){
+export function render(){
 try{
 if(currentTab!=='review'&&currentTab!=='pdfreader')document.onkeydown=null;
 if(currentTab!=='pdfreader')hideTransPopup();
@@ -73,7 +75,10 @@ const c=document.getElementById('content');
 const renders={review:renderReview,library:renderLibrary,longterm:renderLongterm,import:(_stagedImportCards.length?renderStagedImport:renderImport),reading:renderReading,pdfreader:renderPDFReader,pdfmobile:renderPDFMobile,wordweb:renderWordWeb,export:renderExport,stats:renderStats,quiz:renderQuiz,engquiz:renderEngQuiz,aichat:renderAiChat,vocabforge:renderVocabforge,settings:renderSettings,about:renderAbout};
 const _renderFn=renders[currentTab];
 if(_renderFn){
-  try{_renderFn(c)}catch(err){
+  try{
+    _renderFn(c);
+    if(currentTab==='quiz'&&typeof initQuiz==='function')initQuiz();
+  }catch(err){
     console.error('[Tab Render Error]',currentTab,err);
     toast('خطا در نمایش «'+(titles[currentTab]||currentTab)+'»: '+(err.message||''),'error');
     c.innerHTML='<div class="card" style="text-align:center;padding:40px"><div class="empty"><div class="icon">⚠️</div><p>خطا در نمایش این بخش</p><p style="font-size:.8rem;color:var(--text2);margin-top:8px">'+esc(err.message||'')+'</p><button class="btn btn-ghost btn-sm" style="margin-top:12px" onclick="location.reload()">بازنشانی صفحه</button></div></div>';
@@ -85,5 +90,3 @@ toast('خطا در نمایش صفحه: '+(err.message||'ناشناخته'),'err
 var _rc=document.getElementById('content');
 if(_rc)_rc.innerHTML='<div class="card" style="text-align:center;padding:40px"><div class="empty"><div class="icon">⚠️</div><p>خطا در نمایش این بخش</p><p style="font-size:.8rem;color:var(--text2);margin-top:8px">'+esc(err.message||'')+'</p><button class="btn btn-ghost btn-sm" style="margin-top:12px" onclick="location.reload()">بازنشانی صفحه</button></div></div>';
 }}
-
-// [Refactor Phase 2] moved to js/learning/review.js

@@ -1,24 +1,24 @@
 // 5. PDF READER (native iframe rendering)
 // ═══════════════════════════════════════════
-let pdfBlobUrl=null,pdfFileName='';
-let pdfTextMode=false; // toggle between embed and text reflow
-let pdfTextPages=[];   // extracted text per page
-let pdfTotalPages=0;
-let pdfCurrentPage=0;
-let pdfScale=1.5;
-let pdfRenderAbort=null;
-let pdfBookmarks={};   // fileName -> {page,scrollY}
-let pdfHighlightUnknown=false; // highlight words not in library/long-term
+export let pdfBlobUrl=null,pdfFileName='';
+export let pdfTextMode=false; // toggle between embed and text reflow
+export let pdfTextPages=[];   // extracted text per page
+export let pdfTotalPages=0;
+export let pdfCurrentPage=0;
+export let pdfScale=1.5;
+export let pdfRenderAbort=null;
+export let pdfBookmarks={};   // fileName -> {page,scrollY}
+export let pdfHighlightUnknown=false; // highlight words not in library/long-term
 // PDF reader may be loaded before enrichment; keep lookup normalization local.
-function pdfNormalizeWord(text){return String(text||'').trim().toLowerCase().replace(/^[^a-zA-Z]+|[^a-zA-Z']+$/g,'').replace(/'+/g,"'")}
+export function pdfNormalizeWord(text){return String(text||'').trim().toLowerCase().replace(/^[^a-zA-Z]+|[^a-zA-Z']+$/g,'').replace(/'+/g,"'")}
 
 // PDF persistence helpers
-const PDF_STORAGE_KEY='leitner_pdf_state';
-function savePdfState(){
+export const PDF_STORAGE_KEY='leitner_pdf_state';
+export function savePdfState(){
 try{const state={fileName:pdfFileName,page:pdfCurrentPage,scale:pdfScale};localStorage.setItem(PDF_STORAGE_KEY,JSON.stringify(state))}catch(e){}}
-function loadPdfState(){try{return JSON.parse(localStorage.getItem(PDF_STORAGE_KEY))}catch(e){return null}}
-function clearPdfState(){try{localStorage.removeItem(PDF_STORAGE_KEY)}catch(e){}}
-function savePdfBookmark(){
+export function loadPdfState(){try{return JSON.parse(localStorage.getItem(PDF_STORAGE_KEY))}catch(e){return null}}
+export function clearPdfState(){try{localStorage.removeItem(PDF_STORAGE_KEY)}catch(e){}}
+export function savePdfBookmark(){
   if(!pdfFileName)return;
   try{
     const bm=JSON.parse(localStorage.getItem('leitner_pdf_bm')||'{}');
@@ -29,18 +29,18 @@ function savePdfBookmark(){
     localStorage.setItem('leitner_pdf_bm',JSON.stringify(bm));
   }catch(e){}
 }
-function loadPdfBookmark(){
+export function loadPdfBookmark(){
   if(!pdfFileName)return null;
   try{const bm=JSON.parse(localStorage.getItem('leitner_pdf_bm')||'{}');return bm[pdfFileName]||null}catch(e){return null}
 }
 // ── Highlight unknown words (not in library / long-term) in the PDF text layer ──
-function pdfKnownSet(){
+export function pdfKnownSet(){
   var known={};
   (S.words||[]).forEach(function(w){known[String(w.word||'').toLowerCase()]=1});
   (S.longTerm||[]).forEach(function(w){known[String(w.word||'').toLowerCase()]=1});
   return known;
 }
-function applyPdfUnknownMarksOnLayer(layer){
+export function applyPdfUnknownMarksOnLayer(layer){
   if(!layer)return;
   var known=pdfKnownSet();
   var spans=layer.querySelectorAll('span[data-word]');
@@ -50,10 +50,10 @@ function applyPdfUnknownMarksOnLayer(layer){
     else spans[i].classList.remove('pdf-unknown-word');
   }
 }
-function applyPdfUnknownMarksAll(){
+export function applyPdfUnknownMarksAll(){
   document.querySelectorAll('.pdf-canvas-textlayer').forEach(applyPdfUnknownMarksOnLayer);
 }
-async function extractPdfTextPages(file){
+export async function extractPdfTextPages(file){
   await ensurePdfJs();
   const buf=await file.arrayBuffer();
   const pdf=await pdfjsLib.getDocument({data:buf}).promise;
@@ -66,7 +66,7 @@ async function extractPdfTextPages(file){
   return{pdf,pages};
 }
 
-function renderPDFReader(c){
+export function renderPDFReader(c){
 if(!pdfBlobUrl){
 c.innerHTML=`<div class="card" style="text-align:center;padding:60px"><div class="empty"><div class="icon">📄</div><p>فایل PDF را باز کنید تا شروع به خواندن کنید</p><p style="color:var(--text2);font-size:.8rem;margin-top:8px">روی هر کلمه دابل‌کلیک کنید تا ترجمه و تلفظ آن را ببینید</p><div style="margin-top:16px"><input type="file" id="pdfFileInput" accept=".pdf" style="display:none"><button type="button" class="btn btn-primary" id="pdfOpen">📂 انتخاب فایل PDF</button></div></div></div>`;
 document.getElementById('pdfOpen').onclick=()=>document.getElementById('pdfFileInput').click();
@@ -277,7 +277,7 @@ if(selHelper)selHelper.remove();
 document.onkeydown=null;
 }
 
-function showPdfTranslateInput(x,y){
+export function showPdfTranslateInput(x,y){
   hidePdfTranslateInput();
   var popup=document.createElement('div');
   popup.id='pdfTranslatePopup';
@@ -326,7 +326,7 @@ function showPdfTranslateInput(x,y){
   },50);
 }
 
-function showPdfSearchInput(popup){
+export function showPdfSearchInput(popup){
   var resultDiv=document.getElementById('pdfTranslateResult');
   if(!resultDiv)return;
   resultDiv.innerHTML='<div style="padding:8px 0"><input type="text" id="pdfSearchWordInput" class="input" placeholder="کلمه را تایپ کنید..." style="width:100%;padding:10px 14px;font-size:.9rem;direction:ltr;text-align:left" autocomplete="off" spellcheck="false"><div id="pdfSearchResult" style="margin-top:10px"></div></div>';
@@ -344,7 +344,7 @@ function showPdfSearchInput(popup){
   }
 }
 
-async function doPdfTranslateSmart(word){
+export async function doPdfTranslateSmart(word){
   var resultDiv=document.getElementById('pdfTranslateResult');
   if(!resultDiv)return;
   // Guard: only ever look up/store a single word. Multi-word selections
@@ -512,13 +512,13 @@ async function doPdfTranslateSmart(word){
   }
 }
 
-function pdfOpenWord(word,x,y){
+export function pdfOpenWord(word,x,y){
   var helper=document.getElementById('pdfSelectionHelper');
   if(helper)helper.remove();
   showPdfTranslateInput(x,y);
   setTimeout(function(){doPdfTranslateSmart(word)},100);
 }
-function showPdfSelectionHelper(x,y,words){
+export function showPdfSelectionHelper(x,y,words){
   // words: single word string OR array of words (drag-selection over several)
   var old=document.getElementById('pdfSelectionHelper');
   if(old)old.remove();
@@ -572,7 +572,7 @@ function showPdfSelectionHelper(x,y,words){
 // The official pdf.js TextLayer may bundle several words (or a whole column)
 // into one span — we climb spans and split text into words, then pick the
 // word whose character range contains the pointer.
-function pdfWordAtPoint(x,y){
+export function pdfWordAtPoint(x,y){
   var layers=document.elementsFromPoint?document.elementsFromPoint(x,y):[];
   var root=null;
   for(var li=0;li<layers.length;li++){
@@ -637,9 +637,9 @@ function pdfWordAtPoint(x,y){
   }
   return '';
 }
-function hidePdfTranslateInput(){var p=document.getElementById('pdfTranslatePopup');if(p)p.remove();var h=document.getElementById('pdfSelectionHelper');if(h)h.remove()}
+export function hidePdfTranslateInput(){var p=document.getElementById('pdfTranslatePopup');if(p)p.remove();var h=document.getElementById('pdfSelectionHelper');if(h)h.remove()}
 
-async function renderPDFCanvasPages(blobUrl){
+export async function renderPDFCanvasPages(blobUrl){
   await ensurePdfJs();
   var container=document.getElementById('pdfCanvasContainer');
   if(!container)return;
@@ -839,7 +839,7 @@ async function renderPDFCanvasPages(blobUrl){
   }
 }
 
-async function openPDF(file){
+export async function openPDF(file){
   await ensurePdfJs();
 try{
 pdfBlobUrl=URL.createObjectURL(file);
@@ -860,3 +860,9 @@ renderPDFReader(document.getElementById('content'));
 toast('PDF بارگذاری شد'+(bm&&bm.page>0?' (صفحه '+(bm.page+1)+')':''),'success')}
 catch(e){toast('خطا در باز کردن فایل PDF','error');pdfBlobUrl=null}}
 // ═══════════════════════════════════════════
+
+
+if(typeof window!=='undefined'){
+  Object.defineProperty(window,'pdfFileName',{configurable:true,get:()=>pdfFileName,set:(v)=>{pdfFileName=v}});
+  Object.defineProperty(window,'pdfBlobUrl',{configurable:true,get:()=>pdfBlobUrl,set:(v)=>{pdfBlobUrl=v}});
+}

@@ -3,16 +3,16 @@
 // ═══════════════════════════════════════════
 
 // Only 504 remains — old packs removed
-const READY_PACKS = [
+export const READY_PACKS = [
   {id:'504',name:'📚 504 کلمه ضروری',desc:'کتاب 504 Absolutely Essential Words — ۴۲ درس',count:504,url:'https://raw.githubusercontent.com/mohsen-niksirat/Leitner_Mobile/main/packs/504words.json',category:'504'},
 ];
 
 // ═══════════════════════════════════════════
 //  CEFR VOCABULARY PACKS (A1-C2)
 // ═══════════════════════════════════════════
-const CEFR_BASE_URL = 'https://raw.githubusercontent.com/mohsen-niksirat/Leitner-Pro-Max/main/All_Vocabulary_Packs';
+export const CEFR_BASE_URL = 'https://raw.githubusercontent.com/mohsen-niksirat/Leitner-Pro-Max/main/All_Vocabulary_Packs';
 
-const CEFR_LEVELS = [
+export const CEFR_LEVELS = [
   {
     id: 'A1', name: 'مبتدی', icon: '🌱', color: '#2ecc71',
     gradient: 'linear-gradient(135deg, #2ecc71, #27ae60)',
@@ -82,7 +82,7 @@ const CEFR_LEVELS = [
 // ═══════════════════════════════════════════
 //  RENDER — minimal ready-packs (504 + CEFR)
 // ═══════════════════════════════════════════
-function renderPacksGrid(){
+export function renderPacksGrid(){
   const el=document.getElementById('ready-packs-grid');
   if(!el)return;
   const existing={};
@@ -106,7 +106,6 @@ function renderPacksGrid(){
   CEFR_LEVELS.forEach(level=>{
     const totalWords=level.packs.reduce((s,p)=>s+p.count,0);
     const loadedWords=level.packs.reduce((s,p)=>s+(existing[p.id]||0),0);
-    const allLoaded=loadedWords>=totalWords;
 
     html+=`<div style="border:1px solid var(--border);border-radius:10px;overflow:hidden;background:var(--bg)">
       <div style="display:flex;align-items:center;gap:10px;padding:10px 14px;cursor:pointer;transition:background .2s" onclick="toggleCefrLevel('${level.id}')" onmouseover="this.style.background='var(--card-hover)'" onmouseout="this.style.background='transparent'">
@@ -164,13 +163,12 @@ function renderPacksGrid(){
   </div>`;
 
   el.innerHTML=html;
-  // All panels collapsed by default — no auto-open
 }
 
 // ═══════════════════════════════════════════
 //  TOGGLE CEFR LEVEL
 // ═══════════════════════════════════════════
-function toggleCefrLevel(levelId){
+export function toggleCefrLevel(levelId){
   const packsEl=document.getElementById('cefr-packs-'+levelId);
   const arrowEl=document.getElementById('cefr-arrow-'+levelId);
   if(!packsEl||!arrowEl)return;
@@ -182,7 +180,7 @@ function toggleCefrLevel(levelId){
 // ═══════════════════════════════════════════
 //  DOWNLOAD 504 PACK (with selection)
 // ═══════════════════════════════════════════
-async function downloadPack(packId){
+export async function downloadPack(packId){
   const pack=READY_PACKS.find(p=>p.id===packId);
   if(!pack)return;
   try{
@@ -209,7 +207,7 @@ async function downloadPack(packId){
 // ═══════════════════════════════════════════
 //  DOWNLOAD SINGLE CEFR PACK (with selection)
 // ═══════════════════════════════════════════
-async function downloadCefrPack(packId, levelId){
+export async function downloadCefrPack(packId, levelId){
   const level=CEFR_LEVELS.find(l=>l.id===levelId);
   if(!level)return;
   const pack=level.packs.find(p=>p.id===packId);
@@ -239,7 +237,7 @@ async function downloadCefrPack(packId, levelId){
 // ═══════════════════════════════════════════
 //  DOWNLOAD ALL PACKS IN A LEVEL (with selection)
 // ═══════════════════════════════════════════
-async function downloadAllLevel(levelId){
+export async function downloadAllLevel(levelId){
   const level=CEFR_LEVELS.find(l=>l.id===levelId);
   if(!level)return;
   try{
@@ -273,7 +271,7 @@ async function downloadAllLevel(levelId){
 // ═══════════════════════════════════════════
 //  CUSTOM URL PACK (with selection)
 // ═══════════════════════════════════════════
-async function downloadCustomPack(){
+export async function downloadCustomPack(){
   const input=document.getElementById('customPackUrl');
   const status=document.getElementById('custom-pack-status');
   if(!input)return;
@@ -302,16 +300,4 @@ async function downloadCustomPack(){
     if(status)status.innerHTML='<span style="color:var(--danger)">❌ '+e.message+'</span>';
     toast('❌ '+e.message,'danger');
   }
-}
-
-// ═══════════════════════════════════════════
-//  AUTO-RENDER on import page
-// ═══════════════════════════════════════════
-const _origRenderImportSteps=typeof renderImportSteps==='function'?renderImportSteps:null;
-if(_origRenderImportSteps){
-  window.renderImportSteps=function(){
-    const html=_origRenderImportSteps();
-    setTimeout(()=>{renderPacksGrid()},150);
-    return html;
-  };
 }

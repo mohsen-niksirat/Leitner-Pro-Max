@@ -1,15 +1,15 @@
 // 4. IMPORT (with Anki + URL import)
 // ═══════════════════════════════════════════
-let importStep=0,importRawText='',importWords=[],importExisting=new Set(),importSelected=new Set(),importTranslations=[],importCategory='پیش‌فرض',importFilter='all',importTransProgress={done:0,total:0};
-let textRenderedWords=[];
-let translatedItems=[];
-let selectedTextItems=[];
+export let importStep=0,importRawText='',importWords=[],importExisting=new Set(),importSelected=new Set(),importTranslations=[],importCategory='پیش‌فرض',importFilter='all',importTransProgress={done:0,total:0};
+export let textRenderedWords=[];
+export let translatedItems=[];
+export let selectedTextItems=[];
 
 // ═══ STAGED IMPORT — selection before adding ═══
-let _stagedImportCards=[]; // cards waiting for user selection
-let _stagedImportSource='';
+export let _stagedImportCards=[]; // cards waiting for user selection
+export let _stagedImportSource='';
 
-function stageImportCards(cards,source){
+export function stageImportCards(cards,source){
   const existingWords=new Set([...S.words,...S.longTerm].map(w=>w.word.toLowerCase()));
   const fresh=cards.filter(w=>!existingWords.has((w.word||'').toLowerCase())).map(sanitizeCard);
   const dupCount=cards.length-fresh.length;
@@ -26,7 +26,7 @@ function stageImportCards(cards,source){
   return true;
 }
 
-async function commitStagedImport(dest){
+export async function commitStagedImport(dest){
   const selected=_stagedImportCards.filter(c=>c._selected);
   if(!selected.length){toast('کلمه‌ای انتخاب نشده','error');return}
   const cat=document.getElementById('stgCategory')?.value||'';
@@ -76,7 +76,7 @@ async function commitStagedImport(dest){
   renderStagedImport(document.getElementById('content'));
 }
 
-function renderStagedImport(c){
+export function renderStagedImport(c){
   const cards=_stagedImportCards;
   const selCount=cards.filter(c=>c._selected).length;
   const existingWords=new Set([...S.words,...S.longTerm].map(w=>w.word.toLowerCase()));
@@ -143,23 +143,23 @@ function renderStagedImport(c){
   document.getElementById('stgAddLT').onclick=()=>commitStagedImport('longTerm');
 }
 
-function parseWords(t){return[...new Set(t.toLowerCase().replace(/[^\w\s'-]/g,' ').split(/\s+/).filter(w=>w.length>=2&&!/^\d+$/.test(w)&&!/^[^a-z]+$/.test(w)))]}
+export function parseWords(t){return[...new Set(t.toLowerCase().replace(/[^\w\s'-]/g,' ').split(/\s+/).filter(w=>w.length>=2&&!/^\d+$/.test(w)&&!/^[^a-z]+$/.test(w)))]}
 
-function calcImportStats(){
+export function calcImportStats(){
 const unique=[...new Set(importWords)];
 const newW=unique.filter(w=>!importExisting.has(w));
 return{total:importWords.length,unique:unique.length,existing:unique.length-newW.length,newCount:newW.length}}
 
-function renderImportSteps(){
+export function renderImportSteps(){
 const labels=['فایل و URL','انتخاب کلمات','ترجمه','عملیات'];
 let h='<div class="import-steps">';
 for(let i=0;i<4;i++){
 const cls=i<importStep?'done':i===importStep?'active':'';
 h+=`<div style="text-align:center"><div class="import-step-dot ${cls}">${i<importStep?'✓':i+1}</div><div class="import-step-label">${labels[i]}</div></div>`;
 if(i<3)h+=`<div class="import-step-line${i<importStep?' done':''}"></div>`}
-h+='</div>';return h}
+h+='</div>';setTimeout(()=>{if(typeof renderPacksGrid==='function')renderPacksGrid()},150);return h}
 
-function renderImport(c){
+export function renderImport(c){
 let h=renderImportSteps();
 if(importStep===0)h+=renderImportStep0();
 else if(importStep===1)h+=renderSelectableTextSection();
@@ -168,7 +168,7 @@ else if(importStep===3)h+=renderTranslatedResults();
 else if(importStep===4)h+=renderImportStep4();
 c.innerHTML=h;bindImportEvents()}
 
-function renderImportStep0(){
+export function renderImportStep0(){
 return`<div class="card" style="margin-bottom:16px">
   <h3 style="margin-bottom:10px">📂 ورود فایل</h3>
   <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
@@ -213,7 +213,7 @@ return`<div class="card" style="margin-bottom:16px">
   <div id="quickImportResult" style="margin-top:8px"></div>
 </div>`}
 
-function renderSelectableTextSection(){
+export function renderSelectableTextSection(){
 if(!textRenderedWords.length){
   if(!importRawText.trim())return`<div class="card"><p style="color:var(--text2)">متنی وارد نشده است</p></div>`;
   textRenderedWords=parseWords(importRawText).map((w,i)=>({id:i,word:w,selected:false}));
@@ -234,11 +234,11 @@ h+=`<button type="button" class="btn btn-primary" id="tsTranslate"${selCount===0
 h+=`</div></div>`;
 return h}
 
-function renderImportStep2(){
+export function renderImportStep2(){
 const pct=importTransProgress.total?Math.round(importTransProgress.done/importTransProgress.total*100):0;
 return`<div class="card import-progress-card"><div class="trans-spinner" style="width:40px;height:40px;margin:0 auto 16px;border-width:3px"></div><h3 style="margin-bottom:8px">در حال ترجمه</h3><p style="color:var(--text2)">${importTransProgress.done} از ${importTransProgress.total}</p><div class="progress-bar import-progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div></div>`}
 
-function renderTranslatedResults(){
+export function renderTranslatedResults(){
 let h=`<div class="card" style="margin-bottom:16px">`;
 h+=`<h3 style="margin-bottom:10px">نتایج ترجمه</h3>`;
 if(!translatedItems.length){
@@ -269,11 +269,11 @@ h+=`<button type="button" class="btn btn-primary" id="trAddLeitner"${selCount===
 h+=`</div></div>`;
 return h}
 
-function renderImportStep4(){
+export function renderImportStep4(){
 const added=importTransProgress.added||0,skipped=importTransProgress.skipped||0,failed=importTransProgress.failed||0;
 return`<div class="card import-done-card"><div style="font-size:3rem;margin-bottom:16px">✅</div><h2 style="margin-bottom:16px">ورود کامل شد</h2><div class="import-stat-grid" style="margin-bottom:20px"><div class="import-stat"><div class="val" style="color:var(--success)">${added}</div><div class="lbl">اضافه شد</div></div><div class="import-stat"><div class="val" style="color:var(--warning)">${skipped}</div><div class="lbl">تکراری رد شد</div></div>${failed?`<div class="import-stat"><div class="val" style="color:var(--danger)">${failed}</div><div class="lbl">ناموفق</div></div>`:''}</div><button type="button" class="btn btn-primary" id="impAgain">ورود مجدد</button></div>`}
 
-async function translateSelectedItems(){
+export async function translateSelectedItems(){
 const toTranslate=textRenderedWords.filter(w=>w.selected);
 if(!toTranslate.length)return;
 importStep=2;importTransProgress={done:0,total:toTranslate.length};
@@ -297,7 +297,7 @@ importStep=3;textRenderedWords.forEach(w=>w.selected=false);
 renderImport(document.getElementById('content'));
 toast(translatedItems.filter(t=>t.translation).length+' کلمه ترجمه شد','success')}
 
-function moveSelectedToLeitner(){
+export function moveSelectedToLeitner(){
 const toAdd=translatedItems.filter(t=>t.selected&&t.translation&&!t.moved);
 let added=0,skipped=0;
 toAdd.forEach(t=>{
@@ -310,7 +310,7 @@ renderImport(document.getElementById('content'));
 if(added)toast(added+' کلمه به لایتنر ضمیمه شد','success');
 if(skipped)toast(skipped+' کلمه تکراری بود','info')}
 
-function moveSelectedToLongTermMemory(){
+export function moveSelectedToLongTermMemory(){
 const toAdd=translatedItems.filter(t=>t.selected&&t.translation&&!t.moved);
 let added=0,skipped=0;
 toAdd.forEach(t=>{
@@ -323,18 +323,18 @@ renderImport(document.getElementById('content'));
 if(added)toast(added+' کلمه به حافظه بلندمدت ضمیمه شد','success');
 if(skipped)toast(skipped+' کلمه تکراری بود','info')}
 
-function removeSelectedItems(){
+export function removeSelectedItems(){
 translatedItems=translatedItems.filter(t=>!t.selected||t.moved);
 if(!translatedItems.filter(t=>!t.moved).length){translatedItems=[];importStep=1;textRenderedWords.forEach(w=>w.selected=false)}
 renderImport(document.getElementById('content'));
 toast('حذف شد','success')}
 
-function refreshSelectionActions(){
+export function refreshSelectionActions(){
 const activeItems=translatedItems.filter(t=>!t.moved);
 const selCount=activeItems.filter(t=>t.selected).length;
 ['trAddLeitner','trAddLTM','trRemove'].forEach(id=>{const el=document.getElementById(id);if(el)el.disabled=selCount===0})}
 
-function bindImportEvents(){
+export function bindImportEvents(){
 if(importStep===0){
 const fi=document.getElementById('fileInput');
 if(fi)fi.onchange=handleFileImport;
@@ -405,7 +405,7 @@ if(again)again.onclick=()=>{importStep=0;importWords=[];importSelected.clear();i
 // ═══════════════════════════════════════════
 // FILE IMPORT HANDLER
 // ═══════════════════════════════════════════
-async function handleFileImport(e){
+export async function handleFileImport(e){
 const file=e.target.files[0];if(!file)return;
 const ext=file.name.split('.').pop().toLowerCase();
 if(ext==='json'){const txt=await file.text();try{const d=JSON.parse(txt);const result=importStateSnapshot(d);if(!result.ok)toast(result.msg,'error')}catch(e){toast('خطا در خواندن JSON','error')}}
@@ -418,8 +418,8 @@ e.target.value=''}
 // ═══════════════════════════════════════════
 // DOCX TABLE STRUCTURED PARSER
 // ═══════════════════════════════════════════
-const DOCX_NS='http://schemas.openxmlformats.org/wordprocessingml/2006/main';
-function getDocxCellText(tc){
+export const DOCX_NS='http://schemas.openxmlformats.org/wordprocessingml/2006/main';
+export function getDocxCellText(tc){
   const ns=DOCX_NS;
   const ps=tc.querySelectorAll('p');
   const lines=[];
@@ -431,7 +431,7 @@ function getDocxCellText(tc){
   }
   return lines.join('\n');
 }
-function parseDocxTableStructured(zip){
+export function parseDocxTableStructured(zip){
   return new Promise(async (resolve,reject)=>{
     try{
       const xml=await zip.file('word/document.xml').async('text');
@@ -462,7 +462,7 @@ function parseDocxTableStructured(zip){
     }catch(e){reject(e)}
   });
 }
-function parseDocxToVocabJSON(text){
+export function parseDocxToVocabJSON(text){
   const lines=text.split('\n').map(l=>l.trim()).filter(l=>l);
   const cards=[];
   for(const line of lines){
@@ -477,8 +477,12 @@ function parseDocxToVocabJSON(text){
   }
   return cards;
 }
-function ensureJsZip(){return new Promise((resolve,reject)=>{if(window.JSZip){resolve();return}const s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js';s.onload=resolve;s.onerror=reject;document.head.appendChild(s)})}
-function decorateImportHelp(){
+function _decorateImportHelpFallback(){
   const el=document.querySelector('#import-help');
   if(el)el.innerHTML='<div style="font-size:.82rem;color:var(--text2);margin-top:10px"><b>💡 نکته:</b> فایل متنی باید هر خط شامل یک کلمه انگلیسی باشد. فرمت‌های پشتیبانی شده: TXT, CSV, JSON</div>';
 }
+
+if(typeof window!=='undefined'){
+  Object.defineProperty(window,'_stagedImportCards',{configurable:true,get:()=>_stagedImportCards,set:(v)=>{_stagedImportCards=v}});
+}
+

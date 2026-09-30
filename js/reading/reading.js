@@ -1,29 +1,29 @@
 // READING MODE (upgraded)
 // ═══════════════════════════════════════════
-let readingText='';
-let readingDoc=null;
-let readingViewMode='raw';
-let readingCurrentPage=0;
-let readingSearchQuery='';
-let readingFilterMode='all';
-let readingSelectedWords=new Set();
-let readingTransCache={};
-let readingDashboardVisible=true;
-let readingFontSize=1.05;
-let readingLineHeight=2.2;
-let readingContentTheme='default';
-function readingNormalizeWord(text){return String(text||'').trim().toLowerCase().replace(/^[^a-zA-Z]+|[^a-zA-Z']+$/g,'').replace(/'+/g,"'")}
+export let readingText='';
+export let readingDoc=null;
+export let readingViewMode='raw';
+export let readingCurrentPage=0;
+export let readingSearchQuery='';
+export let readingFilterMode='all';
+export let readingSelectedWords=new Set();
+export let readingTransCache={};
+export let readingDashboardVisible=true;
+export let readingFontSize=1.05;
+export let readingLineHeight=2.2;
+export let readingContentTheme='default';
+export function readingNormalizeWord(text){return String(text||'').trim().toLowerCase().replace(/^[^a-zA-Z]+|[^a-zA-Z']+$/g,'').replace(/'+/g,"'")}
 
 // ── Translation Cache ──────────────────────
-function getCachedTrans(word){
+export function getCachedTrans(word){
   const key=readingNormalizeWord(word);
   return readingTransCache[key]||null;
 }
-function cacheTrans(word,data){
+export function cacheTrans(word,data){
   const key=readingNormalizeWord(word);
   readingTransCache[key]=data;
 }
-async function translateBatch(words){
+export async function translateBatch(words){
   const unique=[...new Set(words.map(w=>readingNormalizeWord(w)).filter(w=>w&&w.length>=2))];
   const toTranslate=unique.filter(w=>!readingTransCache[w]);
   for(let i=0;i<toTranslate.length;i+=5){
@@ -49,7 +49,7 @@ async function translateBatch(words){
 }
 
 // ── Tokenizer: split text into proper words ──
-function tokenizeText(text){
+export function tokenizeText(text){
   // Split into words and punctuation tokens
   // "quick, brown" -> ["quick", ",", " ", "brown"]
   // "don't" stays as one word (internal apostrophe)
@@ -59,13 +59,13 @@ function tokenizeText(text){
   while((m=re.exec(text))!==null){tokens.push(m[0])}
   return tokens;
 }
-function extractCleanWords(text){
+export function extractCleanWords(text){
   // Extract only clean alphabetic words (no punctuation) for analysis
   return text.match(/[a-zA-Z]+(?:'[a-zA-Z]+)*/g)||[];
 }
 
 // ── Document Model Builder ─────────────────
-function buildReadingDoc(pages,title,sourceType){
+export function buildReadingDoc(pages,title,sourceType){
   const doc={id:uid(),title,sourceType,pages:[],rawText:'',totalPages:pages.length,totalWords:0,uniqueWords:0,occurrences:{},avgWordsPerPage:0,sentenceCount:0,paragraphCount:0,longestWords:[],mostFrequentWords:[],readingDifficulty:'متوسط',pageStats:[]};
   const allWords=[];const allNormalized=[];
   pages.forEach((p,pi)=>{
@@ -105,7 +105,7 @@ function buildReadingDoc(pages,title,sourceType){
 }
 
 // ── File Extraction ────────────────────────
-async function extractPDFForReading(file){
+export async function extractPDFForReading(file){
   await ensurePdfJs();
   toast('در حال استخراج متن PDF...','info');
   // Use a stable CDN worker URL instead of fetch+blob (blob workers are unreliable
@@ -127,7 +127,7 @@ async function extractPDFForReading(file){
   }
   return pages;
 }
-function extractTXTForReading(text,charsPerPage){
+export function extractTXTForReading(text,charsPerPage){
   charsPerPage=charsPerPage||3000;
   const pages=[];let remaining=text;
   while(remaining.length>0){
@@ -142,7 +142,7 @@ function extractTXTForReading(text,charsPerPage){
 }
 
 // ── Render Reading ─────────────────────────
-function renderReading(c){
+export function renderReading(c){
   if(!readingDoc){
     c.innerHTML='<div style="max-width:800px;margin:0 auto">'
     +'<div class="card" style="margin-bottom:16px;text-align:center;padding:32px">'
@@ -249,7 +249,7 @@ function renderReading(c){
   bindReadingEvents(c,doc);
 }
 
-function renderReadingDashboard(doc){
+export function renderReadingDashboard(doc){
   const wordCountForWPM=doc.totalWords;
   const estimatedMinutes=Math.ceil(wordCountForWPM/200);
   const estimatedSec=estimatedMinutes<1?'< 1 دقیقه':estimatedMinutes+' دقیقه';
@@ -293,7 +293,7 @@ function renderReadingDashboard(doc){
   return h;
 }
 
-function renderReadingPageContent(page,doc){
+export function renderReadingPageContent(page,doc){
   const tokens=tokenizeText(page.text);
   let searchLower=readingSearchQuery.toLowerCase();
   return tokens.map(w=>{
@@ -319,7 +319,7 @@ function renderReadingPageContent(page,doc){
   }).join('');
 }
 
-function renderPageSummary(page,doc){
+export function renderPageSummary(page,doc){
   const pageStats=doc.pageStats[page.pageNumber-1];
   if(!pageStats)return'';
   let h='<div class="reading-page-summary">';
@@ -337,7 +337,7 @@ function renderPageSummary(page,doc){
   return h;
 }
 
-function renderReadingVocabView(doc){
+export function renderReadingVocabView(doc){
   const items=doc.mostFrequentWords;
   let h='<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">';
   h+='<div class="reading-vocab-panel">';
@@ -380,7 +380,7 @@ function renderReadingVocabView(doc){
   return h;
 }
 
-async function handleReadingFile(file,c){
+export async function handleReadingFile(file,c){
   const ext=file.name.split('.').pop().toLowerCase();
   try{
     let pages,title;
@@ -400,7 +400,7 @@ async function handleReadingFile(file,c){
   }catch(e){toast('خطا در خواندن فایل: '+errMsg(e),'error')}
 }
 
-async function preloadReadingTranslations(){
+export async function preloadReadingTranslations(){
   if(!readingDoc)return;
   const page=readingDoc.pages[readingCurrentPage];
   if(!page)return;
@@ -409,11 +409,11 @@ async function preloadReadingTranslations(){
   if(unknown.length>0)await translateBatch(unknown.slice(0,30));
 }
 
-function saveReadingSession(){
+export function saveReadingSession(){
   try{if(readingDoc)localStorage.setItem('leitner_reading_session',JSON.stringify({title:readingDoc.title,sourceType:readingDoc.sourceType,page:readingCurrentPage,view:readingViewMode}))}catch(e){}
 }
 
-function bindReadingEvents(c,doc){
+export function bindReadingEvents(c,doc){
   var newFileBtn=document.getElementById('rdNewFile');
   if(newFileBtn)newFileBtn.onclick=function(){readingDoc=null;readingText='';readingCurrentPage=0;renderReading(c)};
   var closeBtn=document.getElementById('rdClose');
@@ -506,7 +506,7 @@ function bindReadingEvents(c,doc){
   if(optionsBtn)optionsBtn.onclick=function(){showReadingOptionsModal(c,doc)};
 }
 
-async function showReadingWordDetail(word,spanEl,doc){
+export async function showReadingWordDetail(word,spanEl,doc){
   var popup=document.getElementById('readingWordDetail');
   if(!popup){popup=document.createElement('div');popup.id='readingWordDetail';popup.className='reading-word-detail';document.body.appendChild(popup)}
   var rect=spanEl.getBoundingClientRect();
@@ -836,7 +836,7 @@ async function showReadingWordDetail(word,spanEl,doc){
   setTimeout(function(){body.scrollTop=0},50);
 }
 
-function showBatchAddPanel(doc){
+export function showBatchAddPanel(doc){
   var unknown=Object.entries(doc.occurrences).filter(function(entry){return !wordExists(entry[0])}).sort(function(a,b){return b[1].count-a[1].count});
   if(!unknown.length){toast('همه کلمات در کتابخانه موجود هستند','info');return}
   var ov=document.createElement('div');ov.className='modal-overlay';
@@ -897,7 +897,7 @@ function showBatchAddPanel(doc){
   ov.onclick=function(e){if(e.target===ov)ov.remove()};
 }
 
-function showPageJumpModal(doc,callback){
+export function showPageJumpModal(doc,callback){
   var ov=document.createElement('div');ov.className='modal-overlay';
   // Build page list with preview
   var pagesHtml='';
@@ -950,7 +950,7 @@ function showPageJumpModal(doc,callback){
   setTimeout(function(){var inp=ov.querySelector('#jumpPageInput');if(inp)inp.focus();inp.select()},100);
 }
 
-function showReadingOptionsModal(c,doc){
+export function showReadingOptionsModal(c,doc){
   var ov=document.createElement('div');ov.className='modal-overlay';
   function renderOptionsModal(){
     var themeNames={default:'پیش‌فرض',sepia:'سپیا',night:'شب',forest:'جنگل',ocean:'اقیانوس'};
@@ -1065,7 +1065,7 @@ function showReadingOptionsModal(c,doc){
   ov.onclick=function(e){if(e.target===ov)ov.remove()};
 }
 
-function showReadingStatsModal(doc){
+export function showReadingStatsModal(doc){
   var ov=document.createElement('div');ov.className='modal-overlay';
   var unknownWords=Object.entries(doc.occurrences).filter(function(e){return !wordExists(e[0])}).sort(function(a,b){return b[1].count-a[1].count});
   var knownWords=Object.entries(doc.occurrences).filter(function(e){return wordExists(e[0])}).sort(function(a,b){return b[1].count-a[1].count});
@@ -1126,7 +1126,7 @@ function showReadingStatsModal(doc){
   ov.onclick=function(e){if(e.target===ov)ov.remove()};
 }
 
-function exportReadingVocab(doc){
+export function exportReadingVocab(doc){
   var vocab=Object.entries(doc.occurrences).sort(function(a,b){return b[1].count-a[1].count}).map(function(entry){
     var word=entry[0],o=entry[1];
     var cached=getCachedTrans(word)||{};
@@ -1140,3 +1140,14 @@ function exportReadingVocab(doc){
 
 
 
+
+
+if(typeof window!=='undefined'){
+  Object.defineProperty(window,'readingDoc',{configurable:true,get:()=>readingDoc,set:(v)=>{readingDoc=v}});
+  Object.defineProperty(window,'readingViewMode',{configurable:true,get:()=>readingViewMode,set:(v)=>{readingViewMode=v}});
+  Object.defineProperty(window,'readingCurrentPage',{configurable:true,get:()=>readingCurrentPage,set:(v)=>{readingCurrentPage=v}});
+  Object.defineProperty(window,'readingDashboardVisible',{configurable:true,get:()=>readingDashboardVisible,set:(v)=>{readingDashboardVisible=v}});
+  Object.defineProperty(window,'readingFontSize',{configurable:true,get:()=>readingFontSize,set:(v)=>{readingFontSize=v}});
+  Object.defineProperty(window,'readingLineHeight',{configurable:true,get:()=>readingLineHeight,set:(v)=>{readingLineHeight=v}});
+  Object.defineProperty(window,'readingContentTheme',{configurable:true,get:()=>readingContentTheme,set:(v)=>{readingContentTheme=v}});
+}
