@@ -74,13 +74,28 @@ function importSpeakAiCardsToLeitner(rawCards) {
   return addedCount;
 }
 
+function cleanToken(raw) {
+  return String(raw || '')
+    .replace(/[\u200B-\u200F\u202A-\u202E\u2066-\u2069\uFEFF]/g, '')
+    .trim()
+    .replace(/^['"`]+|['"`]+$/g, '')
+    .replace(/^Bearer\s+/i, '')
+    .trim();
+}
+
 async function syncAiKeysToSpeakAi(notifyUser = false) {
   try {
     const aiChat = await idbGet('ai_chat');
     const apiKeys = aiChat?.apiKeys || {};
-    const geminiKeys = (Array.isArray(apiKeys.gemini) ? apiKeys.gemini : []).map(k => String(k || '').trim()).filter(Boolean);
-    const openrouterKeys = (Array.isArray(apiKeys.openrouter) ? apiKeys.openrouter : []).map(k => String(k || '').trim()).filter(Boolean);
-    const groqKeys = (Array.isArray(apiKeys.groq) ? apiKeys.groq : []).map(k => String(k || '').trim()).filter(Boolean);
+    const geminiKeys = (Array.isArray(apiKeys.gemini) ? apiKeys.gemini : [])
+      .map(cleanToken)
+      .filter(k => k.startsWith('AIza'));
+    const openrouterKeys = (Array.isArray(apiKeys.openrouter) ? apiKeys.openrouter : [])
+      .map(cleanToken)
+      .filter(Boolean);
+    const groqKeys = (Array.isArray(apiKeys.groq) ? apiKeys.groq : [])
+      .map(cleanToken)
+      .filter(Boolean);
 
     if (!geminiKeys.length && !openrouterKeys.length && !groqKeys.length) {
       if (notifyUser) {
@@ -100,10 +115,19 @@ async function syncAiKeysToSpeakAi(notifyUser = false) {
 
     const upsertProvider = (id, name, kind, baseUrl, model, reportModel, keys) => {
       if (!keys.length) return;
-      const existing = current.providers.find(p => p.kind === kind && p.baseUrl === baseUrl);
+      const existing = current.providers.find(p => p.id === id || (p.kind === kind && p.baseUrl === baseUrl));
       if (existing) {
-        const merged = Array.from(new Set([...(existing.keys || []), ...keys]));
-        existing.keys = merged;
+        const merged = Array.from(new Set([...(existing.keys || []).map(cleanToken).filter(Boolean), ...keys]));
+        existing.keys = id === 'prov-leitner-gemini' ? merged.filter(k => k.startsWith('AIza')) : merged;
+        if (
+          baseUrl.includes('openrouter.ai') &&
+          (existing.model === 'meta-llama/llama-3.3-70b-instruct:free' ||
+            existing.model === 'deepseek/deepseek-chat-v3-0324:free' ||
+            existing.model === 'google/gemini-2.0-flash-exp:free')
+        ) {
+          existing.model = model;
+          existing.reportModel = reportModel;
+        }
       } else {
         current.providers.push({
           id,
@@ -141,16 +165,16 @@ async function syncAiKeysToSpeakAi(notifyUser = false) {
       'OpenRouter',
       'openai-chat',
       'https://openrouter.ai/api/v1',
-      'meta-llama/llama-3.3-70b-instruct:free',
-      'meta-llama/llama-3.3-70b-instruct:free',
+      'openrouter/free',
+      'openrouter/free',
       openrouterKeys
     );
 
-    if (!current.voiceProviderId && current.providers.length > 0) {
-      current.voiceProviderId = current.providers[0].id;
+    if (!current.voiceProviderId || !current.providers.some(p => p.id === current.voiceProviderId)) {
+      current.voiceProviderId = current.providers[0]?.id ?? null;
     }
-    if (!current.reportProviderId && current.providers.length > 0) {
-      current.reportProviderId = current.providers[0].id;
+    if (!current.reportProviderId || !current.providers.some(p => p.id === current.reportProviderId)) {
+      current.reportProviderId = current.providers[0]?.id ?? null;
     }
 
     localStorage.setItem(SPEAKAI_PROVIDERS_KEY, JSON.stringify(current));
