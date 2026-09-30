@@ -6,7 +6,7 @@ const { test, expect } = require('@playwright/test');
 const TABS = [
   'review', 'quiz', 'engquiz', 'library', 'longterm', 'wordweb',
   'import', 'vocabforge', 'export', 'reading', 'pdfreader', 'pdfmobile',
-  'stats', 'aichat', 'settings', 'about'
+  'stats', 'aichat', 'speakai', 'settings', 'about'
 ];
 
 test.describe('Smoke — every tab renders', () => {

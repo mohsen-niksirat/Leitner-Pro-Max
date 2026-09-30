@@ -23,7 +23,8 @@ export const NAV_GROUPS=[
 ]},
 {label:'ابزارها',items:[
 {id:'stats',label:'آمار و تقویم',icon:'📊'},
-{id:'aichat',label:'هوش مصنوعی',icon:'🤖'}
+{id:'aichat',label:'هوش مصنوعی',icon:'🤖'},
+{id:'speakai',label:'مربی مکالمه',icon:'🎙️'}
 ]},
 {label:'سیستم',items:[
 {id:'settings',label:'تنظیمات',icon:'⚙️'},
@@ -63,7 +64,7 @@ renderNav();
 // Render daily challenge widget in sidebar
 const dcw=document.getElementById('dailyChallengeWidget');
 if(dcw&&typeof renderDailyChallengeWidget==='function')dcw.innerHTML=renderDailyChallengeWidget();
-const titles={review:'مرور',quiz:'آزمون',engquiz:'تعیین سطح',library:'کتابخانه',longterm:'حافظه بلندمدت',import:'ورود',reading:'خواندن',pdfreader:'خواننده PDF',pdfmobile:'خواننده PDF موبایل',wordweb:'نقشه واژگان',stats:'آمار و تقویم',export:'خروج / پشتیبان',aichat:'چت با هوش مصنوعی',vocabforge:'وکب فورج',settings:'تنظیمات',about:'درباره'};
+const titles={review:'مرور',quiz:'آزمون',engquiz:'تعیین سطح',library:'کتابخانه',longterm:'حافظه بلندمدت',import:'ورود',reading:'خواندن',pdfreader:'خواننده PDF',pdfmobile:'خواننده PDF موبایل',wordweb:'نقشه واژگان',stats:'آمار و تقویم',export:'خروج / پشتیبان',aichat:'چت با هوش مصنوعی',speakai:'مربی مکالمه هوشمند',vocabforge:'وکب فورج',settings:'تنظیمات',about:'درباره'};
 document.getElementById('pageTitle').textContent=titles[currentTab]||'';
 // Help button in topbar (if this tab has help text)
 var _th=document.getElementById('topActions');
@@ -72,7 +73,7 @@ if(_th){var _existingHelp=_th.querySelector('[onclick*="showHelp"]');if(HELP_DIC
 const dueBadge=getDueAll().length;
 document.title=dueBadge>0?'('+dueBadge+') لایتنر — '+titles[currentTab]:'لایتنر — مرور هوشمند';
 const c=document.getElementById('content');
-const renders={review:renderReview,library:renderLibrary,longterm:renderLongterm,import:(_stagedImportCards.length?renderStagedImport:renderImport),reading:renderReading,pdfreader:renderPDFReader,pdfmobile:renderPDFMobile,wordweb:renderWordWeb,export:renderExport,stats:renderStats,quiz:renderQuiz,engquiz:renderEngQuiz,aichat:renderAiChat,vocabforge:renderVocabforge,settings:renderSettings,about:renderAbout};
+const renders={review:renderReview,library:renderLibrary,longterm:renderLongterm,import:(_stagedImportCards.length?renderStagedImport:renderImport),reading:renderReading,pdfreader:renderPDFReader,pdfmobile:renderPDFMobile,wordweb:renderWordWeb,export:renderExport,stats:renderStats,quiz:renderQuiz,engquiz:renderEngQuiz,aichat:renderAiChat,speakai:renderSpeakAi,vocabforge:renderVocabforge,settings:renderSettings,about:renderAbout};
 const _renderFn=renders[currentTab];
 if(_renderFn){
   try{

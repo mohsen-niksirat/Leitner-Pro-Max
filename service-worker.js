@@ -50,6 +50,8 @@ const PRECACHE_URLS = [
   './js/ai/chat-template.js',
   './js/ai/providers.js',
   './js/ai/ai-manager.js',
+  './js/ai/speakai-coach.js',
+  './speakai/index.html',
   './js/word-web/word-web.js',
   './js/ui/help-vocabforge.js',
   './js/ui/tags-drive.js',

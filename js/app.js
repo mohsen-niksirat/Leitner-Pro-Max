@@ -23,6 +23,7 @@ import { getDailyChallenge, renderDailyChallengeWidget, RELEASE_HISTORY, ABOUT_F
 import { libSelected, toggleLibSelect, updateBulkBar, getAllTags, tagCount, openTagManager, assignTagToIds, removeTagFromIds, bulkAddTagPrompt, bulkRemoveTagPrompt, quizStrengthLabel, isAdaptiveQuiz, DRIVE_SCOPE, DRIVE_FILE, driveSettings, loadGisLib, handleTokenResp, initTokenClient, ensureDriveToken, driveFindFile, driveUpload, driveDownload, syncNow, restoreFromDrive, disconnectDrive, maybeAutoSync, checkDriveOnLoad } from './ui/tags-drive.js';
 import { trackWordAdded, toast } from './ui/toast.js';
 import { renderAiChat } from './ai/ai-manager.js';
+import { renderSpeakAi } from './ai/speakai-coach.js';
 
 import * as navigationMod from './ui/navigation.js';
 import * as libraryMod from './vocabulary/library.js';
@@ -86,7 +87,7 @@ Object.assign(window, {
   reviewSession, findCardById, autoPlayState, AUTO_PLAY_SPEEDS, stopAutoPlay, startAutoPlay, autoPlayTick, autoPlayScheduleNext, updateAutoPlayCountdown, renderAutoPlayBar,
   getDue, dueCards, getDueAll, prioritizeReviewQueue, startReview, renderReview, rateReview, reviewKeyHandler,
   // Toast & AI
-  trackWordAdded, toast, renderAiChat
+  trackWordAdded, toast, renderAiChat, renderSpeakAi
 });
 
 for (const mod of [

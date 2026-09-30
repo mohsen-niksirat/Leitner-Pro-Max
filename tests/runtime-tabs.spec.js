@@ -1,7 +1,7 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
 
-const TABS = ['review','quiz','engquiz','library','longterm','wordweb','import','vocabforge','export','reading','pdfreader','pdfmobile','stats','aichat','settings','about'];
+const TABS = ['review','quiz','engquiz','library','longterm','wordweb','import','vocabforge','export','reading','pdfreader','pdfmobile','stats','aichat','speakai','settings','about'];
 
 test('runtime monitor: every tab has no uncaught errors or failed same-origin requests', async ({ page }) => {
   const pageErrors = [];
