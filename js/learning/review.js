@@ -15,10 +15,35 @@ function updateAutoPlayCountdown(){var el=document.getElementById('apCountdown')
 function renderAutoPlayBar(){return'<div class="auto-play-bar" id="autoPlayBar"><div class="auto-play-label"><div class="auto-play-dot"></div>پخش خودکار</div><button type="button" class="btn btn-ghost btn-sm" id="apPauseBtn" title="مکث/ادامه">'+(autoPlayState.paused?'▶️':'⏸️')+'</button><button type="button" class="btn btn-danger btn-sm" id="apStopBtn" title="توقف">⏹️</button><div class="auto-play-speed"><span>سرعت:</span><select id="apSpeedSelect"><option value="slow"'+(autoPlayState.speed==='slow'?' selected':'')+'>آهسته</option><option value="normal"'+(autoPlayState.speed==='normal'?' selected':'')+'>عادی</option><option value="fast"'+(autoPlayState.speed==='fast'?' selected':'')+'>سریع</option><option value="turbo"'+(autoPlayState.speed==='turbo'?' selected':'')+'>خیلی سریع</option></select></div><div class="auto-play-timer" id="apCountdown"></div></div>'}
 function getDue(){return S.words.filter(w=>!w.nextReviewDate||new Date(w.nextReviewDate)<=new Date())}
 function getDueAll(){return[...S.words,...S.longTerm].filter(w=>!w.nextReviewDate||new Date(w.nextReviewDate)<=new Date())}
+function prioritizeReviewQueue(cards){
+  const now=Date.now();
+  const stateOrder={relearning:0,learning:1,review:2,new:3};
+  return [...cards].sort((a,b)=>{
+    const sa=stateOrder[a.fsrsState||'new']??3;
+    const sb=stateOrder[b.fsrsState||'new']??3;
+    if(sa!==sb)return sa-sb;
+    // Overdue days (more overdue first)
+    const dueA=a.nextReviewDate?Math.max(0,(now-new Date(a.nextReviewDate).getTime())/MS_PER_DAY):0;
+    const dueB=b.nextReviewDate?Math.max(0,(now-new Date(b.nextReviewDate).getTime())/MS_PER_DAY):0;
+    if(Math.abs(dueB-dueA)>0.5)return dueB-dueA;
+    // Lower stability (more fragile memory) first
+    const stabA=Number(a.stability)||0;
+    const stabB=Number(b.stability)||0;
+    if(Math.abs(stabA-stabB)>0.2)return stabA-stabB;
+    // Higher lapses/difficulty first
+    const diffA=(Number(a.lapses)||0)*2+(Number(a.difficulty)||0);
+    const diffB=(Number(b.lapses)||0)*2+(Number(b.difficulty)||0);
+    if(diffB!==diffA)return diffB-diffA;
+    // For new cards, prioritize higher frequency words (tier 1 > 2 > 3 > 0)
+    const tierA=typeof getFrequencyTier==='function'?(getFrequencyTier(a.word)||99):99;
+    const tierB=typeof getFrequencyTier==='function'?(getFrequencyTier(b.word)||99):99;
+    return tierA-tierB;
+  });
+}
 function startReview(){
 const due=getDue();
 if(!due.length){toast('هیچ کارتی برای مرور نیست','info');return}
-reviewSession={queue:due.sort(()=>Math.random()-.5),idx:0,flipped:false,correct:0,wrong:0,done:false,startTime:Date.now()};
+reviewSession={queue:prioritizeReviewQueue(due),idx:0,flipped:false,correct:0,wrong:0,done:false,startTime:Date.now()};
 renderReview(document.getElementById('content'))}
 function renderReview(c){
 if(reviewSession.done){
@@ -80,7 +105,7 @@ if(footerItems.length)footerHtml='<div class="rb-footer">'+footerItems.join('')+
 backHtml=rbSections.join('')+footerHtml;
 const autoPlayBarHtml=autoPlayState.active?renderAutoPlayBar():'';
 const autoPlayStartBtn=!autoPlayState.active?`<div style="text-align:center;margin-bottom:14px"><button type="button" class="btn btn-ghost btn-sm" id="autoPlayStartBtn" style="font-size:.8rem;gap:6px">▶️ پخش خودکار</button></div>`:'';
-c.innerHTML=`<div style="max-width:500px;margin:0 auto">${autoPlayBarHtml}${autoPlayStartBtn}<div class="flex" style="justify-content:space-between;margin-bottom:16px"><span style="color:var(--text2)">${reviewSession.idx+1} از ${reviewSession.queue.length}</span><div class="flex" style="gap:4px"><span class="badge badge-accent">${w.box>0?'جعبه '+w.box:'جدید'}</span>${tier?`<span class="badge tier-${tier}">${tierLabel(tier)}</span>`:''}</div></div><div class="progress-bar"><div class="progress-fill" style="width:${prog}%"></div></div>${reviewSearchHtml}<div class="review-card" id="rCard" tabindex="0" role="button" aria-label="کارت مرور — برای نمایش پاسخ کلیک یا Enter بزنید" aria-live="polite"><div class="review-inner"><div class="review-face"><div style="font-size:1.8rem;font-weight:700;margin-bottom:12px">${esc(w.word)} <button type="button" class="trans-audio-btn" id="reviewSpeakBtn" title="شنیدن تلفظ" style="vertical-align:middle;font-size:1rem">🔊</button></div>${(S.settings.cardTemplate||{}).showIpa!==false&&w.ipa?`<div style="color:var(--text2);font-size:.9rem">${esc(w.ipa)}</div>`:''}<div style="color:var(--text2);font-size:.8rem;margin-top:16px">برای نمایش پاسخ کلیک کنید</div></div><div class="review-face review-back" style="justify-content:flex-start;padding-top:20px;overflow-y:auto;max-height:100%"><div class="rb-header"><span class="rb-word">${esc(w.word)}</span>${w.ipa?`<span class="rb-ipa">${esc(w.ipa)}</span>`:''}${w.partOfSpeech?`<span class="rb-pos">${esc(w.partOfSpeech)}</span>`:''}${tier?`<span class="badge tier-${tier}" style="font-size:.6rem">${tierLabel(tier)}</span>`:''}</div><div class="rb-translation">${esc(w.translation)}</div>${w.category&&w.category!=='پیش‌فرض'?`<div style="text-align:center;margin-bottom:12px"><span class="tag">${esc(w.category)}</span></div>`:''}${backHtml}<div class="rb-dialects" style="margin-top:10px;display:flex;gap:6px;justify-content:center;flex-wrap:wrap"><span style="color:var(--text2);font-size:.72rem;align-self:center">تلفظ:</span><button type="button" class="btn btn-ghost btn-sm" data-dialect="us" style="font-size:.72rem;padding:4px 10px">🇺🇸 US</button><button type="button" class="btn btn-ghost btn-sm" data-dialect="uk" style="font-size:.72rem;padding:4px 10px">🇬🇧 UK</button><button type="button" class="btn btn-ghost btn-sm" data-dialect="au" style="font-size:.72rem;padding:4px 10px">🇦🇺 AU</button><button type="button" class="btn btn-ghost btn-sm" data-dialect="in" style="font-size:.72rem;padding:4px 10px">🇮🇳 IN</button></div><div style="margin-top:12px;gap:6px;justify-content:center;flex-wrap:wrap"><button type="button" class="btn btn-ghost btn-sm" id="reviewEnrichBtn" style="font-size:.75rem">🔍 غنی‌سازی سریع</button><button type="button" class="btn btn-ghost btn-sm" id="reviewTransBtn" style="font-size:.75rem">🌐 ترجمه</button><button type="button" class="btn btn-ghost btn-sm" id="reviewEditBtn" style="font-size:.75rem">✏️ ویرایش</button></div></div></div></div></div><div class="rating-bar" id="ratingBar" style="display:none"><button type="button" class="btn btn-danger btn-sm" data-rate="1">❌ نادرست <kbd style="font-size:.6rem;opacity:.6">۱</kbd></button><button type="button" class="btn btn-ghost btn-sm" data-rate="3">😐 سخت <kbd style="font-size:.6rem;opacity:.6">۲</kbd></button><button type="button" class="btn btn-primary btn-sm" data-rate="4">🙂 خوب <kbd style="font-size:.6rem;opacity:.6">۳</kbd></button><button type="button" class="btn btn-success btn-sm" data-rate="5">😄 عالی <kbd style="font-size:.6rem;opacity:.6">۴</kbd></button></div><div style="text-align:center;margin-top:12px"><button type="button" class="btn btn-ghost btn-sm" id="wordDrillBtn" style="font-size:.8rem;gap:6px">📚 تمرین و توضیح کلمه</button></div></div>`;
+c.innerHTML=`<div style="max-width:500px;margin:0 auto">${autoPlayBarHtml}${autoPlayStartBtn}<div class="flex" style="justify-content:space-between;margin-bottom:16px"><span style="color:var(--text2)">${reviewSession.idx+1} از ${reviewSession.queue.length}</span><div class="flex" style="gap:4px"><span class="badge badge-accent">${w.box>0?'جعبه '+w.box:'جدید'}</span>${tier?`<span class="badge tier-${tier}">${tierLabel(tier)}</span>`:''}</div></div><div class="progress-bar"><div class="progress-fill" style="width:${prog}%"></div></div>${reviewSearchHtml}<div class="review-card" id="rCard" tabindex="0" role="button" aria-label="کارت مرور — برای نمایش پاسخ کلیک یا Enter بزنید" aria-live="polite"><div class="review-inner"><div class="review-face"><div style="font-size:1.8rem;font-weight:700;margin-bottom:12px">${esc(w.word)} <button type="button" class="trans-audio-btn" id="reviewSpeakBtn" title="شنیدن تلفظ (S)" style="vertical-align:middle;font-size:1rem">🔊</button></div>${(S.settings.cardTemplate||{}).showIpa!==false&&w.ipa?`<div style="color:var(--text2);font-size:.9rem">${esc(w.ipa)}</div>`:''}<div style="color:var(--text2);font-size:.8rem;margin-top:16px">برای نمایش پاسخ کلیک کنید <kbd style="font-size:.65rem;opacity:.7;padding:1px 5px;border:1px solid var(--border);border-radius:4px">Space</kbd></div></div><div class="review-face review-back" style="justify-content:flex-start;padding-top:20px;overflow-y:auto;max-height:100%"><div class="rb-header"><span class="rb-word">${esc(w.word)}</span>${w.ipa?`<span class="rb-ipa">${esc(w.ipa)}</span>`:''}${w.partOfSpeech?`<span class="rb-pos">${esc(w.partOfSpeech)}</span>`:''}${tier?`<span class="badge tier-${tier}" style="font-size:.6rem">${tierLabel(tier)}</span>`:''}</div><div class="rb-translation">${esc(w.translation)}</div>${w.category&&w.category!=='پیش‌فرض'?`<div style="text-align:center;margin-bottom:12px"><span class="tag">${esc(w.category)}</span></div>`:''}${backHtml}<div class="rb-dialects" style="margin-top:10px;display:flex;gap:6px;justify-content:center;flex-wrap:wrap"><span style="color:var(--text2);font-size:.72rem;align-self:center">تلفظ:</span><button type="button" class="btn btn-ghost btn-sm" data-dialect="us" style="font-size:.72rem;padding:4px 10px">🇺🇸 US</button><button type="button" class="btn btn-ghost btn-sm" data-dialect="uk" style="font-size:.72rem;padding:4px 10px">🇬🇧 UK</button><button type="button" class="btn btn-ghost btn-sm" data-dialect="au" style="font-size:.72rem;padding:4px 10px">🇦🇺 AU</button><button type="button" class="btn btn-ghost btn-sm" data-dialect="in" style="font-size:.72rem;padding:4px 10px">🇮🇳 IN</button></div><div style="margin-top:12px;gap:6px;justify-content:center;flex-wrap:wrap"><button type="button" class="btn btn-ghost btn-sm" id="reviewEnrichBtn" style="font-size:.75rem">🔍 غنی‌سازی سریع</button><button type="button" class="btn btn-ghost btn-sm" id="reviewTransBtn" style="font-size:.75rem">🌐 ترجمه</button><button type="button" class="btn btn-ghost btn-sm" id="reviewEditBtn" style="font-size:.75rem">✏️ ویرایش</button></div></div></div></div><div class="rating-bar" id="ratingBar" style="display:none"><button type="button" class="btn btn-danger btn-sm" data-rate="1">❌ نادرست <kbd style="font-size:.6rem;opacity:.6">۱</kbd></button><button type="button" class="btn btn-ghost btn-sm" data-rate="3">😐 سخت <kbd style="font-size:.6rem;opacity:.6">۲</kbd></button><button type="button" class="btn btn-primary btn-sm" data-rate="4">🙂 خوب <kbd style="font-size:.6rem;opacity:.6">۳</kbd></button><button type="button" class="btn btn-success btn-sm" data-rate="5">😄 عالی <kbd style="font-size:.6rem;opacity:.6">۴</kbd></button></div><div style="text-align:center;margin-top:12px"><button type="button" class="btn btn-ghost btn-sm" id="wordDrillBtn" style="font-size:.8rem;gap:6px">📚 تمرین و توضیح کلمه <kbd style="font-size:.6rem;opacity:.6">D</kbd></button></div><div style="text-align:center;margin-top:8px;font-size:.7rem;color:var(--text2);opacity:.75">میانبرها: <kbd>Space</kbd> برگرداندن · <kbd>۱-۴</kbd> امتیاز · <kbd>S</kbd> تلفظ · <kbd>D</kbd> تمرین · <kbd>E</kbd> ویرایش · <kbd>←/→</kbd> جابجایی</div></div>`;
 const card=document.getElementById('rCard');
 const ratingBar=document.getElementById('ratingBar');
 card.onclick=()=>{if(autoPlayState.active)return;if(reviewSession.flipped)return;reviewSession.flipped=true;card.classList.add('flipped');ratingBar.style.display='flex'};
@@ -225,9 +250,38 @@ reviewRatingPending=false;
 renderReview(document.getElementById('content'))}
 function reviewKeyHandler(e){
 if(autoPlayState.active)return;
+if(currentTab!=='review'||reviewSession.done||!reviewSession.queue.length)return;
 if(document.querySelector('.modal-overlay'))return;
-if(e.key===' '&&reviewSession.flipped===false&&currentTab==='review'){e.preventDefault();const card=document.getElementById('rCard');if(card){reviewSession.flipped=true;card.classList.add('flipped');document.getElementById('ratingBar').style.display='flex'}}
-if(reviewSession.flipped&&currentTab==='review'&&!reviewRatingPending){const map={'1':1,'2':3,'3':4,'4':5};if(map[e.key])rateReview(map[e.key])}}
+const tag=e.target&&e.target.tagName;
+if(tag==='INPUT'||tag==='TEXTAREA'||tag==='SELECT'||(e.target&&e.target.isContentEditable))return;
+if(e.ctrlKey||e.altKey||e.metaKey)return;
+const w=reviewSession.queue[reviewSession.idx];
+if((e.key===' '||e.key==='Enter')&&reviewSession.flipped===false){
+  e.preventDefault();
+  const card=document.getElementById('rCard');
+  if(card){reviewSession.flipped=true;card.classList.add('flipped');const rb=document.getElementById('ratingBar');if(rb)rb.style.display='flex'}
+  return;
+}
+if(reviewSession.flipped&&!reviewRatingPending){
+  const map={'1':1,'2':3,'3':4,'4':5,'۱':1,'۲':3,'۳':4,'۴':5};
+  if(map[e.key]){e.preventDefault();rateReview(map[e.key]);return}
+}
+if(w&&(e.key==='s'||e.key==='S'||e.key==='س')){
+  e.preventDefault();speakWord(w.word);return;
+}
+if(w&&(e.key==='d'||e.key==='D'||e.key==='ی')){
+  e.preventDefault();openWordDrill(w);return;
+}
+if(w&&reviewSession.flipped&&(e.key==='e'||e.key==='E'||e.key==='ث')){
+  e.preventDefault();if(typeof editWord==='function')editWord(w.id,()=>renderReview(document.getElementById('content')));return;
+}
+if(e.key==='ArrowLeft'&&reviewSession.idx<reviewSession.queue.length-1){
+  e.preventDefault();reviewSession.idx++;reviewSession.flipped=false;renderReview(document.getElementById('content'));return;
+}
+if(e.key==='ArrowRight'&&reviewSession.idx>0){
+  e.preventDefault();reviewSession.idx--;reviewSession.flipped=false;renderReview(document.getElementById('content'));return;
+}
+}
 
 // ═══════════════════════════════════════════
 // WORD DRILL — تمرین و توضیح کلمه

@@ -134,7 +134,7 @@ async function loadPDFMobile(file){
     preloadReadingTranslations();
   }catch(err){
     if(status)status.textContent='';
-    toast('خطا در خواندن فایل: '+err.message,'error');
+    toast('خطا در خواندن فایل: '+errMsg(err),'error');
   }
 }
 function savePdfmBookmark(){

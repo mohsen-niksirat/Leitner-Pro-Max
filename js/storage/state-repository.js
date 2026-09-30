@@ -18,7 +18,7 @@ function finite(value, fallback) {
   return Number.isFinite(n) ? n : fallback;
 }
 
-function normalizeCard(input = {}, idFactory = () => `${Date.now()}-${Math.random()}`) {
+export function normalizeCard(input = {}, idFactory = () => `${Date.now()}-${Math.random()}`) {
   const source = input && typeof input === 'object' ? input : {};
   const word = String(source.word ?? source.text ?? '').trim();
   return {
@@ -39,7 +39,7 @@ function normalizeCard(input = {}, idFactory = () => `${Date.now()}-${Math.rando
   };
 }
 
-function hydrateState(raw, idFactory) {
+export function hydrateState(raw, idFactory) {
   const base = createDefaultState();
   const source = raw && typeof raw === 'object' ? raw : {};
   return {
@@ -67,7 +67,7 @@ function readLegacySnapshot(storage, keys = ['leitner_v2', 'leitner_v1', 'leitne
   return null;
 }
 
-function createStateRepository({ storage, loadIdb, saveIdb, legacyKeys } = {}) {
+export function createStateRepository({ storage, loadIdb, saveIdb, legacyKeys } = {}) {
   let current = createDefaultState();
   return {
     get() { return current; },

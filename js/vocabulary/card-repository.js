@@ -2,7 +2,7 @@ function keyOf(word) {
   return String(word ?? '').trim().toLocaleLowerCase();
 }
 
-function buildCardRepository({ state, cardFactory = value => ({ ...value }) } = {}) {
+export function buildCardRepository({ state, cardFactory = value => ({ ...value }) } = {}) {
   if (!state || !Array.isArray(state.words) || !Array.isArray(state.longTerm)) {
     throw new TypeError('Card repository requires state.words and state.longTerm arrays');
   }
@@ -87,5 +87,3 @@ function buildCardRepository({ state, cardFactory = value => ({ ...value }) } = 
     rebuildIndex
   });
 }
-
-if (typeof window !== 'undefined') window.__createCardRepositoryFactory = buildCardRepository;

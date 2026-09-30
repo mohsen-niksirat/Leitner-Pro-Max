@@ -1,7 +1,8 @@
 // ═══════════════════════════════════════════
 // ERROR BOUNDARY HELPER
 // ═══════════════════════════════════════════
-function withErrorBoundary(fn, fallback) {
+// NOTE: toast and esc are resolved from global scope during transition period
+export function withErrorBoundary(fn, fallback) {
   return function() {
     try {
       return fn.apply(this, arguments);

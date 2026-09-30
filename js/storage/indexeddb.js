@@ -1,18 +1,18 @@
 // ═══════════════════════════════════════════
 // STATE & STORAGE
 // ═══════════════════════════════════════════
-const LS_KEY='leitner_v2';
-const LS_KEY_V1='leitner_v1';
-const LS_KEY_OLD='leitner_state'; // very old monolithic key
-const LS_BACKUP_KEY='leitner_backup';
-const SCHEMA_VERSION=3;
+export const LS_KEY='leitner_v2';
+export const LS_KEY_V1='leitner_v1';
+export const LS_KEY_OLD='leitner_state'; // very old monolithic key
+export const LS_BACKUP_KEY='leitner_backup';
+export const SCHEMA_VERSION=3;
 
 // ═══ IndexedDB Storage — unlimited, offline ═══
-const IDB_NAME='leitnerDB';
-const IDB_STORE='data';
+export const IDB_NAME='leitnerDB';
+export const IDB_STORE='data';
 let _db=null;
 
-function openDB(){
+export function openDB(){
   return new Promise(function(resolve,reject){
     if(_db){resolve(_db);return}
     const req=indexedDB.open(IDB_NAME,1);
@@ -25,7 +25,7 @@ function openDB(){
   });
 }
 
-function idbPut(key,value){
+export function idbPut(key,value){
   return openDB().then(function(db){
     return new Promise(function(resolve,reject){
       const tx=db.transaction(IDB_STORE,'readwrite');
@@ -36,7 +36,7 @@ function idbPut(key,value){
   });
 }
 
-function idbGet(key){
+export function idbGet(key){
   return openDB().then(function(db){
     return new Promise(function(resolve,reject){
       const tx=db.transaction(IDB_STORE,'readonly');

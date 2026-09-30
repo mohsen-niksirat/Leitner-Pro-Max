@@ -1,4 +1,4 @@
-function normalizeVocabularyWord(value) {
+export function normalizeVocabularyWord(value) {
   return String(value ?? '')
     .normalize('NFKC')
     .trim()
@@ -6,7 +6,7 @@ function normalizeVocabularyWord(value) {
     .replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}'-]+$/gu, '');
 }
 
-function deduplicateVocabulary(words) {
+export function deduplicateVocabulary(words) {
   const seen = new Set();
   return (Array.isArray(words) ? words : []).reduce((result, value) => {
     const word = normalizeVocabularyWord(value);
@@ -18,7 +18,7 @@ function deduplicateVocabulary(words) {
   }, []);
 }
 
-function createVocabularyService({ repository, cardFactory = value => ({ ...value }) } = {}) {
+export function createVocabularyService({ repository, cardFactory = value => ({ ...value }) } = {}) {
   if (!repository || typeof repository.add !== 'function') {
     throw new TypeError('Vocabulary service requires a card repository');
   }
@@ -35,5 +35,3 @@ function createVocabularyService({ repository, cardFactory = value => ({ ...valu
   }
   return Object.freeze({ normalize: normalizeVocabularyWord, deduplicate: deduplicateVocabulary, prepareCard, addWord, importWords });
 }
-
-if (typeof window !== 'undefined') window.__createVocabularyService = createVocabularyService;

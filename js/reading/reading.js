@@ -108,9 +108,14 @@ function buildReadingDoc(pages,title,sourceType){
 async function extractPDFForReading(file){
   await ensurePdfJs();
   toast('در حال استخراج متن PDF...','info');
-  if(!pdfjsLib.GlobalWorkerOptions.workerSrc||pdfjsLib.GlobalWorkerOptions.workerSrc.includes('cdnjs')){
-    try{const wr=await fetch('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js');const wb=await wr.blob();pdfjsLib.GlobalWorkerOptions.workerSrc=URL.createObjectURL(wb)}catch(x){pdfjsLib.GlobalWorkerOptions.workerSrc=''}
-  }
+  // Use a stable CDN worker URL instead of fetch+blob (blob workers are unreliable
+  // on iOS/mobile Safari and can cause the extraction promise to reject).
+  try{
+    var _ws=pdfjsLib.GlobalWorkerOptions.workerSrc||'';
+    if(!_ws||_ws.indexOf('blob:')===0||_ws.indexOf('cdnjs')>=0){
+      pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    }
+  }catch(x){}
   const buf=await file.arrayBuffer();
   const pdf=await pdfjsLib.getDocument({data:buf,disableFontFace:false,useSystemFonts:true,cMapUrl:'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/cmaps/',cMapPacked:true}).promise;
   const pages=[];
@@ -223,8 +228,7 @@ function renderReading(c){
   h+='</div>';
   if(readingViewMode==='vocab'){
     h+=renderReadingVocabView(doc);
-  }else if(doc.totalPages>1){
-    h+='<div class="reading-page-marker"><strong>📄 صفحه '+page.pageNumber+'</strong> — '+page.totalWords+' کلمه، '+page.uniqueWords+' منحصربفرد</div>';
+  }else{
     const contentThemeStyles={
     default:'',
     sepia:'background:#f5edd6;color:#433422;border-color:#d4c5a9',
@@ -233,10 +237,13 @@ function renderReading(c){
     ocean:'background:#1a2230;color:#c8d8e8;border-color:#334858'
   };
   const contentStyle='font-size:'+readingFontSize+'rem;line-height:'+readingLineHeight+(contentThemeStyles[readingContentTheme]?';'+contentThemeStyles[readingContentTheme]:'')+'"';
-  h+='<div class="reading-content-area" id="rdContentArea" style="'+contentStyle+'">'+renderReadingPageContent(page,doc)+'</div>';
-    h+=renderPageSummary(page,doc);
-  }else{
+    if(doc.totalPages>1){
+      h+='<div class="reading-page-marker"><strong>📄 صفحه '+page.pageNumber+'</strong> — '+page.totalWords+' کلمه، '+page.uniqueWords+' منحصربفرد</div>';
+    }
     h+='<div class="reading-content-area" id="rdContentArea" style="'+contentStyle+'">'+renderReadingPageContent(page,doc)+'</div>';
+    if(doc.totalPages>1){
+      h+=renderPageSummary(page,doc);
+    }
   }
   c.innerHTML=h;
   bindReadingEvents(c,doc);
@@ -390,7 +397,7 @@ async function handleReadingFile(file,c){
     saveReadingSession();renderReading(c);
     toast(file.name+' بارگذاری شد ('+readingDoc.totalPages+' صفحه)','success');
     preloadReadingTranslations();
-  }catch(e){toast('خطا در خواندن فایل: '+e.message,'error')}
+  }catch(e){toast('خطا در خواندن فایل: '+errMsg(e),'error')}
 }
 
 async function preloadReadingTranslations(){

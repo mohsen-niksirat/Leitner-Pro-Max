@@ -1,27 +1,26 @@
-// Compatibility bridge for the classic-script composition root.
-const createCardRepositoryFactory = window.__createCardRepositoryFactory;
+// Compatibility bridge for the composition root.
+import { buildCardRepository } from './card-repository.js';
 
 let repository = null;
 let boundState = null;
-function getCardRepository() {
+export function getCardRepository() {
   const state = window.S;
   if (!state) throw new Error('Card repository is not ready: state is missing');
   if (repository && boundState === state) return repository;
-  if (typeof createCardRepositoryFactory !== 'function') throw new Error('Card repository is not ready: factory is missing');
-  repository = createCardRepositoryFactory({
+  const factory = typeof buildCardRepository === 'function' ? buildCardRepository : window.__createCardRepositoryFactory;
+  if (typeof factory !== 'function') throw new Error('Card repository is not ready: factory is missing');
+  repository = factory({
     state,
     cardFactory: input => typeof window.createCard === 'function' ? window.createCard(input) : { ...input }
   });
   boundState = state;
   return repository;
 }
-function resetCardRepository() { repository = null; boundState = null; }
-window.cardRepository = { get: getCardRepository, reset: resetCardRepository };
-window.getCardRepository = getCardRepository;
+export function resetCardRepository() { repository = null; boundState = null; }
 
 // Safe add that keeps the repository index consistent. Falls back to a direct
 // push (with duplicate guard) if the repository is not available yet.
-function repoAdd(card, target) {
+export function repoAdd(card, target) {
   const repo = window.cardRepository && typeof window.cardRepository.get === 'function' ? window.cardRepository.get() : null;
   if (repo) return repo.add(card, target || 'words');
   if (!card || !String(card.word || '').trim()) return { added: false, reason: 'invalid', card };
@@ -31,4 +30,10 @@ function repoAdd(card, target) {
   list.push(card);
   return { added: true, reason: null, card };
 }
-window.repoAdd = repoAdd;
+
+export const cardRepository = { get: getCardRepository, reset: resetCardRepository };
+if (typeof window !== 'undefined') {
+  window.cardRepository = cardRepository;
+  window.getCardRepository = getCardRepository;
+  window.repoAdd = repoAdd;
+}

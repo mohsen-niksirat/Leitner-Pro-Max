@@ -5,9 +5,9 @@ const path = require('node:path');
 
 function load(file, names, extra = {}) {
   let code = fs.readFileSync(path.join(__dirname, '..', '..', file), 'utf8');
-  code = code.replace(/^export\s+function\s+/gm, 'function ')
-    .replace(/^export\s+const\s+/gm, 'const ')
-    .replace(/^export\s+\{[^}]+\};?\s*$/gm, '');
+  // Strip ES Module syntax so the code runs in vm context (Node CJS environment)
+  code = code.replace(/^\s*export\s+(default\s+)?/gm, '');
+  code = code.replace(/^\s*import\s+.*?from\s+['"][^'"]+['"]\s*;?\s*$/gm, '');
   const context = { console, Math, Date, Promise, Set, Map, ...extra };
   vm.createContext(context);
   vm.runInContext(`${code}\nthis.__exports={${names.map(n => `${n}:${n}`).join(',')}}`, context, { filename: file });
@@ -25,7 +25,7 @@ function timed(label, fn) {
 const N = 10_000;
 
 (async () => {
-  // ── 1. Repository scale: 10k cards ──────────────────────────────
+  // ── 1. Repository scale: 10k cards ──────────────────────────────────
   const { createDefaultState, normalizeCard, hydrateState } = load('js/storage/state-repository.js', ['createDefaultState', 'normalizeCard', 'hydrateState']);
   const { buildCardRepository } = load('js/vocabulary/card-repository.js', ['buildCardRepository']);
 
@@ -73,14 +73,14 @@ const N = 10_000;
   assert.equal(JSON.stringify(hydrated.words[0].definitions), '[]');
   assert.ok(hydMs < 3000, `hydrateState too slow: ${hydMs}ms`);
 
-  // ── 3. Import: parseWords on a large text ───────────────────────
+  // ── 3. Import: parseWords on a large text ────────────────────────────
   const { parseWords } = load('js/vocabulary/import.js', ['parseWords'], { window: {}, document: {}, localStorage: { getItem: () => null }, indexedDB: {} });
   const bigText = Array.from({ length: 3000 }, (_, i) => `The quick brown fox jumps over word${i} and lazy dogs.`).join(' ');
   const { result: parsed, ms: parseMs } = timed(`parseWords on ${bigText.length} chars`, () => parseWords(bigText));
   assert.ok(parsed.length >= 3000, `expected >=3000 unique words, got ${parsed.length}`);
   assert.ok(parseMs < 3000, `parseWords too slow: ${parseMs}ms`);
 
-  // ── 4. Pagination bounds with large totals ──────────────────────
+  // ── 4. Pagination bounds with large totals ───────────────────────────
   const { paginate } = load('js/vocabulary/library.js', ['paginate'], { S: { words: [], longTerm: [] } });
   const { result: pageOut, ms: pageMs } = timed('paginate 10k with pageSize 50', () => {
     let last = null;
@@ -92,7 +92,7 @@ const N = 10_000;
   assert.equal(pageOut.end, 199 * 50 + 50);
   assert.ok(pageMs < 500, `paginate too slow: ${pageMs}ms`);
 
-  // ── 5. Vocabulary dedup scale ───────────────────────────────────
+  // ── 5. Vocabulary dedup scale ───────────────────────────────────────
   const { deduplicateVocabulary } = load('js/vocabulary/vocabulary-service.js', ['deduplicateVocabulary']);
   const many = Array.from({ length: N }, (_, i) => (i % 2 ? `Word${i % 5000}` : `word${i % 5000}`));
   const { result: deduped, ms: dedupMs } = timed(`deduplicateVocabulary ${N} entries`, () => deduplicateVocabulary(many));

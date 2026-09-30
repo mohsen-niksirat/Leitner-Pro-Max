@@ -1,20 +1,48 @@
 import { APP_CONFIG } from './config.js';
+import { MS_PER_DAY, PDF_DEFAULT_SCALE, PDF_THUMB_SCALE, FSRS_DECAY_COEFF, LIST_PAGE_SIZE } from './core/constants.js';
+import { esc, errMsg, uid, fmtDate, todayKey } from './core/utils.js';
+import { loadDep, ensureChartJs, ensurePdfJs, ensureJsZip } from './core/dependencies.js';
+import { withErrorBoundary } from './core/error-handler.js';
+import { LS_KEY, LS_KEY_V1, LS_KEY_OLD, LS_BACKUP_KEY, SCHEMA_VERSION, IDB_NAME, IDB_STORE, openDB, idbPut, idbGet } from './storage/indexeddb.js';
+import { S, save, saveForce, saveNow, loadFromIDB, sanitizeCard, hydrateState, defaultState, loadLegacyState, loadState, stateSnapshotSizeKB, renderStorageMeter } from './storage/state.js';
+import { buildCardRepository } from './vocabulary/card-repository.js';
+import { getCardRepository, resetCardRepository, repoAdd, cardRepository } from './vocabulary/card-repository-bridge.js';
+import { getPlayerId, submitScore, getLeaderboard, renderLeaderboard } from './statistics/leaderboard.js';
+import { FSRS_W, FSRS_RETENTION, FSRS_MAX_INTERVAL, FSRS_DECAY, fsrsRetrieveProbability, fsrsInitialDifficulty, fsrsInitialStability, fsrsShortTermStability, fuzzInterval, fsrsNext, clampReviewValues, sm2Legacy, mapRating } from './learning/fsrs.js';
+import { trackWordAdded, toast } from './ui/toast.js';
 
-const MODULES = [
-  './js/core/dependencies.js',
-  './js/core/constants.js',
-  './js/storage/indexeddb.js',
-  './js/core/utils.js',
-  './js/storage/state.js',
-  './js/core/error-handler.js',
+// ── Expose core API on window so legacy non-module scripts can still access them ──
+// (These assignments will be removed one-by-one as each module is migrated)
+Object.assign(window, {
+  // Constants
+  MS_PER_DAY, PDF_DEFAULT_SCALE, PDF_THUMB_SCALE, FSRS_DECAY_COEFF, LIST_PAGE_SIZE, SCHEMA_VERSION,
+  IDB_NAME, IDB_STORE, LS_KEY, LS_KEY_V1, LS_KEY_OLD, LS_BACKUP_KEY,
+  // Utils & Core
+  esc, errMsg, uid, fmtDate, todayKey,
+  loadDep, ensureChartJs, ensurePdfJs, ensureJsZip,
+  withErrorBoundary,
+  // Storage & State
+  openDB, idbPut, idbGet, loadFromIDB,
+  save, saveForce, saveNow,
+  sanitizeCard, hydrateState, defaultState, loadLegacyState, loadState, stateSnapshotSizeKB, renderStorageMeter,
+  // Vocabulary Repository
+  __createCardRepositoryFactory: buildCardRepository,
+  buildCardRepository, getCardRepository, resetCardRepository, repoAdd, cardRepository,
+  // Leaderboard
+  getPlayerId, submitScore, getLeaderboard, renderLeaderboard,
+  // FSRS
+  FSRS_W, FSRS_RETENTION, FSRS_MAX_INTERVAL, FSRS_DECAY,
+  fsrsRetrieveProbability, fsrsInitialDifficulty, fsrsInitialStability, fsrsShortTermStability,
+  fuzzInterval, fsrsNext, clampReviewValues, sm2Legacy, mapRating,
+  // Toast
+  trackWordAdded, toast
+});
+
+// ── Legacy script loader (for modules not yet converted to ES Modules) ──
+const LEGACY_MODULES = [
   './js/vocabulary/vocabulary.js',
-  './js/vocabulary/card-repository.js',
-  './js/vocabulary/card-repository-bridge.js',
   './js/storage/backup.js',
-  './js/statistics/leaderboard.js',
-  './js/learning/fsrs.js',
   './js/learning/review.js',
-  './js/ui/toast.js',
   './js/vocabulary/enrichment.js',
   './js/ui/translation-popup.js',
   './js/ui/navigation.js',
@@ -49,7 +77,7 @@ function loadClassicScript(src) {
 }
 
 async function loadApplication() {
-  for (const moduleUrl of MODULES) {
+  for (const moduleUrl of LEGACY_MODULES) {
     await loadClassicScript(moduleUrl);
   }
 }

@@ -1,4 +1,7 @@
 // IndexedDB is the source of truth. The legacy localStorage snapshot is read only once for migration.
+// NOTE: Most dependencies (toast, render, rebuildIndex, etc.) are still resolved from window
+// during this transition phase — they will be migrated in subsequent refactor steps.
+
 loadFromIDB().then(function(idbData){
   if(idbData){
     S=hydrateState(idbData);

@@ -4,13 +4,13 @@
 const LEADERBOARD_KEY='leitner_leaderboard';
 const PLAYER_ID_KEY='leitner_player_id';
 
-function getPlayerId(){
+export function getPlayerId(){
   let id=localStorage.getItem(PLAYER_ID_KEY);
   if(!id){id='player_'+uid();localStorage.setItem(PLAYER_ID_KEY,id)}
   return id;
 }
 
-function submitScore(){
+export function submitScore(){
   const lb=JSON.parse(localStorage.getItem(LEADERBOARD_KEY)||'[]');
   const playerId=getPlayerId();
   const existing=lb.findIndex(e=>e.id===playerId);
@@ -32,11 +32,11 @@ function submitScore(){
   return entry;
 }
 
-function getLeaderboard(){
+export function getLeaderboard(){
   return JSON.parse(localStorage.getItem(LEADERBOARD_KEY)||'[]').sort((a,b)=>b.xp-a.xp);
 }
 
-function renderLeaderboard(){
+export function renderLeaderboard(){
   const lb=getLeaderboard();
   const playerId=getPlayerId();
   if(!lb.length)return'<p style="color:var(--text2);font-size:.85rem;text-align:center;padding:20px">هنوز امتیازی ثبت نشده</p>';

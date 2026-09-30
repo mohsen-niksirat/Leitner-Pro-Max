@@ -6,10 +6,9 @@ const path = require('node:path');
 
 function load(file, names, extra = {}) {
   let code = fs.readFileSync(path.join(__dirname, '..', '..', file), 'utf8');
-  const exports = [];
-  code = code.replace(/^export\s+function\s+/gm, 'function ')
-    .replace(/^export\s+const\s+/gm, 'const ')
-    .replace(/^export\s+\{[^}]+\};?\s*$/gm, '');
+  // Strip ES Module syntax so the code runs in vm context (Node CJS environment)
+  code = code.replace(/^\s*export\s+(default\s+)?/gm, '');
+  code = code.replace(/^\s*import\s+.*?from\s+['"][^'"]+['"]\s*;?\s*$/gm, '');
   const context = { console, Math, Date, Promise, Set, Map, ...extra };
   vm.createContext(context);
   vm.runInContext(`${code}\nthis.__exports={${names.map(n => `${n}:${n}`).join(',')}}`, context, { filename: file });

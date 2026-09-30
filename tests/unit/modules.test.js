@@ -5,10 +5,9 @@ const path = require('node:path');
 
 function load(file, names, extra = {}) {
   let code = fs.readFileSync(path.join(__dirname, '..', '..', file), 'utf8');
-  code = code.replace(/^\s*export\s+const\s+/gm, 'const ');
-  code = code.replace(/^\s*export\s+function\s+/gm, 'function ');
-  code = code.replace(/^\s*export\s+\{[^}]+\};?\s*$/m, '');
-  code = code.replace(/^\s*export\s+\{[^}]+\};?\s*$/m, '');
+  // Strip ES Module syntax so the code runs in vm context (Node CJS environment)
+  code = code.replace(/^\s*export\s+(default\s+)?/gm, '');
+  code = code.replace(/^\s*import\s+.*?from\s+['"][^'"]+['"]\s*;?\s*$/gm, '');
   const context = { console, Math, Date, Blob, Set, Map, Promise, ...extra };
   context.window = context;
   vm.createContext(context);
@@ -64,4 +63,22 @@ function load(file, names, extra = {}) {
   assert.equal(migrate(null), null);
 }
 
-console.log('unit modules: FSRS, storage/card index, vocabulary, migration passed');
+{
+  const { prioritizeReviewQueue } = load('js/learning/review.js', ['prioritizeReviewQueue'], {
+    MS_PER_DAY: 86400000,
+    getFrequencyTier: w => (w === 'the' ? 1 : 3)
+  });
+  const now = Date.now();
+  const cards = [
+    { id: 'new-rare', word: 'obscure', fsrsState: 'new' },
+    { id: 'new-common', word: 'the', fsrsState: 'new' },
+    { id: 'rev-recent', word: 'alpha', fsrsState: 'review', stability: 10, nextReviewDate: new Date(now - 86400000).toISOString() },
+    { id: 'rev-overdue', word: 'beta', fsrsState: 'review', stability: 2, nextReviewDate: new Date(now - 5 * 86400000).toISOString() },
+    { id: 'relearning', word: 'gamma', fsrsState: 'relearning', stability: 0.5 }
+  ];
+  const sorted = prioritizeReviewQueue(cards).map(c => c.id);
+  assert.equal(JSON.stringify(sorted), JSON.stringify(['relearning', 'rev-overdue', 'rev-recent', 'new-common', 'new-rare']));
+}
+
+console.log('unit modules: FSRS, storage/card index, vocabulary, migration, review priority passed');
+

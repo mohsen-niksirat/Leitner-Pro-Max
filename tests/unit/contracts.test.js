@@ -5,6 +5,9 @@ const vm = require('node:vm');
 
 function load(file, names, extra = {}) {
   let code = fs.readFileSync(path.join(__dirname, '..', '..', file), 'utf8');
+  // Strip ES Module syntax so the code runs in vm context (Node CJS environment)
+  code = code.replace(/^\s*export\s+(default\s+)?/gm, '');
+  code = code.replace(/^\s*import\s+.*?from\s+['"][^'"]+['"]\s*;?\s*$/gm, '');
   const context = { console, Math, Date, Promise, Set, Map, ...extra };
   vm.createContext(context);
   vm.runInContext(`${code}\nthis.__exports={${names.map(n => `${n}: typeof ${n} !== 'undefined' ? ${n} : undefined`).join(',')}}`, context);

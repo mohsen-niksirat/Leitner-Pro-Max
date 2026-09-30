@@ -1,36 +1,38 @@
 // ═══════════════════════════════════════════
 // FSRS ALGORITHM (self-contained, improved)
 // ═══════════════════════════════════════════
-// FSRS-5 weights (17 parameters) — tuned defaults
-const FSRS_W=[0.4,0.6,2.4,5.8,4.93,0.94,0.86,0.01,1.49,0.14,0.94,2.18,0.05,0.34,1.26,0.29,2.61];
-const FSRS_RETENTION=0.9;
-const FSRS_MAX_INTERVAL=365;
-const FSRS_DECAY=-0.5; // Power-law decay exponent
+import { MS_PER_DAY, FSRS_DECAY_COEFF } from '../core/constants.js';
 
-function fsrsRetrieveProbability(stability,elapsed){
+// FSRS-5 weights (17 parameters) — tuned defaults
+export const FSRS_W=[0.4,0.6,2.4,5.8,4.93,0.94,0.86,0.01,1.49,0.14,0.94,2.18,0.05,0.34,1.26,0.29,2.61];
+export const FSRS_RETENTION=0.9;
+export const FSRS_MAX_INTERVAL=365;
+export const FSRS_DECAY=-0.5; // Power-law decay exponent
+
+export function fsrsRetrieveProbability(stability,elapsed){
   if(stability<=0)return 0;
   return Math.pow(1+elapsed/(FSRS_W[9]*stability),FSRS_DECAY);
 }
-function fsrsInitialDifficulty(rating){
+export function fsrsInitialDifficulty(rating){
   return Math.min(Math.max(FSRS_W[4]-Math.exp(FSRS_W[5]*(rating-1))+1,1),10);
 }
-function fsrsInitialStability(rating){return FSRS_W[rating-1]}
+export function fsrsInitialStability(rating){return FSRS_W[rating-1]}
 
 // Short-term stability model: after first learning step
-function fsrsShortTermStability(stability,rating){
+export function fsrsShortTermStability(stability,rating){
   // Stability boost for short-term reviews (same-day)
   return stability*Math.exp(FSRS_W[15]*(rating-3));
 }
 
 // Interval fuzzing: add ±5% jitter to prevent review clustering
-function fuzzInterval(interval){
+export function fuzzInterval(interval){
   if(interval<=2)return interval;
   const fuzzRange=Math.max(1,Math.round(interval*0.05));
   const fuzzed=interval+Math.floor(Math.random()*(2*fuzzRange+1))-fuzzRange;
   return Math.max(1,fuzzed);
 }
 
-function fsrsNext(w,rating){
+export function fsrsNext(w,rating){
   // rating: 1=Again,2=Hard,3=Good,4=Easy
   const state=w.fsrsState||'new';
   const now=new Date();
@@ -149,7 +151,7 @@ function fsrsNext(w,rating){
   return w;
 }
 
-function clampReviewValues(w){
+export function clampReviewValues(w){
   w.repetitions=Math.max(0,Number(w.repetitions)||0);
   w.interval=Math.max(1,Number(w.interval)||1);
   w.easeFactor=Math.max(1.3,Number(w.easeFactor)||2.5);
@@ -162,7 +164,7 @@ function clampReviewValues(w){
   if(w.fsrsState===undefined)w.fsrsState='new';
 }
 
-function sm2Legacy(w,q){
+export function sm2Legacy(w,q){
   clampReviewValues(w);
   const now=Date.now();
   if(q<3){w.repetitions=0;w.interval=1}
@@ -175,7 +177,4 @@ function sm2Legacy(w,q){
   return w}
 
 // Map old 1-5 rating to FSRS 1-4
-function mapRating(q){return q<=1?1:q<=3?2:q===4?3:4}
-
-if(typeof window!=='undefined')window.__createLearningService=window.__createLearningService||function(){return {rate:function(card,rating){if(!card||rating<1||rating>4)return {ok:false,reason:'invalid-rating',card};return {ok:true,card:fsrsNext({...card},rating)}},due:function(cards,at){var t=new Date(at||Date.now()).getTime();return (cards||[]).filter(function(card){if(!card||!card.nextReviewDate)return true;var d=new Date(card.nextReviewDate).getTime();return isNaN(d)||d<=t})}}};
-
+export function mapRating(q){return q<=1?1:q<=3?2:q===4?3:4}
