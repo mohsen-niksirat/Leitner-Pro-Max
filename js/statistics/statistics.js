@@ -1,7 +1,7 @@
 // 7. STATISTICS (with heatmap + forecast)
 // ═══════════════════════════════════════════
 let boxChart=null,weekChart=null,forecastChart=null;
-function renderStats(c){
+export function renderStats(c){
 const dk=todayKey();
 const todayH=S.stats.history[dk]||{reviewed:0,correct:0,wrong:0};
 const dueCount=getDueAll().length;
@@ -73,7 +73,7 @@ lbCard.innerHTML='<h3 style="margin-bottom:12px">🏆 جدول امتیازات<
 c.appendChild(lbCard);
 }
 
-function buildHeatmap(totalDays){
+export function buildHeatmap(totalDays){
   let html='<div class="heatmap">';
   const now=new Date();
   for(let i=totalDays-1;i>=0;i--){
@@ -88,7 +88,7 @@ function buildHeatmap(totalDays){
   return html;
 }
 
-function buildForecast(days){
+export function buildForecast(days){
   const labels=[];
   const data=[];
   const now=new Date();
@@ -102,5 +102,3 @@ function buildForecast(days){
   }
   return{labels,data};
 }
-
-// ═══════════════════════════════════════════

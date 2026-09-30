@@ -1,6 +1,6 @@
 // DAILY CHALLENGE — چالش روزانه
 // ═══════════════════════════════════════════
-function getDailyChallenge(){
+export function getDailyChallenge(){
   const dk=todayKey();
   const history=S.stats.history[dk]||{reviewed:0,correct:0,wrong:0};
   const streak=S.stats.streak||0;
@@ -9,7 +9,7 @@ function getDailyChallenge(){
   return {history,streak,dailyGoal,progress,completed:history.reviewed>=dailyGoal,reviewed:history.reviewed,correct:history.correct,wrong:history.wrong};
 }
 
-function renderDailyChallengeWidget(){
+export function renderDailyChallengeWidget(){
   const dc=getDailyChallenge();
   return `<div style="padding:12px 16px;background:linear-gradient(135deg,var(--accent),#764ba2);border-radius:12px;margin:8px 10px;color:#fff">
     <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px"><span style="font-size:.82rem;font-weight:600">🏆 چالش روزانه</span><span style="font-size:.75rem;opacity:.8">🔥 ${dc.streak} روز</span></div>
@@ -18,7 +18,7 @@ function renderDailyChallengeWidget(){
   </div>`;
 }
 
-const RELEASE_HISTORY=[
+export const RELEASE_HISTORY=[
   {version:'۴.۰',title:'پایداری و انتشار',items:['Error Boundary برای جلوگیری از توقف کل برنامه','فشرده‌سازی CSS و JS و کاهش حجم خروجی','GitHub Actions و انتشار خودکار روی GitHub Pages']},
   {version:'۳.۸.۳',title:'ذخیره‌سازی و ابزارهای مطالعه',items:['مهاجرت از localStorage به IndexedDB','ورود انتخابی با مقصد کتابخانه یا حافظه بلندمدت','پخش خودکار مرور با چهار سرعت','PDF Reader با canvas، لایه متن و ناوبری','اتصال VocabForge و بهبود جستجو']},
   {version:'۳.۸.۲',title:'Reading و Word Web',items:['پنل اطلاعات و تنظیمات فونت، فاصله خطوط و تم محتوا','نقشه واژگان با فیلتر، زوم، پن و خروجی PNG','خروجی CSV و Anki و آمار تفصیلی','اهداف روزانه، تنظیمات آزمون و مدیریت دسته‌ها']},
@@ -28,23 +28,23 @@ const RELEASE_HISTORY=[
   {version:'۳.۵',title:'آزمون هوشمند',items:['انتخاب کلمات ضعیف','دشواری تطبیقی','چهار حالت جدید آزمون','به‌روزرسانی خودکار وضعیت لایتنر']}
 ];
 
-const ABOUT_FEATURES=[
+export const ABOUT_FEATURES=[
   '🧠 مرور هوشمند با الگوریتم FSRS و زمان‌بندی تطبیقی','📚 کتابخانه و حافظه بلندمدت با دسته، برچسب و جستجو','🎯 آزمون‌های چندحالته، تمرین کلمه و تعیین سطح CEFR','📄 خواندن PDF/TXT، ترجمه و استخراج واژگان','⚒️ VocabForge برای استخراج و غنی‌سازی واژگان','🤖 چت AI با چند provider و پشتیبانی تصویر','📊 آمار، XP، سطح، تقویم، Heatmap و پیش‌بینی','📱 PWA قابل نصب، ذخیره‌سازی محلی و قابلیت‌های آفلاین','💾 ورود/خروج JSON، CSV، Anki و پشتیبان‌گیری','🌐 رابط فارسی، تم‌های متنوع و دسترسی‌پذیری'
 ];
 
-const CURRENT_RELEASE_FEATURES=[
+export const CURRENT_RELEASE_FEATURES=[
   '🎨 تم‌های تاریک، روشن، اقیانوسی، جنگلی، غروب، اسطوخودوسی و کنتراست بالا','⚡ هماهنگ‌سازی نسخه Service Worker و اعلان نسخه جدید','🔐 اعتبارسنجی URL تصاویر AI و حذف proxyهای عمومی از allowlist','💾 Backup کامل‌تر با quiz، PDF bookmark و تنظیمات Reading','🧪 اجرای مستقل تست‌های unit و بررسی syntax'
 ];
 
-function aboutFeatureMarkup(items, current){
+export function aboutFeatureMarkup(items, current){
   return items.map(item=>`<div class="about-feature-item${current?' current':''}">${esc(item)}</div>`).join('');
 }
 
-function releaseMarkup(release,index){
+export function releaseMarkup(release,index){
   return `<details class="about-version"${index===0?' open':''}><summary><span><b>نسخه ${esc(release.version)}</b> — ${esc(release.title)}</span><small>مشاهده تغییرات</small></summary><div class="about-version-items">${release.items.map(item=>`<div>• ${esc(item)}</div>`).join('')}</div></details>`;
 }
 
-function renderAbout(c){
+export function renderAbout(c){
   const currentVersion=typeof APP_CONFIG!=='undefined'&&APP_CONFIG.version?APP_CONFIG.version:'۵.۰';
   c.innerHTML=`<div style="max-width:700px;margin:0 auto">
     <div class="about-hero"><div class="about-hero-icon">📚</div><h2>برنامه مرور هوشمند واژگان لایتنر</h2><p>نسخه ${esc(currentVersion)} — Leitner Pro Max</p><small>الگوریتم FSRS (Free Spaced Repetition Scheduler)</small></div>

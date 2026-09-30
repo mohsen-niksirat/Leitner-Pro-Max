@@ -1,18 +1,18 @@
 // ═══════════════════════════════════════════
 // TRANSLATION HELPERS
 // ═══════════════════════════════════════════
-const DICT_API='https://api.dictionaryapi.dev/api/v2/entries/en';
-const MYMEMORY_API='https://api.mymemory.translated.net/get';
-const RETRY_MAX=1; // کاهش از ۳ به ۱ — کش منفی وجود نداره، retry سریعتر از backoff
-const FETCH_TIMEOUT_MS=8000; // کاهش از ۱۲ به ۸ — جلوگیری از معلق شدن workerها
-function retryDelay(attempt,retryAfter){const parsed=Number(retryAfter);return Math.min(4000,Number.isFinite(parsed)&&parsed>0?parsed*1000:300*Math.pow(2,attempt)+Math.round(Math.random()*100))}
-function timedFetch(url,options,timeoutMs){
+export const DICT_API='https://api.dictionaryapi.dev/api/v2/entries/en';
+export const MYMEMORY_API='https://api.mymemory.translated.net/get';
+export const RETRY_MAX=1; // کاهش از ۳ به ۱ — کش منفی وجود نداره، retry سریعتر از backoff
+export const FETCH_TIMEOUT_MS=8000; // کاهش از ۱۲ به ۸ — جلوگیری از معلق شدن workerها
+export function retryDelay(attempt,retryAfter){const parsed=Number(retryAfter);return Math.min(4000,Number.isFinite(parsed)&&parsed>0?parsed*1000:300*Math.pow(2,attempt)+Math.round(Math.random()*100))}
+export function timedFetch(url,options,timeoutMs){
   const controller=new AbortController();
   const timer=setTimeout(()=>controller.abort(),timeoutMs||FETCH_TIMEOUT_MS);
   const opts=Object.assign({},options,{signal:controller.signal});
   return fetch(url,opts).finally(()=>clearTimeout(timer));
 }
-async function fetchWithRetry(url,options){
+export async function fetchWithRetry(url,options){
   let lastError=null;
   for(let attempt=0;attempt<=RETRY_MAX;attempt++){
     try{
@@ -29,18 +29,18 @@ async function fetchWithRetry(url,options){
   }
   throw lastError||new Error('request failed');
 }
-const LANGUAGES={en:'English',fa:'فارسی',de:'Deutsch',fr:'Français',es:'Español',it:'Italiano',tr:'Türkçe',ar:'العربية',ru:'Русский',pt:'Português',zh:'中文',ja:'日本語',ko:'한국어'};
+export const LANGUAGES={en:'English',fa:'فارسی',de:'Deutsch',fr:'Français',es:'Español',it:'Italiano',tr:'Türkçe',ar:'العربية',ru:'Русский',pt:'Português',zh:'中文',ja:'日本語',ko:'한국어'};
 
-function normalizeWordLookup(text){
+export function normalizeWordLookup(text){
   return text.trim().toLowerCase().replace(/^[^a-zA-Z]+|[^a-zA-Z']+$/g,'').replace(/'+/g,"'")}
 
-function playAudioUrl(url){
+export function playAudioUrl(url){
   if(!url)return;
   const a=new Audio(url);
   a.play().catch(()=>{})}
 
 // Dialect → preferred speechSynthesis voice match patterns
-const PRONUNCIATION_DIALECTS={
+export const PRONUNCIATION_DIALECTS={
   us:{label:'🇺🇸 آمریکایی',lang:'en-US',patterns:[/-US/i,/en-US/i],audioKey:'audioUs',phoneticKey:'phoneticUs'},
   uk:{label:'🇬🇧 بریتانیایی',lang:'en-GB',patterns:[/-GB/i,/en-GB/i,/-UK/i],audioKey:'audioBr',phoneticKey:'phoneticBr'},
   au:{label:'🇦🇺 استرالیایی',lang:'en-AU',patterns:[/-AU/i,/en-AU/i],audioKey:null,phoneticKey:null},
@@ -54,7 +54,7 @@ if(typeof window!=='undefined'&&window.speechSynthesis){
     else{setTimeout(function(){_voiceCache=null},500)}
   }catch(e){}
 }
-function getVoicesByDialect(){
+export function getVoicesByDialect(){
   if(!window.speechSynthesis)return{};
   if(!_voiceCache||_voiceCache._ts<Date.now()-5000){
     const voices=speechSynthesis.getVoices();
@@ -70,7 +70,7 @@ function getVoicesByDialect(){
   return _voiceCache;
 }
 
-function speakWord(word,lang,dialect){
+export function speakWord(word,lang,dialect){
   if(!word||!window.speechSynthesis)return;
   window.speechSynthesis.cancel();
   // If a real audio file exists for this dialect, prefer it over TTS
@@ -91,16 +91,16 @@ function speakWord(word,lang,dialect){
   u.rate=S&&S.settings&&S.settings.speechRate?S.settings.speechRate:0.85;
   window.speechSynthesis.speak(u)}
 
-function decodeHtmlEntities(str){
+export function decodeHtmlEntities(str){
   const el=document.createElement('textarea');
   el.innerHTML=str;return el.value}
 
 // ── IndexedDB-backed lookup cache (shared by review, library, reading, PDF) ──
 // Same pattern as VocabForge: keys prefixed app_cache_ in the main leitnerDB.
 let _appCacheMem={};
-const APP_CACHE_TTL=30*24*60*60*1000;
-function appCacheKey(kind,word,fromLang,toLang){return 'app_cache_'+kind+':'+(fromLang||'en')+'-'+(toLang||'fa')+':'+normalizeWordLookup(word)}
-async function appCacheLookup(kind,word,compute,fromLang,toLang){
+export const APP_CACHE_TTL=30*24*60*60*1000;
+export function appCacheKey(kind,word,fromLang,toLang){return 'app_cache_'+kind+':'+(fromLang||'en')+'-'+(toLang||'fa')+':'+normalizeWordLookup(word)}
+export async function appCacheLookup(kind,word,compute,fromLang,toLang){
   const key=appCacheKey(kind,word,fromLang,toLang);
   const now=Date.now();
   const fresh=value=>{if(!value||typeof value!=='object'||!value._cachedAt)return null;if(now-value._cachedAt>=APP_CACHE_TTL)return null;if(value.value===null||value.status==='failed')return null;return value};
@@ -114,14 +114,14 @@ async function appCacheLookup(kind,word,compute,fromLang,toLang){
   }catch(error){}
   return null;
 }
-function appCacheInvalidate(word){
+export function appCacheInvalidate(word){
   Object.keys(_appCacheMem).filter(k=>k.endsWith(':'+normalizeWordLookup(word))).forEach(k=>delete _appCacheMem[k]);
   if(typeof idbGet!=='function')return;
   try{idbPut(appCacheKey('trans',word),null).catch(()=>{});idbPut(appCacheKey('dict',word),null).catch(()=>{})}catch(e){}
 }
 // Flush all lookup caches (app_cache_* translation/dictionary + vf_cache_*)
 // from IndexedDB and the in-memory memo, keeping user vocabulary intact.
-function flushLookupCaches(){
+export function flushLookupCaches(){
   _appCacheMem={};
   if(typeof openDB!=='function')return Promise.resolve(0);
   return openDB().then(db=>new Promise(resolve=>{
@@ -149,7 +149,7 @@ function flushLookupCaches(){
   }));
 }
 // Approximate size of the lookup caches (bytes) — sums serialized cache values.
-function lookupCacheSizeBytes(){
+export function lookupCacheSizeBytes(){
   if(typeof openDB!=='function')return Promise.resolve(0);
   return openDB().then(db=>new Promise(resolve=>{
     try{
@@ -171,16 +171,13 @@ function lookupCacheSizeBytes(){
     }catch(e){resolve({bytes:0,count:0})}
   }));
 }
-function fitBytes(bytes){
+export function fitBytes(bytes){
   if(bytes>=1048576)return (bytes/1048576).toFixed(2)+' MB';
   if(bytes>=1024)return (bytes/1024).toFixed(1)+' KB';
   return bytes+' B';
 }
 
-async function fetchDictionary(word){
-  return appCacheLookup("dict",word,function(){return fetchDictionaryRaw(word)},'en','');
-}
-async function fetchDictionaryRaw(word){
+export async function fetchDictionaryRaw(word){
   try{
     const r=await fetchWithRetry(DICT_API+'/'+encodeURIComponent(word),{headers:{Accept:'application/json'}});
     if(!r.ok)return null;
@@ -201,18 +198,15 @@ async function fetchDictionaryRaw(word){
     return{headword:e.word||word,phonetic,phoneticBr,phoneticUs,audioBr,audioUs,meanings}
   }catch(e){return null}}
 
-async function fetchTranslation(word,fromLang,toLang){
+export async function fetchTranslation(word,fromLang,toLang){
   return appCacheLookup("trans",word,function(){return fetchTranslationRaw(word,fromLang,toLang)},fromLang||'en',toLang||'fa');
 }
 // MyMemory circuit breaker — shared across ALL translation calls.
-// On 429/403 (or network failure) the service is marked dead for 60s and
-// callers fall straight through to Google gtx instead of retrying per-word
-// (this was the «one word every few minutes» bottleneck in VocabForge).
 const _myMemoryBreaker={dead:false,cooldownUntil:0,lastError:''};
-function myMemoryAvailable(){return !_myMemoryBreaker.dead||Date.now()>=_myMemoryBreaker.cooldownUntil}
-function myMemoryMarkDead(reason){_myMemoryBreaker.dead=true;_myMemoryBreaker.cooldownUntil=Date.now()+60000;_myMemoryBreaker.lastError=reason}
+export function myMemoryAvailable(){return !_myMemoryBreaker.dead||Date.now()>=_myMemoryBreaker.cooldownUntil}
+export function myMemoryMarkDead(reason){_myMemoryBreaker.dead=true;_myMemoryBreaker.cooldownUntil=Date.now()+60000;_myMemoryBreaker.lastError=reason}
 
-async function fetchTranslationRaw(word,fromLang,toLang){
+export async function fetchTranslationRaw(word,fromLang,toLang){
   const provider=(S.settings&&S.settings.translationProvider)||'auto';
   const src=fromLang||S.settings.sourceLang||'en';
   const tgt=toLang||S.settings.targetLang||'fa';
@@ -250,12 +244,12 @@ async function fetchTranslationRaw(word,fromLang,toLang){
 }
 
 // Legacy alias
-const fetchPersianTranslation=(w)=>fetchTranslation(w);
+export const fetchPersianTranslation=(w)=>fetchTranslation(w);
 
 // ═══════════════════════════════════════════
 // ETYMOLOGY (Wiktionary API)
 // ═══════════════════════════════════════════
-async function fetchEtymology(word){
+export async function fetchEtymology(word){
   try{
     const r=await timedFetch('https://en.wiktionary.org/api/rest_v1/page/etymology/'+encodeURIComponent(word));
     if(!r.ok)return null;
@@ -272,12 +266,11 @@ async function fetchEtymology(word){
 
 // ═══════════════════════════════════════════
 // WIKTIONARY DEFINITIONS (REST) — fallback source for rare words
-// Same as standalone VocabForge: full definitions, not just etymology.
 // ═══════════════════════════════════════════
-async function fetchWiktionaryDefinitions(word){
+export async function fetchWiktionaryDefinitions(word){
   return appCacheLookup("wikidef",word,function(){return fetchWiktionaryDefinitionsRaw(word)},'en','');
 }
-async function fetchWiktionaryDefinitionsRaw(word){
+export async function fetchWiktionaryDefinitionsRaw(word){
   try{
     const r=await timedFetch('https://en.wiktionary.org/api/rest_v1/page/definition/'+encodeURIComponent(word));
     if(!r.ok)return null;
@@ -300,14 +293,14 @@ async function fetchWiktionaryDefinitionsRaw(word){
 // ═══════════════════════════════════════════
 // MORPHOLOGICAL FAMILY (word forms)
 // ═══════════════════════════════════════════
-const MORPH_SUFFIXES={
+export const MORPH_SUFFIXES={
   verb:['ing','ed','es','s','er','ers','tion','ment','ance','ence','ive','able','ible'],
   noun:['s','es','tion','ment','ance','ence','ist','ism','ity','ness','er','or','age','ure','dom','ship'],
   adj:['ly','ness','er','est','ity','ism','ize','ise','ful','less','ous','ive','able','ible','al','ial'],
   adv:['ly','ness']
 };
 
-function getMorphologicalFamily(word){
+export function getMorphologicalFamily(word){
   const w=word.toLowerCase();
   const family=new Set();
   family.add(w);
@@ -343,7 +336,7 @@ function getMorphologicalFamily(word){
 // ═══════════════════════════════════════════
 // COLLOCATION SUGGESTIONS
 // ═══════════════════════════════════════════
-const COMMON_COLLOCATIONS={
+export const COMMON_COLLOCATIONS={
   make:['a decision','a mistake','progress','effort','money','sense','a difference','a choice'],
   take:['a break','a chance','action','place','care','advantage','responsibility','notes'],
   do:['homework','damage','business','research','well','harm','justice','a favor'],
@@ -363,7 +356,7 @@ const COMMON_COLLOCATIONS={
   carry:['out','on','away','through','over','weight','off','forward']
 };
 
-function suggestCollocations(word){
+export function suggestCollocations(word){
   const w=word.toLowerCase();
   if(COMMON_COLLOCATIONS[w])return COMMON_COLLOCATIONS[w];
   // Check if word appears in any collocation
@@ -379,7 +372,7 @@ function suggestCollocations(word){
 // ═══════════════════════════════════════════
 // FREQUENCY RANK (COCA-based approximate)
 // ═══════════════════════════════════════════
-function getFrequencyRank(word){
+export function getFrequencyRank(word){
   const w=word.toLowerCase();
   // Approximate COCA rank from tier membership
   if(FREQ_T1.has(w)){
@@ -396,20 +389,14 @@ function getFrequencyRank(word){
 // ═══════════════════════════════════════════
 // ENHANCED DICTIONARY POPUP (with etymology + frequency)
 // ═══════════════════════════════════════════
-// fetchDictionary returns ONLY the dictionary result — etymology is
-// fetched lazily by the popup via fetchEtymologyCached(), so the
-// enrichment pipeline is never blocked by the slow Wiktionary call.
-const _origFetchDictionary=fetchDictionary;
-fetchDictionary=async function(word){
-  const result=await _origFetchDictionary(word);
+export async function fetchDictionary(word){
+  const result=await appCacheLookup("dict",word,function(){return fetchDictionaryRaw(word)},'en','');
   if(!result)return result;
   // Morphological family + frequency rank are computed locally (cheap)
   result.morphFamily=getMorphologicalFamily(word);
   result.freqRank=getFrequencyRank(word);
   return result;
-};
-async function fetchEtymologyCached(word){
+}
+export async function fetchEtymologyCached(word){
   return appCacheLookup("etym",word,function(){return fetchEtymology(word)},'en','');
 }
-
-// ═══════════════════════════════════════════

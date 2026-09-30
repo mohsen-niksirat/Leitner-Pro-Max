@@ -1,6 +1,6 @@
 // 6. EXPORT (with IndexedDB backup)
 // ═══════════════════════════════════════════
-function renderExport(c){
+export function renderExport(c){
 const dataSize=stateSnapshotSizeKB().toFixed(1);
 const catCount=S.categories.length;
 const lastBackup=S.stats.lastReviewDate?fmtDate(S.stats.lastReviewDate):'—';
@@ -111,7 +111,7 @@ if(importUrlBtn)importUrlBtn.onclick=async()=>{
   }catch(e){toast('خطا در دریافت لینک','error')}
 };
 
-document.getElementById('resetBtn').onclick=()=>{if(confirm('آیا مطمئن هستید؟ تمام '+S.words.length+' کلمه لایتنر و '+S.longTerm.length+' کلمه حافظه بلندمدت پاک خواهد شد!')){S=defaultState();save();toast('تمام داده‌ها پاک شد','success');render()}};
+document.getElementById('resetBtn').onclick=()=>{if(confirm('آیا مطمئن هستید؟ تمام '+S.words.length+' کلمه لایتنر و '+S.longTerm.length+' کلمه حافظه بلندمدت پاک خواهد شد!')){window.S=defaultState();save();toast('تمام داده‌ها پاک شد','success');render()}};
 // ── CSV Export ──
 var csvBtn=document.getElementById('exportCsvBtn');
 if(csvBtn)csvBtn.onclick=function(){
@@ -211,5 +211,3 @@ if(meterEl){
   renderStorageMeter(meterEl);
 }
 }
-
-// ═══════════════════════════════════════════

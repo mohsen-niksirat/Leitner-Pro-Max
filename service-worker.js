@@ -29,6 +29,8 @@ const PRECACHE_URLS = [
   './js/storage/backup.js',
   './js/statistics/leaderboard.js',
   './js/learning/fsrs.js',
+  './js/learning/word-drill.js',
+  './js/learning/review-modes.js',
   './js/learning/review.js',
   './js/ui/toast.js',
   './js/vocabulary/enrichment.js',

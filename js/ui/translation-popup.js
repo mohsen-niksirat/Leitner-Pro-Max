@@ -3,12 +3,12 @@
 // ═══════════════════════════════════════════
 let transPopupAbort=null;
 
-function hideTransPopup(){
+export function hideTransPopup(){
   if(transPopupAbort){transPopupAbort.abort();transPopupAbort=null}
   const p=document.getElementById('transPopup');
   if(p)p.style.display='none'}
 
-function positionTransPopup(rect){
+export function positionTransPopup(rect){
   const p=document.getElementById('transPopup');
   if(!p)return;
   p.style.display='block';
@@ -21,7 +21,7 @@ function positionTransPopup(rect){
   if(top<16)top=16;
   p.style.top=top+'px';p.style.left=left+'px'}
 
-async function renderTransPopup(word,rect){
+export async function renderTransPopup(word,rect){
   try{
   let popup=document.getElementById('transPopup');
   if(!popup){popup=document.createElement('div');popup.id='transPopup';popup.className='pdf-trans-popup';document.body.appendChild(popup)}
@@ -126,5 +126,3 @@ async function renderTransPopup(word,rect){
     }
   }
 }
-
-// ═══════════════════════════════════════════

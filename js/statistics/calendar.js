@@ -1,6 +1,6 @@
 // SMART CALENDAR — تقویم مرور هوشمند
 // ═══════════════════════════════════════════
-function renderCalendar(c){
+export function renderCalendar(c){
   const today=new Date();
   const predictions=[];
   for(let d=0;d<30;d++){
@@ -58,5 +58,3 @@ function renderCalendar(c){
     </div>
   </div>`;
 }
-
-// ═══════════════════════════════════════════
