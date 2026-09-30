@@ -97,13 +97,6 @@ async function syncAiKeysToSpeakAi(notifyUser = false) {
       .map(cleanToken)
       .filter(Boolean);
 
-    if (!geminiKeys.length && !openrouterKeys.length && !groqKeys.length) {
-      if (notifyUser) {
-        toast('توکنی در بخش «هوش مصنوعی» پیدا نشد؛ می‌توانید مستقیماً داخل تنظیمات مربی مکالمه توکن وارد کنید.', 'warning');
-      }
-      return false;
-    }
-
     let current = { providers: [], voiceProviderId: null, reportProviderId: null };
     try {
       const raw = localStorage.getItem(SPEAKAI_PROVIDERS_KEY);
@@ -113,12 +106,44 @@ async function syncAiKeysToSpeakAi(notifyUser = false) {
       }
     } catch {}
 
+    // Always clean up any stale prov-leitner-gemini that contains non-AIza keys
+    const allSavedAiza = current.providers
+      .flatMap(p => (Array.isArray(p.keys) ? p.keys : []))
+      .map(cleanToken)
+      .filter(k => k.startsWith('AIza'));
+    current.providers = current.providers.filter(p => {
+      if (p.id === 'prov-leitner-gemini') {
+        const validAiza = (Array.isArray(p.keys) ? p.keys : []).map(cleanToken).filter(k => k.startsWith('AIza'));
+        p.keys = validAiza.length ? validAiza : allSavedAiza;
+        return p.keys.length > 0;
+      }
+      return true;
+    });
+
+    if (!geminiKeys.length && !openrouterKeys.length && !groqKeys.length) {
+      if (current.providers.length > 0) {
+        if (!current.voiceProviderId || !current.providers.some(p => p.id === current.voiceProviderId)) {
+          current.voiceProviderId = current.providers[0]?.id ?? null;
+        }
+        if (!current.reportProviderId || !current.providers.some(p => p.id === current.reportProviderId)) {
+          current.reportProviderId = current.providers[0]?.id ?? null;
+        }
+        localStorage.setItem(SPEAKAI_PROVIDERS_KEY, JSON.stringify(current));
+      }
+      if (notifyUser) {
+        toast('توکنی در بخش «هوش مصنوعی» پیدا نشد؛ می‌توانید مستقیماً داخل تنظیمات مربی مکالمه توکن وارد کنید.', 'warning');
+      }
+      return false;
+    }
+
     const upsertProvider = (id, name, kind, baseUrl, model, reportModel, keys) => {
       if (!keys.length) return;
-      const existing = current.providers.find(p => p.id === id || (p.kind === kind && p.baseUrl === baseUrl));
+      const existing = current.providers.find(
+        p => p.id === id || (kind === 'gemini-live' ? p.kind === 'gemini-live' : p.kind === kind && p.baseUrl === baseUrl)
+      );
       if (existing) {
         const merged = Array.from(new Set([...(existing.keys || []).map(cleanToken).filter(Boolean), ...keys]));
-        existing.keys = id === 'prov-leitner-gemini' ? merged.filter(k => k.startsWith('AIza')) : merged;
+        existing.keys = kind === 'gemini-live' ? merged.filter(k => k.startsWith('AIza')) : merged;
         if (
           baseUrl.includes('openrouter.ai') &&
           (existing.model === 'meta-llama/llama-3.3-70b-instruct:free' ||
