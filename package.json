@@ -13,5 +13,6 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.48.0"
-  }
+  },
+  "license": "Apache-2.0"
 }

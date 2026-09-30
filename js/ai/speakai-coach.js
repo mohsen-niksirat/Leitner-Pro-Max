@@ -1,14 +1,29 @@
 // ═══════════════════════════════════════════
 // SPEAKAI COACH — Integrated Real-Time Voice Partner Tab
+// Automatically loads live online GitHub Pages deployment:
+// https://mohsen-niksirat.github.io/SpeakAI-Coach/
 // ═══════════════════════════════════════════
 import { idbGet } from '../storage/indexeddb.js';
 import { S, save } from '../storage/state.js';
 import { createCard, rebuildIndex, wordExists } from '../vocabulary/vocabulary.js';
 import { toast, trackWordAdded } from '../ui/toast.js';
 
+const SPEAKAI_ONLINE_URL = 'https://mohsen-niksirat.github.io/SpeakAI-Coach/';
+const SPEAKAI_LOCAL_FALLBACK = './speakai/index.html';
 const SPEAKAI_PROVIDERS_KEY = 'speakai_providers';
 const SPEAKAI_VOCAB_KEY = 'speakai_vocab';
 let _messageListenerBound = false;
+let _latestSyncedVocab = [];
+
+function resolveSpeakAiUrl() {
+  if (typeof navigator !== 'undefined') {
+    // Use local bundle only when offline or inside headless Playwright runner
+    if (navigator.onLine === false || navigator.webdriver === true) {
+      return SPEAKAI_LOCAL_FALLBACK;
+    }
+  }
+  return SPEAKAI_ONLINE_URL;
+}
 
 function importSpeakAiCardsToLeitner(rawCards) {
   if (!Array.isArray(rawCards) || rawCards.length === 0) {
@@ -83,10 +98,6 @@ async function syncAiKeysToSpeakAi(notifyUser = false) {
       }
     } catch {}
 
-    if (!notifyUser && current.providers.length > 0) {
-      return false;
-    }
-
     const upsertProvider = (id, name, kind, baseUrl, model, reportModel, keys) => {
       if (!keys.length) return;
       const existing = current.providers.find(p => p.kind === kind && p.baseUrl === baseUrl);
@@ -130,8 +141,8 @@ async function syncAiKeysToSpeakAi(notifyUser = false) {
       'OpenRouter',
       'openai-chat',
       'https://openrouter.ai/api/v1',
-      'google/gemini-2.5-flash',
-      'google/gemini-2.5-flash',
+      'meta-llama/llama-3.3-70b-instruct:free',
+      'meta-llama/llama-3.3-70b-instruct:free',
       openrouterKeys
     );
 
@@ -147,7 +158,7 @@ async function syncAiKeysToSpeakAi(notifyUser = false) {
 
     const frame = document.getElementById('speakAiFrame');
     if (frame && frame.contentWindow) {
-      frame.contentWindow.postMessage({ type: 'LEITNER_SYNC_PROVIDERS' }, '*');
+      frame.contentWindow.postMessage({ type: 'LEITNER_SYNC_PROVIDERS', settings: current }, '*');
     }
 
     if (notifyUser) {
@@ -164,10 +175,9 @@ function getSpeakAiSavedCards() {
   try {
     const raw = localStorage.getItem(SPEAKAI_VOCAB_KEY);
     const parsed = raw ? JSON.parse(raw) : [];
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    return [];
-  }
+    if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+  } catch {}
+  return _latestSyncedVocab;
 }
 
 function updateSpeakAiVocabBadge() {
@@ -183,7 +193,14 @@ function ensureMessageBridge() {
   window.addEventListener('message', (e) => {
     if (!e.data || typeof e.data !== 'object') return;
     if (e.data.type === 'SPEAKAI_IMPORT_TO_LEITNER' && Array.isArray(e.data.cards)) {
+      _latestSyncedVocab = e.data.cards;
       importSpeakAiCardsToLeitner(e.data.cards);
+    } else if (e.data.type === 'SPEAKAI_VOCAB_SYNC' && Array.isArray(e.data.cards)) {
+      _latestSyncedVocab = e.data.cards;
+      try {
+        localStorage.setItem(SPEAKAI_VOCAB_KEY, JSON.stringify(e.data.cards));
+      } catch {}
+      updateSpeakAiVocabBadge();
     }
   });
 }
@@ -198,14 +215,15 @@ export function renderSpeakAi(c) {
   } catch {}
 
   const savedCards = getSpeakAiSavedCards();
+  const targetUrl = resolveSpeakAiUrl();
 
   c.innerHTML = `
     <div class="card" style="padding:12px 16px;margin-bottom:12px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;background:linear-gradient(135deg,rgba(108,92,231,0.12),rgba(16,185,129,0.06));border:1px solid rgba(108,92,231,0.25)">
       <div style="display:flex;align-items:center;gap:10px">
         <span style="font-size:1.35rem">🎙️</span>
         <div>
-          <div style="font-weight:700;font-size:.92rem;color:var(--text)">مربی مکالمه صوتی هوشمند (SpeakAI Coach)</div>
-          <div style="font-size:.75rem;color:var(--text2)">شبیه‌ساز آیلتس، مصاحبه شغلی و مکالمه آزاد با استخراج خودکار لغات به جعبه لایتنر</div>
+          <div style="font-weight:700;font-size:.92rem;color:var(--text)">مربی مکالمه صوتی هوشمند (SpeakAI Coach — نسخه آنلاین خودکار)</div>
+          <div style="font-size:.75rem;color:var(--text2)">متصل به مخزن آنلاین SpeakAI-Coach • دریافت خودکار آخرین آپدیت‌ها، شدویینگ و استخراج لغات به لایتنر</div>
         </div>
       </div>
       <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
@@ -215,7 +233,7 @@ export function renderSpeakAi(c) {
         <button type="button" class="btn btn-primary btn-sm" id="importSpeakAiVocabBtn" title="افزودن مستقیم واژگان کشف‌شده در مکالمه به کتابخانه لایتنر">
           📥 افزودن واژگان مکالمه به لایتنر (<span id="speakAiVocabCount">${savedCards.length}</span>)
         </button>
-        <a href="./speakai/index.html" target="_blank" rel="noopener" class="btn btn-ghost btn-sm" style="text-decoration:none" title="باز کردن در تب مستقل">
+        <a href="${SPEAKAI_ONLINE_URL}" target="_blank" rel="noopener" class="btn btn-ghost btn-sm" style="text-decoration:none" title="باز کردن صفحه رسمی گیت‌هاب SpeakAI Coach در تب مستقل">
           ↗️ تمام‌صفحه
         </a>
       </div>
@@ -223,13 +241,20 @@ export function renderSpeakAi(c) {
     <div style="width:100%;height:calc(100vh - 175px);min-height:660px;border-radius:16px;overflow:hidden;border:1px solid var(--border);background:#0b0f19;box-shadow:0 12px 32px rgba(0,0,0,0.28)">
       <iframe
         id="speakAiFrame"
-        src="./speakai/index.html"
+        src="${targetUrl}"
         title="SpeakAI Coach — مربی مکالمه هوشمند"
         allow="microphone; autoplay; clipboard-write"
         style="width:100%;height:100%;border:0;display:block;background:#0b0f19"
       ></iframe>
     </div>
   `;
+
+  const frame = document.getElementById('speakAiFrame');
+  if (frame) {
+    frame.addEventListener('load', () => {
+      syncAiKeysToSpeakAi(false);
+    });
+  }
 
   document.getElementById('syncSpeakAiKeysBtn')?.addEventListener('click', () => {
     syncAiKeysToSpeakAi(true);
@@ -240,6 +265,5 @@ export function renderSpeakAi(c) {
     importSpeakAiCardsToLeitner(cards);
   });
 
-  // Auto-sync keys on first visit if SpeakAI has no configured providers yet
   syncAiKeysToSpeakAi(false);
 }
