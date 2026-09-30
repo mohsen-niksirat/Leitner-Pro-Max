@@ -5,11 +5,14 @@ import { loadDep, ensureChartJs, ensurePdfJs, ensureJsZip } from './core/depende
 import { withErrorBoundary } from './core/error-handler.js';
 import { LS_KEY, LS_KEY_V1, LS_KEY_OLD, LS_BACKUP_KEY, SCHEMA_VERSION, IDB_NAME, IDB_STORE, openDB, idbPut, idbGet } from './storage/indexeddb.js';
 import { S, save, saveForce, saveNow, loadFromIDB, sanitizeCard, hydrateState, defaultState, loadLegacyState, loadState, stateSnapshotSizeKB, renderStorageMeter } from './storage/state.js';
+import { sanitizeStateSnapshot, exportStateSnapshot, importStateSnapshot, exportSharedDeck, exportSharedDeckJSON, exportSharedDeckLink, importSharedDeck, checkSharedDeckHash, BACKUP_STORE, BACKUP_META_STORE, MAX_BACKUPS, openBackupDb, autoBackup, listSnapshots, restoreSnapshot, exportBackup, restoreBackup, deleteSnapshot } from './storage/backup.js';
+import { createCard, rebuildIndex, wordExists, FREQ_T1, FREQ_T2, FREQ_T3, getFrequencyTier, tierLabel } from './vocabulary/vocabulary.js';
 import { buildCardRepository } from './vocabulary/card-repository.js';
 import { getCardRepository, resetCardRepository, repoAdd, cardRepository } from './vocabulary/card-repository-bridge.js';
 import { getPlayerId, submitScore, getLeaderboard, renderLeaderboard } from './statistics/leaderboard.js';
 import { FSRS_W, FSRS_RETENTION, FSRS_MAX_INTERVAL, FSRS_DECAY, fsrsRetrieveProbability, fsrsInitialDifficulty, fsrsInitialStability, fsrsShortTermStability, fuzzInterval, fsrsNext, clampReviewValues, sm2Legacy, mapRating } from './learning/fsrs.js';
 import { trackWordAdded, toast } from './ui/toast.js';
+import { renderAiChat } from './ai/ai-manager.js';
 
 // ── Expose core API on window so legacy non-module scripts can still access them ──
 // (These assignments will be removed one-by-one as each module is migrated)
@@ -21,11 +24,15 @@ Object.assign(window, {
   esc, errMsg, uid, fmtDate, todayKey,
   loadDep, ensureChartJs, ensurePdfJs, ensureJsZip,
   withErrorBoundary,
-  // Storage & State
+  // Storage, State & Backup
   openDB, idbPut, idbGet, loadFromIDB,
   save, saveForce, saveNow,
   sanitizeCard, hydrateState, defaultState, loadLegacyState, loadState, stateSnapshotSizeKB, renderStorageMeter,
-  // Vocabulary Repository
+  sanitizeStateSnapshot, exportStateSnapshot, importStateSnapshot,
+  exportSharedDeck, exportSharedDeckJSON, exportSharedDeckLink, importSharedDeck, checkSharedDeckHash,
+  BACKUP_STORE, BACKUP_META_STORE, MAX_BACKUPS, openBackupDb, autoBackup, listSnapshots, restoreSnapshot, exportBackup, restoreBackup, deleteSnapshot,
+  // Vocabulary & Repository
+  createCard, rebuildIndex, wordExists, FREQ_T1, FREQ_T2, FREQ_T3, getFrequencyTier, tierLabel,
   __createCardRepositoryFactory: buildCardRepository,
   buildCardRepository, getCardRepository, resetCardRepository, repoAdd, cardRepository,
   // Leaderboard
@@ -34,14 +41,12 @@ Object.assign(window, {
   FSRS_W, FSRS_RETENTION, FSRS_MAX_INTERVAL, FSRS_DECAY,
   fsrsRetrieveProbability, fsrsInitialDifficulty, fsrsInitialStability, fsrsShortTermStability,
   fuzzInterval, fsrsNext, clampReviewValues, sm2Legacy, mapRating,
-  // Toast
-  trackWordAdded, toast
+  // Toast & AI
+  trackWordAdded, toast, renderAiChat
 });
 
 // ── Legacy script loader (for modules not yet converted to ES Modules) ──
 const LEGACY_MODULES = [
-  './js/vocabulary/vocabulary.js',
-  './js/storage/backup.js',
   './js/learning/review.js',
   './js/vocabulary/enrichment.js',
   './js/ui/translation-popup.js',
@@ -57,7 +62,6 @@ const LEGACY_MODULES = [
   './js/ui/dashboard.js',
   './js/ui/settings.js',
   './js/learning/quiz.js',
-  './js/ai/ai-manager.js',
   './js/word-web/word-web.js',
   './js/ui/help-vocabforge.js',
   './js/ui/tags-drive.js',

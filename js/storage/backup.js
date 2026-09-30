@@ -1,7 +1,7 @@
 // ═══════════════════════════════════════════
 // STATE SNAPSHOT IMPORT/EXPORT HELPERS
 // ═══════════════════════════════════════════
-function sanitizeStateSnapshot(raw){
+export function sanitizeStateSnapshot(raw){
   if(!raw||typeof raw!=='object')return null;
   const s={...defaultState()};
   // Detect format
@@ -30,7 +30,7 @@ function sanitizeStateSnapshot(raw){
   return{cards,isFull:false};
 }
 
-function exportStateSnapshot(){
+export function exportStateSnapshot(){
   return JSON.stringify({
     schema:'leitner-full-backup',
     version:SCHEMA_VERSION,
@@ -47,7 +47,7 @@ function exportStateSnapshot(){
   },null,2);
 }
 
-function importStateSnapshot(data){
+export function importStateSnapshot(data){
   const result=sanitizeStateSnapshot(data);
   if(!result)return{ok:false,msg:'ساختار فایل معتبر نیست'};
   let allCards=[];
@@ -66,7 +66,7 @@ function importStateSnapshot(data){
 // ═══════════════════════════════════════════
 // SHARED DECK FORMAT (lightweight, shareable)
 // ═══════════════════════════════════════════
-function exportSharedDeck(category){
+export function exportSharedDeck(category){
   const words=S.words.filter(w=>!category||w.category===category);
   if(!words.length)return null;
   // Lightweight format: only essential fields
@@ -90,13 +90,13 @@ function exportSharedDeck(category){
   return deck;
 }
 
-function exportSharedDeckJSON(category){
+export function exportSharedDeckJSON(category){
   const deck=exportSharedDeck(category);
   if(!deck)return null;
   return JSON.stringify(deck);
 }
 
-function exportSharedDeckLink(category){
+export function exportSharedDeckLink(category){
   const json=exportSharedDeckJSON(category);
   if(!json)return null;
   try{
@@ -106,7 +106,7 @@ function exportSharedDeckLink(category){
   }catch(e){return null}
 }
 
-function importSharedDeck(deck){
+export function importSharedDeck(deck){
   if(!deck||!deck.words||!Array.isArray(deck.words))return{ok:false,msg:'ساختار دسته معتبر نیست'};
   let added=0,skipped=0;
   deck.words.forEach(item=>{
@@ -131,7 +131,7 @@ function importSharedDeck(deck){
 }
 
 // Check URL hash for shared deck on load
-function checkSharedDeckHash(){
+export function checkSharedDeckHash(){
   const hash=location.hash;
   if(!hash.startsWith('#deck='))return;
   try{
@@ -150,13 +150,13 @@ function checkSharedDeckHash(){
 }
 // AUTO-BACKUP (IndexedDB) — versioned snapshots
 // ═══════════════════════════════════════════
-const BACKUP_STORE='backups';
-const BACKUP_META_STORE='backup_meta';
-const MAX_BACKUPS=10;
+export const BACKUP_STORE='backups';
+export const BACKUP_META_STORE='backup_meta';
+export const MAX_BACKUPS=10;
 let backupDb=null;
 let _backupCounter=0;
 
-function openBackupDb(){
+export function openBackupDb(){
   return new Promise((resolve,reject)=>{
     const req=indexedDB.open('leitner_backup_db',2);
     req.onupgradeneeded=(e)=>{
@@ -168,7 +168,7 @@ function openBackupDb(){
     req.onerror=()=>reject(req.error)});
 }
 
-async function autoBackup(){
+export async function autoBackup(){
   _backupCounter++;
   // Backup every 20 saves (not every single save)
   if(_backupCounter<20)return;
@@ -198,7 +198,7 @@ async function autoBackup(){
   }catch(e){}}
 
 // Get list of available snapshots
-async function listSnapshots(){
+export async function listSnapshots(){
   try{
     const db=backupDb||await openBackupDb();
     return new Promise(resolve=>{
@@ -209,7 +209,7 @@ async function listSnapshots(){
   }catch(e){return[]}}
 
 // Restore a specific snapshot by key
-async function restoreSnapshot(key){
+export async function restoreSnapshot(key){
   try{
     const db=backupDb||await openBackupDb();
     return new Promise((resolve,reject)=>{
@@ -220,7 +220,7 @@ async function restoreSnapshot(key){
   }catch(e){return null}}
 
 // Get latest snapshot (backward compat)
-async function exportBackup(){
+export async function exportBackup(){
   try{
     const db=backupDb||await openBackupDb();
     const tsTx=db.transaction(BACKUP_META_STORE,'readonly');
@@ -238,14 +238,14 @@ async function exportBackup(){
   }catch(e){return null}}
 
 // Legacy compat: restoreBackup returns latest
-async function restoreBackup(){
+export async function restoreBackup(){
   try{
     const data=await exportBackup();
     return data?JSON.parse(data):null;
   }catch(e){return null}}
 
 // Delete a specific snapshot
-async function deleteSnapshot(key){
+export async function deleteSnapshot(key){
   try{
     const db=backupDb||await openBackupDb();
     const tx=db.transaction([BACKUP_STORE,BACKUP_META_STORE],'readwrite');

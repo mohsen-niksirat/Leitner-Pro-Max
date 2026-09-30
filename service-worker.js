@@ -45,6 +45,8 @@ const PRECACHE_URLS = [
   './js/ui/dashboard.js',
   './js/ui/settings.js',
   './js/learning/quiz.js',
+  './js/ai/chat-template.js',
+  './js/ai/providers.js',
   './js/ai/ai-manager.js',
   './js/word-web/word-web.js',
   './js/ui/help-vocabforge.js',
