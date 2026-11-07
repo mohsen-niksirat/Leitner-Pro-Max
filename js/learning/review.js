@@ -48,7 +48,47 @@ const due=getDue();
 if(!due.length){toast('هیچ کارتی برای مرور نیست','info');return}
 Object.assign(reviewSession,{queue:prioritizeReviewQueue(due),idx:0,flipped:false,correct:0,wrong:0,done:false,startTime:Date.now()});
 renderReview(document.getElementById('content'))}
+function renderReviewBentoOverview(){
+  const dueNow=getDue().length;
+  const libTotal=Array.isArray(S.words)?S.words.length:0;
+  const ltTotal=Array.isArray(S.longTerm)?S.longTerm.length:0;
+  const streak=(S.stats&&S.stats.streak)||0;
+  const xp=(S.stats&&S.stats.xp)||0;
+  const todayReviewed=(S.stats&&S.stats.history&&S.stats.history[todayKey()])?S.stats.history[todayKey()].reviewed:0;
+  return `<div class="review-bento-grid">
+    <div class="bento-stat-card bento-accent">
+      <div class="bento-icon">📖</div>
+      <div class="bento-meta">
+        <div class="bento-val">${dueNow}</div>
+        <div class="bento-lbl">آماده مرور امروز</div>
+      </div>
+    </div>
+    <div class="bento-stat-card">
+      <div class="bento-icon">📚</div>
+      <div class="bento-meta">
+        <div class="bento-val">${libTotal}</div>
+        <div class="bento-lbl">کارت‌های کتابخانه</div>
+      </div>
+    </div>
+    <div class="bento-stat-card">
+      <div class="bento-icon">🧠</div>
+      <div class="bento-meta">
+        <div class="bento-val">${ltTotal}</div>
+        <div class="bento-lbl">حافظه بلندمدت</div>
+      </div>
+    </div>
+    <div class="bento-stat-card">
+      <div class="bento-icon">🔥</div>
+      <div class="bento-meta">
+        <div class="bento-val">${streak} <small style="font-size:.72rem;font-weight:500;color:var(--text2)">روز (${todayReviewed} امروز · ${xp} XP)</small></div>
+        <div class="bento-lbl">زنجیره و فعالیت</div>
+      </div>
+    </div>
+  </div>`;
+}
+
 export function renderReview(c){
+const bentoHtml=renderReviewBentoOverview();
 if(reviewSession.done){
 const acc=reviewSession.queue.length?Math.round(reviewSession.correct/reviewSession.queue.length*100):0;
 const elapsed=reviewSession.startTime?Date.now()-reviewSession.startTime:0;
@@ -56,9 +96,42 @@ const elapsedMin=Math.floor(elapsed/60000);
 const elapsedSec=Math.floor((elapsed%60000)/1000);
 const timeStr=elapsedMin>0?elapsedMin+' دقیقه و '+elapsedSec+' ثانیه':elapsedSec+' ثانیه';
 const avgPerCard=reviewSession.queue.length>0?Math.round(elapsed/reviewSession.queue.length/1000):0;
-c.innerHTML=`<div class="card" style="max-width:400px;margin:40px auto;text-align:center"><h3 style="margin-bottom:16px">پایان مرور</h3><div class="stat-grid"><div class="stat-card"><div class="val">${reviewSession.queue.length}</div><div class="lbl">کل</div></div><div class="stat-card"><div class="val" style="color:var(--success)">${reviewSession.correct}</div><div class="lbl">درست</div></div><div class="stat-card"><div class="val" style="color:var(--danger)">${reviewSession.wrong}</div><div class="lbl">نادرست</div></div><div class="stat-card"><div class="val">${acc}%</div><div class="lbl">دقت</div></div><div class="stat-card"><div class="val" style="font-size:1.2rem">⏱️ ${timeStr}</div><div class="lbl">زمان کل</div></div><div class="stat-card"><div class="val">${avgPerCard}s</div><div class="lbl">میانگین/کارت</div></div></div><button class="btn btn-primary" type="button" id="reviewRestart">مرور مجدد</button></div>`;
+c.innerHTML=`${bentoHtml}<div class="card" style="max-width:460px;margin:24px auto;text-align:center"><h3 style="margin-bottom:16px">🎉 پایان جلسه مرور</h3><div class="stat-grid"><div class="stat-card"><div class="val">${reviewSession.queue.length}</div><div class="lbl">کل</div></div><div class="stat-card"><div class="val" style="color:var(--success)">${reviewSession.correct}</div><div class="lbl">درست</div></div><div class="stat-card"><div class="val" style="color:var(--danger)">${reviewSession.wrong}</div><div class="lbl">نادرست</div></div><div class="stat-card"><div class="val">${acc}%</div><div class="lbl">دقت</div></div><div class="stat-card"><div class="val" style="font-size:1.2rem">⏱️ ${timeStr}</div><div class="lbl">زمان کل</div></div><div class="stat-card"><div class="val">${avgPerCard}s</div><div class="lbl">میانگین/کارت</div></div></div><button class="btn btn-primary" type="button" id="reviewRestart">🔄 مرور مجدد</button></div>`;
 document.getElementById('reviewRestart').onclick=()=>{Object.assign(reviewSession,{queue:[],idx:0,flipped:false,correct:0,wrong:0,done:false});startReview()};return}
-if(!reviewSession.queue.length){startReview();if(!reviewSession.queue.length){c.innerHTML=`<div class="card" style="text-align:center;padding:60px"><div class="empty"><div class="icon">📖</div><p>کارتی برای مرور نیست</p></div></div>`;return}}
+if(!reviewSession.queue.length){startReview();if(!reviewSession.queue.length){
+c.innerHTML=`${bentoHtml}
+<div class="card review-launchpad-card">
+  <div class="empty" style="padding:24px 12px">
+    <div class="launchpad-orb">✨</div>
+    <h3 style="font-size:1.25rem;font-weight:800;color:var(--text);margin-bottom:6px">کارتی برای مرور نیست</h3>
+    <p style="color:var(--text2);font-size:.88rem;max-width:460px;margin:0 auto">همه کارت‌های موعد امروز را مرور کرده‌اید یا هنوز واژه‌ای اضافه نشده است. از یکی از مسیرهای زیر شروع کنید:</p>
+  </div>
+  <div class="launchpad-actions-grid">
+    <button type="button" class="launchpad-tile" data-jump-tab="pdfreader">
+      <span class="tile-icon">📄</span>
+      <div><strong>خواننده هوشمند PDF</strong><small>باز کردن کتاب + ابزارهای Foliate و ترجمه آنی</small></div>
+    </button>
+    <button type="button" class="launchpad-tile" data-jump-tab="vocabforge">
+      <span class="tile-icon">⚒️</span>
+      <div><strong>وکب فورج (VocabForge)</strong><small>ساخت و غنی‌سازی خودکار کارت با تلفظ و مثال</small></div>
+    </button>
+    <button type="button" class="launchpad-tile" data-jump-tab="import">
+      <span class="tile-icon">📥</span>
+      <div><strong>ورود کلمات و بسته‌های آماده</strong><small>افزودن واژگان CEFR، آیلتس، تافل یا فایل متنی</small></div>
+    </button>
+    <button type="button" class="launchpad-tile" data-jump-tab="speakai">
+      <span class="tile-icon">🎙️</span>
+      <div><strong>مربی مکالمه هوشمند</strong><small>تمرین مکالمه و هوش مصنوعی با واژگان شما</small></div>
+    </button>
+  </div>
+</div>`;
+c.querySelectorAll('[data-jump-tab]').forEach(btn=>{
+  btn.onclick=()=>{
+    const target=btn.getAttribute('data-jump-tab');
+    if(target){window.currentTab=target;if(typeof render==='function')render()}
+  };
+});
+return}}
 // Search in review
 const reviewSearchHtml=`<div style="margin-bottom:12px"><input class="input" placeholder="🔍 جستجو در کلمات مرور..." id="reviewSearch" style="max-width:300px;font-size:.85rem;padding:8px 12px"></div>`;
 const w=reviewSession.queue[reviewSession.idx];
@@ -108,7 +181,7 @@ if(footerItems.length)footerHtml='<div class="rb-footer">'+footerItems.join('')+
 backHtml=rbSections.join('')+footerHtml;
 const autoPlayBarHtml=autoPlayState.active?renderAutoPlayBar():'';
 const autoPlayStartBtn=!autoPlayState.active?`<div style="text-align:center;margin-bottom:14px"><button type="button" class="btn btn-ghost btn-sm" id="autoPlayStartBtn" style="font-size:.8rem;gap:6px">▶️ پخش خودکار</button></div>`:'';
-c.innerHTML=`<div style="max-width:500px;margin:0 auto">${autoPlayBarHtml}${autoPlayStartBtn}<div class="flex" style="justify-content:space-between;margin-bottom:16px"><span style="color:var(--text2)">${reviewSession.idx+1} از ${reviewSession.queue.length}</span><div class="flex" style="gap:4px"><span class="badge badge-accent">${w.box>0?'جعبه '+w.box:'جدید'}</span>${tier?`<span class="badge tier-${tier}">${tierLabel(tier)}</span>`:''}</div></div><div class="progress-bar"><div class="progress-fill" style="width:${prog}%"></div></div>${reviewSearchHtml}<div class="review-card" id="rCard" tabindex="0" role="button" aria-label="کارت مرور — برای نمایش پاسخ کلیک یا Enter بزنید" aria-live="polite"><div class="review-inner"><div class="review-face"><div style="font-size:1.8rem;font-weight:700;margin-bottom:12px">${esc(w.word)} <button type="button" class="trans-audio-btn" id="reviewSpeakBtn" title="شنیدن تلفظ (S)" style="vertical-align:middle;font-size:1rem">🔊</button></div>${(S.settings.cardTemplate||{}).showIpa!==false&&w.ipa?`<div style="color:var(--text2);font-size:.9rem">${esc(w.ipa)}</div>`:''}<div style="color:var(--text2);font-size:.8rem;margin-top:16px">برای نمایش پاسخ کلیک کنید <kbd style="font-size:.65rem;opacity:.7;padding:1px 5px;border:1px solid var(--border);border-radius:4px">Space</kbd></div></div><div class="review-face review-back" style="justify-content:flex-start;padding-top:20px;overflow-y:auto;max-height:100%"><div class="rb-header"><span class="rb-word">${esc(w.word)}</span>${w.ipa?`<span class="rb-ipa">${esc(w.ipa)}</span>`:''}${w.partOfSpeech?`<span class="rb-pos">${esc(w.partOfSpeech)}</span>`:''}${tier?`<span class="badge tier-${tier}" style="font-size:.6rem">${tierLabel(tier)}</span>`:''}</div><div class="rb-translation">${esc(w.translation)}</div>${w.category&&w.category!=='پیش‌فرض'?`<div style="text-align:center;margin-bottom:12px"><span class="tag">${esc(w.category)}</span></div>`:''}${backHtml}<div class="rb-dialects" style="margin-top:10px;display:flex;gap:6px;justify-content:center;flex-wrap:wrap"><span style="color:var(--text2);font-size:.72rem;align-self:center">تلفظ:</span><button type="button" class="btn btn-ghost btn-sm" data-dialect="us" style="font-size:.72rem;padding:4px 10px">🇺🇸 US</button><button type="button" class="btn btn-ghost btn-sm" data-dialect="uk" style="font-size:.72rem;padding:4px 10px">🇬🇧 UK</button><button type="button" class="btn btn-ghost btn-sm" data-dialect="au" style="font-size:.72rem;padding:4px 10px">🇦🇺 AU</button><button type="button" class="btn btn-ghost btn-sm" data-dialect="in" style="font-size:.72rem;padding:4px 10px">🇮🇳 IN</button></div><div style="margin-top:12px;gap:6px;justify-content:center;flex-wrap:wrap"><button type="button" class="btn btn-ghost btn-sm" id="reviewEnrichBtn" style="font-size:.75rem">🔍 غنی‌سازی سریع</button><button type="button" class="btn btn-ghost btn-sm" id="reviewTransBtn" style="font-size:.75rem">🌐 ترجمه</button><button type="button" class="btn btn-ghost btn-sm" id="reviewEditBtn" style="font-size:.75rem">✏️ ویرایش</button></div></div></div></div><div class="rating-bar" id="ratingBar" style="display:none"><button type="button" class="btn btn-danger btn-sm" data-rate="1">❌ نادرست <kbd style="font-size:.6rem;opacity:.6">۱</kbd></button><button type="button" class="btn btn-ghost btn-sm" data-rate="3">😐 سخت <kbd style="font-size:.6rem;opacity:.6">۲</kbd></button><button type="button" class="btn btn-primary btn-sm" data-rate="4">🙂 خوب <kbd style="font-size:.6rem;opacity:.6">۳</kbd></button><button type="button" class="btn btn-success btn-sm" data-rate="5">😄 عالی <kbd style="font-size:.6rem;opacity:.6">۴</kbd></button></div><div style="text-align:center;margin-top:12px"><button type="button" class="btn btn-ghost btn-sm" id="wordDrillBtn" style="font-size:.8rem;gap:6px">📚 تمرین و توضیح کلمه <kbd style="font-size:.6rem;opacity:.6">D</kbd></button></div><div style="text-align:center;margin-top:8px;font-size:.7rem;color:var(--text2);opacity:.75">میانبرها: <kbd>Space</kbd> برگرداندن · <kbd>۱-۴</kbd> امتیاز · <kbd>S</kbd> تلفظ · <kbd>D</kbd> تمرین · <kbd>E</kbd> ویرایش · <kbd>←/→</kbd> جابجایی</div></div>`;
+c.innerHTML=`${bentoHtml}<div style="max-width:540px;margin:0 auto">${autoPlayBarHtml}${autoPlayStartBtn}<div class="flex" style="justify-content:space-between;margin-bottom:16px"><span style="color:var(--text2)">${reviewSession.idx+1} از ${reviewSession.queue.length}</span><div class="flex" style="gap:4px"><span class="badge badge-accent">${w.box>0?'جعبه '+w.box:'جدید'}</span>${tier?`<span class="badge tier-${tier}">${tierLabel(tier)}</span>`:''}</div></div><div class="progress-bar"><div class="progress-fill" style="width:${prog}%"></div></div>${reviewSearchHtml}<div class="review-card" id="rCard" tabindex="0" role="button" aria-label="کارت مرور — برای نمایش پاسخ کلیک یا Enter بزنید" aria-live="polite"><div class="review-inner"><div class="review-face"><div style="font-size:1.95rem;font-weight:800;margin-bottom:12px;letter-spacing:-0.01em">${esc(w.word)} <button type="button" class="trans-audio-btn" id="reviewSpeakBtn" title="شنیدن تلفظ (S)" style="vertical-align:middle;font-size:1rem">🔊</button></div>${(S.settings.cardTemplate||{}).showIpa!==false&&w.ipa?`<div style="color:var(--text2);font-size:.92rem">${esc(w.ipa)}</div>`:''}<div style="color:var(--text2);font-size:.8rem;margin-top:18px">برای نمایش پاسخ کلیک کنید <kbd style="font-size:.65rem;opacity:.7;padding:1px 5px;border:1px solid var(--border);border-radius:4px">Space</kbd></div></div><div class="review-face review-back" style="justify-content:flex-start;padding-top:20px;overflow-y:auto;max-height:100%"><div class="rb-header"><span class="rb-word">${esc(w.word)}</span>${w.ipa?`<span class="rb-ipa">${esc(w.ipa)}</span>`:''}${w.partOfSpeech?`<span class="rb-pos">${esc(w.partOfSpeech)}</span>`:''}${tier?`<span class="badge tier-${tier}" style="font-size:.6rem">${tierLabel(tier)}</span>`:''}</div><div class="rb-translation">${esc(w.translation)}</div>${w.category&&w.category!=='پیش‌فرض'?`<div style="text-align:center;margin-bottom:12px"><span class="tag">${esc(w.category)}</span></div>`:''}${backHtml}<div class="rb-dialects" style="margin-top:10px;display:flex;gap:6px;justify-content:center;flex-wrap:wrap"><span style="color:var(--text2);font-size:.72rem;align-self:center">تلفظ:</span><button type="button" class="btn btn-ghost btn-sm" data-dialect="us" style="font-size:.72rem;padding:4px 10px">🇺🇸 US</button><button type="button" class="btn btn-ghost btn-sm" data-dialect="uk" style="font-size:.72rem;padding:4px 10px">🇬🇧 UK</button><button type="button" class="btn btn-ghost btn-sm" data-dialect="au" style="font-size:.72rem;padding:4px 10px">🇦🇺 AU</button><button type="button" class="btn btn-ghost btn-sm" data-dialect="in" style="font-size:.72rem;padding:4px 10px">🇮🇳 IN</button></div><div style="margin-top:12px;gap:6px;justify-content:center;flex-wrap:wrap"><button type="button" class="btn btn-ghost btn-sm" id="reviewEnrichBtn" style="font-size:.75rem">🔍 غنی‌سازی سریع</button><button type="button" class="btn btn-ghost btn-sm" id="reviewTransBtn" style="font-size:.75rem">🌐 ترجمه</button><button type="button" class="btn btn-ghost btn-sm" id="reviewEditBtn" style="font-size:.75rem">✏️ ویرایش</button></div></div></div></div><div class="rating-bar" id="ratingBar" style="display:none"><button type="button" class="btn btn-danger btn-sm" data-rate="1">❌ نادرست <kbd style="font-size:.6rem;opacity:.6">۱</kbd></button><button type="button" class="btn btn-ghost btn-sm" data-rate="3">😐 سخت <kbd style="font-size:.6rem;opacity:.6">۲</kbd></button><button type="button" class="btn btn-primary btn-sm" data-rate="4">🙂 خوب <kbd style="font-size:.6rem;opacity:.6">۳</kbd></button><button type="button" class="btn btn-success btn-sm" data-rate="5">😄 عالی <kbd style="font-size:.6rem;opacity:.6">۴</kbd></button></div><div style="text-align:center;margin-top:12px"><button type="button" class="btn btn-ghost btn-sm" id="wordDrillBtn" style="font-size:.8rem;gap:6px">📚 تمرین و توضیح کلمه <kbd style="font-size:.6rem;opacity:.6">D</kbd></button></div><div style="text-align:center;margin-top:8px;font-size:.7rem;color:var(--text2);opacity:.75">میانبرها: <kbd>Space</kbd> برگرداندن · <kbd>۱-۴</kbd> امتیاز · <kbd>S</kbd> تلفظ · <kbd>D</kbd> تمرین · <kbd>E</kbd> ویرایش · <kbd>←/→</kbd> جابجایی</div></div>`;
 const card=document.getElementById('rCard');
 const ratingBar=document.getElementById('ratingBar');
 card.onclick=()=>{if(autoPlayState.active)return;if(reviewSession.flipped)return;reviewSession.flipped=true;card.classList.add('flipped');ratingBar.style.display='flex'};

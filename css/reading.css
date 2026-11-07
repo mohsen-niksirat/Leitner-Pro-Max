@@ -35,7 +35,33 @@
 .pdf-canvas-textlayer span::-moz-selection{background:rgba(99,102,241,.38)}
 .pdf-canvas-textlayer ::selection{background:rgba(99,102,241,.38)}
 .pdf-canvas-textlayer span.pdf-unknown-word{background:rgba(225,112,85,.28);box-shadow:0 0 0 1px rgba(225,112,85,.45);border-radius:3px}
+.pdf-canvas-textlayer span.pdf-user-highlight{background:color-mix(in srgb,var(--hl-color,#facc15) 42%,transparent)!important;box-shadow:0 2px 0 var(--hl-color,#facc15);border-radius:3px}
 .pdf-canvas-textlayer span.pdf-search-found{background:rgba(245,158,11,.45)!important;box-shadow:0 0 0 2px rgba(245,158,11,.85);border-radius:3px;z-index:4}
+#pdfViewerWrap[data-pdf-filter="sepia"] .pdf-canvas-page canvas{filter:sepia(0.42) contrast(0.95) brightness(0.97)}
+#pdfViewerWrap[data-pdf-filter="dark"] .pdf-canvas-page canvas{filter:invert(0.9) hue-rotate(180deg) contrast(1.04)}
+#pdfViewerWrap[data-pdf-filter="dark"] .pdf-canvas-page{background:#121521!important}
+.foliate-selection-popover{position:fixed;z-index:315;width:248px;background:var(--card);border:1px solid var(--border);border-radius:16px;padding:8px;box-shadow:0 18px 48px rgba(0,0,0,.45),0 0 0 1px rgba(255,255,255,.06) inset;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);font-family:var(--font);direction:ltr;text-align:left;animation:slideIn .18s var(--spring)}
+.foliate-top-bar{display:grid;grid-template-columns:repeat(3,1fr);background:var(--bg);border:1px solid var(--border);border-radius:11px;overflow:hidden;margin-bottom:6px}
+.foliate-icon-btn{display:flex;align-items:center;justify-content:center;height:36px;border:none;border-right:1px solid var(--border);background:transparent;color:var(--text);cursor:pointer;transition:background-color .15s ease,color .15s ease}
+.foliate-icon-btn:last-child{border-right:none}
+.foliate-icon-btn:hover{background:var(--accent-glow);color:var(--accent)}
+.foliate-color-row{display:flex;align-items:center;justify-content:center;gap:8px;padding:6px 4px;margin-bottom:6px;background:var(--bg);border-radius:10px;border:1px solid var(--border)}
+.foliate-color-dot{width:24px;height:24px;border-radius:50%;border:2px solid rgba(255,255,255,.35);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:700;transition:transform .15s ease}
+.foliate-color-dot:hover{transform:scale(1.18)}
+.foliate-chips-wrap{padding:4px 4px 6px;border-bottom:1px solid var(--border);margin-bottom:4px}
+.foliate-chips-label{font-size:.68rem;color:var(--text2);margin-bottom:5px;direction:rtl;text-align:right;font-weight:600}
+.foliate-chips-list{display:flex;flex-wrap:wrap;gap:4px;max-height:86px;overflow-y:auto}
+.foliate-word-chip{display:inline-flex;align-items:center;padding:3px 9px;border-radius:8px;font-size:.76rem;font-weight:600;background:var(--bg);border:1px solid var(--border);color:var(--accent);cursor:pointer;transition:all .15s ease}
+.foliate-word-chip:hover{background:var(--accent-gradient);color:#fff;border-color:transparent}
+.foliate-menu-list{display:flex;flex-direction:column;gap:1px}
+.foliate-menu-divider{height:1px;background:var(--border);margin:4px 6px}
+.foliate-menu-item{display:flex;align-items:center;justify-content:space-between;width:100%;padding:8px 10px;border:none;border-radius:9px;background:transparent;color:var(--text);font-family:var(--font);cursor:pointer;transition:background-color .14s ease,color .14s ease;text-align:left}
+.foliate-menu-item strong{font-size:.82rem;font-weight:600;color:var(--text)}
+.foliate-menu-item small{font-size:.7rem;color:var(--text2);direction:rtl}
+.foliate-menu-item:hover{background:var(--accent-glow)}
+.foliate-menu-item:hover strong{color:var(--accent)}
+.foliate-tts-bar{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);z-index:330;display:flex;align-items:center;gap:14px;padding:10px 18px;background:var(--card);border:1px solid var(--accent);border-radius:16px;box-shadow:0 14px 40px rgba(0,0,0,.45),0 0 20px var(--accent-glow);backdrop-filter:blur(16px);max-width:min(560px,calc(100vw - 24px))}
+.foliate-tts-status{font-size:.82rem;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:260px;direction:ltr}
 .pdf-reflow-word{padding:1px 3px;border-radius:4px;cursor:pointer;transition:background-color .14s ease,color .14s ease;border-bottom:1px dashed var(--border)}
 .pdf-reflow-word:hover,.pdf-reflow-word.pdf-word-active{background:var(--accent-glow);color:var(--accent);border-bottom-color:var(--accent)}
 .pdf-search-match{background:rgba(253,203,110,.2)!important;border-radius:8px;transition:background .3s}

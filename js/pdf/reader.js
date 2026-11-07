@@ -10,6 +10,10 @@ export let pdfRenderAbort=null;
 export let pdfBookmarks={};   // fileName -> {page,scrollY}
 export let pdfHighlightUnknown=false; // highlight words not in library/long-term
 export let pdfInstantLookup=false;    // single-click instant dictionary popup toggle
+export let pdfThemeMode='default';    // 'default' | 'sepia' | 'dark'
+export const PDF_HIGHLIGHTS_KEY='leitner_pdf_highlights';
+
+let _pdfTtsState={active:false,paused:false,rate:1,page:1,words:[],idx:0,utt:null};
 
 const PDF_MIN_SCALE=0.75, PDF_MAX_SCALE=2.75, PDF_SCALE_STEP=0.25;
 const PDF_WORKER_URL='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
@@ -81,12 +85,85 @@ async function getPdfDocument(blobUrl){
 export const PDF_STORAGE_KEY='leitner_pdf_state';
 export function savePdfState(){
   try{
-    const state={fileName:pdfFileName,page:pdfCurrentPage,scale:pdfScale,instant:pdfInstantLookup};
+    const state={fileName:pdfFileName,page:pdfCurrentPage,scale:pdfScale,instant:pdfInstantLookup,themeMode:pdfThemeMode};
     localStorage.setItem(PDF_STORAGE_KEY,JSON.stringify(state));
   }catch(e){}
 }
 export function loadPdfState(){
-  try{return JSON.parse(localStorage.getItem(PDF_STORAGE_KEY))}catch(e){return null}
+  try{
+    const st=JSON.parse(localStorage.getItem(PDF_STORAGE_KEY));
+    if(st&&st.themeMode)pdfThemeMode=st.themeMode;
+    return st;
+  }catch(e){return null}
+}
+
+export function loadPdfHighlights(fileName){
+  const fn=fileName||pdfFileName||'__default__';
+  try{
+    const all=JSON.parse(localStorage.getItem(PDF_HIGHLIGHTS_KEY)||'{}');
+    return Array.isArray(all[fn])?all[fn]:[];
+  }catch(e){return []}
+}
+export function savePdfHighlightItem(item){
+  const fn=pdfFileName||'__default__';
+  try{
+    const all=JSON.parse(localStorage.getItem(PDF_HIGHLIGHTS_KEY)||'{}');
+    if(!Array.isArray(all[fn]))all[fn]=[];
+    const cleanText=String(item.text||'').trim();
+    if(!cleanText)return;
+    const existingIdx=all[fn].findIndex(x=>x.page===item.page&&x.text.toLowerCase()===cleanText.toLowerCase());
+    if(item.color==='none'){
+      if(existingIdx>=0)all[fn].splice(existingIdx,1);
+    }else if(existingIdx>=0){
+      all[fn][existingIdx].color=item.color||'#facc15';
+      all[fn][existingIdx].ts=Date.now();
+    }else{
+      all[fn].unshift({
+        id:'hl_'+Date.now()+'_'+Math.random().toString(36).slice(2,6),
+        page:item.page||pdfCurrentPage||1,
+        text:cleanText,
+        words:Array.isArray(item.words)?item.words:[],
+        color:item.color||'#facc15',
+        ts:Date.now()
+      });
+    }
+    localStorage.setItem(PDF_HIGHLIGHTS_KEY,JSON.stringify(all));
+    applyPdfSavedHighlightsAll();
+  }catch(e){}
+}
+export function applyPdfSavedHighlightsOnLayer(layer,pageNum){
+  if(!layer)return;
+  const list=loadPdfHighlights(pdfFileName).filter(h=>!pageNum||Number(h.page)===Number(pageNum));
+  const spans=layer.querySelectorAll('span[data-word]');
+  spans.forEach(sp=>{
+    sp.classList.remove('pdf-user-highlight');
+    sp.style.removeProperty('--hl-color');
+  });
+  if(!list.length)return;
+  const wordColorMap={};
+  list.forEach(h=>{
+    const ws=(h.words&&h.words.length)?h.words:String(h.text||'').split(/[\s\u00A0]+/).map(pdfNormalizeWord).filter(Boolean);
+    ws.forEach(w=>{if(w)wordColorMap[w.toLowerCase()]=h.color||'#facc15'});
+  });
+  spans.forEach(sp=>{
+    const w=(sp.getAttribute('data-word')||'').toLowerCase();
+    if(w&&wordColorMap[w]){
+      sp.classList.add('pdf-user-highlight');
+      sp.style.setProperty('--hl-color',wordColorMap[w]);
+    }
+  });
+}
+export function applyPdfSavedHighlightsAll(){
+  document.querySelectorAll('.pdf-canvas-page').forEach(pw=>{
+    const p=parseInt(pw.getAttribute('data-page'))||1;
+    const tl=pw.querySelector('.pdf-canvas-textlayer');
+    if(tl)applyPdfSavedHighlightsOnLayer(tl,p);
+  });
+  const btn=document.getElementById('pdfHighlightsBtn');
+  if(btn){
+    const cnt=loadPdfHighlights(pdfFileName).length;
+    btn.innerHTML='🖍️'+(cnt>0?' <small style="font-size:.68rem;font-weight:700">'+cnt+'</small>':'');
+  }
 }
 export function clearPdfState(){
   try{localStorage.removeItem(PDF_STORAGE_KEY)}catch(e){}
@@ -281,6 +358,8 @@ export function renderPDFReader(c){
 
   const truncName=pdfFileName.length>30?pdfFileName.slice(0,27)+'...':pdfFileName;
   const zoomPct=Math.round(((pdfScale||1.5)/1.5)*100);
+  const hlCount=loadPdfHighlights(pdfFileName).length;
+  const themeIcons={default:'☀️ روز',sepia:'📜 سپیا',dark:'🌙 شب'};
   c.innerHTML=`<div class="pdf-toolbar" id="pdfToolbar">
     <button type="button" class="btn btn-ghost btn-sm" id="pdfOpen2" title="فایل جدید" aria-label="فایل جدید">📂</button>
     <input type="file" id="pdfFileInput2" accept=".pdf" style="display:none">
@@ -290,6 +369,8 @@ export function renderPDFReader(c){
     <div style="flex:1"></div>
     <button type="button" class="btn btn-sm ${pdfInstantLookup?'btn-primary':'btn-ghost'}" id="pdfInstantBtn" title="با یک کلیک روی هر کلمه پنجره معنی باز شود">⚡ کلیک آنی</button>
     <button type="button" class="btn btn-sm ${pdfTextMode?'btn-primary':'btn-ghost'}" id="pdfTextModeBtn" title="تغییر بین نمای اصلی PDF و حالت متن">${pdfTextMode?'📄 متن':'📑 PDF'}</button>
+    <button type="button" class="btn btn-ghost btn-sm" id="pdfThemeModeBtn" title="تغییر رنگ صفحه مطالعه (روز / سپیا / شب)">${themeIcons[pdfThemeMode]||themeIcons.default}</button>
+    <button type="button" class="btn btn-ghost btn-sm" id="pdfHighlightsBtn" title="هایلایت‌ها و یادداشت‌های این کتاب">🖍️${hlCount>0?' <small style="font-size:.68rem;font-weight:700">'+hlCount+'</small>':''}</button>
     <button type="button" class="btn btn-ghost btn-sm" id="pdfBookmarkBtn" title="ذخیره نشانک صفحه فعلی" aria-label="نشانک صفحه">🔖</button>
     <button type="button" class="btn btn-ghost btn-sm" id="pdfUnknownBtn" title="برجسته کردن کلمات ناشناخته" aria-label="کلمات ناشناخته" style="${pdfHighlightUnknown?'color:var(--warning);background:rgba(253,203,110,.15)':''}">🆕</button>
     <div class="pdf-sep"></div>
@@ -314,7 +395,7 @@ export function renderPDFReader(c){
   </div>
   ${pdfTextMode
     ? `<div style="width:100%;height:calc(100vh - 150px);min-height:500px;overflow-y:auto;padding:24px;background:var(--bg2);border-radius:var(--radius);line-height:2;font-size:1rem;direction:ltr;text-align:left" id="pdfTextContent">${pdfTextPages.length?pdfTextPages.map(p=>'<div class="pdf-text-page" data-page="'+p.pageNum+'" style="margin-bottom:24px;padding-bottom:24px;border-bottom:1px solid var(--border)"><div style="color:var(--text2);font-size:.75rem;margin-bottom:8px">📄 صفحه '+p.pageNum+'</div><div class="pdf-reflow-body" style="white-space:pre-wrap;word-break:break-word;cursor:text;user-select:text">'+renderReflowWordsHtml(p.text)+'</div></div>').join(''):'<div style="text-align:center;padding:40px;color:var(--text2)">در حال استخراج متن...</div>'}</div>`
-    : `<div style="width:100%;height:calc(100vh - 150px);min-height:500px;overflow:auto;padding:20px 12px;background:var(--bg2);border-radius:var(--radius)" id="pdfViewerWrap"><div id="pdfCanvasContainer" style="display:flex;flex-direction:column;align-items:center;gap:20px"><div style="text-align:center;padding:40px;color:var(--text2)">📄 در حال بارگذاری PDF...</div></div></div>`
+    : `<div style="width:100%;height:calc(100vh - 150px);min-height:500px;overflow:auto;padding:20px 12px;background:var(--bg2);border-radius:var(--radius)" id="pdfViewerWrap" data-pdf-filter="${esc(pdfThemeMode||'default')}"><div id="pdfCanvasContainer" style="display:flex;flex-direction:column;align-items:center;gap:20px"><div style="text-align:center;padding:40px;color:var(--text2)">📄 در حال بارگذاری PDF...</div></div></div>`
   }`;
 
   document.getElementById('pdfOpen2').onclick=()=>document.getElementById('pdfFileInput2').click();
@@ -362,6 +443,29 @@ export function renderPDFReader(c){
     bookmarkBtn.onclick=function(){
       savePdfBookmark();
       toast('نشانک ذخیره شد (صفحه '+(pdfCurrentPage||1)+')','success');
+    };
+  }
+
+  // Foliate Page Theme Mode (Day / Sepia / Night)
+  var themeModeBtn=document.getElementById('pdfThemeModeBtn');
+  if(themeModeBtn){
+    themeModeBtn.onclick=function(){
+      const order=['default','sepia','dark'];
+      const labels={default:'☀️ روز',sepia:'📜 سپیا',dark:'🌙 شب'};
+      pdfThemeMode=order[(order.indexOf(pdfThemeMode)+1)%order.length];
+      themeModeBtn.textContent=labels[pdfThemeMode];
+      const wrap=document.getElementById('pdfViewerWrap');
+      if(wrap)wrap.setAttribute('data-pdf-filter',pdfThemeMode);
+      savePdfState();
+      toast('حالت صفحه: '+labels[pdfThemeMode],'info');
+    };
+  }
+
+  // Foliate Highlights & Annotations Drawer
+  var hlBtn=document.getElementById('pdfHighlightsBtn');
+  if(hlBtn){
+    hlBtn.onclick=function(){
+      showPdfHighlightsModal();
     };
   }
 
@@ -893,53 +997,426 @@ export function pdfOpenWord(word,x,y,spanEl){
   showPdfTranslateInput(x,y,word);
 }
 
-export function showPdfSelectionHelper(x,y,words){
+export function showPdfSelectionHelper(x,y,words,rawSelectionText){
   // words: single word string OR array of words (drag-selection over several)
   var old=document.getElementById('pdfSelectionHelper');
   if(old)old.remove();
   if(typeof words==='string')words=[words];
   if(!words||!words.length)return;
+  var single=words.length===1;
+  var rawText=String(rawSelectionText||words.join(' ')).trim();
   var helper=document.createElement('div');
   helper.id='pdfSelectionHelper';
-  var single=words.length===1;
-  helper.style.cssText='position:fixed;z-index:315;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:'+(single?'6px 12px':'10px 12px')+';box-shadow:0 8px 24px rgba(0,0,0,.35);font-family:var(--font);cursor:pointer;transition:all .18s;max-width:340px'+(single?';display:flex;gap:6px;align-items:center':'');
-  helper.style.left=Math.max(8,Math.min(x,window.innerWidth-356))+'px';
-  helper.style.top=Math.max(8,y-(single?42:Math.min(words.length,10)*18+64))+'px';
-  if(single){
-    helper.innerHTML='<span style="font-size:.85rem;font-weight:600;color:var(--accent)">🔍 '+esc(words[0])+'</span>';
-    helper.onclick=function(e){
+  helper.className='foliate-selection-popover';
+  var popW=248;
+  var left=Math.max(10,Math.min(x-Math.round(popW/2),window.innerWidth-popW-12));
+  var estH=single?290:(Math.min(words.length,10)*18+330);
+  var top=y-estH>12?(y-estH):Math.min(window.innerHeight-estH-12,y+18);
+  if(top<10)top=10;
+  helper.style.left=left+'px';
+  helper.style.top=top+'px';
+
+  // 1) Foliate Top Quick Action Bar (Copy | Highlight | Search in Document)
+  // NOTE: Never use <span> here so Playwright `page.locator('#pdfSelectionHelper span')`
+  // matches ONLY the word chips below!
+  var topBar=document.createElement('div');
+  topBar.className='foliate-top-bar';
+
+  var copyBtn=document.createElement('button');
+  copyBtn.type='button';
+  copyBtn.className='foliate-icon-btn';
+  copyBtn.title='کپی متن (Copy)';
+  copyBtn.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+  copyBtn.onclick=function(e){
+    e.stopPropagation();
+    navigator.clipboard?.writeText(rawText);
+    toast('متن کپی شد','success');
+    helper.remove();
+  };
+
+  var hlToggleBtn=document.createElement('button');
+  hlToggleBtn.type='button';
+  hlToggleBtn.className='foliate-icon-btn';
+  hlToggleBtn.title='هایلایت (Highlight)';
+  hlToggleBtn.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>';
+
+  var searchDocBtn=document.createElement('button');
+  searchDocBtn.type='button';
+  searchDocBtn.className='foliate-icon-btn';
+  searchDocBtn.title='جستجو در سند (Find in Document)';
+  searchDocBtn.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>';
+  searchDocBtn.onclick=function(e){
+    e.stopPropagation();
+    helper.remove();
+    var sInput=document.getElementById('pdfWordSearch');
+    if(sInput){
+      sInput.value=words[0];
+      sInput.dispatchEvent(new Event('input'));
+      sInput.focus();
+    }else{
+      showPdfTranslateInput(x,y,words[0]);
+    }
+  };
+
+  topBar.append(copyBtn,hlToggleBtn,searchDocBtn);
+  helper.appendChild(topBar);
+
+  // Highlight Color Picker Row (toggled by Pencil button or 1-click yellow highlight)
+  var colorRow=document.createElement('div');
+  colorRow.className='foliate-color-row';
+  colorRow.style.display='none';
+  [
+    {color:'#facc15',label:'زرد'},
+    {color:'#4ade80',label:'سبز'},
+    {color:'#60a5fa',label:'آبی'},
+    {color:'#f472b6',label:'صورتی'},
+    {color:'none',label:'حذف'}
+  ].forEach(function(c){
+    var dot=document.createElement('button');
+    dot.type='button';
+    dot.className='foliate-color-dot';
+    dot.title=c.label;
+    if(c.color==='none'){
+      dot.textContent='✕';
+      dot.style.background='var(--bg)';
+      dot.style.color='var(--danger)';
+    }else{
+      dot.style.background=c.color;
+    }
+    dot.onclick=function(ev){
+      ev.stopPropagation();
+      savePdfHighlightItem({page:pdfCurrentPage||1,text:rawText,words:words,color:c.color});
+      toast(c.color==='none'?'هایلایت حذف شد':'متن هایلایت شد','success');
+      helper.remove();
+    };
+    colorRow.appendChild(dot);
+  });
+  hlToggleBtn.onclick=function(e){
+    e.stopPropagation();
+    colorRow.style.display=colorRow.style.display==='none'?'flex':'none';
+  };
+  helper.appendChild(colorRow);
+
+  // 2) Selectable Word Chips (ONLY place using <span> inside #pdfSelectionHelper)
+  var chipsWrap=document.createElement('div');
+  chipsWrap.className='foliate-chips-wrap';
+  if(!single){
+    var chipLabel=document.createElement('div');
+    chipLabel.className='foliate-chips-label';
+    chipLabel.textContent=words.length+' کلمه انتخاب شد — کلیک برای فرهنگ لغت:';
+    chipsWrap.appendChild(chipLabel);
+  }
+  var chips=document.createElement('div');
+  chips.className='foliate-chips-list';
+  words.slice(0,10).forEach(function(w){
+    var chip=document.createElement('span');
+    chip.className='foliate-word-chip';
+    chip.textContent='🔍 '+w;
+    chip.onclick=function(e){
       e.stopPropagation();
       helper.remove();
-      showPdfTranslateInput(x,y,words[0]);
+      showPdfTranslateInput(x,y,w);
     };
-  }else{
-    var label=document.createElement('div');
-    label.style.cssText='font-size:.72rem;color:var(--text2);margin-bottom:6px;font-weight:600';
-    label.textContent=words.length+' کلمه انتخاب شد — روی هر کدام بزنید';
-    helper.appendChild(label);
-    var chips=document.createElement('div');
-    chips.style.cssText='display:flex;flex-wrap:wrap;gap:4px;max-width:340px';
-    words.slice(0,10).forEach(function(w){
-      var chip=document.createElement('span');
-      chip.style.cssText='padding:3px 9px;border-radius:8px;font-size:.78rem;background:var(--bg);border:1px solid var(--border);color:var(--accent);cursor:pointer';
-      chip.textContent='🔍 '+w;
-      chip.onclick=function(e){
-        e.stopPropagation();
-        helper.remove();
-        showPdfTranslateInput(x,y,w);
-      };
-      chips.appendChild(chip);
-    });
-    helper.appendChild(chips);
-    if(words.length>10){
-      var more=document.createElement('div');
-      more.style.cssText='font-size:.7rem;color:var(--text2);margin-top:4px';
-      more.textContent='و '+(words.length-10)+' کلمه دیگر…';
-      helper.appendChild(more);
+    chips.appendChild(chip);
+  });
+  chipsWrap.appendChild(chips);
+  if(words.length>10){
+    var more=document.createElement('div');
+    more.style.cssText='font-size:.68rem;color:var(--text2);margin-top:4px';
+    more.textContent='و '+(words.length-10)+' کلمه دیگر…';
+    chipsWrap.appendChild(more);
+  }
+  helper.appendChild(chipsWrap);
+
+  // 3) Foliate Vertical Menu Items
+  var menuList=document.createElement('div');
+  menuList.className='foliate-menu-list';
+
+  function addMenuItem(titleEn,titleFa,onClick,dividerBefore){
+    if(dividerBefore){
+      var div=document.createElement('div');
+      div.className='foliate-menu-divider';
+      menuList.appendChild(div);
+    }
+    var btn=document.createElement('button');
+    btn.type='button';
+    btn.className='foliate-menu-item';
+    var leftLbl=document.createElement('strong');
+    leftLbl.textContent=titleEn;
+    var rightLbl=document.createElement('small');
+    rightLbl.textContent=titleFa;
+    btn.append(leftLbl,rightLbl);
+    btn.onclick=function(e){
+      e.stopPropagation();
+      helper.remove();
+      onClick();
+    };
+    menuList.appendChild(btn);
+  }
+
+  addMenuItem('Dictionary','فرهنگ لغت',function(){
+    showPdfTranslateInput(x,y,words[0]);
+  },false);
+
+  addMenuItem('Wikipedia','ویکی‌پدیا',function(){
+    showPdfWikipediaModal(x,y,words.slice(0,4).join(' '));
+  },false);
+
+  addMenuItem('Translate','ترجمه عبارت',function(){
+    showPdfPassageTranslateModal(x,y,rawText,words);
+  },false);
+
+  addMenuItem('Speak from Here','خواندن صوتی',function(){
+    startPdfSpeakFromHere(words[0],rawText);
+  },true);
+
+  addMenuItem('Copy with Citation','کپی با رفرنس',function(){
+    var cite='«'+rawText+'» — ('+(pdfFileName||'PDF')+', p. '+(pdfCurrentPage||1)+')';
+    navigator.clipboard?.writeText(cite);
+    toast('متن همراه با منبع و شماره صفحه کپی شد','success');
+  },true);
+
+  addMenuItem('Print Selection…','چاپ انتخاب…',function(){
+    printPdfSelection(rawText);
+  },false);
+
+  helper.appendChild(menuList);
+  document.body.appendChild(helper);
+  setTimeout(function(){if(helper.parentNode)helper.remove()},12000);
+}
+
+// ── Foliate Action 1: Wikipedia Summary Lookup inside #pdfTranslatePopup ──
+export async function showPdfWikipediaModal(x,y,query){
+  showPdfTranslateInput(x,y,'');
+  var resultDiv=document.getElementById('pdfTranslateResult');
+  if(!resultDiv)return;
+  var cleanQ=String(query||'').trim();
+  resultDiv.dataset.lookingUp=cleanQ;
+  resultDiv.innerHTML='<div class="trans-loading"><div class="trans-spinner"></div>در حال جستجو در ویکی‌پدیا برای «'+esc(cleanQ)+'»...</div>';
+  try{
+    var url='https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(cleanQ.replace(/\s+/g,'_'));
+    var resp=await fetch(url);
+    if(!resp.ok&&cleanQ.includes(' ')){
+      var firstW=pdfNormalizeWord(cleanQ.split(/\s+/)[0]);
+      resp=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(firstW));
+    }
+    if(!resp.ok)throw new Error('مقاله‌ای در ویکی‌پدیا یافت نشد');
+    var data=await resp.json();
+    var extract=data.extract||'خلاصه‌ای یافت نشد.';
+    var faTrans=await fetchTranslation(extract.slice(0,380))||'';
+    if(!document.getElementById('pdfTranslateResult'))return;
+    var h='<div style="direction:ltr;text-align:left">';
+    h+='<div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">';
+    if(data.thumbnail&&data.thumbnail.source){
+      h+='<img src="'+esc(data.thumbnail.source)+'" alt="" style="width:56px;height:56px;object-fit:cover;border-radius:10px;border:1px solid var(--border)">';
+    }
+    h+='<div><div style="font-size:1.15rem;font-weight:800;color:var(--accent)">📚 '+esc(data.title||cleanQ)+'</div>';
+    if(data.description)h+='<div style="font-size:.76rem;color:var(--text2)">'+esc(data.description)+'</div>';
+    h+='</div></div>';
+    h+='<div style="font-size:.84rem;line-height:1.7;color:var(--text);padding:10px 12px;background:var(--bg);border-radius:10px;border:1px solid var(--border);margin-bottom:10px">'+esc(extract)+'</div>';
+    if(faTrans){
+      h+='<div style="font-size:.86rem;line-height:1.8;color:var(--success);padding:10px 12px;background:var(--bg);border-radius:10px;border:1px solid var(--border);direction:rtl;text-align:right;margin-bottom:10px">'+esc(faTrans)+'</div>';
+    }
+    var pageUrl=(data.content_urls&&data.content_urls.desktop&&data.content_urls.desktop.page)||('https://en.wikipedia.org/wiki/'+encodeURIComponent(cleanQ));
+    h+='<div style="display:flex;justify-content:space-between;align-items:center;gap:8px">';
+    h+='<a href="'+esc(pageUrl)+'" target="_blank" rel="noopener" class="btn btn-sm btn-ghost" style="font-size:.76rem">🌐 باز کردن در ویکی‌پدیا</a>';
+    h+='<button type="button" class="btn btn-sm btn-primary" id="wikiToDictBtn" style="font-size:.76rem">🔍 فرهنگ لغت</button>';
+    h+='</div></div>';
+    resultDiv.innerHTML=h;
+    var wBtn=document.getElementById('wikiToDictBtn');
+    if(wBtn)wBtn.onclick=function(){doPdfTranslateSmart(cleanQ.split(/\s+/)[0])};
+  }catch(err){
+    if(document.getElementById('pdfTranslateResult')){
+      resultDiv.innerHTML='<div style="text-align:center;padding:18px;color:var(--text2)">⚠️ '+(err.message||'نتیجه‌ای در ویکی‌پدیا یافت نشد')+'<div style="margin-top:10px"><button type="button" class="btn btn-sm btn-primary" id="wikiFallbackDict">🔍 جستجو در فرهنگ لغت</button></div></div>';
+      var fb=document.getElementById('wikiFallbackDict');
+      if(fb)fb.onclick=function(){doPdfTranslateSmart(cleanQ.split(/\s+/)[0])};
     }
   }
-  document.body.appendChild(helper);
-  setTimeout(function(){if(helper.parentNode)helper.remove()},6000);
+}
+
+// ── Foliate Action 2: Full Phrase / Passage Translation Modal ──
+export async function showPdfPassageTranslateModal(x,y,rawText,words){
+  var cleanPassage=String(rawText||'').trim();
+  if(!cleanPassage||(Array.isArray(words)&&words.length===1&&cleanPassage.split(/\s+/).length===1)){
+    showPdfTranslateInput(x,y,Array.isArray(words)?words[0]:cleanPassage);
+    return;
+  }
+  showPdfTranslateInput(x,y,'');
+  var resultDiv=document.getElementById('pdfTranslateResult');
+  if(!resultDiv)return;
+  resultDiv.dataset.lookingUp=cleanPassage.slice(0,30);
+  resultDiv.innerHTML='<div class="trans-loading"><div class="trans-spinner"></div>در حال ترجمه عبارت انتخاب‌شده...</div>';
+  try{
+    var translated=await fetchTranslation(cleanPassage.slice(0,500))||'ترجمه‌ای دریافت نشد';
+    if(!document.getElementById('pdfTranslateResult'))return;
+    var h='<div style="display:flex;flex-direction:column;gap:10px">';
+    h+='<div style="font-size:.76rem;color:var(--text2);font-weight:700;text-align:right;direction:rtl">🌐 ترجمه متن انتخاب‌شده</div>';
+    h+='<div style="font-size:.86rem;line-height:1.7;padding:10px 12px;background:var(--bg);border-radius:10px;border-left:3px solid var(--accent);direction:ltr;text-align:left;color:var(--text)">'+esc(cleanPassage)+'</div>';
+    h+='<div style="font-size:.96rem;font-weight:600;line-height:1.9;padding:12px 14px;background:var(--bg);border-radius:10px;border-right:3px solid var(--success);direction:rtl;text-align:right;color:var(--success)">'+esc(translated)+'</div>';
+    h+='<div style="display:flex;gap:6px;justify-content:flex-end;flex-wrap:wrap">';
+    h+='<button type="button" class="btn btn-sm btn-ghost" id="pdfSpeakPassageBtn" style="font-size:.75rem">🔊 خواندن متن</button>';
+    h+='<button type="button" class="btn btn-sm btn-ghost" id="pdfCopyPassageTransBtn" style="font-size:.75rem">📋 کپی ترجمه</button>';
+    h+='</div></div>';
+    resultDiv.innerHTML=h;
+    var spk=document.getElementById('pdfSpeakPassageBtn');
+    if(spk)spk.onclick=function(){startPdfSpeakFromHere(words&&words[0]?words[0]:'',cleanPassage)};
+    var cp=document.getElementById('pdfCopyPassageTransBtn');
+    if(cp)cp.onclick=function(){navigator.clipboard?.writeText(translated);toast('ترجمه کپی شد','success')};
+  }catch(e){
+    if(document.getElementById('pdfTranslateResult')){
+      resultDiv.innerHTML='<div style="text-align:center;padding:16px;color:var(--danger)">خطا در ترجمه عبارت</div>';
+    }
+  }
+}
+
+// ── Foliate Action 3: Speak from Here (Continuous TTS Reader + Floating Controller) ──
+export function stopPdfTts(){
+  try{if(window.speechSynthesis)window.speechSynthesis.cancel()}catch(_e){}
+  _pdfTtsState.active=false;
+  _pdfTtsState.paused=false;
+  var bar=document.getElementById('pdfTtsFloatingBar');
+  if(bar)bar.remove();
+}
+
+export function startPdfSpeakFromHere(startWord,fallbackText){
+  stopPdfTts();
+  if(typeof window==='undefined'||!('speechSynthesis' in window)){
+    toast('مرورگر شما از خواندن صوتی پشتیبانی نمی‌کند','error');
+    return;
+  }
+  var pageNum=pdfCurrentPage||1;
+  var pageObj=(pdfTextPages||[]).find(p=>Number(p.pageNum)===Number(pageNum));
+  var fullText=(pageObj&&pageObj.text)?pageObj.text:String(fallbackText||startWord||'');
+  if(startWord&&fullText){
+    var idx=fullText.toLowerCase().indexOf(String(startWord).toLowerCase());
+    if(idx>0)fullText=fullText.slice(idx);
+  }
+  fullText=fullText.trim();
+  if(!fullText){toast('متنی برای خواندن یافت نشد','info');return}
+
+  var sentences=fullText.match(/[^.!?]+[.!?]*/g)||[fullText];
+  _pdfTtsState={active:true,paused:false,rate:1,page:pageNum,sentences:sentences.map(s=>s.trim()).filter(Boolean),idx:0};
+
+  var bar=document.createElement('div');
+  bar.id='pdfTtsFloatingBar';
+  bar.className='foliate-tts-bar';
+  bar.innerHTML='<div class="foliate-tts-status">🔊 <strong id="pdfTtsLabel">در حال خواندن صفحه '+pageNum+'...</strong></div>'
+    +'<div style="display:flex;align-items:center;gap:6px">'
+    +'<button type="button" class="btn btn-ghost btn-sm" id="pdfTtsPrev" title="جمله قبل">⏮</button>'
+    +'<button type="button" class="btn btn-primary btn-sm" id="pdfTtsToggle" title="مکث / ادامه">⏸</button>'
+    +'<button type="button" class="btn btn-ghost btn-sm" id="pdfTtsNext" title="جمله بعد">⏭</button>'
+    +'<button type="button" class="btn btn-danger btn-sm" id="pdfTtsStop" title="توقف">⏹</button>'
+    +'</div>';
+  document.body.appendChild(bar);
+
+  function speakCurrentSentence(){
+    if(!_pdfTtsState.active)return;
+    if(_pdfTtsState.idx>=_pdfTtsState.sentences.length){
+      stopPdfTts();
+      toast('خواندن این صفحه به پایان رسید','info');
+      return;
+    }
+    var txt=_pdfTtsState.sentences[_pdfTtsState.idx];
+    var lbl=document.getElementById('pdfTtsLabel');
+    if(lbl)lbl.textContent=txt.length>48?(txt.slice(0,45)+'…'):txt;
+    try{
+      window.speechSynthesis.cancel();
+      var utt=new SpeechSynthesisUtterance(txt);
+      utt.lang='en-US';
+      utt.rate=_pdfTtsState.rate||1;
+      utt.onend=function(){
+        if(_pdfTtsState.active&&!_pdfTtsState.paused){
+          _pdfTtsState.idx++;
+          speakCurrentSentence();
+        }
+      };
+      window.speechSynthesis.speak(utt);
+    }catch(_e){}
+  }
+
+  document.getElementById('pdfTtsPrev').onclick=function(){
+    _pdfTtsState.idx=Math.max(0,_pdfTtsState.idx-1);
+    speakCurrentSentence();
+  };
+  document.getElementById('pdfTtsNext').onclick=function(){
+    _pdfTtsState.idx=Math.min(_pdfTtsState.sentences.length-1,_pdfTtsState.idx+1);
+    speakCurrentSentence();
+  };
+  document.getElementById('pdfTtsToggle').onclick=function(){
+    var btn=document.getElementById('pdfTtsToggle');
+    if(_pdfTtsState.paused){
+      _pdfTtsState.paused=false;
+      try{window.speechSynthesis.resume()}catch(_e){}
+      if(btn)btn.textContent='⏸';
+    }else{
+      _pdfTtsState.paused=true;
+      try{window.speechSynthesis.pause()}catch(_e){}
+      if(btn)btn.textContent='▶️';
+    }
+  };
+  document.getElementById('pdfTtsStop').onclick=stopPdfTts;
+  speakCurrentSentence();
+}
+
+// ── Foliate Action 4: Print Selection ──
+export function printPdfSelection(rawText){
+  var w=window.open('','_blank','width=680,height=520');
+  if(!w){toast('پنجره چاپ مسدود شد','error');return}
+  var docTitle=esc(pdfFileName||'PDF Document');
+  var pg=pdfCurrentPage||1;
+  w.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>'+docTitle+' — Page '+pg+'</title><style>body{font-family:Georgia,serif;padding:40px;line-height:1.8;color:#111}blockquote{font-size:1.15rem;border-left:4px solid #6c5ce7;padding-left:16px;margin:20px 0}footer{font-size:.85rem;color:#555;margin-top:24px;border-top:1px solid #ddd;padding-top:10px}</style></head><body><h2>Selected Passage</h2><blockquote>'+esc(rawText)+'</blockquote><footer>Source: <strong>'+docTitle+'</strong> — Page '+pg+'</footer><script>window.onload=function(){window.print()}<\/script></body></html>');
+  w.document.close();
+}
+
+// ── Foliate Highlights Drawer Modal ──
+export function showPdfHighlightsModal(){
+  var existing=document.getElementById('pdfHighlightsModal');
+  if(existing)existing.remove();
+  var list=loadPdfHighlights(pdfFileName);
+  var overlay=document.createElement('div');
+  overlay.id='pdfHighlightsModal';
+  overlay.className='modal-overlay';
+  var rowsHtml=list.length?list.map(function(item,idx){
+    return '<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:10px;padding:12px;border-radius:12px;background:var(--bg);border:1px solid var(--border);margin-bottom:8px;border-right:4px solid '+(item.color||'#facc15')+'">'
+      +'<div style="flex:1;direction:ltr;text-align:left"><div style="font-size:.88rem;color:var(--text);font-weight:600;line-height:1.6">'+esc(item.text)+'</div><div style="font-size:.72rem;color:var(--text2);margin-top:4px">📄 صفحه '+esc(String(item.page||1))+'</div></div>'
+      +'<div style="display:flex;gap:4px;flex-shrink:0">'
+      +'<button type="button" class="btn btn-ghost btn-sm" data-hl-jump="'+esc(String(item.page||1))+'" title="رفتن به صفحه">📄</button>'
+      +'<button type="button" class="btn btn-ghost btn-sm" data-hl-del="'+idx+'" title="حذف" style="color:var(--danger)">🗑️</button>'
+      +'</div></div>';
+  }).join(''):'<div style="text-align:center;padding:32px 16px;color:var(--text2)">هنوز متنی را در این PDF هایلایت نکرده‌اید.<br><small>متنی را در PDF انتخاب کنید و روی آیکون مداد (✏️) بزنید.</small></div>';
+
+  overlay.innerHTML='<div class="modal" style="max-width:520px">'
+    +'<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px"><h3 style="margin:0">🖍️ هایلایت‌های کتاب ('+list.length+')</h3><button type="button" class="btn btn-ghost btn-sm" id="closeHlModal">✕</button></div>'
+    +'<div style="max-height:60vh;overflow-y:auto">'+rowsHtml+'</div>'
+    +'</div>';
+  document.body.appendChild(overlay);
+  overlay.onclick=function(e){if(e.target===overlay)overlay.remove()};
+  document.getElementById('closeHlModal').onclick=function(){overlay.remove()};
+  overlay.querySelectorAll('[data-hl-jump]').forEach(function(btn){
+    btn.onclick=function(){
+      var p=parseInt(btn.getAttribute('data-hl-jump'))||1;
+      overlay.remove();
+      var container=document.getElementById(pdfTextMode?'pdfTextContent':'pdfCanvasContainer');
+      var target=container?container.querySelector('[data-page="'+p+'"]'):null;
+      if(target)target.scrollIntoView({behavior:'smooth',block:'start'});
+    };
+  });
+  overlay.querySelectorAll('[data-hl-del]').forEach(function(btn){
+    btn.onclick=function(){
+      var idx=parseInt(btn.getAttribute('data-hl-del'));
+      var fn=pdfFileName||'__default__';
+      try{
+        var all=JSON.parse(localStorage.getItem(PDF_HIGHLIGHTS_KEY)||'{}');
+        if(Array.isArray(all[fn])){
+          all[fn].splice(idx,1);
+          localStorage.setItem(PDF_HIGHLIGHTS_KEY,JSON.stringify(all));
+          applyPdfSavedHighlightsAll();
+        }
+      }catch(_e){}
+      overlay.remove();
+      showPdfHighlightsModal();
+    };
+  });
 }
 
 // Hit-test: find the exact word under (x,y) inside the rendered text layer.
@@ -1096,6 +1573,7 @@ export async function renderPDFCanvasPages(blobUrl){
       buildPdfWordLayer(textContent,viewport,textLayer);
 
       if(pdfHighlightUnknown)applyPdfUnknownMarksOnLayer(textLayer);
+      applyPdfSavedHighlightsOnLayer(textLayer,i);
       pageWrap.appendChild(textLayer);
 
       // Page number label
@@ -1175,13 +1653,15 @@ export async function renderPDFCanvasPages(blobUrl){
           var moved=Math.hypot(e.clientX-downX,e.clientY-downY);
           setTimeout(function(){
             if(document.getElementById('pdfTranslatePopup'))return;
+            var selObj=window.getSelection();
+            var rawSel=selObj?selObj.toString().trim():'';
             var words=wordsFromSelection();
             if(words.length>1){
-              showPdfSelectionHelper(e.clientX,e.clientY,words);
+              showPdfSelectionHelper(e.clientX,e.clientY,words,rawSel);
               return;
             }
             if(words.length===1&&moved>=4){
-              showPdfSelectionHelper(e.clientX,e.clientY,words[0]);
+              showPdfSelectionHelper(e.clientX,e.clientY,words[0],rawSel);
               return;
             }
             // Single click without drag on a word span
@@ -1194,7 +1674,7 @@ export async function renderPDFCanvasPages(blobUrl){
                   if(pdfInstantLookup){
                     pdfOpenWord(w,e.clientX,e.clientY,sp);
                   }else{
-                    showPdfSelectionHelper(e.clientX,e.clientY,w);
+                    showPdfSelectionHelper(e.clientX,e.clientY,w,sp.textContent||w);
                   }
                 }
               }

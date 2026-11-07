@@ -38,13 +38,20 @@ if(typeof window!=='undefined'){
 }
 export function renderNav(){
 const nav=document.getElementById('nav');
+if(!nav)return;
+const dueCnt=(typeof getDue==='function')?getDue().length:0;
+const libCnt=(typeof S!=='undefined'&&Array.isArray(S.words))?S.words.length:0;
+const ltCnt=(typeof S!=='undefined'&&Array.isArray(S.longTerm))?S.longTerm.length:0;
+const badgeMap={review:dueCnt,library:libCnt,longterm:ltCnt};
 let html='';
 NAV_GROUPS.forEach((g,i)=>{
 if(i>0)html+='<div class="nav-divider"></div>';
 html+='<div class="nav-section"><div class="nav-section-label">'+g.label+'</div>';
 g.items.forEach(t=>{
 const active=t.id===currentTab;
-html+='<button type="button" class="nav-btn'+(active?' active':'')+'" data-tab="'+t.id+'"><span class="icon">'+t.icon+'</span>'+t.label+'</button>';
+const bVal=badgeMap[t.id]||0;
+const badgeHtml=bVal>0?'<span class="nav-count-badge'+(t.id==='review'?' nav-badge-due':'')+'">'+bVal+'</span>':'';
+html+='<button type="button" class="nav-btn'+(active?' active':'')+'" data-tab="'+t.id+'"><span class="icon">'+t.icon+'</span><span class="nav-label">'+t.label+'</span>'+badgeHtml+'</button>';
 });
 html+='</div>';
 });
@@ -64,8 +71,19 @@ renderNav();
 // Render daily challenge widget in sidebar
 const dcw=document.getElementById('dailyChallengeWidget');
 if(dcw&&typeof renderDailyChallengeWidget==='function')dcw.innerHTML=renderDailyChallengeWidget();
-const titles={review:'مرور',quiz:'آزمون',engquiz:'تعیین سطح',library:'کتابخانه',longterm:'حافظه بلندمدت',import:'ورود',reading:'خواندن',pdfreader:'خواننده PDF',pdfmobile:'خواننده PDF موبایل',wordweb:'نقشه واژگان',stats:'آمار و تقویم',export:'خروج / پشتیبان',aichat:'چت با هوش مصنوعی',speakai:'مربی مکالمه هوشمند',vocabforge:'وکب فورج',settings:'تنظیمات',about:'درباره'};
+const titles={review:'مرور هوشمند',quiz:'آزمون تعاملی',engquiz:'تعیین سطح',library:'کتابخانه واژگان',longterm:'حافظه بلندمدت',import:'ورود کلمات',reading:'خواندن متن',pdfreader:'خواننده هوشمند PDF',pdfmobile:'خواننده PDF موبایل',wordweb:'نقشه واژگان',stats:'آمار و تقویم',export:'خروج / پشتیبان',aichat:'چت با هوش مصنوعی',speakai:'مربی مکالمه هوشمند',vocabforge:'وکب فورج',settings:'تنظیمات',about:'درباره'};
+const subtitles={review:'تکرار فاصله‌دار هوشمند با الگوریتم FSRS-5',quiz:'سنجش سرعت و دقت یادآوری واژگان',engquiz:'ارزیابی استاندارد سطح زبان انگلیسی',library:'مدیریت، دسته‌بندی و ویرایش کارت‌های لایتنر',longterm:'واژگان تثبیت‌شده در حافظه پایدار',import:'افزودن دسته‌ای واژگان از فایل، متن یا بسته‌های آماده',reading:'مطالعه متن با ترجمه و استخراج آنی کلمات',pdfreader:'مطالعه کتاب‌های PDF با لایه کلمات دقیق و ابزارهای Foliate',pdfmobile:'نسخه بهینه‌شده مطالعه برای موبایل و تبلت',wordweb:'گراف ارتباط معنایی، مترادف‌ها و خانواده کلمات',stats:'تحلیل روند یادگیری، تقویم مرور و نمودارهای پیشرفت',export:'پشتیبان‌گیری، اشتراک‌گذاری و همگام‌سازی ابری',aichat:'دستیار هوشمند آموزش و تمرین زبان',speakai:'تمرین مکالمه و تلفظ با هوش مصنوعی',vocabforge:'کارگاه ساخت و غنی‌سازی خودکار کارت‌ها',settings:'شخصی‌سازی پوسته، تلفظ، الگوریتم و کلیدهای API',about:'معرفی امکانات و تاریخچه نسخه‌های لایتنر پرو مکس'};
 document.getElementById('pageTitle').textContent=titles[currentTab]||'';
+const subEl=document.getElementById('pageSubtitle');
+if(subEl)subEl.textContent=subtitles[currentTab]||'';
+// Update live stats pills in topbar
+const topStats=document.getElementById('topbarStats');
+if(topStats&&typeof S!=='undefined'&&S.stats){
+  const dueNow=(typeof getDue==='function')?getDue().length:0;
+  const streak=S.stats.streak||0;
+  const xp=S.stats.xp||0;
+  topStats.innerHTML=`<span class="top-stat-pill" title="کارت‌های آماده مرور امروز">📖 <strong>${dueNow}</strong> مرور</span><span class="top-stat-pill" title="زنجیره مطالعه روزانه">🔥 <strong>${streak}</strong> روز</span><span class="top-stat-pill top-stat-xp" title="امتیاز تجربه">⚡ <strong>${xp}</strong> XP</span>`;
+}
 // Help button in topbar (if this tab has help text)
 var _th=document.getElementById('topActions');
 if(_th){var _existingHelp=_th.querySelector('[onclick*="showHelp"]');if(HELP_DICT[currentTab]){_existingHelp?_existingHelp.setAttribute('onclick',"showHelp('"+currentTab+"')"):_th.insertAdjacentHTML('beforeend','<button type="button" class="btn btn-ghost btn-sm" onclick="showHelp(\''+currentTab+'\')" title="راهنمای این بخش">🙋 راهنما</button>')}else if(_existingHelp){_existingHelp.remove()}}

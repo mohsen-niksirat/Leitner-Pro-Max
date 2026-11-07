@@ -114,6 +114,7 @@ for (const mod of [
 async function registerServiceWorker() {
   if (!('serviceWorker' in navigator)) return;
   try {
+    const hadController = Boolean(navigator.serviceWorker.controller);
     const registration = await navigator.serviceWorker.register('./service-worker.js', {
       scope: './'
     });
@@ -121,7 +122,7 @@ async function registerServiceWorker() {
       const worker = registration.installing;
       if (!worker) return;
       worker.addEventListener('statechange', () => {
-        if (worker.state === 'activated' && navigator.serviceWorker.controller) {
+        if (worker.state === 'activated' && hadController) {
           window.dispatchEvent(new CustomEvent('leitner:updated'));
         }
       });
