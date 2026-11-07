@@ -55,6 +55,7 @@ export function bootApp(){
   // Restore reading settings
   try{var _rdDash=localStorage.getItem('leitner_reading_dashVisible');if(_rdDash!==null)window.readingDashboardVisible=_rdDash==='1';var _rdFont=localStorage.getItem('leitner_reading_fontSize');if(_rdFont)window.readingFontSize=parseFloat(_rdFont);var _rdLH=localStorage.getItem('leitner_reading_lineHeight');if(_rdLH)window.readingLineHeight=parseFloat(_rdLH);var _rdTheme=localStorage.getItem('leitner_reading_contentTheme');if(_rdTheme)window.readingContentTheme=_rdTheme;}catch(e){}
   applyTheme();if(S.settings.fontSize)document.documentElement.setAttribute('data-fontsize',S.settings.fontSize);render();rebuildIndex();checkSharedDeckHash();
+  const _hamEl=document.getElementById('hamBtn');if(_hamEl)_hamEl.style.display='';
   // دریافت خودکار کارت‌های ارسال‌شده از وکب فورج (بعد از بارگذاری کامل داده‌ها)
   setTimeout(function(){if(typeof receivePendingVocabForge==='function'&&receivePendingVocabForge())render()},600);
 }
