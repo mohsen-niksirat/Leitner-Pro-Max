@@ -1,281 +1,890 @@
 // ═══════════════════════════════════════════
-// AI CHAT PRO — Scoped CSS & HTML Templates
+// AI STUDIO PRO — Scoped CSS & HTML Templates (Redesigned v5.3)
 // ═══════════════════════════════════════════
 
 export const AICHAT_CSS = `
 #aiChatRoot {
-  --bg: #0a0b10; --bg2: #13151f; --card: #1a1d2b; --border: #2a2e42;
-  --text: #e8eaed; --text2: #8b90a5; --accent: #6c5ce7; --success: #00b894;
-  --danger: #e17055; --warning: #fdcb6e; --user-bubble: linear-gradient(135deg, #6c5ce7, #a29bfe);
-  --shadow: 0 4px 24px rgba(0,0,0,0.3); --input-bg: #1e2030;
-  --scrollbar-thumb: #2a2e42; --scrollbar-track: #13151f;
+  --bg: #080b14;
+  --bg2: #0f1422;
+  --card: #161d30;
+  --card-hover: #1d263f;
+  --border: rgba(148, 163, 184, 0.16);
+  --border-strong: rgba(124, 108, 240, 0.42);
+  --text: #f1f5f9;
+  --text2: #94a3b8;
+  --accent: #7c6cf0;
+  --accent2: #38bdf8;
+  --accent-glow: rgba(124, 108, 240, 0.24);
+  --success: #10b981;
+  --danger: #f43f5e;
+  --warning: #f59e0b;
+  --user-bubble: linear-gradient(135deg, #6c5ce7 0%, #8b5cf6 55%, #6366f1 100%);
+  --shadow: 0 12px 36px rgba(0, 0, 0, 0.42);
+  --input-bg: #111728;
+  --scrollbar-thumb: #293452;
+  --scrollbar-track: #0c101d;
 }
 #aiChatRoot[data-theme="light"] {
-  --bg: #f0f2f5; --bg2: #ffffff; --card: #ffffff; --border: #e0e3eb;
-  --text: #1a1d2b; --text2: #6b7280; --accent: #6c5ce7; --success: #00b894;
-  --danger: #e17055; --warning: #fdcb6e; --user-bubble: linear-gradient(135deg, #6c5ce7, #a29bfe);
-  --shadow: 0 4px 24px rgba(0,0,0,0.08); --input-bg: #f7f8fa;
-  --scrollbar-thumb: #d0d3db; --scrollbar-track: #f0f2f5;
+  --bg: #f4f6fb;
+  --bg2: #ffffff;
+  --card: #ffffff;
+  --card-hover: #f8fafc;
+  --border: rgba(15, 23, 42, 0.1);
+  --border-strong: rgba(108, 92, 231, 0.35);
+  --text: #0f172a;
+  --text2: #64748b;
+  --accent: #6c5ce7;
+  --accent2: #0284c7;
+  --accent-glow: rgba(108, 92, 231, 0.16);
+  --success: #059669;
+  --danger: #e11d48;
+  --warning: #d97706;
+  --user-bubble: linear-gradient(135deg, #6c5ce7 0%, #8b5cf6 100%);
+  --shadow: 0 8px 28px rgba(15, 23, 42, 0.08);
+  --input-bg: #f8fafc;
+  --scrollbar-thumb: #cbd5e1;
+  --scrollbar-track: #f1f5f9;
 }
 #aiChatRoot, #aiChatRoot *::before, #aiChatRoot *::after { box-sizing: border-box; margin: 0; padding: 0; }
-#aiChatRoot { font-size: 15px; font-family: 'Vazirmatn', sans-serif; background: var(--bg); color: var(--text); display: flex; flex-direction: column; overflow: hidden; transition: background 0.3s, color 0.3s; height: calc(100vh - 60px); }
-#aiChatRoot ::-webkit-scrollbar { width: 6px; }
+#aiChatRoot {
+  font-size: 15px;
+  font-family: 'Vazirmatn', sans-serif;
+  background:
+    radial-gradient(circle at 12% 10%, rgba(124, 108, 240, 0.12), transparent 36%),
+    radial-gradient(circle at 88% 85%, rgba(56, 189, 248, 0.09), transparent 38%),
+    var(--bg);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: background 0.3s, color 0.3s;
+  height: calc(100vh - 76px);
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  position: relative;
+}
+#aiChatRoot ::-webkit-scrollbar { width: 6px; height: 6px; }
 #aiChatRoot ::-webkit-scrollbar-track { background: var(--scrollbar-track); }
 #aiChatRoot ::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 3px; }
 
-/* Header */
+/* Studio Header */
 #aiChatRoot .header {
-  display: flex; align-items: center; gap: 12px; padding: 12px 20px;
-  padding-top: max(12px, env(safe-area-inset-top));
-  background: var(--bg2); border-bottom: 1px solid var(--border); z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 18px;
+  background: rgba(15, 20, 34, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  z-index: 100;
   flex-shrink: 0;
+  flex-wrap: wrap;
 }
-#aiChatRoot .header .logo { font-size: 1.3rem; font-weight: 700; color: var(--accent); white-space: nowrap; }
-#aiChatRoot .header .logo span { font-size: 0.8rem; font-weight: 400; color: var(--text2); margin-right: 6px; }
-#aiChatRoot .header-right { display: flex; align-items: center; gap: 8px; margin-right: auto; }
+#aiChatRoot[data-theme="light"] .header {
+  background: rgba(255, 255, 255, 0.9);
+}
+#aiChatRoot .header .logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#aiChatRoot .header .logo-orb {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.05rem;
+  box-shadow: 0 4px 14px var(--accent-glow);
+}
+#aiChatRoot .header .logo {
+  font-size: 1.08rem;
+  font-weight: 800;
+  color: var(--text);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+#aiChatRoot .header .logo span {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(124, 108, 240, 0.16);
+  color: var(--accent);
+  border: 1px solid rgba(124, 108, 240, 0.3);
+}
+#aiChatRoot .header-right {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
 #aiChatRoot .icon-btn {
-  width: 38px; height: 38px; border: 1px solid var(--border); border-radius: 10px;
-  background: var(--card); color: var(--text); cursor: pointer; display: flex;
-  align-items: center; justify-content: center; font-size: 1.15rem; transition: all 0.2s;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.05rem;
+  transition: all 0.2s;
 }
-#aiChatRoot .icon-btn:hover { border-color: var(--accent); color: var(--accent); }
+#aiChatRoot .icon-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
 #aiChatRoot .provider-badge {
-  padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 500;
-  background: var(--accent); color: #fff; white-space: nowrap;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent), #6366f1);
+  color: #fff;
+  white-space: nowrap;
+  box-shadow: 0 3px 10px var(--accent-glow);
+}
+#aiChatRoot .policy-pill-select {
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  outline: none;
+  font-family: 'Vazirmatn', sans-serif;
+  transition: border-color 0.2s;
+}
+#aiChatRoot .policy-pill-select:hover, #aiChatRoot .policy-pill-select:focus {
+  border-color: var(--accent);
+}
+#aiChatRoot .studio-action-pill {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: rgba(124, 108, 240, 0.12);
+  color: var(--accent);
+  border: 1px solid rgba(124, 108, 240, 0.3);
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: 'Vazirmatn', sans-serif;
+  transition: all 0.2s;
+}
+#aiChatRoot .studio-action-pill:hover {
+  background: var(--accent);
+  color: #fff;
 }
 
 /* Chat Tabs */
 #aiChatRoot .chat-tabs {
-  display: flex; align-items: center; gap: 6px; padding: 8px 20px;
-  background: var(--bg); border-bottom: 1px solid var(--border);
-  overflow-x: auto; flex-shrink: 0; scrollbar-width: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  background: rgba(15, 20, 34, 0.45);
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+  flex-shrink: 0;
+  scrollbar-width: none;
 }
 #aiChatRoot .chat-tabs::-webkit-scrollbar { display: none; }
 #aiChatRoot .chat-tab {
-  padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 500;
-  background: var(--card); color: var(--text2); border: 1px solid transparent;
-  cursor: pointer; white-space: nowrap; transition: all 0.2s; position: relative;
-  max-width: 180px; overflow: hidden; text-overflow: ellipsis;
+  padding: 5px 14px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: var(--card);
+  color: var(--text2);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+  position: relative;
+  max-width: 190px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-#aiChatRoot .chat-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+#aiChatRoot .chat-tab.active {
+  background: linear-gradient(135deg, var(--accent), #6366f1);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 3px 10px var(--accent-glow);
+}
 #aiChatRoot .chat-tab:hover:not(.active) { border-color: var(--accent); color: var(--text); }
 #aiChatRoot .chat-tab .close-tab {
-  margin-right: 6px; font-size: 0.7rem; opacity: 0.6; cursor: pointer;
+  margin-right: 6px;
+  font-size: 0.68rem;
+  opacity: 0.65;
+  cursor: pointer;
   display: inline-block;
 }
 #aiChatRoot .chat-tab .close-tab:hover { opacity: 1; color: var(--danger); }
 #aiChatRoot .new-chat-btn {
-  padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600;
-  background: transparent; color: var(--accent); border: 1px dashed var(--accent);
-  cursor: pointer; white-space: nowrap; transition: all 0.2s; flex-shrink: 0;
+  padding: 5px 13px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  background: transparent;
+  color: var(--accent);
+  border: 1px dashed var(--accent);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+  flex-shrink: 0;
+  font-family: 'Vazirmatn', sans-serif;
 }
 #aiChatRoot .new-chat-btn:hover { background: var(--accent); color: #fff; }
 
 /* Main Area */
-#aiChatRoot .main { flex: 1; display: flex; flex-direction: column; overflow: hidden; min-height: 0; padding: 0 !important; margin: 0 !important; min-width: 0 !important; background: transparent !important; width: 100% !important; }
+#aiChatRoot .main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  background: transparent !important;
+  width: 100% !important;
+}
 #aiChatRoot .messages-container {
-  flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 16px;
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-/* Quick Prompts */
+/* Quick Prompts / Welcome Hub */
 #aiChatRoot .quick-prompts {
-  display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;
-  padding: 20px; animation: fadeIn 0.5s;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  padding: 24px 16px;
+  max-width: 760px;
+  margin: auto;
+  animation: fadeIn 0.4s;
+}
+#aiChatRoot .welcome-hero {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 14px;
+}
+#aiChatRoot .welcome-hero h3 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: 6px;
+  background: linear-gradient(135deg, var(--text), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#aiChatRoot .welcome-hero p {
+  font-size: 0.8rem;
+  color: var(--text2);
 }
 #aiChatRoot .quick-prompt {
-  padding: 8px 18px; border-radius: 20px; font-size: 0.82rem; font-weight: 500;
-  background: var(--card); color: var(--text); border: 1px solid var(--border);
-  cursor: pointer; transition: all 0.2s;
+  padding: 9px 16px;
+  border-radius: 14px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: 'Vazirmatn', sans-serif;
 }
-#aiChatRoot .quick-prompt:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
+#aiChatRoot .quick-prompt:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
 
 /* Messages */
 #aiChatRoot .message {
-  display: flex; flex-direction: column; max-width: 80%; animation: slideUp 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  max-width: 82%;
+  animation: slideUp 0.25s ease;
 }
 #aiChatRoot .message.user { align-items: flex-start; }
 #aiChatRoot .message.assistant { align-items: flex-end; }
 #aiChatRoot .message-bubble {
-  padding: 12px 18px; border-radius: 16px; font-size: 0.92rem; line-height: 1.7;
-  position: relative; word-break: break-word; white-space: pre-wrap;
+  padding: 13px 18px;
+  border-radius: 18px;
+  font-size: 0.91rem;
+  line-height: 1.78;
+  position: relative;
+  word-break: break-word;
+  white-space: pre-wrap;
 }
 #aiChatRoot .message.user .message-bubble {
-  background: var(--user-bubble); color: #fff; border-bottom-right-radius: 4px;
+  background: var(--user-bubble);
+  color: #fff;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 4px 16px rgba(108, 92, 231, 0.24);
 }
 #aiChatRoot .message.assistant .message-bubble {
-  background: var(--card); color: var(--text); border: 1px solid var(--border);
-  border-bottom-left-radius: 4px;
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-bottom-left-radius: 5px;
 }
 #aiChatRoot .message.error .message-bubble {
-  background: var(--card); color: var(--danger); border: 1px solid var(--danger);
-  border-bottom-left-radius: 4px;
+  background: rgba(244, 63, 94, 0.08);
+  color: var(--danger);
+  border: 1px solid rgba(244, 63, 94, 0.4);
+  border-bottom-left-radius: 5px;
 }
 #aiChatRoot .message-meta {
-  display: flex; align-items: center; gap: 8px; margin-top: 4px; font-size: 0.7rem; color: var(--text2);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+  font-size: 0.7rem;
+  color: var(--text2);
+  flex-wrap: wrap;
 }
 #aiChatRoot .copy-btn {
-  padding: 2px 8px; border-radius: 6px; font-size: 0.68rem; background: var(--bg2);
-  color: var(--text2); border: 1px solid var(--border); cursor: pointer; transition: all 0.2s;
+  padding: 2px 9px;
+  border-radius: 7px;
+  font-size: 0.68rem;
+  background: var(--bg2);
+  color: var(--text2);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: 'Vazirmatn', sans-serif;
 }
 #aiChatRoot .copy-btn:hover { color: var(--accent); border-color: var(--accent); }
 
 /* Message images */
 #aiChatRoot .message-images { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
 #aiChatRoot .message-images img, #aiChatRoot .attach-preview img {
-  max-width: 300px; max-height: 300px; border-radius: 12px; cursor: pointer;
-  transition: transform 0.2s; object-fit: cover;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  object-fit: cover;
 }
 #aiChatRoot .message-images img:hover, #aiChatRoot .attach-preview img:hover { transform: scale(1.02); }
 #aiChatRoot .generated-image {
-  max-width: 100%; max-width: min(400px, 100%); max-height: 400px; border-radius: 12px; margin: 8px 0;
-}
-@media (max-width: 640px) {
-  #aiChatRoot .message-images img { max-width: 200px; max-height: 200px; }
-  #aiChatRoot .generated-image { max-width: 100%; max-height: 300px; }
+  max-width: min(420px, 100%);
+  max-height: 420px;
+  border-radius: 14px;
+  margin: 8px 0;
+  border: 1px solid var(--border);
 }
 
 /* Typing indicator */
-#aiChatRoot .typing-indicator { display: flex; gap: 4px; padding: 16px 20px; align-items: center; }
+#aiChatRoot .typing-indicator { display: flex; gap: 5px; padding: 14px 18px; align-items: center; }
 #aiChatRoot .typing-dot {
-  width: 8px; height: 8px; border-radius: 50%; background: var(--text2);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
   animation: typingBounce 1.4s infinite;
 }
 #aiChatRoot .typing-dot:nth-child(2) { animation-delay: 0.2s; }
 #aiChatRoot .typing-dot:nth-child(3) { animation-delay: 0.4s; }
 
+/* Quick Provider & Model Switch Bar */
+#aiChatRoot .quick-switch {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: rgba(15, 20, 34, 0.75);
+  border-top: 1px solid var(--border);
+  overflow-x: auto;
+  scrollbar-width: none;
+  flex-shrink: 0;
+}
+#aiChatRoot[data-theme="light"] .quick-switch {
+  background: rgba(248, 250, 252, 0.9);
+}
+#aiChatRoot .quick-switch::-webkit-scrollbar { display: none; }
+#aiChatRoot .quick-switch-btn {
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: var(--card);
+  color: var(--text2);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+  font-family: 'Vazirmatn', sans-serif;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+#aiChatRoot .quick-switch-btn.active {
+  background: linear-gradient(135deg, var(--accent), #6366f1);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 3px 10px var(--accent-glow);
+}
+#aiChatRoot .quick-switch-btn:hover:not(.active) {
+  border-color: var(--accent);
+  color: var(--text);
+}
+#aiChatRoot .quick-model-wrap {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: auto;
+  flex-shrink: 0;
+}
+
 /* Input Area */
 #aiChatRoot .input-area {
-  padding: 16px 20px; background: var(--bg2); border-top: 1px solid var(--border);
+  padding: 12px 18px;
+  background: var(--bg2);
+  border-top: 1px solid var(--border);
   flex-shrink: 0;
-  padding-bottom: max(16px, env(safe-area-inset-bottom));
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
 }
 #aiChatRoot .attach-preview {
-  display: flex; gap: 8px; margin-bottom: 10px; flex-wrap: wrap;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
 }
-#aiChatRoot .attach-item {
-  position: relative; display: inline-block;
-}
+#aiChatRoot .attach-item { position: relative; display: inline-block; }
 #aiChatRoot .attach-item .remove-attach {
-  position: absolute; top: -6px; left: -6px; width: 20px; height: 20px;
-  border-radius: 50%; background: var(--danger); color: #fff; border: none;
-  cursor: pointer; font-size: 0.65rem; display: flex; align-items: center;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--danger);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 0.65rem;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
-#aiChatRoot .input-row {
-  display: flex; gap: 10px; align-items: flex-end;
-}
+#aiChatRoot .input-row { display: flex; gap: 10px; align-items: flex-end; }
 #aiChatRoot .input-wrapper {
-  flex: 1; position: relative; background: var(--input-bg); border: 1px solid var(--border);
-  border-radius: 14px; transition: border-color 0.2s;
+  flex: 1;
+  position: relative;
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  display: flex;
+  align-items: center;
 }
-#aiChatRoot .input-wrapper:focus-within { border-color: var(--accent); }
+#aiChatRoot .input-wrapper:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
 #aiChatRoot .input-wrapper textarea {
-  width: 100%; padding: 12px 16px; background: transparent; border: none;
-  color: var(--text); font-family: 'Vazirmatn', sans-serif; font-size: 0.9rem;
-  resize: none; outline: none; min-height: 44px; max-height: 150px; line-height: 1.5;
+  flex: 1;
+  width: 100%;
+  padding: 11px 14px;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 0.9rem;
+  resize: none;
+  outline: none;
+  min-height: 44px;
+  max-height: 150px;
+  line-height: 1.5;
 }
 #aiChatRoot .input-wrapper textarea::placeholder { color: var(--text2); }
-#aiChatRoot .input-actions {
-  display: flex; align-items: center; gap: 4px; padding: 6px 10px;
-}
+#aiChatRoot .input-actions { display: flex; align-items: center; gap: 4px; padding: 6px 8px; }
 #aiChatRoot .send-btn {
-  width: 44px; height: 44px; border-radius: 12px; background: var(--accent);
-  color: #fff; border: none; cursor: pointer; font-size: 1.2rem;
-  display: flex; align-items: center; justify-content: center; transition: all 0.2s;
+  width: 44px;
+  height: 44px;
+  border-radius: 13px;
+  background: linear-gradient(135deg, var(--accent), #6366f1);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
   flex-shrink: 0;
+  box-shadow: 0 4px 14px var(--accent-glow);
 }
-#aiChatRoot .send-btn:hover { opacity: 0.85; transform: scale(1.05); }
+#aiChatRoot .send-btn:hover { opacity: 0.92; transform: translateY(-1px); }
 #aiChatRoot .send-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 #aiChatRoot .attach-btn {
-  width: 34px; height: 34px; border-radius: 8px; background: transparent;
-  color: var(--text2); border: none; cursor: pointer; font-size: 1.1rem;
-  display: flex; align-items: center; justify-content: center; transition: all 0.2s;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text2);
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
 }
 #aiChatRoot .attach-btn:hover { color: var(--accent); }
 
-/* Settings Panel */
-#aiChatRoot .overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 200; }
+/* Settings Panel (AI Gateway Studio Drawer) */
+#aiChatRoot .overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(3, 7, 18, 0.65);
+  backdrop-filter: blur(4px);
+  z-index: 200;
+}
 #aiChatRoot .overlay.active { display: block; }
 #aiChatRoot .settings-panel {
-  position: fixed; top: 0; left: 0; width: min(480px, 95vw); height: 100vh;
-  background: var(--bg2); border-right: 1px solid var(--border); z-index: 201;
-  transform: translateX(-100%); transition: transform 0.3s ease; overflow-y: auto;
-  padding: 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: min(620px, 96vw);
+  height: 100vh;
+  background: var(--bg2);
+  border-right: 1px solid var(--border);
+  z-index: 201;
+  transform: translateX(-100%);
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  overflow-y: auto;
+  padding: 22px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
 }
-#aiChatRoot [dir="rtl"] .settings-panel { left: auto; right: 0; border-right: none; border-left: 1px solid var(--border); transform: translateX(100%); }
 #aiChatRoot .settings-panel.active { transform: translateX(0); }
 #aiChatRoot .settings-title {
-  font-size: 1.2rem; font-weight: 700; margin-bottom: 24px; display: flex;
-  align-items: center; justify-content: space-between;
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
 }
-#aiChatRoot .settings-section { margin-bottom: 24px; }
+#aiChatRoot .settings-section {
+  margin-bottom: 18px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 15px;
+}
 #aiChatRoot .settings-section h3 {
-  font-size: 0.85rem; font-weight: 600; color: var(--accent); margin-bottom: 12px;
-  text-transform: uppercase; letter-spacing: 0.5px;
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
 }
-#aiChatRoot .form-group { margin-bottom: 14px; }
-#aiChatRoot .form-group label { display: block; font-size: 0.82rem; color: var(--text2); margin-bottom: 6px; font-weight: 500; }
-#aiChatRoot .form-group input, #aiChatRoot .form-group select, #aiChatRoot .form-group textarea {
-  width: 100%; padding: 10px 14px; background: var(--input-bg); border: 1px solid var(--border);
-  border-radius: 10px; color: var(--text); font-family: 'Vazirmatn', sans-serif;
-  font-size: 0.85rem; outline: none; transition: border-color 0.2s;
+#aiChatRoot .form-group { margin-bottom: 12px; }
+#aiChatRoot .form-group:last-child { margin-bottom: 0; }
+#aiChatRoot .form-group label {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--text2);
+  margin-bottom: 5px;
+  font-weight: 600;
 }
-#aiChatRoot .form-group input:focus, #aiChatRoot .form-group select:focus, #aiChatRoot .form-group textarea:focus {
+#aiChatRoot .form-group input,
+#aiChatRoot .form-group select,
+#aiChatRoot .form-group textarea {
+  width: 100%;
+  padding: 9px 12px;
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 0.83rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+#aiChatRoot .form-group input:focus,
+#aiChatRoot .form-group select:focus,
+#aiChatRoot .form-group textarea:focus {
   border-color: var(--accent);
 }
-#aiChatRoot .form-group textarea { min-height: 80px; resize: vertical; }
-#aiChatRoot .provider-chips { display: flex; gap: 8px; flex-wrap: wrap; }
-#aiChatRoot .provider-chip {
-  padding: 8px 18px; border-radius: 20px; font-size: 0.82rem; font-weight: 500;
-  background: var(--card); color: var(--text2); border: 1px solid var(--border);
-  cursor: pointer; transition: all 0.2s;
+#aiChatRoot .form-group textarea { min-height: 74px; resize: vertical; }
+
+/* Provider Chips Grid */
+#aiChatRoot .provider-chips {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 8px;
 }
-#aiChatRoot .provider-chip.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+#aiChatRoot .provider-chip {
+  padding: 9px 11px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: var(--input-bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  text-align: right;
+  font-family: 'Vazirmatn', sans-serif;
+  position: relative;
+}
+#aiChatRoot .provider-chip:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+#aiChatRoot .provider-chip.active {
+  background: linear-gradient(135deg, rgba(124, 108, 240, 0.24), rgba(56, 189, 248, 0.14));
+  color: var(--text);
+  border-color: var(--accent);
+  box-shadow: 0 4px 14px var(--accent-glow);
+}
+#aiChatRoot .provider-chip-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 6px;
+}
+#aiChatRoot .provider-chip-sub {
+  font-size: 0.65rem;
+  color: var(--text2);
+  font-weight: 400;
+}
+
+/* Policy Cards */
+#aiChatRoot .policy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+}
+#aiChatRoot .policy-card {
+  padding: 10px 12px;
+  border-radius: 11px;
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: right;
+}
+#aiChatRoot .policy-card:hover { border-color: var(--accent); }
+#aiChatRoot .policy-card.active {
+  border-color: var(--accent);
+  background: rgba(124, 108, 240, 0.14);
+}
+#aiChatRoot .policy-card-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 3px;
+}
+#aiChatRoot .policy-card-desc {
+  font-size: 0.66rem;
+  color: var(--text2);
+  line-height: 1.5;
+}
+
 #aiChatRoot .slider-group { display: flex; align-items: center; gap: 12px; }
 #aiChatRoot .slider-group input[type="range"] { flex: 1; accent-color: var(--accent); }
-#aiChatRoot .slider-value { font-size: 0.82rem; color: var(--accent); font-weight: 600; min-width: 32px; text-align: center; }
+#aiChatRoot .slider-value { font-size: 0.82rem; color: var(--accent); font-weight: 700; min-width: 32px; text-align: center; }
+
 #aiChatRoot .test-btn {
-  padding: 8px 20px; border-radius: 10px; font-size: 0.82rem; font-weight: 600;
-  background: var(--accent); color: #fff; border: none; cursor: pointer;
-  transition: all 0.2s; font-family: 'Vazirmatn', sans-serif;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: 'Vazirmatn', sans-serif;
 }
-#aiChatRoot .test-btn:hover { opacity: 0.85; }
-#aiChatRoot .test-status { font-size: 0.78rem; margin-top: 8px; padding: 6px 10px; border-radius: 8px; display: none; }
-#aiChatRoot .test-status.success { display: block; background: rgba(0,184,148,0.1); color: var(--success); }
-#aiChatRoot .test-status.error { display: block; background: rgba(225,112,85,0.1); color: var(--danger); }
+#aiChatRoot .test-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+#aiChatRoot .test-status {
+  font-size: 0.78rem;
+  margin-top: 8px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  display: none;
+  white-space: pre-line;
+  line-height: 1.65;
+}
+#aiChatRoot .test-status.success { display: block; background: rgba(16, 185, 129, 0.14); color: var(--success); border: 1px solid rgba(16, 185, 129, 0.3); }
+#aiChatRoot .test-status.error { display: block; background: rgba(244, 63, 94, 0.14); color: var(--danger); border: 1px solid rgba(244, 63, 94, 0.3); }
 
 /* Usage Card */
 #aiChatRoot .usage-card {
-  background: var(--card); border: 1px solid var(--border); border-radius: 14px;
-  padding: 16px; margin-bottom: 20px;
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
 }
-#aiChatRoot .usage-card h4 { font-size: 0.85rem; margin-bottom: 12px; color: var(--text); }
+#aiChatRoot .usage-card h4 { font-size: 0.82rem; margin-bottom: 10px; color: var(--text); }
 #aiChatRoot .usage-bar {
-  height: 8px; background: var(--bg); border-radius: 4px; overflow: hidden; margin-bottom: 8px;
+  height: 8px;
+  background: var(--bg);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 8px;
 }
 #aiChatRoot .usage-fill {
-  height: 100%; background: var(--accent); border-radius: 4px; transition: width 0.3s;
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  border-radius: 4px;
+  transition: width 0.3s;
 }
-#aiChatRoot .usage-stats { display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text2); }
+#aiChatRoot .usage-stats { display: flex; justify-content: space-between; font-size: 0.74rem; color: var(--text2); }
 
-/* Image lightbox */
+/* Custom Models & Key Chips */
+#aiChatRoot .custom-models-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+#aiChatRoot .custom-model-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  background: rgba(124, 108, 240, 0.14);
+  border: 1px solid rgba(124, 108, 240, 0.32);
+  color: var(--text);
+  cursor: pointer;
+}
+#aiChatRoot .custom-model-pill .del-model {
+  color: var(--danger);
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0 2px;
+}
+
+/* Image attached indicator */
+#aiChatRoot .image-attached-bar {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: rgba(124, 108, 240, 0.12);
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  margin-bottom: 8px;
+  font-size: 0.76rem;
+  color: var(--accent);
+  flex-wrap: wrap;
+}
+#aiChatRoot .image-attached-bar.active { display: flex; }
+#aiChatRoot .image-attached-bar button {
+  padding: 3px 10px;
+  border-radius: 8px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Lightbox & Help Panel */
 #aiChatRoot .lightbox {
-  display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 300;
-  align-items: center; justify-content: center; cursor: pointer;
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 300;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 #aiChatRoot .lightbox.active { display: flex; }
 #aiChatRoot .lightbox img { max-width: 90vw; max-height: 90vh; border-radius: 12px; }
 
-/* Drag overlay */
-#aiChatRoot .drag-overlay {
-  display: none; position: absolute; inset: 0; background: rgba(108,92,231,0.15);
-  border: 2px dashed var(--accent); border-radius: 16px; z-index: 50;
-  align-items: center; justify-content: center; font-size: 1.1rem; color: var(--accent);
-  font-weight: 600; pointer-events: none;
+#aiChatRoot .help-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(4px);
+  z-index: 300;
+  align-items: center;
+  justify-content: center;
 }
-#aiChatRoot .drag-overlay.active { display: flex; }
+#aiChatRoot .help-overlay.active { display: flex; }
+#aiChatRoot .help-panel {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  width: min(560px, 95vw);
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 24px;
+  animation: slideUp 0.25s ease;
+}
+#aiChatRoot .help-panel h2 { font-size: 1.1rem; color: var(--accent); margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+#aiChatRoot .help-panel h3 { font-size: 0.9rem; color: var(--text); margin: 12px 0 6px; }
+#aiChatRoot .help-panel p, #aiChatRoot .help-panel li { font-size: 0.8rem; color: var(--text2); line-height: 1.8; }
+#aiChatRoot .help-panel ul { padding-right: 18px; }
+#aiChatRoot .help-close {
+  position: sticky;
+  top: 0;
+  float: left;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: var(--text);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#aiChatRoot .help-section {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 10px;
+}
 
-/* Animations */
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes slideUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes typingBounce {
@@ -283,131 +892,71 @@ export const AICHAT_CSS = `
   30% { transform: translateY(-6px); }
 }
 
-/* Responsive */
 @media (max-width: 640px) {
-  #aiChatRoot { font-size: 14px; }
-  #aiChatRoot { height: 100vh; height: 100dvh; }
-  #aiChatRoot .header { padding: 10px 14px; gap: 8px; }
-  #aiChatRoot .header .logo { font-size: 1.1rem; }
-  #aiChatRoot .header-right { gap: 6px; }
-  #aiChatRoot .icon-btn { width: 34px; height: 34px; font-size: 1rem; }
-  #aiChatRoot .chat-tabs { padding: 6px 14px; }
-  #aiChatRoot .messages-container { padding: 10px; gap: 10px; }
-  #aiChatRoot .input-area { padding: 10px 12px; }
+  #aiChatRoot { font-size: 14px; height: calc(100dvh - 64px); border-radius: 12px; }
+  #aiChatRoot .header { padding: 9px 12px; gap: 6px; }
+  #aiChatRoot .policy-grid { grid-template-columns: 1fr; }
+  #aiChatRoot .provider-chips { grid-template-columns: repeat(2, 1fr); }
   #aiChatRoot .message { max-width: 92%; }
-  #aiChatRoot .message-bubble { padding: 10px 14px; font-size: 0.88rem; }
-  #aiChatRoot .quick-prompts { padding: 10px; gap: 6px; }
-  #aiChatRoot .quick-prompt { font-size: 0.75rem; padding: 6px 12px; }
-  #aiChatRoot .settings-panel { padding: 16px; }
-  #aiChatRoot .send-btn { width: 40px; height: 40px; font-size: 1.1rem; }
-  #aiChatRoot .attach-btn { width: 32px; height: 32px; }
-  #aiChatRoot .input-wrapper textarea { font-size: 16px; padding: 10px 14px; }
-  #aiChatRoot .provider-badge { font-size: 0.7rem; padding: 3px 8px; }
-  #aiChatRoot .quick-switch { padding: 4px 8px; gap: 4px; }
-  #aiChatRoot .quick-switch-btn { font-size: 0.68rem; padding: 3px 8px; }
-  #aiChatRoot .image-attached-bar { font-size: 0.72rem; padding: 6px 10px; }
-  #aiChatRoot .main { flex: 1; min-height: 0; overflow: hidden; }
-  #aiChatRoot .input-area { flex-shrink: 0; }
+  #aiChatRoot .settings-panel { padding: 14px; }
 }
-
-@media (max-width: 380px) {
-  #aiChatRoot { font-size: 13px; }
-  #aiChatRoot .header { padding: 8px 10px; }
-  #aiChatRoot .quick-prompt { font-size: 0.7rem; padding: 5px 10px; }
-  #aiChatRoot .chat-tab { padding: 5px 10px; font-size: 0.75rem; max-width: 120px; }
-}
-
-/* Quick Provider Switch Bar */
-#aiChatRoot .quick-switch {
-  display: flex; align-items: center; gap: 6px; padding: 6px 12px;
-  background: var(--bg); border-top: 1px solid var(--border);
-  overflow-x: auto; scrollbar-width: none; flex-shrink: 0;
-}
-#aiChatRoot .quick-switch::-webkit-scrollbar { display: none; }
-#aiChatRoot .quick-switch-btn {
-  padding: 4px 12px; border-radius: 14px; font-size: 0.72rem; font-weight: 500;
-  background: var(--card); color: var(--text2); border: 1px solid var(--border);
-  cursor: pointer; white-space: nowrap; transition: all 0.2s;
-}
-#aiChatRoot .quick-switch-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
-#aiChatRoot .quick-switch-btn:hover:not(.active) { border-color: var(--accent); color: var(--accent); }
-
-/* Image attached indicator */
-#aiChatRoot .image-attached-bar {
-  display: none; align-items: center; gap: 8px; padding: 8px 12px;
-  background: rgba(108,92,231,0.1); border: 1px solid var(--accent);
-  border-radius: 10px; margin-bottom: 8px; font-size: 0.78rem; color: var(--accent);
-}
-#aiChatRoot .image-attached-bar.active { display: flex; }
-#aiChatRoot .image-attached-bar button {
-  padding: 3px 10px; border-radius: 10px; font-size: 0.72rem; font-weight: 600;
-  background: var(--accent); color: #fff; border: none; cursor: pointer;
-}
-
-/* Help Panel */
-#aiChatRoot .help-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 300; align-items: center; justify-content: center; }
-#aiChatRoot .help-overlay.active { display: flex; }
-#aiChatRoot .help-panel {
-  background: var(--bg2); border: 1px solid var(--border); border-radius: 16px;
-  width: min(520px, 95vw); max-height: 85vh; overflow-y: auto; padding: 24px;
-  animation: slideUp 0.3s ease;
-}
-#aiChatRoot .help-panel h2 { font-size: 1.1rem; color: var(--accent); margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
-#aiChatRoot .help-panel h3 { font-size: 0.9rem; color: var(--text); margin: 16px 0 8px; }
-#aiChatRoot .help-panel p, #aiChatRoot .help-panel li { font-size: 0.82rem; color: var(--text2); line-height: 1.8; }
-#aiChatRoot .help-panel ul { padding-right: 20px; }
-#aiChatRoot .help-panel li { margin-bottom: 4px; }
-#aiChatRoot .help-close {
-  position: sticky; top: 0; float: left; background: var(--card); border: 1px solid var(--border);
-  border-radius: 8px; width: 30px; height: 30px; cursor: pointer; color: var(--text);
-  font-size: 0.9rem; display: flex; align-items: center; justify-content: center;
-}
-#aiChatRoot .help-section { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px; margin-bottom: 12px; }
-#aiChatRoot .help-section .emoji { font-size: 1.3rem; margin-left: 8px; }
 `;
 
 export const AICHAT_HTML = `<div id="aiChatRoot" data-theme="dark">
-<!-- Header -->
+<!-- Studio Header -->
 <div class="header">
-  <div class="logo">AI Chat Pro <span>فارسی</span></div>
+  <div class="logo-wrap">
+    <div class="logo-orb" aria-hidden="true">✦</div>
+    <div class="logo">AI Studio Pro <span>گیت‌وی هوشمند</span></div>
+  </div>
   <div class="header-right">
     <span class="provider-badge" id="providerBadge">Gemini</span>
+    <select id="quickPolicySelect" class="policy-pill-select" title="سیاست چرخش و توزیع کلیدهای API">
+      <option value="round_robin">🔄 چرخش نوبتی (Round-Robin)</option>
+      <option value="failover">🛡️ اولویت ترتیبی (Failover)</option>
+      <option value="least_used">⚖️ کم‌مصرف‌ترین (Least-Used)</option>
+      <option value="random">🎲 تصادفی متوازن (Random)</option>
+    </select>
+    <button type="button" class="studio-action-pill" id="quickAddModelBtn" title="افزودن مدل دستی به ارائه‌دهنده فعلی">+ مدل دستی</button>
+    <button type="button" class="studio-action-pill" id="quickAddProviderBtn" title="افزودن ارائه‌دهنده سفارشی (Custom Provider با Base URL)">+ پروایدر سفارشی</button>
     <a href="https://mohsen-niksirat.github.io/Free-AI-Chat/" target="_blank" rel="noopener" class="full-chat-link" title="نسخه کامل چت هوش مصنوعی — ۲۳+ ارائه‌دهنده، تصویرسازی و ابزارهای بیشتر" style="display:inline-block;padding:6px 10px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7c6cf0);color:#fff;font-size:.72rem;font-weight:600;text-decoration:none;white-space:nowrap">🚀 نسخه کامل</a>
     <button class="icon-btn" id="helpBtn" title="راهنما">❓</button>
     <button class="icon-btn" id="themeToggle" title="تغییر تم">🌙</button>
-    <button class="icon-btn" id="settingsBtn" title="تنظیمات">⚙️</button>
+    <button class="icon-btn" id="settingsBtn" title="تنظیمات و استخر کلیدها">⚙️</button>
   </div>
 </div>
 
-<!-- Chat Tabs -->
+<!-- Chat Session Tabs -->
 <div class="chat-tabs" id="chatTabs">
-  <button class="new-chat-btn" id="newChatBtn">+ چت جدید</button>
+  <button class="new-chat-btn" id="newChatBtn">+ گفتگوی جدید</button>
 </div>
 
-<!-- Main -->
+<!-- Main Workspace -->
 <div class="main" id="mainArea">
   <div class="messages-container" id="messagesContainer">
     <div class="quick-prompts" id="quickPrompts">
-      <button class="quick-prompt" data-prompt="ترجمه کن: ">ترجمه 🌐</button>
-      <button class="quick-prompt" data-prompt="خلاصه کن: ">خلاصه 📝</button>
-      <button class="quick-prompt" data-prompt="توضیح بده: ">توضیح 💡</button>
-      <button class="quick-prompt" data-prompt="این متن رو اصلاح کن: ">اصلاح ✏️</button>
-      <button class="quick-prompt" data-prompt="تصویر بساز: ">تصویر بساز 🎨</button>
-      <button class="quick-prompt" data-prompt="این عکس رو ویرایش کن: ">ویرایش عکس ✏️</button>
-      <button class="quick-prompt" data-prompt="یک سؤال جالب بساز درباره: ">سؤال بساز ❓</button>
-      <button class="quick-prompt" data-prompt="یک مکالمه بنویس بین: ">مکالمه 💬</button>
-      <button class="quick-prompt" data-prompt="تحلیل کن: ">تحلیل 📊</button>
+      <div class="welcome-hero">
+        <h3>استودیو هوش مصنوعی لایتنر پرو-مکس</h3>
+        <p>پشتیبانی از ۲۰+ ارائه‌دهنده معروف، افزودن پروایدر و مدل سفارشی، و استخر چندکلیدی با چرخش هوشمند (Round-Robin / Failover)</p>
+      </div>
+      <button class="quick-prompt" data-prompt="واژه زیر را کامل کالبدشکافی کن (معنی فارسی، فونتیک IPA، ریشه‌شناسی، هم‌خانواده‌ها، کالوکیشن‌ها و ۳ مثال کاربردی): ">کالبدشکافی واژه 📖</button>
+      <button class="quick-prompt" data-prompt="ترجمه دقیق و طبیعی کن: ">ترجمه حرفه‌ای 🌐</button>
+      <button class="quick-prompt" data-prompt="این متن انگلیسی را از نظر گرامر، طبیعی بودن و سطح آیلتس اصلاح کن و علت هر تغییر را بگو: ">تصحیح رایتینگ و گرامر ✏️</button>
+      <button class="quick-prompt" data-prompt="یک داستان کوتاه و جذاب سطح B2 با این واژگان بساز و معنی فارسی آن را هم بنویس: ">داستان‌سازی با لغات 📚</button>
+      <button class="quick-prompt" data-prompt="خلاصه و نکات کلیدی این متن را استخراج کن: ">خلاصه‌سازی هوشمند 📝</button>
+      <button class="quick-prompt" data-prompt="توضیح ساده همراه با مثال بده درباره: ">توضیح مفهومی 💡</button>
+      <button class="quick-prompt" data-prompt="تصویر بساز: ">تولید تصویر 🎨</button>
+      <button class="quick-prompt" data-prompt="یک مکالمه کاربردی روزمره بنویس درباره: ">مکالمه کاربردی 💬</button>
+      <button class="quick-prompt" data-prompt="۵ سوال چهارگزینه‌ای استاندارد (همراه با پاسخ تشریحی) طرح کن درباره: ">طراحی آزمون ❓</button>
     </div>
   </div>
 
-  <!-- Quick Provider Switch -->
+  <!-- Quick Provider & Model Switch Bar -->
   <div class="quick-switch" id="quickSwitch">
-    <button class="quick-switch-btn active" data-provider="gemini">Gemini</button>
-    <button class="quick-switch-btn" data-provider="openrouter">OpenRouter</button>
-    <button class="quick-switch-btn" data-provider="groq">Groq</button>
-    <button class="quick-switch-btn" data-provider="pollinations">🎨 Pollinations</button>
-    <button class="quick-switch-btn" data-provider="puter_img">🖼️ Puter</button>
-    <select id="quickModelSelect" title="انتخاب سریع مدل" style="margin-right:auto;padding:4px 8px;border-radius:10px;font-size:0.72rem;background:var(--card);color:var(--text);border:1px solid var(--border);outline:none;max-width:250px;cursor:pointer;direction:ltr"></select>
+    <div id="quickSwitchProviders" style="display:flex;align-items:center;gap:6px"></div>
+    <div class="quick-model-wrap">
+      <select id="quickModelSelect" title="انتخاب سریع مدل" style="padding:5px 10px;border-radius:10px;font-size:0.73rem;background:var(--card);color:var(--text);border:1px solid var(--border);outline:none;max-width:260px;cursor:pointer;direction:ltr"></select>
+    </div>
   </div>
 
   <!-- Input Area -->
@@ -418,106 +967,215 @@ export const AICHAT_HTML = `<div id="aiChatRoot" data-theme="dark">
     <div class="attach-preview" id="attachPreview"></div>
     <div class="input-row">
       <div class="input-wrapper">
-        <textarea id="messageInput" placeholder="پیام خود را بنویسید..." rows="1"></textarea>
+        <textarea id="messageInput" placeholder="پیام، واژه یا متن خود را بنویسید... (Enter = ارسال، Shift+Enter = خط جدید)" rows="1"></textarea>
         <div class="input-actions">
-          <button class="attach-btn" id="attachBtn" title="پیوست فایل">📎</button>
+          <button class="attach-btn" id="attachBtn" title="پیوست تصویر">📎</button>
         </div>
       </div>
-      <button class="send-btn" id="sendBtn" title="ارسال">➤</button>
+      <button class="send-btn" id="sendBtn" title="ارسال پیام">➤</button>
     </div>
     <input type="file" id="fileInput" multiple accept="image/*" style="display:none">
-    <div style="text-align:center;font-size:0.68rem;color:var(--text2);margin-top:6px;opacity:0.7" id="pasteHint">📋 برای ضمیمه عکس: Ctrl+V یا 📎</div>
+    <div style="display:flex;justify-content:space-between;align-items:center;font-size:0.68rem;color:var(--text2);margin-top:6px;opacity:0.85;flex-wrap:wrap;gap:6px" id="pasteHint">
+      <span>📋 پیوست تصویر با Ctrl+V یا کشیدن و رها کردن (Drag & Drop)</span>
+      <span id="activePoolSummary"></span>
+    </div>
   </div>
 </div>
 
-<!-- Settings Panel -->
+<!-- Settings & AI Gateway Drawer -->
 <div class="overlay" id="overlay"></div>
 <div class="settings-panel" id="settingsPanel">
   <div class="settings-title">
-    <span>تنظیمات</span>
+    <span>⚙️ تنظیمات هوش مصنوعی و گیت‌وی کلیدها</span>
     <button class="icon-btn" id="closeSettings" style="width:32px;height:32px;font-size:0.9rem">✕</button>
   </div>
 
+  <!-- 1. Providers Grid -->
   <div class="settings-section">
-    <h3>ارائه‌دهنده</h3>
-    <div class="provider-chips" id="providerChips">
-      <button class="provider-chip active" data-provider="gemini">Gemini</button>
-      <button class="provider-chip" data-provider="openrouter">OpenRouter</button>
-      <button class="provider-chip" data-provider="groq">Groq</button>
-      <button class="provider-chip" data-provider="pollinations">🎨 تصویرساز</button>
-      <button class="provider-chip" data-provider="puter_img">Puter تصویرساز</button>
-    </div>
+    <h3>
+      <span>۱. انتخاب ارائه‌دهنده (۲۰+ سرویس معروف + سفارشی)</span>
+      <button type="button" class="studio-action-pill" id="toggleCustomProvFormBtn">+ افزودن پروایدر سفارشی</button>
+    </h3>
+    <div class="provider-chips" id="providerChips"></div>
   </div>
 
-  <div class="settings-section">
-    <h3>مدل</h3>
-    <div class="form-group">
-      <select id="modelSelect"></select>
-    </div>
-  </div>
-
-  <div class="settings-section">
-    <h3>کلید API <span style="font-size:0.7rem;font-weight:400;color:var(--text2)">(میتونی چند کلید اضافه کنی — چرخش خودکار هنگام محدودیت)</span></h3>
-
-    <div class="form-group" id="geminiKeysGroup">
-      <label>Gemini API Keys <span style="font-size:0.68rem;color:var(--accent)" id="geminiKeyCount"></span></label>
-      <div id="geminiKeysList"></div>
-      <button type="button" class="add-key-btn" onclick="addKeyField('gemini')" style="font-size:0.75rem;color:var(--accent);background:none;border:1px dashed var(--accent);border-radius:8px;padding:4px 12px;cursor:pointer;margin-top:6px">+ افزودن کلید</button>
-      <div style="font-size:0.68rem;color:var(--text2);margin-top:4px">
-        🔗 <a href="https://aistudio.google.com/app/apikey" target="_blank" style="color:var(--accent)">دریافت رایگان</a>
+  <!-- 2. Custom Provider Creator / Editor -->
+  <div class="settings-section" id="customProviderSection" style="border-color:var(--border-strong);background:linear-gradient(135deg,rgba(124,108,240,0.08),rgba(56,189,248,0.04))">
+    <h3>
+      <span>🛰️ افزودن / ویرایش ارائه‌دهنده سفارشی (Custom Provider)</span>
+      <span style="font-size:0.68rem;color:var(--text2);font-weight:400">OpenAI / Ollama / vLLM / AvalAI / GapGPT / کلودفلر و...</span>
+    </h3>
+    <input type="hidden" id="customProvEditId" value="">
+    <div style="display:grid;grid-template-columns:1fr 90px 1fr;gap:8px;margin-bottom:10px">
+      <div class="form-group" style="margin-bottom:0">
+        <label>نام ارائه‌دهنده</label>
+        <input type="text" id="customProvName" placeholder="مثلاً AvalAI یا Ollama Local">
       </div>
-    </div>
-
-    <div class="form-group" id="openrouterKeysGroup">
-      <label>OpenRouter API Keys <span style="font-size:0.68rem;color:var(--accent)" id="openrouterKeyCount"></span></label>
-      <div id="openrouterKeysList"></div>
-      <button type="button" class="add-key-btn" onclick="addKeyField('openrouter')" style="font-size:0.75rem;color:var(--accent);background:none;border:1px dashed var(--accent);border-radius:8px;padding:4px 12px;cursor:pointer;margin-top:6px">+ افزودن کلید</button>
-      <div style="font-size:0.68rem;color:var(--text2);margin-top:4px">
-        🔗 <a href="https://openrouter.ai/keys" target="_blank" style="color:var(--accent)">دریافت</a>
+      <div class="form-group" style="margin-bottom:0">
+        <label>آیکون</label>
+        <input type="text" id="customProvIcon" value="🛰️" style="text-align:center">
       </div>
-    </div>
-
-    <div class="form-group" id="groqKeysGroup">
-      <label>Groq API Keys <span style="font-size:0.68rem;color:var(--accent)" id="groqKeyCount"></span></label>
-      <div id="groqKeysList"></div>
-      <button type="button" class="add-key-btn" onclick="addKeyField('groq')" style="font-size:0.75rem;color:var(--accent);background:none;border:1px dashed var(--accent);border-radius:8px;padding:4px 12px;cursor:pointer;margin-top:6px">+ افزودن کلید</button>
-      <div style="font-size:0.68rem;color:var(--text2);margin-top:4px">
-        🔗 <a href="https://console.groq.com/keys" target="_blank" style="color:var(--accent)">دریافت رایگان</a>
-      </div>
-    </div>
-
-    <div class="form-group" id="pollinationsKeysGroup">
-      <label>Pollinations API Key <span style="font-size:0.68rem;color:var(--text2)">(اختیاری — برای ویرایش تصویر)</span></label>
-      <div id="pollinationsKeysList"></div>
-      <button type="button" class="add-key-btn" onclick="addKeyField('pollinations')" style="font-size:0.75rem;color:var(--accent);background:none;border:1px dashed var(--accent);border-radius:8px;padding:4px 12px;cursor:pointer;margin-top:6px">+ افزودن کلید</button>
-      <div style="font-size:0.68rem;color:var(--text2);margin-top:4px">
-        🔗 <a href="https://enter.pollinations.ai/keys" target="_blank" style="color:var(--accent)">دریافت</a> — ویرایش تصویر نیاز به شارژ داره
-      </div>
-    </div>
-  </div>
-
-  <div class="settings-section">
-    <h3>پرامپت سیستم</h3>
-    <div class="form-group">
-      <textarea id="systemPrompt" placeholder="دستورالعمل سیستم...">شما یک دستیار هوش مصنوعی مفید و دقیق هستید. به فارسی پاسخ دهید مگر اینکه کاربر زبان دیگری بخواهد.</textarea>
-    </div>
-  </div>
-
-  <div class="settings-section">
-    <h3>پارامترها</h3>
-    <div class="form-group">
-      <label>دما (Temperature)</label>
-      <div class="slider-group">
-        <input type="range" id="tempSlider" min="0" max="2" step="0.1" value="0.7">
-        <span class="slider-value" id="tempValue">0.7</span>
+      <div class="form-group" style="margin-bottom:0">
+        <label>پروتکل API</label>
+        <select id="customProvProtocol">
+          <option value="openai">OpenAI Compatible (/v1/chat/completions)</option>
+          <option value="gemini">Google Gemini Native (/v1beta/models)</option>
+          <option value="anthropic">Anthropic Messages (/v1/messages)</option>
+        </select>
       </div>
     </div>
     <div class="form-group">
-      <label>حداکثر توکن</label>
-      <input type="number" id="maxTokens" value="4096" min="256" max="65536" step="256">
+      <label>آدرس پایه (Base URL)</label>
+      <input type="url" id="customProvBaseUrl" placeholder="https://api.avalai.ir/v1 یا http://localhost:11434/v1" dir="ltr" style="text-align:left;font-family:monospace">
+    </div>
+    <div class="form-group">
+      <label>کلیدهای API (می‌توانید چند کلید وارد کنید — هر خط یک کلید)</label>
+      <textarea id="customProvKeysInput" placeholder="sk-key-1&#10;sk-key-2&#10;(برای سرورهای محلی مثل Ollama می‌توانید خالی بگذارید)" dir="ltr" style="min-height:62px;font-family:monospace;font-size:0.78rem;text-align:left"></textarea>
+    </div>
+    <div class="form-group">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:5px;gap:6px;flex-wrap:wrap">
+        <label style="margin-bottom:0">لیست مدل‌ها (با کاما یا خط جدید جدا کنید)</label>
+        <button type="button" class="studio-action-pill" id="fetchCustomProvModelsBtn" style="font-size:0.68rem;padding:3px 9px">🔄 استعلام خودکار مدل‌ها از Base URL</button>
+      </div>
+      <textarea id="customProvModelsInput" placeholder="gpt-4o-mini, claude-3-7-sonnet, deepseek-chat" dir="ltr" style="min-height:54px;font-family:monospace;font-size:0.78rem;text-align:left"></textarea>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-top:8px">
+      <label style="display:flex;align-items:center;gap:6px;font-size:0.76rem;color:var(--text2);cursor:pointer">
+        <input type="checkbox" id="customProvVision" checked style="width:auto;accent-color:var(--accent)"> پشتیبانی از ارسال تصویر (Vision)
+      </label>
+      <div style="display:flex;gap:6px">
+        <button type="button" class="test-btn" id="resetCustomProvBtn" style="background:var(--card-hover);color:var(--text2);padding:7px 12px">پاک کردن فرم</button>
+        <button type="button" class="test-btn" id="saveCustomProvBtn" style="background:var(--success)">➕ ثبت و فعال‌سازی پروایدر سفارشی</button>
+      </div>
+    </div>
+    <div id="customProvidersManageList" style="margin-top:10px"></div>
+  </div>
+
+  <!-- 3. Model Selection & Manual Model Adder -->
+  <div class="settings-section" id="modelManagerSection">
+    <h3>
+      <span>۲. انتخاب مدل و افزودن مدل دستی</span>
+      <button type="button" class="studio-action-pill" id="fetchProviderModelsBtn" style="font-size:0.7rem;padding:3px 10px">🔄 دریافت لیست مدل‌ها از API</button>
+    </h3>
+    <div class="form-group">
+      <label>مدل فعال برای <strong id="activeProviderModelLabel" style="color:var(--accent)">Gemini</strong></label>
+      <select id="modelSelect" style="direction:ltr;text-align:left;font-family:monospace"></select>
+    </div>
+    <div style="background:var(--bg);border:1px dashed var(--border-strong);border-radius:11px;padding:11px;margin-top:10px">
+      <div style="font-size:0.76rem;font-weight:700;color:var(--text);margin-bottom:8px">➕ افزودن مدل دلخواه / دستی به این ارائه‌دهنده</div>
+      <div style="display:grid;grid-template-columns:1.3fr 1fr auto;gap:6px;align-items:center">
+        <input type="text" id="customModelIdInput" placeholder="شناسه مدل (مثلاً gpt-4.1-mini یا gemini-2.5-pro)" dir="ltr" style="padding:8px 10px;background:var(--input-bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:0.78rem;font-family:monospace">
+        <input type="text" id="customModelLabelInput" placeholder="نام نمایشی (اختیاری)" style="padding:8px 10px;background:var(--input-bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:0.78rem">
+        <button type="button" class="test-btn" id="addCustomModelBtn" style="padding:8px 12px;white-space:nowrap">+ افزودن مدل</button>
+      </div>
+      <div class="custom-models-chips" id="customModelsList"></div>
     </div>
   </div>
 
+  <!-- 4. Multi-Key Pool & Rotation Policy Engine -->
+  <div class="settings-section" id="keyPoolSection">
+    <h3>
+      <span>۳. سیاست چرخش کلیدها و استخر چندکلیدی (Multi-Key Pool)</span>
+      <button type="button" class="studio-action-pill" id="resetCooldownsBtn" style="font-size:0.68rem;padding:3px 9px">♻️ ریست وضعیت استراحت کلیدها</button>
+    </h3>
+
+    <div class="form-group">
+      <label>سیاست توزیع و چرخش کلید (Key Routing Policy)</label>
+      <select id="keyPolicySelect" style="margin-bottom:8px">
+        <option value="round_robin">🔄 چرخش نوبتی (Round-Robin) — توزیع نوبتی هر درخواست بین کلیدها</option>
+        <option value="failover">🛡️ اولویت ترتیبی (Failover / Sticky) — کلید بعدی فقط در صورت خطا یا 429</option>
+        <option value="least_used">⚖️ کم‌مصرف‌ترین کلید (Least-Used) — انتخاب کلید با کمترین مصرف</option>
+        <option value="random">🎲 توزیع تصادفی (Random Load-Balance) — انتخاب تصادفی کلید سالم</option>
+      </select>
+      <div class="policy-grid" id="policyCardsGrid"></div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px;background:var(--bg);padding:10px;border-radius:10px;border:1px solid var(--border)">
+      <div class="form-group" style="margin-bottom:0">
+        <label>مدت استراحت کلید محدودشده (ثانیه)</label>
+        <input type="number" id="keyCooldownSec" value="60" min="5" max="3600" step="5">
+      </div>
+      <div class="form-group" style="margin-bottom:0">
+        <label>ارائه‌دهنده پشتیبان (Fallback)</label>
+        <select id="fallbackProviderSelect"></select>
+      </div>
+      <label style="grid-column:1 / -1;display:flex;align-items:center;gap:8px;font-size:0.76rem;color:var(--text);cursor:pointer">
+        <input type="checkbox" id="autoRetryKeysToggle" checked style="width:auto;accent-color:var(--accent)">
+        <span>تلاش مجدد خودکار و نامحسوس با کلید بعدی در صورت خطای 429 یا اتمام سهمیه (بدون توقف پیام)</span>
+      </label>
+    </div>
+
+    <!-- Dynamic Active Provider Key Pool -->
+    <div id="activeProviderKeyPoolBox" style="background:var(--bg);border:1px solid var(--border-strong);border-radius:12px;padding:12px;margin-bottom:12px">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;margin-bottom:8px">
+        <label id="activeProviderKeyTitle" style="font-size:0.82rem;font-weight:700;color:var(--accent);margin:0">کلیدهای ارائه‌دهنده فعلی</label>
+        <div style="display:flex;gap:6px;align-items:center">
+          <a id="activeProviderKeyLink" href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener" style="font-size:0.7rem;color:var(--accent);text-decoration:none">🔗 دریافت کلید API</a>
+          <button type="button" class="studio-action-pill" id="toggleBulkKeysBtn" style="font-size:0.68rem;padding:2px 8px">📋 افزودن گروهی کلیدها</button>
+        </div>
+      </div>
+      <div id="bulkKeysBox" style="display:none;margin-bottom:10px;padding:10px;background:var(--card);border-radius:10px;border:1px dashed var(--accent)">
+        <div style="font-size:0.72rem;color:var(--text2);margin-bottom:6px">هر تعداد کلید API را وارد کنید (در هر خط یک کلید یا جداشده با ویرگول):</div>
+        <textarea id="bulkKeysTextarea" placeholder="key-1&#10;key-2&#10;key-3" dir="ltr" style="width:100%;min-height:68px;padding:8px;border-radius:8px;background:var(--input-bg);color:var(--text);border:1px solid var(--border);font-family:monospace;font-size:0.76rem;text-align:left"></textarea>
+        <div style="display:flex;justify-content:flex-end;gap:6px;margin-top:6px">
+          <button type="button" class="test-btn" id="applyBulkKeysBtn" style="padding:5px 12px;font-size:0.73rem;background:var(--success)">➕ افزودن همه به استخر کلید</button>
+        </div>
+      </div>
+      <div id="activeProviderKeysDynamic"></div>
+    </div>
+
+    <!-- Quick Key Lists for Core Providers (also preserves #geminiKeysList, #openrouterKeysList, #groqKeysList, #pollinationsKeysList) -->
+    <details id="allProvidersKeysAccordion" open style="background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:10px 12px">
+      <summary style="cursor:pointer;font-size:0.78rem;font-weight:700;color:var(--text2);margin-bottom:10px">🔑 مدیریت سریع کلیدهای Gemini / OpenRouter / Groq / Pollinations</summary>
+      <div class="form-group" id="geminiKeysGroup">
+        <label>Gemini API Keys <span style="font-size:0.68rem;color:var(--accent)" id="geminiKeyCount"></span></label>
+        <div id="geminiKeysList"></div>
+        <button type="button" class="add-key-btn" onclick="addKeyField('gemini')" style="font-size:0.74rem;color:var(--accent);background:none;border:1px dashed var(--accent);border-radius:8px;padding:4px 12px;cursor:pointer;margin-top:5px">+ افزودن کلید Gemini</button>
+      </div>
+
+      <div class="form-group" id="openrouterKeysGroup">
+        <label>OpenRouter API Keys <span style="font-size:0.68rem;color:var(--accent)" id="openrouterKeyCount"></span></label>
+        <div id="openrouterKeysList"></div>
+        <button type="button" class="add-key-btn" onclick="addKeyField('openrouter')" style="font-size:0.74rem;color:var(--accent);background:none;border:1px dashed var(--accent);border-radius:8px;padding:4px 12px;cursor:pointer;margin-top:5px">+ افزودن کلید OpenRouter</button>
+      </div>
+
+      <div class="form-group" id="groqKeysGroup">
+        <label>Groq API Keys <span style="font-size:0.68rem;color:var(--accent)" id="groqKeyCount"></span></label>
+        <div id="groqKeysList"></div>
+        <button type="button" class="add-key-btn" onclick="addKeyField('groq')" style="font-size:0.74rem;color:var(--accent);background:none;border:1px dashed var(--accent);border-radius:8px;padding:4px 12px;cursor:pointer;margin-top:5px">+ افزودن کلید Groq</button>
+      </div>
+
+      <div class="form-group" id="pollinationsKeysGroup">
+        <label>Pollinations API Key <span style="font-size:0.68rem;color:var(--text2)">(اختیاری — برای ویرایش تصویر)</span> <span style="font-size:0.68rem;color:var(--accent)" id="pollinationsKeyCount"></span></label>
+        <div id="pollinationsKeysList"></div>
+        <button type="button" class="add-key-btn" onclick="addKeyField('pollinations')" style="font-size:0.74rem;color:var(--accent);background:none;border:1px dashed var(--accent);border-radius:8px;padding:4px 12px;cursor:pointer;margin-top:5px">+ افزودن کلید Pollinations</button>
+      </div>
+    </details>
+  </div>
+
+  <!-- 5. System Prompt & Generation Parameters -->
+  <div class="settings-section">
+    <h3>۴. پرامپت سیستم و پارامترهای تولید</h3>
+    <div class="form-group">
+      <label>دستورالعمل سیستم (System Prompt)</label>
+      <textarea id="systemPrompt" placeholder="دستورالعمل سیستم...">شما یک دستیار هوش مصنوعی و استاد زبان مفید و دقیق هستید. به فارسی پاسخ دهید مگر اینکه کاربر زبان دیگری بخواهد.</textarea>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      <div class="form-group" style="margin-bottom:0">
+        <label>دما (Temperature)</label>
+        <div class="slider-group">
+          <input type="range" id="tempSlider" min="0" max="2" step="0.1" value="0.7">
+          <span class="slider-value" id="tempValue">0.7</span>
+        </div>
+      </div>
+      <div class="form-group" style="margin-bottom:0">
+        <label>حداکثر توکن خروجی</label>
+        <input type="number" id="maxTokens" value="4096" min="256" max="65536" step="256">
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Custom Proxy (Vortex Gateway) -->
   <div class="settings-section">
     <h3>🌐 پروکسی سفارشی <span style="font-size:0.7rem;font-weight:400;color:var(--text2)">(Vortex Gateway)</span></h3>
     <div class="form-group">
@@ -529,41 +1187,40 @@ export const AICHAT_HTML = `<div id="aiChatRoot" data-theme="dark">
       <input type="password" id="proxyTokenInput" placeholder="توکن پروکسی" style="width:100%;padding:8px 12px;background:var(--input-bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-family:monospace;outline:none">
     </div>
     <div style="font-size:0.68rem;color:var(--text2);margin-top:4px;line-height:1.7">
-      درخواست‌های دارای کلید (Gemini/OpenRouter/Groq) فقط از این پروکسی و مستقیم می‌روند؛ بقیه از زنجیره عمومی هم استفاده می‌کنند.
+      درخواست‌های دارای کلید فقط از این پروکسی و مستقیم می‌روند و هرگز به پروکسی‌های عمومی ارسال نمی‌شوند.
     </div>
   </div>
 
+  <!-- 7. Connection Test & Save -->
   <div class="settings-section">
-    <h3>تست اتصال</h3>
-    <div style="display:flex;gap:8px;margin-bottom:8px">
-      <button class="test-btn" id="saveKeysBtn" style="background:var(--success)">💾 ذخیره کلیدها</button>
+    <h3>تست اتصال و ذخیره‌سازی</h3>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">
+      <button class="test-btn" id="saveKeysBtn" style="background:var(--success)">💾 ذخیره کلیدها و تنظیمات</button>
       <button class="test-btn" id="testBtn">تست اتصال 🔗</button>
-      <button class="test-btn" id="testProxyBtn" style="background:var(--text2);font-size:.75rem">تست پراکسی 🌐</button>
+      <button class="test-btn" id="testProxyBtn" style="background:var(--card-hover);color:var(--text);border:1px solid var(--border);font-size:.75rem">تست پراکسی 🌐</button>
     </div>
     <div class="test-status" id="testStatus"></div>
   </div>
 
+  <!-- 8. Export & Usage Statistics -->
   <div class="settings-section">
-    <h3>خروجی</h3>
-    <div style="display:flex;gap:8px;">
+    <h3>خروجی و آمار مصرف</h3>
+    <div style="display:flex;gap:8px;margin-bottom:12px">
       <button class="test-btn" id="exportTxt" style="background:var(--success)">خروجی TXT 📄</button>
       <button class="test-btn" id="exportJson" style="background:var(--warning);color:#1a1d2b">خروجی JSON 📦</button>
     </div>
-  </div>
-
-  <div class="settings-section">
-    <h3>آمار مصرف</h3>
     <div class="usage-card">
       <h4>مصرف روزانه</h4>
       <div class="usage-bar"><div class="usage-fill" id="usageFill" style="width:0%"></div></div>
       <div class="usage-stats">
-        <span id="usageCount">0 / 250 پیام</span>
+        <span id="usageCount">0 / 500 پیام</span>
         <span id="usageDate">-</span>
       </div>
-      <div style="margin-top:12px;font-size:0.78rem;color:var(--text2)" id="providerUsage"></div>
+      <div style="margin-top:10px;font-size:0.75rem;color:var(--text2);line-height:1.7" id="providerUsage"></div>
     </div>
   </div>
 
+  <!-- 9. Full Providers Reference Table -->
   <div class="settings-section">
     <h3>🌐 ارائه‌دهنده‌های نسخه کامل <span style="font-size:0.7rem;font-weight:400;color:var(--text2)">(۲۳+)</span></h3>
     <div style="font-size:0.72rem;color:var(--text2);margin-bottom:8px;line-height:1.7">
@@ -582,70 +1239,33 @@ export const AICHAT_HTML = `<div id="aiChatRoot" data-theme="dark">
 <div class="help-overlay" id="helpOverlay">
   <div class="help-panel">
     <button class="help-close" id="closeHelp">✕</button>
-    <h2>❓ راهنمای AI Chat Pro</h2>
+    <h2>❓ راهنمای AI Studio Pro</h2>
 
     <div class="help-section">
-      <h3><span class="emoji">💬</span> چت متنی</h3>
+      <h3>🔄 استخر چندکلیدی و سیاست‌های چرخش (Key Pool Policies)</h3>
       <ul>
-        <li>پیامت رو بنویس و ➤ بزن یا Enter بزن</li>
-        <li>از <b>پرامپت‌های سریع</b> پایین صفحه استفاده کن</li>
-        <li>هر provider مدل‌های خودش رو داره</li>
+        <li>برای هر ارائه‌دهنده می‌توانید <b>بی‌نهایت کلید API</b> (تکی یا گروهی) ثبت کنید.</li>
+        <li><b>Round-Robin (چرخش نوبتی):</b> هر پیام به نوبت با کلید بعدی ارسال می‌شود تا سقف محدودیت در تعداد کلیدها ضرب شود.</li>
+        <li><b>Failover (اولویت ترتیبی):</b> همیشه از کلید اول استفاده می‌کند و در صورت خطای 429 به کلید بعدی می‌رود.</li>
+        <li><b>Least-Used (کم‌مصرف‌ترین):</b> کلیدی که کمترین مصرف را داشته انتخاب می‌شود.</li>
+        <li><b>Random (تصادفی):</b> ترافیک را تصادفی بین کلیدهای سالم پخش می‌کند.</li>
       </ul>
     </div>
 
     <div class="help-section">
-      <h3><span class="emoji">🎨</span> تولید تصویر</h3>
+      <h3>🛰️ افزودن پروایدر سفارشی و مدل دستی</h3>
       <ul>
-        <li>Provider رو روی <b>Pollinations</b> بذار</li>
-        <li>پرامپت بنویس: مثلاً «یک گربه با عینک آفتابی»</li>
-        <li>بدون API key کار میکنه! ✅</li>
-        <li>مدل‌های خوب: <code>flux</code>، <code>flux-realism</code>، <code>flux-anime</code></li>
-      </ul>
-    </div>
-
-    <div class="help-section">
-      <h3><span class="emoji">✏️</span> ویرایش تصویر با Pollinations</h3>
-      <ul>
-        <li>⚠️ ویرایش تصویر نیاز به <b>شارژ (pollen)</b> داره</li>
-        <li>🔗 شارژ از <a href="https://enter.pollinations.ai" target="_blank" style="color:var(--accent)">enter.pollinations.ai</a></li>
-        <li>💰 هر تصویر ~$0.04</li>
-        <li>مدل‌های ویرایش: <code>kontext</code>، <code>nanobanana-2</code>، <code>seedream</code></li>
+        <li>در بخش تنظیمات می‌توانید هر سرویسی که از <b>OpenAI API</b>، <b>Gemini</b> یا <b>Anthropic</b> پشتیبانی می‌کند (مثل AvalAI، GapGPT، Ollama، LM Studio، OpenWebUI) را با <b>Base URL</b>، <b>کلیدهای API</b> و <b>مدل‌ها</b> اضافه کنید.</li>
+        <li>با دکمه <b>«🔄 استعلام خودکار مدل‌ها»</b> لیست مدل‌های سرور به طور خودکار از <code>/v1/models</code> دریافت می‌شود.</li>
+        <li>برای هر ارائه‌دهنده پیش‌فرض هم می‌توانید <b>مدل دستی</b> اضافه کنید.</li>
       </ul>
     </div>
 
     <div class="help-section" style="border-color:var(--success)">
-      <h3><span class="emoji">🖼️</span> ویرایش تصویر با Gemini (✅ رایگان!)</h3>
+      <h3>🖼️ تولید و ویرایش تصویر</h3>
       <ul>
-        <li>🔑 API key رایگان از <a href="https://aistudio.google.com/app/apikey" target="_blank" style="color:var(--accent)">aistudio.google.com</a></li>
-        <li>مدل <code>gemini-3.1-flash-image</code> (Nano Banana 2) یا <code>gemini-3.8-flash</code> انتخاب کن</li>
-        <li>عکس ضمیمه + پرامپت بنویس</li>
-        <li>خودکار تصویر ویرایش‌شده برمیگرده ✅</li>
-        <li>🎯 <b>بهترین گزینه رایگان برای ویرایش تصویر</b></li>
-      </ul>
-    </div>
-
-    <div class="help-section">
-      <h3><span class="emoji">📋</span> ضمیمه عکس</h3>
-      <ul>
-        <li>📎 دکمه پیوست</li>
-        <li><b>Ctrl+V</b> پیست از کلیپ‌بورد</li>
-        <li><b>Drag & Drop</b> کشیدن عکس به صفحه</li>
-      </ul>
-    </div>
-
-    <div class="help-section">
-      <h3><span class="emoji">⚡</span> سوییچ سریع</h3>
-      <ul>
-        <li>از نوار پایین صفحه بین provider‌ها سوییچ کن</li>
-        <li>وقتی عکس ضمیمه کنی، پیام سوییچ خودکار نشون داده میشه</li>
-      </ul>
-    </div>
-
-    <div class="help-section">
-      <h3><span class="emoji">📤</span> خروجی</h3>
-      <ul>
-        <li>از تنظیمات: خروجی TXT یا JSON از چت‌ها</li>
-        <li>دکمه کپی روی هر پیام</li>
+        <li>برای تولید تصویر رایگان بدون کلید از <b>Pollinations</b> یا <b>Puter.js</b> استفاده کنید.</li>
+        <li>برای ویرایش تصویر رایگان با کلید، <b>Gemini</b> و مدل <code>gemini-3.1-flash-image</code> را انتخاب کنید.</li>
       </ul>
     </div>
   </div>

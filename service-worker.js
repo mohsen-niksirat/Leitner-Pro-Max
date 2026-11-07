@@ -1,6 +1,6 @@
 // Keep this version aligned with js/config.js so GitHub Pages clients receive
 // the same release across the application and service worker caches.
-const CACHE_NAME = 'leitner-pro-max-v5.2.0';
+const CACHE_NAME = 'leitner-pro-max-v5.3.0';
 const RUNTIME_CACHE = 'leitner-pro-max-runtime-v1';
 const PRECACHE_URLS = [
   './',

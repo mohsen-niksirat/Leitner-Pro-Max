@@ -1,5 +1,5 @@
 export const APP_CONFIG = Object.freeze({
-  version: '5.2.0',
+  version: '5.3.0',
   repository: 'Leitner-Pro-Max',
   basePath: './',
   storage: Object.freeze({

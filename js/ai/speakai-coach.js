@@ -100,6 +100,24 @@ async function syncAiKeysToSpeakAi(notifyUser = false) {
     const groqKeys = (Array.isArray(apiKeys.groq) ? apiKeys.groq : [])
       .map(cleanToken)
       .filter(Boolean);
+    const customProviders = Array.isArray(aiChat?.customProviders) ? aiChat.customProviders : [];
+    const extraOpenAiProviders = [
+      { id: 'openai', name: 'OpenAI', baseUrl: 'https://api.openai.com/v1', model: 'gpt-4o-mini' },
+      { id: 'deepseek', name: 'DeepSeek', baseUrl: 'https://api.deepseek.com/v1', model: 'deepseek-chat' },
+      { id: 'cerebras', name: 'Cerebras', baseUrl: 'https://api.cerebras.ai/v1', model: 'llama-3.3-70b' },
+      { id: 'mistral', name: 'Mistral AI', baseUrl: 'https://api.mistral.ai/v1', model: 'mistral-small-latest' },
+      { id: 'sambanova', name: 'SambaNova', baseUrl: 'https://api.sambanova.ai/v1', model: 'Meta-Llama-3.3-70B-Instruct' },
+      { id: 'xai', name: 'xAI Grok', baseUrl: 'https://api.x.ai/v1', model: 'grok-3-mini' },
+      ...customProviders.filter(cp => (cp.protocol || 'openai') === 'openai' && cp.baseUrl).map(cp => ({
+        id: cp.id,
+        name: cp.name || cp.id,
+        baseUrl: cp.baseUrl,
+        model: (Array.isArray(cp.models) && cp.models[0]) || 'gpt-4o-mini'
+      }))
+    ];
+    const hasExtraKeys = extraOpenAiProviders.some(ep =>
+      (Array.isArray(apiKeys[ep.id]) ? apiKeys[ep.id] : []).map(cleanToken).filter(Boolean).length > 0
+    );
 
     let current = { providers: [], voiceProviderId: null, reportProviderId: null };
     try {
@@ -124,7 +142,7 @@ async function syncAiKeysToSpeakAi(notifyUser = false) {
       return true;
     });
 
-    if (!geminiKeys.length && !openrouterKeys.length && !groqKeys.length) {
+    if (!geminiKeys.length && !openrouterKeys.length && !groqKeys.length && !hasExtraKeys) {
       if (current.providers.length > 0) {
         if (!current.voiceProviderId || !current.providers.some(p => p.id === current.voiceProviderId)) {
           current.voiceProviderId = current.providers[0]?.id ?? null;
@@ -198,6 +216,21 @@ async function syncAiKeysToSpeakAi(notifyUser = false) {
       'openrouter/free',
       openrouterKeys
     );
+
+    for (const ep of extraOpenAiProviders) {
+      const epKeys = (Array.isArray(apiKeys[ep.id]) ? apiKeys[ep.id] : []).map(cleanToken).filter(Boolean);
+      if (epKeys.length > 0) {
+        upsertProvider(
+          `prov-leitner-${ep.id}`,
+          ep.name,
+          'openai-chat',
+          ep.baseUrl,
+          ep.model,
+          ep.model,
+          epKeys
+        );
+      }
+    }
 
     if (!current.voiceProviderId || !current.providers.some(p => p.id === current.voiceProviderId)) {
       current.voiceProviderId = current.providers[0]?.id ?? null;
